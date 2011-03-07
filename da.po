@@ -1,63 +1,58 @@
-# Translation of PivotX to ...
-# Copyright (C) 2008 PivotX team <http://pivotx.net/>
+# Translation of PivotX to Danish
+# Copyright (C) 2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Lars J. Helbo <lars@salldata.dk>, 2011.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.1.0\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-01-10 23:59+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2011-02-26 15:52+0100\n"
+"Last-Translator: Lars J. Helbo <lars@salldata.dk>\n"
+"Language-Team: Dansk sprog\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%n visitors on this page"
-msgstr ""
+msgstr "%n gæster på denne side"
 
 msgid "Total visits"
-msgstr ""
+msgstr "Samlede antal besøg"
 
 msgid "Unique visitors"
-msgstr ""
+msgstr "Unikke gæster"
 
 msgid "This month"
-msgstr ""
+msgstr "Denne måned"
 
 msgid "This week"
-msgstr ""
+msgstr "Denne uge"
 
-#, fuzzy
 msgid "Today"
-msgstr "mandag"
+msgstr "I dag"
 
-#, fuzzy
 msgid "Keyword"
 msgstr "Nøgleord"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Frekvens"
 
-#, fuzzy
 msgid "Previous Month"
-msgstr "Forrige arkiv"
+msgstr "Forrige måned"
 
-#, fuzzy
 msgid "Next Month"
-msgstr "måned"
+msgstr "Næste måned"
 
 msgid "Start day of the week"
-msgstr ""
+msgstr "Ugens første dag"
 
 msgid "Error"
-msgstr ""
+msgstr "Fejl"
 
 msgid "Select the day of the week you wish the calendar to start on."
-msgstr ""
+msgstr "Vælg den dag i ugen, som kalenderen skal begynde med."
 
 msgid "Select"
 msgstr "Vælg"
@@ -65,64 +60,64 @@ msgstr "Vælg"
 msgid ""
 "No items in Delicious Feed. Please check the settings in the PivotX backend."
 msgstr ""
+"Ingen emner i den valgte feed. Kontroller indstillinger i PivotX admin-"
+"området."
 
-#, fuzzy
 msgid "Image"
-msgstr "billed"
+msgstr "billede"
 
 msgid "Description"
 msgstr "Beskrivelse"
 
-#, fuzzy
 msgid "Upload an image"
-msgstr "Upload en ny fil:"
+msgstr "Opload en ny fil:"
 
 msgid "Upload"
 msgstr "Upload"
 
 msgid "Gallery"
-msgstr ""
+msgstr "Galleri"
 
-#, fuzzy
 msgid "Edit Gallery"
-msgstr "Rediger kategori"
+msgstr "Editer galleri"
 
-#, fuzzy
 msgid "Add an image"
-msgstr "Upload en ny fil:"
+msgstr "Tilføj et billede"
 
 msgid "Add"
-msgstr ""
+msgstr "Tilføj"
 
 msgid ""
 "The Uploader does not work well from 'localhost'. Please use the server's "
 "(internal) IP-address instead."
 msgstr ""
+"Oploaderen virker ikke godt fra 'localhost'. Brug derfor serverens (interne) "
+"IP-adresse istedet."
 
-#, fuzzy
 msgid "Upload a file"
-msgstr "Upload en ny fil:"
+msgstr "Opload en fil"
 
 msgid "UA tracking code"
-msgstr ""
+msgstr "UA tracking-kode"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
-msgstr ""
+msgstr "Fejl - input skal være i formen UA-xxxxxx-x"
 
 msgid ""
 "Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
 "Check your account information after logging in to Google Analytics"
 msgstr ""
+"Indtast din personlige Google Analytics kode. Den ligner noget som UA-xxxxxx-"
+"x. Kontroller din konto, efter at du har logget ind på Google Analytics"
 
 msgid "Google account login"
-msgstr ""
+msgstr "Google konto-login"
 
 msgid "Error - input needs to be text"
-msgstr ""
+msgstr "Fejl - input skal være tekst"
 
-#, fuzzy
 msgid "Google account password"
-msgstr "Standard gravatar"
+msgstr "Google-konto password"
 
 #, php-format
 msgid ""
@@ -131,38 +126,41 @@ msgid ""
 "doing this, click %sthis link%s to test the login, and fetch the id, to fill "
 "in below."
 msgstr ""
+"Hvis du vil vise en oversigt over statestikker på din opslagstavle, indtast "
+"detaljer om en Google-konto, der har adgang til denne statestik. Når det er "
+"gjort, klik på %sthis link%s for at teste login og hente id'en, der skal "
+"indtastes herunder."
 
 msgid "Profile ID"
-msgstr ""
+msgstr "Profil-ID"
 
 msgid "Error - input needs to be a number"
-msgstr ""
+msgstr "Fejl - skal være et tal"
 
 msgid ""
 "The (secret) Profile ID number, that will be used to display the reports. "
 "See above, on how to get this number."
 msgstr ""
+"Det (hemmelige) Profile-ID-nummer, som bruges til visning af rapporter. Se "
+"herover, hvordan man får dette nummer."
 
-#, fuzzy
 msgid "Advanced Configuration"
-msgstr "Konfiguration"
+msgstr "Avanceret konfiguration"
 
 msgid "Use AdSense Analytics Code"
-msgstr ""
+msgstr "Brug AdSense Analytics kode"
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
-msgstr ""
+msgstr "Ups! Beklager, jeg kunne ikke læse denne Google Kalender feed."
 
-#, fuzzy
 msgid "My Calendar"
-msgstr "Kalender"
+msgstr "Min kalender"
 
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#, fuzzy
 msgid "That's not a proper ID!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke en gyldig ID!"
 
 msgid ""
 "The ID of your <a href='http://www.google.com/calendar/'>Google Calendar</"
@@ -171,20 +169,23 @@ msgid ""
 "the ID in the 'Calendar Address' box on the 'Calendar Details' tab when you "
 "have selected a specific calendar on the settings page."
 msgstr ""
+"ID for din <a href='http://www.google.com/calendar/'>Google kalender</a>. "
+"Det er din Gmail-adresse eller noget i stil med "
+"<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. Du finder "
+"ID'en i feltet 'Kalenderadresse' på fanen 'Kalenderdetaljer', når du har "
+"valgt en bestemt kalender på siden indstillinger."
 
-#, fuzzy
 msgid "Maximum items"
-msgstr "Maksimum filstørrelse"
+msgstr "Maksimale emner"
 
-#, fuzzy
 msgid "That's not a proper value!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ingen gyldig værdi"
 
 msgid "The maximum amount of items to show from your Calendar."
-msgstr ""
+msgstr "Det maksimale antel emner, der skal vises fra din kalender"
 
 msgid "Only include future events"
-msgstr ""
+msgstr "Medtag kun fremtidige begivenheder"
 
 msgid "No"
 msgstr "Nej"
@@ -192,154 +193,138 @@ msgstr "Nej"
 msgid "Yes"
 msgstr "Ja"
 
-#, fuzzy
 msgid "Sort items by"
-msgstr "Vis de seneste"
+msgstr "Sorter emner efter"
 
-#, fuzzy
 msgid "Start time"
-msgstr "Statistik"
+msgstr "Start tid"
 
-#, fuzzy
 msgid "Updated time"
-msgstr "Upload en ny fil:"
+msgstr "Opdateret tid"
 
-#, fuzzy
 msgid "Order items"
-msgstr "Kant"
+msgstr "Sorter emner"
 
-#, fuzzy
 msgid "Ascending"
-msgstr "Datovisningsindstillinger"
+msgstr "Stigende"
 
-#, fuzzy
 msgid "Descending"
-msgstr "Datovisningsindstillinger"
+msgstr "Faldende"
 
-#, fuzzy
 msgid "Widget Style"
-msgstr "billeder"
+msgstr "Widget-stil"
 
-#, fuzzy
 msgid "That's not a proper style!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke en gyldig stil!"
 
 msgid "Select the style to use for this widget."
-msgstr ""
+msgstr "Vælg den stil, der skal bruges til denne widget."
 
-#, fuzzy
 msgid "Header format"
-msgstr "Fuldt datoformat"
+msgstr "Header-format"
 
 msgid "Error!"
-msgstr ""
+msgstr "Fejl!"
 
-#, fuzzy
 msgid "Output format"
-msgstr "Fuldt datoformat"
+msgstr "Output-format"
 
 msgid "Format for start date"
-msgstr ""
+msgstr "Format for startdato"
 
 msgid ""
 "Define the start date format using the standard PivotX <a href=\"http://book."
 "pivotx.net/page/app-d\">date formatting options</a>."
 msgstr ""
+"Definer startdatoformatet med standarden PivotX <a href=\"http://book.pivotx."
+"net/page/app-d\">dato formatteringsoptioner</a>."
 
 msgid "Format for end date"
-msgstr ""
+msgstr "Format for slutdato"
 
 msgid ""
 "Define the end date format using the standard PivotX <a href=\"http://book."
 "pivotx.net/page/app-d\">date formatting options</a>."
 msgstr ""
+"Definer slutdatoformatet med standarden PivotX <a href=\"http://book.pivotx."
+"net/page/app-d\">dato formatteringsoptioner</a>."
 
-#, fuzzy
 msgid "Footer format"
-msgstr "Fuldt datoformat"
+msgstr "Footer-format"
 
 msgid "Use only as snippet"
-msgstr ""
+msgstr "Brug kun som stump"
 
 #, php-format
 msgid "Yes, I don't want %s to appear among the widgets."
-msgstr ""
+msgstr "Ja, jeg vil ikke vise %s mellem widgets."
 
 msgid "Google Maps API key"
-msgstr ""
+msgstr "Google Maps API nøgle"
 
-#, fuzzy
 msgid "Default width of map"
-msgstr "Standard sprog"
+msgstr "Standard bredde af kort"
 
-#, fuzzy
 msgid "Default height of map"
-msgstr "Standard sprog"
+msgstr "Standard højde af kort"
 
-#, fuzzy
 msgid "Default zoom for map"
-msgstr "Standard sprog"
+msgstr "Standard zoom for kort"
 
-#, fuzzy
 msgid "Default latitude for map"
-msgstr "Standard sprog"
+msgstr "Standard breddegrad for kort"
 
-#, fuzzy
 msgid "Default longitude for map"
-msgstr "Standard sprog"
+msgstr "Standard længdegrad for kort"
 
-#, fuzzy
 msgid "Default map type"
-msgstr "Standardskabelon"
+msgstr "Standardkorttype"
 
 msgid "Preserve viewport when inserting KML files"
-msgstr ""
+msgstr "Bevar visning, når der indsættes KML-filer"
 
-#, fuzzy
 msgid "Red"
-msgstr "ons"
+msgstr "Rød"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blå"
 
-#, fuzzy
 msgid "Black"
-msgstr "Backup"
+msgstr "Sort"
 
 msgid "Grey"
-msgstr ""
+msgstr "Grå"
 
 msgid "Select the color scheme to use for the widget."
-msgstr ""
+msgstr "Vælg det farveskema, der skal bruges til denne widget."
 
 msgid "Your last.fm login name"
-msgstr ""
+msgstr "Dit last.fm login-navn"
 
-#, fuzzy
 msgid "That's not a proper login name!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke et gyldigt brugernavn"
 
 msgid "The name you use to log in at <a href='http://last.fm'>Last.fm</a>."
 msgstr ""
+"Det navn, du bruger til at logge ind på <a href='http://last.fm'>Last.fm</a>."
 
 msgid "Playing \"%nicefilename%\"."
-msgstr ""
+msgstr "Afspiller \"%nicefilename%\"."
 
 msgid "Youtube video \"%basename%\"."
-msgstr ""
+msgstr "Youtube video \"%basename%\"."
 
 msgid "Vimeo video \"%basename%\"."
-msgstr ""
+msgstr "Vimeo video \"%basename%\"."
 
 msgid "Video \"%nicefilename%\""
-msgstr ""
+msgstr "Video \"%nicefilename%\""
 
 msgid "This page requires a password to view. Please give the password."
-msgstr ""
+msgstr "Denne side kræver et password. Indtast dette password."
 
-#, fuzzy
 msgid "You don't have access to this page"
-msgstr "Du har ikke adgang til dette område i Pivot"
+msgstr "Du har ikke adgang til denne side"
 
 msgid ""
 "You didn't provide the correct password to access the requested entry. If "
@@ -347,131 +332,133 @@ msgid ""
 "the password, you could ask the owner of the website to get access to the "
 "entry."
 msgstr ""
+"Du angav ikke det rigtige password, for at få adgang til indlægget. Hvis du "
+"har tastet forkert, gå tilbage og prøv igen. <br /><br />Hvis du ikke kender "
+"det rigtige password, kan du spørge ejeren af siden, om du må få adgang til "
+"den."
 
 msgid "Enable password protection"
-msgstr ""
+msgstr "Aktiver password-beskyttelse"
 
 msgid "Yes, allow for entries to be password protected."
-msgstr ""
+msgstr "Ja, tillad at indlæg beskyttes af password."
 
-#, fuzzy
 msgid "Default password"
-msgstr "Standard gravatar"
+msgstr "Standard password"
 
 msgid "This is the password that's requested when no other password is given."
 msgstr ""
+"Dette er det password, der forlanges, når intet andet password er angivet."
 
-#, fuzzy
 msgid "Password question"
-msgstr "Kodeord"
+msgstr "Password spørgsmål"
 
 msgid ""
 "This is the text that people see, when they're being asked for the password."
-msgstr ""
+msgstr "Dette er den tekst, som folk ser, når de bliver bedt om password."
 
-#, fuzzy
 msgid "Access for logged in users"
-msgstr "Logget ind"
+msgstr "Adgang for brugere, der er logget ind"
 
 msgid "Yes, don't require a password from a user that is logged in."
-msgstr ""
+msgstr "Ja, kræv ikke password fra brugere, der er logget på."
 
-#, fuzzy
 msgid "'No access' template"
-msgstr "Gem skabelon!"
+msgstr "'Ingen adgang' skabelon!"
 
 msgid "When the user is not granted access, show this template."
-msgstr ""
+msgstr "Når brugeren ikke får adgang, vis denne skabelon."
 
-#, fuzzy
 msgid "'No access' title"
-msgstr "Indlægsdato"
+msgstr "'Ingen adgang'-titel"
 
 msgid "When the user is not granted access, show this title."
-msgstr ""
+msgstr "Når brugeren ikke får adgang, vis denne titel."
 
 msgid "'No access' text"
-msgstr ""
+msgstr "'Ingen adgang' tekst"
 
 msgid "When the user is not granted access, show this text."
-msgstr ""
+msgstr "Når brugeren ikke får adgang, vis denne tekst."
 
-#, fuzzy
 msgid "Password Protect"
-msgstr "Kodeord"
+msgstr "Password-beskyttet"
 
 msgid "Yes, protect this page with a password."
-msgstr ""
+msgstr "Ja, beskyt denne side med et password."
 
 msgid "Password"
-msgstr "Kodeord"
+msgstr "Password"
 
 msgid ""
 "Specify the required password, or leave blank to use the default password."
 msgstr ""
+"Angiv det ønskede password, eller lad være tom, for at bruge standarden."
 
 msgid "Edit in Picnik"
-msgstr ""
+msgstr "Editer i Picnik"
 
 msgid "Keep original"
-msgstr ""
+msgstr "Behold original"
 
 msgid "Yes, keep the original image after editing it in Picnik"
-msgstr ""
+msgstr "Ja, behold det oprindelige billede, når det er editeret i Picnik"
 
 msgid "Hide buttons"
-msgstr ""
+msgstr "Skjul knapper"
 
 msgid "Yes, replace the original 'edit' button for images"
-msgstr ""
+msgstr "Ja, udskift den originale 'edit' knap til billeder"
 
 msgid "Picnik API key"
-msgstr ""
+msgstr "Picnik API nøgle"
 
-#, fuzzy
 msgid "That's not a proper API key!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ingen gyldig API-nøgle!"
 
 msgid ""
 "If you have your own picnik API key, you may enter it here. <br /> Leave "
 "this blank if you're not sure."
 msgstr ""
+"Hvis du har din egen picnik API nøgle, kan du indtaste den her. <br /> Lad "
+"det være tomt, hvis du ikke er sikker."
 
-#, fuzzy
 msgid "Note"
-msgstr "Ingen"
+msgstr "Bemærk"
 
 msgid ""
 "It seems you're running PivotX from a local network. The Picnik "
 "extension<br /> needs to be able to fetch the images over the internet, so "
 "it might not work on<br /> your current setup."
 msgstr ""
+"Det ser ud som om, du kører PivotX fra et lokalt netværk. Picnik-"
+"udvidelsen<br /> skal kunne hente billederne over Internet, så måske virker "
+"det ikke på<br /> dit aktuelle setup."
 
 msgid "Piwik URL"
-msgstr ""
+msgstr "Piwik URL"
 
 msgid "Either the global or local URL to where you have installed Piwik."
 msgstr ""
+"Enten den globale eller lokale URL til det sted, hvor Piwik er installeret."
 
 msgid "Piwik Website ID "
-msgstr ""
+msgstr "Piwik webside-ID "
 
 msgid "The id for the website as found in the Piwik website overview."
-msgstr ""
+msgstr "ID for websiden, som fundet i Piwik webside-oversigten."
 
 msgid "Ignore IP"
-msgstr ""
+msgstr "Ignorer IP"
 
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
-msgstr ""
+msgstr "En komma-separeret liste med IP, som ikke skal registreres i Piwik."
 
-#, fuzzy
 msgid "Default folder name"
-msgstr "Standard sprog"
+msgstr "Standard foldernavn"
 
-#, fuzzy
 msgid "That's not a proper folder name!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke et gyldigt foldernavn!"
 
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
@@ -479,192 +466,203 @@ msgid ""
 "<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</"
 "tt> folder. Don't start or finish with a slash."
 msgstr ""
+"navnet på den folder, der indeholder de billeder, som slideshow skal bruge. "
+"Det skal være en folder inde i din <tt>images</tt> folder. Så hvis du "
+"indtaster <tt>slideshow</tt>, vil slideshow kigge i folderen <tt>/images/"
+"slideshow/</tt>. Du må ikke begynde eller slutte med en skråstreg."
 
-#, fuzzy
 msgid "Default timeout"
-msgstr "Slet kategori"
+msgstr "Standard-timeout"
 
 msgid "The time (in milliseconds) between each image in the slideshow."
-msgstr ""
+msgstr "Tiden (i ms) mellem hvert billede i dit slideshow."
 
-#, fuzzy
 msgid "Default width"
-msgstr "Standard sprog"
+msgstr "Standard-bredde"
 
-#, fuzzy
 msgid "Default height"
-msgstr "Standard sprog"
+msgstr "Standard-højde"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
 "to this, so the total dimensions of the widget will be 6 pixels wider and "
 "taller."
 msgstr ""
+"Bredde og højde af thumbnails i denne widget. Kanterne tilføjes til dette, "
+"så de samlede dimentioner af denne widget vil være 6 pixels bredere og "
+"højere."
 
 msgid "Limit"
-msgstr ""
+msgstr "Grænse"
 
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
 msgstr ""
+"Det begrænser antallet af viste emner. Hvis det sættes for højt, vil det "
+"tage længere at åbne siden."
 
-#, fuzzy
 msgid "Order by"
-msgstr "Kant"
+msgstr "Sorter efter"
 
-#, fuzzy
 msgid "Date ascending"
-msgstr "Datovisningsindstillinger"
+msgstr "Dato stigende"
 
-#, fuzzy
 msgid "Date descending"
-msgstr "Datovisningsindstillinger"
+msgstr "Dato faldende"
 
 msgid "Alphabet"
-msgstr ""
+msgstr "Alfabet"
 
-#, fuzzy
 msgid "Random"
-msgstr "Oprettet den"
+msgstr "Tilfældig"
 
 msgid "Select the order in which the images are shown."
-msgstr ""
+msgstr "Vælg den rækkefølge, hvori billederne skal vises."
 
-#, fuzzy
 msgid "Use popup"
-msgstr "Indsæt et popup billede"
+msgstr "Brug popup"
 
 msgid "Thickbox"
-msgstr ""
+msgstr "Thickbox"
 
 msgid "Fancybox"
-msgstr ""
+msgstr "Fancybox"
 
 msgid "Select which popup type images are displayed in when clicked."
-msgstr ""
+msgstr "Vælg den type popup, som billeder vises i, når der klikkes på dem."
 
-#, fuzzy
 msgid "Use recursion"
-msgstr "brug ikon"
+msgstr "Brug rekursion"
 
-#, fuzzy
 msgid "Leaf"
-msgstr "Venstre"
+msgstr "Blad"
 
-#, fuzzy
 msgid "All"
-msgstr "Tillad"
+msgstr "Alle"
 
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
 msgstr ""
+"Hvis rekursion er aktiveret, vil billeder fra alle underkataloger eller bare "
+"fra det angivne underkatalog blive vist i et slideshow."
 
 msgid "Use directories in title"
-msgstr ""
+msgstr "Brug foldere i titlen"
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
-msgstr ""
+msgstr "Ja, tilføj foldernavne til de automatisk oprettede billedtitler."
 
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
+"Advarsel! Disse egenskaber er eksperimentelle, så brug dem med forsigtighed!"
 
 msgid "IPTC Index"
-msgstr ""
+msgstr "IPTC indeks"
 
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
 msgstr ""
+"Indeks med billedtitler i IPTC tabellen. (Picasa kommentarbrug '2#120'). Lad "
+"være tom for at oprette et nicename."
 
-#, fuzzy
 msgid "IPTC Encoding"
-msgstr "Brug kodning"
+msgstr "IPTC kodning"
 
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
 msgstr ""
+"Kodning af IPTC tekst. (Brug iconv kodningsnavnene.) Lad være tomt for ingen "
+"kodning."
 
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+"Disse ikoner linker til sociale bogmærkesider, hvor læserne kan dele og "
+"finde nye websider."
 
 msgid "Rating button description"
-msgstr ""
+msgstr "Vurderingsknap-beskrivelse"
 
-#, fuzzy
 msgid "That's not a proper description!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke en gyldig beskrivelse!"
 
 msgid ""
 "The text to display besides the star ranking buttons. You can use %count% "
 "and %average% to insert those values."
 msgstr ""
+"Den tekst der skal vises ved siden af vurderings-stjernerne. Du kan bruge %"
+"count% og %average% for at indsætte disse værdier."
 
 msgid "Rating average description"
-msgstr ""
+msgstr "Vurderingsgennemsnit-beskrivelse"
 
 msgid ""
 "The text to show when only showing a simple average. You can use %average% "
 "to insert that value."
 msgstr ""
+"Teksten der skal vises, når der kun vises et simpelt gennemsnit. Du kan "
+"bruge %average% for at indsætte denne værdi."
 
 msgid "Thank you for voting!"
-msgstr ""
+msgstr "Tak for din stemme!"
 
 msgid "Use your browser's back button to go back to the previous page."
-msgstr ""
+msgstr "Brug browserens tilbage-knap for at komme til forrige side."
 
 msgid "Your WIE login name"
-msgstr ""
+msgstr "Dit WIE login-navn"
 
-#, fuzzy
 msgid "That's not a proper username!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke et gyldigt brugernavn!"
 
 #, php-format
 msgid "The name you use to log in at %s"
-msgstr ""
+msgstr "Navnet hvormed du logger ind på %s"
 
 msgid "Include weblog frontpages"
-msgstr ""
+msgstr "Medtag weblog-forsider"
 
-#, fuzzy
 msgid "Include entries"
-msgstr "Gem skabelon!"
+msgstr "Medtag indlæg"
 
-#, fuzzy
 msgid "Include pages"
-msgstr "Gem skabelon!"
+msgstr "Medtag sider"
 
 msgid "Filter as any robot"
-msgstr ""
+msgstr "Filtrer som enhver robot"
 
 msgid ""
 "Test each sitemap entry against all Disallow rules in robots.txt. User-agent "
 "qualifiers are ignored, every Disallow will contribute to URI exclusion."
 msgstr ""
+"Afprøv hver sitemap mod alle disallow-regler i robots.txt. User-agent "
+"qualifiers ignoreres, hver disallow vil bidrage til URI-udelukkelse."
 
 msgid "If this doesn't make any sense to you, leave the check box unchecked."
 msgstr ""
+"Hvis det ikke giver mening for dig, så lad være med at sætte mærke her."
 
 msgid "Additional URIs"
-msgstr ""
+msgstr "Ekstra URIs"
 
 msgid ""
 "Additional URIs to include in sitemap. Separate the URIs with a comma. The "
 "URIs should be absolute paths (i.e. /myuri/here). Last modified will always "
 "be set to the current day."
 msgstr ""
+"Yderligere URIs, der skal medtages i sitemap. Adskil hver URI med et komma. "
+"En URI skal være en absolut sti (f.eks. /myuri/here). Sidst ændrede vil "
+"altid blive sat til den aktuelle dato."
 
 msgid "About"
 msgstr "Om"
 
-#, fuzzy
 msgid "Latest Comments"
 msgstr "Seneste kommentarer"
 
@@ -678,20 +676,19 @@ msgid "Categories"
 msgstr "Kategorier"
 
 msgid "Links"
-msgstr "Genveje"
+msgstr "Genvej"
 
-#, fuzzy
 msgid "Search"
-msgstr "Søg!"
+msgstr "Søg"
 
 msgid "Linkdump"
 msgstr "Genvejsdump"
 
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 msgid "Tag Cloud"
-msgstr ""
+msgstr "Mærke-samling"
 
 msgid "Name"
 msgstr "Navn"
@@ -712,34 +709,31 @@ msgid "Remember personal info?"
 msgstr "Husk personlig info?"
 
 msgid "Yes, give me a cookie and remember me."
-msgstr ""
+msgstr "Ja, giv mig en cookie og husk mig."
 
-#, fuzzy
 msgid "Navigation"
-msgstr "Konfiguration"
+msgstr "Navigation"
 
 msgid "Search Results"
 msgstr "Søgeresultat"
 
 msgid "Top"
-msgstr ""
+msgstr "Top"
 
 msgid "Powered by"
 msgstr "Drevet af"
 
-#, fuzzy
 msgid "More"
-msgstr "mere"
+msgstr "Mere"
 
-#, fuzzy
 msgid "Pages"
-msgstr "billed"
+msgstr "Sider"
 
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 msgid "(optional field)"
-msgstr ""
+msgstr "(optionalt felt)"
 
 msgid "Comment"
 msgstr "Kommentar"
@@ -756,30 +750,33 @@ msgstr "Skjul e-mail"
 msgid "Yes, hide my email address."
 msgstr "Ja, skjul min e-mailadresse."
 
-#, fuzzy
 msgid ""
 "<strong>Small print:</strong> All html tags except &lt;b&gt; and &lt;i&gt; "
 "will be removed from your comment. You can make links by just typing the url "
 "or mail-address."
 msgstr ""
-"<b>Bemærk:</b> Alle HTML-tags udenom &lt;b&gt; og &lt;i&gt; fjernes fra "
-"kommentarer. Du kan lave genveje ved at skrive URLen eller e-mailadressen "
+"<b>Bemærk:</b> Alle HTML-tags bortset fra &lt;b&gt; og &lt;i&gt; fjernes fra "
+"din kommentar. Du kan lave genveje ved at skrive URLen eller e-mailadressen "
 "direkte ind i teksten."
 
 msgid "Warning!"
-msgstr ""
+msgstr "Advarsel!"
 
 msgid "Javascript and Cookies must be enabled to log in to PivotX."
 msgstr ""
+"Javascript og cookies skal være aktiverede for at kunne logge ind på PivotX."
 
 msgid ""
 "PivotX couldn't set the session properly. Try logging out, and logging on "
 "again. You could also try clearing your browser's cache, and make sure no "
 "software on your computer is interfering with the cookies."
 msgstr ""
+"PivotX kunne ikke sætte sessionen korrekt. Prøv at logge ud og ind igen. Du "
+"kan også prøve at slette din browsers cache, og sikre, at intet software på "
+"din computer kolliderer med cookies."
 
 msgid "If the problem persists, ask for help on the forum."
-msgstr ""
+msgstr "Hvis problemet fortsætter, spørg om hjælp i vores forum."
 
 msgid "Insert an Image"
 msgstr "Indsæt et billede"
@@ -792,23 +789,22 @@ msgstr ""
 "som allerede er uploaded."
 
 msgid "2 MB Max"
-msgstr ""
+msgstr "2 MB max"
 
 msgid "Image name"
 msgstr "billedenavn"
 
-#, fuzzy
 msgid "Select an image"
-msgstr "Vælg billede"
+msgstr "Vælg et billede"
 
 msgid "Alternate text"
-msgstr "Alternativ tekst (alt-tagg)"
+msgstr "Alternativ tekst"
 
 msgid "Title"
 msgstr "Titel"
 
 msgid "Align"
-msgstr "Align"
+msgstr "Juster"
 
 msgid "Center (default)"
 msgstr "Centrer (standard)"
@@ -822,193 +818,179 @@ msgstr "Højre"
 msgid "Inline"
 msgstr "Inline"
 
-#, fuzzy
 msgid "Insert image!"
-msgstr "Indsæt et billede"
+msgstr "Indsæt billede!"
 
 msgid "Cancel"
 msgstr "Afbryd"
 
-#, fuzzy
 msgid "Filter on:"
-msgstr "Filtrer med"
+msgstr "Filter til:"
 
 msgid "Category"
 msgstr "Kategori"
 
-#, fuzzy
 msgid "all categories"
-msgstr "Kategorier"
+msgstr "alle kategorier"
 
 msgid "Author"
 msgstr "Forfatter"
 
-#, fuzzy
 msgid "all authors"
-msgstr "Standard gravatar"
+msgstr "alle forfattere"
 
 msgid "Status"
 msgstr "Status"
 
 msgid "all statuses"
-msgstr ""
+msgstr "alle status"
 
 msgid "Go!"
-msgstr "Gå!"
+msgstr "OK"
 
-#, fuzzy
 msgid "Search for:"
-msgstr "Søg!"
+msgstr "Søg efter:"
 
-#, fuzzy
 msgid "Reset search"
-msgstr "søg"
+msgstr "Nulstil søgning"
 
 msgid "Show all"
-msgstr ""
+msgstr "Vis alle"
 
-#, fuzzy
 msgid "Uploading"
-msgstr "Upload"
+msgstr "Oploading"
 
-#, fuzzy
 msgid "uploaded"
-msgstr "upload"
+msgstr "oploadet"
 
-#, fuzzy
 msgid "Uploaded"
-msgstr "Upload"
+msgstr "Oploadet"
 
-#, fuzzy
 msgid "File extension error"
-msgstr "Mappe til udvidelser"
+msgstr "Filendelses-fejl"
 
-#, fuzzy
 msgid "Upload too big"
-msgstr "Upload"
+msgstr "Opload for stor"
 
-#, fuzzy
 msgid "Upload error"
-msgstr "Upload"
+msgstr "Opload fejl"
 
 msgid "Orphaned Pages"
-msgstr ""
+msgstr "Ikke-linkede sider"
 
 msgid ""
 "These pages do not belong to any chapter, and will not show up in pagelists "
 "or menus."
 msgstr ""
+"Disse sider hører ikke til noget kapitel, og vil ikke blive vist i "
+"sidelister og menuer."
 
-#, fuzzy
 msgid "order"
-msgstr "Kant"
+msgstr "rækkefølge"
 
-#, fuzzy
 msgid "back to top"
-msgstr "Tilbage til log ind"
+msgstr "tilbage til toppen"
 
-#, fuzzy
 msgid "Timed Publish"
-msgstr "Publiseret på"
+msgstr "Planlagt publisering"
 
 msgid "Hold"
-msgstr ""
+msgstr "Stop"
 
-#, fuzzy
 msgid "Published"
-msgstr "Publiseret på"
+msgstr "Publiseret "
 
-#, fuzzy
 msgid "default template"
-msgstr "Standardskabelon"
+msgstr "standardskabelon"
 
 msgid "Edit Page"
-msgstr ""
+msgstr "Editer side"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this Page?"
-msgstr "Er du sikker på at du vil slette dette indlæg?"
+msgstr "Er du sikker på at du vil slette denne side?"
 
 msgid "Delete Page"
-msgstr ""
+msgstr "Slet side"
 
 msgid "Write a new Page"
-msgstr ""
+msgstr "Skriv en ny side"
 
 msgid "Edit Chapter"
-msgstr ""
+msgstr "Editer kapitel"
 
 msgid "Are you sure you wish to delete this Chapter?"
-msgstr ""
+msgstr "Skal dette kapitel virkelig slettes?"
 
 msgid "Delete Chapter"
-msgstr ""
+msgstr "Slet kapitel"
 
 msgid "Add a Chapter"
-msgstr ""
+msgstr "Tilføj et kapitel"
 
 msgid "Visit our website at:"
-msgstr ""
+msgstr "Besøg vores webside på:"
 
 msgid "The PivotX Team"
-msgstr ""
+msgstr "PivotX holdet"
 
 msgid "Core team members"
-msgstr ""
+msgstr "Kernehold-medlemmer"
 
 msgid "aka"
-msgstr ""
+msgstr "også kendt som"
 
 msgid "Code"
 msgstr "Kode"
 
 msgid "architecture"
-msgstr ""
+msgstr "arkitektur"
 
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 msgid "Head of Support"
-msgstr ""
+msgstr "Leder af support"
 
-#, fuzzy
 msgid "website maintenance"
-msgstr "Vedligehold"
+msgstr "webside vedligeholdelse"
 
 msgid "contact"
-msgstr ""
+msgstr "kontakt"
 
 msgid ""
 "Note: please don't use these email addresses for support questions. Please "
 "use our forum for those: "
 msgstr ""
+"Bemærk: brug ikke disse email-adresser til support-spørgsmål. Brug vores "
+"forum til det: "
 
 msgid "Official contributors"
-msgstr ""
+msgstr "Officielle bidragydere"
 
 msgid "(support and additional coding)"
-msgstr ""
+msgstr "(support og anden kodning)"
 
 msgid "Previous contributors"
-msgstr ""
+msgstr "Forrige bidragydere"
 
 msgid "lest we forget"
-msgstr ""
+msgstr "det vi glemte"
 
 msgid "Used libraries / tools"
-msgstr ""
+msgstr "Brugte biblioteker / værktøjer"
 
 msgid "website"
-msgstr ""
+msgstr "webside"
 
 msgid ""
 "We probably forgot some.. Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
+"Vi har sikkert glemt nogen.. Fortæl os hvis vi gjorde, så vil de blive nævnt "
+"i næste udgave"
 
-#, fuzzy
 msgid "Comments waiting for moderation"
-msgstr "Kommentarindstillinger"
+msgstr "Kommentarer, der venter på godkendelse"
 
 msgid "IP-address"
 msgstr "IP-adresse"
@@ -1017,115 +999,94 @@ msgid "Date"
 msgstr "Dato"
 
 msgid "Edit this comment"
-msgstr ""
+msgstr "Editer denne kommentar"
 
 msgid "Edit"
 msgstr "Rediger"
 
-#, fuzzy
 msgid "Delete this comment?"
-msgstr "Slet kommentar"
+msgstr "Slet denne kommentar?"
 
 msgid "Delete"
 msgstr "Slet"
 
-#, fuzzy
 msgid "Unblock this IP-address?"
-msgstr "Gem disse IP-adressr"
+msgstr "Frigiv denne IP-adresse?"
 
-#, fuzzy
 msgid "Unblock IP"
-msgstr "Afblokker IP %s"
+msgstr "Afblokker IP"
 
-#, fuzzy
 msgid "Block this IP-address?"
-msgstr "Blokker IP %s"
+msgstr "Blokker denne IP-adresse?"
 
-#, fuzzy
 msgid "Block IP"
-msgstr "Blokker IP %s"
+msgstr "Bloker IP"
 
 msgid "on"
-msgstr ""
+msgstr "på"
 
-#, fuzzy
 msgid "Check all"
-msgstr "AfKryds alle"
+msgstr "Marker alle"
 
-#, fuzzy
 msgid "Check none"
-msgstr "AfKryds alle"
+msgstr "Marker ingen"
 
-#, fuzzy
 msgid "Approve comments"
-msgstr "Ingen kommentarer"
+msgstr "Godkend kommentarer"
 
-#, fuzzy
 msgid "Delete comments"
-msgstr "Slet kommentar"
+msgstr "Slet kommentarer"
 
 msgid "There are no comments waiting for moderation"
-msgstr ""
+msgstr "Der er ingen kommentarer, der afventer godkendelse"
 
-#, fuzzy
 msgid "The latest comments"
-msgstr "Seneste nyheder om Pivot"
+msgstr "De seneste kommentarer"
 
-#, fuzzy
 msgid "There are no latest comments"
-msgstr "Dette indlæg har ingen kommentarer."
+msgstr "Der er ingen seneste kommentarer"
 
 msgid "No comments"
 msgstr "Ingen kommentarer"
 
 msgid "Welcome, unknown user."
-msgstr ""
+msgstr "Velkommen, ukendt bruger."
 
 msgid "Welcome back"
-msgstr ""
+msgstr "Velkommen tilbage"
 
-#, fuzzy
 msgid "IP address"
 msgstr "IP-adresse"
 
-#, fuzzy
 msgid "User agent"
-msgstr "Anvend tekst"
+msgstr "Bruger-agent"
 
-#, fuzzy
 msgid "In moderation"
-msgstr "Introduktion"
+msgstr "Under moderation"
 
-#, fuzzy
 msgid "No title"
-msgstr "Indlægsdato"
+msgstr "Ingen titel"
 
-#, fuzzy
 msgid "Chapter"
-msgstr "Kategori"
+msgstr "Kapitel"
 
-#, fuzzy
 msgid "none"
-msgstr "en"
+msgstr "ingen"
 
-#, fuzzy
 msgid "Template"
 msgstr "Skabelon"
 
-#, fuzzy
 msgid "By"
-msgstr "Krop"
+msgstr "Af"
 
-#, fuzzy
 msgid "Posted"
-msgstr "billed"
+msgstr "Skrevet"
 
-#, fuzzy
 msgid "No name"
-msgstr "Navn"
+msgstr "Intet navn"
 
 msgid "On"
-msgstr ""
+msgstr "På"
 
 msgid "Introduction"
 msgstr "Introduktion"
@@ -1137,34 +1098,30 @@ msgid "Keywords"
 msgstr "Nøgleord"
 
 msgid "Tags"
-msgstr ""
+msgstr "Mærker"
 
 msgid "Separate Tags with spaces. E.g., movies jedi starwars (not 'star wars')"
 msgstr ""
+"Enkelte mærker med mellemrum f.eks., film jedi starwars (ikke 'star wars')"
 
 msgid "Post Status"
 msgstr "Status for indlæg"
 
-#, fuzzy
 msgid "Publish"
-msgstr "Publiseret på"
+msgstr "Publiser"
 
 msgid "Publish on"
 msgstr "Publiseret på"
 
-#, fuzzy
 msgid "Post Page"
-msgstr "billed"
+msgstr "Send side"
 
-#, fuzzy
 msgid "Preview"
-msgstr "Vis indlæg"
+msgstr "For-visning"
 
-#, fuzzy
 msgid "(none)"
-msgstr "en"
+msgstr "(ingen)"
 
-#, fuzzy
 msgid "Allow comments"
 msgstr "Tillad kommentarer"
 
@@ -1177,9 +1134,8 @@ msgstr "indlæg"
 msgid "Comments"
 msgstr "Kommentarer"
 
-#, fuzzy
 msgid "Other"
-msgstr "oktober"
+msgstr "Andre"
 
 msgid "Overview"
 msgstr "Oversigt"
@@ -1187,281 +1143,237 @@ msgstr "Oversigt"
 msgid "New Entry"
 msgstr "Nyt indlæg"
 
-#, fuzzy
 msgid "New Page"
-msgstr "billed"
+msgstr "Ny side"
 
-#, fuzzy
 msgid "Logout"
-msgstr "Log ud."
+msgstr "Log ud"
 
-#, fuzzy
 msgid "View site"
-msgstr "Via-titel"
+msgstr "Vis side"
 
-#, fuzzy
 msgid "About PivotX"
-msgstr "Om"
+msgstr "Om PivotX"
 
 msgid "c"
-msgstr ""
+msgstr "c"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "more"
 msgstr "mere"
 
-#, fuzzy
 msgid "The latest entries"
-msgstr "Seneste nyheder om Pivot"
+msgstr "De nyeste indlæg"
 
-#, fuzzy
 msgid "The latest pages"
-msgstr "Seneste nyheder om Pivot"
+msgstr "De nyeste sider"
 
-#, fuzzy
 msgid "The latest trackbacks"
-msgstr "Seneste nyheder om Pivot"
+msgstr "Nyeste trackbacks"
 
-#, fuzzy
 msgid "Blog Name"
-msgstr "Bloggnavn"
+msgstr "Blognavn"
 
-#, fuzzy
 msgid "Edit this trackback"
-msgstr "Rediger trackback"
+msgstr "Editer denne trackback"
 
-#, fuzzy
 msgid "Delete this trackback?"
-msgstr "Slet trackback"
+msgstr "slette denne trackback?"
 
-#, fuzzy
 msgid "There are no latest trackbacks"
-msgstr "Dette indlæg har ingen kommentarer."
+msgstr "Der er ingen nye trackbacks"
 
-#, fuzzy
 msgid "No trackbacks"
-msgstr "Ingen trackback"
+msgstr "Ingen trackbacks"
 
-#, fuzzy
 msgid "The configuration for \"%key%\" was successfully updated."
-msgstr "Dit indlæg '%s' blev gemt uden problemer."
+msgstr "Konfigurationen for \"%key%\" blev opdateret."
 
-#, fuzzy
 msgid "The configuration could not be updated."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Konfigurationen kunne ikke opdateres."
 
 msgid "Permalink"
-msgstr ""
+msgstr "Permalink"
 
 msgid "edit"
 msgstr "rediger"
 
 msgid "Internal Name"
-msgstr ""
+msgstr "Internt navn"
 
 msgid "Subtitle"
 msgstr "Undertitel"
 
-#, fuzzy
 msgid "Post or Preview"
-msgstr "Vis indlæg"
+msgstr "Send eller vis"
 
 msgid "Post and Continue Editing"
-msgstr ""
+msgstr "Send og fortsæt med at editere"
 
 msgid "Order"
-msgstr ""
+msgstr "Rækkefølge"
 
 msgid "Created on"
 msgstr "Oprettet den"
 
-#, fuzzy
 msgid "Last edited on"
-msgstr "Senest ændret den"
+msgstr "Senest editeret den"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this page?"
-msgstr "Er du sikker på at du vil slette dette indlæg?"
+msgstr "Er du sikker på at du vil slette denne side?"
 
-#, fuzzy
 msgid "Delete page"
-msgstr "Slet billede"
+msgstr "Slet side"
 
-#, fuzzy
 msgid "Compact view"
-msgstr "Fuldstændig liste preview"
+msgstr "Komprimeret visning"
 
-#, fuzzy
 msgid "Active widgets"
-msgstr "Arkivindstillinger"
+msgstr "Aktive widgets"
 
 msgid "Available Widgets"
-msgstr ""
+msgstr "Tilgængelige Widgets"
 
 msgid "Save"
-msgstr ""
+msgstr "Gem"
 
 msgid "Update available"
-msgstr ""
+msgstr "Opdate tilgængelig"
 
-#, fuzzy
 msgid "Version"
-msgstr "Konvertering"
+msgstr "Version"
 
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 msgid "Templates"
 msgstr "Skabelon"
 
-#, fuzzy
 msgid "Subweblogs"
-msgstr "Blogger"
+msgstr "Underweblogs"
 
-#, fuzzy
 msgid "XML feeds"
-msgstr "XML: RSS-strøm (2.0)"
+msgstr "XML feeds"
 
-#, fuzzy
 msgid "Commenting"
-msgstr "Kommentar"
+msgstr "Kommentering"
 
-#, fuzzy
 msgid "Back to Weblogs"
-msgstr "Tilbage til log ind"
+msgstr "Tilbage weblogs"
 
-#, fuzzy
 msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Bloggen er blevet opdateret."
+msgstr "Weblog-indstillinger for \"%key%\" er blevet opdateret."
 
-#, fuzzy
 msgid "The weblog settings could not be updated."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Weblog-indstillingerne kunne ikke opdateres."
 
-#, fuzzy
 msgid "Insert a Tag"
-msgstr "Indsæt et billede"
+msgstr "Indsæt et mærke"
 
 msgid ""
 "Insert a tag in your entry with an optional link. You can also select a tag "
 "from the (partial) Tag Cloud below."
 msgstr ""
+"Indsæt et mærke i dit indlæg med et optionalt link. Du kan også vælge et "
+"mærke fra den (delvise) mærkesamling herunder."
 
 msgid "Tag"
-msgstr ""
+msgstr "Mærke"
 
-#, fuzzy
 msgid "Insert tag!"
-msgstr "Indsæt et billede"
+msgstr "Indsæt mærke!"
 
 msgid "Suggested Tags"
-msgstr ""
+msgstr "Foreslåede mærker"
 
-#, fuzzy
 msgid "Via Link"
-msgstr "Via-genvej "
+msgstr "Via Link"
 
-#, fuzzy
 msgid "Via Title"
-msgstr "Via-titel"
+msgstr "Via titel"
 
-#, fuzzy
 msgid "Trackback Ping"
 msgstr "Trackback-ping"
 
-#, fuzzy
 msgid "View Comments and Trackbacks"
-msgstr "Trackbacks"
+msgstr "Vis kommentarer og trackbacks"
 
-#, fuzzy
 msgid "Trackbacks"
 msgstr "Trackbacks"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this entry?"
-msgstr "Er du sikker på at du vil slette dette indlæg?"
+msgstr "Er du sikker på, at du vil slette dette indlæg?"
 
-#, fuzzy
 msgid "Delete entry"
 msgstr "Slet indlæg"
 
 msgid "Insert a Download"
 msgstr "Indsæt en Download"
 
-#, fuzzy
 msgid ""
 "To make a file download, you should upload a file, or select a previously "
 "uploaded file. Then select whether you want an icon or text link that "
 "triggers the download."
 msgstr ""
 "For at foretage en fil download, skal du uploade en fil eller vælge en "
-"tidligere uploaded fil. Derefter vælger du om du vil bruge et ikon, tekst "
-"eller en miniatyre til at starte download."
+"tidligere uploaded fil. Derefter vælger du om du vil bruge et ikon eller en "
+"tekst til at starte din download."
 
-#, fuzzy
 msgid "File Name"
 msgstr "Filnavn"
 
 msgid "Link Look"
-msgstr ""
+msgstr "Link udseende"
 
-#, fuzzy
 msgid "Use Icon"
-msgstr "brug ikon"
+msgstr "Brug ikon"
 
-#, fuzzy
 msgid "Use Text"
 msgstr "Anvend tekst"
 
-#, fuzzy
 msgid "Link Title"
-msgstr "Via-titel"
+msgstr "Link-titel"
 
-#, fuzzy
 msgid "Insert download!"
-msgstr "Indsæt en Download"
+msgstr "Indsæt download!"
 
-#, fuzzy
 msgid "Jump to:"
-msgstr "hop til side (%num%)"
+msgstr "Spring til:"
 
 msgid "Message Log"
-msgstr ""
+msgstr "Besked log"
 
 msgid "Website is OFFLINE"
-msgstr ""
+msgstr "Websiden er OFFLINE"
 
 msgid "My Info"
 msgstr "Mine oplysninger"
 
-#, fuzzy
 msgid "View debug logs"
-msgstr "Ny blogg"
+msgstr "Vis debuglogs"
 
-#, fuzzy
 msgid "sec."
-msgstr "sekund"
+msgstr "sek."
 
 msgid "using"
-msgstr ""
+msgstr "bruge"
 
 msgid "queries"
-msgstr ""
+msgstr "forespørgsler"
 
 msgid "build"
-msgstr ""
+msgstr "bygge"
 
-#, fuzzy
 msgid "Documentation"
-msgstr "Kommentar"
+msgstr "Dokumentation"
 
 msgid "Table of Contents"
-msgstr ""
+msgstr "Indholdsfortegnelse"
 
 msgid "Pg."
-msgstr ""
+msgstr "Side"
 
 msgid "Filename"
 msgstr "Filnavn"
@@ -1472,63 +1384,54 @@ msgstr "Filstørrelse"
 msgid "Thumbnail"
 msgstr "Miniatyre"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this file?"
-msgstr "Er du sikker på at du vil slette dette indlæg?"
+msgstr "Er du sikker på at du vil slette denne fil?"
 
-#, fuzzy
 msgid "Copy to file name?"
-msgstr "Filnavn"
+msgstr "Kopier til filnavnet?"
 
-#, fuzzy
 msgid "Duplicate"
-msgstr "Dato"
+msgstr "Duplicer"
 
-#, fuzzy
 msgid "New file name?"
-msgstr "Filnavn"
+msgstr "Nyt filnavn?"
 
-#, fuzzy
 msgid "Create a new file"
-msgstr "Opret ny bruger"
+msgstr "Opret ny fil"
 
-#, fuzzy
 msgid "New folder name?"
-msgstr "Standard sprog"
+msgstr "Ny foldernavn?"
 
-#, fuzzy
 msgid "Create a new folder"
-msgstr "Opret ny bruger"
+msgstr "Opret en ny folder"
 
 msgid ""
 "You're not allowed to upload/duplicate files in this folder. Use your FTP "
 "program to do this."
 msgstr ""
+"Du må ikke oploade/kopiere filer i denne folder. Brug dit FTP-program til at "
+"gøre det."
 
-#, fuzzy
 msgid "List of uploaded files"
-msgstr "Upload filer"
+msgstr "Liste med oploadede filer"
 
-#, fuzzy
 msgid "Done"
-msgstr "Færdig!"
+msgstr "Færdig"
 
-#, fuzzy
 msgid "Add a new configuration option:"
-msgstr "Ændre konfigurationsfilen"
+msgstr "Tilføj en ny konfigurations-option:"
 
 msgid "Key"
-msgstr ""
+msgstr "Nøgle"
 
 msgid "Value"
-msgstr ""
+msgstr "Værdi"
 
-#, fuzzy
 msgid "Edit options"
-msgstr "Føleikon"
+msgstr "Editer optioner"
 
 msgid "You should first select or upload an image"
-msgstr "Du må først vælge eller uploade et billede"
+msgstr "Du skal først vælge eller uploade et billede"
 
 msgid ""
 "To make a popup to an image, you should upload an image, or select a "
@@ -1540,14 +1443,13 @@ msgstr ""
 "miniatyre som udløser popupen"
 
 msgid "For popup"
-msgstr "For Popup"
+msgstr "Til popup"
 
 msgid "Use Thumbnail"
-msgstr "anvend miniatyr"
+msgstr "Brug thumbnail"
 
-#, fuzzy
 msgid "edit thumbnail"
-msgstr "rediger miniatyr"
+msgstr "editer thumbnail"
 
 msgid "Border"
 msgstr "Kant"
@@ -1555,20 +1457,17 @@ msgstr "Kant"
 msgid "pixels"
 msgstr "pixels"
 
-#, fuzzy
 msgid "Insert popup!"
-msgstr "Indsæt et popup billede"
+msgstr "Indsæt popup!"
 
-#, fuzzy
 msgid "Timed"
-msgstr "Titel"
+msgstr "Planlagt"
 
 msgid "Held"
-msgstr ""
+msgstr "Holdt"
 
-#, fuzzy
 msgid "categories"
-msgstr "Kategorier"
+msgstr "kategorier"
 
 msgid "Check All"
 msgstr "AfKryds alle"
@@ -1582,28 +1481,26 @@ msgstr "Med de afkryssede indlæg, udfør:"
 msgid "- select an option -"
 msgstr "- vælg et alternativ -"
 
-#, fuzzy
 msgid "Set Status to \"publish\""
-msgstr "Sæt status til 'publiseret'"
+msgstr "Sæt status til \"publiser\""
 
-#, fuzzy
 msgid "Set Status to \"hold\""
-msgstr "Sæt status til 'vent'"
+msgstr "Sæt status til \"hold\""
 
 msgid "Delete them"
 msgstr "Slet dem"
 
 msgid "No entries found."
-msgstr ""
+msgstr "Ingen emner fundet"
 
 msgid "Your search or filter settings gave no results."
-msgstr ""
+msgstr "Din søgning eller filterindstillinger gav ingen resultater"
 
 msgid "You may reset the filters with the following link:"
-msgstr ""
+msgstr "Du kan nulstille filtrene med følgende link:"
 
 msgid "You can also create a"
-msgstr ""
+msgstr "Du kan også lave en"
 
 msgid "Create New User"
 msgstr "Opret ny bruger"
@@ -1623,61 +1520,52 @@ msgstr "Seneste indlogning"
 msgid "Edit User"
 msgstr "Rediger bruger"
 
-#, fuzzy
 msgid "You're about to remove access for %1. Are you sure you want to do this?"
 msgstr ""
-"Du er i gang med at fjerne adgangen for %s. Er du sikker på at du vil gøre "
-"dette?"
+"Du er ved at fjerne adgangen for %1. Er du sikker på, at du vil gøre det?"
 
 msgid "Verified"
-msgstr ""
+msgstr "Verificeret"
 
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiveret"
 
-#, fuzzy
 msgid "Notifications"
-msgstr "Føleikon"
+msgstr "Beskeder"
 
-#, fuzzy
 msgid "Edit Visitor"
-msgstr "Registrer et nyt brugernavn."
+msgstr "Editer gæster"
 
-#, fuzzy
 msgid "You are about to delete visitor %1. Are you sure?"
-msgstr "Du er i gang med at slette bloggen  %1. Er du sikker?"
+msgstr "Du er i gang med at slette gædt %1. Er du sikker?"
 
-#, fuzzy
 msgid "Insert PivotX Image"
-msgstr "Indsæt et billede"
+msgstr "Indsæt et PivotX-billede"
 
-#, fuzzy
 msgid "Insert PivotX Popup"
-msgstr "Indsæt et billede"
+msgstr "Indsæt PivotX popup"
 
-#, fuzzy
 msgid "Insert PivotX Download"
-msgstr "Indsæt en Download"
+msgstr "Indsæt PivotX-download"
 
-#, fuzzy
 msgid "Insert PivotX Tag"
-msgstr "Indsæt et billede"
+msgstr "Indsæt PivotX-mærke"
 
 msgid "The default category is:"
-msgstr ""
+msgstr "Standardkategorien er:"
 
-#, fuzzy
 msgid ""
 "This means that new entries will have this category, unless you edit the "
 "selected categories."
 msgstr ""
-"Denne bruger har tilladelse til at postere indlæg i de valgte kategorier."
+"Det betyder, at nye indlæg vil få denne kategori, medmindre du selv vælger "
+"noget andet."
 
 msgid "Create New Category"
 msgstr "Opret ny kategori"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Vis navn"
 
 msgid "Users"
 msgstr "Brugere"
@@ -1694,64 +1582,53 @@ msgstr "Sorteringsregler"
 msgid "Edit Category"
 msgstr "Rediger kategori"
 
-#, fuzzy
 msgid "users"
-msgstr "Brugere"
+msgstr "brugere"
 
-#, fuzzy
 msgid "View entries"
-msgstr "Levende indlæg"
+msgstr "Vis indlæg"
 
 msgid "Are you sure you wish to delete this category?"
 msgstr "Vælg 'ja', hvis du vil slette denne kategori"
 
 msgid "New Weblog"
-msgstr "Ny blogg"
+msgstr "Ny blog"
 
 msgid "Weblog Name"
-msgstr "Bloggnavn"
+msgstr "Blognavn"
 
-#, fuzzy
 msgid "View"
-msgstr "Vis indlæg"
+msgstr "Vis"
 
-#, fuzzy
 msgid "You are about to delete weblog %1. Are you sure?"
-msgstr "Du er i gang med at slette bloggen  %1. Er du sikker?"
+msgstr "Du er i gang med at slette weblog %1. Er du sikker?"
 
 msgid "Export as theme"
-msgstr ""
+msgstr "Eksporter som tema"
 
-#, fuzzy
 msgid "Insert a file"
-msgstr "Indsæt et billede"
+msgstr "Indsæt en fil"
 
-#, fuzzy
 msgid ""
 "To insert a file, you should upload one, or select a previously uploaded "
 "file."
 msgstr ""
-"For at indsætte et billede må du uploade et billede eller vælge et billede "
-"som allerede er uploaded."
+"For at indsætte en fil, skal du oploade en eller vælge en tidligere oploadet."
 
-#, fuzzy
 msgid "File name"
 msgstr "Filnavn"
 
-#, fuzzy
 msgid "Select a file"
-msgstr "Vælg fil"
+msgstr "Vælg en fil"
 
-#, fuzzy
 msgid "Insert file!"
-msgstr "Indsæt et billede"
+msgstr "Indsæt fil!"
 
-#, fuzzy
 msgid "Edit Entry (fullscreen)"
-msgstr "Rediger indlæg"
+msgstr "Editer indlæg (fuld skærm)"
 
 msgid "View website (fullscreen)"
-msgstr ""
+msgstr "Vis webside (fuld skærm)"
 
 msgid "first"
 msgstr "først"
@@ -1772,6 +1649,10 @@ msgid ""
 "href='index.php?page=comments'>new comments</a> that are in the moderation "
 "queue."
 msgstr ""
+"Hej, og velkommen til %1! Under denne smule tekst kan du se en kort oversigt "
+"over de seneste <a href='index.php?page=entries'>indlæg</a> og <a "
+"href='index.php?page=pagesoverview'>sider</a>. Og måske endda <a href='index."
+"php?page=comments'>nye kommentarer</a>, der venter på godkendelse."
 
 msgid "Configuration"
 msgstr "Konfiguration"
@@ -1779,133 +1660,122 @@ msgstr "Konfiguration"
 msgid "Manage Media"
 msgstr "Behandl mediafiler"
 
-#, fuzzy
 msgid "overview of entries"
-msgstr "Oversigt over indlæg"
+msgstr "oversigt over indlæg"
 
-#, fuzzy
 msgid "Edit this entry"
-msgstr "Rediger dette indlæg"
+msgstr "Editer dette indlæg"
 
-#, fuzzy
 msgid "overview of comments"
-msgstr "Oversigt over indlæg"
+msgstr "oversigt over kommentarer"
 
-#, fuzzy
 msgid "Entry"
-msgstr "Nyt indlæg"
+msgstr "Indlæg"
 
-#, fuzzy
 msgid "delete"
-msgstr "Slet"
+msgstr "slet"
 
-#, fuzzy
 msgid "overview of pages"
-msgstr "Oversigt over indlæg"
+msgstr "Oversigt over sider"
 
-#, fuzzy
 msgid "Edit this page"
-msgstr "Føleikon"
+msgstr "Editer denne side"
 
-#, fuzzy
 msgid "PivotX News"
-msgstr "Pivot » Ny (med link)"
+msgstr "PivotX News"
 
 msgid "Visit the website"
-msgstr ""
+msgstr "Besøg websiden"
 
-#, fuzzy
 msgid "The latest events"
-msgstr "Seneste nyheder om Pivot"
+msgstr "Seneste begivenheder"
 
-#, fuzzy
 msgid "Show more items"
-msgstr "Vis de seneste"
+msgstr "Vis flere emner"
 
-#, fuzzy
 msgid "The latest Forum posts"
-msgstr "Seneste nyheder om Pivot"
+msgstr "Nyeste poster i forum"
 
 msgid "Suggestions"
-msgstr ""
+msgstr "Forslag"
 
-#, fuzzy
 msgid "Show more tags"
-msgstr "Vis de seneste"
+msgstr "Vis flere emner"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Gem og fortsæt med at skrive"
 
 msgid ""
 "You have Caching and/or Minify enabled. If your changes do not show up "
 "immediately, %click here% and disable Caching and Minify while you're "
 "working on your site."
 msgstr ""
+"Du har caching og/eller Minify aktiveret. Hvis dine ændringer ikke vises "
+"straks, %click here% og deaktiver caching og Minify mens du arbejder med "
+"siden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cannot open file %s"
-msgstr "kan ikke åbne fil, kontroller dine rettigheder."
+msgstr "Kan ikke åbne filen %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cannot write to file %s"
-msgstr "Fejl ved skriving. Kan ikke skrive til fil"
+msgstr "Kan ikke skrive til fil %s"
 
 #, php-format
 msgid "Wrote contents to file %s"
-msgstr ""
+msgstr "Skrev indhold til filen %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s is not writable"
-msgstr "Den nye blogg er blevet Oprettet."
+msgstr "Filen %s er ikke skrivbar"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Finished! Generating index for %s entries took %s seconds "
-msgstr "Færdig! Bygning af indeks tog %num% sekunder"
+msgstr "Færdig! Oprettede indeks for %s indlæg tog %s sekunder"
 
 msgid "The latest PivotX news is not available as long as safemode is enabled."
 msgstr ""
+"De nyeste PivotX nyheder er ikke tilgængelige, så længe safemode er "
+"aktiveret."
 
 msgid "Oops! I'm afraid I couldn't read the News feed."
-msgstr ""
+msgstr "Ups! Jeg er bange for, at jeg ikke kan læse den newsfeed."
 
 msgid "Oops! I'm afraid I couldn't read the Forum feed."
-msgstr ""
+msgstr "Ups! Jeg er bange for, at jeg ikke kan læse det forum."
 
 msgid "Oops! I'm afraid I couldn't read Tag feed."
-msgstr ""
+msgstr "Ups! Jeg er bange for, at jeg ikke kan læse den mærkesamling."
 
 #, php-format
 msgid "Nothing on <strong>%s</strong> for <strong>%s</strong>"
-msgstr ""
+msgstr "Intet på <strong>%s</strong> om <strong>%s</strong>"
 
 #, php-format
 msgid "Latest on <strong>%s</strong> for <strong>%s</strong>"
-msgstr ""
+msgstr "Nyeste på <strong>%s</strong> om <strong>%s</strong>"
 
 msgid "Current path"
-msgstr ""
+msgstr "Aktuel sti"
 
 msgid "There are %1 comment(s) waiting to be approved."
-msgstr ""
+msgstr "Der er %1 kommentar(er), der venter på godkendelse."
 
-#, fuzzy
 msgid "No comments are waiting to be approved."
-msgstr "Kommentarindstillinger"
+msgstr "Ingen lommentar venter på godkendelse."
 
-#, fuzzy
 msgid "Log in"
 msgstr "Log ind"
 
 msgid "Dashboard"
-msgstr ""
+msgstr "Opslagstavle"
 
-#, fuzzy
 msgid "Back to dashboard"
-msgstr "Tilbage til log ind"
+msgstr "Tilbage til opslagstavlen"
 
-#, fuzzy
 msgid "Entries &amp; Pages"
-msgstr "Sti til indlæg"
+msgstr "Indlæg &amp; sider"
 
 msgid "Overview of Entries"
 msgstr "Oversigt over indlæg"
@@ -1913,21 +1783,17 @@ msgstr "Oversigt over indlæg"
 msgid "Write and Publish a new Entry"
 msgstr "Ny indlæg"
 
-#, fuzzy
 msgid "Overview of Pages"
-msgstr "Oversigt over indlæg"
+msgstr "Oversigt over sider"
 
-#, fuzzy
 msgid "Write and Publish a new Page"
-msgstr "Ny indlæg"
+msgstr "Sjriv og publiser en ny side"
 
-#, fuzzy
 msgid "Moderate Comments"
-msgstr "Gem kommentar"
+msgstr "Moderer kommentarer"
 
-#, fuzzy
 msgid "Overview of Latest Trackbacks"
-msgstr "Oversigt over indlæg"
+msgstr "Oversigt over nyeste trackbacks"
 
 msgid "Manage and Upload Media"
 msgstr "Behandle og uploade mediafiler"
@@ -1941,12 +1807,11 @@ msgstr "Stifinder"
 msgid "View files (both text and database files)"
 msgstr "Vis filer (både tekst- og databasefiler)"
 
-#, fuzzy
 msgid "Explore Files"
-msgstr "Stifinder"
+msgstr "Vis filer"
 
 msgid "View files in the site's root"
-msgstr ""
+msgstr "Vis filer i sidens rod"
 
 msgid "Administration"
 msgstr "Administration"
@@ -1957,9 +1822,8 @@ msgstr "Oversigt over administration"
 msgid "Edit the Configuration file"
 msgstr "Ændre konfigurationsfilen"
 
-#, fuzzy
 msgid "Edit, Add and Delete advanced Configuration options"
-msgstr "Ændre konfigurationsfilen"
+msgstr "Editere, tilføje og slette avancerede konfigurations-optioner"
 
 msgid "Create, edit and delete Users"
 msgstr "Opret, ændre og slette brugere"
@@ -1973,139 +1837,120 @@ msgstr "Blogger"
 msgid "Create, edit and delete Weblogs"
 msgstr "Opret, ændre og slette blogger"
 
-#, fuzzy
 msgid "Registered Visitors"
-msgstr "Registrer et nyt brugernavn."
+msgstr "Registrerede gæster"
 
-#, fuzzy
 msgid "View and edit Registered Visitors"
-msgstr "Log ind som registrert besøgende"
+msgstr "Vis og editer registrerede brugere"
 
 msgid "Maintenance"
 msgstr "Vedligehold"
 
-#, fuzzy
 msgid "Perform routine maintenance on PivotX's files"
-msgstr "Udfør rutinemæssig vedligehold på Pivot filer"
+msgstr "Udfør rutinemæssig vedligehold af PivotX-filer"
 
 msgid "Spam Protection"
-msgstr ""
+msgstr "Spam-beskyttelse"
 
 msgid "Overview of the various tools to keep your weblogs spam-free"
 msgstr ""
+"Oversigt over de forskellige værktøjer til at holde spam ude af din blog."
 
-#, fuzzy
 msgid "Spam Configuration"
-msgstr "Konfiguration"
+msgstr "Spam-konfiguration"
 
 msgid "Configure Spam Protection tools (like HashCash and SpamQuiz)."
-msgstr ""
+msgstr "Tilpas spam-beskyttelses-værktøj (som HashCash og SpamQuiz)."
 
 msgid "Spam Log"
-msgstr ""
+msgstr "Spam-log"
 
 msgid "View and Reset the Spam Log."
-msgstr ""
+msgstr "Vis og nulstil spam-loggen."
 
-#, fuzzy
 msgid "Backup"
 msgstr "Backup"
 
-#, fuzzy
 msgid ""
 "Download a zip file containing your configuration files, templates or "
 "entries database"
 msgstr ""
-"Dette lader dig downloade en zip-fil som indeholder alle dine "
-"konfigurationsfiler."
+"Download en zip-fil med dine konfigurationsfiler, skabeloner og indlægs-"
+"databasen"
 
 msgid "Empty Cache"
-msgstr ""
+msgstr "Tøm cachen"
 
 msgid "Clear PivotX's internal cache for stored files."
-msgstr ""
+msgstr "Ryd PivotX's interne cache til gemte filer."
 
-#, fuzzy
 msgid "Extensions"
-msgstr "Standard filefternavn"
+msgstr "Filendelser"
 
-#, fuzzy
 msgid "Manage installed Extensions"
-msgstr "Standard filefternavn"
+msgstr "Administrer indstallerede udvidelser"
 
-#, fuzzy
 msgid "Widgets"
-msgstr "billeder"
+msgstr "Widgets"
 
-#, fuzzy
 msgid "Manage installed Widgets"
-msgstr "Standard filefternavn"
+msgstr "Administrer installerede Widgets"
 
-#, fuzzy
 msgid "view"
-msgstr "Vis indlæg"
+msgstr "vis "
 
-#, fuzzy
 msgid "View weblog"
-msgstr "Ny blogg"
+msgstr "Vis weblog"
 
-#, fuzzy
 msgid "Configure Extensions"
-msgstr "Standard filefternavn"
+msgstr "Konfigurer udvidelser"
 
-#, fuzzy
 msgid "Explore Home folder"
-msgstr "Upload filer"
+msgstr "Udforsk hoved-folder"
 
 msgid "Rebuild the Index"
 msgstr "Opdater indekset"
 
-#, fuzzy
 msgid "Rebuild the index of your database"
 msgstr "Genopbyg indeks for din database"
 
-#, fuzzy
 msgid "Rebuild Search Index"
-msgstr "Opdater søgeindekset"
+msgstr "Genopbyg søgeindekset"
 
-#, fuzzy
 msgid "Rebuild the Searchindex, to allow searching in entries and pages"
-msgstr "Genopbyg søgeindeks sådan at folk kan søge i indlægene"
+msgstr "Genopbyg søgeindeks, så der kan søges i indlæg og sider"
 
-#, fuzzy
 msgid "Rebuild Tag Index"
-msgstr "Opdater indekset"
+msgstr "Genopbyg mærke-indeks"
 
-#, fuzzy
 msgid "Rebuild the Tagindex, to display tag clouds and tags below entries"
-msgstr "Genopbyg søgeindeks sådan at folk kan søge i indlægene"
+msgstr ""
+"Genopbyg mærkeindeks, til visning i mærke-samling og mærker under indlæg"
 
-#, fuzzy
 msgid "Default"
-msgstr "Standard gravatar"
+msgstr "Standard "
 
 msgid "Welcome to your new online presence!"
-msgstr ""
+msgstr "Velkommen til din nye hjemmeside!"
 
 msgid "Add some pages here, or start a new chapter."
-msgstr ""
+msgstr "Tilføj nogle sider her eller start et nyt kapitel."
 
 msgid "Light gray"
-msgstr ""
+msgstr "Lysegrå"
 
 msgid "Dark gray"
-msgstr ""
+msgstr "Mørkegrå"
 
 msgid "Minimally styled"
-msgstr ""
+msgstr "Minimal stil"
 
-#, fuzzy
 msgid "Welcome to"
-msgstr "Velkommen til %build%."
+msgstr "Velkommen til"
 
 #, php-format
 msgid "Illegal file type %s uploaded. Check your %s setting."
-msgstr ""
+msgstr "Illegal filtype %s oploadet. Kontroller dine %s indstillinger."
 
 msgid "Allow filetypes"
 msgstr "accepterede filtyper"
@@ -2113,198 +1958,192 @@ msgstr "accepterede filtyper"
 msgid "Login"
 msgstr "Log ind"
 
-#, fuzzy
 msgid ""
 "Usernames can only contain lowercase alphanumeric characters (a-z, 0-9) and "
 "underscores (_)."
 msgstr ""
-"Brugernavn kan kun indeholde alfanumeriske tegn (A-Z, 0-9) og understreger "
-"(_)."
+"Brugernavne kan kun indeholde små bogstaver (a-z, 0-9) og understregen (_)."
 
 msgid "Please give a proper password!"
-msgstr ""
+msgstr "Angiv et korrekt password."
 
-#, fuzzy
 msgid "Stay logged in?"
-msgstr "Logget ind"
+msgstr "Forbliv logget ind?"
 
-#, fuzzy
 msgid "Lost your password?"
-msgstr "Glemt kodeordet?"
+msgstr "Glemt dit password?"
 
 msgid "Send password"
 msgstr "Send kodeord"
 
-#, fuzzy
 msgid "Reset my password"
-msgstr "Send kodeord"
+msgstr "Nulstil mit password"
 
-#, fuzzy
 msgid ""
 "If you've forgotten your password, check the box, enter your username and "
 "PivotX will send you an email with a link to reset your password."
 msgstr ""
-"Hvis du har glemt kodeordet, udfyld brugernavn og e-mailadresse og så vil "
-"Pivot sende dig kodeordet på e-mail."
+"Hvis du har glemt dit password, sæt mærke i boksen og udfyld brugernavn, så "
+"vil PivotX sende dig en email med et link til at nulstille dit password."
 
-#, fuzzy
 msgid "Backup templates"
-msgstr "Gem skabelon!"
+msgstr "Gem skabeloner"
 
-#, fuzzy
 msgid "Backup all your entries"
 msgstr "Opret en sikkerhedskopi af dine indlæg"
 
 msgid "Backup all files in the db folder"
-msgstr ""
+msgstr "Backup alle filer i folderen db"
 
-#, fuzzy
 msgid "Backup configuration files"
-msgstr "Opret en sikkerhedskopi af konfigurationsfilene"
+msgstr "Opret en sikkerhedskopi af konfigurationsfilerne"
 
 msgid "Reset Spam Log"
-msgstr ""
+msgstr "Nulstil spam-log"
 
-#, fuzzy
 msgid "Save Comment"
-msgstr "Vis kommentar"
+msgstr "Gem kommentar"
 
-#, fuzzy
 msgid "Registered user"
-msgstr "Registrer et nyt brugernavn."
+msgstr "Registrerede brugere"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
 "(regardless of whether the comment was actually made by a registered user)"
 msgstr ""
+"Bestemmer om denne kommentar vises som den gør for registrerede brugere. "
+"(uanset om kommentaren virkelig var lavet af en registreret bruger)"
 
 msgid ""
 "If set to 'yes', the visitor will be notified by email of any subsequent "
 "comments to this entry."
 msgstr ""
+"Hvis sat til 'ja', vil gæsten få besked via email om alle efterfølgende "
+"kommentarer til dette indlæg."
 
 msgid "Show discreetly"
-msgstr ""
+msgstr "Vis diskret"
 
 msgid ""
 "If set to 'yes', the comment will be shown without the accompanying email-"
 "address."
 msgstr ""
+"Hvis sat til 'ja', vises kommentaren uden den tilhørende email-adresse."
 
-#, fuzzy
 msgid "Moderate Comment"
-msgstr "Gem kommentar"
+msgstr "Moderer kommentar"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
 "been approved in the moderation queue"
 msgstr ""
+"Hvis sat til 'ja', vil denne kommentar ikke blive vist på siden, indtil den "
+"er godkendt af e moderator."
 
-#, fuzzy
 msgid "Save Trackback"
 msgstr "Gem trackback"
 
-#, fuzzy
 msgid "Entry title"
-msgstr "Indlægsdato"
+msgstr "Indlægstitel"
 
 msgid "Excerpt"
 msgstr "Uddrag"
 
-#, fuzzy
 msgid "Continue"
-msgstr "ni"
+msgstr "Fortsæt"
 
 msgid "Please provide the following information, to set up the first user."
-msgstr ""
+msgstr "Giv følgende information, for at oprette den første bruger."
 
 msgid "Password (confirm)"
 msgstr "Kodeord (bekræft)"
 
-#, fuzzy
 msgid "The passwords do not match!"
-msgstr "Kodeordene er ikke ens"
+msgstr "Indtastede passwords er ikke ens!"
 
-#, fuzzy
 msgid "That's not a proper email address!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke en gyldig e-mailadresse!"
 
-#, fuzzy
 msgid "That's not a proper Nickname!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke et gyldig brugernavn"
 
 msgid "Default language"
 msgstr "Standard sprog"
 
-#, fuzzy
 msgid "Please select a language!"
-msgstr "Standard sprog"
+msgstr "Vælg et sprog"
 
 msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr ""
+msgstr "PivotX har mærket, at din webserver understøtter MySQL-databaser."
 
 msgid "If you have a MySQL user and database, specify them below."
-msgstr ""
+msgstr "Hvis du har en MySQL bruger og database, angiv dem herunder."
 
 msgid ""
 "If you do not have these, either ask your hosting provider or select the "
 "'Flat Files' model."
 msgstr ""
+"Hvis du ikke har det, kan du spørge din udbyder eller vælge modellen med "
+"'Flade filer'."
 
-#, fuzzy
 msgid "Database Model"
-msgstr "Dato"
+msgstr "Databasemodel"
 
-#, fuzzy
 msgid "Flat Files"
-msgstr "Upload filer"
+msgstr "Flade filer"
 
 msgid ""
 "Select which type of Database to use. Flat Files will work on almost every "
 "platform. If your server is capable of using databases, the performance of "
 "PivotX will be best if you use MySQL or SQLite."
 msgstr ""
+"Vælg den type database, der skal bruges. Flade filer vil virke på stort set "
+"enhver platform. Hvis din server kan bruge en database, vil ydelsen i PivotX "
+"være bedst, hvis du bruger MySQL ellerr SQLite."
 
 msgid "Your MySQL username"
-msgstr ""
+msgstr "Dit MySQL-brugernavn"
 
-#, fuzzy
 msgid "Your MySQL password"
-msgstr "Send kodeord"
+msgstr "Dit MySQL-password"
 
-#, fuzzy
 msgid "Database Name"
-msgstr "Dato"
+msgstr "Database-navn"
 
 msgid ""
 "The name of the MySQL database in which you wish to store the information"
-msgstr ""
+msgstr "Navnet på MySQL-databasen, hvori du vil gemme informationen"
 
 msgid "Advanced database settings"
-msgstr ""
+msgstr "Avancerede database-indstillinger"
 
-#, fuzzy
 msgid "Hostname"
-msgstr "Brugernavn"
+msgstr "Værtsnavn"
 
 msgid ""
 "Your MySQL hostname. If you do not know, this is most likely \"localhost\"."
 msgstr ""
+"Dit MySQL hostnavn. Hvis du ikke ved, hvad det er, er det sikkert \"localhost"
+"\"."
 
-#, fuzzy
 msgid "Table Prefix"
-msgstr "SSI-prefiks"
+msgstr "Tabel-præfiks"
 
 msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
 msgstr ""
+"Forstavelsen, der skal bruges til database-tabellerne. Ved at ændre det, kan "
+"du køre flere installationer af PivotX fra en enkelt MySQL-database. Hvis du "
+"ikke vil det, kan du bare lade den blive stående som \"pivotx_\"."
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
 "username."
 msgstr ""
+"Password skal være mindst 4 tegn lange, og det kan ikke være det samme som "
+"brugernavnet."
 
 msgid "Passwords do not match"
 msgstr "Kodeordene er ikke ens"
@@ -2312,22 +2151,18 @@ msgstr "Kodeordene er ikke ens"
 msgid "That's not a valid email address"
 msgstr "Det er ingen gyldig e-mailadresse"
 
-#, fuzzy
 msgid "That's not a proper filename!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke et gyldigt filnavn!"
 
 msgid "Language"
 msgstr "Sprog"
 
-#, fuzzy
 msgid "You must select a language!"
-msgstr "Standard sprog"
+msgstr "Du skal vælge et sprog!"
 
-#, fuzzy
 msgid "Text editor"
-msgstr "Tekstfarve"
+msgstr "Teksteditor"
 
-#, fuzzy
 msgid ""
 "Determines the default text processing, when a user is using Writing a new "
 "entry. For most users 'Wysiwyg editor' will be the easiest option. 'Plain "
@@ -2338,20 +2173,23 @@ msgid ""
 "target='_blank'>Markdown</a> are both powerful, yet easy to learn markup "
 "styles."
 msgstr ""
-"Afgør standard tekstbehandling når en bruger ikke har valgt Wysiwyg "
-"redigering. 'Konverter linjeskift' ændrer kun linjeskift til en &lt;br&gt;-"
-"tagg. <a href=\"http://www.textism.com/tools/textile/\" target=\"_blank"
-"\">Textile</a> er en kraftig, men alligevel let at lære, markeringsstil."
+"Bestemmer standard-tekstbehandlingen, når en bruger skriver et nyt indlæg. "
+"For de fleste brugere er 'Wysiwyg editor' den nemmeste metode. 'Simpel "
+"XHTML' er for dem, der gerne vil editere rå XHTML, mens 'konverter "
+"linjeombrud' ikke gør andet end at ændre linjeombrud til &amp;lt;br /&amp;"
+"gt;-tag. <a href='http://www.textism.com/tools/textile/' "
+"target='_blank'>Textile</a> og <a href='http://daringfireball.net/projects/"
+"markdown/' target='_blank'>Markdown</a> er begge kraftige men nemme "
+"markerings-sprog."
 
 msgid "Wysiwyg"
-msgstr ""
+msgstr "Wysiwyg"
 
 msgid "None (plain XHTML)"
-msgstr ""
+msgstr "Ingen (simpel XHTML)"
 
-#, fuzzy
 msgid "XHTML, Convert Linebreaks to &lt;br /&gt;"
-msgstr "Konverter linjeskift til &lt;br /&gt;"
+msgstr "XHTML, konverter linjeombrud til &lt;br /&gt;"
 
 msgid "Textile"
 msgstr "Textile"
@@ -2362,12 +2200,11 @@ msgstr "Markdown"
 msgid "Markdown and Smartypants"
 msgstr "Markdown og Smartypants"
 
-#, fuzzy
 msgid "User last seen on"
-msgstr "Senest ændret den"
+msgstr "Bruger sidst set den"
 
 msgid "Inactive user"
-msgstr ""
+msgstr "Inaktiv bruger"
 
 msgid "Moblogger"
 msgstr "Moblogger"
@@ -2384,10 +2221,9 @@ msgstr "Administrator"
 msgid "Superadmin"
 msgstr "Superadmin"
 
-#, fuzzy
 msgid ""
 "Userlevel will determine what kind of actions this user can perfom in PivotX."
-msgstr "brugerniveau afgør hvilke handlinger brugeren kan udføre i Pivot."
+msgstr "Brugerniveau afgør hvilke handlinger denne bruger kan udføre i PivotX."
 
 msgid "Allowed Categories"
 msgstr "Tilladte kategorier"
@@ -2396,15 +2232,14 @@ msgid "This user is allowed to post entries in the selected categories"
 msgstr ""
 "Denne bruger har tilladelse til at postere indlæg i de valgte kategorier."
 
-#, fuzzy
 msgid "Last seen on"
-msgstr "Senest ændret den"
+msgstr "Sidst set den"
 
 msgid "Create Category"
 msgstr "Opret kategori"
 
 msgid "The name that the category is represented by in the weblog"
-msgstr ""
+msgstr "Det navn, som kategorien vises under i bloggen"
 
 msgid "This category needs a name"
 msgstr "Denne kategorien behøver et navn"
@@ -2421,37 +2256,38 @@ msgstr ""
 "Kategorier med lav sorteringsværdi vil vises højere i listen. Hvis alle "
 "nummerne er de samme, så sorteres kategoriene alfabetisk."
 
-#, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
 "(applies only to live pages)"
 msgstr ""
-"Hvis sat til 'Ja', så vil denne kategorien blive skjult i arkivindlægene. "
-"(Gælder kun for levende sider.)"
+"Hvis sat til \"Ja\", vil denne kategori blive skjult i arkivlisterne. "
+"(gælder kun for aktive sider)"
 
-#, fuzzy
 msgid "Chapter name"
-msgstr "Kategori"
+msgstr "Kapitel-navn"
 
-#, fuzzy
 msgid "The name of this chapter"
-msgstr "Indeksér denne kategori"
+msgstr "Navnet på dette kapitel"
 
 msgid "A short description of this chapter"
-msgstr ""
+msgstr "En kort beskrivelse af dette kapitel"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
 msgstr ""
+"Sorteringsrækkefølgen bestemmer den rækkefølge, hvori kapitlerne vises."
 
 msgid ""
 "The internal name can consist of only lowercase letters, numbers and "
 "underscore (a-z,0-9,_). While the Weblog Name can be changed later on, the "
 "Internal Name will always stay the same."
 msgstr ""
+"Det interne navn kan kun bestå af små bogstaver, cifre og understregen (a-"
+"z,0-9,_). Mens webloggens navn senere kan ændres, vil det interne navn altid "
+"være det samme."
 
 msgid "Start from scratch"
-msgstr ""
+msgstr "Start fra bunden"
 
 msgid "Theme"
 msgstr "Tema"
@@ -2460,10 +2296,11 @@ msgid ""
 "Select the theme you'd like to base your weblog on. All options can be "
 "changed later on."
 msgstr ""
+"Vælg det tema, som din weblog skal baseres på. Alle optioner kan senere "
+"ændres."
 
-#, fuzzy
 msgid "General Settings"
-msgstr "Indstillinger for indlæg"
+msgstr "Generelle indstillinger "
 
 msgid "Payoff"
 msgstr "Undertitel"
@@ -2472,27 +2309,22 @@ msgid ""
 "The Payoff can be used as a subtitle or a short description of your weblog"
 msgstr "Undertitel eller kort beskrivelse for bloggen (payoff)"
 
-#, fuzzy
 msgid ""
 "The Language determines in what language the dates and numbers will be "
 "output."
-msgstr ""
-"Bestemmer på hvilket sprog datoer og tal bliver vist, og hvilket tegnsæt som "
-"bliver anvendt."
+msgstr "Bestemmer på hvilket sprog, der bruges til visning af datoer og tal."
 
-#, fuzzy
 msgid "\"Read More\" Text"
-msgstr "'Læs videre'-tekst"
+msgstr "\"Læs mere\" tekst"
 
-#, fuzzy
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
 "default as defined by the language settings"
 msgstr ""
-"Teksten som fortæller at det er mere at læse i dette indlæg end det som er "
-"vist på forsiden. Hvis tom, vil Pivot bruge standarden defineret af det "
-"valgte sprog."
+"Teksten som fortæller, at der er mere i dette indlæg end det, som er vist på "
+"forsiden. Hvis tom, vil PivotX bruge standarden defineret af det valgte "
+"sprog."
 
 msgid "URL to Weblog"
 msgstr "URL til bloggen"
@@ -2503,13 +2335,18 @@ msgid ""
 "the best option. Normally this setting is only used if you want one "
 "directory for each weblog."
 msgstr ""
+"Lad dette felt være tomt, medmindre du ved hvad du gør. Hvis det er tomt, "
+"vil PivotX automatisk bestemme URLen til webloggen, hvilket normalt er det "
+"bedste. Indstillingen bruges normalt kun, hvis du vil have en folder til "
+"hver weblog."
 
-#, fuzzy
 msgid "Sorting order"
-msgstr "Sorteringsregler"
+msgstr "Sorteringsrækkefølge"
 
 msgid "The sorting order is used to determine the order of the weblogs."
 msgstr ""
+"Sorteringsrækkefølgen, som bruges til at bestemme rækkefølgen på dine "
+"weblogs."
 
 msgid "Frontpage Template"
 msgstr "Forsideskabelon"
@@ -2521,13 +2358,12 @@ msgstr "Skabelonen som bestemmer udseende på forsiden for denne blogg."
 msgid "Archivepage Template"
 msgstr "Arkivsideskabelon"
 
-#, fuzzy
 msgid ""
 "The Template which determines the layout of your archives. This can be the "
 "same as \"Frontpage Template\"."
 msgstr ""
-"Skabelonen som bestemmer udseende på arkivene. Dette kan være det samme som "
-"'Forsideskabelon'."
+"Skabelonen som bestemmer udseendet af arkiverne. Det kan være det samme som "
+"\"Forside-skabelonen\"."
 
 msgid "Entrypage Template"
 msgstr "Indlægsskabelon"
@@ -2538,25 +2374,26 @@ msgstr "Skabelonen som bestemmer udseende på enlige indlæg (på egen side)."
 msgid "Extra Template"
 msgstr "Ekstra skabelon"
 
-#, fuzzy
 msgid ""
 "The Template that defines how a search, tag or other special page will look "
 "like."
-msgstr "Skabelonen som bestemmer udseende på arkiv- og søgesiden."
+msgstr ""
+"Skabelonen, som bestemmer, hvordan en søge- mærke- eller speciel side vil se "
+"ud."
 
-#, fuzzy
 msgid "Page Template"
-msgstr "Gem skabelon!"
+msgstr "Sideskabelon"
 
-#, fuzzy
 msgid ""
 "The Template that defines how a page will look like if you haven't specified "
 "a template for it."
-msgstr "Skabelonen som bestemmer udseende på arkiv- og søgesiden."
+msgstr ""
+"Skabelonen som bestemmer, hvordan en side vil se ud, hvis der ikke er "
+"defineret en skabelon for den."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Subweblog %s"
-msgstr "Blogger"
+msgstr "Underweblog %s"
 
 msgid ""
 "The Number of entries in this subweblog that will be shown on the frontpage."
@@ -2565,15 +2402,14 @@ msgstr "Antal indlæg i denne underblogg som vil blive vist på forsiden."
 msgid "Offset"
 msgstr "Forskydning"
 
-#, fuzzy
 msgid ""
 "If Offset is set to a number, that amount of entries will be skipped when "
 "generating the page. You can use this to make a \"Previous entries\" list, "
 "for example."
 msgstr ""
-"Hvis forskydning er sat til et tal, så vil den mængde af indlæg hoppes over "
-"når siden gemmes. Du kan bruge dette til at lave en 'Tidligere indlæg'-liste "
-"for eksempel."
+"Hvis offset er sat til et tal, så vil den mængde af indlæg hoppes over når "
+"siden laves. Det kan f.eks. bruges til at lave en liste med  \"Tidligere "
+"indlæg\"."
 
 msgid "Publish these categories"
 msgstr "Publicér disse kategorier"
@@ -2589,9 +2425,8 @@ msgid ""
 "an Atom feed for this weblog."
 msgstr "Afgør om Pivot automatisk laver en RSS- og Atom-strøm for denne blogg."
 
-#, fuzzy
 msgid "RSS URL"
-msgstr "Webstedets URL"
+msgstr "RSS URL"
 
 msgid ""
 "If you use a service like FeedBurner, you can give the link to your "
@@ -2599,10 +2434,13 @@ msgid ""
 "autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
 "specify a full URL."
 msgstr ""
+"Hvis du bruger en tjeneste som FeedBurner, kan du give linket til din "
+"FeedBurner her. Linket vil blive brugt i RSS badge og i autodiscovery-links "
+"på denne side. Lad det være tomt for at bruge PivotX's Feed, eller angiv en "
+"hel URL."
 
-#, fuzzy
 msgid "Atom URL"
-msgstr "Webstedets URL"
+msgstr "Atom URL"
 
 msgid ""
 "If you use a service like FeedBurner, you can give the link to your "
@@ -2610,30 +2448,32 @@ msgid ""
 "autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
 "specify a full URL."
 msgstr ""
+"If you use a service like FeedBurner, you can give the link to your "
+"FeedBurner feed here. The link will be used in the Atom badge and in the "
+"autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
+"specify a full URL."
 
 msgid "Create Full Feeds"
 msgstr "Generer fuldstændige strømme"
 
-#, fuzzy
 msgid ""
 "Determines whether PivotX creates full Atom and RSS feeds. If set to \"no\" "
 "PivotX will create feeds that just contains short descriptions, thereby "
 "making your feeds less useful."
 msgstr ""
-"Afgør om Pivot laver fuldstændige Atom- eller RSS-strømmer. Hvis sat til "
-"'nej', vil Pivot lave strømme som kun indeholder kort beskrivelse og dermed "
-"gøre strømmene mindre nyttige."
+"Bestemmer om PivotX skal lave komplette Atom og RSS feeds. Hvis sat til \"nej"
+"\", vil PivotX lave feeds, som kun indeholder korte beskrivelser, hvilket "
+"gør dine feeds mindre brugbare."
 
 msgid "Feed Link"
 msgstr "Strøm link"
 
-#, fuzzy
 msgid ""
 "The link to send with the Feed, to point to the main page. If you leave this "
 "blank, PivotX will send the weblog's index as link."
 msgstr ""
-"Genvej som sendes sammen med strømmen for at pege til hovedsiden. Hvis du "
-"ikke opgiver en genvej, vil Pivot sende bloggens startside som genvej."
+"Det link, der sendes med et feed, til at pege på hovedsiden. Hvis det er "
+"tomt, sender PivotX et link til webloggens indeks-side."
 
 msgid "Feed Image"
 msgstr "Strømbillede"
@@ -2689,144 +2529,127 @@ msgstr ""
 msgid "Comments Popup?"
 msgstr "Kommentarer Popup?"
 
-#, fuzzy
 msgid ""
 "Define whether the comments page (or 'single entry') will be shown in a "
 "popup window, or in the original browser window."
 msgstr ""
-"Afgør om kommentarside (eller 'enlig indlæg') vises i et popupvindue eller i "
-"det originale vindue."
+"Bestemmer om kommentarsiden (eller 'enkelt indlæg') vises i et popup-vindue, "
+"eller i det originale browser-vindue."
 
 msgid "Width of Popup"
 msgstr "Bredde for Popup"
 
-#, fuzzy
 msgid "Height of Width"
-msgstr "Højde for Popup"
+msgstr "Højde af bredde"
 
-#, fuzzy
 msgid "The width (in pixels) of the comments popup."
-msgstr "Opgiv bredde og højde (i pixels) for kommentar popup."
+msgstr "Bredden (i pixels) af kommentar-popup."
 
 msgid "Height of Popup"
 msgstr "Højde for Popup"
 
-#, fuzzy
 msgid "The height (in pixels) of the comments popup."
-msgstr "Opgiv bredde og højde (i pixels) for kommentar popup."
+msgstr "Højden (i pixels) af kommentar-popup."
 
-#, fuzzy
 msgid "Allow Textile?"
-msgstr "Tillad Textile"
+msgstr "Tillad Textile?"
 
 msgid "Allow Textile"
 msgstr "Tillad Textile"
 
-#, fuzzy
 msgid ""
 "If this is set to \"Yes\", visitors are allowed to use <a href=\"http://www."
 "textism.com/tools/textile/\" target=\"_blank\">Textile</a> in their comments."
 msgstr ""
-"Hvis 'Ja', så har besøgende lov til at anvende <a href=\"http://www.textism."
-"com/tools/textile/\" target=\"_blank\">Textile</a> kommentarer."
+"Hvis det er sat til \"Ja\", vil besøgende få lov til at bruge <a href="
+"\"http://www.textism.com/tools/textile/\" target=\"_blank\">Textile</a> i "
+"deres kommentarer."
 
-#, fuzzy
 msgid "Allow Emoticons?"
-msgstr "Føleikon"
+msgstr "Tillad smilies?"
 
-#, fuzzy
 msgid "Allow Emoticons"
-msgstr "Føleikon"
+msgstr "Tillad smilies"
 
-#, fuzzy
 msgid ""
 "If this is set to \"Yes\", visitors are allowed to use emoticons, which are "
 "displayed as graphics."
 msgstr ""
-"Hvis 'Ja', så har besøgende lov til at anvende <a href=\"http://www.textism."
-"com/tools/textile/\" target=\"_blank\">Textile</a> kommentarer."
+"Hvis det er sat til \"Ja\", får de besøgende lov til at bruge smilies, der "
+"vises som billeder."
 
 msgid "Site Name"
 msgstr "Webstedets navn"
 
-#, fuzzy
 msgid "That's not a proper sitename!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Det er ikke et gyldigt sidenavn!"
 
-#, fuzzy
 msgid "Site description"
-msgstr "Beskrivelse"
+msgstr "Sidebeskrivelse"
 
 msgid "A short description of the website. Maximum length is 400 characters."
-msgstr ""
+msgstr "En kort beskrivelse af websiden. Maksimum længde er 400 tegn."
 
-#, fuzzy
 msgid "Weblog"
-msgstr "Blogger"
+msgstr "Weblog"
 
-#, fuzzy
 msgid "Page"
-msgstr "billed"
+msgstr "Side"
 
-#, fuzzy
 msgid "Site Homepage"
-msgstr "Webstedets navn"
+msgstr "Webstedets startside"
 
-#, fuzzy
 msgid "Please select an option"
-msgstr "- vælg et alternativ -"
+msgstr "Vælg en option"
 
-#, fuzzy
 msgid ""
 "This determines the page that is shown to visitors of the site, if they go "
 "to the front page."
 msgstr ""
-"Denne bestemmer formatering af genveje som besøgende kan bruge for at svare "
-"på en specifik kommentar."
+"Bestemmer hvilken side, der skal vises til brugerne, hvis de går til "
+"forsiden."
 
 msgid "Site Favicon"
-msgstr ""
+msgstr "Sidens Favicon"
 
 msgid ""
 "This determines the favicon that is used on the website. Use an absolute "
 "path to the image's filename for best results."
 msgstr ""
+"Det bestemmer den favicon, der skal bruges på websiden. Brug en absolut sti "
+"til billedets filnavn for de bedste resultater."
 
 msgid "Allow XML-RPC"
-msgstr ""
+msgstr "Tillad XML-RPC"
 
 msgid ""
 "Setting this to yes enables you to post to your blog from a desktop blog "
 "application (using the MetaWeblog API)."
 msgstr ""
+"Hvis den er sat til ja, kan du skrive til din blog fra et desktop blog-"
+"program (vha. MetaWeblog API)."
 
-#, fuzzy
 msgid "Yes, like /archive/2005/04/28/title-of-entry"
-msgstr "Ja, som /archive/2005/04/28/title_of_entry"
+msgstr "Ja, som /archive/2005/04/28/title-of-entry"
 
-#, fuzzy
 msgid "Yes, like /archive/2005-04-28/title-of-entry"
-msgstr "Ja, som /archive/2005-04-28/title_of_entry"
+msgstr "Ja, som /archive/2005-04-28/title-of-entry"
 
 msgid "Yes, like /entry/1234"
-msgstr "Ja, som /entry/1234"
+msgstr "Ja, som /indlæg/1234"
 
-#, fuzzy
 msgid "Yes, like /entry/1234/title-of-entry"
-msgstr "Ja, som /entry/1234/title_of_entry"
+msgstr "Ja, som /entry/1234/title-of-entry"
 
-#, fuzzy
 msgid "Yes, like /2005/04/28/title-of-entry"
-msgstr "Ja, som /archive/2005/04/28/title_of_entry"
+msgstr "Ja, som /2005/04/28/title-of-entry"
 
-#, fuzzy
 msgid "Yes, like /2005-04-28/title-of-entry"
-msgstr "Ja, som /archive/2005-04-28/title_of_entry"
+msgstr "Ja, som /2005-04-28/title-of-entry"
 
 msgid "Use Mod_rewrite"
 msgstr "brug Mod_rewrite"
 
-#, fuzzy
 msgid ""
 "If you use Apache's Mod_rewrite option, PivotX will make URLs like www."
 "example.org/archive/2008/05/30/nice-weather, instead of www.example.org/"
@@ -2834,21 +2657,24 @@ msgid ""
 "\"http://book.pivotx.net/page/1-14/\">Using Apache's Mod_rewrite</a> section "
 "in the PivotX book about this."
 msgstr ""
-"Hvis du anvender Apaches Mod_rewrite-indstilling, så vil Pivot lave URL-er "
-"som www.mysite.com/archive/2003/05/30/fin_tur, i steden for www.mysite.com/"
-"pivot/entry.php?id=134. Ikke alle servere understøtter dette."
+"Hvis der anvendes Apache's Mod_rewrite option, vil PivotX lave URLs som www."
+"example.org/archive/2008/05/30/nice-weather, istedet for www.example.org/"
+"index.php?e=134. Ikke alle servere understøtter det, så se venligst "
+"afsnittet <a href=\"http://book.pivotx.net/page/1-14/\">Using Apache's "
+"Mod_rewrite</a> i PivotX-bogen om det."
 
 msgid "Site 'Not Found' page (404)"
-msgstr ""
+msgstr "Sidens 'ikke fundet' side (404)"
 
-#, fuzzy
 msgid "Default 404"
-msgstr "Standard gravatar"
+msgstr "Standard 404"
 
 msgid ""
 "This page is displayed when the visitor requests a page on the site that "
 "does not exist. Leave this blank to display PivotX's default 404 page."
 msgstr ""
+"Siden vises, når gæsten henter en side, som ikke findes. Lad den være tom "
+"for at vise PivotX's standard 404 side."
 
 msgid "Allow comments by default"
 msgstr "Tilad kommentarer som standard"
@@ -2856,64 +2682,71 @@ msgstr "Tilad kommentarer som standard"
 msgid "Determine whether entries are set to allow comments or not."
 msgstr "Afgør om indlæg er sat til at tillade kommentarer eller ej."
 
-#, fuzzy
 msgid "Moderate comments"
-msgstr "Gem kommentar"
+msgstr "Moderer kommentarer"
 
 msgid ""
 "Determines whether comments must by approved before they are visible on the "
 "site."
-msgstr ""
+msgstr "Bestemmer, om kommentarer skal godkendes, før de vises på siden."
 
-#, fuzzy
 msgid "Website online"
-msgstr "Indsæt en genvej"
+msgstr "Website er online"
 
 msgid "Set your website offline for maintenance or upgrade."
-msgstr ""
+msgstr "Sæt din webside offline til vedligeholdelse eller opgradering."
 
-#, fuzzy
 msgid "Cache Settings"
-msgstr "gem indstillinger"
+msgstr "Cache-indstillinger"
 
 msgid "Use Minify in Backend"
-msgstr ""
+msgstr "Brug Minify i admin"
 
 msgid ""
 "Use Minify to group and compress Javascript and CSS files to reduce the "
 "amount of requests for all pages in the PivotX interface. Disable this if "
 "you are experiencing problems."
 msgstr ""
+"Brug Minify til at gruppere eller komprimere Javascript og CSS-filer for at "
+"reducere mængden af forespørgsler om alle sider i PivotX-interfacen. "
+"Deaktiver det, hvis du oplever problemer."
 
 msgid "Use Minify in Frontend"
-msgstr ""
+msgstr "Brug Minify i frontend"
 
 msgid ""
 "Use Minify to group and compress Javascript and CSS files to reduce the "
 "amount of requests for all pages in the website. Disable this while you're "
 "working on your Templates, or if you are experiencing problems."
 msgstr ""
+"Brug Minify til at gruppere eller komprimere Javascript og CSS-filer for at "
+"reducere mængden af forespørgsler om alle sider i websiden. Deaktiver det, "
+"når du arbejder med dine skabeloner eller hvis du oplever problemer."
 
-#, fuzzy
 msgid "Force compile templates"
-msgstr "Forsideskabelon"
+msgstr "Gennemtving kompilering af skabeloner"
 
 msgid ""
 "If you enable this, all templates will be compiled everytime. Only enable "
 "this, if you're having trouble with the templates, as this setting severely "
 "degrades performance."
 msgstr ""
+"Hvis du aktiverer dette, vil alle skabeloner blive kompileret hver gang. "
+"Aktiver det kun, hvis du har problemer med skabelonerne, da denne "
+"indstilling går ud over ydelsen."
 
 msgid "Disallow cached includes"
-msgstr ""
+msgstr "Tillad ikke cachede includes"
 
 msgid ""
 "If you enable this, all [[cached_include]] tags will work like regular "
 "[[include]] tags, without being cached."
 msgstr ""
+"Hvis dette aktiveres, vil alle [[cached_include]] mærker virke som regulære "
+"[[include]] mærker, uden at være cached."
 
 msgid "Use output caching"
-msgstr ""
+msgstr "Brug output-caching"
 
 msgid ""
 "If you enable this, all pages will be cached. This will make PivotX much "
@@ -2921,54 +2754,56 @@ msgid ""
 "issues, or you have a site with a lot of visitors. Disable this while you're "
 "working on your Templates, or if you are experiencing problems."
 msgstr ""
+"Hvis du aktiverer dette, vil alle sider blive cached. Det vil gøre PivotX "
+"meget 'lettere', så du bør altid bruge det, hvis der er problemer med "
+"ydelsen eller hvis du har en side med mange gæster. Deaktiver det, hvis du "
+"arbejder med skabelonerne, eller hvis der opstår problemer."
 
-#, fuzzy
 msgid "Show Flickr Images"
-msgstr "Vis de seneste"
+msgstr "Vis Flickr-billeder"
 
 msgid ""
 "If set to \"yes\", PivotX will fetch images with this tag from Flickr.com."
 msgstr ""
+"Hvis sat til \"Ja\", vil PivotX hente billeder med dette flag fra Flickr.com."
 
-#, fuzzy
 msgid "Number of images"
-msgstr "Antal indlæg"
+msgstr "Antal billeder"
 
 msgid "The amount of images to fetch from Flickr."
-msgstr ""
+msgstr "Det antal billeder, der skal hentes fra Flickr."
 
-#, fuzzy
 msgid "Show feeds"
-msgstr "XML: RSS-strøm (2.0)"
+msgstr "Vis feeds"
 
 msgid ""
 "If set to \"yes\", PivotX will show the buttons to fetch feeds with this tag "
 "from various sources."
 msgstr ""
+"Hvis sat til \"ja\", vil PivotX vise knapper til at hente feeds med dette "
+"mærke fra forskellige kilder."
 
-#, fuzzy
 msgid "Number of items"
 msgstr "Antal indlæg"
 
 msgid "The amount of items to fetch from each source"
-msgstr ""
+msgstr "Det antal emner, der skal hentes fra hver kilde"
 
-#, fuzzy
 msgid "Cloud size"
-msgstr "Kode"
+msgstr "Samlingens størrelse"
 
-#, fuzzy
 msgid "Minimum size"
-msgstr "Maksimum filstørrelse"
+msgstr "Minimum-størrelse"
 
-#, fuzzy
 msgid "Maximum size"
-msgstr "Maksimum filstørrelse"
+msgstr "Maximum-størrelse"
 
 msgid ""
 "The size (in pixels) used to display the tag cloud. Tags that are used more "
 "often are shown in a larger font."
 msgstr ""
+"Størrelsen (i pixels) brugt til at vise mærke-samlingen. Mærker, der er "
+"brugt hyppigere, vises med større skrift."
 
 msgid "Debug mode"
 msgstr "Fejlsøgemodus"
@@ -2977,25 +2812,29 @@ msgid ""
 "Show the Debug Bar with information about rendering times, debug notices and "
 "other information to help you develop a site."
 msgstr ""
+"Vis debug-bjælken med information om læsningstider, debug-beskeder og anden "
+"information, som kan hjælpe ved udviklingen af siden."
 
-#, fuzzy
 msgid "Log Queries"
-msgstr "Loggfiler"
+msgstr "Log forespørgsler"
 
 msgid ""
 "Log all MySQL queries in the debug log. Use this when you are investigation "
 "performance issues, but turn it off on production websites."
 msgstr ""
+"Log alle MySQL-forespørgsler i debug-loggen. Brug den, hvis der skal "
+"undersøges problemer med ydelsen, men slå den fra på aktive websider."
 
-#, fuzzy
 msgid "Log to file"
-msgstr "Indlægsdato"
+msgstr "Log til fil"
 
 msgid ""
 "Log the debug output to a file. Use this when you are investigation "
 "performance issues, but turn it off on production websites. Only works when "
 "'Debug' is enabled."
 msgstr ""
+"Log debug-output til en fil. Brug det til at undersøge ydelses-problemer, "
+"men slå det fra ved almindelig brug. Virker kun hvis 'Debug' er aktiveret."
 
 msgid "Unlink Files"
 msgstr "Kobl filer fra"
@@ -3012,15 +2851,14 @@ msgstr ""
 msgid "Chmod Files To"
 msgstr "Rediger filrettigheder (chmod) til"
 
-#, fuzzy
 msgid ""
 "Some servers require that created files are chmodded in a specific way. "
 "Common values are \"0644\" and \"0755\". Do not change this, unless you know "
 "what you're doing."
 msgstr ""
 "Nogle servere kræver at Oprettede filer får så rettighederne (chmod) på en "
-"speciel måde. Almindelige værdier er '0644' og '0755'. Ændre ikke denne, "
-"hvis du ikke er helt sikker på hvad du gør"
+"speciel måde. Almindelige værdier er \"0644\" and \"0755\". Du skal kun "
+"ændre det, hvis du ved hvad du gør."
 
 msgid "File Upload Path"
 msgstr "Sti til fil upload"
@@ -3030,6 +2868,8 @@ msgid ""
 "be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
 "well."
 msgstr ""
+"Stien til folderen, hvor de oploadede diler gemmes. Hvis du ændrer det, skal "
+"det også ændres i filen <tt>pivotx/includes/timthumb.php</tt>."
 
 msgid "Overwrite"
 msgstr "Overskriv"
@@ -3041,35 +2881,40 @@ msgid "Maximum Filesize"
 msgstr "Maksimum filstørrelse"
 
 msgid "The maximum size of files upload to your server."
-msgstr ""
+msgstr "Den maksimale filstørrelse, der kan oploades til serveren."
 
 msgid "Automatic Thumbnails"
 msgstr "Automatiske miniatyrer"
 
 msgid "Create thumbnails automatically when uploading images."
-msgstr ""
+msgstr "Lav automatisk thumbnails, når der oploades billeder."
 
 msgid "Thumbnail width"
-msgstr "Miniatyrebredde"
+msgstr "Thumbnail-bredde"
 
 msgid "Thumbnail height"
-msgstr "Miniatyrehøjde"
+msgstr "Thumbnail-højde"
 
-#, fuzzy
 msgid "Thumbnail quality"
-msgstr "Miniatyrebredde"
+msgstr "Thumbnail-kvalitet"
 
 msgid ""
 "The quality of the thumbnail PivotX creates. 0 is the lowest quality, but "
 "also the smallest file. 100 is the highest, but creates a large file. 75 is "
 "a good default. "
 msgstr ""
+"Kvaliteten af de thumbnails, som PivotX laver. 0 er den dårligste kvalitet, "
+"men også den mindste fil. 100 er det bedste, men laver store filer. 75 er en "
+"god standard. "
 
 msgid ""
 "These filetypes are acceptable for upload. Separate the different types with "
 "a comma. Be sure to use the proper mimetype. \"image/png\" is correct, while "
 "\"png\" is not."
 msgstr ""
+"Disse filtyper kan bruges til opload. Adskil de forskellige typer med komme. "
+"Sørg for at bruge den rigtige mimetype. \"image/png\" er korrekt, mens \"png"
+"\" er forkert."
 
 msgid "Full date format"
 msgstr "Fuldt datoformat"
@@ -3085,23 +2930,22 @@ msgid "Entry Date"
 msgstr "Indlægsdato"
 
 msgid "The date used when displaying the entry."
-msgstr ""
+msgstr "Den dato der bruges, når indlægget vises."
 
 msgid "Diff Date"
 msgstr "Diff Date"
 
-#, fuzzy
 msgid ""
 "The \"Diff Date\" is most commonly used in conjunction with the \"Entry Date"
 "\". The Entry Date is displayed on every entry on your log, while the Diff "
 "Date is only displayed if the date differs from the previous entry."
 msgstr ""
-"'Diff Date' er sædvanligvis anvendt i forbindelse med 'indlægsdato'. "
-"Indlægdatoen bliver vist på hvert indlæg i bloggen, mens 'Diff Date' kun "
-"bliver vist hvis datoen er forskellig fra forrige indlæg."
+"\"Diff dato\" bruges mest sammen med \"Indlægs-dato\". Indlægsdatoen vises "
+"ved hvert indlæg i bloggen, mens Diff dato kun vises, hvis datoen afviger "
+"fra den forrige."
 
 msgid "Current server time"
-msgstr ""
+msgstr "Aktuelle servertid"
 
 msgid "Time Offset Unit"
 msgstr "Tidsenhed offset"
@@ -3124,88 +2968,88 @@ msgstr "minut"
 msgid "Time Offset"
 msgstr "Tid offset"
 
-#, fuzzy
 msgid "Activate"
-msgstr "Arkiv"
+msgstr "Aktiver"
 
-#, fuzzy
 msgid "Mail server"
-msgstr "Min. brugerniveau"
+msgstr "Mail server"
 
-#, fuzzy
 msgid "Please give a proper domain name!"
-msgstr "Det er ingen gyldig e-mailadresse"
+msgstr "Angiv et rigtigt domæne-navn!"
 
-#, fuzzy
 msgid "Default author"
-msgstr "Standard gravatar"
+msgstr "Standard forfatter"
 
-#, fuzzy
 msgid "Please select a user"
-msgstr "Standard sprog"
+msgstr "Vælg en bruger"
 
-#, fuzzy
 msgid "Select a user"
-msgstr "Vælg billede"
+msgstr "Vælg en bruger"
 
 msgid "The user that the posted entries will belong to."
-msgstr ""
+msgstr "Brugeren, som det sendte indlæg vil tilhøre."
 
-#, fuzzy
 msgid "Default category"
-msgstr "Slet kategori"
+msgstr "Standard-kategori"
 
-#, fuzzy
 msgid "Please select a category"
-msgstr "- vælg et alternativ -"
+msgstr "Vælg en kategori"
 
-#, fuzzy
 msgid "Select a category"
-msgstr "Slet kategori"
+msgstr "Vælg en kategori"
 
 msgid "The category that normal messages will be posted to."
-msgstr ""
+msgstr "Den kategori, som almindelige indlæg sendes til."
 
 msgid "Use the IMAP extension"
-msgstr ""
+msgstr "Brug IMAP-endelsen"
 
 msgid "What protocol"
-msgstr ""
+msgstr "Hvilken protokol"
 
 msgid ""
 "The IMAP extension, which isn't enabled on all web servers, supports both "
 "POP3 and IMAP and is required if you need secure POP3 (as Hotmail and Gmail "
 "uses)."
 msgstr ""
+"IMAP-udvidelsen, som ikke er aktiveret på alle webservere, understøtter både "
+"POP3 og IMAP og er nødvendig, hvis du skal bruge sikker POP3 (som Hotmail og "
+"Gmail bruger)."
 
-#, fuzzy
 msgid "Allowed senders"
-msgstr "Tilladte kategorier"
+msgstr "Tilladte afsendere"
 
 msgid ""
 "Only email that has a \"From\" that matches one of the following comma "
 "separated items will be posted. You can enter complete email addresses, or "
 "partial ones."
 msgstr ""
+"Kun email der har en \"From\" der svarer til en af følgende komma-separarede "
+"emner vil blive sendt. Der kan indtastes hele eller delvise email-adresser."
 
 msgid "Use HashCash"
-msgstr ""
+msgstr "Brug HashCash"
 
 msgid ""
 "HashCash is the most powerful, completely invisible spam protection "
 "available. It requires javascript to be enabled on the client. If this is "
 "unacceptable for you, then don't enable it."
 msgstr ""
+"HashCash er det kraftigste og helt usynlige spam-beskyttelse, der findes. "
+"Den kræver, at javascript er aktiveret på klienten. Hvis det ikke kan "
+"accepteres, kan den ikke bruges."
 
-#, fuzzy
 msgid "Use Hardened Trackback"
-msgstr "Gem trackback"
+msgstr "Brug faste trackback"
 
 msgid ""
 "Hardened Trackback is a powerful trackback spam protection. It requires "
 "javascript to be enabled on the client. If this is unacceptable for you, "
 "then don't enable it."
 msgstr ""
+"Hardened Trackbac er en kraftig trackback spam-beskyttelse, der findes. Den "
+"kræver, at javascript er aktiveret på klienten. Hvis det ikke kan "
+"accepteres, kan den ikke bruges."
 
 msgid "Number of links"
 msgstr "Antal genveje"
@@ -3218,114 +3062,112 @@ msgstr ""
 "plagsomme kommentar-spammere kvit. Sæt til 0 for ubegrænset antal genveje."
 
 msgid "SpamQuiz"
-msgstr ""
+msgstr "SpamQuiz"
 
 msgid "Use SpamQuiz"
-msgstr ""
+msgstr "Brug SpamQuiz"
 
 msgid ""
 "Before sending a comment, your users have to answer correctly a simple "
 "question everyone knows the answer to. This completely baffles automated "
 "spam bots because every blogger will choose something different."
 msgstr ""
+"Før der sendes en kommentar, skal brugeren svare korrekt på et simpelt "
+"spørgsmål, som alle kender svaret på. Det sætter automatiske spambots ud af "
+"spillet, fordi hver blogger vil vælge noget andet."
 
-#, fuzzy
 msgid "Question"
-msgstr "Konvertering"
+msgstr "Spørgsmål"
 
 msgid "Example: What are the first two letters of the word \"spam\"?"
-msgstr ""
+msgstr "Eksempel: Hvad er de første to bogstaver i odet \"spam\"?"
 
 msgid "Answer"
-msgstr ""
+msgstr "Svar"
 
 msgid "Example: <b>sp</b>"
-msgstr ""
+msgstr "Eksempel: <b>sp</b>"
 
 msgid "Age"
-msgstr ""
+msgstr "Alder"
 
 msgid ""
 "Only ask for the spamquiz question, when the entry is older than the given "
 "amount of days."
 msgstr ""
+"Spørg kun efter spamquiz-spørgsmålet, når indlægget er ældre end det givne "
+"antal dage."
 
 msgid "Explanation"
-msgstr ""
+msgstr "Forklaring"
 
 msgid ""
 "Example: To prevent automated commentspam we require you to answer this "
 "silly question"
 msgstr ""
+"Eksempel: For at forebygge automatisk kommentarspam, beder vi dig besvare "
+"dette tåbelige spørgsmål"
 
-#, fuzzy
 msgid "Admin Page Extensions"
-msgstr "billedenavn"
+msgstr "Admin side-udvidelser"
 
-#, fuzzy
 msgid "Hook Extensions"
-msgstr "Standard filefternavn"
+msgstr "Tilknyt udvidelser"
 
-#, fuzzy
 msgid "Snippet Extensions"
-msgstr "Standard filefternavn"
+msgstr "Snippet-udvidelser"
 
-#, fuzzy
 msgid "Widget Extensions"
-msgstr "Standard filefternavn"
+msgstr "Widget-udvidelser"
 
-#, fuzzy
 msgid "version"
-msgstr "Konvertering"
+msgstr "version"
 
-#, fuzzy
 msgid "last updated"
-msgstr "Senest ændret den"
+msgstr "sidst opdateret"
 
-#, fuzzy
 msgid "site link"
-msgstr "Indsæt en genvej"
+msgstr "site-link"
 
-#, fuzzy
 msgid "edit configuration"
-msgstr "Konfiguration"
+msgstr "editer konfiguration"
 
-#, fuzzy
 msgid "Insert an image"
 msgstr "Indsæt et billede"
 
-#, fuzzy
 msgid "Insert a popup image"
-msgstr "Indsæt et billede"
+msgstr "Indsæt et popup-billede"
 
 msgid "all"
-msgstr ""
+msgstr "alle"
 
 msgid "Send Pings"
 msgstr "Send ping"
 
-#, fuzzy
 msgid "Oops."
-msgstr "Ups"
+msgstr "Ups."
 
-#, fuzzy
 msgid "PivotX encountered an error"
-msgstr "Pivot bruger log ind"
+msgstr "PivotX stødte på en fejl"
 
 msgid ""
 "PivotX is running in 'safe mode' now. This means all extensions are disabled "
 "until you remove the file <tt>pivotxsafemode.txt</tt> from the <tt>pivotx/</"
 "tt> folder. "
 msgstr ""
+"PivotX kører nu i 'safe mode'. Det betyder, at alle endelser er deaktiverede "
+"indtil du fjerner filen <tt>pivotxsafemode.txt</tt> fra <tt>pivotx/</tt> "
+"folder. "
 
 msgid ""
 "If an extension is breaking your PivotX, you can disable the extensions from "
 "the Extensions Setup screen, and then leave safe mode to try again. "
 msgstr ""
+"Hvis en endelse ødelægger din PivotX, kan du deaktivere endelserne fra "
+"Endelses Setup skærmen, og så forlade safe mode for at prøve igen. "
 
-#, fuzzy
 msgid "PivotX error"
-msgstr "Pivot bruger log ind"
+msgstr "PivotX fejl"
 
 #, php-format
 msgid ""
@@ -3342,73 +3184,82 @@ msgid ""
 "to check for you).</li>\n"
 "            </ol>"
 msgstr ""
+"<p>Der var et problem med databasen: </p>\n"
+"            %s\n"
+"            <p><tt>fejlkode %s: %s</tt></p>\n"
+"            </p>\n"
+"            <ul><li>Hvis du er ved at installere PivotX, bør du kigge på "
+"dine\n"
+"            <a href='%s'>Database adgangs-indstillinger</a>.</li>\n"
+"            <li>Hvis det tidigere har virket, bør du kigge om Mysql-"
+"databasen stadig\n"
+"            kører på serveren (eller bed din systemadministrator om at "
+"kontrollere for dig).</li>\n"
+"            </ol>"
 
 #, php-format
 msgid "The directory '<tt>%s</tt>' is not writeable."
-msgstr ""
+msgstr "Folderen '<tt>%s</tt>' er ikke skrivbar."
 
-#, fuzzy
 msgid "Fatal Error"
-msgstr "Pivot bruger log ind"
+msgstr "Fatal fejl"
 
 #, php-format
 msgid "The file '<tt>%s</tt>' is not writeable."
-msgstr ""
+msgstr "Filen '<tt>%s</tt>' er ikke skrivbar."
 
-#, fuzzy
 msgid "Fatal error"
-msgstr "Pivot bruger log ind"
+msgstr "Fatal fejl"
 
 #, php-format
 msgid "No templates found in directory '<tt>%s</tt>'."
-msgstr ""
+msgstr "Ingen skabelon fundet i folderen '<tt>%s</tt>'."
 
 msgid "URL to the PivotX folder is unknown"
-msgstr ""
+msgstr "URL til PivotX-folderen er ukendt"
 
 msgid "Log into PivotX to set the PivotX URL"
-msgstr ""
+msgstr "Log ind i PivotX for at sætte en PivotX URL"
 
-#, fuzzy
 msgid "PivotX is not allowed to read this folder."
-msgstr "Du har ikke lov til at gøre det med indlæg %title%!"
+msgstr "PivotX må ikke læse i denne folder."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was deleted"
-msgstr "Kommentaren er blevet slettet."
+msgstr "Filen %s blev slettet"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file has been copied: %s to %s."
-msgstr "Filen blev uploaded som '%s'."
+msgstr "Filen er kopieret: %s til %s."
 
 msgid ""
 "The file has <b>NOT</b> been copied. Check if the target folder is writable, "
 "and whether the target file does not exist."
 msgstr ""
+"Filen blev <b>IKKE</b> kopieret. Kontroller om mål-folderen er skrivbar, og "
+"om målfilen ikke findes."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The folder %s was created."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Folderen %s blev oprettet."
 
 #, php-format
 msgid "The folder %s was <b>NOT</b> created."
-msgstr ""
+msgstr "Folderen %s blev <b>IKKE</b> oprettet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was created."
-msgstr "Den nye blogg er blevet Oprettet."
+msgstr "Filen %s blev oprettet."
 
 #, php-format
 msgid "The file %s was <b>NOT</b> created."
-msgstr ""
+msgstr "Filen %s blev <b>IKKE</b> oprettet."
 
-#, fuzzy
 msgid "(Select a template)"
-msgstr "Strømskabelon"
+msgstr "(Vælg en skabelon)"
 
-#, fuzzy
 msgid "Notification from \"%site%\" - "
-msgstr "Føleikon"
+msgstr "Besked fra \"%site%\" - "
 
 msgid ""
 "Someone (you?) has requested a new password for the user '%user%' on the "
@@ -3421,152 +3272,154 @@ msgid ""
 "If you haven't asked for a new password, you can safely ignore this message. "
 "Your old password will still work as usual."
 msgstr ""
+"Nogen (msåke dig?) har bedt om et nyt password for brugeren '%user%' på "
+"PivotX-siden '%site%'.\n"
+"\n"
+"For at få dit nye password, klik på følgende link:\n"
+"\n"
+"%link%\n"
+"\n"
+"Hvis du ikke har bedt om et nyt password, kan du bare glemme denne mail. Dit "
+"gamle password vil så virke som hidtil."
 
-#, fuzzy
 msgid "Password reset"
-msgstr "Kodeord"
+msgstr "Password nulstillet"
 
 msgid "just now"
-msgstr ""
+msgstr "lige nu"
 
 msgid "a few minutes ago"
-msgstr ""
+msgstr "for få minutter siden"
 
 msgid "less than ten minutes ago"
-msgstr ""
+msgstr "for mindre end 10 minutter siden"
 
 msgid "15 minutes ago"
-msgstr ""
+msgstr "for 15 minutter siden"
 
 msgid "half an hour ago"
-msgstr ""
+msgstr "for en halv time siden"
 
 msgid "about an hour ago"
-msgstr ""
+msgstr "ca. for en time siden"
 
 msgid "an hour and a half ago"
-msgstr ""
+msgstr "for halvanden time siden"
 
 msgid "about two hours ago"
-msgstr ""
+msgstr "for to timer siden"
 
 msgid "%value% hours ago"
-msgstr ""
+msgstr "%value% timer siden"
 
 msgid "this morning"
-msgstr ""
+msgstr "i morges"
 
 msgid "yesterday morning"
-msgstr ""
+msgstr "i går morges"
 
-#, fuzzy
 msgid "this evening"
-msgstr "tretten"
+msgstr "i aften"
 
 msgid "yesterday evening"
-msgstr ""
+msgstr "i aftes"
 
 msgid "this afternoon"
-msgstr ""
+msgstr "i eftermiddags"
 
 msgid "yesterday afternoon"
-msgstr ""
+msgstr "i går eftermiddag"
 
 msgid "on %value%"
-msgstr ""
+msgstr "den %value%"
 
 msgid "1 week ago"
-msgstr ""
+msgstr "for 1 uge siden"
 
 msgid "%value% weeks ago"
-msgstr ""
+msgstr "%value% uger siden"
 
 msgid "about a month ago"
-msgstr ""
+msgstr "for en måned siden"
 
 msgid "in %value%"
-msgstr ""
+msgstr "i %value%"
 
 msgid "one year ago"
-msgstr ""
+msgstr "for et år siden"
 
 msgid "%value% years ago"
-msgstr ""
+msgstr "%value% år siden"
 
 msgid "a very long time ago"
-msgstr ""
+msgstr "for meget lang tid siden"
 
 msgid "Write"
 msgstr "Skriv"
 
 msgid "Write Error. Could not open file for writing"
-msgstr "Fejl ved skriving. Kan ikke åbne fil for skriving"
+msgstr "Fejl ved skrivning. Kan ikke åbne fil for skriving"
 
 msgid "Write Error. Could not write to file"
-msgstr "Fejl ved skriving. Kan ikke skrive til fil"
+msgstr "Fejl ved skrivning. Kan ikke skrive til fil"
 
 #, php-format
 msgid "\"%s\" posted the following comment"
-msgstr ""
+msgstr "\"%s\" skrev følgende kommentar"
 
-#, fuzzy, php-format
+#, php-format
 msgid "This is a comment on entry \"%s\""
-msgstr "Denne bestemmer formatering af kommentarer på siden for indlæg."
+msgstr "Dette er en kommentar til indlæg \"%s\""
 
-#, fuzzy
 msgid "View this entry"
-msgstr "Rediger dette indlæg"
+msgstr "Vis dette indlæg"
 
-#, fuzzy
 msgid "View this comment"
-msgstr "Slet kommentar"
+msgstr "Vis denne kommentar"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New comment on entry \"%s\""
-msgstr "Denne bestemmer formatering af kommentarer på siden for indlæg."
+msgstr "Ny kommentar til indlæg \"%s\""
 
 msgid "Notifications were sent to"
-msgstr ""
+msgstr "Beskeder er sendt til"
 
 msgid "Failed to send notifications."
-msgstr ""
+msgstr "Kunne ikke sende beskeder."
 
 #, php-format
 msgid "\"%s\" posted the following entry"
-msgstr ""
+msgstr "\"%s\" sendte følgende indlæg"
 
 msgid "View the complete entry"
-msgstr ""
+msgstr "Vis hele bidraget"
 
-#, fuzzy
 msgid "View your settings"
-msgstr "Forskellige indstillinger"
+msgstr "Vis dine indstillinger"
 
 msgid "This email was sent to"
-msgstr ""
+msgstr "Denne email blev sendt til"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New entry \"%s\""
-msgstr "Nyt indlæg"
+msgstr "Nyt indlæg \"%s\""
 
 #, php-format
 msgid "New visitor registration - %s"
-msgstr ""
+msgstr "Ny bruger-registrering - %s"
 
 #, php-format
 msgid "New visitor confirmed - %s"
-msgstr ""
+msgstr "Ny gæst bekræftet - %s"
 
-#, fuzzy
 msgid "View visitor information"
-msgstr "Bekræftelse af registrering"
+msgstr "Vis gæste-information"
 
 msgid "Example linkdump..."
-msgstr ""
+msgstr "Eksempel linkdump..."
 
-#, fuzzy
 msgid "No title.."
-msgstr "Indlægsdato"
+msgstr "Ingen titel.."
 
 msgid "%num% comment"
 msgstr "Kun en kommentar"
@@ -3577,9 +3430,8 @@ msgstr "Allerede %num% kommentarer"
 msgid "%num% trackback"
 msgstr "Kun et trackback"
 
-#, fuzzy
 msgid "%num% trackbacks"
-msgstr "Kun et trackback"
+msgstr "%num% trackbacks"
 
 msgid ""
 "The Hashcash code was not valid, so this comment could not be posted. If you "
@@ -3587,152 +3439,143 @@ msgid ""
 "that Javascript is enabled. If it still doesn't work, contact the maintainer "
 "of this website."
 msgstr ""
+"Hashcash-koden va ikke gyldig, sådenne kommentar kunne ikke sendes. Hvis du "
+"mener at det er en fejl, sørg for at du har en moderne browser og Javascript "
+"er aktiveret. Hvis det stadig ikke virker, kontakt sidens administrator."
 
 msgid ""
 "The Spamquiz answer was not correct, so this comment could not be posted. If "
 "you believe this is an error, please try again. If it still doesn't work, "
 "contact the maintainer of this website."
 msgstr ""
+"Spamquiz-svaret var forkert, så denne kommentar kunne ikke sendes. hvis du "
+"mener det var en fejl, så prøv igen. Hvis det stadig ikke virker, kontakt "
+"sidens administrator."
 
-#, fuzzy
 msgid ""
 "You are previewing your comment. Be sure to click on \"Post Comment\" to "
 "store it."
-msgstr "Vis kommentar. Klik 'Send kommentar' for at gemme den."
-
-#, fuzzy
-msgid "Your comment has not been stored, because it seems to be spam."
 msgstr ""
-"Kommentaren er ikke blevet gemt, da den ser ud til at være en duplikat af et "
-"tidligere indlæg"
+"Du viser kommentaren. Husk at klikke på \"Send kommentar\" for at gemme den."
 
-#, fuzzy
+msgid "Your comment has not been stored, because it seems to be spam."
+msgstr "Kommentaren er ikke blevet gemt, da den ser ud til at være spam."
+
 msgid ""
 "Your comment has not been stored, because it seems to be a duplicate of a "
 "previous entry."
 msgstr ""
-"Kommentaren er ikke blevet gemt, da den ser ud til at være en duplikat af et "
+"Kommentaren er ikke blevet gemt, da den ser ud til at være en dublet af et "
 "tidligere indlæg"
 
-#, fuzzy
 msgid ""
 "Your comment has been stored. Because comment moderation is enabled, it is "
 "now waiting for approval by an editor."
 msgstr ""
-"Kommentaren er ikke blevet gemt, da den ser ud til at være en duplikat af et "
-"tidligere indlæg"
+"Kommentaren er blevet gemt. Nye kommentarer skal først godkendes, den venter "
+"derfor på godkendelse fra en moderator."
 
 msgid "Your comment has been stored."
 msgstr "Din kommentar er blevet gemt."
 
-#, fuzzy
 msgid ""
 "You should type your name (or an alias) in the \"name\"-field. Be sure to "
 "click on \"Post Comment\" to store it permanently."
 msgstr ""
-"Du skal skrive dit navn (eller et alias) i 'navn'-feltet. Klik 'Send "
-"kommentar' for at gemme den permanent."
+"Du skal skrive dit navn i feltet \"navn\". Husk at klikke på \"Send kommentar"
+"\" for at gemme den permanent."
 
-#, fuzzy
 msgid ""
 "You should type something in the \"comment\"-field. Be sure to click on "
 "\"Post Comment\" to store it permanently."
 msgstr ""
-"Du skal skrive noget i 'kommentar'-feltet. Klik 'Send kommentar' for at "
-"gemme den permanent."
+"Du skal skrive noget i feltet \"kommentar\". Husk at klikke på \"Send "
+"kommentar\" for at gemme den permanent."
 
 msgid "The maximum number of hyperlinks was exceeded. Stop spamming."
 msgstr "Maksimalt antal genveje oversteget. Stop spamming."
 
-#, fuzzy
 msgid "Moderate this comment"
-msgstr "Formatering af kommentarer"
+msgstr "Moderer denne kommentar"
 
 msgid "quick docs"
-msgstr ""
+msgstr "hurtige doks"
 
 msgid "full docs"
-msgstr ""
+msgstr "komplette doks"
 
-#, fuzzy
 msgid "PivotX thumbnail creator"
-msgstr "rediger miniatyr"
+msgstr "PivotX thumbnail-generator"
 
 msgid ""
 "When using GIF files, there is a significant chance that you can't use "
 "PivotX to make thumbnails. If you have problems with making thumbnails, we "
 "suggest using PNG or JPG files."
 msgstr ""
+"Hvis der bruges GIF-filer, er der stor risiko for. at du ikke kan bruge "
+"PivotX til at lave thumbnails. Hvis du har problemer med at lave thumbnails, "
+"foreslår vi brugen af PNG eller JPG filer."
 
 msgid "You can only make thumbnails of .gif, .jpg and .png images with PivotX."
-msgstr ""
+msgstr "u kan kun lave thumbnails af .gif, .jpg og .png billeder med PivotX."
 
 msgid "Couldn't make thumbnail remotely using"
-msgstr ""
+msgstr "Kunne ikke lave thumbnails vha."
 
-#, fuzzy
 msgid "PivotX Image Cropper"
-msgstr "Pivot bruger log ind"
+msgstr "PivotX billed-beskærer"
 
-#, fuzzy
 msgid "Crop size"
-msgstr "Kode"
+msgstr "Beskær størrelse"
 
 msgid "can not be opened"
-msgstr ""
+msgstr "kan ikke åbnes"
 
 msgid "This file extension is not supported, please try JPG, GIF or PNG"
-msgstr ""
+msgstr "Denne filendelse er ikke understøttet, prøv med JPG, GIF eller PNG"
 
 #, php-format
 msgid "Error creating thumbnail for %s - no file extension found."
-msgstr ""
+msgstr "Fejl ved oprettelse af thumbnail for %s - ingen filendelse fundet."
 
 msgid "Crop type"
-msgstr ""
+msgstr "Beskæringtype"
 
-#, fuzzy
 msgid "Fixed Proportions"
-msgstr "Føleikon"
+msgstr "Faste dimensioner"
 
 msgid "Bounded Size"
-msgstr ""
+msgstr "Bundet størrelse"
 
 msgid "Free Crop"
-msgstr ""
+msgstr "Fri beskæring"
 
-#, fuzzy
 msgid "Target thumbnail will be"
-msgstr "rediger miniatyr"
+msgstr "Færdig thumbnail vil være"
 
-#, fuzzy
 msgid "Create Thumbnail"
-msgstr "(Lav miniatyrer)"
+msgstr "Opret thumbnail"
 
-#, fuzzy
 msgid "Go"
-msgstr "Gå!"
+msgstr "OK"
 
-#, fuzzy
 msgid "Back"
-msgstr "Backup"
+msgstr "Tilbage"
 
 msgid "if the thumbnail is not satisfactory"
-msgstr ""
+msgstr "hvis denne thumbnail ikke er tilfredsstillende"
 
-#, fuzzy
 msgid "Close"
-msgstr "Kode"
+msgstr "Luk"
 
 msgid "this window"
-msgstr ""
+msgstr "i morges"
 
 msgid "Added by PivotX on:"
-msgstr ""
+msgstr "Tilføjet til PivotX den:"
 
-#, fuzzy
 msgid "Added on:"
-msgstr "Oprettet den"
+msgstr "Tilføjet den:"
 
 msgid "Sunday"
 msgstr "søndag"
@@ -3762,13 +3605,13 @@ msgid "M_Monday_initial"
 msgstr "M"
 
 msgid "T_Tuesday_initial"
-msgstr "T"
+msgstr "Ti"
 
 msgid "W_Wednesday_initial"
 msgstr "O"
 
 msgid "T_Thursday_initial"
-msgstr "T"
+msgstr "To"
 
 msgid "F_Friday_initial"
 msgstr "F"
@@ -3869,21 +3712,20 @@ msgstr "nov"
 msgid "Dec_December_abbreviation"
 msgstr "dec"
 
-#, fuzzy
 msgid "am"
-msgstr "Navn"
+msgstr "den"
 
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 msgid "zero"
-msgstr "null"
+msgstr "nul"
 
 msgid "one"
 msgstr "en"
@@ -3933,101 +3775,77 @@ msgstr "femten"
 msgid "sixteen"
 msgstr "seksten"
 
-#, fuzzy
 msgid "seventeen"
-msgstr "syv"
+msgstr "sytten"
 
-#, fuzzy
 msgid "eigthteen"
-msgstr "otte"
+msgstr "atten"
 
-#, fuzzy
 msgid "nineteen"
-msgstr "ni"
+msgstr "nitten"
 
-#, fuzzy
 msgid "twenty"
-msgstr "Nyt indlæg"
+msgstr "tyve"
 
-#, fuzzy
 msgid "zeroth"
-msgstr "null"
+msgstr "nulte"
 
-#, fuzzy
 msgid "second"
-msgstr "sekund"
+msgstr "anden"
 
-#, fuzzy
 msgid "third"
-msgstr "tretten"
+msgstr "tredje"
 
-#, fuzzy
 msgid "forth"
-msgstr "fire"
+msgstr "fjerde"
 
-#, fuzzy
 msgid "fifth"
-msgstr "femten"
+msgstr "femte"
 
-#, fuzzy
 msgid "sixth"
-msgstr "seks"
+msgstr "sjette"
 
-#, fuzzy
 msgid "seventh"
-msgstr "syv"
+msgstr "syvende"
 
-#, fuzzy
 msgid "eighth"
-msgstr "otte"
+msgstr "ottende"
 
-#, fuzzy
 msgid "ninth"
-msgstr "ni"
+msgstr "niende"
 
-#, fuzzy
 msgid "tenth"
-msgstr "ti"
+msgstr "tiende"
 
-#, fuzzy
 msgid "eleventh"
-msgstr "elleve"
+msgstr "ellevte"
 
-#, fuzzy
 msgid "twelfth"
-msgstr "tolv"
+msgstr "tolvte"
 
-#, fuzzy
 msgid "thirteenth"
-msgstr "tretten"
+msgstr "trettende"
 
-#, fuzzy
 msgid "fourteenth"
-msgstr "fjorten"
+msgstr "fjortende"
 
-#, fuzzy
 msgid "fifteenth"
-msgstr "femten"
+msgstr "femtende"
 
-#, fuzzy
 msgid "sixteenth"
-msgstr "seksten"
+msgstr "sekstende"
 
-#, fuzzy
 msgid "seventeenth"
-msgstr "syv"
+msgstr "syttende"
 
-#, fuzzy
 msgid "eighteenth"
-msgstr "otte"
+msgstr "attende"
 
-#, fuzzy
 msgid "nineteenth"
-msgstr "ni"
+msgstr "nittende"
 
-#, fuzzy
 msgid "twentieth"
-msgstr "ti"
+msgstr "tyvende"
 
 #, php-format
 msgid ""
@@ -4035,6 +3853,9 @@ msgid ""
 "than PivotX requires (%s). PivotX will most likely not work correctly, until "
 "the server is updated to a newer version."
 msgstr ""
+"Den aktuelle version af PHP på serveren er %s, hvilket er en ældre version "
+"end PivotX kræver (%s). PivotX vil sikkert ikke fungere korrekt, indtil "
+"serveren er opdateret til en nyere version."
 
 msgid ""
 "This webserver has safe_mode enabled. This doesn't actually make things any "
@@ -4042,29 +3863,30 @@ msgid ""
 "off. See the documentation for more info: <a href='http://docs.pivotx.net/"
 "doku.php?id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
 msgstr ""
+"Webserveren har safe_mode aktiveret. Det gør egentlig ikke tingene mere "
+"'sikre', bare mere besværlige. Bed din udbyder om at koble det fra. Se "
+"dokumentationen for mere information: <a href='http://docs.pivotx.net/doku."
+"php?id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
 
-#, fuzzy
 msgid ""
 "The PivotX installer script \"pivotx-setup.php\" is still present in the "
 "parent folder. You should be aware that this is a potential security risk. "
 "We advise you to remove it, or to set an empty password inside it, so that "
 "it can't be executed by people with bad intentions."
 msgstr ""
-"Pivot installationsscriptet 'pivot-setup.php' er fortsat tilstede i "
-"forældremappen. Dette er en potentiel sikkerhedsrisiko. Vi anbefaler at du "
-"enten fjerner filen eller sætter et blankt kodeord sådan at det ikke kan "
-"blive anvendt af folk med stygge hensigter."
+"PivotX installations-skriptet \"pivotx-setup.php\" findes stadig i "
+"hovedfolderen. Det er en mulig sikkerhedsrisiko. Vi anbefaler at det "
+"fjernes, eller sætte et tomt password inde i det, så det ikke kan kaldes af "
+"folk med onde hensigter."
 
-#, fuzzy
 msgid ""
 "The old Pivot installer script \"pivot-setup.php\" is still present in the "
 "parent folder. Please remove it immediately since it's not used for PivotX "
 "and it is a potential security risk."
 msgstr ""
-"Pivot installationsscriptet 'pivot-setup.php' er fortsat tilstede i "
-"forældremappen. Dette er en potentiel sikkerhedsrisiko. Vi anbefaler at du "
-"enten fjerner filen eller sætter et blankt kodeord sådan at det ikke kan "
-"blive anvendt af folk med stygge hensigter."
+"PivotX installations-skriptet \"pivotx-setup.php\" findes stadig i "
+"hovedfolderen. Fjern det straks, da det ikke mere skal bruges af PivotX og "
+"det er en mulig sikkerhedsrisiko."
 
 #, php-format
 msgid ""
@@ -4072,12 +3894,18 @@ msgid ""
 "<strong>%s</strong> isn't the canonical host you want, change it on the %s "
 "screen."
 msgstr ""
+"Du er lige nu logget ind via en anden vært end den normale. Hvis <strong>%s</"
+"strong> ikke er den standard-vært, som du ønsker, skal det laves om på %s "
+"skærmen."
 
 msgid ""
 "You are currently logged in at a different location than the preferred one. "
 "This might cause problems with wrongly calculated links. Please click here "
 "to go to the correct location:"
 msgstr ""
+"Du er lige nu logget ind fra et andet sted end det normale. Det kan give "
+"problemer med forkert beregnede links. Klik her for at gå til det rigtige "
+"sted."
 
 msgid ""
 "This webserver has register_globals enabled. This is a serious potential "
@@ -4085,45 +3913,57 @@ msgid ""
 "documentation for more info: <a href='http://php.net/"
 "register_globals'>Register Globals</a>."
 msgstr ""
+"Webserveren har register_globals aktiveret. Det er en alvorlig "
+"sikkerhedsrisiko. Bed din udbyder om at koble det fra. Se PHP-"
+"dokumentationen for mere info: <a href='http://php.net/"
+"register_globals'>Register Globals</a>."
 
 msgid ""
 "Your password is not fully encrypted yet. Please go to %myinfo%, and set "
 "your password again."
 msgstr ""
+"Dit password er endnu ikke helt krypteret. Gå til %myinfo%, og indstil dit "
+"password igen."
 
-#, fuzzy
 msgid "folder "
-msgstr "Kant"
+msgstr "folder "
 
 #, php-format
 msgid ""
 "There's an executable file in one of the 'open' folders. You should remove "
 "this file immediately: <tt>%s</tt>."
 msgstr ""
+"Der er en programfil i en af de 'åbne' foldere. Du bør fjerne den med det "
+"samme: <tt>%s</tt>."
 
 msgid ""
 "If you do not know where this file came from, please report this incident on "
 "our Forum. Please keep a back-up copy of the file for our inspection."
 msgstr ""
+"Hvis du ikke ved, hvor denne fil kom fra, rapporter sagen i vores forum. Gem "
+"an kopi af filen så vi kan undersøge den."
 
 #, php-format
 msgid ""
 "One or more files inside the <tt>'%s'</tt> folder are not readable or "
 "writable by PivotX."
 msgstr ""
+"En eller flere filer inde i folderen <tt>'%s'</tt> er ikke læs- eller "
+"skrivbar for PivotX."
 
 msgid ""
 "Please log in using your FTP or Shell client, and change the filerights "
 "(chmod) so that PivotX has both read and write access to these files."
 msgstr ""
+"Log ind med din FTP eller Shell klient, og lav om på filrettighederne "
+"(chmod) så PivotX har både læse- og skriveadgang til disse filer."
 
-#, fuzzy, php-format
+#, php-format
 msgid ".. and %s more files."
-msgstr "Upload filer"
+msgstr ".. og %s flere filer."
 
-#, fuzzy
 msgid "Click for image"
-msgstr "Vis de seneste"
+msgstr "Klik for billeder"
 
 #, php-format
 msgid ""
@@ -4134,25 +3974,34 @@ msgid ""
 "Category: %s\n"
 "Introduction: %s"
 msgstr ""
+"Dit indlæg er blevet sendt! \n"
+"\n"
+"Titel: %s\n"
+"Bruger: %s\n"
+"Kategori: %s\n"
+"Introduktion: %s"
 
 msgid "Moblog entry posted"
-msgstr ""
+msgstr "Moblog indlæg sendt"
 
 msgid ""
 "Not posted: Could not parse your entry.\n"
 "\n"
 "Please report this in the PivotX forum"
 msgstr ""
+"Ikke sendt: Kunne ikke forstå dit indlæg.\n"
+"\n"
+"Rapporter det i PivotX forum"
 
 msgid "Moblog entry not posted"
-msgstr ""
+msgstr "Moblog indlæg ikke sendt"
 
 #, php-format
 msgid "Processed: %s"
-msgstr ""
+msgstr "Behandlet: %s"
 
 msgid "Tag cloud for"
-msgstr ""
+msgstr "Mærke-samling for"
 
 msgid ""
 "This page shows the global Tag Cloud for this website. Tags that are used "
@@ -4161,271 +4010,243 @@ msgid ""
 "an overview page that shows all entries and pages that are related to the "
 "Tag, as well as other relevant information."
 msgstr ""
+"Denne side viser den globale mærke-samling for denne webside. Mærker der "
+"bruges ofte er vist med en større skrift, så denne samling giver en hurtig "
+"oversigt over det, der sker på siden. Klik på et mærke for at gå til en "
+"oversigtsside, der viser indlæg og sider med forbindelse til dette mærke, "
+"samt anden relevant information."
 
 msgid "Weblog not found (404 error)"
-msgstr ""
+msgstr "Weblog ikke fundet (404 fejl)"
 
 msgid "Category not found (404 error)"
-msgstr ""
+msgstr "Kategori ikke fundet (404 fejl)"
 
 msgid "Page not found (404 error)"
-msgstr ""
+msgstr "Side ikke fundet (404 fejl)"
 
 msgid "Not found (404 error)"
-msgstr ""
+msgstr "Ikke fundet (404 fejl)"
 
 msgid "The page isn't published or doesn't exist."
-msgstr ""
+msgstr "Siden er ikke publiseret eller findes ikke."
 
 msgid "Please visit the frontpage by clicking the main title/logo."
-msgstr ""
+msgstr "Besøg forsiden ved at klikke på hovedtitlen/logoet"
 
 #, php-format
 msgid "Feed error - selected %s doesn't exists!"
-msgstr ""
+msgstr "Feed-fejl - valgte %s findes ikke!"
 
 #, php-format
 msgid "The %s \"%s\" given by the \"%s\" parameter in the URL, doesn't exist"
-msgstr ""
+msgstr "%s \"%s\" givet af \"%s\" parameteren i URLen, findes ikke"
 
-#, fuzzy
 msgid "weblog"
-msgstr "Blogger"
+msgstr "weblog"
 
-#, fuzzy
 msgid "entry"
-msgstr "Nyt indlæg"
+msgstr "indlæg"
 
-#, fuzzy
 msgid "RSS feed"
-msgstr "XML: RSS-strøm (2.0)"
+msgstr "RSS feed"
 
-#, fuzzy
 msgid "Atom feed"
-msgstr "XML: Atom-strøm"
+msgstr "Atom feed"
 
-#, fuzzy
 msgid "RSS feed for comments"
-msgstr "Ingen kommentarer"
+msgstr "RSS feed til kommentarer"
 
-#, fuzzy
 msgid "Atom feed for comments"
-msgstr "Ingen kommentarer"
+msgstr "Atom feed til kommentarer"
 
-#, fuzzy
 msgid "category"
-msgstr "Kategori"
+msgstr "kategori"
 
 #, php-format
 msgid "Note: '%s' is enabled, which affects the performance of this site."
-msgstr ""
+msgstr "Bemærk: '%s' er aktiveret, hvilket påvirker ydelsen fra denne side."
 
 #, php-format
 msgid "Note: '%s' is enabled."
-msgstr ""
+msgstr "Bemærk: '%s' er aktiveret."
 
 msgid "Minify Frontend"
-msgstr ""
+msgstr "Minify forside"
 
-#, fuzzy
 msgid "Paths"
-msgstr "billed"
+msgstr "Stier"
 
 msgid "No debug output."
-msgstr ""
+msgstr "Intet debug-output."
 
-#, fuzzy
 msgid "(more)"
-msgstr "mere"
+msgstr "(mere)"
 
 #, php-format
 msgid "%1.2f sec: Processed %d entries..."
-msgstr ""
+msgstr "%1.2f sek: Behandlede %d indlæg..."
 
 #, php-format
 msgid "Processed %d pages..."
-msgstr ""
+msgstr "Behandlede %d sider..."
 
 #, php-format
 msgid "A total of %s different words have been indexed."
-msgstr ""
+msgstr "Ialt %s forskellige ord er blevet indekseret."
 
-#, fuzzy
 msgid "Results for \"%name%\":"
-msgstr "Resultat for '%name%':"
+msgstr "Resultater for \"%name%\":"
 
-#, fuzzy
 msgid "No matches found for \"%name%\". Try something else."
-msgstr "Ingen resultater for '%name%'. Prøv med noget andet."
+msgstr "Ingen hits fundet for \"%name%\". Prøv noget andet."
 
-#, fuzzy
 msgid "Search for words used in entries and pages on this website"
-msgstr "Søg efter ord brugt i indlæg på dette websted"
+msgstr "Søg efter ord brugt i indlæg og sider på dette websted"
 
 msgid "Enter the word[s] to search for here:"
 msgstr "Skriv søgeord her:"
 
-#, fuzzy
 msgid "Enter search terms"
-msgstr "Skriv søgeord"
+msgstr "Indtast søgeord"
 
 msgid "Search!"
 msgstr "Søg!"
 
-#, fuzzy
 msgid "Both"
-msgstr "måned"
+msgstr "Begge"
 
 msgid "XML: Atom Feed"
 msgstr "XML: Atom-strøm"
 
 msgid "ok"
-msgstr ""
+msgstr "ok"
 
-#, fuzzy
 msgid "One comment"
-msgstr "Kun en kommentar"
+msgstr "En kommentar"
 
 msgid "One or more comments are waiting for approval by an editor."
-msgstr ""
+msgstr "En eller flere kommentarer afventer godkendelse fra en moderator."
 
 msgid "Emoticons"
-msgstr "Føleikon"
+msgstr "Smilie"
 
 msgid "You need to specify an URL to a feed"
-msgstr ""
+msgstr "Du skal angive en URL til en feed"
 
 msgid "Oops! I'm afraid I couldn't read the feed."
-msgstr ""
+msgstr "Ups! Jeg er bange for, at jeg ikke kunne læse denne."
 
 msgid "CSS file (stylesheet)"
-msgstr ""
+msgstr "CSS-fil (stylesheet)"
 
-#, fuzzy
 msgid "PivotX weblog theme"
-msgstr "Pivot bruger log ind"
+msgstr "PivotX weblog-tema"
 
-#, fuzzy
 msgid "XML Feed template"
-msgstr "Opret mal"
+msgstr "XML Feed-skabelon"
 
 msgid "Text file"
 msgstr "Tekstfil"
 
 msgid "PHP script"
-msgstr ""
+msgstr "PHP script"
 
-#, fuzzy
 msgid "PivotX cache file"
-msgstr "Pivot » Ny (med link)"
+msgstr "PivotX cachefil"
 
 msgid "Javascript file"
-msgstr ""
+msgstr "Javascript-fil"
 
-#, fuzzy
 msgid "MagpieRSS cache file"
-msgstr "Upload en ny fil:"
+msgstr "MagpieRSS cachefil"
 
-#, fuzzy
 msgid "PivotX Tag file"
-msgstr "Pivot » Ny (med link)"
+msgstr "PivotX mærke-fil"
 
-#, fuzzy
 msgid "PivotX Tag relations"
-msgstr "rediger miniatyr"
+msgstr "PivotX mærke-forbindelser"
 
-#, fuzzy
 msgid "Minify cache file"
-msgstr "Upload en ny fil:"
+msgstr "Minimer cache-fil"
 
-#, fuzzy
 msgid "HTML template"
-msgstr "Skabelon"
+msgstr "HTML-skabelon"
 
-#, fuzzy
 msgid "Include template"
-msgstr "Gem skabelon!"
+msgstr "Medtag skabelon"
 
-#, fuzzy
 msgid "Frontpage template"
-msgstr "Forsideskabelon"
+msgstr "Frontpage-skabelon"
 
-#, fuzzy
 msgid "Archive template"
-msgstr "Arkivsideskabelon"
+msgstr "Arkivskabelon"
 
-#, fuzzy
 msgid "Entry template"
 msgstr "Indlægsskabelon"
 
-#, fuzzy
 msgid "Page template"
-msgstr "Gem skabelon!"
+msgstr "Sideskabelon"
 
-#, fuzzy
 msgid "Searchpage template"
-msgstr "Arkivsideskabelon"
+msgstr "Søgeside-skabelon"
 
-#, fuzzy
 msgid "Apache configuration"
-msgstr "Konfiguration"
+msgstr "Apache konfiguration"
 
 msgid "PivotX 'not found' template"
-msgstr ""
+msgstr "PivotX 'fandt ikke' skabelon"
 
-#, fuzzy
 msgid "PivotX error page"
-msgstr "Pivot bruger log ind"
+msgstr "PivotX fejlside"
 
 msgid ""
 "Comment moderation is enabled on this site. This means that your comment "
 "will not be visible until it has been approved by an editor."
 msgstr ""
+"Godkendelse af kommentarer er aktiveret på denne side. Det betyder, at din "
+"kommentar ikke vil blive synlig, før den er godkendt af en redaktør."
 
-#, fuzzy
 msgid "account"
-msgstr "Slet kommentar"
+msgstr "konto"
 
-#, fuzzy
 msgid "register/login"
-msgstr "Registrer"
+msgstr "registrer/login"
 
 msgid "XML: RSS Feed"
 msgstr "XML: RSS-strøm (2.0)"
 
-#, fuzzy
 msgid "Used tags"
-msgstr "Indsæt et billede"
+msgstr "Brugte mærker"
 
-#, fuzzy
 msgid "One trackback"
-msgstr "Ingen trackback"
+msgstr "En trackback"
 
-#, fuzzy
 msgid "Trackback link"
-msgstr "Trackback-ping"
+msgstr "Trackback-link"
 
 msgid "Please enable javascript to generate a trackback url"
-msgstr ""
+msgstr "Aktiver javascript for at oprette en trackback-url"
 
 msgid "Note: The url is valid for only 15 minutes after you opened this page!"
 msgstr ""
+"Bemærk: Denne url er kun gyldig i 15 minutter efter at du har åbnet denne "
+"side!"
 
-#, fuzzy
 msgid "Click to view the trackback url"
-msgstr "Rediger trackback"
+msgstr "Klik for at se trackback-url"
 
 msgid "Tagged external link"
-msgstr ""
+msgstr "Mærket eksternt link"
 
 msgid "Entries tagged with"
-msgstr ""
+msgstr "Indlæg mærket med"
 
 msgid "words"
 msgstr "ord"
 
 msgid "image"
-msgstr "billed"
+msgstr "billede"
 
 msgid "images"
 msgstr "billeder"
@@ -4437,54 +4258,55 @@ msgid "files"
 msgstr "filer"
 
 msgid "Tags used in this posting"
-msgstr ""
+msgstr "Mærker brugt i dette indlæg"
 
 msgid "Other entries about"
-msgstr ""
+msgstr "Andre indlæg om"
 
 msgid "Please enable Javascript (and reload this page) to add any comments."
-msgstr ""
+msgstr "Aktiver Javascript (og genindlæs siden) for at tilføje kommentarer."
 
 msgid ""
 "This is the local Tag Cosmos for this weblog. The larger the tag, the more "
 "entries on this blog are related to it. The tags are ordered alphabetically. "
 "Click on any tag to find out more.<br/><br/>"
 msgstr ""
+"Dette er det lokale mærke-kosmos for denne weblog. Jo større mærket er, des "
+"flere inglæg i denne blog har forbindelse til det. Mærkerne er sorteret "
+"alfabestisk. Klik på et mærke for flere oplysninger.<br/><br/>"
 
 msgid "Tag overview for: "
-msgstr ""
+msgstr "Mærke-oversigt for:"
 
 msgid "Entries on this site with "
-msgstr ""
+msgstr "Indlæg på denne side med"
 
-#, fuzzy
 msgid "Related tags"
-msgstr "Seneste nyheder om Pivot"
+msgstr "Relaterede mærker"
 
 msgid "External feeds for"
-msgstr ""
+msgstr "Eksterne feeds for"
 
 msgid "Click icon for a list of links on"
-msgstr ""
+msgstr "Klik på ikonet for en liste med links til"
 
 msgid "Flickr images for"
-msgstr ""
+msgstr "Flickr billeder til"
 
-#, fuzzy
 msgid "No related tags"
-msgstr "Vis de seneste"
+msgstr "Ingen relaterede mærker"
 
 #, php-format
 msgid "\"%s\" posted the following trackback"
-msgstr ""
+msgstr "\"%s\" sendte følgende trackback"
 
-#, fuzzy, php-format
+#, php-format
 msgid "This is a trackback on entry \"%s\""
-msgstr "Denne bestemmer formatering af trackback på siden for indlæg."
+msgstr "Dette er en trackback til indlæg \"%s\""
 
-#, fuzzy, php-format
+#, php-format
 msgid "New trackback on entry \"%s\""
-msgstr "Denne bestemmer formatering af trackback på siden for indlæg."
+msgstr "Ny trackback til indlæg \"%s\""
 
 msgid "Log in as a registered visitor"
 msgstr "Log ind som registrert besøgende"
@@ -4501,20 +4323,17 @@ msgstr "Logget ind som"
 msgid "Log out."
 msgstr "Log ud."
 
-#, fuzzy
 msgid "Delete account."
-msgstr "Slet kommentar"
+msgstr "Slet konto."
 
 msgid "Edit your preferences"
 msgstr "Rediger dine indstillinger."
 
-#, fuzzy
 msgid "User disabled"
-msgstr "Bruger gemt!"
+msgstr "Bruger deaktiveret"
 
-#, fuzzy
 msgid "Incorrect password or username"
-msgstr "Ugyldig kodeord"
+msgstr "Forkert password eller brugernavn"
 
 msgid "Logged in"
 msgstr "Logget ind"
@@ -4553,45 +4372,40 @@ msgid "Change preferences"
 msgstr "Rediger indstillinger"
 
 msgid "The new password is <q>%pass%</q>."
-msgstr ""
+msgstr "Det nye password er <q>%pass%</q>."
 
 msgid "Oops"
 msgstr "Ups"
 
 msgid "Password reset request failed."
-msgstr ""
+msgstr "Nulstilling af password mislykkedes."
 
-#, fuzzy
 msgid "Reset password"
-msgstr "Send kodeord"
+msgstr "Nulstil password"
 
-#, fuzzy
 msgid ""
 "If you've forgotten your password, enter your username and PivotX will send "
 "you an email with a link to reset your password."
 msgstr ""
-"Hvis du har glemt kodeordet, udfyld brugernavn og e-mailadresse og så vil "
-"Pivot sende dig kodeordet på e-mail."
+"Hvis du har glemt dit password, indtast dit brugernavn, så vil PivotX sende "
+"dig en mail med et link til at nulstille dit password."
 
-#, fuzzy
 msgid "User already exists... Please pick another name."
-msgstr "brugernavn eksisterer allerede - vælg et andet navn."
+msgstr "Bruger findes allerede... vælg et andet navn."
 
-#, fuzzy
 msgid "Email address is already taken... Please use another address."
-msgstr "brugernavn eksisterer allerede - vælg et andet navn."
+msgstr "Email-adressen findes allerede... Vælg en anden"
 
 msgid "Password must be at least 4 letters long."
-msgstr ""
+msgstr "Password skal have mindst 4 tegn."
 
-#, fuzzy
 msgid ""
 "You must give your email address, since without it'll be impossible to "
 "verify your account. You can always choose not to show your address to other "
 "visitors."
 msgstr ""
-"Du må opgive en gyldig e-mailadresse, sådan at vi kan verificere din konto. "
-"Du kan også vælge at vise e-mailadressen efter kommentarene som du skriver."
+"Du skal angive din e-mailadresse, så vi kan verificere din konto. Du kan "
+"altid vælge at e-mailadressen ikke skal vises til andre gæster."
 
 msgid "The changes have been stored"
 msgstr "Ændringerne er blevet gemt"
@@ -4599,16 +4413,15 @@ msgstr "Ændringerne er blevet gemt"
 msgid "Your account is verified. Please log in.."
 msgstr "Kontoen er verificeret. Log ind."
 
-#, fuzzy
 msgid "That code seems to be incorrect. I'm sorry, but I can't verify."
-msgstr "Verifikationskoden ser ud til at være ugyldig."
+msgstr ""
+"Koden er tilsyneladende forkert. Beklager, men jeg kan ikke verificere."
 
-#, fuzzy
 msgid "A link to reset your password was sent to your mailbox."
-msgstr "Kodeord er sendt til e-mailadressen du opgav."
+msgstr "Et link til nulstilling af password er sendt til din e-mail."
 
 msgid "Account deleted."
-msgstr ""
+msgstr "Konto slettet."
 
 msgid "Logged out"
 msgstr "Logget ud"
@@ -4622,18 +4435,23 @@ msgstr "Bruger gemt!"
 msgid "Could not store new user!!"
 msgstr "Kunne ikke gemme ny bruger!!"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "You have registered as a user on PivotX \"%s\" \n"
 "\n"
-msgstr "Du har registreret dig som en ny bruger på Pivot '%s'"
+msgstr ""
+"Du har registreret dig som bruger på PivotX \"%s\" \n"
+"\n"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "To verify your account, click the following link:\n"
 "%s\n"
 "\n"
-msgstr "For at verificere din kontoen, klik på følgende genvej: %s"
+msgstr ""
+"For at verificere din konto, klik på følgende link:\n"
+"%s\n"
+"\n"
 
 msgid "Registration confirmation"
 msgstr "Bekræftelse af registrering"
@@ -4652,365 +4470,329 @@ msgstr ""
 msgid ""
 "Please enable Javascript (and reload this page) to view the email address."
 msgstr ""
+"Aktiver venligst Javascript (og genindlæs denne side) for at se email-"
+"adressen."
 
-#, fuzzy
 msgid "My weblog"
-msgstr "Blogger"
+msgstr "Min weblog"
 
 #, php-format
 msgid "Blocked login attempt from '%s'."
-msgstr ""
+msgstr "Blokeret login-forsøg fra '%s'."
 
 msgid ""
 "Too many failed login attempts from this IP address. Please contact your "
 "site administrator to unblock your account."
 msgstr ""
+"For mange mislykkede login-forsøg fra denne IP-adresse. Kontakt sidens "
+"administrator, for at få frigivet din konto."
 
 msgid "Incorrect username/password"
 msgstr "Fejl i brugernavn/kodeord"
 
-#, fuzzy
 msgid "Successfully logged in"
-msgstr "Logget ind"
+msgstr "Korrekt logget ind"
 
 #, php-format
 msgid "Failed login attempt from '%s'."
-msgstr ""
+msgstr "Mislykket login-forsøg fra '%s'."
 
 msgid "Next page"
-msgstr ""
+msgstr "Næste side"
 
-#, fuzzy
 msgid "Previous page"
-msgstr "Forrige arkiv"
+msgstr "Forrige side"
 
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
-msgstr ""
+msgstr "Viser indlæg %num_from%-%num_to% af %num_tot%"
 
 #, php-format
 msgid "%s started editing entry '%s'."
-msgstr ""
+msgstr "%s begyndte at editere indlæg '%s'."
 
 #, php-format
 msgid "%s started editing page '%s'."
-msgstr ""
+msgstr "%s begyndte at editere side '%s'."
 
 #, php-format
 msgid "%s saved entry '%s'."
-msgstr ""
+msgstr "%s gemte indlæg '%s'."
 
 #, php-format
 msgid "%s saved page '%s'."
-msgstr ""
+msgstr "%s gemte side '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged in."
-msgstr "Logget ind"
+msgstr "%s logget ind."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged out."
-msgstr "Logget ud"
+msgstr "%s loggede ud."
 
 #, php-format
 msgid "Failed login attempt for '%s'."
-msgstr ""
+msgstr "Mislykket login-forsøg for '%s'."
 
 #, php-format
 msgid "%s edited the setting for '%s'."
-msgstr ""
+msgstr "%s editerede indstillinger for '%s'."
 
 #, php-format
 msgid "%s added weblog '%s'."
-msgstr ""
+msgstr "%s tilføjede weblog '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited a weblog setting for '%s'."
-msgstr "Ændre bloggindstilliger for "
+msgstr "%s editerede en weblog-indstilling for '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted weblog '%s'."
-msgstr "Slet denne blogg."
+msgstr "%s slettede weblog '%s'."
 
 #, php-format
 msgid "%s saved the file '%s'."
-msgstr ""
+msgstr "%s gemte filen '%s'."
 
 #, php-format
 msgid "%s added user '%s'."
-msgstr ""
+msgstr "%s tilføjede bruger '%s'."
 
 #, php-format
 msgid "%s edited user '%s'."
-msgstr ""
+msgstr "%s editerede bruger '%s'."
 
 #, php-format
 msgid "%s deleted user '%s'."
-msgstr ""
+msgstr "%s slettede bruger '%s'."
 
 #, php-format
 msgid "%s edited category '%s'."
-msgstr ""
+msgstr "%s editerede kategori '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted category '%s'."
-msgstr "Slet kategori"
+msgstr "%s slettede kategori '%s'."
 
 #, php-format
 msgid "%s added chapter '%s'."
-msgstr ""
+msgstr "%s tilføjede kapitel '%s'."
 
 #, php-format
 msgid "%s edited chapter '%s'."
-msgstr ""
+msgstr "%s editerede kapitel '%s'."
 
 #, php-format
 msgid "%s did '%s' on '%s'."
-msgstr ""
+msgstr "%s gjorde '%s' den '%s'."
 
 #, php-format
 msgid "%s did '%s'."
-msgstr ""
+msgstr "%s gjorde '%s'."
 
 msgid "Your new password is %pass%."
-msgstr ""
+msgstr "Dit nye  password er %pass%."
 
-#, fuzzy
 msgid "Setup user"
-msgstr "Slet bruger"
+msgstr "Tilpas bruger"
 
-#, fuzzy
 msgid "Setup a new user"
-msgstr "Registrer et nyt brugernavn."
+msgstr "Tilpas en ny bruger"
 
 msgid "The user has been added! You can login with your new account now."
-msgstr ""
+msgstr "Brugeren er blevet tilføjet! Du kan logge ind på din nye konto nu."
 
-#, fuzzy
 msgid "The entries were published."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlæggene blev publiseret."
 
-#, fuzzy
 msgid "The entries could not be published."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlæggene kunne ikke publiseres."
 
-#, fuzzy
 msgid "The entries were put on hold."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlæggene blev lagt klar."
 
-#, fuzzy
 msgid "The entries could not be put on hold."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlæggene kunne ikke lægges klar."
 
-#, fuzzy
 msgid "The entries were deleted."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlæggene blev slettet."
 
-#, fuzzy
 msgid "The entries could not be deleted."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlæggene kunne ikke slettes."
 
-#, fuzzy
 msgid "You are not allowed to delete this entry."
-msgstr "Du har ikke lov til at gøre det med indlæg %title%!"
+msgstr "Du må ikke slette dette indlæg."
 
-#, fuzzy
 msgid "The entry has been deleted"
-msgstr "Kommentaren er blevet slettet."
+msgstr "Indlægget er blevet slettet"
 
-#, fuzzy
 msgid "Your Extension settings have been stored."
-msgstr "Bloggen er blevet opdateret."
+msgstr "Dine udvidelsesindstillinger er blevet gemt."
 
-#, fuzzy
 msgid "Manage installed Widget extensions"
-msgstr "Standard filefternavn"
+msgstr "Administrer indstallerede widget-udvidelser"
 
 msgid "Edit Entry"
 msgstr "Rediger indlæg"
 
-#, fuzzy
 msgid "You are not allowed to edit this entry."
-msgstr "Du har ikke lov til at gøre det med indlæg %title%!"
+msgstr "Du må ikke editere dette indlæg."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Your entry \"%s\" was successfully saved."
-msgstr "Dit indlæg '%s' blev gemt uden problemer."
+msgstr "Dit indlæg \"%s\" blev gemt korrekt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Your entry \"%s\" was NOT successfully saved."
-msgstr "Dit indlæg '%s' blev gemt uden problemer."
+msgstr "Dit indlæg \"%s\" blev IKKE gemt korrekt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "A trackback ping has been sent to \"%s\"."
-msgstr "Et trackback-ping er blevet sendt til '%s'."
+msgstr "Et trackback-ping er sendt til \"%s\"."
 
-#, fuzzy
 msgid "Log out"
-msgstr "Log ud."
+msgstr "Log ud"
 
-#, fuzzy
 msgid "You are now logged out of PivotX"
-msgstr "Du har ikke lov til at poste i kategorien: '%s'."
+msgstr "Du er nu logget ud af PivotX"
 
 msgid "My Settings"
 msgstr "Mine indstillinger"
 
-#, fuzzy
 msgid "Add a Bookmarklet"
-msgstr "Tilføj bogmærke"
+msgstr "Tilføj et bogmærke"
 
 msgid "Some fields were not correct. Please try again."
-msgstr ""
+msgstr "Nogle felter var ikke korrekte. Prøv igen."
 
-#, fuzzy
 msgid "Your settings have been updated."
-msgstr "Bloggen er blevet opdateret."
+msgstr "Dine indstilinger er blevet opdateret."
 
 msgid ""
 "Add a personal 'Quick post' Bookmarklet to your browser, with the following "
 "link. Drag the link to your browser's Bookmark Toolbar, or right-click the "
 "link, and choose 'Add Bookmark'."
 msgstr ""
+"Tilføj et personligt 'Hurtig post' bogmærke til din browser, med følgende "
+"link. Træk linket til browserens bogmærke-værktøjslinje, eller højreklik på "
+"linket og vælg 'Tilføj bogmærke'."
 
-#, fuzzy
 msgid "Post to PivotX"
-msgstr "Om"
+msgstr "Send til PivotX"
 
 msgid "Edit my personal Settings"
 msgstr "Ændre mine personlige indstillinger"
 
 msgid "You must add the Bookmarklet to your browser before you can use it."
 msgstr ""
+"Du skal tilføje denne Bookmarklet til din browser før du kan bruge den."
 
-#, fuzzy
 msgid "You are not allowed to edit this page."
-msgstr "Du har ikke lov til at poste i kategorien: '%s'."
+msgstr "Du må ikke editere denne side."
 
-#, fuzzy
 msgid "You are not allowed to delete this chapter."
-msgstr "Du har ikke lov til at poste i kategorien: '%s'."
+msgstr "Du må ikke slette dette kapitel."
 
-#, fuzzy
 msgid "The Chapter has been deleted."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Kapitlet er blevet slettet."
 
-#, fuzzy
 msgid "You are not allowed to delete this page."
-msgstr "Du har ikke lov til at poste i kategorien: '%s'."
+msgstr "Du må ikke slette denne side."
 
-#, fuzzy
 msgid "The Page has been deleted."
-msgstr "Bloggen er blevet slettet."
+msgstr "Siden er blevet slettet."
 
-#, fuzzy
 msgid "You are not allowed to add/edit this page."
-msgstr "Du har ikke lov til at poste i kategorien: '%s'."
+msgstr "Du må ikke tilføje/editere denne side."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The settings for chapter '%s' have been updated."
-msgstr "Bloggen er blevet opdateret."
+msgstr "Indstillinger for kapitel '%s' er blevet opdateret."
 
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
-msgstr ""
+msgstr "Editer eller slet trackback til indlæg %number% - %editlink%"
 
-#, fuzzy
 msgid "The trackback was deleted."
-msgstr "Trackbacket er blevet gemt."
+msgstr "Denne trackback er blevet slettet."
 
-#, fuzzy
 msgid "The IP-address has been added to the blocklist."
-msgstr "IP-adresserne er blevet gemt."
+msgstr "IP-adressen er føjet til blokeringslisten."
 
 msgid "The IP-address couldn't be added to the blocklist."
-msgstr ""
+msgstr "IP-adressen kunne ikke tilføjes til blokeringslisten."
 
-#, fuzzy
 msgid "The IP-address has been removed from the blocklist."
-msgstr "IP-adresserne er blevet gemt."
+msgstr "IP-adressen er fjernet fra blokeringslisten."
 
-#, fuzzy
 msgid "The IP-address couldn't be removed from the blocklist."
-msgstr "IP-adresserne er blevet gemt."
+msgstr "IP-adressen kunne ikke fjernes fra blokaringslisten."
 
-#, fuzzy
 msgid "Edit or Delete the Latest Trackbacks"
-msgstr "Ændre eller slette trackbacks"
+msgstr "Ændre eller slette nyeste trackbacks"
 
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
-msgstr ""
+msgstr "Editer eller slet kommentarer til indlæg %number% - %editlink%"
 
-#, fuzzy
 msgid "The comment was deleted."
 msgstr "Kommentaren er blevet slettet."
 
 msgid "Edit or Delete Comments in the Moderation Queue and Latest Comments"
-msgstr ""
+msgstr "Editer eller slet kommentarer i moderations-køen og nyeste kommentarer"
 
 msgid "Edit or Delete Comments"
 msgstr "Ændre eller slet kommentarer"
 
-#, fuzzy
 msgid "The Comment was saved!"
-msgstr "Kommentaren er blevet gemt."
+msgstr "Kommentaren er blevet gemt!"
 
 msgid "You have to select an entry in order to view its comments."
-msgstr ""
+msgstr "Du skal vælge et indlæg for at se dets kommentarer."
 
 msgid "Edit or Delete Trackbacks"
 msgstr "Ændre eller slette trackbacks"
 
-#, fuzzy
 msgid "The Trackback was saved!"
-msgstr "Trackbacket er blevet gemt."
+msgstr "Denne trackback er blevet gemt!"
 
 msgid "You have to select an entry in order to view its trackback."
-msgstr ""
+msgstr "Du skal vælge et indlæg for at se dets trackback."
 
 msgid "Upload Files"
 msgstr "Upload filer"
 
-#, fuzzy
 msgid "The visitor account has been deleted."
-msgstr "Trackbacket er blevet slettet."
+msgstr "Gæstekontoen er blevet slettet."
 
 msgid "Failed to deleted the visitor account."
-msgstr ""
+msgstr "Kunne ikke slette gæstekontoen."
 
-#, fuzzy
 msgid "The category was deleted."
-msgstr "Kommentaren er blevet slettet."
+msgstr "Kategorien er blevet slettet."
 
 msgid "The weblog has been deleted."
 msgstr "Bloggen er blevet slettet."
 
-#, fuzzy
 msgid "The weblog was exported as a Theme file."
-msgstr "Bloggen er blevet slettet."
+msgstr "Bloggen er blevet eksporteret som en temafil."
 
 msgid "Create New Weblog"
-msgstr "Opret ny blogg"
+msgstr "Opret ny blog"
 
-#, fuzzy
 msgid "Common settings"
-msgstr "Kommentarindstillinger"
+msgstr "Generelle indstillinger"
 
-#, fuzzy
 msgid "Database"
-msgstr "Dato"
+msgstr "Database"
 
-#, fuzzy
 msgid "Debug"
 msgstr "Fejlsøgemodus"
 
-#, fuzzy
 msgid "File Uploads"
-msgstr "Sti til fil upload"
+msgstr "Fil-uploads"
 
-#, fuzzy
 msgid "Date / Time"
 msgstr "Dato/Tid"
 
-#, fuzzy
 msgid "Moblogging"
 msgstr "Moblogger"
 
@@ -5025,43 +4807,40 @@ msgid "Rebuild the Search Index"
 msgstr "Opdater søgeindekset"
 
 msgid "Rebuild the Searchindex, to allow searching in entries"
-msgstr "Genopbyg søgeindeks sådan at folk kan søge i indlægene"
+msgstr "Genopbyg søgeindeks sådan at folk kan søge i indlæggene"
 
 msgid ""
 "Now building Search Index. This may take a short while, so please do not "
 "interrupt."
 msgstr "Bygger søgeindeks nu. Dette kan tage lidt tid, så afbryd ikke."
 
-#, fuzzy
 msgid "Rebuild the Tag Index"
-msgstr "Opdater indekset"
+msgstr "Genopbyg mærke-indeks"
 
-#, fuzzy
 msgid ""
 "Now building Tag Index. This may take a short while, so please do not "
 "interrupt."
-msgstr "Bygger indeks nu. Dette kan tage lidt tid, så afbryd ikke."
+msgstr "Bygger nu mærke-indeks nu. Dette kan tage lidt tid, så afbryd ikke."
 
 msgid ""
 "NB! Backup the (entries) database using your ISP control panel or the "
 "command line."
 msgstr ""
+"NB! Lav backup af (indlægs-)databasen med din udbyders kontrolpanel eller "
+"via commandline."
 
 #, php-format
 msgid "deleted %s cache files in %s seconds."
-msgstr ""
+msgstr "slettede %s cache-filer på %s sekunder."
 
-#, fuzzy
 msgid "Explore files"
-msgstr "Upload filer"
+msgstr "Udforsk filer"
 
-#, fuzzy
 msgid "Spam configuration"
-msgstr "Konfiguration"
+msgstr "Spam-konfiguration"
 
-#, fuzzy
 msgid "Spam configuration saved."
-msgstr "Konfiguration"
+msgstr "Spam-konfiguration gemt"
 
 msgid "Blocked Phrases"
 msgstr "Blokkerede udtryk"
@@ -5070,16 +4849,18 @@ msgid "View and Edit the Blocked Phrases to combat spam."
 msgstr "Vis og ændre de blokkede udtryk."
 
 msgid "Update the Global Phrases List"
-msgstr ""
+msgstr "Opdater den globale fraseliste"
 
 msgid "Update the global phrases list from pivotx.net"
-msgstr ""
+msgstr "Opdater den globale fraseliste fra pivotx.net"
 
 msgid "Spam Washer"
-msgstr ""
+msgstr "Spam Washer"
 
 msgid "Search for spam, and delete all of it from your entries and trackbacks."
 msgstr ""
+"Søg efter spam, og slet det hele fra dine indlæg og trackbacks (link til "
+"indlægget)."
 
 msgid "IP blocks"
 msgstr "IP-blokker"
@@ -5088,77 +4869,70 @@ msgid "View and Edit the blocked IP addresses."
 msgstr "Vis og ændre de blokkerede IP-adresser."
 
 msgid "Spam log reset."
-msgstr ""
+msgstr "Nulstil spam log."
 
 #, php-format
 msgid "The user '<tt>%s</tt>' does not exist."
-msgstr ""
+msgstr "Brugeren '<tt>%s</tt>' findes ikke."
 
-#, fuzzy
 msgid "The user was deleted"
-msgstr "Kommentaren er blevet slettet."
+msgstr "Brugeren er blevet slettet."
 
-#, fuzzy
 msgid "Email already in use"
-msgstr "Brugernavn er allerede i brug"
+msgstr "Email er allerede i brug"
 
-#, fuzzy
 msgid "Nickname already in use"
 msgstr "Brugernavn er allerede i brug"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The settings for user %s have been updated."
-msgstr "Bloggen er blevet opdateret."
+msgstr "Indstillinger for bruger %s er blevet opdateret."
 
 msgid ""
 "You are not allowed to create users with userlevel administrator or higher"
-msgstr ""
+msgstr "Du må ikke oprette brugere med brugerniveau administrator eller højere"
 
 msgid "Username already in use"
 msgstr "Brugernavn er allerede i brug"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The user %s has been created."
-msgstr "Den nye blogg er blevet Oprettet."
+msgstr "Brugeren %s er blevet oprettet."
 
 msgid "No account found for visitor."
-msgstr ""
+msgstr "Ingen konto fundet for gæst."
 
-#, fuzzy
 msgid "Visitor account updated."
-msgstr "Trackbacket er blevet slettet."
+msgstr "Gæstekonto opdateret."
 
 msgid "A category by this name already exists"
 msgstr "En kategori med dette navn findes allerede"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The settings for category '%s' have been updated."
-msgstr "Bloggen er blevet opdateret."
+msgstr "Indstillingerne for kategori '%s' er blevet opdateret."
 
 msgid "Edit Weblog"
-msgstr "Rediger blogg "
+msgstr "Rediger weblog"
 
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Your page \"%s\" was successfully saved."
-msgstr "Dit indlæg '%s' blev gemt uden problemer."
+msgstr "Din side \"%s\" blev gemt korrekt."
 
 msgid "Edit Comment"
 msgstr "Rediger kommentar"
 
-#, fuzzy
 msgid "The Comment was disapproved!"
-msgstr "Kommentaren er blevet gemt."
+msgstr "Kommentaren er blevet afvist!"
 
-#, fuzzy
 msgid "The Comment was approved!"
-msgstr "Kommentaren er blevet gemt."
+msgstr "Kommentaren er blevet godkendt!"
 
-#, fuzzy
 msgid "link"
-msgstr "Genveje"
+msgstr "genvej"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
