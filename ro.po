@@ -1,22 +1,19 @@
 # Translation of PivotX to Romanian.
-# Copyright (C) 2008 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
-# Nick Laurentiu Nica <nick.laurentiu.nica@gmail.com>, 2008-2009.
+# Nick Laurentiu Nica <nick.laurentiu.nica@gmail.com>, 2008-2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.1.0\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-01-10 23:59+0100\n"
-"PO-Revision-Date: 2009-06-03 11:00+0200\n"
+"PO-Revision-Date: 2011-02-26 20:52+0200\n"
 "Last-Translator: Laurentiu Nica <nick.laurentiu.nica@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Romanian\n"
-"X-Poedit-Country: ROMANIA\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 msgid "%n visitors on this page"
 msgstr "%n vizitatori pe aceasta pagina"
@@ -31,7 +28,7 @@ msgid "This month"
 msgstr "Luna aceasta"
 
 msgid "This week"
-msgstr "Aceasta saptamana"
+msgstr "Saptamana aceasta"
 
 msgid "Today"
 msgstr "Astazi"
@@ -42,22 +39,20 @@ msgstr "Cuvant cheie"
 msgid "Frequency"
 msgstr "Frecventa"
 
-#, fuzzy
 msgid "Previous Month"
-msgstr "Contributori anteriori"
+msgstr "Luna Anterioara"
 
-#, fuzzy
 msgid "Next Month"
-msgstr "Luna"
+msgstr "Luna Urmatoare"
 
 msgid "Start day of the week"
-msgstr ""
+msgstr "Ziua de inceput a saptamanii"
 
 msgid "Error"
 msgstr "Eroare"
 
 msgid "Select the day of the week you wish the calendar to start on."
-msgstr ""
+msgstr "Selecteaza ziua saptamanii cu care vrei sa inceapa calendarul."
 
 msgid "Select"
 msgstr "Selecteaza"
@@ -80,17 +75,14 @@ msgstr "Incarca o imagine"
 msgid "Upload"
 msgstr "Incarca"
 
-#, fuzzy
 msgid "Gallery"
-msgstr "toate"
+msgstr "Galerie"
 
-#, fuzzy
 msgid "Edit Gallery"
-msgstr "Editare Categorie"
+msgstr "Editare Galerie"
 
-#, fuzzy
 msgid "Add an image"
-msgstr "Incarca o imagine"
+msgstr "Adauga o imagine"
 
 msgid "Add"
 msgstr "Adauga"
@@ -106,25 +98,27 @@ msgid "Upload a file"
 msgstr "Incarca un fisier"
 
 msgid "UA tracking code"
-msgstr ""
+msgstr "Cod de tracking UA"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
-msgstr ""
+msgstr "Eroare - trebuie introdus sub forma UA-xxxxxx-x"
 
 msgid ""
 "Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
 "Check your account information after logging in to Google Analytics"
 msgstr ""
+"Introdu codul tau personal de la Google Analytics. Acesta arata cam asa  UA-"
+"xxxxxx-x. Verifica-ti informatiile despre cont dupa ce te autentifici in "
+"Google Analytics"
 
 msgid "Google account login"
-msgstr ""
+msgstr "Autentificare in contul Google"
 
 msgid "Error - input needs to be text"
-msgstr ""
+msgstr "Eroare - inserarea trebuie sa fie text"
 
-#, fuzzy
 msgid "Google account password"
-msgstr "Autor implicit"
+msgstr "Parola cont Google"
 
 #, php-format
 msgid ""
@@ -133,37 +127,41 @@ msgid ""
 "doing this, click %sthis link%s to test the login, and fetch the id, to fill "
 "in below."
 msgstr ""
+"Daca vrei sa afisezi un sumar al statisticilor pe pagina principala, "
+"completeaza specificatiile unui Cont Google care are acces la aceste "
+"statistici. Dupa ce faci aceasta, apasa pe %sacest link%s pentru a testa "
+"autentificarea, si cauta id-ul pentru a-l pune mai jos."
 
 msgid "Profile ID"
-msgstr ""
+msgstr "ID de profil"
 
 msgid "Error - input needs to be a number"
-msgstr ""
+msgstr "Eroare - inserarea trebuie sa fie un numar"
 
 msgid ""
 "The (secret) Profile ID number, that will be used to display the reports. "
 "See above, on how to get this number."
 msgstr ""
+"Numarul (secret) de ID de Profil, care va fi folosit pentru a afisa "
+"rapoartele. Vezi mai sus despre cum sa obti acest numar."
 
 msgid "Advanced Configuration"
-msgstr "Configuratie Avansata"
+msgstr "Configurare Avansata"
 
 msgid "Use AdSense Analytics Code"
-msgstr ""
+msgstr "Foloseste Codul AdSense Analytics"
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Ups! Ma tem ca nu am putut citi feed-ul de la Google Calendar."
 
-#, fuzzy
 msgid "My Calendar"
-msgstr "Calendar"
+msgstr "Calendarul Meu"
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "That's not a proper ID!"
-msgstr "Acesta nu este un Nickname adecvat!"
+msgstr "Acesta nu este un ID adecvat!"
 
 msgid ""
 "The ID of your <a href='http://www.google.com/calendar/'>Google Calendar</"
@@ -172,21 +170,23 @@ msgid ""
 "the ID in the 'Calendar Address' box on the 'Calendar Details' tab when you "
 "have selected a specific calendar on the settings page."
 msgstr ""
+"ID-ul de la <a href='http://www.google.com/calendar/'>Google Calendar-ul "
+"tau</a>. Acesta este adresa ta Gmail sau ceva de genul "
+"<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. Vei gasi ID-"
+"ul in casuta 'Adresa Calendar' pe tab-ul 'Detalii Calendar' atunci cand ai "
+"selectat un calendar specific de pe pagina cu setarile."
 
-#, fuzzy
 msgid "Maximum items"
-msgstr "Marimea Maxima"
+msgstr "Numarul maxim de info"
 
-#, fuzzy
 msgid "That's not a proper value!"
-msgstr "Acesta nu este un nume de user adecvat!"
+msgstr "Acesta nu este o valoare adecvata!"
 
-#, fuzzy
 msgid "The maximum amount of items to show from your Calendar."
-msgstr "Numarul de obiecte de produs din fiecare sursa"
+msgstr "Numarul maxim de info de aratat din Calendarul tau."
 
 msgid "Only include future events"
-msgstr ""
+msgstr "Include doar evenimentele viitoare"
 
 msgid "No"
 msgstr "Nu"
@@ -194,90 +194,80 @@ msgstr "Nu"
 msgid "Yes"
 msgstr "Da"
 
-#, fuzzy
 msgid "Sort items by"
-msgstr "Arata mai multe obiecte"
+msgstr "Sorteaza dupa"
 
-#, fuzzy
 msgid "Start time"
-msgstr "Statistici"
+msgstr "Timpul de inceput"
 
-#, fuzzy
 msgid "Updated time"
-msgstr "Incarca imagini"
+msgstr "Timpul cand s-a actualizat"
 
-#, fuzzy
 msgid "Order items"
-msgstr "Ordine"
+msgstr "Ordoneaza dupa"
 
-#, fuzzy
 msgid "Ascending"
-msgstr "Setari afisare Data"
+msgstr "Crescator"
 
-#, fuzzy
 msgid "Descending"
-msgstr "Setari afisare Data"
+msgstr "Descrescator"
 
-#, fuzzy
 msgid "Widget Style"
-msgstr "Widget-uri"
+msgstr "Stil Widget"
 
-#, fuzzy
 msgid "That's not a proper style!"
-msgstr "Acesta nu este un nume de site adecvat!"
+msgstr "Acesta nu este un stil adecvat!"
 
-#, fuzzy
 msgid "Select the style to use for this widget."
-msgstr "Selecteaza schema de culoare de folosit pentru widget."
+msgstr "Selecteaza stilul de folosit pentru acest widget."
 
-#, fuzzy
 msgid "Header format"
-msgstr "Sectiunea de Suport"
+msgstr "Formatare Header"
 
-#, fuzzy
 msgid "Error!"
-msgstr "Eroare"
+msgstr "Eroare!"
 
-#, fuzzy
 msgid "Output format"
-msgstr "Format Data completa"
+msgstr "Format productie"
 
 msgid "Format for start date"
-msgstr ""
+msgstr "Formatul datei de inceput"
 
 msgid ""
 "Define the start date format using the standard PivotX <a href=\"http://book."
 "pivotx.net/page/app-d\">date formatting options</a>."
 msgstr ""
+"Defineste formatul datei de inceput folosind standardul PivotX cu <a href="
+"\"http://book.pivotx.net/page/app-d\">optiuni de formatare a datei</a>."
 
-#, fuzzy
 msgid "Format for end date"
-msgstr "Formatul Comentariilor"
+msgstr "Formatul datei de final"
 
 msgid ""
 "Define the end date format using the standard PivotX <a href=\"http://book."
 "pivotx.net/page/app-d\">date formatting options</a>."
 msgstr ""
+"Defineste formatul datei de sfarsit folosind standardul PivotX de <a href="
+"\"http://book.pivotx.net/page/app-d\">optiuni de formatare a datei</a>."
 
-#, fuzzy
 msgid "Footer format"
-msgstr "Format Data completa"
+msgstr "Formatul Footer-ului"
 
 msgid "Use only as snippet"
-msgstr ""
+msgstr "Foloseste doar ca snippet"
 
 #, php-format
 msgid "Yes, I don't want %s to appear among the widgets."
-msgstr ""
+msgstr "Da, nu vreau ca %s sa apara printre widget-uri."
 
 msgid "Google Maps API key"
 msgstr "Cheia API de la Google Maps"
 
 msgid "Default width of map"
-msgstr "Marime implicita harta"
+msgstr "Lungime (w) implicita harta"
 
 msgid "Default height of map"
-msgstr "Latime implicita harta"
+msgstr "Inaltime (h) implicita harta"
 
 msgid "Default zoom for map"
 msgstr "Zoom implicit pentru harta"
@@ -288,12 +278,11 @@ msgstr "Latitudinea implicita pentru harta"
 msgid "Default longitude for map"
 msgstr "Longitudinea implicita pentru harta"
 
-#, fuzzy
 msgid "Default map type"
-msgstr "Sablon Normal"
+msgstr "Tipul implicit de harta"
 
 msgid "Preserve viewport when inserting KML files"
-msgstr ""
+msgstr "Pastreaza viewport-ul cand se insereaza fisierele KML"
 
 msgid "Red"
 msgstr "Rosu"
@@ -320,25 +309,24 @@ msgid "The name you use to log in at <a href='http://last.fm'>Last.fm</a>."
 msgstr "Numele cu care te autentifici la <a href='http://last.fm'>Last.fm</a>."
 
 msgid "Playing \"%nicefilename%\"."
-msgstr ""
+msgstr "Ruleaza \"%nicefilename%\"."
 
-#, fuzzy
 msgid "Youtube video \"%basename%\"."
 msgstr "Video YouTube \\'%basename%\\'"
 
-#, fuzzy
 msgid "Vimeo video \"%basename%\"."
-msgstr "Video YouTube \\'%basename%\\'"
+msgstr "Video Vimeo \\'%basename%\\'"
 
 msgid "Video \"%nicefilename%\""
-msgstr ""
+msgstr "Video \"%nicefilename%\"."
 
 msgid "This page requires a password to view. Please give the password."
 msgstr ""
+"Aceasta pagina are nevoie de parola pentru a putea fi accesata. Introduce-ti "
+"parola."
 
-#, fuzzy
 msgid "You don't have access to this page"
-msgstr "Nu ai permisiunea sa accesezi aceasta zona din Pivot"
+msgstr "Nu ai acces la aceasta pagina"
 
 msgid ""
 "You didn't provide the correct password to access the requested entry. If "
@@ -346,61 +334,60 @@ msgid ""
 "the password, you could ask the owner of the website to get access to the "
 "entry."
 msgstr ""
+"Nu ai introdus parola corecta pentru a accesa intrarea solicitata. Daca ai "
+"tastat gresit, mergi inapoi si incearca iar. <br /><br />Daca nu stii "
+"parola, ai putea cere proprietarului acestui site sa iti acorde acces la "
+"intrare."
 
 msgid "Enable password protection"
-msgstr ""
+msgstr "Permite protejare cu parola"
 
 msgid "Yes, allow for entries to be password protected."
-msgstr ""
+msgstr "Da, permite intrarilor sa fie protejate cu parola."
 
-#, fuzzy
 msgid "Default password"
-msgstr "Autor implicit"
+msgstr "Parola implicita"
 
 msgid "This is the password that's requested when no other password is given."
 msgstr ""
+"Aceasta este parola de care e nevoie atunci cand nu este data alta parola."
 
-#, fuzzy
 msgid "Password question"
-msgstr "Resetare parola"
+msgstr "Intrebare parola"
 
 msgid ""
 "This is the text that people see, when they're being asked for the password."
-msgstr ""
+msgstr "Acesta este textul care-l vad oamenii atunci cand li se cere parola."
 
-#, fuzzy
 msgid "Access for logged in users"
-msgstr "Stai autentificat?"
+msgstr "Acces pentru userii autentificati"
 
 msgid "Yes, don't require a password from a user that is logged in."
-msgstr ""
+msgstr "Da, nu cere o parola de la un user care este autentificat."
 
-#, fuzzy
 msgid "'No access' template"
-msgstr "Sablon Pagina"
+msgstr "Sablon 'Nu aveti acces'"
 
 msgid "When the user is not granted access, show this template."
-msgstr ""
+msgstr "Cand nu i se ofera acces userului, arata-i acest sablon."
 
-#, fuzzy
 msgid "'No access' title"
-msgstr "Data Intrarii"
+msgstr "Titlul 'Nu aveti acces'"
 
 msgid "When the user is not granted access, show this title."
-msgstr ""
+msgstr "Cand nu i se ofera acces userului, arata-i acest titlu."
 
 msgid "'No access' text"
-msgstr ""
+msgstr "Textul 'Nu aveti acces'"
 
 msgid "When the user is not granted access, show this text."
-msgstr ""
+msgstr "Cand nu i se ofera acces userului, arata-i acest text."
 
-#, fuzzy
 msgid "Password Protect"
-msgstr "Resetare parola"
+msgstr "Protejare parola"
 
 msgid "Yes, protect this page with a password."
-msgstr ""
+msgstr "Da, protejeaza aceasta pagina cu o parola."
 
 msgid "Password"
 msgstr "Parola"
@@ -408,69 +395,73 @@ msgstr "Parola"
 msgid ""
 "Specify the required password, or leave blank to use the default password."
 msgstr ""
+"Specifica parola de care e nevoie, ori lasa gol pentru a folosi parola "
+"implicita."
 
 msgid "Edit in Picnik"
-msgstr ""
+msgstr "Editeaza in Picnik"
 
 msgid "Keep original"
-msgstr ""
+msgstr "Pastreaza originalul"
 
 msgid "Yes, keep the original image after editing it in Picnik"
-msgstr ""
+msgstr "Da, pastreaza imaginea originala dupa ce o editez in Picnik"
 
 msgid "Hide buttons"
-msgstr ""
+msgstr "Ascunde butoanele"
 
 msgid "Yes, replace the original 'edit' button for images"
-msgstr ""
+msgstr "Da, inlocuieste butonul original de 'editare' pentru imagini"
 
 msgid "Picnik API key"
-msgstr ""
+msgstr "Cheia API de la Picnik"
 
-#, fuzzy
 msgid "That's not a proper API key!"
-msgstr "Acesta nu este un Nickname adecvat!"
+msgstr "Acesta nu este o cheie API adecvata!"
 
 msgid ""
 "If you have your own picnik API key, you may enter it here. <br /> Leave "
 "this blank if you're not sure."
 msgstr ""
+"Daca ai propria ta cheie API de la Picnik, o poti introduce aici. <br /> "
+"Lasa liber daca nu esti sigur."
 
-#, fuzzy
 msgid "Note"
-msgstr "Nici unu"
+msgstr "Nota"
 
 msgid ""
 "It seems you're running PivotX from a local network. The Picnik "
 "extension<br /> needs to be able to fetch the images over the internet, so "
 "it might not work on<br /> your current setup."
 msgstr ""
+"Se pare ca rulezi PivotX dintr-o retea locala. Extensia Picnik<br />are "
+"nevoie sa extraga imaginile de pe internet, asa ca<br />  s-ar putea sa nu "
+"mearga in instalarea curenta."
 
 msgid "Piwik URL"
-msgstr ""
+msgstr "URL Piwik"
 
 msgid "Either the global or local URL to where you have installed Piwik."
-msgstr ""
+msgstr "Ori URL-ul global sau cel local unde ai instalat Piwik."
 
 msgid "Piwik Website ID "
-msgstr ""
+msgstr "ID-ul site-ului Piwik"
 
 msgid "The id for the website as found in the Piwik website overview."
-msgstr ""
+msgstr "ID-ul pentru site asa cum este gasit in sumarul site-ului Piwik."
 
 msgid "Ignore IP"
-msgstr ""
+msgstr "Ignora IP"
 
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
+"O lista de IP-uri separate prin virgule care sa nu fie inregistrate in Piwik."
 
-#, fuzzy
 msgid "Default folder name"
-msgstr "Limba implicita"
+msgstr "Nume implicit de folder"
 
-#, fuzzy
 msgid "That's not a proper folder name!"
-msgstr "Acesta nu este un nume de fisier adecvat!"
+msgstr "Acesta nu este un nume de folder adecvat!"
 
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
@@ -478,97 +469,97 @@ msgid ""
 "<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</"
 "tt> folder. Don't start or finish with a slash."
 msgstr ""
+"Numele folderului cu imaginile pe care sa il foloseasca Slideshow. Acesta ar "
+"trebui sa fie un folder din interiorul folderului tau de <tt>imagini</tt>. "
+"Deci, daca interoghezi <tt>slideshow</tt>, slideshow se va uita in folderul "
+"<tt>/images/slideshow/</tt>. Nu incepe sau termina cu slash."
 
-#, fuzzy
 msgid "Default timeout"
-msgstr "Categoria implicita"
+msgstr "Timeout implicit"
 
 msgid "The time (in milliseconds) between each image in the slideshow."
-msgstr ""
+msgstr "Timpul (in milisecunde) dintre fiecare imagine din slideshow."
 
-#, fuzzy
 msgid "Default width"
-msgstr "Marime implicita harta"
+msgstr "Latime (w) implicita"
 
-#, fuzzy
 msgid "Default height"
-msgstr "Latime implicita harta"
+msgstr "Inaltime (h) implicita"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
 "to this, so the total dimensions of the widget will be 6 pixels wider and "
 "taller."
 msgstr ""
+"Lungimea (w) si inaltimea (h) amprentei din widget. Marginile sunt adaugate "
+"la aceasta, deci dimensiunile widget-ului vor fi cu 6 pixeli mai late si mai "
+"inalte."
 
-#, fuzzy
 msgid "Limit"
-msgstr "Limita de Varsta"
+msgstr "Limita"
 
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
 msgstr ""
+"Acesta limiteaza numarul de obiecte ce sunt afisate. Daca il pui prea sus, "
+"va dura mai mult pentru a se incarca site-ul tau."
 
-#, fuzzy
 msgid "Order by"
-msgstr "Ordine"
+msgstr "Ordoneaza dupa"
 
-#, fuzzy
 msgid "Date ascending"
-msgstr "Setari afisare Data"
+msgstr "Data crescatoare"
 
-#, fuzzy
 msgid "Date descending"
-msgstr "Setari afisare Data"
+msgstr "Data descrescatoare"
 
 msgid "Alphabet"
-msgstr ""
+msgstr "Alfabet"
 
-#, fuzzy
 msgid "Random"
-msgstr "Citeste mai departe"
+msgstr "Aleatoriu"
 
-#, fuzzy
 msgid "Select the order in which the images are shown."
-msgstr "Ordinea de sortare determina ordinea in care sunt listate Capitolele."
+msgstr "Selecteaza ordinea in care sunt aratate imaginile."
 
-#, fuzzy
 msgid "Use popup"
-msgstr "Insereaza popup!"
+msgstr "Foloseste popup"
 
 msgid "Thickbox"
-msgstr ""
+msgstr "Thickbox"
 
 msgid "Fancybox"
-msgstr ""
+msgstr "Fancybox"
 
 msgid "Select which popup type images are displayed in when clicked."
 msgstr ""
+"Selecteaza care tip de imagini popup sunt afisate atunci cand sunt click-"
+"uite."
 
-#, fuzzy
 msgid "Use recursion"
-msgstr "Foloseste Iconita"
+msgstr "Foloseste revenire"
 
-#, fuzzy
 msgid "Leaf"
-msgstr "Stanga"
+msgstr "Foaie"
 
-#, fuzzy
 msgid "All"
-msgstr "Permite"
+msgstr "Toate"
 
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
 msgstr ""
+"Daca revenirea este activata imaginile din toate sub-directoarele sau cele "
+"din subdirectoarele foaie vor fi incluse in slideshow."
 
-#, fuzzy
 msgid "Use directories in title"
-msgstr "Librarii folosite / unelte"
+msgstr "Foloseste directoarele din titlu"
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
 msgstr ""
+"Da, include numele directorului la tilurile imaginilor generate automatic."
 
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
@@ -576,21 +567,24 @@ msgstr ""
 "atentie!"
 
 msgid "IPTC Index"
-msgstr ""
+msgstr "Indexul IPTC"
 
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
 msgstr ""
+"Indexul titlului de imagini din tabelul IPTC (Comentariile Picasa folosesc "
+"'2#120'). Lasa liber pentru a genera un nicename."
 
-#, fuzzy
 msgid "IPTC Encoding"
-msgstr "Foloseste encoding"
+msgstr "Encoding IPTC"
 
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
 msgstr ""
+"Encodarea textelor IPTC a imaginii. (Foloseste encodarea de nume iconv.) "
+"Lasa liber pentru nici o decodare."
 
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
@@ -600,77 +594,84 @@ msgstr ""
 "pot impartasii si descoperii pagini de web noi."
 
 msgid "Rating button description"
-msgstr ""
+msgstr "Descrierea butonului de ratting"
 
-#, fuzzy
 msgid "That's not a proper description!"
-msgstr "Acesta nu este un nume de site adecvat!"
+msgstr "Acesta nu este o descriere adecvata!"
 
 msgid ""
 "The text to display besides the star ranking buttons. You can use %count% "
 "and %average% to insert those values."
 msgstr ""
+"Textul de afisat langa butoanele de ranking cu stele. Poti folosi %count% si "
+"%average% pentru a insera acele valori."
 
 msgid "Rating average description"
-msgstr ""
+msgstr "Descrierea medie de rating"
 
 msgid ""
 "The text to show when only showing a simple average. You can use %average% "
 "to insert that value."
 msgstr ""
+"Textul de afisat cand se afiseaza doar o medie. Poti folosi %average% pentru "
+"a insera acea valoare."
 
 msgid "Thank you for voting!"
-msgstr ""
+msgstr "Multumim pentru vot!"
 
 msgid "Use your browser's back button to go back to the previous page."
 msgstr ""
+"Foloseste butonul de inapoi de la browserul tau pentru a merge la pagina "
+"anterioara."
 
-#, fuzzy
 msgid "Your WIE login name"
-msgstr "Numele tau de login de la last.fm"
+msgstr "Numele tau WIE de autentificare"
 
 msgid "That's not a proper username!"
 msgstr "Acesta nu este un nume de user adecvat!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The name you use to log in at %s"
-msgstr "Numele cu care te autentifici la <a href='http://last.fm'>Last.fm</a>."
+msgstr "Numele cu care te autentifici la %s"
 
 msgid "Include weblog frontpages"
-msgstr ""
+msgstr "Include paginile principale din weblog"
 
-#, fuzzy
 msgid "Include entries"
-msgstr "Include sablon"
+msgstr "Include intrarile"
 
-#, fuzzy
 msgid "Include pages"
-msgstr "Include sablon"
+msgstr "Include paginile"
 
 msgid "Filter as any robot"
-msgstr ""
+msgstr "Filtreaza ca oricare robot"
 
 msgid ""
 "Test each sitemap entry against all Disallow rules in robots.txt. User-agent "
 "qualifiers are ignored, every Disallow will contribute to URI exclusion."
 msgstr ""
+"Testeaza fiecare intrare din sitemap contra regulilor de Nepermisie din "
+"robots.txt. Calificativele de agent de user sunt ignorate, fiecare "
+"Nepermisie va contribui la excluderea de URI."
 
 msgid "If this doesn't make any sense to you, leave the check box unchecked."
-msgstr ""
+msgstr "Daca nu are sens asta pentru tine, lasa casuta nebifata."
 
 msgid "Additional URIs"
-msgstr ""
+msgstr "URI-uri aditionale"
 
 msgid ""
 "Additional URIs to include in sitemap. Separate the URIs with a comma. The "
 "URIs should be absolute paths (i.e. /myuri/here). Last modified will always "
 "be set to the current day."
 msgstr ""
+"URI-uri aditionale de inclus in sitemap. Separa URI-urile cu o virgula. URI-"
+"urile ar trebui sa fie cai absolute (ex. /myuri/here). Ultima modificata va "
+"fi intotdeauna setata la ziua curenta."
 
 msgid "About"
 msgstr "Despre"
 
-#, fuzzy
 msgid "Latest Comments"
 msgstr "Ultimele Comentarii"
 
@@ -741,7 +742,7 @@ msgid "Meta"
 msgstr "Meta"
 
 msgid "(optional field)"
-msgstr ""
+msgstr "(camp optional)"
 
 msgid "Comment"
 msgstr "Comentariu"
@@ -772,6 +773,7 @@ msgstr "Atentie!"
 
 msgid "Javascript and Cookies must be enabled to log in to PivotX."
 msgstr ""
+"Javascript si Cookies trebuiesc activate pentru a te putea loga in PivotX."
 
 msgid ""
 "PivotX couldn't set the session properly. Try logging out, and logging on "
@@ -797,7 +799,7 @@ msgstr ""
 "imagine incarcata anterior."
 
 msgid "2 MB Max"
-msgstr ""
+msgstr "2 MB Max"
 
 msgid "Image name"
 msgstr "Nume imagine"
@@ -832,67 +834,56 @@ msgstr "Insereaza imagine!"
 msgid "Cancel"
 msgstr "Anuleaza"
 
-#, fuzzy
 msgid "Filter on:"
-msgstr "Filtrare dupa"
+msgstr "Filtrare dupa:"
 
 msgid "Category"
 msgstr "Categorie"
 
-#, fuzzy
 msgid "all categories"
-msgstr "categorii"
+msgstr "toate categorii"
 
 msgid "Author"
 msgstr "Autor"
 
-#, fuzzy
 msgid "all authors"
-msgstr "Autor implicit"
+msgstr "toti autorii"
 
 msgid "Status"
 msgstr "Status"
 
 msgid "all statuses"
-msgstr ""
+msgstr "toate starile"
 
 msgid "Go!"
 msgstr "Go!"
 
-#, fuzzy
 msgid "Search for:"
-msgstr "Cauta"
+msgstr "Cauta:"
 
-#, fuzzy
 msgid "Reset search"
-msgstr "cauta"
+msgstr "Resetare cautare"
 
 msgid "Show all"
-msgstr ""
+msgstr "Arata toate"
 
-#, fuzzy
 msgid "Uploading"
 msgstr "Incarca"
 
-#, fuzzy
 msgid "uploaded"
-msgstr "incarca"
+msgstr "incarcat"
 
-#, fuzzy
 msgid "Uploaded"
-msgstr "Incarca"
+msgstr "Incarcat"
 
-#, fuzzy
 msgid "File extension error"
-msgstr "Directorul de Extensii"
+msgstr "Eroare extensie fisier"
 
-#, fuzzy
 msgid "Upload too big"
-msgstr "Incarca"
+msgstr "Incarcare prea mare"
 
-#, fuzzy
 msgid "Upload error"
-msgstr "Incarca mai multe"
+msgstr "Eroare de incarcare"
 
 msgid "Orphaned Pages"
 msgstr "Pagini Orfan"
@@ -901,13 +892,14 @@ msgid ""
 "These pages do not belong to any chapter, and will not show up in pagelists "
 "or menus."
 msgstr ""
+"Aceste pagini nu apartin nici unui capitol si nu vor fi afisate in lista de "
+"pagini sau meniuri."
 
 msgid "order"
 msgstr "ordine"
 
-#, fuzzy
 msgid "back to top"
-msgstr "Inapoi la autentificare"
+msgstr "sus"
 
 msgid "Timed Publish"
 msgstr "Publicare programata"
@@ -918,9 +910,8 @@ msgstr "Retine"
 msgid "Published"
 msgstr "Publicat"
 
-#, fuzzy
 msgid "default template"
-msgstr "Sablon Normal"
+msgstr "sablon implicit"
 
 msgid "Edit Page"
 msgstr "Editare Pagina"
@@ -946,9 +937,8 @@ msgstr "Sterge Capitol"
 msgid "Add a Chapter"
 msgstr "Adauga un Capitol"
 
-#, fuzzy
 msgid "Visit our website at:"
-msgstr "Viziteaza website-ul"
+msgstr "Viziteaza site-ul nostru la:"
 
 msgid "The PivotX Team"
 msgstr "Echipa PivotX"
@@ -1030,21 +1020,17 @@ msgstr "Sterge acest comentariu?"
 msgid "Delete"
 msgstr "Sterge"
 
-#, fuzzy
 msgid "Unblock this IP-address?"
-msgstr "Stocheaza aceste adrese IP"
+msgstr "Deblocheaza aceasta adresa de IP?"
 
-#, fuzzy
 msgid "Unblock IP"
-msgstr "Deblocheaza IP %s"
+msgstr "Deblocheaza IP"
 
-#, fuzzy
 msgid "Block this IP-address?"
-msgstr "Blocheaza acest IP"
+msgstr "Blocheaza aceasta adresa de IP?"
 
-#, fuzzy
 msgid "Block IP"
-msgstr "Blocheaza IP %s"
+msgstr "Blocheaza IP"
 
 msgid "on"
 msgstr "din"
@@ -1079,28 +1065,23 @@ msgstr "Bun venit, user necunoscut."
 msgid "Welcome back"
 msgstr "Salut"
 
-#, fuzzy
 msgid "IP address"
 msgstr "adresa IP"
 
-#, fuzzy
 msgid "User agent"
-msgstr "Foloseste Text"
+msgstr "Agent user"
 
-#, fuzzy
 msgid "In moderation"
-msgstr "Introducere"
+msgstr "In moderare"
 
-#, fuzzy
 msgid "No title"
-msgstr "Data Intrarii"
+msgstr "Nici un titlu"
 
 msgid "Chapter"
 msgstr "Capitol"
 
-#, fuzzy
 msgid "none"
-msgstr "un"
+msgstr "nimic"
 
 msgid "Template"
 msgstr "Sablon"
@@ -1108,16 +1089,14 @@ msgstr "Sablon"
 msgid "By"
 msgstr "De"
 
-#, fuzzy
 msgid "Posted"
-msgstr "Postare Pagina"
+msgstr "Postat"
 
-#, fuzzy
 msgid "No name"
-msgstr "Nume"
+msgstr "Fara nume"
 
 msgid "On"
-msgstr ""
+msgstr "In"
 
 msgid "Introduction"
 msgstr "Introducere"
@@ -1151,7 +1130,7 @@ msgid "Preview"
 msgstr "Previzualizare"
 
 msgid "(none)"
-msgstr "(nimic)"
+msgstr "(nici una)"
 
 msgid "Allow comments"
 msgstr "Permite comentarii"
@@ -1165,9 +1144,8 @@ msgstr "Intrari"
 msgid "Comments"
 msgstr "Comentarii"
 
-#, fuzzy
 msgid "Other"
-msgstr "Octobmrie"
+msgstr "Alt"
 
 msgid "Overview"
 msgstr "Vedere Generala"
@@ -1181,18 +1159,17 @@ msgstr "Pagina Noua"
 msgid "Logout"
 msgstr "Iesire"
 
-#, fuzzy
 msgid "View site"
-msgstr "Via Titlu"
+msgstr "Vezi site"
 
 msgid "About PivotX"
 msgstr "Despre PivotX"
 
 msgid "c"
-msgstr ""
+msgstr "c"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "more"
 msgstr "mai multe"
@@ -1203,35 +1180,29 @@ msgstr "Ultimele intrari"
 msgid "The latest pages"
 msgstr "Ultimele pagini"
 
-#, fuzzy
 msgid "The latest trackbacks"
-msgstr "Ultimele intrari"
+msgstr "Ultimele depistari"
 
-#, fuzzy
 msgid "Blog Name"
-msgstr "Nume Weblog"
+msgstr "Nume Blog"
 
 msgid "Edit this trackback"
 msgstr "Editeaza aceasta depistare"
 
-#, fuzzy
 msgid "Delete this trackback?"
-msgstr "Stege Depistare"
+msgstr "Stege aceasta depistare?"
 
-#, fuzzy
 msgid "There are no latest trackbacks"
-msgstr "Nu exista ultimele comentarii"
+msgstr "Nu exista ultimele depistari"
 
 msgid "No trackbacks"
 msgstr "Nici o Depistare"
 
-#, fuzzy
 msgid "The configuration for \"%key%\" was successfully updated."
-msgstr "Intrarea ta \"%s\" a fost salvata cu succes."
+msgstr "Configuratia pentru \"%key%\" a fost actualizata cu succes."
 
-#, fuzzy
 msgid "The configuration could not be updated."
-msgstr "Intrarile nu au putut fi sterse."
+msgstr "Configuratia nu a putut fi actualizata."
 
 msgid "Permalink"
 msgstr "Link permanent"
@@ -1245,9 +1216,8 @@ msgstr "Nume Intern"
 msgid "Subtitle"
 msgstr "Subtitlu"
 
-#, fuzzy
 msgid "Post or Preview"
-msgstr "Previzualizare"
+msgstr "Postare sau Previzualizare"
 
 msgid "Post and Continue Editing"
 msgstr "Posteaza si Continua Editarea"
@@ -1261,17 +1231,14 @@ msgstr "Creat in"
 msgid "Last edited on"
 msgstr "Ultima editare pe"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this page?"
-msgstr "Esti sigur ca vrei sa stergi acesta Pagina?"
+msgstr "Esti sigur ca vrei sa stergi acesta pagina?"
 
-#, fuzzy
 msgid "Delete page"
-msgstr "Sterge Pagina"
+msgstr "Sterge pagina"
 
-#, fuzzy
 msgid "Compact view"
-msgstr "Previzualizare Lista Completa"
+msgstr "Vedere compacta"
 
 msgid "Active widgets"
 msgstr "Widget-uri active"
@@ -1283,11 +1250,10 @@ msgid "Save"
 msgstr "Salveaza"
 
 msgid "Update available"
-msgstr ""
+msgstr "Actualizare disponibila"
 
-#, fuzzy
 msgid "Version"
-msgstr "versiune"
+msgstr "Versiunea"
 
 msgid "General"
 msgstr "General"
@@ -1304,17 +1270,14 @@ msgstr "Feed-uri XML"
 msgid "Commenting"
 msgstr "Comentarii"
 
-#, fuzzy
 msgid "Back to Weblogs"
-msgstr "Inapoi la autentificare"
+msgstr "Inapoi la Weblog-uri"
 
-#, fuzzy
 msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Setarile pentru capitolul '%s' au fost actualizate."
+msgstr "Setarile de weblog pentru \"%key%\" au fost actualizate cu succes."
 
-#, fuzzy
 msgid "The weblog settings could not be updated."
-msgstr "Intrarile nu au putut fi sterse."
+msgstr "Setarile weblog-ului nu au putut fi actualizate."
 
 msgid "Insert a Tag"
 msgstr "Insereaza o Eticheta"
@@ -1344,21 +1307,17 @@ msgstr "Via Titlu"
 msgid "Trackback Ping"
 msgstr "Ping de Depistare"
 
-#, fuzzy
 msgid "View Comments and Trackbacks"
-msgstr "Editare Depistare"
+msgstr "Vezi Comentariile si Depistarile"
 
-#, fuzzy
 msgid "Trackbacks"
 msgstr "Depistari"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this entry?"
 msgstr "Esti sigur ca vrei sa stergi aceasta intrare?"
 
-#, fuzzy
 msgid "Delete entry"
-msgstr "Sterge Intrare"
+msgstr "Sterge intrare"
 
 msgid "Insert a Download"
 msgstr "Insereaza un Download"
@@ -1390,15 +1349,14 @@ msgstr "Link Titlu"
 msgid "Insert download!"
 msgstr "Insereaza un download!"
 
-#, fuzzy
 msgid "Jump to:"
-msgstr "sari la pagina (%num%)"
+msgstr "Sari la:"
 
 msgid "Message Log"
-msgstr ""
+msgstr "Jurnal mesaje"
 
 msgid "Website is OFFLINE"
-msgstr ""
+msgstr "Site-ul este OFFLINE"
 
 msgid "My Info"
 msgstr "My Info"
@@ -1418,12 +1376,11 @@ msgstr "interogari"
 msgid "build"
 msgstr "cladeste"
 
-#, fuzzy
 msgid "Documentation"
-msgstr "Comentarii"
+msgstr "Documentatie"
 
 msgid "Table of Contents"
-msgstr ""
+msgstr "Cuprins"
 
 msgid "Pg."
 msgstr "Pg."
@@ -1440,23 +1397,20 @@ msgstr "Amprenta"
 msgid "Are you sure you wish to delete this file?"
 msgstr "Esti sigur ca vrei sa stergi acest fisier?"
 
-#, fuzzy
 msgid "Copy to file name?"
-msgstr "Nume Fisier"
+msgstr "Copiaza in numele de fisier?"
 
 msgid "Duplicate"
 msgstr "Duplicat"
 
-#, fuzzy
 msgid "New file name?"
-msgstr "Nume Fisier"
+msgstr "Nume nou de fisier?"
 
 msgid "Create a new file"
 msgstr "Creaza un fisier nou"
 
-#, fuzzy
 msgid "New folder name?"
-msgstr "Limba implicita"
+msgstr "Nume nou de folder?"
 
 msgid "Create a new folder"
 msgstr "Creaza folder nou"
@@ -1468,22 +1422,20 @@ msgstr ""
 "Nu ai permisiunea sa incarci / duplici fisierele din acest folder. Foloseste "
 "programul tau de FTP pentru a face aceasta."
 
-#, fuzzy
 msgid "List of uploaded files"
-msgstr "Incarca mai multe fisiere"
+msgstr "Lista de fisiere incarcate"
 
-#, fuzzy
 msgid "Done"
-msgstr "Gata!"
+msgstr "Gata"
 
 msgid "Add a new configuration option:"
-msgstr "Adauga o noua optiune de configuratie:"
+msgstr "Adauga o noua optiune de configurare:"
 
 msgid "Key"
 msgstr "Cheie"
 
 msgid "Value"
-msgstr "Valuare"
+msgstr "Valoare"
 
 msgid "Edit options"
 msgstr "Editare optiuni"
@@ -1548,18 +1500,17 @@ msgstr "Setare Status-ul la \"retine\""
 msgid "Delete them"
 msgstr "Stege-le"
 
-#, fuzzy
 msgid "No entries found."
-msgstr "Alte intrari despre"
+msgstr "Nu s-a gasit nici o intrare."
 
 msgid "Your search or filter settings gave no results."
-msgstr ""
+msgstr "Cautarea ta sau setarile de filtrare nu a dat nici un rezultat."
 
 msgid "You may reset the filters with the following link:"
-msgstr ""
+msgstr "Poti reseta filtrele cu urmatorul link:"
 
 msgid "You can also create a"
-msgstr ""
+msgstr "Poti sa creezi de asemenea si o"
 
 msgid "Create New User"
 msgstr "Creaza User Nou"
@@ -1568,7 +1519,7 @@ msgid "Username"
 msgstr "Nume User"
 
 msgid "Nickname"
-msgstr "Porecla"
+msgstr "Nickname"
 
 msgid "Userlevel"
 msgstr "Nivel User"
@@ -1598,21 +1549,17 @@ msgstr "Editare Vizitator"
 msgid "You are about to delete visitor %1. Are you sure?"
 msgstr "Esti pe cale sa stergi vizitatorul %1. Esti sigur?"
 
-#, fuzzy
 msgid "Insert PivotX Image"
-msgstr "Insereaza o Imagine"
+msgstr "Insereaza o Imagine PivotX"
 
-#, fuzzy
 msgid "Insert PivotX Popup"
-msgstr "Insereaza o Eticheta"
+msgstr "Insereaza un Popup PivotX"
 
-#, fuzzy
 msgid "Insert PivotX Download"
-msgstr "Insereaza un Download"
+msgstr "Insereaza un Download PivotX"
 
-#, fuzzy
 msgid "Insert PivotX Tag"
-msgstr "Insereaza o Eticheta"
+msgstr "Insereaza un Tag PivotX"
 
 msgid "The default category is:"
 msgstr "Categoria implicita este:"
@@ -1648,9 +1595,8 @@ msgstr "Editare Categorie"
 msgid "users"
 msgstr "useri"
 
-#, fuzzy
 msgid "View entries"
-msgstr "Intrari Live"
+msgstr "Vezi intrarile"
 
 msgid "Are you sure you wish to delete this category?"
 msgstr "Esti sigur ca vrei sa stergi aceasta categorie?"
@@ -1661,9 +1607,8 @@ msgstr "Weblog Nou"
 msgid "Weblog Name"
 msgstr "Nume Weblog"
 
-#, fuzzy
 msgid "View"
-msgstr "vezi"
+msgstr "Vezi"
 
 msgid "You are about to delete weblog %1. Are you sure?"
 msgstr "Esti pe cale sa stergi weblog-ul %1. Esti sigur?"
@@ -1671,36 +1616,30 @@ msgstr "Esti pe cale sa stergi weblog-ul %1. Esti sigur?"
 msgid "Export as theme"
 msgstr "Exporta ca tema"
 
-#, fuzzy
 msgid "Insert a file"
-msgstr "Insereaza o imagine"
+msgstr "Insereaza un fisier"
 
-#, fuzzy
 msgid ""
 "To insert a file, you should upload one, or select a previously uploaded "
 "file."
 msgstr ""
-"Pentru a insera o imagine, ar trebui sa o incarci intai, sau sa selectezi o "
-"imagine incarcata anterior."
+"Pentru a insera un fisier, ar trebui sa il incarci intai, sau sa selectezi "
+"un fisier incarcat anterior."
 
-#, fuzzy
 msgid "File name"
-msgstr "Nume Fisier"
+msgstr "Nume fisier"
 
-#, fuzzy
 msgid "Select a file"
-msgstr "Selecteaza Fisier"
+msgstr "Selecteaza un fisier"
 
-#, fuzzy
 msgid "Insert file!"
-msgstr "Insereaza imagine!"
+msgstr "Insereaza fisier!"
 
-#, fuzzy
 msgid "Edit Entry (fullscreen)"
-msgstr "Editare Intrare"
+msgstr "Editare Intrare (ecran complet)"
 
 msgid "View website (fullscreen)"
-msgstr ""
+msgstr "Vezi site-ul (ecran complet)"
 
 msgid "first"
 msgstr "prima"
@@ -1714,7 +1653,6 @@ msgstr "urmatoarea"
 msgid "last"
 msgstr "ultima"
 
-#, fuzzy
 msgid ""
 "Hi, and welcome to %1! Below this bit of text you can see a short overview "
 "of the latest <a href='index.php?page=entries'>entries</a> and <a "
@@ -1722,29 +1660,26 @@ msgid ""
 "href='index.php?page=comments'>new comments</a> that are in the moderation "
 "queue."
 msgstr ""
-"Salut si bun venit la PivotX 2.0! Sub aceste randuri poti vedea o scurta "
+"Salut si bun venit la %1! Sub aceste randuri poti vedea o scurta "
 "recapitulare a ultimelor <a href='index.php?page=entries'>intrari</a> si <a "
 "href='index.php?page=pagesoverview'>pagini</a>. Si probabil chiar <a "
 "href='index.php?page=comments'>comentarii noi</a> care sunt in faza de "
 "moderare."
 
 msgid "Configuration"
-msgstr "Configuratie"
+msgstr "Configurare"
 
 msgid "Manage Media"
 msgstr "Administrare Media"
 
-#, fuzzy
 msgid "overview of entries"
-msgstr "Sumar al Intrarilor"
+msgstr "sumar al intrarilor"
 
-#, fuzzy
 msgid "Edit this entry"
-msgstr "editeaza aceasta intrare"
+msgstr "Editeaza aceasta intrare"
 
-#, fuzzy
 msgid "overview of comments"
-msgstr "Sumar al Intrarilor"
+msgstr "sumar al comentariilor"
 
 msgid "Entry"
 msgstr "Intrare"
@@ -1752,13 +1687,11 @@ msgstr "Intrare"
 msgid "delete"
 msgstr "sterge"
 
-#, fuzzy
 msgid "overview of pages"
-msgstr "Sumar al Paginilor"
+msgstr "sumar al paginilor"
 
-#, fuzzy
 msgid "Edit this page"
-msgstr "Editeaza acest comentariu"
+msgstr "Editeaza aceasta pagina"
 
 msgid "PivotX News"
 msgstr "Stiri PivotX"
@@ -1766,9 +1699,8 @@ msgstr "Stiri PivotX"
 msgid "Visit the website"
 msgstr "Viziteaza website-ul"
 
-#, fuzzy
 msgid "The latest events"
-msgstr "Ultimele intrari"
+msgstr "Ultimele evenimente"
 
 msgid "Show more items"
 msgstr "Arata mai multe obiecte"
@@ -1794,25 +1726,25 @@ msgstr ""
 "imediat, %click here% si dezactiveaza Caching si Minify in timp ce lucrezi "
 "la site-ul tau."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cannot open file %s"
-msgstr "nu pot deschide fisier, verifica drepturile tale."
+msgstr "Nu pot deschide fisierul %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cannot write to file %s"
-msgstr "Eroare de Scriere. Nu s-a putut scrie in fisier"
+msgstr "Nu s-a putut scrie in fisierul %s"
 
 #, php-format
 msgid "Wrote contents to file %s"
-msgstr ""
+msgstr "S-a scris in fisierul %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s is not writable"
-msgstr "User-ul '<tt>%s</tt>' nu exista."
+msgstr "Fisierul %s nu este writable"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Finished! Generating index for %s entries took %s seconds "
-msgstr "Terminat! Generarea indexului a durat %num% secunde"
+msgstr "Terminat! Generarea indexului pentru %s intrari a durat %s secunde"
 
 msgid "The latest PivotX news is not available as long as safemode is enabled."
 msgstr ""
@@ -1829,11 +1761,11 @@ msgstr "Ups! Ma tem ca nu am putut citi feed-ul de Tag-uri."
 
 #, php-format
 msgid "Nothing on <strong>%s</strong> for <strong>%s</strong>"
-msgstr ""
+msgstr "Nimic despre <strong>%s</strong> pentru <strong>%s</strong>"
 
 #, php-format
 msgid "Latest on <strong>%s</strong> for <strong>%s</strong>"
-msgstr ""
+msgstr "Noutati despre <strong>%s</strong> pentru <strong>%s</strong>"
 
 msgid "Current path"
 msgstr "Calea curenta"
@@ -1848,10 +1780,10 @@ msgid "Log in"
 msgstr "Autentificare"
 
 msgid "Dashboard"
-msgstr "Tabla principala"
+msgstr "Panoul de Comanda"
 
 msgid "Back to dashboard"
-msgstr "Inapoi la tabla principala"
+msgstr "Inapoi la panoul de comanda"
 
 msgid "Entries &amp; Pages"
 msgstr "Intrari &amp; Pagini"
@@ -1869,11 +1801,10 @@ msgid "Write and Publish a new Page"
 msgstr "Scrie si Publica o Pagina noua"
 
 msgid "Moderate Comments"
-msgstr "Modereaza Comentarii"
+msgstr "Moderare Comentarii"
 
-#, fuzzy
 msgid "Overview of Latest Trackbacks"
-msgstr "Sumar al Intrarilor"
+msgstr "Sumar al Ultimelor Depistari"
 
 msgid "Manage and Upload Media"
 msgstr "Administrare si Incarcare Media"
@@ -1900,10 +1831,10 @@ msgid "Overview of Administrative functions"
 msgstr "Sumar a functiilor Administrative"
 
 msgid "Edit the Configuration file"
-msgstr "Editeaza fisierul de Configuratie"
+msgstr "Editeaza fisierul de Configurare"
 
 msgid "Edit, Add and Delete advanced Configuration options"
-msgstr "Editeaza, Adauga si Sterge optiunile avansate de Configuratie"
+msgstr "Editeaza, Adauga si Sterge optiunile avansate de Configurare"
 
 msgid "Create, edit and delete Users"
 msgstr "Creaza, editeaza si sterge Useri"
@@ -1935,9 +1866,8 @@ msgstr "Protectie Spam"
 msgid "Overview of the various tools to keep your weblogs spam-free"
 msgstr "Vedere Generala a diferitelor unelte contra spam in weblog"
 
-#, fuzzy
 msgid "Spam Configuration"
-msgstr "Configuratie spam"
+msgstr "Configurare Spam"
 
 msgid "Configure Spam Protection tools (like HashCash and SpamQuiz)."
 msgstr "Configurare unelte de Protectie Spam (precum HashCash si SpamQuiz)."
@@ -1955,14 +1885,14 @@ msgid ""
 "Download a zip file containing your configuration files, templates or "
 "entries database"
 msgstr ""
-"Descarca un fisier zip care contine fisierele tale de configuratie, "
+"Descarca un fisier zip care contine fisierele tale de configurare, "
 "sabloanele sau intrarile din baza de date"
 
 msgid "Empty Cache"
-msgstr ""
+msgstr "Goleste Cache"
 
 msgid "Clear PivotX's internal cache for stored files."
-msgstr ""
+msgstr "Curata cache-ul intern al PivotX pentru fisierele stocate."
 
 msgid "Extensions"
 msgstr "Extensii"
@@ -1973,9 +1903,8 @@ msgstr "Administrare Extensii instalate"
 msgid "Widgets"
 msgstr "Widget-uri"
 
-#, fuzzy
 msgid "Manage installed Widgets"
-msgstr "Administrare Widget-urile instalate"
+msgstr "Administrare Widget-uri instalate"
 
 msgid "view"
 msgstr "vezi"
@@ -1992,9 +1921,8 @@ msgstr "Exploreaza folderul Home"
 msgid "Rebuild the Index"
 msgstr "Recladeste Indexul"
 
-#, fuzzy
 msgid "Rebuild the index of your database"
-msgstr "Recladeste indexul Bazei tale de Date"
+msgstr "Recladeste indexul bazei tale de date"
 
 msgid "Rebuild Search Index"
 msgstr "Recladeste Indexul de Cautare"
@@ -2003,39 +1931,38 @@ msgid "Rebuild the Searchindex, to allow searching in entries and pages"
 msgstr ""
 "Recladeste Indexul de Cautare, pentru a permite cautare in intrari si pagini"
 
-#, fuzzy
 msgid "Rebuild Tag Index"
-msgstr "Recladeste Indexul"
+msgstr "Recladeste Indexul de Tag-uri"
 
-#, fuzzy
 msgid "Rebuild the Tagindex, to display tag clouds and tags below entries"
-msgstr "Recladeste Indexul de Cautare, pentru a permite cautare in intrari"
+msgstr ""
+"Recladeste Indexul de Tag-uri, pentru a afisa noru de tag-uri si tag-urile "
+"sub intrari"
 
-#, fuzzy
 msgid "Default"
-msgstr "Autor implicit"
+msgstr "Implicit"
 
 msgid "Welcome to your new online presence!"
-msgstr ""
+msgstr "Bun venit la noua ta prezenta online!"
 
 msgid "Add some pages here, or start a new chapter."
-msgstr ""
+msgstr "Aici adaugi pagini, sau incepi un capitol nou."
 
 msgid "Light gray"
-msgstr ""
+msgstr "Gri deschis"
 
 msgid "Dark gray"
-msgstr ""
+msgstr "Gri inchis"
 
 msgid "Minimally styled"
-msgstr ""
+msgstr "Stilat minim"
 
 msgid "Welcome to"
 msgstr "Bun venit la"
 
 #, php-format
 msgid "Illegal file type %s uploaded. Check your %s setting."
-msgstr ""
+msgstr "S-a incarcat un tip ilegal de fisier %s. Verifica setarile pentru %s."
 
 msgid "Allow filetypes"
 msgstr "Tip fisiere acceptate"
@@ -2065,26 +1992,24 @@ msgstr "Trimite parola"
 msgid "Reset my password"
 msgstr "Reseteaza-mi parola"
 
-#, fuzzy
 msgid ""
 "If you've forgotten your password, check the box, enter your username and "
 "PivotX will send you an email with a link to reset your password."
 msgstr ""
-"Daca ti-ai uitat parola, bifeaza casuta, completeaza numele tau de user si "
-"si Pivot iti va trimite un email cu un link pentru resetarea parolei tale. "
+"Daca ti-ai uitat parola, bifeaza aceasta casuta, introdu numele tau de user "
+"si PivotX iti va trimite un email cu un link pentru resetarea parolei tale. "
 
 msgid "Backup templates"
 msgstr "Backup sabloane"
 
-#, fuzzy
 msgid "Backup all your entries"
-msgstr "Creaza un Backup al Intrarilor tale"
+msgstr "Backup al intrarilor tale"
 
 msgid "Backup all files in the db folder"
-msgstr ""
+msgstr "Back-ul la toate fisierele din folderul db"
 
 msgid "Backup configuration files"
-msgstr "Backup al fisierelor de configuratie"
+msgstr "Backup al fisierelor de configurare"
 
 msgid "Reset Spam Log"
 msgstr "Reseteaza Jurnalul de Spam"
@@ -2130,13 +2055,11 @@ msgstr ""
 "Daca e setat la 'da', acest comentariu nu va fi aratat pe site pana ce nu a "
 "fost aprobat in procesul de moderare"
 
-#, fuzzy
 msgid "Save Trackback"
-msgstr "Stocheaza Depistare"
+msgstr "Salveaza Depistare"
 
-#, fuzzy
 msgid "Entry title"
-msgstr "Data Intrarii"
+msgstr "Titlul intrarii"
 
 msgid "Excerpt"
 msgstr "Extras"
@@ -2222,14 +2145,13 @@ msgstr ""
 msgid "Table Prefix"
 msgstr "Prefix Tabel"
 
-#, fuzzy
 msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
 msgstr ""
 "Prefixul care sa fie folosit pentru tablele de baza de date. Prin schimbarea "
-"acesteia, poti folosi instalari multiple de pivot dintr-o singura baza de "
+"acesteia, poti folosi instalari multiple ale PivotX dintr-o singura baza de "
 "date MySQL. Daca nu intentionezi sa faci aceasta (inca), lasa-l setat la "
 "\"pivotx_\"."
 
@@ -2299,7 +2221,7 @@ msgid "User last seen on"
 msgstr "User vazut ultima data in"
 
 msgid "Inactive user"
-msgstr ""
+msgstr "User inactiv"
 
 msgid "Moblogger"
 msgstr "Moblogger"
@@ -2316,12 +2238,11 @@ msgstr "Administrator"
 msgid "Superadmin"
 msgstr "SuperAdmin"
 
-#, fuzzy
 msgid ""
 "Userlevel will determine what kind of actions this user can perfom in PivotX."
 msgstr ""
-"Nivelul de User va determina ce fel de actiuni poate indeplini acest user in "
-"pivot."
+"Nivelul de user va determina ce fel de actiuni poate indeplini acest user in "
+"PivotX."
 
 msgid "Allowed Categories"
 msgstr "Categorii Permise"
@@ -2433,14 +2354,17 @@ msgid ""
 "the best option. Normally this setting is only used if you want one "
 "directory for each weblog."
 msgstr ""
+"Lasa acest camp gol, doar daca stii ceea ce faci. Daca este lasat gol, "
+"PivotX va determina automat URL-ul blog-ului tau, care este de obicei cea "
+"mai buna optiune. In mod normal aceasta setare este folosita doar daca vrei "
+"cate un director pentru fiecare weblog."
 
-#, fuzzy
 msgid "Sorting order"
-msgstr "Ordine de Sortare"
+msgstr "Ordinea de sortare"
 
-#, fuzzy
 msgid "The sorting order is used to determine the order of the weblogs."
-msgstr "Ordinea de sortare determina ordinea in care sunt listate Capitolele."
+msgstr ""
+"Ordinea de sortare este folosita pentru a determina ordinea weblog-urilor."
 
 msgid "Frontpage Template"
 msgstr "Sablon Pagina Principala"
@@ -2485,9 +2409,9 @@ msgstr ""
 "Sablonul care defineste felul cum va arata o pagina, daca nu ai specificat "
 "un sablon pentru aceasta."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Subweblog %s"
-msgstr "Sub-weblog-uri"
+msgstr "Sub-weblog %s"
 
 msgid ""
 "The Number of entries in this subweblog that will be shown on the frontpage."
@@ -2511,7 +2435,7 @@ msgid "Publish these categories"
 msgstr "Publica aceste categorii"
 
 msgid "RSS and Atom Configuration"
-msgstr "Configuratie RSS si Atom"
+msgstr "Configurare RSS si Atom"
 
 msgid "Generate Feeds"
 msgstr "Genereaza Feed-uri"
@@ -2526,7 +2450,6 @@ msgstr ""
 msgid "RSS URL"
 msgstr "URL RSS"
 
-#, fuzzy
 msgid ""
 "If you use a service like FeedBurner, you can give the link to your "
 "FeedBurner feed here. The link will be used in the RSS badge and in the "
@@ -2535,13 +2458,12 @@ msgid ""
 msgstr ""
 "Daca folosesti un serviciu precum FeedBurner, poti sa specifici link-ul de "
 "la feed-ul tau FeedBurner aici. Acest link va fi folosit in insigna RSS si "
-"in link-ul de auto-descoperire a linkului din acest weblog. Lasa liber "
-"pentru a folosi Feed-ul din Pivot, sau specifica un URL comple."
+"in link-ul de auto-descoperire a link-ului din acest weblog. Lasa liber "
+"pentru a folosi Feed-ul din PivotX, sau specifica un URL complet."
 
 msgid "Atom URL"
 msgstr "URL Atom"
 
-#, fuzzy
 msgid ""
 "If you use a service like FeedBurner, you can give the link to your "
 "FeedBurner feed here. The link will be used in the Atom badge and in the "
@@ -2551,7 +2473,7 @@ msgstr ""
 "Daca folosesti un serviciu precum FeedBurner, poti sa specifici link-ul de "
 "la feed-ul tau FeedBurner aici. Acest link va fi folosit in insigna Atom si "
 "in link-ul de auto-descoperire a linkului din acest weblog. Lasa liber "
-"pentru a folosi Feed-ul din Pivot, sau specifica un URL comple."
+"pentru a folosi Feed-ul din PivotX, sau specifica un URL comple."
 
 msgid "Create Full Feeds"
 msgstr "Creaza Feed-uri complete"
@@ -2631,31 +2553,27 @@ msgstr ""
 msgid "Comments Popup?"
 msgstr "Popup Comentarii?"
 
-#, fuzzy
 msgid ""
 "Define whether the comments page (or 'single entry') will be shown in a "
 "popup window, or in the original browser window."
 msgstr ""
-"Determina daca pagina de comentarii (sau 'intrarea singura') va fi aratata "
+"Defineste daca pagina de comentarii (sau 'intrarea singura') va fi aratata "
 "intr-o fereastra popup, sau in fereastra originala a browserului."
 
 msgid "Width of Popup"
 msgstr "Latimea Popup"
 
-#, fuzzy
 msgid "Height of Width"
-msgstr "Inaltimea Popup"
+msgstr "Inaltimea (h) sau Latime (w)"
 
-#, fuzzy
 msgid "The width (in pixels) of the comments popup."
-msgstr "Specifica lagimea si inaltimea (in pixeli) a popup-ului comentariilor."
+msgstr "Latimea (w) (in pixeli) a popup-ului comentariilor."
 
 msgid "Height of Popup"
 msgstr "Inaltimea Popup"
 
-#, fuzzy
 msgid "The height (in pixels) of the comments popup."
-msgstr "Specifica lagimea si inaltimea (in pixeli) a popup-ului comentariilor."
+msgstr "Inaltimea (h) (in pixeli) a popup-ului comentariilor."
 
 msgid "Allow Textile?"
 msgstr "Permite Textile?"
@@ -2690,13 +2608,11 @@ msgstr "Nume Site"
 msgid "That's not a proper sitename!"
 msgstr "Acesta nu este un nume de site adecvat!"
 
-#, fuzzy
 msgid "Site description"
-msgstr "Descriere"
+msgstr "Descriere site"
 
-#, fuzzy
 msgid "A short description of the website. Maximum length is 400 characters."
-msgstr "O scurta descriere a acestui capitol"
+msgstr "O scurta descriere a site-ului. Lungimea maxima este de 400 caractere."
 
 msgid "Weblog"
 msgstr "Weblog"
@@ -2718,12 +2634,14 @@ msgstr ""
 "merg la pagina principala. "
 
 msgid "Site Favicon"
-msgstr ""
+msgstr "Favicon al site-ului"
 
 msgid ""
 "This determines the favicon that is used on the website. Use an absolute "
 "path to the image's filename for best results."
 msgstr ""
+"Aceasta determina favicon-ul care este folosit pe site. Foloseste o cale "
+"absoluta la numele imaginii pentru cele mai bune rezultate."
 
 msgid "Allow XML-RPC"
 msgstr "Permite XML-RPC"
@@ -2756,7 +2674,6 @@ msgstr "Da, de genul /2005-04-28/title-of-entry"
 msgid "Use Mod_rewrite"
 msgstr "Foloseste Mod_rewrite"
 
-#, fuzzy
 msgid ""
 "If you use Apache's Mod_rewrite option, PivotX will make URLs like www."
 "example.org/archive/2008/05/30/nice-weather, instead of www.example.org/"
@@ -2767,20 +2684,21 @@ msgstr ""
 "Daca folosesti optiunea din Apache Mod_rewrite, PivotX va face url-urile de "
 "genul www.example.org/archive/2008/05/30/nice_weather, in loc de www.mysite."
 "com/?e=134. Nu toate serverele suporta aceasta, te rog sa citesti sectiunea "
-"din manual despre aceasta <a href=\"http://docs.pivotx.net/doku.php?"
-"id=using_apache_s_mod_rewrite\">Using Apache's Mod_rewrite</a>."
+"din manualul PivotX despre aceasta <a href=\"http://book.pivotx.net/page/1-"
+"14/\">Using Apache's Mod_rewrite</a>."
 
 msgid "Site 'Not Found' page (404)"
-msgstr ""
+msgstr "Pagina de site 'Not Found' (404)"
 
-#, fuzzy
 msgid "Default 404"
-msgstr "Autor implicit"
+msgstr "Implicit 404"
 
 msgid ""
 "This page is displayed when the visitor requests a page on the site that "
 "does not exist. Leave this blank to display PivotX's default 404 page."
 msgstr ""
+"Aceasta pagina este afisata atunci vizitatorul solicita o pagina de pe site "
+"care nu exista. Lasa liber pentru a afisa pagina implicita 404 a PivotX."
 
 msgid "Allow comments by default"
 msgstr "Permite comentarii implicit"
@@ -2798,12 +2716,11 @@ msgstr ""
 "Determina daca treabuie sa fie aprobate comentariile inainte ca ele sa fie "
 "vizibile pe site."
 
-#, fuzzy
 msgid "Website online"
-msgstr "link site"
+msgstr "Website online"
 
 msgid "Set your website offline for maintenance or upgrade."
-msgstr ""
+msgstr "Pune site-ul tau pe offline pentru administrare sau upgrade."
 
 msgid "Cache Settings"
 msgstr "Setari Cache"
@@ -2833,23 +2750,27 @@ msgstr ""
 "Dezactiveaza aceasta daca lucrezi la Sabloanele tale, sau daca experimentezi "
 "probleme. "
 
-#, fuzzy
 msgid "Force compile templates"
-msgstr "Sablon Frontpage"
+msgstr "Forteaza compilarea sabloanelor"
 
 msgid ""
 "If you enable this, all templates will be compiled everytime. Only enable "
 "this, if you're having trouble with the templates, as this setting severely "
 "degrades performance."
 msgstr ""
+"Daca activezi aceasta, toate sablonele vor fi compilate de fiecare data. "
+"Activeaza aceasta doar daca ai probleme cu sabloanele, deoarece aceasta "
+"setare degradeaza in mod sever performanta."
 
 msgid "Disallow cached includes"
-msgstr ""
+msgstr "Dezactivare includerile cached"
 
 msgid ""
 "If you enable this, all [[cached_include]] tags will work like regular "
 "[[include]] tags, without being cached."
 msgstr ""
+"Daca activezi aceasta, toate tag-urile [[cached_include]] vor functiona "
+"precum tag-urile [[include]], fara sa fie cached. "
 
 msgid "Use output caching"
 msgstr "Foloseste caching"
@@ -2920,11 +2841,12 @@ msgid ""
 "Show the Debug Bar with information about rendering times, debug notices and "
 "other information to help you develop a site."
 msgstr ""
+"Arata Bara de Debug cu informatii depre timpii de redare, note de debug si "
+"alte informatii care sa te ajute la dezvoltarea site-ului."
 
 msgid "Log Queries"
 msgstr "Jurnal Interogari"
 
-#, fuzzy
 msgid ""
 "Log all MySQL queries in the debug log. Use this when you are investigation "
 "performance issues, but turn it off on production websites."
@@ -2933,19 +2855,17 @@ msgstr ""
 "aceasta atunci cand investighezi problemele de performanta, dar dezactiveaz-"
 "o in website-urile de productie."
 
-#, fuzzy
 msgid "Log to file"
-msgstr "Data Intrarii"
+msgstr "Inregistreaza in fisier"
 
-#, fuzzy
 msgid ""
 "Log the debug output to a file. Use this when you are investigation "
 "performance issues, but turn it off on production websites. Only works when "
 "'Debug' is enabled."
 msgstr ""
-"Inregistreaza toate interogarile MySQL in jurnalul de debug. Foloseste "
-"aceasta atunci cand investighezi problemele de performanta, dar dezactiveaz-"
-"o in website-urile de productie."
+"Inregistreaza jurnalul de debug intr-un fisier. Foloseste aceasta atunci "
+"cand investighezi problemele de performanta, dar dezactiveaz-o in website-"
+"urile de productie. Functioneaza doar atunci cand 'Debug' este activat."
 
 msgid "Unlink Files"
 msgstr "Desface Fisiere"
@@ -3002,10 +2922,10 @@ msgid "Create thumbnails automatically when uploading images."
 msgstr "Creaza amprente automat cand se incarca imagini."
 
 msgid "Thumbnail width"
-msgstr "Latime Amprenta - width"
+msgstr "Latime (w)  Amprenta"
 
 msgid "Thumbnail height"
-msgstr "Inaltime Amprenta - height"
+msgstr "Inaltime (h) Amprenta"
 
 msgid "Thumbnail quality"
 msgstr "Calitate amprenta"
@@ -3313,25 +3233,23 @@ msgstr ""
 "faca pentru tine).</li>\n"
 "            </ol>"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The directory '<tt>%s</tt>' is not writeable."
-msgstr "User-ul '<tt>%s</tt>' nu exista."
+msgstr "Directorul '<tt>%s</tt>' nu este writeable."
 
-#, fuzzy
 msgid "Fatal Error"
-msgstr "Eroare PivotX"
+msgstr "Eroare Fatala"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file '<tt>%s</tt>' is not writeable."
-msgstr "User-ul '<tt>%s</tt>' nu exista."
+msgstr "Fisierul '<tt>%s</tt>' nu este writeable."
 
-#, fuzzy
 msgid "Fatal error"
-msgstr "Eroare PivotX"
+msgstr "Eroare fatala"
 
 #, php-format
 msgid "No templates found in directory '<tt>%s</tt>'."
-msgstr ""
+msgstr "Nici un sablon nu s-a gasit in directorul '<tt>%s</tt>'."
 
 msgid "URL to the PivotX folder is unknown"
 msgstr "URL-ul catre folderul PivotX este necunoscut"
@@ -3342,41 +3260,42 @@ msgstr "Intra in PivotX pentru a seta URL-ul PivotX"
 msgid "PivotX is not allowed to read this folder."
 msgstr "PivotX nu are permisiunea sa citeasca acest folder."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was deleted"
-msgstr "Userul a fost sters"
+msgstr "Fisierul %s a fost sters"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file has been copied: %s to %s."
-msgstr "Fisierul tau a fost incarcat drept \"%s\"."
+msgstr "Fisierul a fost copiat: %s in %s."
 
 msgid ""
 "The file has <b>NOT</b> been copied. Check if the target folder is writable, "
 "and whether the target file does not exist."
 msgstr ""
+"Fisierul <b>NU</b> a fost copiat. Verifica daca folderul tinta este writable "
+"si daca fisierul tinta nu exista."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The folder %s was created."
-msgstr "Userul a fost sters"
+msgstr "Folderul %s a fost creat."
 
 #, php-format
 msgid "The folder %s was <b>NOT</b> created."
-msgstr ""
+msgstr "Folderul %s <b>NU</b> a fost creat."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was created."
-msgstr "Noul weblog a fost creat."
+msgstr "Fisierul %s a fost creat."
 
 #, php-format
 msgid "The file %s was <b>NOT</b> created."
-msgstr ""
+msgstr "Fisierul %s <b>NU</b> a fost creat."
 
 msgid "(Select a template)"
 msgstr "(Selecteaza un sablon)"
 
-#, fuzzy
 msgid "Notification from \"%site%\" - "
-msgstr "Notificarile au fost trimise la"
+msgstr "Notificare de la \"%site%\" - "
 
 msgid ""
 "Someone (you?) has requested a new password for the user '%user%' on the "
@@ -3403,7 +3322,7 @@ msgid "Password reset"
 msgstr "Resetare parola"
 
 msgid "just now"
-msgstr ""
+msgstr "doar acum"
 
 msgid "a few minutes ago"
 msgstr "acum cateva minute"
@@ -3432,13 +3351,11 @@ msgstr "%value% ore in urma"
 msgid "this morning"
 msgstr "aceasta dimineata"
 
-#, fuzzy
 msgid "yesterday morning"
-msgstr "ieri seara"
+msgstr "ieri dimineata"
 
-#, fuzzy
 msgid "this evening"
-msgstr "aceasta dimineata"
+msgstr "in seara aceasta"
 
 msgid "yesterday evening"
 msgstr "ieri seara"
@@ -3496,9 +3413,9 @@ msgstr "Vizualizeaza aceasta intrare"
 msgid "View this comment"
 msgstr "Vizualizeaza acest comentariu"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New comment on entry \"%s\""
-msgstr "Acesta este un comentariu la intrarea \"%s\""
+msgstr "Comentariu nou la intrarea \"%s\""
 
 msgid "Notifications were sent to"
 msgstr "Notificarile au fost trimise la"
@@ -3519,9 +3436,9 @@ msgstr "Vizualizeaza setarile tale"
 msgid "This email was sent to"
 msgstr "Acest email a fost trimis la"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New entry \"%s\""
-msgstr "Intrare Noua"
+msgstr "Intrare noua \"%s\""
 
 #, php-format
 msgid "New visitor registration - %s"
@@ -3535,11 +3452,10 @@ msgid "View visitor information"
 msgstr "Vezi informatii vizitator"
 
 msgid "Example linkdump..."
-msgstr ""
+msgstr "Exemplu linkdump..."
 
-#, fuzzy
 msgid "No title.."
-msgstr "Data Intrarii"
+msgstr "Nici un titlu.."
 
 msgid "%num% comment"
 msgstr "%num% comentariu"
@@ -3621,10 +3537,10 @@ msgid "Moderate this comment"
 msgstr "Modereaza acest comentariu"
 
 msgid "quick docs"
-msgstr ""
+msgstr "documente rapide"
 
 msgid "full docs"
-msgstr ""
+msgstr "documente complete"
 
 msgid "PivotX thumbnail creator"
 msgstr "Creator de amprenta PivotX"
@@ -3698,11 +3614,10 @@ msgid "this window"
 msgstr "aceasta fereastra"
 
 msgid "Added by PivotX on:"
-msgstr ""
+msgstr "Adaugat de PivotX in:"
 
-#, fuzzy
 msgid "Added on:"
-msgstr "Citeste mai departe"
+msgstr "Adaugat in:"
 
 msgid "Sunday"
 msgstr "Duminica"
@@ -4022,12 +3937,18 @@ msgid ""
 "<strong>%s</strong> isn't the canonical host you want, change it on the %s "
 "screen."
 msgstr ""
+"Acum esti autentificat la un host diferit decat host-ul tau canonic. Daca "
+"<strong>%s</strong> nu este host-ul canonic pe care il dorest, schimba-l din "
+"ecranul %s."
 
 msgid ""
 "You are currently logged in at a different location than the preferred one. "
 "This might cause problems with wrongly calculated links. Please click here "
 "to go to the correct location:"
 msgstr ""
+"Acum esti autentificat intr-o locatie diferita decat cea preferata. Aceasta "
+"ar putea cauza probleme cu link-urile calculate gresit. Apasa aici pentru a "
+"merge la locatia corecta:"
 
 msgid ""
 "This webserver has register_globals enabled. This is a serious potential "
@@ -4098,22 +4019,31 @@ msgid ""
 "Category: %s\n"
 "Introduction: %s"
 msgstr ""
+"Intrarea ta a fost postata! \n"
+"\n"
+"Titlu: %s\n"
+"User: %s\n"
+"Categoria: %s\n"
+"Introducere: %s"
 
 msgid "Moblog entry posted"
-msgstr ""
+msgstr "Intrare moblog postata"
 
 msgid ""
 "Not posted: Could not parse your entry.\n"
 "\n"
 "Please report this in the PivotX forum"
 msgstr ""
+"Nu s-a postat: Nu s-a putut analiza intrarea ta.\n"
+"\n"
+"Te rog sa raportezi aceasta in forumul PivotX"
 
 msgid "Moblog entry not posted"
-msgstr ""
+msgstr "Intrarea Moblog nu s-a postat"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Processed: %s"
-msgstr "S-au procesat %d pagini..."
+msgstr "S-au procesat: %s"
 
 msgid "Tag cloud for"
 msgstr "Nor de etichete pentru"
@@ -4164,43 +4094,37 @@ msgstr "weblog"
 msgid "entry"
 msgstr "intrare"
 
-#, fuzzy
 msgid "RSS feed"
-msgstr "Arata feed-uri"
+msgstr "Feed RSS"
 
-#, fuzzy
 msgid "Atom feed"
-msgstr "XML: Atom Feed"
+msgstr "Feed Atom"
 
-#, fuzzy
 msgid "RSS feed for comments"
-msgstr "pentru comentarii"
+msgstr "Feed RSS pentru comentarii"
 
-#, fuzzy
 msgid "Atom feed for comments"
-msgstr "pentru comentarii"
+msgstr "Feed Atom pentru comentarii"
 
 msgid "category"
 msgstr "categorie"
 
 #, php-format
 msgid "Note: '%s' is enabled, which affects the performance of this site."
-msgstr ""
+msgstr "Nota: '%s' este activat, care afecteaza performanta acestui site."
 
 #, php-format
 msgid "Note: '%s' is enabled."
-msgstr ""
+msgstr "Nota: '%s' este activat."
 
-#, fuzzy
 msgid "Minify Frontend"
-msgstr "Foloseste Minify in Frontend"
+msgstr "Minify in Frontend"
 
-#, fuzzy
 msgid "Paths"
-msgstr "Pagini"
+msgstr "Cai"
 
 msgid "No debug output."
-msgstr ""
+msgstr "Nici un rezultat de debug."
 
 msgid "(more)"
 msgstr "(mai multe)"
@@ -4215,32 +4139,28 @@ msgstr "S-au procesat %d pagini..."
 
 #, php-format
 msgid "A total of %s different words have been indexed."
-msgstr ""
+msgstr "Un total de %s cuvinte diferite au fost indexate."
 
-#, fuzzy
 msgid "Results for \"%name%\":"
-msgstr "Potriviri in pagini pentru \"%name%\":"
+msgstr "Rezultate pentru \"%name%\":"
 
 msgid "No matches found for \"%name%\". Try something else."
 msgstr "Nu s-a gasit nimic pentru \"%name%\". Incearca altceva."
 
-#, fuzzy
 msgid "Search for words used in entries and pages on this website"
-msgstr "Cauta cuvinte folosite in intrarile din acest site"
+msgstr "Cauta cuvinte folosite in intrarile si paginile din acest site"
 
 msgid "Enter the word[s] to search for here:"
 msgstr "Introdu cuvintele de cautat aici:"
 
-#, fuzzy
 msgid "Enter search terms"
-msgstr "Termeni de cautat..."
+msgstr "Termeni de cautat"
 
 msgid "Search!"
 msgstr "Cauta!"
 
-#, fuzzy
 msgid "Both"
-msgstr "Luna"
+msgstr "Ambele"
 
 msgid "XML: Atom Feed"
 msgstr "XML: Atom Feed"
@@ -4319,7 +4239,7 @@ msgid "Searchpage template"
 msgstr "Sablon Searchpage"
 
 msgid "Apache configuration"
-msgstr "Configuratie Apache"
+msgstr "Configurare Apache"
 
 msgid "PivotX 'not found' template"
 msgstr "Sablon PivotX de tip 'nu s-a gasit'"
@@ -4327,7 +4247,6 @@ msgstr "Sablon PivotX de tip 'nu s-a gasit'"
 msgid "PivotX error page"
 msgstr "Pagina de eroare PivotX"
 
-#, fuzzy
 msgid ""
 "Comment moderation is enabled on this site. This means that your comment "
 "will not be visible until it has been approved by an editor."
@@ -4351,29 +4270,25 @@ msgstr "Etichete folosite"
 msgid "One trackback"
 msgstr "O depistare"
 
-#, fuzzy
 msgid "Trackback link"
-msgstr "Ping de Depistare"
+msgstr "Link de Depistare"
 
 msgid "Please enable javascript to generate a trackback url"
 msgstr "Te rog sa permiti javascript pentru a se genera un url de depistare"
 
-#, fuzzy
 msgid "Note: The url is valid for only 15 minutes after you opened this page!"
 msgstr ""
-"Nota: url-ul generat e valabil doar pentru 15 minute si javascript trebuie "
-"sa fie pornit!"
+"Nota: URL-ul e valabil doar pentru 15 minute dupa ce ai deschis aceasta "
+"pagina!"
 
-#, fuzzy
 msgid "Click to view the trackback url"
-msgstr "Apasa pentru a genera un url de depistare"
+msgstr "Apasa pentru a vedea url-ul de depistare"
 
 msgid "Tagged external link"
 msgstr "Link extern Etichetat"
 
-#, fuzzy
 msgid "Entries tagged with"
-msgstr "Cale Intrari"
+msgstr "Intrarile cu tag de genul"
 
 msgid "words"
 msgstr "cuvinte"
@@ -4440,9 +4355,9 @@ msgstr "\"%s\" a postat urmatoarea depistare"
 msgid "This is a trackback on entry \"%s\""
 msgstr "Aceasta este o depistare la intrarea \"%s\""
 
-#, fuzzy, php-format
+#, php-format
 msgid "New trackback on entry \"%s\""
-msgstr "Aceasta este o depistare la intrarea \"%s\""
+msgstr "Depistare noua la intrarea \"%s\""
 
 msgid "Log in as a registered visitor"
 msgstr "Autentificare ca vizitator inregistrat"
@@ -4519,18 +4434,16 @@ msgstr "Cererea de resetare a parolei a esuat."
 msgid "Reset password"
 msgstr "Resetare parola"
 
-#, fuzzy
 msgid ""
 "If you've forgotten your password, enter your username and PivotX will send "
 "you an email with a link to reset your password."
 msgstr ""
-"Daca ti-ai uitat parola, introdu user-ul tau si Pivot iti va trimite un "
+"Daca ti-ai uitat parola, introdu user-ul tau si PivotX iti va trimite un "
 "email cu un link pentru resetarea parolei tale. "
 
 msgid "User already exists... Please pick another name."
 msgstr "User deja existent... Te rog sa alegi alt nume."
 
-#, fuzzy
 msgid "Email address is already taken... Please use another address."
 msgstr ""
 "Adresa de email deja existenta... Te rog sa alegi alta adresa de email."
@@ -4607,36 +4520,35 @@ msgstr ""
 "Email de verificare trimis la %s. Verifica-ti email-ul in circa un minut "
 "pentru a-ti confirma contul."
 
-#, fuzzy
 msgid ""
 "Please enable Javascript (and reload this page) to view the email address."
 msgstr ""
-"Te rog permite Javascript (si reincarca aceasta pagina) pentru a adauga "
-"orice comentarii."
+"Te rog permite Javascript (si reincarca aceasta pagina) pentru a vedea "
+"adresa de email."
 
-#, fuzzy
 msgid "My weblog"
-msgstr "weblog"
+msgstr "Weblog-ul meu"
 
 #, php-format
 msgid "Blocked login attempt from '%s'."
-msgstr ""
+msgstr "Incercare de autentificare blocata din partea lui '%s'."
 
 msgid ""
 "Too many failed login attempts from this IP address. Please contact your "
 "site administrator to unblock your account."
 msgstr ""
+"Prea multe incercari de autentificare esuate de la aceasta adresa de IP. Te "
+"rog sa contactezi administratorul tau de site pentru a-ti debloca contul."
 
 msgid "Incorrect username/password"
 msgstr "Nume de user / parola Incorecta"
 
-#, fuzzy
 msgid "Successfully logged in"
-msgstr "Stai autentificat?"
+msgstr "Autentificat cu succes"
 
 #, php-format
 msgid "Failed login attempt from '%s'."
-msgstr ""
+msgstr "Incercare de autentificare esuata din partea lui '%s'."
 
 msgid "Next page"
 msgstr "Pagina urmatoare"
@@ -4649,87 +4561,87 @@ msgstr "Afiseaza intrarile %num_from%-%num_to% din %num_tot%"
 
 #, php-format
 msgid "%s started editing entry '%s'."
-msgstr ""
+msgstr "%s a inceput editarea intrarii '%s'."
 
 #, php-format
 msgid "%s started editing page '%s'."
-msgstr ""
+msgstr "%s a inceput editarea paginii '%s'."
 
 #, php-format
 msgid "%s saved entry '%s'."
-msgstr ""
+msgstr "%s a salvat intrarea '%s'."
 
 #, php-format
 msgid "%s saved page '%s'."
-msgstr ""
+msgstr "%s a salvat pagina '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged in."
-msgstr "Autentificat"
+msgstr "%s s-a autentificat"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged out."
-msgstr "Dez-autentificat"
+msgstr "%s s-a delogat."
 
 #, php-format
 msgid "Failed login attempt for '%s'."
-msgstr ""
+msgstr "Incercare de autentificare esuata din partea lui '%s'."
 
 #, php-format
 msgid "%s edited the setting for '%s'."
-msgstr ""
+msgstr "%s a editat setarile pentru '%s'."
 
 #, php-format
 msgid "%s added weblog '%s'."
-msgstr ""
+msgstr "%s a adaugat weblog-ul '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited a weblog setting for '%s'."
-msgstr "Editeaza Setarile de Weblog Pentru "
+msgstr "%s a editat setarile de weblog pentru '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted weblog '%s'."
-msgstr "Sterge acest weblog."
+msgstr "%s a sters weblog-ul '%s'."
 
 #, php-format
 msgid "%s saved the file '%s'."
-msgstr ""
+msgstr "%s a salvat fisierul '%s'."
 
 #, php-format
 msgid "%s added user '%s'."
-msgstr ""
+msgstr "%s a adaugat userul '%s'."
 
 #, php-format
 msgid "%s edited user '%s'."
-msgstr ""
+msgstr "%s a editat userul '%s'."
 
 #, php-format
 msgid "%s deleted user '%s'."
-msgstr ""
+msgstr "%s a sters userul '%s'."
 
 #, php-format
 msgid "%s edited category '%s'."
-msgstr ""
+msgstr "%s a editat categoria '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted category '%s'."
-msgstr "Categoria implicita este:"
+msgstr "%s a sters categoria '%s'."
 
 #, php-format
 msgid "%s added chapter '%s'."
-msgstr ""
+msgstr "%s a adaugat capitolul '%s'."
 
 #, php-format
 msgid "%s edited chapter '%s'."
-msgstr ""
+msgstr "%s a editat capitolul '%s'."
 
 #, php-format
 msgid "%s did '%s' on '%s'."
-msgstr ""
+msgstr "%s a facut '%s' la '%s'."
 
 #, php-format
 msgid "%s did '%s'."
-msgstr ""
+msgstr "%s a facut '%s'."
 
 msgid "Your new password is %pass%."
 msgstr "Noua ta parola este %pass%."
@@ -4800,9 +4712,8 @@ msgstr "Ai fost dez-autentificat din PivotX"
 msgid "My Settings"
 msgstr "Setarile Mele"
 
-#, fuzzy
 msgid "Add a Bookmarklet"
-msgstr "Adauga Insemnare."
+msgstr "Adauga o Insemnare"
 
 msgid "Some fields were not correct. Please try again."
 msgstr "Cateva campuri nu au fost corecte. Te rog sa incerci din nou."
@@ -4815,16 +4726,19 @@ msgid ""
 "link. Drag the link to your browser's Bookmark Toolbar, or right-click the "
 "link, and choose 'Add Bookmark'."
 msgstr ""
+"Adauga o Insemnare 'Postare rapida' in browserul tau, cu urmatorul link. "
+"Trage link-ul in bara de Insemnari a browserului tau, sau fa click de "
+"dreapta pe link, si alege 'Add Bookmark'."
 
-#, fuzzy
 msgid "Post to PivotX"
-msgstr "Despre PivotX"
+msgstr "Posteaza in PivotX"
 
 msgid "Edit my personal Settings"
 msgstr "Editeaza Setarile mele personale"
 
 msgid "You must add the Bookmarklet to your browser before you can use it."
 msgstr ""
+"Trebuie sa adaugi Insemnarea in browserul tau inainte de a o putea folosi."
 
 msgid "You are not allowed to edit this page."
 msgstr "Nu ai permisiune sa editezi aceasta pagina."
@@ -4848,32 +4762,26 @@ msgstr "Nu ai permisiune sa adaugi/editezi aceasta pagina."
 msgid "The settings for chapter '%s' have been updated."
 msgstr "Setarile pentru capitolul '%s' au fost actualizate."
 
-#, fuzzy
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
-msgstr "Editeaza sau Sterge Comentariile pentru Intrarea %number% - %editlink%"
+msgstr "Editeaza sau Sterge Depistarea pentru Intrarea %number% - %editlink%"
 
-#, fuzzy
 msgid "The trackback was deleted."
-msgstr "Depistarea a fost salvata."
+msgstr "Depistarea a fost stearsa."
 
-#, fuzzy
 msgid "The IP-address has been added to the blocklist."
-msgstr "Adresele IP au fost stocate."
+msgstr "Adresa IP a fost adaugata la lista de blocari."
 
 msgid "The IP-address couldn't be added to the blocklist."
-msgstr ""
+msgstr "Adresa de IP nu s-a putut adauga la lista de blocari."
 
-#, fuzzy
 msgid "The IP-address has been removed from the blocklist."
-msgstr "Adresele IP au fost stocate."
+msgstr "Adresa IP a fost stearsa din lista de blocari."
 
-#, fuzzy
 msgid "The IP-address couldn't be removed from the blocklist."
-msgstr "Adresele IP au fost stocate."
+msgstr "Adresa IP nu a putut fi stearsa din lista de blocari."
 
-#, fuzzy
 msgid "Edit or Delete the Latest Trackbacks"
-msgstr "Editeaza sau Sterge Depistari"
+msgstr "Editeaza sau Sterge Ultimele Depistari"
 
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "Editeaza sau Sterge Comentariile pentru Intrarea %number% - %editlink%"
@@ -4881,10 +4789,10 @@ msgstr "Editeaza sau Sterge Comentariile pentru Intrarea %number% - %editlink%"
 msgid "The comment was deleted."
 msgstr "Comentariul a fost sters."
 
-#, fuzzy
 msgid "Edit or Delete Comments in the Moderation Queue and Latest Comments"
 msgstr ""
-"Editeaza sau Sterge Comentariile din Cosul de Moderare si Ultimele Comentarii"
+"Editeaza sau Sterge Comentariile din Procesul de Moderare si Ultimele "
+"Comentarii"
 
 msgid "Edit or Delete Comments"
 msgstr "Editeaza sau Sterge Comentarii"
@@ -4898,13 +4806,11 @@ msgstr "Trebuie sa selectezi o intrare pentru a putea vedea comentariile sale."
 msgid "Edit or Delete Trackbacks"
 msgstr "Editeaza sau Sterge Depistari"
 
-#, fuzzy
 msgid "The Trackback was saved!"
-msgstr "Depistarea a fost salvata."
+msgstr "Depistarea a fost salvata!"
 
-#, fuzzy
 msgid "You have to select an entry in order to view its trackback."
-msgstr "Trebuie sa selectezi o intrare pentru a putea vedea comentariile sale."
+msgstr "Trebuie sa selectezi o intrare pentru a putea vedea depistarile sale."
 
 msgid "Upload Files"
 msgstr "Incarca Fisiere"
@@ -4966,16 +4872,15 @@ msgstr ""
 "Cladesc Indexul de Cautare. Aceasta ar putea dura ceva tip, te rog nu "
 "intrerupe."
 
-#, fuzzy
 msgid "Rebuild the Tag Index"
-msgstr "Recladeste Indexul"
+msgstr "Recladeste Indexul de Tag-uri"
 
-#, fuzzy
 msgid ""
 "Now building Tag Index. This may take a short while, so please do not "
 "interrupt."
 msgstr ""
-"Cladesc acum Indexul. Aceasta ar putea dura ceva timp, te rog nu intrerupe."
+"Cladesc acum Indexul de tag-uri. Aceasta ar putea dura ceva timp, te rog nu "
+"intrerupe."
 
 msgid ""
 "NB! Backup the (entries) database using your ISP control panel or the "
@@ -4986,13 +4891,13 @@ msgstr ""
 
 #, php-format
 msgid "deleted %s cache files in %s seconds."
-msgstr ""
+msgstr "s-au sters %s fisiere de cache in %s secunde."
 
 msgid "Explore files"
 msgstr "Explora fisierele"
 
 msgid "Spam configuration"
-msgstr "Configuratie spam"
+msgstr "Configurare spam"
 
 msgid "Spam configuration saved."
 msgstr "Configuratie spam salvata."
@@ -5031,28 +4936,27 @@ msgstr "User-ul '<tt>%s</tt>' nu exista."
 msgid "The user was deleted"
 msgstr "Userul a fost sters"
 
-#, fuzzy
 msgid "Email already in use"
-msgstr "Nume de User deja folosit"
+msgstr "Email deja folosit"
 
-#, fuzzy
 msgid "Nickname already in use"
 msgstr "Nume de User deja folosit"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The settings for user %s have been updated."
-msgstr "Setarile pentru capitolul '%s' au fost actualizate."
+msgstr "Setarile pentru userul %s au fost actualizate."
 
 msgid ""
 "You are not allowed to create users with userlevel administrator or higher"
 msgstr ""
+"Nu ai permisiunea sa creezi useri cu nivel de administrator sau mai mare"
 
 msgid "Username already in use"
 msgstr "Nume de User deja folosit"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The user %s has been created."
-msgstr "Noul weblog a fost creat."
+msgstr "Userul %s a fost creat."
 
 msgid "No account found for visitor."
 msgstr "Nu s-a gasit nici un cont pentru vizitator."
@@ -5071,26 +4975,23 @@ msgid "Edit Weblog"
 msgstr "Editare Weblog"
 
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Your page \"%s\" was successfully saved."
-msgstr "Intrarea ta \"%s\" a fost salvata cu succes."
+msgstr "Pagina ta \"%s\" a fost salvata cu succes."
 
 msgid "Edit Comment"
 msgstr "Editare Comentariu"
 
-#, fuzzy
 msgid "The Comment was disapproved!"
-msgstr "Comentariul a fost salvat!"
+msgstr "Comentariul a fost dezaprobat!"
 
-#, fuzzy
 msgid "The Comment was approved!"
-msgstr "Comentariul a fost salvat!"
+msgstr "Comentariul a fost aprobat!"
 
-#, fuzzy
 msgid "link"
-msgstr "Link-uri"
+msgstr "link"
 
 #, fuzzy
 #~ msgid "Contact form"
