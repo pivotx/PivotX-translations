@@ -1,0 +1,5787 @@
+# Translation of PivotX to Chinese.
+# Copyright (C) 2008-2010 PivotX team <http://pivotx.net/>
+# This file is distributed under the same license as the PivotX package.
+# Thomas Levine <thomas.levine@gmail.com>, 2010.
+# zwm19601 <zwm19601@gmail.com>, 2010.
+# smithfox <ssm.fox@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PivotX 2.2.x\n"
+"Report-Msgid-Bugs-To: translations@pivotx.net\n"
+"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"PO-Revision-Date: 2010-12-21 11:40+0800\n"
+"Last-Translator: smithfox <ssm.fox@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+
+msgid "%n visitors on this page"
+msgstr "%n个游客在访问该页面"
+
+msgid "Total visits"
+msgstr "游客总数"
+
+msgid "Unique visitors"
+msgstr "唯一游客"
+
+msgid "This month"
+msgstr "这个月"
+
+msgid "This week"
+msgstr "这个星期"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Keyword"
+msgstr "关键字"
+
+msgid "Frequency"
+msgstr "频率"
+
+msgid "Previous Month"
+msgstr "上个月"
+
+msgid "Next Month"
+msgstr "下个月"
+
+msgid "Start day of the week"
+msgstr "星期的第一天"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Select the day of the week you wish the calendar to start on."
+msgstr "选择一周中的一天,作为你日历开始"
+
+msgid "Select"
+msgstr "选择"
+
+msgid ""
+"No items in Delicious Feed. Please check the settings in the PivotX backend."
+msgstr "Feed没有内容,请在PivotX后端设置."
+
+msgid "Image"
+msgstr "图像"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Upload an image"
+msgstr "上传图像"
+
+msgid "Upload"
+msgstr "上传"
+
+msgid "Gallery"
+msgstr "分类"
+
+msgid "Edit Gallery"
+msgstr "编辑分类"
+
+msgid "Add an image"
+msgstr "增加一个图片"
+
+msgid "Add"
+msgstr "增加"
+
+msgid ""
+"The Uploader does not work well from 'localhost'. Please use the server's "
+"(internal) IP-address instead."
+msgstr "不能正常从'localhost'上传,请使用服务器的(内部)IP地址代替."
+
+msgid "Upload a file"
+msgstr "上传一个文件:"
+
+msgid "UA tracking code"
+msgstr "UA跟踪代码"
+
+msgid "Error - input needs to be in the form of UA-xxxxxx-x"
+msgstr "错误 - 输入必须在UA-xxxxxx-x表单"
+
+msgid ""
+"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
+"Check your account information after logging in to Google Analytics"
+msgstr ""
+"输入你个人Google Analytics code,类似UA-xxxxxx-x.请在登录Google Analytics后检"
+"查你的帐户信息"
+
+msgid "Google account login"
+msgstr "谷歌帐号登录"
+
+msgid "Error - input needs to be text"
+msgstr "错误 - 输入必须为文本"
+
+msgid "Google account password"
+msgstr "Google帐号密码"
+
+#, php-format
+msgid ""
+"If you want to display a summary of the statistics on the Dashboard, fill in "
+"the specifics of a Google Account that has access to these statistics. After "
+"doing this, click %sthis link%s to test the login, and fetch the id, to fill "
+"in below."
+msgstr ""
+"如果你想在Dashboard上显示数据汇总,请填写一个可以访问这些统计数据的谷歌帐户.之"
+"后,点击%sthis link%s测试登录,并获取ID,最后填写下面表单"
+
+msgid "Profile ID"
+msgstr "Profile ID"
+
+msgid "Error - input needs to be a number"
+msgstr "错误 - 请输入数字"
+
+msgid ""
+"The (secret) Profile ID number, that will be used to display the reports. "
+"See above, on how to get this number."
+msgstr "Profile ID将显示在报告上,怎么获取这个ID请看上面"
+
+msgid "Advanced Configuration"
+msgstr "高级设置"
+
+msgid "Use AdSense Analytics Code"
+msgstr "使用AdSense Analytics Code"
+
+msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
+msgstr "喔！我怕我看不懂Google Calendar feed."
+
+msgid "My Calendar"
+msgstr "我的日历"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "That's not a proper ID!"
+msgstr "非法的ID!"
+
+msgid ""
+"The ID of your <a href='http://www.google.com/calendar/'>Google Calendar</"
+"a>. This is your Gmail e-mail address or something like "
+"<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. You'll find "
+"the ID in the 'Calendar Address' box on the 'Calendar Details' tab when you "
+"have selected a specific calendar on the settings page."
+msgstr ""
+"<a href='http://www.google.com/calendar/'>谷歌日历</a>ID.这是您的Gmail电子邮"
+"件地址或类似<tt> d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>的"
+"东西.当你在设置页面选择日历时,你会在'日历详细资料'标签的'日历地址'栏发现这个"
+"编号."
+
+msgid "Maximum items"
+msgstr "最大数"
+
+msgid "That's not a proper value!"
+msgstr "那不是一个合法的值!"
+
+msgid "The maximum amount of items to show from your Calendar."
+msgstr "日历中可显示的最多项数"
+
+msgid "Only include future events"
+msgstr "只包括未来事件"
+
+msgid "No"
+msgstr "否"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "Sort items by"
+msgstr "排序"
+
+msgid "Start time"
+msgstr "开始时间"
+
+msgid "Updated time"
+msgstr "更新时间"
+
+msgid "Order items"
+msgstr "项目排序"
+
+msgid "Ascending"
+msgstr "升序"
+
+msgid "Descending"
+msgstr "降序"
+
+msgid "Widget Style"
+msgstr "Widget 样式"
+
+msgid "That's not a proper style!"
+msgstr "那不是一个合法的样式!"
+
+msgid "Select the style to use for this widget."
+msgstr "为该widget选择使用风格"
+
+msgid "Header format"
+msgstr "页头格式"
+
+msgid "Error!"
+msgstr "错误！"
+
+msgid "Output format"
+msgstr "输出格式"
+
+msgid "Format for start date"
+msgstr "起始日期格式"
+
+msgid ""
+"Define the start date format using the standard PivotX <a href=\"http://book."
+"pivotx.net/page/app-d\">date formatting options</a>."
+msgstr ""
+"用标准的PivotX<a href=\"http://book.pivotx.net/page/app-d\">日期格式选项</a>"
+"定义开始日期格式"
+
+msgid "Format for end date"
+msgstr "结束日期格式"
+
+msgid ""
+"Define the end date format using the standard PivotX <a href=\"http://book."
+"pivotx.net/page/app-d\">date formatting options</a>."
+msgstr ""
+"用标准的PivotX<a href=\"http://book.pivotx.net/page/app-d\">日期格式选项</a>"
+"定义结束日期格式"
+
+msgid "Footer format"
+msgstr "页脚格式"
+
+msgid "Use only as snippet"
+msgstr "仅用作snippet"
+
+#, php-format
+msgid "Yes, I don't want %s to appear among the widgets."
+msgstr "是的,我不想%s在widgets之间出现"
+
+msgid "Google Maps API key"
+msgstr "谷歌地图API key"
+
+msgid "Default width of map"
+msgstr "默认宽度"
+
+msgid "Default height of map"
+msgstr "默认高度"
+
+msgid "Default zoom for map"
+msgstr "地图默认放大率"
+
+msgid "Default latitude for map"
+msgstr "地图默认纬度"
+
+msgid "Default longitude for map"
+msgstr "地图默认经度"
+
+msgid "Default map type"
+msgstr "默认类型"
+
+msgid "Preserve viewport when inserting KML files"
+msgstr "当插入KML文件时保留视图"
+
+msgid "Red"
+msgstr "红"
+
+msgid "Blue"
+msgstr "蓝色"
+
+msgid "Black"
+msgstr "黑"
+
+msgid "Grey"
+msgstr "灰色"
+
+msgid "Select the color scheme to use for the widget."
+msgstr "为widget选择配色方案"
+
+msgid "Your last.fm login name"
+msgstr "你的last.fm登录名称"
+
+msgid "That's not a proper login name!"
+msgstr "那不是一个合法的登录用户名!"
+
+msgid "The name you use to log in at <a href='http://last.fm'>Last.fm</a>."
+msgstr "你登录<a href='http://last.fm'>Last.fm</a>所用的名称"
+
+msgid "Playing \"%nicefilename%\"."
+msgstr "Playing \"%nicefilename%\"."
+
+msgid "Youtube video \"%basename%\"."
+msgstr "Youtube 视频 \"%basename%\"."
+
+msgid "Vimeo video \"%basename%\"."
+msgstr "Vimeo 视频 \"%basename%\"."
+
+msgid "Video \"%nicefilename%\""
+msgstr "视频 \"%nicefilename%\""
+
+msgid "This page requires a password to view. Please give the password."
+msgstr "该页面需要密码,请输入密码"
+
+msgid "You don't have access to this page"
+msgstr "你没有权力访问这个页面"
+
+msgid ""
+"You didn't provide the correct password to access the requested entry. If "
+"you've made a typo, go back, and try again. <br /><br />If you don't know "
+"the password, you could ask the owner of the website to get access to the "
+"entry."
+msgstr ""
+"要访问所需文章,您必须提供正确的密码.如果您敲错了,回退后再试一次. <br /> <br /"
+">如果您不知道密码,你可以要求该网站所有者提供访问权限."
+
+msgid "Enable password protection"
+msgstr "启用密码保护"
+
+msgid "Yes, allow for entries to be password protected."
+msgstr "是的,让所有的文章都有密码保护."
+
+msgid "Default password"
+msgstr "默认密码"
+
+msgid "This is the password that's requested when no other password is given."
+msgstr "没有其他密码,要求输入的密码"
+
+msgid "Password question"
+msgstr "密码问题"
+
+msgid ""
+"This is the text that people see, when they're being asked for the password."
+msgstr "当人们被要求输入密码时,用于显示的文字"
+
+msgid "Access for logged in users"
+msgstr "登录的用户访问"
+
+msgid "Yes, don't require a password from a user that is logged in."
+msgstr "是的,已经登录的用户不再询问密码"
+
+msgid "'No access' template"
+msgstr "拒绝访问模板"
+
+msgid "When the user is not granted access, show this template."
+msgstr "当用户没有赋于访问权限时,显示这个模板."
+
+msgid "'No access' title"
+msgstr "拒绝访问标题"
+
+msgid "When the user is not granted access, show this title."
+msgstr "当用户没有被赋于访问权限时,显示这个标题."
+
+msgid "'No access' text"
+msgstr "'禁止访问'文本"
+
+msgid "When the user is not granted access, show this text."
+msgstr "当用户没有被赋于访问权限时,显示这个文本."
+
+msgid "Password Protect"
+msgstr "密码保护"
+
+msgid "Yes, protect this page with a password."
+msgstr "是,用密码保护该页面."
+
+msgid "Password"
+msgstr "密码"
+
+msgid ""
+"Specify the required password, or leave blank to use the default password."
+msgstr "指定密码,或是留空使系统用默认密码."
+
+msgid "Edit in Picnik"
+msgstr "在Picnik中编辑"
+
+msgid "Keep original"
+msgstr "保留原始的"
+
+msgid "Yes, keep the original image after editing it in Picnik"
+msgstr "是的,在Picnik编辑后还是保持原始的图片"
+
+msgid "Hide buttons"
+msgstr "隐藏按钮"
+
+msgid "Yes, replace the original 'edit' button for images"
+msgstr "是,为图像替换原始的“编辑”按钮"
+
+msgid "Picnik API key"
+msgstr "Picnik API key"
+
+msgid "That's not a proper API key!"
+msgstr "那不是一个合法的API key!"
+
+msgid ""
+"If you have your own picnik API key, you may enter it here. <br /> Leave "
+"this blank if you're not sure."
+msgstr "如果你有自己的picnik API key,你可以在此输入. <br />如果你不确信请留空."
+
+msgid "Note"
+msgstr "注意"
+
+msgid ""
+"It seems you're running PivotX from a local network. The Picnik "
+"extension<br /> needs to be able to fetch the images over the internet, so "
+"it might not work on<br /> your current setup."
+msgstr ""
+"你好象正在本地网络运行PivotX. Picnik扩展需要访问互联网,所以在你当前的安装,"
+"Picnik可能不能工作."
+
+msgid "Piwik URL"
+msgstr "Piwik URL"
+
+msgid "Either the global or local URL to where you have installed Piwik."
+msgstr "您已经安装的Piwik URL(无论是全球的还是本地的)"
+
+msgid "Piwik Website ID "
+msgstr "Piwik网站ID"
+
+msgid "The id for the website as found in the Piwik website overview."
+msgstr "Piwik网站概述上可以发现的网站ID"
+
+msgid "Ignore IP"
+msgstr "忽略IP"
+
+msgid "A comma separated list of IP that shouldn't be registered in Piwik."
+msgstr "一个逗号分隔的列表的IP不应该被登记在Piwik."
+
+msgid "Default folder name"
+msgstr "默认文件夹名"
+
+msgid "That's not a proper folder name!"
+msgstr "非法的文件名！"
+
+msgid ""
+"The name of the folder in where the images are that Slideshow should use. "
+"This should be a folder inside your <tt>images</tt> folder. So if you input "
+"<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</"
+"tt> folder. Don't start or finish with a slash."
+msgstr ""
+"图片所在的目录名应该是幻灯片的名字.这应该是一个在<tt>images</tt>目录内的文件"
+"夹.所以如果您输入<tt>myslideshow</tt>,幻灯片会在 <tt>/images/myslideshow/</"
+"tt>文件夹中.不要用斜杠开头或结尾."
+
+msgid "Default timeout"
+msgstr "默认超时"
+
+msgid "The time (in milliseconds) between each image in the slideshow."
+msgstr "在幻灯片中每张图片之间的时间(毫秒)."
+
+msgid "Default width"
+msgstr "默认宽度"
+
+msgid "Default height"
+msgstr "默认高度"
+
+msgid ""
+"The width and height of the thumbnails in the widget. The borders are added "
+"to this, so the total dimensions of the widget will be 6 pixels wider and "
+"taller."
+msgstr ""
+"widget缩略图的宽度和高度.边框算在内,因此总的widget尺寸将宽出和高出6个像素."
+
+msgid "Limit"
+msgstr "限制"
+
+msgid ""
+"This limits the number of items that are shown. If you set it too high, it "
+"will take longer to load your site."
+msgstr ""
+"限制了显示的项的数目.如果您将其设置得太高,将需要较长时间才能加载您的站点."
+
+msgid "Order by"
+msgstr "排序"
+
+msgid "Date ascending"
+msgstr "升序"
+
+msgid "Date descending"
+msgstr "降序"
+
+msgid "Alphabet"
+msgstr "字母"
+
+msgid "Random"
+msgstr "随机"
+
+msgid "Select the order in which the images are shown."
+msgstr "选择图像显示的顺序."
+
+msgid "Use popup"
+msgstr "使用弹出窗口"
+
+msgid "Thickbox"
+msgstr "Thickbox"
+
+msgid "Fancybox"
+msgstr "Fancybox"
+
+msgid "Select which popup type images are displayed in when clicked."
+msgstr "请选择在单击时显示的弹出图像类型."
+
+msgid "Use recursion"
+msgstr "使用递归"
+
+msgid "Leaf"
+msgstr "叶子"
+
+msgid "All"
+msgstr "全部"
+
+msgid ""
+"If recursion is enabled images from either all subdirectories or just the "
+"leaf subdirectories will be included in the slide show."
+msgstr ""
+"如果启用递归,所有子目录中的图像将包含在幻灯片放映中,否则只有叶子结节的子目录"
+"才被包含."
+
+msgid "Use directories in title"
+msgstr "在标题中使用目录"
+
+msgid ""
+"Yes, include directory names to the automatically generated image titles."
+msgstr "是的,包括目录名自动生成的图片标题."
+
+msgid "Warning! These features are experimental, so use them with caution!"
+msgstr "警告！这些功能是实验性的,所以小心使用！"
+
+msgid "IPTC Index"
+msgstr "IPTC Index(国际报业电信委员会指数)"
+
+msgid ""
+"Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
+"blank to generate a nicename."
+msgstr "IPTC表中的图片索引. (Picasa 用'2#120'). 留空产生一个nicename."
+
+msgid "IPTC Encoding"
+msgstr "IPTC(国际报业电信委员会)编码"
+
+msgid ""
+"Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
+"for no decoding."
+msgstr "图像IPTC编码文本.(使用编码iconv名称). 留空则不进行解码."
+
+msgid ""
+"These icons link to social bookmarking sites where readers can share and "
+"discover new web pages."
+msgstr "这些图标链接到社交书签网站,读者可以在此共享和发现新的 web 页."
+
+msgid "Rating button description"
+msgstr "评级按钮说明"
+
+msgid "That's not a proper description!"
+msgstr "非法的描述！"
+
+msgid ""
+"The text to display besides the star ranking buttons. You can use %count% "
+"and %average% to insert those values."
+msgstr "在高排名按钮旁显示的文本.您可以使用%count% 和 %average%插入这些值."
+
+msgid "Rating average description"
+msgstr "平均等级描述"
+
+msgid ""
+"The text to show when only showing a simple average. You can use %average% "
+"to insert that value."
+msgstr "要只显示时一个简单的平均值.您可以使用 %average% 来插入那个值."
+
+msgid "Thank you for voting!"
+msgstr "感谢您的投票！"
+
+msgid "Use your browser's back button to go back to the previous page."
+msgstr "使用您的浏览器的后退按钮返回到前一页."
+
+msgid "Your WIE login name"
+msgstr "你的WIE登录名"
+
+msgid "That's not a proper username!"
+msgstr "非法的用户名！"
+
+#, php-format
+msgid "The name you use to log in at %s"
+msgstr "你在 %s 用这个名字登录"
+
+msgid "Include weblog frontpages"
+msgstr "包括博客头版"
+
+msgid "Include entries"
+msgstr "包含文章"
+
+msgid "Include pages"
+msgstr "包含静态页面"
+
+msgid "Filter as any robot"
+msgstr "过滤所有机器人"
+
+msgid ""
+"Test each sitemap entry against all Disallow rules in robots.txt. User-agent "
+"qualifiers are ignored, every Disallow will contribute to URI exclusion."
+msgstr ""
+"测试站点地图中的所有文章是否严格遵守robots.txt禁止访问规则.用户代理都将被忽"
+"略,禁止访问规则将对外屏蔽URI."
+
+msgid "If this doesn't make any sense to you, leave the check box unchecked."
+msgstr "如果这对你没有任何意义,请使复选框为未选中状态."
+
+msgid "Additional URIs"
+msgstr "额外的URIs"
+
+msgid ""
+"Additional URIs to include in sitemap. Separate the URIs with a comma. The "
+"URIs should be absolute paths (i.e. /myuri/here). Last modified will always "
+"be set to the current day."
+msgstr ""
+"额外的URI包含在Sitemaps文件.用逗号分隔多个URI.URI应该是绝对路径(比如 /myuri/"
+"here).最后修改将永远被设置为当前日期."
+
+msgid "About"
+msgstr "关于"
+
+msgid "Latest Comments"
+msgstr "最新评论"
+
+msgid "Stuff"
+msgstr "内容"
+
+msgid "Archives"
+msgstr "存档"
+
+msgid "Categories"
+msgstr "分类"
+
+msgid "Links"
+msgstr "链接"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Linkdump"
+msgstr "Linkdump"
+
+msgid "Home"
+msgstr "首页"
+
+msgid "Tag Cloud"
+msgstr "标签云"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Email"
+msgstr "邮件"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Post Comment"
+msgstr "评论"
+
+msgid "Preview Comment"
+msgstr "预览评论"
+
+msgid "Remember personal info?"
+msgstr "记录用户信息?"
+
+msgid "Yes, give me a cookie and remember me."
+msgstr "是,保存cookie并记住我."
+
+msgid "Navigation"
+msgstr "导航"
+
+msgid "Search Results"
+msgstr "搜索结果"
+
+msgid "Top"
+msgstr "顶部"
+
+msgid "Powered by"
+msgstr "Powered by"
+
+msgid "More"
+msgstr "更多"
+
+msgid "Pages"
+msgstr "页面"
+
+msgid "Meta"
+msgstr "元"
+
+msgid "(optional field)"
+msgstr "(可选字段)"
+
+msgid "Comment"
+msgstr "评论"
+
+msgid "Notify"
+msgstr "通知"
+
+msgid "Yes, send me email when someone replies."
+msgstr "是,当有回复时发送email给我."
+
+msgid "Hide email"
+msgstr "隐藏email"
+
+msgid "Yes, hide my email address."
+msgstr "是的,隐藏我的email地址"
+
+msgid ""
+"<strong>Small print:</strong> All html tags except &lt;b&gt; and &lt;i&gt; "
+"will be removed from your comment. You can make links by just typing the url "
+"or mail-address."
+msgstr ""
+"<strong>细则:</strong> 所有html标签(除&lt;b&gt; and &lt;i&gt;) 将会从评论中删"
+"除. URL和邮件地址会自动成为链接."
+
+msgid "Warning!"
+msgstr "警告！"
+
+msgid "Javascript and Cookies must be enabled to log in to PivotX."
+msgstr "登录PivotX必须启用JavaScript和Cookies."
+
+msgid ""
+"PivotX couldn't set the session properly. Try logging out, and logging on "
+"again. You could also try clearing your browser's cache, and make sure no "
+"software on your computer is interfering with the cookies."
+msgstr ""
+"PivotX不能正确设置session.请尝试登出再重新登录.您也可以尝试清除浏览器的缓存,"
+"并确保您的计算机没有软件干扰cookies."
+
+msgid "If the problem persists, ask for help on the forum."
+msgstr "如果问题仍然存在,请在论坛上的获得帮助."
+
+msgid "Insert an Image"
+msgstr "插入一个图像"
+
+msgid ""
+"To insert an image, you should upload an image, or select a previously "
+"uploaded image."
+msgstr "你可以插入一个上传的图像或者以前上传过的图像."
+
+msgid "2 MB Max"
+msgstr "最大2MB"
+
+msgid "Image name"
+msgstr "图像名称"
+
+msgid "Select an image"
+msgstr "选择图像"
+
+msgid "Alternate text"
+msgstr "注释文字"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Align"
+msgstr "排列"
+
+msgid "Center (default)"
+msgstr "中间(默认)"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Inline"
+msgstr "内联"
+
+msgid "Insert image!"
+msgstr "插入图像"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Filter on:"
+msgstr "打开过滤"
+
+msgid "Category"
+msgstr "分类"
+
+msgid "all categories"
+msgstr "全部分类"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "all authors"
+msgstr "所有作者"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "all statuses"
+msgstr "全部状态"
+
+msgid "Go!"
+msgstr "继续"
+
+msgid "Search for:"
+msgstr "搜索:"
+
+msgid "Reset search"
+msgstr "重置搜索"
+
+msgid "Show all"
+msgstr "全部显示"
+
+msgid "Uploading"
+msgstr "正在上传"
+
+msgid "uploaded"
+msgstr "已经上传"
+
+msgid "Uploaded"
+msgstr "已经上传"
+
+msgid "File extension error"
+msgstr "文件扩展名错误"
+
+msgid "Upload too big"
+msgstr "上传文件过大"
+
+msgid "Upload error"
+msgstr "上传出错"
+
+msgid "Orphaned Pages"
+msgstr "孤立的页面"
+
+msgid ""
+"These pages do not belong to any chapter, and will not show up in pagelists "
+"or menus."
+msgstr "这些页面不再属于任何章节,并且不会显示在页面列表和菜单上"
+
+msgid "order"
+msgstr "顺序"
+
+msgid "back to top"
+msgstr "回到页首"
+
+msgid "Timed Publish"
+msgstr "定时发布"
+
+msgid "Hold"
+msgstr "暂停"
+
+msgid "Published"
+msgstr "已发布"
+
+msgid "default template"
+msgstr "默认模板"
+
+msgid "Edit Page"
+msgstr "编辑页面"
+
+msgid "Are you sure you wish to delete this Page?"
+msgstr "您确定要删除该页吗？"
+
+msgid "Delete Page"
+msgstr "删除页面"
+
+msgid "Write a new Page"
+msgstr "写新页"
+
+msgid "Edit Chapter"
+msgstr "编辑章节"
+
+msgid "Are you sure you wish to delete this Chapter?"
+msgstr "你确信想要删除这个章节?"
+
+msgid "Delete Chapter"
+msgstr "删除章节"
+
+msgid "Add a Chapter"
+msgstr "增加章节"
+
+msgid "Visit our website at:"
+msgstr "访问我们的网站："
+
+msgid "The PivotX Team"
+msgstr "PivotX团队"
+
+msgid "Core team members"
+msgstr "团队核心成员"
+
+msgid "aka"
+msgstr "又名"
+
+msgid "Code"
+msgstr "编码"
+
+msgid "architecture"
+msgstr "架构"
+
+msgid "Contact"
+msgstr "联系"
+
+msgid "Head of Support"
+msgstr "技术支持负责人"
+
+msgid "website maintenance"
+msgstr "站点维护"
+
+msgid "contact"
+msgstr "联系"
+
+msgid ""
+"Note: please don't use these email addresses for support questions. Please "
+"use our forum for those: "
+msgstr "注：请不要使用这些电子邮件询问问题.请用论坛:"
+
+msgid "Official contributors"
+msgstr "官方贡献者"
+
+msgid "(support and additional coding)"
+msgstr "(支持的和额外的编码)"
+
+msgid "Previous contributors"
+msgstr "以前的贡献者"
+
+msgid "lest we forget"
+msgstr "我们不要忘记"
+
+msgid "Used libraries / tools"
+msgstr "已经使用的库和工具"
+
+msgid "website"
+msgstr "网站"
+
+msgid ""
+"We probably forgot some.. Please let us know if we did, and we'll give "
+"credits in the next release"
+msgstr "我们可能忘了一些..请让我们知道,我们将在下一个版本中加入到创作组中"
+
+msgid "Comments waiting for moderation"
+msgstr "评论等待审核"
+
+msgid "IP-address"
+msgstr "IP-地址"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Edit this comment"
+msgstr "编辑这个评论"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Delete this comment?"
+msgstr "删除评论？"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Unblock this IP-address?"
+msgstr "解除IP封锁"
+
+msgid "Unblock IP"
+msgstr "解除 IP %s封锁"
+
+msgid "Block this IP-address?"
+msgstr "封锁该IP地址?"
+
+msgid "Block IP"
+msgstr "封锁IP"
+
+msgid "on"
+msgstr "on"
+
+msgid "Check all"
+msgstr "选择全部"
+
+msgid "Check none"
+msgstr "清除选择"
+
+msgid "Approve comments"
+msgstr "批准评论"
+
+msgid "Delete comments"
+msgstr "删除评论"
+
+msgid "There are no comments waiting for moderation"
+msgstr "没有评论需要审核"
+
+msgid "The latest comments"
+msgstr "最新评论"
+
+msgid "There are no latest comments"
+msgstr "暂无评论"
+
+msgid "No comments"
+msgstr "暂无评论"
+
+msgid "Welcome, unknown user."
+msgstr "欢迎,游客"
+
+msgid "Welcome back"
+msgstr "欢迎回来"
+
+msgid "IP address"
+msgstr "IP地址"
+
+msgid "User agent"
+msgstr "使用代理"
+
+msgid "In moderation"
+msgstr "需要审核"
+
+msgid "No title"
+msgstr "无标题"
+
+msgid "Chapter"
+msgstr "章节"
+
+msgid "none"
+msgstr "none"
+
+msgid "Template"
+msgstr "模板"
+
+msgid "By"
+msgstr "By"
+
+msgid "Posted"
+msgstr "已发布"
+
+msgid "No name"
+msgstr "无名称"
+
+msgid "On"
+msgstr "On"
+
+msgid "Introduction"
+msgstr "介绍"
+
+msgid "Body"
+msgstr "主体"
+
+msgid "Keywords"
+msgstr "关键字"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Separate Tags with spaces. E.g., movies jedi starwars (not 'star wars')"
+msgstr ""
+"请用空格分开标签.例如,电影\"星球大战\",应该是 'jedi starwars' 而不是 'star "
+"wars'"
+
+msgid "Post Status"
+msgstr "发布状态"
+
+msgid "Publish"
+msgstr "发布"
+
+msgid "Publish on"
+msgstr "发布于"
+
+msgid "Post Page"
+msgstr "发布页面"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "(none)"
+msgstr "(none)"
+
+msgid "Allow comments"
+msgstr "允许评论"
+
+msgid "Post Entry"
+msgstr "发布文章"
+
+msgid "Entries"
+msgstr "文章"
+
+msgid "Comments"
+msgstr "评论"
+
+msgid "Other"
+msgstr "其它"
+
+msgid "Overview"
+msgstr "总览"
+
+msgid "New Entry"
+msgstr "新的文章"
+
+msgid "New Page"
+msgstr "新页面"
+
+msgid "Logout"
+msgstr "注销"
+
+msgid "View site"
+msgstr "查看站点"
+
+msgid "About PivotX"
+msgstr "关于Pivotx"
+
+msgid "c"
+msgstr "c"
+
+msgid "t"
+msgstr "t"
+
+msgid "more"
+msgstr "更多..."
+
+msgid "The latest entries"
+msgstr "最新文章"
+
+msgid "The latest pages"
+msgstr "最新页面"
+
+msgid "The latest trackbacks"
+msgstr "最新引用"
+
+msgid "Blog Name"
+msgstr "博客名称"
+
+msgid "Edit this trackback"
+msgstr "编辑trackback"
+
+msgid "Delete this trackback?"
+msgstr "删除trackback?"
+
+msgid "There are no latest trackbacks"
+msgstr "暂无引用"
+
+msgid "No trackbacks"
+msgstr "暂无引用"
+
+msgid "The configuration for \"%key%\" was successfully updated."
+msgstr "\"%key%\"配置已成功更新."
+
+msgid "The configuration could not be updated."
+msgstr "配置不能更新"
+
+msgid "Permalink"
+msgstr "永久链接"
+
+msgid "edit"
+msgstr "编辑"
+
+msgid "Internal Name"
+msgstr "内部名"
+
+msgid "Subtitle"
+msgstr "副标题"
+
+msgid "Post or Preview"
+msgstr "发布或预览"
+
+msgid "Post and Continue Editing"
+msgstr "发布并继续编辑"
+
+msgid "Order"
+msgstr "顺序"
+
+msgid "Created on"
+msgstr "建立于"
+
+msgid "Last edited on"
+msgstr "最后编辑于"
+
+msgid "Are you sure you wish to delete this page?"
+msgstr "您确定要删除该页吗？"
+
+msgid "Delete page"
+msgstr "删除页面"
+
+msgid "Compact view"
+msgstr "紧凑视图"
+
+msgid "Active widgets"
+msgstr "激活widgets"
+
+msgid "Available Widgets"
+msgstr "可用的Widgets"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Update available"
+msgstr "有新版本可以升级"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "General"
+msgstr "一般的"
+
+msgid "Templates"
+msgstr "模板"
+
+msgid "Subweblogs"
+msgstr "子博客"
+
+msgid "XML feeds"
+msgstr "XML feeds"
+
+msgid "Commenting"
+msgstr "正在评论"
+
+msgid "Back to Weblogs"
+msgstr "返回到博客"
+
+msgid "The weblog settings for \"%key%\" were successfully updated."
+msgstr "\"%key%\" 的博客设置已经更新."
+
+msgid "The weblog settings could not be updated."
+msgstr "不能更新博客设置."
+
+msgid "Insert a Tag"
+msgstr "插入标签"
+
+msgid ""
+"Insert a tag in your entry with an optional link. You can also select a tag "
+"from the (partial) Tag Cloud below."
+msgstr ""
+"用一个可选的链接插入一个标签到您的文章中.您也可以从下面的标签云中选择一个标"
+"签."
+
+msgid "Tag"
+msgstr "标签"
+
+msgid "Insert tag!"
+msgstr "插入标签"
+
+msgid "Suggested Tags"
+msgstr "建议的标签"
+
+msgid "Via Link"
+msgstr "按链接"
+
+msgid "Via Title"
+msgstr "按标题"
+
+msgid "Trackback Ping"
+msgstr "引用通告"
+
+msgid "View Comments and Trackbacks"
+msgstr "查看评论和引用"
+
+msgid "Trackbacks"
+msgstr "引用"
+
+msgid "Are you sure you wish to delete this entry?"
+msgstr "确认删除这篇文章吗？"
+
+msgid "Delete entry"
+msgstr "删除文章"
+
+msgid "Insert a Download"
+msgstr "插入一个下载项"
+
+msgid ""
+"To make a file download, you should upload a file, or select a previously "
+"uploaded file. Then select whether you want an icon or text link that "
+"triggers the download."
+msgstr ""
+"上传文件或者选择以前上传的文件,然后选择是需要一个图标还是文字链接触发下载."
+
+msgid "File Name"
+msgstr "文件名"
+
+msgid "Link Look"
+msgstr "链接自身"
+
+msgid "Use Icon"
+msgstr "使用图标"
+
+msgid "Use Text"
+msgstr "使用文本"
+
+msgid "Link Title"
+msgstr "链接标题"
+
+msgid "Insert download!"
+msgstr "插入一个下载链接！"
+
+msgid "Jump to:"
+msgstr "跳转到:"
+
+msgid "Message Log"
+msgstr "查看消息日志"
+
+msgid "Website is OFFLINE"
+msgstr ""
+
+msgid "My Info"
+msgstr "我的信息"
+
+msgid "View debug logs"
+msgstr "查看调试日志"
+
+msgid "sec."
+msgstr "秒"
+
+msgid "using"
+msgstr "用"
+
+msgid "queries"
+msgstr "查询"
+
+msgid "build"
+msgstr "build"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgid "Table of Contents"
+msgstr "目录"
+
+msgid "Pg."
+msgstr "Pg."
+
+msgid "Filename"
+msgstr "文件名"
+
+msgid "Filesize"
+msgstr "文件大小"
+
+msgid "Thumbnail"
+msgstr "缩略图"
+
+msgid "Are you sure you wish to delete this file?"
+msgstr "确定删除该页面？"
+
+msgid "Copy to file name?"
+msgstr "复制为文件名？"
+
+msgid "Duplicate"
+msgstr "复制"
+
+msgid "New file name?"
+msgstr "新文件名？"
+
+msgid "Create a new file"
+msgstr "创建新的文件"
+
+msgid "New folder name?"
+msgstr "新文件夹名？"
+
+msgid "Create a new folder"
+msgstr "创建新文件夹"
+
+msgid ""
+"You're not allowed to upload/duplicate files in this folder. Use your FTP "
+"program to do this."
+msgstr "你不能上传/复制此文件夹中的文件.请用FTP."
+
+msgid "List of uploaded files"
+msgstr "已经上传文件列表"
+
+msgid "Done"
+msgstr "完成!"
+
+msgid "Add a new configuration option:"
+msgstr "增加新的配置选项："
+
+msgid "Key"
+msgstr "键"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Edit options"
+msgstr "编辑选项"
+
+msgid "You should first select or upload an image"
+msgstr "你应该先选择或上传一个图像"
+
+msgid ""
+"To make a popup to an image, you should upload an image, or select a "
+"previously uploaded image. Then select a text or a thumbnail that triggers "
+"the popup."
+msgstr "上传图像或者选择以前上传过的图像,然后选择一个文本或缩略图触发弹出窗口."
+
+msgid "For popup"
+msgstr "弹出窗口专用"
+
+msgid "Use Thumbnail"
+msgstr "使用缩略图"
+
+msgid "edit thumbnail"
+msgstr "编辑缩略图"
+
+msgid "Border"
+msgstr "边界"
+
+msgid "pixels"
+msgstr "像素"
+
+msgid "Insert popup!"
+msgstr "插入一个弹出的图像窗口！"
+
+msgid "Timed"
+msgstr "定时"
+
+msgid "Held"
+msgstr "暂停发布着"
+
+msgid "categories"
+msgstr "分类"
+
+msgid "Check All"
+msgstr "选择全部"
+
+msgid "Uncheck All"
+msgstr "不选择"
+
+msgid "With the checked entries, do:"
+msgstr "选择的文章,将要:"
+
+msgid "- select an option -"
+msgstr "- 选择一个选项 -"
+
+msgid "Set Status to \"publish\""
+msgstr "设置状态为 '发布'"
+
+msgid "Set Status to \"hold\""
+msgstr "设置状态为 '暂不发布'"
+
+msgid "Delete them"
+msgstr "删除"
+
+msgid "No entries found."
+msgstr "没有文章."
+
+msgid "Your search or filter settings gave no results."
+msgstr "没有搜索结果"
+
+msgid "You may reset the filters with the following link:"
+msgstr "您可以重置具有以下链接的过滤条件:"
+
+msgid "You can also create a"
+msgstr "你还可以创建一个"
+
+msgid "Create New User"
+msgstr "创建新的用户"
+
+msgid "Username"
+msgstr "名称"
+
+msgid "Nickname"
+msgstr "昵称"
+
+msgid "Userlevel"
+msgstr "用户级别"
+
+msgid "Last Login"
+msgstr "最后登录"
+
+msgid "Edit User"
+msgstr "编辑用户"
+
+msgid "You're about to remove access for %1. Are you sure you want to do this?"
+msgstr "你决定删除博客%1吗?"
+
+msgid "Verified"
+msgstr "已经验证"
+
+msgid "Disabled"
+msgstr "无效的"
+
+msgid "Notifications"
+msgstr "通知"
+
+msgid "Edit Visitor"
+msgstr "编辑游客"
+
+msgid "You are about to delete visitor %1. Are you sure?"
+msgstr "确定删除游客%1吗?"
+
+msgid "Insert PivotX Image"
+msgstr "插入一个图像"
+
+msgid "Insert PivotX Popup"
+msgstr "插入弹出窗口"
+
+msgid "Insert PivotX Download"
+msgstr "插入下载项"
+
+msgid "Insert PivotX Tag"
+msgstr "插入PivotX标签"
+
+msgid "The default category is:"
+msgstr "默认分类："
+
+msgid ""
+"This means that new entries will have this category, unless you edit the "
+"selected categories."
+msgstr "这意味着新的文章将归这一类别,除非你编辑选定类别."
+
+msgid "Create New Category"
+msgstr "建立新的分类"
+
+msgid "Display Name"
+msgstr "显示名称"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Number of Entries"
+msgstr "文章数量"
+
+msgid "Hidden Category"
+msgstr "隐藏分类"
+
+msgid "Sorting Order"
+msgstr "排序"
+
+msgid "Edit Category"
+msgstr "编辑分类"
+
+msgid "users"
+msgstr "用户"
+
+msgid "View entries"
+msgstr "查看文章"
+
+msgid "Are you sure you wish to delete this category?"
+msgstr "确定删除该分类？"
+
+msgid "New Weblog"
+msgstr "新的博客"
+
+msgid "Weblog Name"
+msgstr "博客名称"
+
+msgid "View"
+msgstr "查看"
+
+msgid "You are about to delete weblog %1. Are you sure?"
+msgstr "确定删除博客%1吗?"
+
+msgid "Export as theme"
+msgstr "导出为主题"
+
+msgid "Insert a file"
+msgstr "插入文件"
+
+msgid ""
+"To insert a file, you should upload one, or select a previously uploaded "
+"file."
+msgstr "你可以插入一个上传的图像或者以前上传过的图像."
+
+msgid "File name"
+msgstr "文件名"
+
+msgid "Select a file"
+msgstr "选择文件"
+
+msgid "Insert file!"
+msgstr "插入文件！"
+
+msgid "Edit Entry (fullscreen)"
+msgstr "编辑文章"
+
+msgid "View website (fullscreen)"
+msgstr "查看站点(全屏)"
+
+msgid "first"
+msgstr "第一个"
+
+msgid "previous"
+msgstr "上一个"
+
+msgid "next"
+msgstr "下一个"
+
+msgid "last"
+msgstr "最后一个"
+
+msgid ""
+"Hi, and welcome to %1! Below this bit of text you can see a short overview "
+"of the latest <a href='index.php?page=entries'>entries</a> and <a "
+"href='index.php?page=pagesoverview'>pages</a>. And perhaps even <a "
+"href='index.php?page=comments'>new comments</a> that are in the moderation "
+"queue."
+msgstr ""
+"你好,欢迎到%1！这段文字下面你可以看到最新的<a href='index.php?page=entries'>"
+"文章</a>和<a href='index.php?page=pagesoverview'>静态页面</a>简短概述.还可以"
+"看到在审核队列中的<a href='index.php?page=comments'>新的评论</a>."
+
+msgid "Configuration"
+msgstr "设置"
+
+msgid "Manage Media"
+msgstr "文档管理"
+
+msgid "overview of entries"
+msgstr "文章总览"
+
+msgid "Edit this entry"
+msgstr "编辑文章"
+
+msgid "overview of comments"
+msgstr "评论总览"
+
+msgid "Entry"
+msgstr "文章"
+
+msgid "delete"
+msgstr "删除"
+
+msgid "overview of pages"
+msgstr "静态页面总览"
+
+msgid "Edit this page"
+msgstr "编辑页面"
+
+msgid "PivotX News"
+msgstr "PivotX新闻"
+
+msgid "Visit the website"
+msgstr "访问站点"
+
+msgid "The latest events"
+msgstr "最新事件"
+
+msgid "Show more items"
+msgstr "显示更多项目"
+
+msgid "The latest Forum posts"
+msgstr "论坛最新内容"
+
+msgid "Suggestions"
+msgstr "建议"
+
+msgid "Show more tags"
+msgstr "显示更多标签"
+
+msgid "Save and continue editing"
+msgstr "保存并继续编辑"
+
+msgid ""
+"You have Caching and/or Minify enabled. If your changes do not show up "
+"immediately, %click here% and disable Caching and Minify while you're "
+"working on your site."
+msgstr ""
+"你启用了缓存或Minify.如果你的改变不会马上显示出来,当你在操作这个站点时%点击这"
+"里%禁用缓存和Minify."
+
+#, php-format
+msgid "Cannot open file %s"
+msgstr "无法打开文件%s"
+
+#, php-format
+msgid "Cannot write to file %s"
+msgstr "无法写入文件%s"
+
+#, php-format
+msgid "Wrote contents to file %s"
+msgstr "写内容到文件%s"
+
+#, php-format
+msgid "The file %s is not writable"
+msgstr "文件 %s 不可写"
+
+#, php-format
+msgid "Finished! Generating index for %s entries took %s seconds "
+msgstr "完成! 生成文章%s索引用了%s 秒 "
+
+msgid "The latest PivotX news is not available as long as safemode is enabled."
+msgstr "启用安全模式时PivotX最新新闻将会无效."
+
+msgid "Oops! I'm afraid I couldn't read the News feed."
+msgstr "喔！恐怕我不能看新闻feed."
+
+msgid "Oops! I'm afraid I couldn't read the Forum feed."
+msgstr "喔！恐怕我不能看论坛feed."
+
+msgid "Oops! I'm afraid I couldn't read Tag feed."
+msgstr "喔！恐怕我不能看标签feed."
+
+#, php-format
+msgid "Nothing on <strong>%s</strong> for <strong>%s</strong>"
+msgstr "Nothing on <strong>%s</strong> for <strong>%s</strong>"
+
+#, php-format
+msgid "Latest on <strong>%s</strong> for <strong>%s</strong>"
+msgstr "Latest on <strong>%s</strong> for <strong>%s</strong>"
+
+msgid "Current path"
+msgstr "当前路径"
+
+msgid "There are %1 comment(s) waiting to be approved."
+msgstr "有%1评论正等待批准."
+
+msgid "No comments are waiting to be approved."
+msgstr "没有评论需要审核"
+
+msgid "Log in"
+msgstr "登录"
+
+msgid "Dashboard"
+msgstr "dashboard"
+
+msgid "Back to dashboard"
+msgstr "返回到dashboard"
+
+msgid "Entries &amp; Pages"
+msgstr "文章和静态页面"
+
+msgid "Overview of Entries"
+msgstr "文章总览"
+
+msgid "Write and Publish a new Entry"
+msgstr "新的文章"
+
+msgid "Overview of Pages"
+msgstr "页面总览"
+
+msgid "Write and Publish a new Page"
+msgstr "新建并发布一个新的页面"
+
+msgid "Moderate Comments"
+msgstr "审核评论"
+
+msgid "Overview of Latest Trackbacks"
+msgstr "最新引用概要"
+
+msgid "Manage and Upload Media"
+msgstr "管理和上传文档"
+
+msgid "Create, edit and delete Templates"
+msgstr "建立,编辑和删除模板"
+
+msgid "Explore Database Files"
+msgstr "浏览数据库文件"
+
+msgid "View files (both text and database files)"
+msgstr "查看文件(文本文件和数据库文件)"
+
+msgid "Explore Files"
+msgstr "浏览文件"
+
+msgid "View files in the site's root"
+msgstr "查看站点根目录文件"
+
+msgid "Administration"
+msgstr "管理"
+
+msgid "Overview of Administrative functions"
+msgstr "管理员总览"
+
+msgid "Edit the Configuration file"
+msgstr "编辑配置文件"
+
+msgid "Edit, Add and Delete advanced Configuration options"
+msgstr "编辑、增加、删除高级配置选项"
+
+msgid "Create, edit and delete Users"
+msgstr "建立,编辑和删除用户"
+
+msgid "Create, edit and delete the Categories"
+msgstr "建立,编辑和删除分类"
+
+msgid "Weblogs"
+msgstr "博客"
+
+msgid "Create, edit and delete Weblogs"
+msgstr "建立,编辑和删除博客"
+
+msgid "Registered Visitors"
+msgstr "已注册游客"
+
+msgid "View and edit Registered Visitors"
+msgstr "查看和编辑已注册游客"
+
+msgid "Maintenance"
+msgstr "维护"
+
+msgid "Perform routine maintenance on PivotX's files"
+msgstr "例行维护Pivot文件"
+
+msgid "Spam Protection"
+msgstr "防垃圾保护"
+
+msgid "Overview of the various tools to keep your weblogs spam-free"
+msgstr "概述了各种免费的防垃圾工具."
+
+msgid "Spam Configuration"
+msgstr "防垃圾配置"
+
+msgid "Configure Spam Protection tools (like HashCash and SpamQuiz)."
+msgstr "配置防垃圾的保护工具(比如HashCash和SpamQuiz)."
+
+msgid "Spam Log"
+msgstr "防垃圾日志"
+
+msgid "View and Reset the Spam Log."
+msgstr "查看和重置防垃圾日志"
+
+msgid "Backup"
+msgstr "备份"
+
+msgid ""
+"Download a zip file containing your configuration files, templates or "
+"entries database"
+msgstr "下载包含您配置文件、模板和文章数据库的zip压缩文件."
+
+msgid "Empty Cache"
+msgstr "清空缓存"
+
+msgid "Clear PivotX's internal cache for stored files."
+msgstr "清除PivotX保存的内部缓存."
+
+msgid "Extensions"
+msgstr "扩展"
+
+msgid "Manage installed Extensions"
+msgstr "管理已经安装的扩展"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+msgid "Manage installed Widgets"
+msgstr "管理已经安装的Widgets"
+
+msgid "view"
+msgstr "查看"
+
+msgid "View weblog"
+msgstr "查看博客"
+
+msgid "Configure Extensions"
+msgstr "配置扩展"
+
+msgid "Explore Home folder"
+msgstr "浏览根目录"
+
+msgid "Rebuild the Index"
+msgstr "重建索引"
+
+msgid "Rebuild the index of your database"
+msgstr "重建数据库索引"
+
+msgid "Rebuild Search Index"
+msgstr "重建搜索索引"
+
+msgid "Rebuild the Searchindex, to allow searching in entries and pages"
+msgstr "重建搜索索引,以便搜索文章和页面."
+
+msgid "Rebuild Tag Index"
+msgstr "重建标签索引"
+
+msgid "Rebuild the Tagindex, to display tag clouds and tags below entries"
+msgstr "重建标签索引以显示标签云和下面标签"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Welcome to your new online presence!"
+msgstr "欢迎光临!"
+
+msgid "Add some pages here, or start a new chapter."
+msgstr "增加页面,或开始新的章节"
+
+msgid "Light gray"
+msgstr "浅灰色"
+
+msgid "Dark gray"
+msgstr "深灰色"
+
+msgid "Minimally styled"
+msgstr "最简风格的"
+
+msgid "Welcome to"
+msgstr "%build%欢迎您"
+
+#, php-format
+msgid "Illegal file type %s uploaded. Check your %s setting."
+msgstr "上传了非法类型文件 %s. 请检查您的 %s 设置."
+
+msgid "Allow filetypes"
+msgstr "支持的文件类型"
+
+msgid "Login"
+msgstr "登录"
+
+msgid ""
+"Usernames can only contain lowercase alphanumeric characters (a-z, 0-9) and "
+"underscores (_)."
+msgstr "用户名只能包括英文字母,数字(A-Z, 0-9)和下划线(_)."
+
+msgid "Please give a proper password!"
+msgstr "请输入合适的密码"
+
+msgid "Stay logged in?"
+msgstr "保持登录？"
+
+msgid "Lost your password?"
+msgstr "忘记码？"
+
+msgid "Send password"
+msgstr "发送密码"
+
+msgid "Reset my password"
+msgstr "重置密码"
+
+msgid ""
+"If you've forgotten your password, check the box, enter your username and "
+"PivotX will send you an email with a link to reset your password."
+msgstr ""
+"如果您忘记了密码,选中该项,输入您的用户名,PivotX会向您发送含有链接的电子邮件以"
+"重置密码."
+
+msgid "Backup templates"
+msgstr "备份模板"
+
+msgid "Backup all your entries"
+msgstr "备份所有文章"
+
+msgid "Backup all files in the db folder"
+msgstr "备份db文件夹中的所有文件"
+
+msgid "Backup configuration files"
+msgstr "备份配置文件"
+
+msgid "Reset Spam Log"
+msgstr "重置防垃圾日志"
+
+msgid "Save Comment"
+msgstr "保存评论"
+
+msgid "Registered user"
+msgstr "已注册用户"
+
+msgid ""
+"Determines if this comment is displayed like it was by registered user. "
+"(regardless of whether the comment was actually made by a registered user)"
+msgstr ""
+"决定是否将此评论显示为由注册用户写的.(无论实际是否是一名注册用户评论的)"
+
+msgid ""
+"If set to 'yes', the visitor will be notified by email of any subsequent "
+"comments to this entry."
+msgstr "如果设置为'yes',此文章的所有后续评论将会以电子邮件形式通知游客."
+
+msgid "Show discreetly"
+msgstr "Show discreetly"
+
+msgid ""
+"If set to 'yes', the comment will be shown without the accompanying email-"
+"address."
+msgstr "如果设置为'是',评论将不显示电子邮件地址."
+
+msgid "Moderate Comment"
+msgstr "审核评论"
+
+msgid ""
+"If set to 'yes', this comment will not be shown on the site, until it has "
+"been approved in the moderation queue"
+msgstr "如果设置为'是',此评论在将被批准前不会显示在网站上."
+
+msgid "Save Trackback"
+msgstr "保存引用"
+
+msgid "Entry title"
+msgstr "编辑文章"
+
+msgid "Excerpt"
+msgstr "摘要"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr "请提供以下信息以建立第一个用户."
+
+msgid "Password (confirm)"
+msgstr "确认密码"
+
+msgid "The passwords do not match!"
+msgstr "两次输入的密码不同"
+
+msgid "That's not a proper email address!"
+msgstr "那不是一个合法的邮件地址"
+
+msgid "That's not a proper Nickname!"
+msgstr "那不是一个合法的昵称"
+
+msgid "Default language"
+msgstr "默认语言"
+
+msgid "Please select a language!"
+msgstr "请你选择语言"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX检测到您的网络服务器支持MySQL数据库."
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "如果你有一个MySQL用户和数据库,请在下面指定."
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr "如果没有这些,请询问您的托管服务商或选择'Flat Files'模式."
+
+msgid "Database Model"
+msgstr "数据库模型"
+
+msgid "Flat Files"
+msgstr "文本文件"
+
+msgid ""
+"Select which type of Database to use. Flat Files will work on almost every "
+"platform. If your server is capable of using databases, the performance of "
+"PivotX will be best if you use MySQL or SQLite."
+msgstr ""
+"选择使用哪种数据库.Flat Files几乎可以用在所有平台.如果你的服务器提供数据库,并"
+"且是MySQL或SQLite,PivotX的效率将会最好."
+
+msgid "Your MySQL username"
+msgstr "MySQL 用户名"
+
+msgid "Your MySQL password"
+msgstr "您的MySQL密码"
+
+msgid "Database Name"
+msgstr "数据库名"
+
+msgid ""
+"The name of the MySQL database in which you wish to store the information"
+msgstr "您想要保存信息的MySQL数据库名"
+
+msgid "Advanced database settings"
+msgstr "高级数据设置"
+
+msgid "Hostname"
+msgstr "主机名"
+
+msgid ""
+"Your MySQL hostname. If you do not know, this is most likely \"localhost\"."
+msgstr "您的MySQL数据库主机名.如果您不清楚,很可能是 \"localhost\"."
+
+msgid "Table Prefix"
+msgstr "表名前缀"
+
+msgid ""
+"The prefix to use for the database tables. By changing this, you can run "
+"multiple installations of PivotX from one MySQL database. If you don't "
+"intend to do so (yet), just leave this set to \"pivotx_\"."
+msgstr ""
+"该前缀将加在数据库表名前.通过更改这项,你可以在一个MySQL数据库安装多个PivotX."
+"如果你不打算这样做,就让它为\"pivotx_\"."
+
+msgid ""
+"Password must be at least 4 letters long, and it can't be the same as the "
+"username."
+msgstr "密码至少4个字母,并且不能和用户名一样."
+
+msgid "Passwords do not match"
+msgstr "两次输入的密码不同"
+
+msgid "That's not a valid email address"
+msgstr "不是一个合法的邮件地址"
+
+msgid "That's not a proper filename!"
+msgstr "不是一个合法的文件名！"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "You must select a language!"
+msgstr "必须选择语言！"
+
+msgid "Text editor"
+msgstr "文本编辑器"
+
+msgid ""
+"Determines the default text processing, when a user is using Writing a new "
+"entry. For most users 'Wysiwyg editor' will be the easiest option. 'Plain "
+"XHTML' is for those who like to edit raw XHTML, while 'Convert Linebreaks' "
+"does nothing more than change linebreaks to a &amp;lt;br /&amp;gt;-tag. <a "
+"href='http://www.textism.com/tools/textile/' target='_blank'>Textile</a> and "
+"<a href='http://daringfireball.net/projects/markdown/' "
+"target='_blank'>Markdown</a> are both powerful, yet easy to learn markup "
+"styles."
+msgstr ""
+"决定写文章时默认文本处理. 对大部分用户而言最容易的选择是用WYSIWYG编辑器. '明"
+"文XHTML' 是喜欢直接编辑XHTML的人的选择, while 'Convert Linebreaks' does "
+"nothing more than change linebreaks to a &lt; br /&gt;-tag. <a href='http://"
+"www.textism.com/tools/textile/' target='_blank'>Textile</a> 和 <a "
+"href='http://daringfireball.net/projects/markdown/' "
+"target='_blank'>Markdown</a> 都是功能强大,且易于学习的标记样式."
+
+msgid "Wysiwyg"
+msgstr "所见即所得"
+
+msgid "None (plain XHTML)"
+msgstr "None (plain XHTML)"
+
+msgid "XHTML, Convert Linebreaks to &lt;br /&gt;"
+msgstr "XHTML, 转换换行为 &lt;br /&gt;"
+
+msgid "Textile"
+msgstr "Textile"
+
+msgid "Markdown"
+msgstr "Markdown"
+
+msgid "Markdown and Smartypants"
+msgstr "Markdown and Smartypants"
+
+msgid "User last seen on"
+msgstr "最后看到于"
+
+msgid "Inactive user"
+msgstr "非激活状态用户"
+
+msgid "Moblogger"
+msgstr "Moblogger"
+
+msgid "Normal"
+msgstr "普通用户"
+
+msgid "Advanced"
+msgstr "高级用户"
+
+msgid "Administrator"
+msgstr "管理员"
+
+msgid "Superadmin"
+msgstr "超级管理员"
+
+msgid ""
+"Userlevel will determine what kind of actions this user can perfom in PivotX."
+msgstr "用户级别决定了用户在Pivot里面可以做的事情."
+
+msgid "Allowed Categories"
+msgstr "允许的分类"
+
+msgid "This user is allowed to post entries in the selected categories"
+msgstr "允许该用户在选中的这些类别中提交文章"
+
+msgid "Last seen on"
+msgstr "最后看到于"
+
+msgid "Create Category"
+msgstr "建立分类"
+
+msgid "The name that the category is represented by in the weblog"
+msgstr "该类别以这个名称在博客中呈现"
+
+msgid "This category needs a name"
+msgstr "这个分类需要一个名称"
+
+msgid ""
+"Select the Users that you would like to give permission to post in this "
+"category"
+msgstr "选择可以在这个分类发贴的用户"
+
+msgid ""
+"Categories with a lower sorting order will appear higher in the list. If you "
+"keep all the numbers the same, they will be sorted alphabetically"
+msgstr ""
+"越低排列序号的类别将越靠前列表.如果你使所有的数字相同,他们将按照字母顺序排序"
+
+msgid ""
+"If set to \"Yes\", this category will be hidden in archive listings. "
+"(applies only to live pages)"
+msgstr "如果设置为\"yes\", 该分类将在归档列表中隐藏.(仅适用于活动页面)"
+
+msgid "Chapter name"
+msgstr "章节名"
+
+msgid "The name of this chapter"
+msgstr "章节名称"
+
+msgid "A short description of this chapter"
+msgstr "章节的简短描述"
+
+msgid ""
+"The sorting order determines the order in which the Chapters are listed."
+msgstr "排列序号决定了所列章节的顺序."
+
+msgid ""
+"The internal name can consist of only lowercase letters, numbers and "
+"underscore (a-z,0-9,_). While the Weblog Name can be changed later on, the "
+"Internal Name will always stay the same."
+msgstr ""
+"内部名称只能包含小写字母,数字和下划线 (a-z,0-9,_).虽然博客的名称可以以后更改,"
+"内部名称将始终保持不变."
+
+msgid "Start from scratch"
+msgstr "重新开始"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid ""
+"Select the theme you'd like to base your weblog on. All options can be "
+"changed later on."
+msgstr "选择您想要的博客主题.所有的选项可以在以后改变."
+
+msgid "General Settings"
+msgstr "普通设置"
+
+msgid "Payoff"
+msgstr "副标题"
+
+msgid ""
+"The Payoff can be used as a subtitle or a short description of your weblog"
+msgstr "该结果可作为您博客的副标题或是一个简短描述."
+
+msgid ""
+"The Language determines in what language the dates and numbers will be "
+"output."
+msgstr "该语言将决定以什么语言的日期和数字格式输出."
+
+msgid "\"Read More\" Text"
+msgstr "'查看更多' 文本"
+
+msgid ""
+"The text that is used to indicate that there is more text in this entry than "
+"is shown on the front page. If you leave this blank, PivotX will use the "
+"default as defined by the language settings"
+msgstr ""
+"该文本用来提示文章还有更多内容(首页只显示一部分). 留空则PivotX用默认语言提示"
+
+msgid "URL to Weblog"
+msgstr "博客URL"
+
+msgid ""
+"Leave this field blank, unless you know what you are doing. If left empty, "
+"PivotX will automatically determine the URL of your weblog, which is usually "
+"the best option. Normally this setting is only used if you want one "
+"directory for each weblog."
+msgstr ""
+"请使这个字段为空,除非你知道自己在做什么.如果留空PivotX会自动判断您的博客的"
+"URL,这通常是最好的方式.通常这个设置只在你想为每个博客有一个目录."
+
+msgid "Sorting order"
+msgstr "排序顺序"
+
+msgid "The sorting order is used to determine the order of the weblogs."
+msgstr "排序序号用来决定博客的顺序."
+
+msgid "Frontpage Template"
+msgstr "首页模板"
+
+msgid ""
+"The Template which determines the layout of the index page of this weblog."
+msgstr "这个模板决定了博客首页的布局."
+
+msgid "Archivepage Template"
+msgstr "存档页模板"
+
+msgid ""
+"The Template which determines the layout of your archives. This can be the "
+"same as \"Frontpage Template\"."
+msgstr "该模板决定了您Blog的存归布局。可以和\"FrontPage模板\"相同."
+
+msgid "Entrypage Template"
+msgstr "文章页面模板"
+
+msgid "The Template which determines the layout of single entries."
+msgstr "这个模板决定了如何显示每一个文章."
+
+msgid "Extra Template"
+msgstr "额外模板"
+
+msgid ""
+"The Template that defines how a search, tag or other special page will look "
+"like."
+msgstr "该模板定义怎么显示一搜索,标签或是一个指定的页面."
+
+msgid "Page Template"
+msgstr "页面模板"
+
+msgid ""
+"The Template that defines how a page will look like if you haven't specified "
+"a template for it."
+msgstr "在你没有特别指定模板的情况下,该模板将定义页面怎么显示."
+
+#, php-format
+msgid "Subweblog %s"
+msgstr "子博客%s"
+
+msgid ""
+"The Number of entries in this subweblog that will be shown on the frontpage."
+msgstr "子博客首页显示文章的数量."
+
+msgid "Offset"
+msgstr "偏移量"
+
+msgid ""
+"If Offset is set to a number, that amount of entries will be skipped when "
+"generating the page. You can use this to make a \"Previous entries\" list, "
+"for example."
+msgstr ""
+"如果偏移量设置为一个数字，生成页面时有这一数额的条目将被跳过.例如,您可以用此"
+"生成\"以前的文章\"列表."
+
+msgid "Publish these categories"
+msgstr "发布这些类别"
+
+msgid "RSS and Atom Configuration"
+msgstr "RSS和Atom设置"
+
+msgid "Generate Feeds"
+msgstr "生成Feeds"
+
+msgid ""
+"This determines whether or not pivot will automatically generate an RSS and "
+"an Atom feed for this weblog."
+msgstr "是否pivot为这个博客自动生成RSS和Atom feeds."
+
+msgid "RSS URL"
+msgstr "RSS URL"
+
+msgid ""
+"If you use a service like FeedBurner, you can give the link to your "
+"FeedBurner feed here. The link will be used in the RSS badge and in the "
+"autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
+"specify a full URL."
+msgstr ""
+"如果您使用类似FeedBurner的服务,你可以在这里输入您的FeedBurner feed的链接.该链"
+"接将被用于在RSS badge和博客的自动搜索链接.留空将使用PivotX Feed,你也可以指定"
+"一个完整的网址."
+
+msgid "Atom URL"
+msgstr "Atom URL"
+
+msgid ""
+"If you use a service like FeedBurner, you can give the link to your "
+"FeedBurner feed here. The link will be used in the Atom badge and in the "
+"autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
+"specify a full URL."
+msgstr ""
+"如果您使用类似FeedBurner的服务,你可以在这里输入您的FeedBurner feed的链接.该链"
+"接将被用于在Atom badge和博客的自动搜索链接.留空将使用PivotX Feed,你也可以指定"
+"一个完整的网址."
+
+msgid "Create Full Feeds"
+msgstr "创建完整Feeds"
+
+msgid ""
+"Determines whether PivotX creates full Atom and RSS feeds. If set to \"no\" "
+"PivotX will create feeds that just contains short descriptions, thereby "
+"making your feeds less useful."
+msgstr ""
+"决定是否PivotX创建完整的Atom和RSS feeds.如果设置为\"no\" PivotX 将创建只包含"
+"简短描述的feeds,那样会使您的feeds将不那么有用."
+
+msgid "Feed Link"
+msgstr "Feed链接"
+
+msgid ""
+"The link to send with the Feed, to point to the main page. If you leave this "
+"blank, PivotX will send the weblog's index as link."
+msgstr "这个指向主页的链接将和Feed一起发送.如果留空,PivotX将发送博客首页链接."
+
+msgid "Feed Image"
+msgstr "Feed图像"
+
+msgid ""
+"You can specify an image to send with the Feed. Some feed readers will "
+"display this image along with your feed. Leave this blank, or specify a full "
+"URL."
+msgstr ""
+"你可以指定图片和Feed一起发送.一些feed阅读者能在你的feed中看到这个图片.可以留"
+"空或是输入一个完整URL."
+
+msgid "Commenting Settings"
+msgstr "评论设置"
+
+msgid "Send Mail?"
+msgstr "发送邮件?"
+
+msgid ""
+"After a comment has been placed, mail can be sent to maintainers of this "
+"weblog."
+msgstr "在用户评论之后,自动发送邮件给这个博客管理员."
+
+msgid "Mail to"
+msgstr "寄给"
+
+msgid ""
+"Specify the email address(es) to whom mail will be sent. Separate multiple "
+"addresses with a comma."
+msgstr "指定将向谁(邮件地址)发送电子邮件,用逗号分隔多个地址."
+
+msgid "Text to links"
+msgstr "文字地址转换为链接"
+
+msgid "Define whether typed urls and email addresses will be made clickable."
+msgstr ""
+"当书写一个链接或者邮件地址的时候,可以在网页上把他们变成一个可以点击的链接."
+
+msgid "Wrap comments after"
+msgstr "评论换行在"
+
+msgid ""
+"To prevent long strings of characters from breaking your layout, text will "
+"be wrapped after the specified number of characters."
+msgstr "防止太长的字符串破坏了你的网页显示结构."
+
+msgid "Comments Popup?"
+msgstr "用弹出窗口显示评论吗?"
+
+msgid ""
+"Define whether the comments page (or 'single entry') will be shown in a "
+"popup window, or in the original browser window."
+msgstr "定义评论页面(或'单一文章')显示在一个弹出窗口，还是在原来的浏览器窗口."
+
+msgid "Width of Popup"
+msgstr "弹出窗口的宽度"
+
+msgid "Height of Width"
+msgstr "高度和宽度"
+
+msgid "The width (in pixels) of the comments popup."
+msgstr "评论弹出窗口的宽度(像素)."
+
+msgid "Height of Popup"
+msgstr "弹出窗口的高度"
+
+msgid "The height (in pixels) of the comments popup."
+msgstr "评论弹出窗口的宽度和高度(像素)."
+
+msgid "Allow Textile?"
+msgstr "允许Textile?"
+
+msgid "Allow Textile"
+msgstr "允许Textile"
+
+msgid ""
+"If this is set to \"Yes\", visitors are allowed to use <a href=\"http://www."
+"textism.com/tools/textile/\" target=\"_blank\">Textile</a> in their comments."
+msgstr ""
+"如果设置为\"Yes\",游客可以在他们的评论中使用<a href=\"http://www.textism.com/"
+"tools/textile/\" target=\"_blank\">Textile</a>."
+
+msgid "Allow Emoticons?"
+msgstr "允许表情？"
+
+msgid "Allow Emoticons"
+msgstr "允许表情"
+
+msgid ""
+"If this is set to \"Yes\", visitors are allowed to use emoticons, which are "
+"displayed as graphics."
+msgstr "如果该选项设置为\"Yes\",游客可使用表情(显示为图像)."
+
+msgid "Site Name"
+msgstr "网站名称"
+
+msgid "That's not a proper sitename!"
+msgstr "那不是一个合法的站点名"
+
+#, fuzzy
+msgid "Site description"
+msgstr "描述"
+
+#, fuzzy
+msgid "A short description of the website. Maximum length is 400 characters."
+msgstr "章节的简短描述"
+
+msgid "Weblog"
+msgstr "博客"
+
+msgid "Page"
+msgstr "页面"
+
+msgid "Site Homepage"
+msgstr "站点首页"
+
+msgid "Please select an option"
+msgstr "请选择一个选项"
+
+msgid ""
+"This determines the page that is shown to visitors of the site, if they go "
+"to the front page."
+msgstr "如果他们去首页,这将决定所显示的网站的访问者."
+
+msgid "Site Favicon"
+msgstr "站点图标"
+
+msgid ""
+"This determines the favicon that is used on the website. Use an absolute "
+"path to the image's filename for best results."
+msgstr "这决定了网站的favicon.最好使用绝对路径的图像的文件名."
+
+msgid "Allow XML-RPC"
+msgstr "允许 XML-RPC"
+
+msgid ""
+"Setting this to yes enables you to post to your blog from a desktop blog "
+"application (using the MetaWeblog API)."
+msgstr "设置为yes(是),你将可以用桌面blog程序来提交你的Blog(用MetaWelog API)"
+
+msgid "Yes, like /archive/2005/04/28/title-of-entry"
+msgstr "是,如/archive/2005/04/28/文章标题"
+
+msgid "Yes, like /archive/2005-04-28/title-of-entry"
+msgstr "是,如/archive/2005-04-28/文章标题"
+
+msgid "Yes, like /entry/1234"
+msgstr "是,如/entry/1234"
+
+msgid "Yes, like /entry/1234/title-of-entry"
+msgstr "是,如/entry/1234/文章标题"
+
+msgid "Yes, like /2005/04/28/title-of-entry"
+msgstr "是,如/2005/04/28/文章标题"
+
+msgid "Yes, like /2005-04-28/title-of-entry"
+msgstr "是,如/2005-04-28/标题"
+
+msgid "Use Mod_rewrite"
+msgstr "使用URL重写"
+
+msgid ""
+"If you use Apache's Mod_rewrite option, PivotX will make URLs like www."
+"example.org/archive/2008/05/30/nice-weather, instead of www.example.org/"
+"index.php?e=134. Not all servers support this, so please read the <a href="
+"\"http://book.pivotx.net/page/1-14/\">Using Apache's Mod_rewrite</a> section "
+"in the PivotX book about this."
+msgstr ""
+"如果您使用 Apache 的 Mod_rewrite 选项,PivotX会生成像www.example.org/"
+"archive/2008/05/30/nice-weather,而不是www.example.org/index.php?e=134 的 url."
+"不是所有的服务器都支持这个，请参阅<a href=\"http://book.pivotx.net/page/1-14/"
+"\">Using Apache's Mod_rewrite</a> section in the PivotX book about this."
+
+msgid "Site 'Not Found' page (404)"
+msgstr "站点“未找到”页面(404)"
+
+msgid "Default 404"
+msgstr "默认404"
+
+msgid ""
+"This page is displayed when the visitor requests a page on the site that "
+"does not exist. Leave this blank to display PivotX's default 404 page."
+msgstr ""
+"该页面用来游客访问了一个不存在的页面时显示.留空将会显示PivotX's 默认的404 "
+"page."
+
+msgid "Allow comments by default"
+msgstr "默认允许评论"
+
+msgid "Determine whether entries are set to allow comments or not."
+msgstr "决定文章是否允许用户评论."
+
+msgid "Moderate comments"
+msgstr "审核评论"
+
+msgid ""
+"Determines whether comments must by approved before they are visible on the "
+"site."
+msgstr "决定游客的评论是否需要批准后才显示在网站上."
+
+msgid "Website online"
+msgstr "网站上线"
+
+msgid "Set your website offline for maintenance or upgrade."
+msgstr "将您网站下线以进行维护或升级."
+
+msgid "Cache Settings"
+msgstr "缓存设置"
+
+msgid "Use Minify in Backend"
+msgstr "在后以使用Minify"
+
+msgid ""
+"Use Minify to group and compress Javascript and CSS files to reduce the "
+"amount of requests for all pages in the PivotX interface. Disable this if "
+"you are experiencing problems."
+msgstr ""
+"用Miniify来分组和压缩Javascript和CSS文件以降低页面流量.如果使用中遇到了问题你"
+"可以禁止该功能."
+
+msgid "Use Minify in Frontend"
+msgstr "在前后使用Minify"
+
+msgid ""
+"Use Minify to group and compress Javascript and CSS files to reduce the "
+"amount of requests for all pages in the website. Disable this while you're "
+"working on your Templates, or if you are experiencing problems."
+msgstr ""
+"用Miniify来分组和压缩Javascript和CSS文件以降低浏览器和本站的页面请求量.如果你"
+"是正在处理模板请禁用该功能,或是使用中遇到了问题你也可能禁止该功能."
+
+msgid "Force compile templates"
+msgstr "强制编译模板"
+
+msgid ""
+"If you enable this, all templates will be compiled everytime. Only enable "
+"this, if you're having trouble with the templates, as this setting severely "
+"degrades performance."
+msgstr ""
+"如果你启用该功能,所有模板将会每次都要编译.只有在你使用模板时遇到了问题时才需"
+"要启用该功能,因为这个设置将会严重影响效率."
+
+msgid "Disallow cached includes"
+msgstr "Disallow cached includes"
+
+msgid ""
+"If you enable this, all [[cached_include]] tags will work like regular "
+"[[include]] tags, without being cached."
+msgstr ""
+"如果你启用该功能,所有 [[cached_include]] 标签变成正常的没有缓存的 "
+"[[include]] 标签."
+
+msgid "Use output caching"
+msgstr "使用输出缓存"
+
+msgid ""
+"If you enable this, all pages will be cached. This will make PivotX much "
+"'lighter', so you should always use this when you're having performance "
+"issues, or you have a site with a lot of visitors. Disable this while you're "
+"working on your Templates, or if you are experiencing problems."
+msgstr ""
+"如果你启用该功能,所有页面将会被缓存.这将使PivotX更'轻量',如果你有网站效率问"
+"题,或是有大量的访问,你应该启用该功能.当你正在处理模板时请禁用,或是遇到了问题"
+"也请禁用."
+
+msgid "Show Flickr Images"
+msgstr "Show Flickr Images"
+
+msgid ""
+"If set to \"yes\", PivotX will fetch images with this tag from Flickr.com."
+msgstr "如果设置成 \"yes\",PivotX将会从Flickr.com获取相关标签."
+
+msgid "Number of images"
+msgstr "图像数量"
+
+msgid "The amount of images to fetch from Flickr."
+msgstr "从Flickr获取图像的数量总数."
+
+msgid "Show feeds"
+msgstr "显示feeds"
+
+msgid ""
+"If set to \"yes\", PivotX will show the buttons to fetch feeds with this tag "
+"from various sources."
+msgstr "如果设置为 \"yes\",PivotX将会显示按钮以从多源标签中获取feeds."
+
+msgid "Number of items"
+msgstr "项目数量"
+
+msgid "The amount of items to fetch from each source"
+msgstr "从每个源获取的项目总数."
+
+msgid "Cloud size"
+msgstr "标签云大小"
+
+msgid "Minimum size"
+msgstr "最小文件大小"
+
+msgid "Maximum size"
+msgstr "最大文件大小"
+
+msgid ""
+"The size (in pixels) used to display the tag cloud. Tags that are used more "
+"often are shown in a larger font."
+msgstr "用以显示标签支的大小(像素).使用越多的标签将会用更大的字体显示."
+
+msgid "Debug mode"
+msgstr "调试模式"
+
+msgid ""
+"Show the Debug Bar with information about rendering times, debug notices and "
+"other information to help you develop a site."
+msgstr "显示渲染页面所需时间的调试栏,调试提示和其它信息将能帮助您完善站点."
+
+#, fuzzy
+msgid "Log Queries"
+msgstr "日志文件"
+
+#, fuzzy
+msgid ""
+"Log all MySQL queries in the debug log. Use this when you are investigation "
+"performance issues, but turn it off on production websites."
+msgstr ""
+"记录调试输出到一个文件.当您在调查网站效率问题时可以用到,但请在上线的网站上关"
+"闭.只有当'调试'功能开启时该选项才生效."
+
+msgid "Log to file"
+msgstr "记录到文件"
+
+msgid ""
+"Log the debug output to a file. Use this when you are investigation "
+"performance issues, but turn it off on production websites. Only works when "
+"'Debug' is enabled."
+msgstr ""
+"记录调试输出到一个文件.当您在调查网站效率问题时可以用到,但请在上线的网站上关"
+"闭.只有当'调试'功能开启时该选项才生效."
+
+msgid "Unlink Files"
+msgstr "Unlink Files"
+
+msgid ""
+"Some instances of servers on which the ghastly safe_mode is enabled, might "
+"require playing with this option. On most servers this option will not have "
+"any effect"
+msgstr ""
+"一些服务器上启用安全模式的情况下,可能需要用这个选项.在大多数服务器上此选项将"
+"不会有任何效果"
+
+msgid "Chmod Files To"
+msgstr "设置文件权限(chmod)为"
+
+msgid ""
+"Some servers require that created files are chmodded in a specific way. "
+"Common values are \"0644\" and \"0755\". Do not change this, unless you know "
+"what you're doing."
+msgstr ""
+"一些服务器需要用一些比较特别的方式更改已创建的文件的权限(chmod).通常值是"
+"\"0644\" 和 \"0755\".如果你不清楚就不要改动该项."
+
+msgid "File Upload Path"
+msgstr "上传文件路径"
+
+msgid ""
+"The path to the folder where uploaded files are stored. If you change this, "
+"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"well."
+msgstr ""
+"上传文件的服务器存储路径.如果您改变这个设置,也请改变 <tt>pivotx/includes/"
+"timthumb.php</tt>文件."
+
+msgid "Overwrite"
+msgstr "覆盖方式"
+
+msgid "Increment Filename"
+msgstr "文件名递增"
+
+msgid "Maximum Filesize"
+msgstr "最大文件大小"
+
+msgid "The maximum size of files upload to your server."
+msgstr "上传至服务器的最大文件大小."
+
+msgid "Automatic Thumbnails"
+msgstr "自动缩略图"
+
+msgid "Create thumbnails automatically when uploading images."
+msgstr "上传图像时自动创建缩略图."
+
+msgid "Thumbnail width"
+msgstr "缩略图宽度"
+
+msgid "Thumbnail height"
+msgstr "缩略图高度"
+
+msgid "Thumbnail quality"
+msgstr "缩略图质量"
+
+msgid ""
+"The quality of the thumbnail PivotX creates. 0 is the lowest quality, but "
+"also the smallest file. 100 is the highest, but creates a large file. 75 is "
+"a good default. "
+msgstr ""
+"Pivotx创建缩略图的品质.0为最低品质,但文件最小.100为最高品质,但文件最大.75为较"
+"好的默认值"
+
+msgid ""
+"These filetypes are acceptable for upload. Separate the different types with "
+"a comma. Be sure to use the proper mimetype. \"image/png\" is correct, while "
+"\"png\" is not."
+msgstr ""
+"这些文件类型被允许上传.用逗号分隔多个类型.确信用正确的mimetype.\"image/png"
+"\"是正确的,但\"png\"是错误的."
+
+msgid "Full date format"
+msgstr "完整日期格式"
+
+msgid ""
+"This determines the format for the full date and time. Most often used at "
+"the top of a single entry page"
+msgstr "设置了完整日期的格式.大多用在每个单一文章页面的上方"
+
+msgid "Entry Date"
+msgstr "文章日期"
+
+msgid "The date used when displaying the entry."
+msgstr "显示文章时所用日期"
+
+msgid "Diff Date"
+msgstr "Diff日期"
+
+msgid ""
+"The \"Diff Date\" is most commonly used in conjunction with the \"Entry Date"
+"\". The Entry Date is displayed on every entry on your log, while the Diff "
+"Date is only displayed if the date differs from the previous entry."
+msgstr ""
+"\"比较日期\"最常用\"输入日期\"的结合。如果日期不同于以前的条目，则只会显示比"
+"较日期时，将对您的日志的每个条目显示输入日期。"
+
+msgid "Current server time"
+msgstr "当前的服务器时间"
+
+msgid "Time Offset Unit"
+msgstr "时间调整工具"
+
+msgid "Year"
+msgstr "年"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Hour"
+msgstr "时"
+
+msgid "Minute"
+msgstr "分"
+
+msgid "Time Offset"
+msgstr "时间调整"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Mail server"
+msgstr "邮件服务器"
+
+msgid "Please give a proper domain name!"
+msgstr "请用一个合法的域名"
+
+msgid "Default author"
+msgstr "默认作者"
+
+msgid "Please select a user"
+msgstr "选择用户"
+
+msgid "Select a user"
+msgstr "选择用户"
+
+msgid "The user that the posted entries will belong to."
+msgstr "提交文章的用户属于."
+
+msgid "Default category"
+msgstr "默认分类"
+
+msgid "Please select a category"
+msgstr "选择分类"
+
+msgid "Select a category"
+msgstr "选择分类"
+
+msgid "The category that normal messages will be posted to."
+msgstr "普通消息类别将被发布到."
+
+msgid "Use the IMAP extension"
+msgstr "使用IMAP扩展"
+
+msgid "What protocol"
+msgstr "什么协议"
+
+msgid ""
+"The IMAP extension, which isn't enabled on all web servers, supports both "
+"POP3 and IMAP and is required if you need secure POP3 (as Hotmail and Gmail "
+"uses)."
+msgstr ""
+"IMAP扩展不是所有的Web服务器上都启用,如果您需要安全的POP3(如Hotmail和Gmail),需"
+"要同时支持POP3和IMAP."
+
+msgid "Allowed senders"
+msgstr "允许的发送者"
+
+msgid ""
+"Only email that has a \"From\" that matches one of the following comma "
+"separated items will be posted. You can enter complete email addresses, or "
+"partial ones."
+msgstr ""
+"只有有一个和下面逗号分隔的项中有一个相匹配的\"Form\"才会被发送.你可以输入全部"
+"的邮件地址,或是部分邮件地址."
+
+msgid "Use HashCash"
+msgstr "用HashCash"
+
+msgid ""
+"HashCash is the most powerful, completely invisible spam protection "
+"available. It requires javascript to be enabled on the client. If this is "
+"unacceptable for you, then don't enable it."
+msgstr ""
+"Hashcash的一个是强大防垃圾模块,它能有效保护你的站点,使您完全看不见垃圾信息.但"
+"需要客户端启用JavaScript,如果你认为这样不妥当就不要启用."
+
+msgid "Use Hardened Trackback"
+msgstr "使用Hardened引用"
+
+msgid ""
+"Hardened Trackback is a powerful trackback spam protection. It requires "
+"javascript to be enabled on the client. If this is unacceptable for you, "
+"then don't enable it."
+msgstr ""
+"Hardened引用是一个强大的防止引用垃圾模块,但需要客户端启用Javascript,如果你认"
+"为这样不妥当就不要启用."
+
+msgid "Number of links"
+msgstr "链接数量"
+
+msgid ""
+"Maximum number of hyperlinks in allowed in comments. Useful to get rid of "
+"those pesky comment spammers. Set to 0 for unlimited links."
+msgstr ""
+"在评论中允许的超链接的最大数量.在摆脱那些讨厌的垃圾评论时有用.设置为0则可以有"
+"无限的链接."
+
+msgid "SpamQuiz"
+msgstr "SpamQuiz"
+
+msgid "Use SpamQuiz"
+msgstr "用SpamQuiz"
+
+msgid ""
+"Before sending a comment, your users have to answer correctly a simple "
+"question everyone knows the answer to. This completely baffles automated "
+"spam bots because every blogger will choose something different."
+msgstr ""
+"在提交评论之前,你的用户必须正确回答一个众所周知的简单问题.这将彻底阻挡垃圾评"
+"论机器人,因为每个Blog站点都会选择不同的问题."
+
+msgid "Question"
+msgstr "问题"
+
+msgid "Example: What are the first two letters of the word \"spam\"?"
+msgstr "比如：\"spam\"的前两个字母是什么？"
+
+msgid "Answer"
+msgstr "答案"
+
+msgid "Example: <b>sp</b>"
+msgstr "比如：<b>sp</b>"
+
+msgid "Age"
+msgstr "年龄"
+
+msgid ""
+"Only ask for the spamquiz question, when the entry is older than the given "
+"amount of days."
+msgstr "只有当文章是一定天数之前时才会要求回答spamquiz问题."
+
+msgid "Explanation"
+msgstr "说明"
+
+msgid ""
+"Example: To prevent automated commentspam we require you to answer this "
+"silly question"
+msgstr "例如：为了防止那些自动的垃圾评论我们要求您回答这个愚蠢的问题"
+
+msgid "Admin Page Extensions"
+msgstr "管理员页面扩展"
+
+msgid "Hook Extensions"
+msgstr "Hook 扩展"
+
+msgid "Snippet Extensions"
+msgstr "Snippet 扩展"
+
+msgid "Widget Extensions"
+msgstr "Widget 扩展"
+
+msgid "version"
+msgstr "版本"
+
+msgid "last updated"
+msgstr "最近更新"
+
+msgid "site link"
+msgstr "站点链接"
+
+msgid "edit configuration"
+msgstr "编辑配置"
+
+msgid "Insert an image"
+msgstr "插入一个图像"
+
+msgid "Insert a popup image"
+msgstr "插入一个弹出窗口图像"
+
+msgid "all"
+msgstr "都"
+
+msgid "Send Pings"
+msgstr "发送Pings"
+
+msgid "Oops."
+msgstr "喔"
+
+msgid "PivotX encountered an error"
+msgstr "PivotX遇到了一个错误"
+
+msgid ""
+"PivotX is running in 'safe mode' now. This means all extensions are disabled "
+"until you remove the file <tt>pivotxsafemode.txt</tt> from the <tt>pivotx/</"
+"tt> folder. "
+msgstr ""
+"PivotX正在安全模式下.这意味着所有的扩展不能使用,除非你将文件"
+"<tt>pivotxsafemode.txt</tt>从<tt>pivotx/</tt> 目录删除. "
+
+msgid ""
+"If an extension is breaking your PivotX, you can disable the extensions from "
+"the Extensions Setup screen, and then leave safe mode to try again. "
+msgstr ""
+"如果扩展破坏了您的PivotX,您可以在'扩展安装'界面禁止这些扩展,然后离开安全模式"
+"后再尝试看看."
+
+msgid "PivotX error"
+msgstr "Pivotx错误"
+
+#, php-format
+msgid ""
+"<p>There was a problem with the Database: </p>\n"
+"            %s\n"
+"            <p><tt>error code %s: %s</tt></p>\n"
+"            </p>\n"
+"            <ul><li>If you're in the process of setting up PivotX, you "
+"should review your\n"
+"            <a href='%s'>Database connection settings</a>.</li>\n"
+"            <li>If it worked before, you should check if the Mysql database "
+"engine is\n"
+"            still running on the server (or ask your systems administrator "
+"to check for you).</li>\n"
+"            </ol>"
+msgstr ""
+"<p>数据库有问题: </p>\n"
+"            %s\n"
+"            <p><tt>错误代码 %s: %s</tt></p>\n"
+"            </p>\n"
+"            <ul><li>如果您正在设置PivotX,你可以检查一下您\n"
+"            <a href='%s'>数据库设置</a>.</li>\n"
+"            <li>如果之前是正常的,请检查Mysql数据库服务是否还在运行\n"
+"             (或是让系统管理员帮你检查).</li>\n"
+"            </ol>"
+
+#, php-format
+msgid "The directory '<tt>%s</tt>' is not writeable."
+msgstr "目录 '<tt>%s</tt>' 不能写."
+
+msgid "Fatal Error"
+msgstr "严重错误"
+
+#, php-format
+msgid "The file '<tt>%s</tt>' is not writeable."
+msgstr "文件 '<tt>%s</tt>' 不可写"
+
+msgid "Fatal error"
+msgstr "严重错误"
+
+#, php-format
+msgid "No templates found in directory '<tt>%s</tt>'."
+msgstr "在目录 '<tt>%s</tt>'没有发现任何模块."
+
+msgid "URL to the PivotX folder is unknown"
+msgstr "指向PivotX目录的URL未知"
+
+msgid "Log into PivotX to set the PivotX URL"
+msgstr "登录PivotX设置PivotX URL"
+
+msgid "PivotX is not allowed to read this folder."
+msgstr "PivotX 不允许读这个目录."
+
+#, php-format
+msgid "The file %s was deleted"
+msgstr "文件%s 已删除."
+
+#, php-format
+msgid "The file has been copied: %s to %s."
+msgstr "文件'%s'已拷贝至'%s'."
+
+msgid ""
+"The file has <b>NOT</b> been copied. Check if the target folder is writable, "
+"and whether the target file does not exist."
+msgstr "该文件没有拷贝.请检查目标目录是否可写,目标文件是否存在."
+
+#, php-format
+msgid "The folder %s was created."
+msgstr "文件夹%s已创建"
+
+#, php-format
+msgid "The folder %s was <b>NOT</b> created."
+msgstr "目录 %s <b>没有</b> 被创建."
+
+#, php-format
+msgid "The file %s was created."
+msgstr "文件 %s 已创建."
+
+#, php-format
+msgid "The file %s was <b>NOT</b> created."
+msgstr "文件%s <b>没有</b>被创建."
+
+msgid "(Select a template)"
+msgstr "选择一个模板!"
+
+msgid "Notification from \"%site%\" - "
+msgstr "来自 \"%site%\" 的通知"
+
+msgid ""
+"Someone (you?) has requested a new password for the user '%user%' on the "
+"PivotX site '%site%'.\n"
+"\n"
+"To get your new password, click the following link:\n"
+"\n"
+"%link%\n"
+"\n"
+"If you haven't asked for a new password, you can safely ignore this message. "
+"Your old password will still work as usual."
+msgstr ""
+"某人(是你?)要求为用户'%user%'在PivotX站点 '%site%'上申请新的密码.\n"
+"\n"
+"要获取新的密码,请点击下面链接:\n"
+"\n"
+"%link%\n"
+"\n"
+"如果您没有要求新密码,你可以安全地忽略这条消息.还将保持您老的密码不动."
+
+msgid "Password reset"
+msgstr "重置密码"
+
+msgid "just now"
+msgstr "刚刚"
+
+msgid "a few minutes ago"
+msgstr "几分钟前"
+
+msgid "less than ten minutes ago"
+msgstr "不到十分钟前"
+
+msgid "15 minutes ago"
+msgstr "十五分钟前"
+
+msgid "half an hour ago"
+msgstr "半个小时前"
+
+msgid "about an hour ago"
+msgstr "大约一个小时前"
+
+msgid "an hour and a half ago"
+msgstr "一个半小时前"
+
+msgid "about two hours ago"
+msgstr "两个小时前左右"
+
+msgid "%value% hours ago"
+msgstr "%value%小时前"
+
+msgid "this morning"
+msgstr "今天早上"
+
+msgid "yesterday morning"
+msgstr "昨天早上"
+
+msgid "this evening"
+msgstr "今晚"
+
+msgid "yesterday evening"
+msgstr "昨天晚上"
+
+msgid "this afternoon"
+msgstr "今天下午"
+
+msgid "yesterday afternoon"
+msgstr "昨天下午"
+
+msgid "on %value%"
+msgstr "on %value%"
+
+msgid "1 week ago"
+msgstr "一个星期前"
+
+msgid "%value% weeks ago"
+msgstr "%value%星期前"
+
+msgid "about a month ago"
+msgstr "大约一个月前"
+
+msgid "in %value%"
+msgstr "in %value%"
+
+msgid "one year ago"
+msgstr "一年之前"
+
+msgid "%value% years ago"
+msgstr "%value%年前"
+
+msgid "a very long time ago"
+msgstr "很久以前"
+
+msgid "Write"
+msgstr "写入"
+
+msgid "Write Error. Could not open file for writing"
+msgstr "写入错误.无法打开文件"
+
+msgid "Write Error. Could not write to file"
+msgstr "写入错误.无法向文件写入"
+
+#, php-format
+msgid "\"%s\" posted the following comment"
+msgstr "\"%s\"提交了以下评论"
+
+#, php-format
+msgid "This is a comment on entry \"%s\""
+msgstr "文章\"%s\"的评论"
+
+msgid "View this entry"
+msgstr "查看文章"
+
+msgid "View this comment"
+msgstr "查看评论"
+
+#, php-format
+msgid "New comment on entry \"%s\""
+msgstr "增加文章\"%s\"的评论"
+
+msgid "Notifications were sent to"
+msgstr "通知被送往"
+
+msgid "Failed to send notifications."
+msgstr "发送通知失败"
+
+#, php-format
+msgid "\"%s\" posted the following entry"
+msgstr "\"%s\" 提交了以下文章"
+
+msgid "View the complete entry"
+msgstr "查看文章全部内容"
+
+msgid "View your settings"
+msgstr "查看您的设置"
+
+msgid "This email was sent to"
+msgstr "该邮件已发送到"
+
+#, php-format
+msgid "New entry \"%s\""
+msgstr "新的文章\"%s\""
+
+#, php-format
+msgid "New visitor registration - %s"
+msgstr "新的访问者注册 - %s"
+
+#, php-format
+msgid "New visitor confirmed - %s"
+msgstr "新的访问者已确认 - %s"
+
+msgid "View visitor information"
+msgstr "查看游客信息"
+
+msgid "Example linkdump..."
+msgstr "linkdump 例子 ..."
+
+msgid "No title.."
+msgstr "无标题"
+
+msgid "%num% comment"
+msgstr "%num% 条评论"
+
+msgid "%num% comments"
+msgstr "%num% 条评论"
+
+msgid "%num% trackback"
+msgstr "%num% 条引用"
+
+msgid "%num% trackbacks"
+msgstr "%num% 条引用"
+
+msgid ""
+"The Hashcash code was not valid, so this comment could not be posted. If you "
+"believe this is an error, please make sure you have a modern browser, and "
+"that Javascript is enabled. If it still doesn't work, contact the maintainer "
+"of this website."
+msgstr ""
+"该hashcash的代码是无效的,所以该评论无法发表.如果您认为这是一个错误,请确保您的"
+"浏览器不是太旧,并且启用了JavaScript.如果仍然无法正常工作,联系本网站的维护人"
+"员."
+
+msgid ""
+"The Spamquiz answer was not correct, so this comment could not be posted. If "
+"you believe this is an error, please try again. If it still doesn't work, "
+"contact the maintainer of this website."
+msgstr ""
+"该Spamquiz回答是不正确的,所以无法发表该评论.如果您认为这是一个错误,请再试一"
+"次.如果仍然无法正常工作,联系本网站的维护人员."
+
+msgid ""
+"You are previewing your comment. Be sure to click on \"Post Comment\" to "
+"store it."
+msgstr "你正在预览你写的评论,点击'提交评论'才能完成."
+
+msgid "Your comment has not been stored, because it seems to be spam."
+msgstr "你的评论没有被提交,因为你的评论被认定为一个有害的垃圾评论."
+
+msgid ""
+"Your comment has not been stored, because it seems to be a duplicate of a "
+"previous entry."
+msgstr "你的评论没有被提交,因为你的评论和刚才的一样."
+
+msgid ""
+"Your comment has been stored. Because comment moderation is enabled, it is "
+"now waiting for approval by an editor."
+msgstr "你的评论已经保存,正等待审核."
+
+msgid "Your comment has been stored."
+msgstr "您的评论已提交."
+
+msgid ""
+"You should type your name (or an alias) in the \"name\"-field. Be sure to "
+"click on \"Post Comment\" to store it permanently."
+msgstr "你应该填写你的名字.最后一定要记得点'提交评论'."
+
+msgid ""
+"You should type something in the \"comment\"-field. Be sure to click on "
+"\"Post Comment\" to store it permanently."
+msgstr "你应该在评论中写些什么.一定要记得点\"提交评论\"."
+
+msgid "The maximum number of hyperlinks was exceeded. Stop spamming."
+msgstr "已超过超链接的最大数.停止spamming."
+
+msgid "Moderate this comment"
+msgstr "审核这个评论"
+
+msgid "quick docs"
+msgstr "快速文档"
+
+msgid "full docs"
+msgstr "完整文档"
+
+msgid "PivotX thumbnail creator"
+msgstr "PivotX缩略图编辑器"
+
+msgid ""
+"When using GIF files, there is a significant chance that you can't use "
+"PivotX to make thumbnails. If you have problems with making thumbnails, we "
+"suggest using PNG or JPG files."
+msgstr ""
+"使用GIF文件时,你不能使用PivotX缩略图功能.如果你有制作缩略图的问题,我们建议使"
+"用PNG或JPG文件."
+
+msgid "You can only make thumbnails of .gif, .jpg and .png images with PivotX."
+msgstr "PivotX只能为gif,jpg和PNG图像生成缩略图."
+
+msgid "Couldn't make thumbnail remotely using"
+msgstr "无法远程使用缩略图"
+
+msgid "PivotX Image Cropper"
+msgstr "PivotX图像裁剪器"
+
+msgid "Crop size"
+msgstr "裁剪大小"
+
+msgid "can not be opened"
+msgstr "不能打开"
+
+msgid "This file extension is not supported, please try JPG, GIF or PNG"
+msgstr "不支持该文件扩展名,请尝试用 JPG, GIF或是PNG"
+
+#, php-format
+msgid "Error creating thumbnail for %s - no file extension found."
+msgstr "创建%s缩略图错误 - 没有找到文件扩展名."
+
+msgid "Crop type"
+msgstr "裁剪类型"
+
+msgid "Fixed Proportions"
+msgstr "固定比例"
+
+msgid "Bounded Size"
+msgstr "有限尺寸"
+
+msgid "Free Crop"
+msgstr "自由裁剪"
+
+msgid "Target thumbnail will be"
+msgstr "目标缩略图将是"
+
+msgid "Create Thumbnail"
+msgstr "创建缩略图"
+
+msgid "Go"
+msgstr "继续"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "if the thumbnail is not satisfactory"
+msgstr "如果该缩略图不理想"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "this window"
+msgstr "该窗口"
+
+msgid "Added by PivotX on:"
+msgstr "Added by PivotX on:"
+
+msgid "Added on:"
+msgstr "建立于"
+
+msgid "Sunday"
+msgstr "星期天"
+
+msgid "Monday"
+msgstr "星期一"
+
+msgid "Tuesday"
+msgstr "星期二"
+
+msgid "Wednesday"
+msgstr "星期三"
+
+msgid "Thursday"
+msgstr "星期四"
+
+msgid "Friday"
+msgstr "星期五"
+
+msgid "Saturday"
+msgstr "星期六"
+
+msgid "S_Sunday_initial"
+msgstr "S"
+
+msgid "M_Monday_initial"
+msgstr "M"
+
+msgid "T_Tuesday_initial"
+msgstr "T"
+
+msgid "W_Wednesday_initial"
+msgstr "W"
+
+msgid "T_Thursday_initial"
+msgstr "T"
+
+msgid "F_Friday_initial"
+msgstr "F"
+
+msgid "S_Saturday_initial"
+msgstr "S"
+
+msgid "Sun"
+msgstr "周日"
+
+msgid "Mon"
+msgstr "周一"
+
+msgid "Tue"
+msgstr "周二"
+
+msgid "Wed"
+msgstr "周三"
+
+msgid "Thu"
+msgstr "周四"
+
+msgid "Fri"
+msgstr "周五"
+
+msgid "Sat"
+msgstr "周六"
+
+msgid "January"
+msgstr "一月"
+
+msgid "February"
+msgstr "二月"
+
+msgid "March"
+msgstr "三月"
+
+msgid "April"
+msgstr "四月"
+
+msgid "May"
+msgstr "五月"
+
+msgid "June"
+msgstr "六月"
+
+msgid "July"
+msgstr "七月"
+
+msgid "August"
+msgstr "八月"
+
+msgid "September"
+msgstr "九月"
+
+msgid "October"
+msgstr "十月"
+
+msgid "November"
+msgstr "十一月"
+
+msgid "December"
+msgstr "十二月"
+
+msgid "Jan_January_abbreviation"
+msgstr "一月"
+
+msgid "Feb_February_abbreviation"
+msgstr "二月"
+
+msgid "Mar_March_abbreviation"
+msgstr "三月"
+
+msgid "Apr_April_abbreviation"
+msgstr "四月"
+
+msgid "May_May_abbreviation"
+msgstr "五月"
+
+msgid "Jun_June_abbreviation"
+msgstr "六月"
+
+msgid "Jul_July_abbreviation"
+msgstr "七月"
+
+msgid "Aug_August_abbreviation"
+msgstr "八月"
+
+msgid "Sep_September_abbreviation"
+msgstr "九月"
+
+msgid "Oct_October_abbreviation"
+msgstr "十月"
+
+msgid "Nov_November_abbreviation"
+msgstr "十一月"
+
+msgid "Dec_December_abbreviation"
+msgstr "十二月"
+
+msgid "am"
+msgstr "am"
+
+msgid "pm"
+msgstr "下午"
+
+msgid "AM"
+msgstr "上午"
+
+msgid "PM"
+msgstr "下午"
+
+msgid "zero"
+msgstr "0"
+
+msgid "one"
+msgstr "1"
+
+msgid "two"
+msgstr "2"
+
+msgid "three"
+msgstr "3"
+
+msgid "four"
+msgstr "4"
+
+msgid "five"
+msgstr "5"
+
+msgid "six"
+msgstr "6"
+
+msgid "seven"
+msgstr "7"
+
+msgid "eight"
+msgstr "八"
+
+msgid "nine"
+msgstr "九"
+
+msgid "ten"
+msgstr "十"
+
+msgid "eleven"
+msgstr "十一"
+
+msgid "twelve"
+msgstr "十二"
+
+msgid "thirteen"
+msgstr "十三"
+
+msgid "fourteen"
+msgstr "十四"
+
+msgid "fifteen"
+msgstr "十五"
+
+msgid "sixteen"
+msgstr "十六"
+
+msgid "seventeen"
+msgstr "十七"
+
+msgid "eigthteen"
+msgstr "十八"
+
+msgid "nineteen"
+msgstr "十九"
+
+msgid "twenty"
+msgstr "二十"
+
+msgid "zeroth"
+msgstr "第令"
+
+msgid "second"
+msgstr "第二"
+
+msgid "third"
+msgstr "第三"
+
+msgid "forth"
+msgstr "第四"
+
+msgid "fifth"
+msgstr "第五"
+
+msgid "sixth"
+msgstr "第六"
+
+msgid "seventh"
+msgstr "第七"
+
+msgid "eighth"
+msgstr "第八"
+
+msgid "ninth"
+msgstr "第九"
+
+msgid "tenth"
+msgstr "第十"
+
+msgid "eleventh"
+msgstr "第十一"
+
+msgid "twelfth"
+msgstr "第十二"
+
+msgid "thirteenth"
+msgstr "第十三"
+
+msgid "fourteenth"
+msgstr "第十四"
+
+msgid "fifteenth"
+msgstr "第十五"
+
+msgid "sixteenth"
+msgstr "第十六"
+
+msgid "seventeenth"
+msgstr "第十七"
+
+msgid "eighteenth"
+msgstr "第十八"
+
+msgid "nineteenth"
+msgstr "第十九"
+
+msgid "twentieth"
+msgstr "第二十"
+
+#, php-format
+msgid ""
+"The current version of PHP on the server is %s, which is an older version "
+"than PivotX requires (%s). PivotX will most likely not work correctly, until "
+"the server is updated to a newer version."
+msgstr ""
+"该服务器上的PHP目前的版本是%s,这个版本比PivotX要求(%s)的要旧. PivotX很可能无"
+"法正常工作,请将服务器PHP更新到新版本."
+
+msgid ""
+"This webserver has safe_mode enabled. This doesn't actually make things any "
+"'safer', just more annoying. Please ask your hosting provider to turn it "
+"off. See the documentation for more info: <a href='http://docs.pivotx.net/"
+"doku.php?id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
+msgstr ""
+"这个网络服务器已启用安全模式.这实际上并没有使任何事情'更安全',只是更烦人了.请"
+"向您的托管服务提供商将其关闭.更多信息请参阅：<a href='http://docs.pivotx.net/"
+"doku.php?id=dealing_with_safe_mode'>处理安全模式</a>."
+
+msgid ""
+"The PivotX installer script \"pivotx-setup.php\" is still present in the "
+"parent folder. You should be aware that this is a potential security risk. "
+"We advise you to remove it, or to set an empty password inside it, so that "
+"it can't be executed by people with bad intentions."
+msgstr ""
+"PivotX 安装程序脚本\"pivotx setup.php\"仍然在父文件夹中.您应意识到这是一个潜"
+"在的安全风险.我们建议您删除它,或者设置一个空密码在里面,以使它不能被不良意图的"
+"人执行."
+
+msgid ""
+"The old Pivot installer script \"pivot-setup.php\" is still present in the "
+"parent folder. Please remove it immediately since it's not used for PivotX "
+"and it is a potential security risk."
+msgstr ""
+"旧的Pivot安装程序脚本\"pivot-setup.php\"仍然在父文件夹中.请立即将其删除,因为"
+"它不用于 PivotX,并且是一个潜在的安全风险."
+
+#, php-format
+msgid ""
+"You are currently logged in at a different host than your canonical host. If "
+"<strong>%s</strong> isn't the canonical host you want, change it on the %s "
+"screen."
+msgstr ""
+"您当前登录在另一台主机,这台主机不同与您典型主机.如果<strong>%s</strong>不是你"
+"想要的典型主机,请在%s screen上改变它."
+
+msgid ""
+"You are currently logged in at a different location than the preferred one. "
+"This might cause problems with wrongly calculated links. Please click here "
+"to go to the correct location:"
+msgstr ""
+"您当前登录首选以外的其他位置.这可能会导致错误地计算链接的问题.请单击此处以转"
+"到正确的位置："
+
+msgid ""
+"This webserver has register_globals enabled. This is a serious potential "
+"security issue. Please ask your hosting provider to turn it off. See the PHP "
+"documentation for more info: <a href='http://php.net/"
+"register_globals'>Register Globals</a>."
+msgstr ""
+"此 web 服务器已启用register_globals.这是一个严重的潜在安全问题.请要求您的网站"
+"提供商将其关闭.请参阅更多的PHP文档信息：<a href='http://php.net/"
+"register_globals'>Register Globals</a>."
+
+msgid ""
+"Your password is not fully encrypted yet. Please go to %myinfo%, and set "
+"your password again."
+msgstr "您的密码还没完全加密.请转到%myinfo%,并重新设置您的密码."
+
+msgid "folder "
+msgstr "目录 "
+
+#, php-format
+msgid ""
+"There's an executable file in one of the 'open' folders. You should remove "
+"this file immediately: <tt>%s</tt>."
+msgstr ""
+"在一个'打开'文件夹中有一个可执行文件.您应该立即删除此文件: <tt>%s</tt>."
+
+msgid ""
+"If you do not know where this file came from, please report this incident on "
+"our Forum. Please keep a back-up copy of the file for our inspection."
+msgstr ""
+"如果您不知道该文件是从哪里来,请在我们的论坛报告将这件事.请保持我们检查文件的"
+"备份副本."
+
+#, php-format
+msgid ""
+"One or more files inside the <tt>'%s'</tt> folder are not readable or "
+"writable by PivotX."
+msgstr "<tt>'%s'</tt>文件夹内的有一个或多个文件不能被PivotX读写"
+
+msgid ""
+"Please log in using your FTP or Shell client, and change the filerights "
+"(chmod) so that PivotX has both read and write access to these files."
+msgstr ""
+"请使用FTP或Shell客户端登录,并更改对这些文件的写访问权限(chmod),使PivotX能读写"
+"这些文件."
+
+#, php-format
+msgid ".. and %s more files."
+msgstr "..和 %s 更多文件."
+
+msgid "Click for image"
+msgstr "打开图片"
+
+#, php-format
+msgid ""
+"Your entry has been posted! \n"
+"\n"
+"Title: %s\n"
+"User: %s\n"
+"Category: %s\n"
+"Introduction: %s"
+msgstr ""
+"文章已发布！\n"
+"\n"
+"标题: %s\n"
+"用户: %s\n"
+"分类: %s\n"
+"介绍: %s"
+
+msgid "Moblog entry posted"
+msgstr "Moblog 文章已发布"
+
+msgid ""
+"Not posted: Could not parse your entry.\n"
+"\n"
+"Please report this in the PivotX forum"
+msgstr ""
+"没有发布: 不能分析您的文章.\n"
+"\n"
+"请向PivotX论坛报告这个问题"
+
+msgid "Moblog entry not posted"
+msgstr "Moblog 文章没有发布"
+
+#, php-format
+msgid "Processed: %s"
+msgstr "已经处理: %s"
+
+msgid "Tag cloud for"
+msgstr "标签云"
+
+msgid ""
+"This page shows the global Tag Cloud for this website. Tags that are used "
+"more often are shown in a larger font, so this Cloud gives you a quick "
+"overview of what's happening on the site. Click on one of the Tags to go to "
+"an overview page that shows all entries and pages that are related to the "
+"Tag, as well as other relevant information."
+msgstr ""
+"此页显示本网站的全球标签云.越常用的标签会用一个较大的字体表示,所以云为您提供"
+"了快速浏览网站上内容的功能.单击其中一个标签就可以显示所有和这个标签相关的全部"
+"文章概要,以及其他和这个标签相关的信息."
+
+msgid "Weblog not found (404 error)"
+msgstr "博客未找到(404 错误)"
+
+msgid "Category not found (404 error)"
+msgstr "分类未找到(404 错误)"
+
+msgid "Page not found (404 error)"
+msgstr "页面未找到(404 错误)"
+
+msgid "Not found (404 error)"
+msgstr "未找到(404错误)"
+
+msgid "The page isn't published or doesn't exist."
+msgstr "页面没有发表或是不存在."
+
+msgid "Please visit the frontpage by clicking the main title/logo."
+msgstr "请通过单击主标题或是logo访问首页."
+
+#, php-format
+msgid "Feed error - selected %s doesn't exists!"
+msgstr "Feed 错误 - 已选择的 %s 不存在!"
+
+#, php-format
+msgid "The %s \"%s\" given by the \"%s\" parameter in the URL, doesn't exist"
+msgstr "The %s \"%s\" (由该URL中的\"%s\"参数提供),不存在"
+
+msgid "weblog"
+msgstr "博客"
+
+msgid "entry"
+msgstr "文章"
+
+msgid "RSS feed"
+msgstr "RSS feed"
+
+msgid "Atom feed"
+msgstr "Atom feed"
+
+msgid "RSS feed for comments"
+msgstr "评论RSS feed"
+
+msgid "Atom feed for comments"
+msgstr "评论Atom feed"
+
+msgid "category"
+msgstr "分类"
+
+#, php-format
+msgid "Note: '%s' is enabled, which affects the performance of this site."
+msgstr "注意: 已启用 '%s' , 这会影响本网站的运行效率"
+
+#, php-format
+msgid "Note: '%s' is enabled."
+msgstr "注意: '%s'是打开的."
+
+msgid "Minify Frontend"
+msgstr "Minify前端"
+
+msgid "Paths"
+msgstr "Paths"
+
+msgid "No debug output."
+msgstr "没有调试输出"
+
+msgid "(more)"
+msgstr "更多"
+
+#, php-format
+msgid "%1.2f sec: Processed %d entries..."
+msgstr "%1.2f 秒: 已经处理 %d 篇文章..."
+
+#, php-format
+msgid "Processed %d pages..."
+msgstr "处理了%d 页"
+
+#, php-format
+msgid "A total of %s different words have been indexed."
+msgstr "总计索引了 %s 不同的单词."
+
+msgid "Results for \"%name%\":"
+msgstr "\"%name%\" 的结果:"
+
+msgid "No matches found for \"%name%\". Try something else."
+msgstr "没有搜索到\"%name%\",请尝试其他."
+
+msgid "Search for words used in entries and pages on this website"
+msgstr "搜索该网站所有文章和静态页面用到的词"
+
+msgid "Enter the word[s] to search for here:"
+msgstr "输入要搜索的词(可以多个)"
+
+msgid "Enter search terms"
+msgstr "输入搜索条件"
+
+msgid "Search!"
+msgstr "搜索!"
+
+msgid "Both"
+msgstr "两个都"
+
+msgid "XML: Atom Feed"
+msgstr "XML: Atom Feed"
+
+msgid "ok"
+msgstr "好"
+
+msgid "One comment"
+msgstr "1 条评论"
+
+msgid "One or more comments are waiting for approval by an editor."
+msgstr "有等待批准的评论."
+
+msgid "Emoticons"
+msgstr "表情"
+
+msgid "You need to specify an URL to a feed"
+msgstr "你需要为feed指定URL"
+
+msgid "Oops! I'm afraid I couldn't read the feed."
+msgstr "喔！恐怕我不能读取这个feed"
+
+msgid "CSS file (stylesheet)"
+msgstr "CSS 文件 (stylesheet)"
+
+msgid "PivotX weblog theme"
+msgstr "PivotX 博客主题"
+
+msgid "XML Feed template"
+msgstr "XML Feed 模板"
+
+msgid "Text file"
+msgstr "文本文件"
+
+msgid "PHP script"
+msgstr "PHP脚本"
+
+msgid "PivotX cache file"
+msgstr "PivotX 缓存文件"
+
+msgid "Javascript file"
+msgstr "Javascript文件"
+
+msgid "MagpieRSS cache file"
+msgstr "MagpieRSS缓存文件"
+
+msgid "PivotX Tag file"
+msgstr "PivotX标签文件"
+
+msgid "PivotX Tag relations"
+msgstr "PivotX标签关系"
+
+msgid "Minify cache file"
+msgstr "Minify缓存文件"
+
+msgid "HTML template"
+msgstr "HTML模板"
+
+msgid "Include template"
+msgstr "包含模板"
+
+msgid "Frontpage template"
+msgstr "首页模板"
+
+msgid "Archive template"
+msgstr "存档页模板"
+
+msgid "Entry template"
+msgstr "文章页模板"
+
+msgid "Page template"
+msgstr "页面模板"
+
+msgid "Searchpage template"
+msgstr "搜索页模板"
+
+msgid "Apache configuration"
+msgstr "Apache设置"
+
+msgid "PivotX 'not found' template"
+msgstr "PivotX '页面不存在' 模板"
+
+msgid "PivotX error page"
+msgstr "PivotX错误页面"
+
+msgid ""
+"Comment moderation is enabled on this site. This means that your comment "
+"will not be visible until it has been approved by an editor."
+msgstr "该网站启用了评论审核.您的评论在被批准后才能显示."
+
+msgid "account"
+msgstr "账户"
+
+msgid "register/login"
+msgstr "注册/登录"
+
+msgid "XML: RSS Feed"
+msgstr "XML: RSS Feed"
+
+msgid "Used tags"
+msgstr "已使用标签"
+
+msgid "One trackback"
+msgstr "一条引用"
+
+msgid "Trackback link"
+msgstr "引用链接"
+
+msgid "Please enable javascript to generate a trackback url"
+msgstr "启用JavaScript才能产生引用URL"
+
+msgid "Note: The url is valid for only 15 minutes after you opened this page!"
+msgstr "注意: 这个URL在你打开该页面15分钟后失效！"
+
+msgid "Click to view the trackback url"
+msgstr "查看引用地址"
+
+msgid "Tagged external link"
+msgstr "已标签的外部链接"
+
+msgid "Entries tagged with"
+msgstr "这些文章关联着标签"
+
+msgid "words"
+msgstr "词"
+
+msgid "image"
+msgstr "图像"
+
+msgid "images"
+msgstr "图像"
+
+msgid "file"
+msgstr "文件"
+
+msgid "files"
+msgstr "文件"
+
+msgid "Tags used in this posting"
+msgstr "本次提交内容所涉及的标签"
+
+msgid "Other entries about"
+msgstr "其他文章(有关于"
+
+msgid "Please enable Javascript (and reload this page) to add any comments."
+msgstr "请启用Javascript(并且刷新该页面)后才能写评论"
+
+msgid ""
+"This is the local Tag Cosmos for this weblog. The larger the tag, the more "
+"entries on this blog are related to it. The tags are ordered alphabetically. "
+"Click on any tag to find out more.<br/><br/>"
+msgstr ""
+"这是该博客的标签系统.较大的标签,意味着在此博客中有更多的文章与此标签相关.标签"
+"是按字母顺序排列的.点击任何标签以了解更多.<br/><br/>"
+
+msgid "Tag overview for: "
+msgstr "标签概述:"
+
+msgid "Entries on this site with "
+msgstr "Entries on this site with "
+
+msgid "Related tags"
+msgstr "相关标签"
+
+msgid "External feeds for"
+msgstr "External feeds for"
+
+msgid "Click icon for a list of links on"
+msgstr "Click icon for a list of links on"
+
+msgid "Flickr images for"
+msgstr "Flickr images for"
+
+msgid "No related tags"
+msgstr "无相关标签"
+
+#, php-format
+msgid "\"%s\" posted the following trackback"
+msgstr "\"%s\" 提交了下面引用"
+
+#, php-format
+msgid "This is a trackback on entry \"%s\""
+msgstr "文章\"%s\"的标签"
+
+#, php-format
+msgid "New trackback on entry \"%s\""
+msgstr "新建文章 \"%s\"的引用"
+
+msgid "Log in as a registered visitor"
+msgstr "登录为注册游客"
+
+msgid "Forgotten your password?"
+msgstr "忘记密码？"
+
+msgid "Register a new username."
+msgstr "注册新用户"
+
+msgid "Logged in as"
+msgstr "登录为"
+
+msgid "Log out."
+msgstr "注销"
+
+msgid "Delete account."
+msgstr "删除账户"
+
+msgid "Edit your preferences"
+msgstr "编辑参数"
+
+msgid "User disabled"
+msgstr "无效用户"
+
+msgid "Incorrect password or username"
+msgstr "错误的用户名/密码"
+
+msgid "Logged in"
+msgstr "登录"
+
+msgid "Register"
+msgstr "注册"
+
+msgid ""
+"Please fill out the following information. <strong>Be sure to give a valid "
+"email address</strong>, because we will send a verification email to that "
+"address."
+msgstr ""
+"请填写以下信息. <strong>一定要给出一个有效的电子邮件地址</strong>,因为我们将"
+"发送一封确认邮件到该地址."
+
+msgid "Options"
+msgstr "选项"
+
+msgid "Back to login"
+msgstr "回到登录页面"
+
+msgid "Show my email address with comments"
+msgstr "和评论一起显示我的email地址"
+
+msgid "Notify me via email of new entries"
+msgstr "有新的文章通过email通知我"
+
+msgid "Default notification of replies"
+msgstr "默认答复通知"
+
+msgid "Here you can change your information."
+msgstr "更改您的信息"
+
+msgid "Change preferences"
+msgstr "修改参数"
+
+msgid "The new password is <q>%pass%</q>."
+msgstr "新的密码是 <q>%pass%</q>."
+
+msgid "Oops"
+msgstr "喔"
+
+msgid "Password reset request failed."
+msgstr "密码重置请求失败."
+
+msgid "Reset password"
+msgstr "重置密码"
+
+msgid ""
+"If you've forgotten your password, enter your username and PivotX will send "
+"you an email with a link to reset your password."
+msgstr ""
+"如果您忘记了密码,请输入您的用户名,PivotX会向您发送含有链接的电子邮件以重置密"
+"码."
+
+msgid "User already exists... Please pick another name."
+msgstr "用户已存在...,请重选一个名字."
+
+msgid "Email address is already taken... Please use another address."
+msgstr "Email地址已存在...,请使用其它的Email."
+
+msgid "Password must be at least 4 letters long."
+msgstr "密码至少4个字节"
+
+msgid ""
+"You must give your email address, since without it'll be impossible to "
+"verify your account. You can always choose not to show your address to other "
+"visitors."
+msgstr ""
+"你必须提供你的电子邮件地址,因为没有它,就无法验证您的帐户.你随时可以选择不显示"
+"您的地址给其他游客."
+
+msgid "The changes have been stored"
+msgstr "修改已保存"
+
+msgid "Your account is verified. Please log in.."
+msgstr "您的帐户已经验证通过.请登录."
+
+msgid "That code seems to be incorrect. I'm sorry, but I can't verify."
+msgstr "些代码似乎是不正确的.对不起,我无法验证."
+
+msgid "A link to reset your password was sent to your mailbox."
+msgstr "一个重设您的密码的连接URL已发送到您的邮箱."
+
+msgid "Account deleted."
+msgstr "账户已删除"
+
+msgid "Logged out"
+msgstr "注销"
+
+msgid "Back to"
+msgstr "返回至"
+
+msgid "User stored!"
+msgstr "用户已保存！"
+
+msgid "Could not store new user!!"
+msgstr "无法保存新用户！！"
+
+#, php-format
+msgid ""
+"You have registered as a user on PivotX \"%s\" \n"
+"\n"
+msgstr ""
+"您已经在网站 \"%s\" 注册了一个用户\n"
+"\n"
+
+#, php-format
+msgid ""
+"To verify your account, click the following link:\n"
+"%s\n"
+"\n"
+msgstr ""
+"请点击下面链接以验证您的帐号:\n"
+"%s\n"
+"\n"
+
+msgid "Registration confirmation"
+msgstr "注册确认"
+
+msgid "Verify your account"
+msgstr "验证你的帐号"
+
+#, php-format
+msgid ""
+"Mail verification sent to %s. Please check your email in a minute to confirm "
+"your account."
+msgstr "验证邮件已经发送到 %s. 请在一分钟内查收邮件以确认您的帐户"
+
+msgid ""
+"Please enable Javascript (and reload this page) to view the email address."
+msgstr "请启用Javascript(并且重新刷新页面)之后再查看邮件地址."
+
+msgid "My weblog"
+msgstr "我的博客"
+
+#, php-format
+msgid "Blocked login attempt from '%s'."
+msgstr "阻止了来自 '%s'的登录尝试."
+
+msgid ""
+"Too many failed login attempts from this IP address. Please contact your "
+"site administrator to unblock your account."
+msgstr ""
+"许多次来自该IP地址的失败的登录尝试. 请联系你的站点管理员解除对你帐号的封锁."
+
+msgid "Incorrect username/password"
+msgstr "错误的用户名/密码"
+
+msgid "Successfully logged in"
+msgstr "成功登录"
+
+#, php-format
+msgid "Failed login attempt from '%s'."
+msgstr "来自'%s'的失败的登录尝试."
+
+msgid "Next page"
+msgstr "下一页"
+
+msgid "Previous page"
+msgstr "前一页面"
+
+msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
+msgstr "显示文章 %num_from%-%num_to% 共 %num_tot%"
+
+#, php-format
+msgid "%s started editing entry '%s'."
+msgstr "%s 开始编辑文章 '%s'."
+
+#, php-format
+msgid "%s started editing page '%s'."
+msgstr "%s 开始编辑页面 '%s'."
+
+#, php-format
+msgid "%s saved entry '%s'."
+msgstr "%s 保存文章 '%s'."
+
+#, php-format
+msgid "%s saved page '%s'."
+msgstr "%s 保存页面 '%s'."
+
+#, php-format
+msgid "%s logged in."
+msgstr "%s 登录"
+
+#, php-format
+msgid "%s logged out."
+msgstr "%s注销."
+
+#, php-format
+msgid "Failed login attempt for '%s'."
+msgstr "尝试登录'%s'失败"
+
+#, php-format
+msgid "%s edited the setting for '%s'."
+msgstr "%s 编辑设置 '%s'."
+
+#, php-format
+msgid "%s added weblog '%s'."
+msgstr "%s增加博客'%s'."
+
+#, php-format
+msgid "%s edited a weblog setting for '%s'."
+msgstr "%s编辑了博客设置:'%s'."
+
+#, php-format
+msgid "%s deleted weblog '%s'."
+msgstr "%s 删除了博客'%s'."
+
+#, php-format
+msgid "%s saved the file '%s'."
+msgstr "%s 保存文件 '%s'."
+
+#, php-format
+msgid "%s added user '%s'."
+msgstr "%s 增加用户 '%s'."
+
+#, php-format
+msgid "%s edited user '%s'."
+msgstr "%s 编辑用户 '%s'."
+
+#, php-format
+msgid "%s deleted user '%s'."
+msgstr "%s 删除用户 '%s'."
+
+#, php-format
+msgid "%s edited category '%s'."
+msgstr "%s 编辑分类 '%s'."
+
+#, php-format
+msgid "%s deleted category '%s'."
+msgstr "%s 删除了分类 '%s'."
+
+#, php-format
+msgid "%s added chapter '%s'."
+msgstr "%s 增加章节 '%s'."
+
+#, php-format
+msgid "%s edited chapter '%s'."
+msgstr "%s 编辑章节 '%s'."
+
+#, php-format
+msgid "%s did '%s' on '%s'."
+msgstr "%s did '%s' on '%s'."
+
+#, php-format
+msgid "%s did '%s'."
+msgstr "%s did '%s'."
+
+msgid "Your new password is %pass%."
+msgstr "您的密码是%pass%."
+
+msgid "Setup user"
+msgstr "设置用户"
+
+msgid "Setup a new user"
+msgstr "创建新的用户"
+
+msgid "The user has been added! You can login with your new account now."
+msgstr "用户已增加！现在可以用您的新帐号登录了."
+
+msgid "The entries were published."
+msgstr "文章已发布."
+
+msgid "The entries could not be published."
+msgstr "文章无法发布."
+
+msgid "The entries were put on hold."
+msgstr "文章已经置为 '暂不发布' 状态"
+
+msgid "The entries could not be put on hold."
+msgstr "文章不能置为 '暂不发布' 状态"
+
+msgid "The entries were deleted."
+msgstr "文章已删除."
+
+msgid "The entries could not be deleted."
+msgstr "文章无法删除."
+
+msgid "You are not allowed to delete this entry."
+msgstr "您无权删除该文章."
+
+msgid "The entry has been deleted"
+msgstr "文章已删除."
+
+msgid "Your Extension settings have been stored."
+msgstr "扩展设置已保存."
+
+msgid "Manage installed Widget extensions"
+msgstr "管理已安装的Widget扩展"
+
+msgid "Edit Entry"
+msgstr "编辑文章"
+
+msgid "You are not allowed to edit this entry."
+msgstr "您无权编辑该文章."
+
+#, php-format
+msgid "Your entry \"%s\" was successfully saved."
+msgstr "文章\"%s\"保存成功."
+
+#, php-format
+msgid "Your entry \"%s\" was NOT successfully saved."
+msgstr "文章\"%s\"未保存成功."
+
+#, php-format
+msgid "A trackback ping has been sent to \"%s\"."
+msgstr "一个引用通告发送到\"%s\"."
+
+msgid "Log out"
+msgstr "注销"
+
+msgid "You are now logged out of PivotX"
+msgstr "您已从Pivotx注销."
+
+msgid "My Settings"
+msgstr "我的设置"
+
+msgid "Add a Bookmarklet"
+msgstr "增加书签"
+
+msgid "Some fields were not correct. Please try again."
+msgstr "一些信息不正确.请再次尝试."
+
+msgid "Your settings have been updated."
+msgstr "您的设置已更新."
+
+msgid ""
+"Add a personal 'Quick post' Bookmarklet to your browser, with the following "
+"link. Drag the link to your browser's Bookmark Toolbar, or right-click the "
+"link, and choose 'Add Bookmark'."
+msgstr ""
+"用下面的链接来新增个人'快速提交'书签到您的浏览器.拖动链接到您的浏览器的书签工"
+"具栏或右键单击该链接,并选择'添加书签'."
+
+msgid "Post to PivotX"
+msgstr "发布到PivotX"
+
+msgid "Edit my personal Settings"
+msgstr "编辑我的个人设定"
+
+msgid "You must add the Bookmarklet to your browser before you can use it."
+msgstr "在使用之前你必须将书签加入到你的浏览器中."
+
+msgid "You are not allowed to edit this page."
+msgstr "您无权编辑该页面"
+
+msgid "You are not allowed to delete this chapter."
+msgstr "您无权编辑该章节."
+
+msgid "The Chapter has been deleted."
+msgstr "章节被删除了."
+
+msgid "You are not allowed to delete this page."
+msgstr "您无权删除该页面！"
+
+msgid "The Page has been deleted."
+msgstr "页面已经删除."
+
+msgid "You are not allowed to add/edit this page."
+msgstr "您无权增加/编辑该页面!"
+
+#, php-format
+msgid "The settings for chapter '%s' have been updated."
+msgstr "'%s'  设置已经更新."
+
+msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
+msgstr "编辑或删除文章 %number% - %editlink% 的引用"
+
+msgid "The trackback was deleted."
+msgstr "引用被删除了."
+
+msgid "The IP-address has been added to the blocklist."
+msgstr "该IP地址已经加入到阻止列表."
+
+msgid "The IP-address couldn't be added to the blocklist."
+msgstr "该IP-地址无法加入屏蔽列表."
+
+msgid "The IP-address has been removed from the blocklist."
+msgstr "该IP地址已经人阻止列表中删除."
+
+msgid "The IP-address couldn't be removed from the blocklist."
+msgstr "该IP地址不能从阻止列表中删除."
+
+msgid "Edit or Delete the Latest Trackbacks"
+msgstr "编辑或删除最近的引用"
+
+msgid "Edit or Delete Comments for Entry %number% - %editlink%"
+msgstr "为文章 %number% 编辑或删除评论  - %editlink%"
+
+msgid "The comment was deleted."
+msgstr "评论被删除了."
+
+msgid "Edit or Delete Comments in the Moderation Queue and Latest Comments"
+msgstr "编辑或删除在审核队列中的评论和最近的评论"
+
+msgid "Edit or Delete Comments"
+msgstr "编辑/删除评论"
+
+msgid "The Comment was saved!"
+msgstr "评论被保存了."
+
+msgid "You have to select an entry in order to view its comments."
+msgstr "您必须选择一个文章查看它的评论."
+
+msgid "Edit or Delete Trackbacks"
+msgstr "编辑或是删除引用"
+
+msgid "The Trackback was saved!"
+msgstr "引用被保存了."
+
+msgid "You have to select an entry in order to view its trackback."
+msgstr "您必须选择一个文章来查看它的引用."
+
+msgid "Upload Files"
+msgstr "上传文件"
+
+msgid "The visitor account has been deleted."
+msgstr "游客账户已删除."
+
+msgid "Failed to deleted the visitor account."
+msgstr "删除游客账户失败"
+
+msgid "The category was deleted."
+msgstr "分类已删除."
+
+msgid "The weblog has been deleted."
+msgstr "该博客已删除."
+
+msgid "The weblog was exported as a Theme file."
+msgstr "该博客已经导出为主题文件."
+
+msgid "Create New Weblog"
+msgstr "创建新的博客"
+
+msgid "Common settings"
+msgstr "一般设置"
+
+msgid "Database"
+msgstr "数据库"
+
+msgid "Debug"
+msgstr "调试"
+
+msgid "File Uploads"
+msgstr "上传文件"
+
+msgid "Date / Time"
+msgstr "日期/时间"
+
+msgid "Moblogging"
+msgstr "Moblogging"
+
+msgid "Rebuild the index of your Database"
+msgstr "重建数据库索引"
+
+msgid ""
+"Now building Index. This may take a short while, so please do not interrupt."
+msgstr "正在建立索引,这将有段等待的时间,请不要中断."
+
+msgid "Rebuild the Search Index"
+msgstr "重建搜索索引"
+
+msgid "Rebuild the Searchindex, to allow searching in entries"
+msgstr "重建搜索索引以便在文章中可以搜索"
+
+msgid ""
+"Now building Search Index. This may take a short while, so please do not "
+"interrupt."
+msgstr "正在建立Search索引,这将有段等待的时间,请不要中断."
+
+msgid "Rebuild the Tag Index"
+msgstr "重建标签索引"
+
+msgid ""
+"Now building Tag Index. This may take a short while, so please do not "
+"interrupt."
+msgstr "正在建立标签索引,这将有段等待的时间,请不要中断."
+
+msgid ""
+"NB! Backup the (entries) database using your ISP control panel or the "
+"command line."
+msgstr "注意！请用ISP控制面板或是命令行备份(文章)数据库."
+
+#, php-format
+msgid "deleted %s cache files in %s seconds."
+msgstr "删除 %s 缓存,共 %s 秒."
+
+msgid "Explore files"
+msgstr "浏览文件"
+
+msgid "Spam configuration"
+msgstr "防垃圾配置"
+
+msgid "Spam configuration saved."
+msgstr "防垃圾设置保存了"
+
+msgid "Blocked Phrases"
+msgstr "被屏蔽短语"
+
+msgid "View and Edit the Blocked Phrases to combat spam."
+msgstr "查看和编辑被屏蔽短语已防止垃圾邮件"
+
+msgid "Update the Global Phrases List"
+msgstr "更新全球短语列表"
+
+msgid "Update the global phrases list from pivotx.net"
+msgstr "从pivotx.net更新全球短语列表"
+
+msgid "Spam Washer"
+msgstr "Spam Washer"
+
+msgid "Search for spam, and delete all of it from your entries and trackbacks."
+msgstr "搜索垃圾评论,然后从文章和引用中删除它们"
+
+msgid "IP blocks"
+msgstr "IP访问限制"
+
+msgid "View and Edit the blocked IP addresses."
+msgstr "查看和编辑被限制的IP地址."
+
+msgid "Spam log reset."
+msgstr "垃圾评论日志重置"
+
+#, php-format
+msgid "The user '<tt>%s</tt>' does not exist."
+msgstr "用户'<tt>%s</tt>'不存在."
+
+msgid "The user was deleted"
+msgstr "用户以删除"
+
+msgid "Email already in use"
+msgstr "邮件地址已经被占用"
+
+msgid "Nickname already in use"
+msgstr "昵称已经被占用"
+
+#, php-format
+msgid "The settings for user %s have been updated."
+msgstr "用户%s设置已更新"
+
+msgid ""
+"You are not allowed to create users with userlevel administrator or higher"
+msgstr "你没有权限创建administrator或是更高级别的用户"
+
+msgid "Username already in use"
+msgstr "用户名已经被占用"
+
+#, php-format
+msgid "The user %s has been created."
+msgstr "用户%s已建立"
+
+msgid "No account found for visitor."
+msgstr "未找到游客帐户."
+
+msgid "Visitor account updated."
+msgstr "游客帐户已更新"
+
+msgid "A category by this name already exists"
+msgstr "分类名称已存在"
+
+#, php-format
+msgid "The settings for category '%s' have been updated."
+msgstr "分类'%s'设置已更新"
+
+msgid "Edit Weblog"
+msgstr "编辑博客"
+
+msgid "Ok"
+msgstr "好"
+
+#, php-format
+msgid "Your page \"%s\" was successfully saved."
+msgstr "页面 \"%s\" 已成功保存"
+
+msgid "Edit Comment"
+msgstr "编辑评论"
+
+msgid "The Comment was disapproved!"
+msgstr "评论被拒绝了."
+
+msgid "The Comment was approved!"
+msgstr "评论已经被批准了."
+
+msgid "link"
+msgstr "链接"
+
+#~ msgid "Contact form"
+#~ msgstr "联系信息"
+
+#~ msgid "\"%s\" is a required field."
+#~ msgstr "请输入\"%s\""
+
+#~ msgid "Please enter a \"%s\""
+#~ msgstr "请输入一个 \"%s\""
+
+#~ msgid "E-mail address"
+#~ msgstr "邮件地址"
+
+#~ msgid "Message"
+#~ msgstr "消息"
+
+#~ msgid "Send message"
+#~ msgstr "发送消息"
+
+#~ msgid "Order form"
+#~ msgstr "订单"
+
+#~ msgid "Phone number"
+#~ msgstr "电话号码"
+
+#~ msgid "Street address"
+#~ msgstr "街道地址"
+
+#~ msgid "Postal code"
+#~ msgstr "邮编"
+
+#~ msgid "City"
+#~ msgstr "城市"
+
+#~ msgid "Personal info"
+#~ msgstr "个人信息"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "Sender"
+#~ msgstr "发送者"
+
+#~ msgid "Recipient"
+#~ msgstr "接受者"
+
+#~ msgid "To prevent spam JavaScript must be enabled for submitting this form."
+#~ msgstr "为了防止垃圾邮件必须启用JavaScript提交这个表单"
+
+#~ msgid "Successfully uploaded %s"
+#~ msgstr "成功上传 %s"
+
+#~ msgid "and created thumbnail"
+#~ msgstr "创建缩略图"
+
+#~ msgid "Failed to upload %s"
+#~ msgstr "上传'%s'失败."
+
+#~ msgid "Select the file(s) to upload to this folder:"
+#~ msgstr "选择文件上传至该文件夹:"
+
+#, fuzzy
+#~ msgid "Naam"
+#~ msgstr "名称"
+
+#, fuzzy
+#~ msgid "Email adres"
+#~ msgstr "Email已经被占用"
+
+#~ msgid "Visit the forum"
+#~ msgstr "访问论坛"
+
+#~ msgid "filter on (%name%)"
+#~ msgstr "过滤(%name%)"
+
+#~ msgid "filter off"
+#~ msgstr "关闭过滤"
+
+#~ msgid "#C"
+#~ msgstr "C"
+
+#~ msgid "#T"
+#~ msgstr "T"
+
+#, fuzzy
+#~ msgid "Read on"
+#~ msgstr "建立于"
+
+#~ msgid "Show random debug information, every here and there.."
+#~ msgstr "显示随机的调试信息"
+
+#~ msgid "Are your sure you wish to delete this entry?"
+#~ msgstr "确认删除这篇文章吗？"
+
+#, fuzzy
+#~ msgid "Nothing on"
+#~ msgstr "没有"
+
+#, fuzzy
+#~ msgid "for"
+#~ msgstr "4"
+
+#, fuzzy
+#~ msgid "Latest on"
+#~ msgstr "最后编辑于"
+
+#, fuzzy
+#~ msgid "Vote \"%val%\" on this entry"
+#~ msgstr "'%val%'票"
+
+#, fuzzy
+#~ msgid "View files (voth text and database files)"
+#~ msgstr "查看文件(文本文件和数据库文件)"
+
+#, fuzzy
+#~ msgid "Perform routine maintenance on Pivot's files"
+#~ msgstr "Pivot文件的执行日常保养"
+
+#, fuzzy
+#~ msgid "Backup of Configuration Files"
+#~ msgstr "编辑配置文件"
+
+#, fuzzy
+#~ msgid ""
+#~ "PivotX will determine the url of your weblog if you leave this field "
+#~ "blank. If you use your weblog as part of a frameset, or as a serverside "
+#~ "include, you can use this to override it."
+#~ msgstr ""
+#~ "如果没有填写Pivot将决定你的Weblog的URL. 如果你的Weblog是Frameset的一部分,"
+#~ "或者是服务器端的include文件, 你可以用这个选项避免."
+
+#, fuzzy
+#~ msgid "Backup entries database"
+#~ msgstr "备份文章数据库"
+
+#, fuzzy
+#~ msgid "Backup of Database"
+#~ msgstr "日期"
+
+#, fuzzy
+#~ msgid "That's not a valid start day for the week!"
+#~ msgstr "那不是一个合法的邮件地址"
+
+#, fuzzy
+#~ msgid "Latest comments"
+#~ msgstr "最后的评论"
+
+#~ msgid "Last Comments"
+#~ msgstr "最后的评论"
+
+#, fuzzy
+#~ msgid "View Comments"
+#~ msgstr "预览评论"
+
+#, fuzzy
+#~ msgid "The entry isn't published or doesn't exist."
+#~ msgstr "评论被删除了."
+
+#, fuzzy
+#~ msgid "this "
+#~ msgstr "3"
+
+#, fuzzy
+#~ msgid "Insert PivotX Popup', image:'ed"
+#~ msgstr "插入一个图像"
+
+#~ msgid "# Comm"
+#~ msgstr "# Comm"
+
+#, fuzzy
+#~ msgid "[Comment]"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "go back"
+#~ msgstr "回档"
+
+#, fuzzy
+#~ msgid "user"
+#~ msgstr "用户"
+
+#, fuzzy
+#~ msgid "date"
+#~ msgstr "日期"
+
+#, fuzzy
+#~ msgid "chapter"
+#~ msgstr "分类"
+
+#, fuzzy
+#~ msgid ""
+#~ "This determines the formatting of the link that visitors can use to reply "
+#~ "on a specific comment."
+#~ msgstr "设置了完整日期的格式.大多用在每个单一文章页面的上方"
+
+#, fuzzy
+#~ msgid ""
+#~ "This determines the formatting of the text that is displayed when the "
+#~ "comment is a reply on another comment."
+#~ msgstr "设置了完整日期的格式.大多用在每个单一文章页面的上方"
+
+#, fuzzy
+#~ msgid "Trackback Settings"
+#~ msgstr "Trackback ping"
+
+#, fuzzy
+#~ msgid "Format of Trackbacks"
+#~ msgstr "当'n 条评论时'时显示"
+
+#, fuzzy
+#~ msgid "Format of Trackback Link"
+#~ msgstr "Trackback ping"
+
+#, fuzzy
+#~ msgid "File Mappings"
+#~ msgstr "上传文件"
+
+#, fuzzy
+#~ msgid "SimplePie cache file"
+#~ msgstr "上传一个新文件:"
+
+#~ msgid "Change"
+#~ msgstr "改变"
+
+#~ msgid "Confirm Delete"
+#~ msgstr "确认删除"
+
+#, fuzzy
+#~ msgid "The Blocked Phrases have been stored."
+#~ msgstr "The IP-addresses have been stored."
+
+#, fuzzy
+#~ msgid "The Global Phrases have been stored."
+#~ msgstr "The IP-addresses have been stored."
+
+#, fuzzy
+#~ msgid "The Global Phrases have been deleted."
+#~ msgstr "Weblog已经删除了."
+
+#, fuzzy
+#~ msgid "Store these Blocked Phrases"
+#~ msgstr "Store these IP-addresses"
+
+#~ msgid "Name needs to be 3 letters or longer"
+#~ msgstr "用户名长度必须大于4个字符"
+
+#, fuzzy
+#~ msgid "[Trackback] Re:"
+#~ msgstr "当'n 条评论时'时显示"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your trackback has not been stored, because it seems to be a duplicate of "
+#~ "a previous entry"
+#~ msgstr "你的评论没有被提交,因为你的评论和刚才的一样."
+
+#, fuzzy
+#~ msgid "Main"
+#~ msgstr "分"
+
+#~ msgid "Insert an Image Popup"
+#~ msgstr "插入一个弹出的图像窗口"
+
+#, fuzzy
+#~ msgid "No Comments"
+#~ msgstr "没有评论"
+
+#, fuzzy
+#~ msgid "1 Comment"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "% Comments"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "Leave a comment"
+#~ msgstr "预览评论"
+
+#, fuzzy
+#~ msgid "Pingback"
+#~ msgstr "回档"
+
+#, fuzzy
+#~ msgid "No comments yet."
+#~ msgstr "0 条评论"
+
+#, fuzzy
+#~ msgid "The latest comments to all posts in RSS"
+#~ msgstr "Recent Entries"
+
+#, fuzzy
+#~ msgid "Powered by WordPress"
+#~ msgstr "Powered by"
+
+#, fuzzy
+#~ msgid "Comments (0)"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "Comments (1)"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "Comments (%)"
+#~ msgstr "评论"
+
+#, fuzzy
+#~ msgid "&laquo; Previous Page"
+#~ msgstr "前一存档"
+
+#~ msgid "Ping update trackers"
+#~ msgstr "Ping update trackers"
+
+#, fuzzy
+#~ msgid ""
+#~ "This determines whether update trackers like weblogs.com will be "
+#~ "automatically notified by PivotX if you post a new entry. Services like "
+#~ "blogrolling.com depend on these pings"
+#~ msgstr ""
+#~ "This determines whether update trackers like weblogs.com will be "
+#~ "automatically notified by Pivot if you post a new entry. Services like "
+#~ "blogrolling.com depend on these pings"
+
+#~ msgid "URLs to ping"
+#~ msgstr "URLs to ping"
+
+#~ msgid ""
+#~ "You can provide several urls to send pings to. Do not include the http:// "
+#~ "part, otherwise it won't work. Just place each server on a new line, or "
+#~ "seperated by a pipe character. Some common servers to ping are:<br /"
+#~ "><b>rpc.pingomatic.com</b> (the one most widely used)<br /><b>rpc.weblogs."
+#~ "com/RPC2</b>(also widely used)<br />"
+#~ msgstr ""
+#~ "You can provide several urls to send pings to. Do not include the http:// "
+#~ "part, otherwise it won't work. Just place each server on a new line, or "
+#~ "seperated by a pipe character. Some common servers to ping are:<br /"
+#~ "><b>rpc.weblogs.com/RPC2</b> (weblogs.com pinger, the one most widely "
+#~ "used)<br /><b>pivotlog.net/pinger</b> (pivotlog pinger, not yet "
+#~ "operational)<br /><b>rcs.datashed.net/RPC2</b> (euro.weblogs.com pinger)"
+#~ "<br /><b>ping.blo.gs</b> (blo.gs pinger)<br />"
+
+#~ msgid "Ping Setup"
+#~ msgstr "Ping Setup"
+
+#~ msgid "Your file was not uploaded, and the following errors occured:"
+#~ msgstr "你的文件没有被上传, 出现错误:"
+
+#~ msgid "or select"
+#~ msgstr "或者选择"
+
+#, fuzzy
+#~ msgid "Image Dimensions"
+#~ msgstr "图像名称"
+
+#~ msgid "Use Wysiwyg editor"
+#~ msgstr "默认使用所见即所得编辑器"
+
+#, fuzzy
+#~ msgid ""
+#~ "Determines whether the Wysiwyg editor is on by default. Individual users "
+#~ "can change this in their \"My Info\" settings."
+#~ msgstr ""
+#~ "决定是否默认使用所见即所得编辑器. 单独的用户可以在 '我的信息' 里更改这个设"
+#~ "置."
+
+#~ msgid "Settings for Last Comments"
+#~ msgstr "最后评论栏设置"
+
+#~ msgid "Show how many"
+#~ msgstr "显示数量"
+
+#~ msgid "Cut at length"
+#~ msgstr "剪切文字长度"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#, fuzzy
+#~ msgid ""
+#~ "These settings determine the appearance of the \"last comments\" on the "
+#~ "weblog's frontpage."
+#~ msgstr "设置是这个Weblog首页上的最后评论栏."
+
+#~ msgid "Next Archive"
+#~ msgstr "下一存档"
+
+#~ msgid "Previous Archive"
+#~ msgstr "前一存档"
+
+#~ msgid "Archive type"
+#~ msgstr "存档类型"
+
+#~ msgid "No Archives"
+#~ msgstr "没有存档"
+
+#~ msgid "Weekly Archives"
+#~ msgstr "每周存档"
+
+#~ msgid "Monthly Archives"
+#~ msgstr "每月存档"
+
+#~ msgid "Archive Link"
+#~ msgstr "存档链接"
+
+#~ msgid "Archive List format"
+#~ msgstr "存档链接文件"
+
+#~ msgid "Keep logfiles of various activities"
+#~ msgstr "保留日志文件"
+
+#, fuzzy
+#~ msgid "Label for \"no comments\""
+#~ msgstr "当'没有评论'时显示"
+
+#, fuzzy
+#~ msgid "Label for \"one comment\""
+#~ msgstr "当'只有一条评论'时显示"
+
+#, fuzzy
+#~ msgid "Label for \"X comments\""
+#~ msgstr "当'n 条评论时'时显示"
+
+#~ msgid ""
+#~ "The text that is used to indicate how many comments there are. If you "
+#~ "leave this blank, Pivot will use the default as defined by the language "
+#~ "settings"
+#~ msgstr ""
+#~ "The text that is used to indicate how many comments there are. If you "
+#~ "leave this blank, Pivot will use the default as defined by the language "
+#~ "settings"
+
+#, fuzzy
+#~ msgid "Label for \"no trackbacks\""
+#~ msgstr "当'没有评论'时显示"
+
+#, fuzzy
+#~ msgid "Label for \"one trackback\""
+#~ msgstr "当'只有一条评论'时显示"
+
+#, fuzzy
+#~ msgid "Label for \"X trackbacks\""
+#~ msgstr "当'n 条评论时'时显示"
+
+#, fuzzy
+#~ msgid "One comment."
+#~ msgstr "1 条评论"
+
+#, fuzzy
+#~ msgid "%num% comments."
+#~ msgstr "%num% 条评论"
+
+#, fuzzy
+#~ msgid "No trackbacks."
+#~ msgstr "当'n 条评论时'时显示"
+
+#~ msgid "Further Options"
+#~ msgstr "更多的选项"
+
+#~ msgid "Basic View"
+#~ msgstr "基本查看"
+
+#~ msgid "View only the most common fields"
+#~ msgstr "只查看流行的区域"
+
+#~ msgid "Extended View"
+#~ msgstr "扩展查看"
+
+#~ msgid "View all the editable fields"
+#~ msgstr "查看所有的段落"
+
+#~ msgid "Shortcuts"
+#~ msgstr "快捷"
+
+#~ msgid "Week"
+#~ msgstr "周"
+
+#~ msgid "Remember"
+#~ msgstr "记录"
+
+#~ msgid "Array"
+#~ msgstr "Array"
+
+#~ msgid ""
+#~ "You have failed to gain access in 10 attempts. As a result, this IP has "
+#~ "been banned from attempting to login for 12 hours."
+#~ msgstr "你已经有过10次的错误登录,所以你的IP将要被封锁12个小时."
+
+#~ msgid "Modify Entries"
+#~ msgstr "编辑文章"
+
+#~ msgid "Bookmarklets"
+#~ msgstr "Bookmarklets"
+
+#~ msgid "Global Overview of Pivot"
+#~ msgstr "Pivot的全部总览"
+
+#~ msgid "View my personal Info"
+#~ msgstr "查看我的个人信息"
+
+#~ msgid "Create Bookmarklets"
+#~ msgstr "Create Bookmarklets"
+
+#~ msgid "File has been uploaded"
+#~ msgstr "文件已经上传"
+
+#~ msgid "View Logs and Statistics."
+#~ msgstr "查看日志和统计."
+
+#~ msgid "Recent Comments"
+#~ msgstr "Recent Comments"
+
+#~ msgid "Rebuild All Files"
+#~ msgstr "从新建立所有文件"
+
+#~ msgid "Verify the Database"
+#~ msgstr "校验数据库"
+
+#~ msgid "Rebuild the Frontpage(s)"
+#~ msgstr "从新建立首页"
+
+#~ msgid "User Information Fields"
+#~ msgstr "User Information Fields"
+
+#~ msgid "Create, edit and delete User Information Fields"
+#~ msgstr "建立,编辑和删除用户的信息"
+
+#~ msgid "Rebuild the Files and Archives that Pivot generates"
+#~ msgstr "从新建立Pivot生成的文件和存档"
+
+#~ msgid "Verify the integrity of your Database"
+#~ msgstr "检查你的数据库的完整性"
+
+#~ msgid ""
+#~ "Rebuild the frontpage, last archives and RSS files for each of the "
+#~ "weblogs."
+#~ msgstr "从新建立每个Weblog的首页,存档和RSS频道."
+
+#~ msgid "Send Pings to Update Trackers."
+#~ msgstr "Send Pings to Update Trackers."
+
+#~ msgid "Create a Pivot template from scratch"
+#~ msgstr "从草稿建立一个Pivot的模板"
+
+#~ msgid "Comment*"
+#~ msgstr "评论*"
+
+#~ msgid ""
+#~ "(*Note: Comments can only be saved at <b>first</b> save of changes or "
+#~ "creation)"
+#~ msgstr ""
+#~ "(*注解:评论只能 be saved at <b>first</b> save of changes or creation)"
+
+#~ msgid "Editing"
+#~ msgstr "编辑"
+
+#~ msgid "Save changes!"
+#~ msgstr "保存更改!"
+
+#~ msgid "Generate Archive"
+#~ msgstr "建立存档"
+
+#~ msgid "Regenerate all of your archives"
+#~ msgstr "从新建立所有存档"
+
+#~ msgid "Verify XML Files"
+#~ msgstr "校验XML文件和数据库文件"
+
+#~ msgid "Verify (and repair if needed) the intergrity of the XML files"
+#~ msgstr "校验和修复XML文件的完整性"
+
+#~ msgid "Create a backup of all pivot's essential files"
+#~ msgstr "建立所有Pivot基本文件的备份"
+
+#~ msgid "20 referrers"
+#~ msgstr "20 referrers"
+
+#~ msgid "50 referrers"
+#~ msgstr "50 referrers"
+
+#~ msgid "all referrers"
+#~ msgstr "all referrers"
+
+#~ msgid "Update the referer to title mappings"
+#~ msgstr "Update the referer to title mappings"
+
+#~ msgid "Host-address (ip-address)"
+#~ msgstr "Host-address (ip-address)"
+
+#~ msgid "Getting new titles"
+#~ msgstr "获得新的标题"
+
+#~ msgid "First pass"
+#~ msgstr "First pass"
+
+#~ msgid "Your referer-title mappings are now up to date."
+#~ msgstr "Your referer-title mappings are now up to date."
+
+#~ msgid "Finished"
+#~ msgstr "结束"
+
+#~ msgid "Edit User Fields"
+#~ msgstr "编辑用户"
+
+#~ msgid "Edit the fields that users can use to describe themselves"
+#~ msgstr "编辑用户的描述"
+
+#~ msgid "Edit User Info"
+#~ msgstr "编辑用户信息"
+
+#~ msgid ""
+#~ "Create a new login account for Pivot, allowing them to post to a weblog."
+#~ msgstr "建立一个新的Pivot登录账号,允许他们写Blog."
+
+#~ msgid "Create"
+#~ msgstr "建立"
+
+#~ msgid "Confirm creating an administator"
+#~ msgstr "确定建立一个管理员"
+
+#~ msgid ""
+#~ "An Administrator has full access to pivot, can edit all news items, all "
+#~ "comments and change anysetting. Are you sure you'd like to make %s an "
+#~ "Administrator?"
+#~ msgstr ""
+#~ "一个管理员 有所有的权力,能够编辑新的文章,所有的评论,改变每一个东西.你确定"
+#~ "你要建立 %s 一个 管理员吗?"
+
+#~ msgid "File Info"
+#~ msgstr "文件信息"
+
+#~ msgid "Local Path"
+#~ msgstr "本地路径"
+
+#~ msgid "Clean Filename"
+#~ msgstr "干净的文件名"
+
+#~ msgid "Default Text Processing"
+#~ msgstr "Default Text Processing"
+
+#~ msgid "Text Processing"
+#~ msgstr "Text Processing"
+
+#~ msgid "Open links in new window"
+#~ msgstr "用新窗口打开链接"
+
+#~ msgid ""
+#~ "Determines if all links used in entries will open links in a new browser "
+#~ "window."
+#~ msgstr "决定所有的文章是否都用新的窗口打开."
+
+#~ msgid "Default Introduction/Body"
+#~ msgstr "Default Introduction/Body"
+
+#~ msgid ""
+#~ "This will determine the default values for Introduction and Body when an "
+#~ "author writes a new entry. Normally this will be an empty paragraph, "
+#~ "which makes the most sense semantically."
+#~ msgstr ""
+#~ "This will determine the default values for Introduction and Body when an "
+#~ "author writes a new entry. Normally this will be an empty paragraph, "
+#~ "which makes the most sense semantically."
+
+#~ msgid "Remote cropping script"
+#~ msgstr "Remote cropping script"
+
+#~ msgid ""
+#~ "If your server does not have the necessary libraries installed to perform "
+#~ "image cropping, you can use a remote cropping script."
+#~ msgstr ""
+#~ "If your server does not have the necessary libraries installed to perform "
+#~ "image cropping, you can use a remote cropping script."
+
+#~ msgid "Edit Weblogs"
+#~ msgstr "编辑Blogs"
+
+#~ msgid "Add a new Weblog"
+#~ msgstr "添加一个新的Weblog"
+
+#~ msgid "Delete Weblog"
+#~ msgstr "删除Weblog"
+
+#~ msgid ""
+#~ "For each of the subweblogs that were found in the templates, you can "
+#~ "configure what template they use, as well as what categories are "
+#~ "published in them"
+#~ msgstr ""
+#~ "For each of the subweblogs that were found in the templates, you can "
+#~ "configure what template they use, as well as what categories are "
+#~ "published in them"
+
+#~ msgid "Finish"
+#~ msgstr "建立"
+
+#~ msgid "Create / Edit Weblog, step 1 of 3"
+#~ msgstr "创建/编辑Weblog,步骤 1 of 3"
+
+#~ msgid "Create / Edit Weblog, step 2 of 3"
+#~ msgstr "创建/编辑Weblog,步骤 2 of 3"
+
+#~ msgid "Create / Edit Weblog, step 3 of 3"
+#~ msgstr "创建/编辑Weblog,步骤 3 of 3"
+
+#~ msgid "Front page (Index)"
+#~ msgstr "首页(Index)"
+
+#~ msgid ""
+#~ "The filename of the index-file. Normally this is something like 'index."
+#~ "html' or 'index.php'."
+#~ msgstr "首页文件的文件名. 一般的像'index.html' 或者 'index.php'."
+
+#~ msgid ""
+#~ "If your weblog uses SSI (which is not recommended), you can use this to "
+#~ "prefix Pivot's filenames with the filename used for the SSI. eg. 'index."
+#~ "shtml?p='. You should just leave this blank, unless you know what you're "
+#~ "doing."
+#~ msgstr ""
+#~ "If your weblog uses SSI (which is not recommended you can use this to "
+#~ "prefix Pivot's filenames with the filename used for the SSI. eg. 'index."
+#~ "shtml?p='. You should just leave this blank, unless you know what you're "
+#~ "doing."
+
+#~ msgid "Frontpage Path"
+#~ msgstr "首页的路径"
+
+#~ msgid ""
+#~ "The relative or absolute path to the directory where Pivot will create "
+#~ "the frontpage to this blog."
+#~ msgstr "Pivot将用与建立这个Blog首页的相对或者绝对路径."
+
+#~ msgid ""
+#~ "The relative or absolute path to the directory where Pivot will create "
+#~ "the single entry pages (if you choose not to use 'live entries')"
+#~ msgstr "Pivot将用与建立文章页面的相对或者绝对路径."
+
+#~ msgid ""
+#~ "If you use 'Live entries', Pivot will not need to generate files for "
+#~ "every single entry. This is the preferred setting."
+#~ msgstr ""
+#~ "If you use 'Live entries', Pivot will not need to generate files for "
+#~ "every single entry. This is the preferred setting."
+
+#~ msgid "Index File"
+#~ msgstr "索引文件"
+
+#~ msgid "Archive Path"
+#~ msgstr "存档路径"
+
+#~ msgid "Archive Amount"
+#~ msgstr "存档数量"
+
+#~ msgid "Archive Format"
+#~ msgstr "存档格式"
+
+#~ msgid "Shortentry Template"
+#~ msgstr "Shortentry Template"
+
+#~ msgid ""
+#~ "The Template which determines the layout of single entries, as they are "
+#~ "shown within the weblog or archives."
+#~ msgstr ""
+#~ "The Template which determines the layout of single entries, as they are "
+#~ "shown within the weblog or archives."
+
+#~ msgid "Allow Comments?"
+#~ msgstr "允许评论?"
+
+#~ msgid "RSS Filename"
+#~ msgstr "RSS 文件名"
+
+#~ msgid "Feed Path"
+#~ msgstr "RSS 路径"
+
+#~ msgid ""
+#~ "The relative or absolute path to the directory where Pivot will create "
+#~ "the Feed files."
+#~ msgstr "RSS文件存放的路径(相对路径或绝对路径)."
+
+#~ msgid "Settings for Last Referers"
+#~ msgstr "Settings for Last Referers"
+
+#~ msgid ""
+#~ "These settings determine the appearance of the 'last referers' on the "
+#~ "weblog's frontpage."
+#~ msgstr "这些设置决定了首页上的 'last referers'列表."
+
+#~ msgid "Use Emoticons"
+#~ msgstr "使用表情图片"
+
+#~ msgid ""
+#~ "Determines whether emoticons like :-) will be transformed to their "
+#~ "graphical equivalents."
+#~ msgstr "决定了是否将:-)转换为一个表情图片."
+
+#~ msgid "Encode Email Addresses"
+#~ msgstr "编码邮件地址"
+
+#~ msgid ""
+#~ "Determines whether email-addresses will be encoded in javascript, as "
+#~ "protection from spam harvesters."
+#~ msgstr "保护邮件地址不被垃圾邮件侵扰."
+
+#~ msgid "Target Blank"
+#~ msgstr "弹出新窗口"
+
+#~ msgid "XHTML Workaround"
+#~ msgstr "XHTML Workaround"
+
+#~ msgid ""
+#~ "If set to 'Yes', all links entered in your entries will be opened in a "
+#~ "new browser window. If set to 'XHTML workaround', all links will have a "
+#~ "rel=\"external\" attribute, which will not break wellformed XHTML"
+#~ msgstr "所有在文章中所写的链接都将在新的窗口中被显示."
+
+#~ msgid "Blogroll settings"
+#~ msgstr "Blogroll settings"
+
+#~ msgid "Blogrolling ID #"
+#~ msgstr "Blogrolling ID #"
+
+#~ msgid ""
+#~ "You can optionally include a <a href=\"http://www.blogrolling.com\" "
+#~ "target=\"_blank\">blogrolling.com</a> blogroll in your weblog. "
+#~ "Blogrolling is an excellent service to maintain a list of links, which "
+#~ "shows how recently they were updated. If you do not want this, just skip "
+#~ "these input fields. Otherwise: When you're logged in to blogrolling.com, "
+#~ "go to 'get code', there you will find links containing your blogroll's ID "
+#~ "#. It should look somthing like this: 2ef8b42161020d87223d42ae18191f6d"
+#~ msgstr ""
+#~ "You can optionally include a <a href=\"http://www.blogrolling.com\" "
+#~ "target=\"_blank\">blogrolling.com</a> blogroll in your weblog. "
+#~ "Blogrolling is an excellent service to maintain a list of links, which "
+#~ "shows how recently they were updated. If you do not want this, just skip "
+#~ "skip these input field. Otherwise: When you're logged in to blogrolling."
+#~ "com, go to 'get code', there you will find links containing your "
+#~ "blogroll's ID #. It should look somthing like this: "
+#~ "2ef8b42161020d87223d42ae18191f6d"
+
+#~ msgid "Background Color"
+#~ msgstr "Background Color"
+
+#~ msgid "Line Color 1"
+#~ msgstr "Line Color 1"
+
+#~ msgid "Line Color 2"
+#~ msgstr "Line Color 2"
+
+#~ msgid "Color 1"
+#~ msgstr "Color 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Color 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Color 3"
+
+#~ msgid "Color 4"
+#~ msgstr "Color 4"
+
+#~ msgid ""
+#~ "These colors determine what your blogroll will look like. Color 1 to "
+#~ "color 4 give a visual indication as to how recently updated a link is."
+#~ msgstr ""
+#~ "These colors determine what your blogroll will look like. Color 1 to "
+#~ "color 4 give a visual indication as to how recently updated a link is."
+
+#~ msgid "Thumbnail Preview"
+#~ msgstr "Thumbnail Preview"
+
+#~ msgid "Width x Height"
+#~ msgstr "宽 x 高"
+
+#~ msgid "Are you sure you want to delete the file %s?"
+#~ msgstr "你确定删除 %s吗?"
+
+#~ msgid "Delete this picture?"
+#~ msgstr "删除这个图片?"
+
+#~ msgid "create"
+#~ msgstr "建立"
+
+#~ msgid ""
+#~ "Insert a link, by typing an url in the field below. Visitors to your site "
+#~ "will see the title when they hover their mouse over the link."
+#~ msgstr ""
+#~ "填写一个URL来插入一个链接.游客可以在把鼠标放在链接上时看到链接的信息."
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Edit who can post to the category '%s'"
+#~ msgstr "编辑谁能在这个分类发贴 '%s'"
+
+#~ msgid "Allowed"
+#~ msgstr "允许的"
+
+#~ msgid "Denied"
+#~ msgstr "拒绝的"
+
+#~ msgid "Deny"
+#~ msgstr "拒绝"
+
+#~ msgid ""
+#~ "In this build of Pivot, only the category name will be deleted. In later "
+#~ "builds, you will be able to choose what to do with entries using this "
+#~ "category."
+#~ msgstr ""
+#~ "在这个版本的Pivot中,只有分类的名称是可以删除的,在下一个版本的Pivot中,你可"
+#~ "以删除分类中的文章."
+
+#~ msgid "(Ctrl-click to select multiple categories)"
+#~ msgstr "(Ctrl-鼠标点击来同时选择多个分类)"
+
+#~ msgid "Convert Linebreaks"
+#~ msgstr "Convert Linebeaks"
+
+#~ msgid "(This is always off, when in Wysiwyg mode)"
+#~ msgstr "(在所见即所得的模式下,这个选项是关闭的)"
+
+#~ msgid "(Be careful with this!)"
+#~ msgstr "(注意这里!)"
+
+#~ msgid "Edit Comments"
+#~ msgstr "编辑评论"
+
+#~ msgid "Edit the comments that have been posted to this entry"
+#~ msgstr "编辑这个文章的评论"
+
+#~ msgid "Unblock IP range %s"
+#~ msgstr "解除 IP 区域 %s"
+
+#~ msgid "Publish and generate"
+#~ msgstr "产生文件并发布"
+
+#~ msgid "With the checked files, do:"
+#~ msgstr "选择的文件,将要:"
+
+#~ msgid "With the checked templates, do:"
+#~ msgstr "选择的模板,将要:"
+
+#~ msgid "cannot open dir, check your rights."
+#~ msgstr "不能打开目录,请检查你的权限"
+
+#~ msgid "cannot read dir, check your rights."
+#~ msgstr "不能读取目录,请检查你的权限"
+
+#~ msgid "cannot write dir, check your rights."
+#~ msgstr "不能写入目录,请检查你的权限"
+
+#~ msgid "cannot read file, check your rights."
+#~ msgstr "不能读取文件,请检查你的权限."
+
+#~ msgid "Good"
+#~ msgstr "好"
+
+#~ msgid "Bad"
+#~ msgstr "坏"
+
+#~ msgid "You already voted for this entry or poll"
+#~ msgstr "你已经给这个文章透过票了"
+
+#~ msgid "Your vote for '%val%' has been registered"
+#~ msgstr "你的投票 '%val%' 已经提交了"
+
+#~ msgid "Last Referrers"
+#~ msgstr "Last Referrers"
+
+#~ msgid "Open Emoticons Reference"
+#~ msgstr "Open Emoticons Reference"
+
+#~ msgid "Open Textile Reference"
+#~ msgstr "Open Textile Reference"
+
+#~ msgid "Edit Userfields"
+#~ msgstr "Edit Userfields"
+
+#~ msgid ""
+#~ "The Internal Name is the name of this item as it will appear when you "
+#~ "tell pivot to display it in a template."
+#~ msgstr ""
+#~ "The Internal Name is the name of this item as it will appear when you "
+#~ "tell pivot to display it in a template."
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Rows"
+#~ msgstr "行"
+
+#~ msgid "Columns"
+#~ msgstr "列"
+
+#~ msgid "Maximum Length"
+#~ msgstr "最大长度"
+
+#~ msgid ""
+#~ "By filtering this item, you limit the type of input that can be used in it"
+#~ msgstr ""
+#~ "By filtering this item, you limit the type of input that can be used in it"
+
+#~ msgid ""
+#~ "Deleting this Userfield (<b>%s</b>) will also destroy all the data that "
+#~ "users have stored withen it, and make any instances of it in a template "
+#~ "appear empty."
+#~ msgstr ""
+#~ "Deleting this Userfield (<b>%s</b>) will also destroy all the data that "
+#~ "users have stored withen it, and make any instances of it in a template "
+#~ "appear empty."
+
+#~ msgid "This name is already in use"
+#~ msgstr "名称已经被占用"
+
+#~ msgid "Internal Name must be longer than 3 characters"
+#~ msgstr "内部名称必须大于3个字符"
+
+#~ msgid "Display Name must be longer than 3 characters"
+#~ msgstr "显示名称必须大于3个字符"
+
+#~ msgid ""
+#~ "This Bookmarklet opens a window with a New Entry, which contains a link "
+#~ "to the page it was opened from."
+#~ msgstr ""
+#~ "This Bookmarklet opens a window with a New Entry, which contains a link "
+#~ "to the page it was opened from."
+
+#~ msgid "This Bookmarklet opens a window with a blank New Entry."
+#~ msgstr "This Bookmarklet opens a window with a blank New Entry."
+
+#~ msgid ""
+#~ "You can use Bookmarklets to quickly write New Entries with Pivot. To add "
+#~ "a Bookmarklet to your browser, use one of the following options: (exact "
+#~ "text varies, depending on which browser you are using)"
+#~ msgstr ""
+#~ "You can use Bookmarklets to quickly write New Entries with Pivot. To add "
+#~ "a Bookmarklet to your browser, use one of the following options: (exact "
+#~ "text varies, depending on which browser you are using)"
+
+#~ msgid ""
+#~ "Click and drag the bookmarklet to your 'Links'-toolbar or your browsers "
+#~ "'Bookmarks'-button."
+#~ msgstr ""
+#~ "Click and drag the bookmarklet to your 'Links'-toolbar or your browsers "
+#~ "'Bookmarks'-button."
+
+#~ msgid "Right-click on the bookmarklet and select 'Add to Bookmarks'."
+#~ msgstr "Right-click on the bookmarklet and select 'Add to Bookmarks'."
