@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -395,6 +404,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Kasutajad"
 
 #, fuzzy
 msgid "Password Protect"
@@ -693,6 +711,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Otsingutulemused"
+
 msgid "Name"
 msgstr "Nimi"
 
@@ -717,9 +738,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Seaded"
-
-msgid "Search Results"
-msgstr "Otsingutulemused"
 
 msgid "Top"
 msgstr ""
@@ -905,6 +923,10 @@ msgstr "Piir"
 #, fuzzy
 msgid "back to top"
 msgstr "Back to login"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Smailid"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1269,6 +1291,10 @@ msgstr "Postituse eelvaade "
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Keel"
+
 msgid "Order"
 msgstr ""
 
@@ -1565,6 +1591,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Kustuta kommentaar"
+
+#, fuzzy
 msgid "categories"
 msgstr "Kategooriad"
 
@@ -1675,9 +1705,6 @@ msgstr "Loo uus kategooria"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Kasutajad"
-
 msgid "Number of Entries"
 msgstr "Postituste arv"
 
@@ -1779,10 +1806,6 @@ msgid "overview of entries"
 msgstr "Postituste üldvaade"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Kustuta kommentaar"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Postituste üldvaade"
 
@@ -1797,10 +1820,6 @@ msgstr "Kustuta"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Postituste üldvaade"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Smailid"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3289,9 +3308,6 @@ msgstr "Siseta pilt"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Saada pinge"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Oops"
@@ -4122,6 +4138,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Keel vaikimisi"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Kommentaar kustutati."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "See pole kehtiv e-posti aadress"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Keel"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Valmis"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4744,6 +4805,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Delete user"
@@ -4986,6 +5050,9 @@ msgstr "Kuupäev/kellaaeg"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Ehita andmebaasi indeks"
 
@@ -5132,6 +5199,9 @@ msgstr "Kommentaar salvestati."
 #, fuzzy
 msgid "link"
 msgstr "Lingid"
+
+#~ msgid "Send Pings"
+#~ msgstr "Saada pinge"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -6027,9 +6097,6 @@ msgstr "Lingid"
 #~ msgstr ""
 #~ "Igale alamajaveebile, mis on vormides kirjas, saab luua eraldi vormid "
 #~ "jakategooriad"
-
-#~ msgid "Finish"
-#~ msgstr "Valmis"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Loo / muuda ajaveebi, 1. samm kolmest"

@@ -1,14 +1,14 @@
 # Translation of PivotX to ...
-# Copyright (C) 2008-2010 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.3\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-11 00:15+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,10 +312,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 msgid "Default password"
@@ -353,6 +362,15 @@ msgid "'No access' text"
 msgstr ""
 
 msgid "When the user is not granted access, show this text."
+msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
 msgstr ""
 
 msgid "Password Protect"
@@ -629,6 +647,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr ""
+
 msgid "Name"
 msgstr ""
 
@@ -651,9 +672,6 @@ msgid "Yes, give me a cookie and remember me."
 msgstr ""
 
 msgid "Navigation"
-msgstr ""
-
-msgid "Search Results"
 msgstr ""
 
 msgid "Top"
@@ -817,6 +835,9 @@ msgid "order"
 msgstr ""
 
 msgid "back to top"
+msgstr ""
+
+msgid "Edit this page"
 msgstr ""
 
 msgid "Timed Publish"
@@ -1135,6 +1156,9 @@ msgstr ""
 msgid "Post and Continue Editing"
 msgstr ""
 
+msgid "Languages"
+msgstr ""
+
 msgid "Order"
 msgstr ""
 
@@ -1379,6 +1403,9 @@ msgstr ""
 msgid "Held"
 msgstr ""
 
+msgid "Edit this entry"
+msgstr ""
+
 msgid "categories"
 msgstr ""
 
@@ -1477,9 +1504,6 @@ msgstr ""
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr ""
-
 msgid "Number of Entries"
 msgstr ""
 
@@ -1568,9 +1592,6 @@ msgstr ""
 msgid "overview of entries"
 msgstr ""
 
-msgid "Edit this entry"
-msgstr ""
-
 msgid "overview of comments"
 msgstr ""
 
@@ -1581,9 +1602,6 @@ msgid "delete"
 msgstr ""
 
 msgid "overview of pages"
-msgstr ""
-
-msgid "Edit this page"
 msgstr ""
 
 msgid "PivotX News"
@@ -2871,9 +2889,6 @@ msgstr ""
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr ""
-
 msgid "Oops."
 msgstr ""
 
@@ -3641,6 +3656,46 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+msgid "Enable multiple languages"
+msgstr ""
+
+msgid "Language used if none could be detected."
+msgstr ""
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+msgid "Give a proper variable name"
+msgstr ""
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+msgid "Language locales"
+msgstr ""
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4203,6 +4258,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr ""
 
@@ -4400,6 +4458,9 @@ msgid "Date / Time"
 msgstr ""
 
 msgid "Moblogging"
+msgstr ""
+
+msgid "Multilingual"
 msgstr ""
 
 msgid "Rebuild the index of your Database"

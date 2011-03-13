@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2011-02-07 6:59+0100\n"
 "Last-Translator: Daniel Koć <kocio@linuxnews.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Language: pl_PL\n"
 "X-Source-Language: en\n"
 
-#, qt-format
 msgid "%n visitors on this page"
 msgstr "%n gości na tej stronie"
 
@@ -131,8 +131,8 @@ msgid ""
 "in below."
 msgstr ""
 "Jeśli chcesz wyświetlać podsumowanie statystyk w panelu, wypełnij dane konta "
-"Google z którego masz dostęp do tych statystyk. Następnie kliknij %sten "
-"link%s aby sprawdzić logowanie i pobrać identyfikator, który należy wpisac "
+"Google z którego masz dostęp do tych statystyk. Następnie kliknij %sten link%"
+"s aby sprawdzić logowanie i pobrać identyfikator, który należy wpisac "
 "poniżej."
 
 msgid "Profile ID"
@@ -167,17 +167,17 @@ msgid "That's not a proper ID!"
 msgstr "To nie jest prawidłowe ID!"
 
 msgid ""
-"The ID of your <a href='http://www.google.com/calendar/'>Google "
-"Calendar</a>. This is your Gmail e-mail address or something like "
+"The ID of your <a href='http://www.google.com/calendar/'>Google Calendar</"
+"a>. This is your Gmail e-mail address or something like "
 "<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. You'll find "
 "the ID in the 'Calendar Address' box on the 'Calendar Details' tab when you "
 "have selected a specific calendar on the settings page."
 msgstr ""
 "ID twojego <a href='http://www.google.com/calendar/'>kalendarza Google</a> "
-"to twój adres Gmail lub adres w "
-"rodzaju<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. Twoje "
-"IDznajdziesz w polu 'Calendar Address' w zakładce 'Calendar Details' kiedy "
-"wybierzesz dany kalendarz na stronie ustawień."
+"to twój adres Gmail lub adres w rodzaju<tt>d8a49s3jgekpep0p1eiv7pueo4@group."
+"calendar.google.com</tt>. Twoje IDznajdziesz w polu 'Calendar Address' w "
+"zakładce 'Calendar Details' kiedy wybierzesz dany kalendarz na stronie "
+"ustawień."
 
 msgid "Maximum items"
 msgstr "Maksymalna liczba elementów"
@@ -237,23 +237,21 @@ msgid "Format for start date"
 msgstr "Format daty rozpoczęcia"
 
 msgid ""
-"Define the start date format using the standard PivotX <a "
-"href=\"http://book.pivotx.net/page/app-d\">date formatting options</a>."
+"Define the start date format using the standard PivotX <a href=\"http://book."
+"pivotx.net/page/app-d\">date formatting options</a>."
 msgstr ""
-"Określ format daty rozpoczęcia za pomocą standardowych <a "
-"href=\"http://book.pivotx.net/page/app-d\">opcji formatowania daty</a> w "
-"PivotX."
+"Określ format daty rozpoczęcia za pomocą standardowych <a href=\"http://book."
+"pivotx.net/page/app-d\">opcji formatowania daty</a> w PivotX."
 
 msgid "Format for end date"
 msgstr "Format daty zakończenia"
 
 msgid ""
-"Define the end date format using the standard PivotX <a "
-"href=\"http://book.pivotx.net/page/app-d\">date formatting options</a>."
+"Define the end date format using the standard PivotX <a href=\"http://book."
+"pivotx.net/page/app-d\">date formatting options</a>."
 msgstr ""
-"Określ format daty zakończenia za pomocą standardowych <a "
-"href=\"http://book.pivotx.net/page/app-d\">opcji formatowania daty</a> w "
-"PivotX."
+"Określ format daty zakończenia za pomocą standardowych <a href=\"http://book."
+"pivotx.net/page/app-d\">opcji formatowania daty</a> w PivotX."
 
 msgid "Footer format"
 msgstr "Format stopki"
@@ -314,7 +312,6 @@ msgid "The name you use to log in at <a href='http://last.fm'>Last.fm</a>."
 msgstr ""
 "Nazwa której używasz do logowania na <a href='http://last.fm'>Last.fm</a>."
 
-#, qt-format
 msgid "Playing \"%nicefilename%\"."
 msgstr "Odtwarzanie \"%nicefilename%\"."
 
@@ -324,7 +321,6 @@ msgstr "Film na YouTube: \"%basename%\"."
 msgid "Vimeo video \"%basename%\"."
 msgstr "Film na Vimeo: \"%basename%\"."
 
-#, qt-format
 msgid "Video \"%nicefilename%\""
 msgstr "Film \"%nicefilename%\""
 
@@ -344,11 +340,21 @@ msgstr ""
 "literówkę, wróć i spróbuj ponownie. <br /><br />Jeśli nie znasz hasła, "
 "poproś właściciela strony o dostęp do tego wpisu."
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Zobacz cały wpis"
+
 msgid "Enable password protection"
 msgstr "Włącz ochronę hasłem"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr "Tak, zezwól na ochronę wpisów hasłem."
 
 msgid "Default password"
 msgstr "Domyślne hasło"
@@ -386,6 +392,15 @@ msgstr "Komunikat braku dostępu"
 
 msgid "When the user is not granted access, show this text."
 msgstr "Jeśli użytkownik nie ma dostępu, wyświetl ten komunikat."
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Użytkownicy"
 
 msgid "Password Protect"
 msgstr "Zabezpieczenie hasłem"
@@ -433,9 +448,9 @@ msgid "Note"
 msgstr "Uwaga"
 
 msgid ""
-"It seems you're running PivotX from a local network. The Picnik extension<br "
-"/> needs to be able to fetch the images over the internet, so it might not "
-"work on<br /> your current setup."
+"It seems you're running PivotX from a local network. The Picnik "
+"extension<br /> needs to be able to fetch the images over the internet, so "
+"it might not work on<br /> your current setup."
 msgstr ""
 "Zdaje się, że używasz PivotX z sieci lokalnej. Rozszerzenie Picnik <br /> "
 "musi mieć możliwość pobierania grafik z Internetu, więc może to <br /> nie "
@@ -470,13 +485,13 @@ msgstr "To nie jest prawidłowa nazwa foldera!"
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
-"<tt>slideshow</tt>, the slideshow will look in the "
-"<tt>/images/slideshow/</tt> folder. Don't start or finish with a slash."
+"<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</"
+"tt> folder. Don't start or finish with a slash."
 msgstr ""
 "Nazwa foldera w którym znajdują się grafiki do pokazu slajdów. Powinien "
 "znajdować się wewnątrz foldera <tt>images</tt>. Jeśli podasz nazwę  "
-"<tt>slajdy</tt>, pliki do pokazu slajdów będą poszukiwane w folderze "
-"<tt>/images/slajdy/</tt>. Nie wpisuj ukośnika na początku ani na końcu."
+"<tt>slajdy</tt>, pliki do pokazu slajdów będą poszukiwane w folderze <tt>/"
+"images/slajdy/</tt>. Nie wpisuj ukośnika na początku ani na końcu."
 
 msgid "Default timeout"
 msgstr "Domyślny czas wyświetlania"
@@ -571,8 +586,8 @@ msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
 msgstr ""
-"Indeks tytułu grafiki w tablicy IPTC (Picasa używa w komentarzach "
-"\"2#120\"). Pozostaw puste aby wygenerować elegancką nazwę."
+"Indeks tytułu grafiki w tablicy IPTC (Picasa używa w komentarzach \"2#120"
+"\"). Pozostaw puste aby wygenerować elegancką nazwę."
 
 msgid "IPTC Encoding"
 msgstr "Kodowanie IPTC"
@@ -611,8 +626,8 @@ msgid ""
 "The text to show when only showing a simple average. You can use %average% "
 "to insert that value."
 msgstr ""
-"Komunikat wyświetlany przy zwykłej średniej ocen. Można używać zmiennych "
-"%count% i %average%  do wyświetlania ilości głosów i średniej."
+"Komunikat wyświetlany przy zwykłej średniej ocen. Można używać zmiennych %"
+"count% i %average%  do wyświetlania ilości głosów i średniej."
 
 msgid "Thank you for voting!"
 msgstr "Dziękujemy za oddanie głosu!"
@@ -663,9 +678,9 @@ msgid ""
 "be set to the current day."
 msgstr ""
 "Dodatkowe adresy URI, które mają się znajdować w mapie strony. Wpisuj "
-"rozdzielając przecinkiem. Adres powinien być ścieżką bezwzględną (np. "
-"/mój-adres/tu). Informacja o ostatniej modyfikacji zostanie ustawiona na "
-"dzień bieżący."
+"rozdzielając przecinkiem. Adres powinien być ścieżką bezwzględną (np. /mój-"
+"adres/tu). Informacja o ostatniej modyfikacji zostanie ustawiona na dzień "
+"bieżący."
 
 msgid "About"
 msgstr "Informacje"
@@ -697,6 +712,9 @@ msgstr "Strona domowa"
 msgid "Tag Cloud"
 msgstr "Znaczniki"
 
+msgid "Search Results"
+msgstr "Wyniki wyszukiwania"
+
 msgid "Name"
 msgstr "Nazwa"
 
@@ -720,9 +738,6 @@ msgstr "Tak, zapisz ciasteczko i zapamiętaj mnie."
 
 msgid "Navigation"
 msgstr "Nawigacja"
-
-msgid "Search Results"
-msgstr "Wyniki wyszukiwania"
 
 msgid "Top"
 msgstr "Na górę strony"
@@ -896,6 +911,9 @@ msgstr "kolejność"
 
 msgid "back to top"
 msgstr "powrót na górę"
+
+msgid "Edit this page"
+msgstr "Edytuj tę stronę"
 
 msgid "Timed Publish"
 msgstr "publikacja w terminie"
@@ -1219,6 +1237,10 @@ msgstr "Zapisz lub podejrzyj"
 msgid "Post and Continue Editing"
 msgstr "Zapisz i kontynuuj edycję"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Język"
+
 msgid "Order"
 msgstr "Kolejność"
 
@@ -1473,6 +1495,9 @@ msgstr "terminowe"
 msgid "Held"
 msgstr "Wstrzymane"
 
+msgid "Edit this entry"
+msgstr "Edytuj ten wpis"
+
 msgid "categories"
 msgstr "kategorie"
 
@@ -1527,7 +1552,6 @@ msgstr "Ostatnie logowanie"
 msgid "Edit User"
 msgstr "Edycja użytkownika"
 
-#, qt-format
 msgid "You're about to remove access for %1. Are you sure you want to do this?"
 msgstr ""
 "Za chwilę odbierzesz dostęp użytkownikowi %1. Na pewno chcesz to zrobić?"
@@ -1544,7 +1568,6 @@ msgstr "Powiadomienia"
 msgid "Edit Visitor"
 msgstr "Edytuj gościa"
 
-#, qt-format
 msgid "You are about to delete visitor %1. Are you sure?"
 msgstr "Za chwilę usuniesz gościa %1. Jesteś pewien?"
 
@@ -1576,9 +1599,6 @@ msgstr "Utwórz nową kategorię"
 msgid "Display Name"
 msgstr "Wyświetl nazwę"
 
-msgid "Users"
-msgstr "Użytkownicy"
-
 msgid "Number of Entries"
 msgstr "Liczba wpisów"
 
@@ -1609,7 +1629,6 @@ msgstr "Nazwa bloga"
 msgid "View"
 msgstr "Zobacz"
 
-#, qt-format
 msgid "You are about to delete weblog %1. Are you sure?"
 msgstr "Za chwilę usuniesz blog %1. Jesteś pewien?"
 
@@ -1651,7 +1670,6 @@ msgstr "następna"
 msgid "last"
 msgstr "ostatnia"
 
-#, qt-format
 msgid ""
 "Hi, and welcome to %1! Below this bit of text you can see a short overview "
 "of the latest <a href='index.php?page=entries'>entries</a> and <a "
@@ -1660,9 +1678,9 @@ msgid ""
 "queue."
 msgstr ""
 "Witaj w %1! Pod tym komunikatem znajdziesz krótki przegląd najnowszych <a "
-"href='index.php?page=entries'>wpisów</a> oraz <a "
-"href='index.php?page=pagesoverview'>stron</a>. Zapewne są też jakieś <a "
-"href='index.php?page=comments'>nowe komentarze</a> oczekujące na moderację."
+"href='index.php?page=entries'>wpisów</a> oraz <a href='index.php?"
+"page=pagesoverview'>stron</a>. Zapewne są też jakieś <a href='index.php?"
+"page=comments'>nowe komentarze</a> oczekujące na moderację."
 
 msgid "Configuration"
 msgstr "Konfiguracja"
@@ -1672,9 +1690,6 @@ msgstr "Zarządzanie mediami"
 
 msgid "overview of entries"
 msgstr "przegląd wpisów"
-
-msgid "Edit this entry"
-msgstr "Edytuj ten wpis"
 
 msgid "overview of comments"
 msgstr "przegląd komentarzy"
@@ -1687,9 +1702,6 @@ msgstr "usuń"
 
 msgid "overview of pages"
 msgstr "przegląd stron"
-
-msgid "Edit this page"
-msgstr "Edytuj tę stronę"
 
 msgid "PivotX News"
 msgstr "Nowości PivotX"
@@ -1766,7 +1778,6 @@ msgstr "Ostatnie na <strong>%s</strong> dla <strong>%s</strong>"
 msgid "Current path"
 msgstr "Bieżąca ścieżka"
 
-#, qt-format
 msgid "There are %1 comment(s) waiting to be approved."
 msgstr "%1 komentarz(y) oczekuje na akceptację."
 
@@ -1971,8 +1982,8 @@ msgid ""
 "Usernames can only contain lowercase alphanumeric characters (a-z, 0-9) and "
 "underscores (_)."
 msgstr ""
-"Nazwa użytkownika może składać się tylko ze znaków alfanumerycznych (a-z, "
-"0-9) i znaku podkreślenia (_)."
+"Nazwa użytkownika może składać się tylko ze znaków alfanumerycznych (a-z, 0-"
+"9) i znaku podkreślenia (_)."
 
 msgid "Please give a proper password!"
 msgstr "Podaj właściwe hasło!"
@@ -2036,8 +2047,8 @@ msgid "Show discreetly"
 msgstr "Wyświetl dyskretnie"
 
 msgid ""
-"If set to 'yes', the comment will be shown without the accompanying "
-"email-address."
+"If set to 'yes', the comment will be shown without the accompanying email-"
+"address."
 msgstr ""
 "Jeśli będzie zaznaczone na \"tak\", komentarz będzie wyświetlany bez "
 "towarzyszącego mu adresu e-mail."
@@ -2188,11 +2199,10 @@ msgstr ""
 "Dla większości użytkowników najlepszym wyborem jest edytor 'graficzny'. "
 "'Zwykły XHTML' przeznaczony jest dla osób chcących edytować czysty XHTML, a "
 "'konwertuj znaki końca wiersza' nie robi nic poza zamianą znaków końca "
-"wiersza na znaczniki &amp;lt;br /&amp;gt;. <a "
-"href=\"http://www.textism.com/tools/textile/\" target=\"_blank\">Textile</a> "
-"i <a href='http://daringfireball.net/projects/markdown/' "
-"target='_blank'>Markdown</a> to rozbudowane, ale łatwe do opanowania systemy "
-"znaczników."
+"wiersza na znaczniki &amp;lt;br /&amp;gt;. <a href=\"http://www.textism.com/"
+"tools/textile/\" target=\"_blank\">Textile</a> i <a href='http://"
+"daringfireball.net/projects/markdown/' target='_blank'>Markdown</a> to "
+"rozbudowane, ale łatwe do opanowania systemy znaczników."
 
 msgid "Wysiwyg"
 msgstr "graficzny"
@@ -2575,13 +2585,12 @@ msgid "Allow Textile"
 msgstr "Zezwalaj na system znaczników Textile"
 
 msgid ""
-"If this is set to \"Yes\", visitors are allowed to use <a "
-"href=\"http://www.textism.com/tools/textile/\" target=\"_blank\">Textile</a> "
-"in their comments."
+"If this is set to \"Yes\", visitors are allowed to use <a href=\"http://www."
+"textism.com/tools/textile/\" target=\"_blank\">Textile</a> in their comments."
 msgstr ""
 "Jeśli jest ustawione na \"tak\", goście mogą używać w komentarzach systemu "
-"znaczników <a href=\"http://www.textism.com/tools/textile/\" "
-"target=\"_blank\">Textile</a>."
+"znaczników <a href=\"http://www.textism.com/tools/textile/\" target=\"_blank"
+"\">Textile</a>."
 
 msgid "Allow Emoticons?"
 msgstr "Zezwalanie na emotikony?"
@@ -2667,18 +2676,17 @@ msgid "Use Mod_rewrite"
 msgstr "Używaj mod_rewrite"
 
 msgid ""
-"If you use Apache's Mod_rewrite option, PivotX will make URLs like "
-"www.example.org/archive/2008/05/30/nice-weather, instead of "
-"www.example.org/index.php?e=134. Not all servers support this, so please "
-"read the <a href=\"http://book.pivotx.net/page/1-14/\">Using Apache's "
-"Mod_rewrite</a> section in the PivotX book about this."
+"If you use Apache's Mod_rewrite option, PivotX will make URLs like www."
+"example.org/archive/2008/05/30/nice-weather, instead of www.example.org/"
+"index.php?e=134. Not all servers support this, so please read the <a href="
+"\"http://book.pivotx.net/page/1-14/\">Using Apache's Mod_rewrite</a> section "
+"in the PivotX book about this."
 msgstr ""
 "Jeśli używasz modułu Apache mod_rewrite, PivotX będzie tworzyć adresy URL w "
-"stylu www.mojastrona.org/archive/2003/05/30/ladna_pogoda zamiast "
-"www.mojastrona.org/pivot/?e=134. Nie wszystkie serwery to obsługują, więc "
-"przeczytaj stronę podręcznika <a "
-"href=\"http://book.pivotx.net/page/1-14/\">Using Apache's Mod_rewrite</a>, "
-"poświęconą temu zagadnieniu."
+"stylu www.mojastrona.org/archive/2003/05/30/ladna_pogoda zamiast www."
+"mojastrona.org/pivot/?e=134. Nie wszystkie serwery to obsługują, więc "
+"przeczytaj stronę podręcznika <a href=\"http://book.pivotx.net/page/1-14/"
+"\">Using Apache's Mod_rewrite</a>, poświęconą temu zagadnieniu."
 
 msgid "Site 'Not Found' page (404)"
 msgstr "Błąd \"strona nie znaleziona\" (404)"
@@ -2881,8 +2889,8 @@ msgid ""
 "what you're doing."
 msgstr ""
 "Niektóre serwery wymagają, aby tworzone pliki miały ustawione uprawnienia "
-"(chmod) w specyficzny sposób. Najczęściej spotykanymi wartościami są "
-"\"0644\" i \"0755\". Nie zmieniaj tego, chyba że wiesz co robisz."
+"(chmod) w specyficzny sposób. Najczęściej spotykanymi wartościami są \"0644"
+"\" i \"0755\". Nie zmieniaj tego, chyba że wiesz co robisz."
 
 msgid "File Upload Path"
 msgstr "Ścieżka dla wysyłanych plików"
@@ -2893,8 +2901,8 @@ msgid ""
 "well."
 msgstr ""
 "Ścieżka do foldera, w którym przechowywane są wysyłane pliki. Jeśli "
-"zmieniasz tę wartość, pamiętaj aby zmienić ją także w pliku "
-"<tt>pivotx/includes/timthumb.php</tt>."
+"zmieniasz tę wartość, pamiętaj aby zmienić ją także w pliku <tt>pivotx/"
+"includes/timthumb.php</tt>."
 
 msgid "Overwrite"
 msgstr "Nadpisywanie"
@@ -2961,9 +2969,9 @@ msgid "Diff Date"
 msgstr "Data różnicowa"
 
 msgid ""
-"The \"Diff Date\" is most commonly used in conjunction with the \"Entry "
-"Date\". The Entry Date is displayed on every entry on your log, while the "
-"Diff Date is only displayed if the date differs from the previous entry."
+"The \"Diff Date\" is most commonly used in conjunction with the \"Entry Date"
+"\". The Entry Date is displayed on every entry on your log, while the Diff "
+"Date is only displayed if the date differs from the previous entry."
 msgstr ""
 "\"Data różnicowa\" jest najczęściej używana w połączeniu z \"datą wpisu\". "
 "Data wpisu jest wyświetlana przy każdym wpisie na twoim blogu, a data "
@@ -3166,9 +3174,6 @@ msgstr "Wstaw wyskakującą grafikę"
 msgid "all"
 msgstr "wszystko"
 
-msgid "Send Pings"
-msgstr "Wyślij echo"
-
 msgid "Oops."
 msgstr "Oj."
 
@@ -3177,8 +3182,8 @@ msgstr "PivotX napotkał błąd"
 
 msgid ""
 "PivotX is running in 'safe mode' now. This means all extensions are disabled "
-"until you remove the file <tt>pivotxsafemode.txt</tt> from the "
-"<tt>pivotx/</tt> folder. "
+"until you remove the file <tt>pivotxsafemode.txt</tt> from the <tt>pivotx/</"
+"tt> folder. "
 msgstr ""
 "PivotX działa teraz w trybie awaryjnym. To znaczy, że wszystkie rozszerzenia "
 "są wyłączone do chwili, aż usuniesz plik <tt>pivotxsafemode.txt</tt> z "
@@ -3446,19 +3451,15 @@ msgstr "Przykładowe linkowisko..."
 msgid "No title.."
 msgstr "Brak tytułu"
 
-#, qt-format
 msgid "%num% comment"
 msgstr "%num% komentarz"
 
-#, qt-format
 msgid "%num% comments"
 msgstr "%num% komentarze(-y)"
 
-#, qt-format
 msgid "%num% trackback"
 msgstr "%num% ślad "
 
-#, qt-format
 msgid "%num% trackbacks"
 msgstr "%num% ślady(-ów)"
 
@@ -3884,23 +3885,21 @@ msgid ""
 "than PivotX requires (%s). PivotX will most likely not work correctly, until "
 "the server is updated to a newer version."
 msgstr ""
-"Bieżąca wersja PHP na serwerze to %s, jest ona starsza niż wymaga PivotX "
-"(%s). PivotX najprawdopodobniej nie będzie działał prawidłowo, dopóki serwer "
+"Bieżąca wersja PHP na serwerze to %s, jest ona starsza niż wymaga PivotX (%"
+"s). PivotX najprawdopodobniej nie będzie działał prawidłowo, dopóki serwer "
 "nie zostanie zaktualizowany do nowszej wersji."
 
 msgid ""
 "This webserver has safe_mode enabled. This doesn't actually make things any "
 "'safer', just more annoying. Please ask your hosting provider to turn it "
-"off. See the documentation for more info: <a "
-"href='http://docs.pivotx.net/doku.php?id=dealing_with_safe_mode'>Dealing "
-"with safe_mode</a>."
+"off. See the documentation for more info: <a href='http://docs.pivotx.net/"
+"doku.php?id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
 msgstr ""
 "Serwer działa obecnie w trybie safe_mode (\"tryb bezpieczny\"). W "
 "rzeczywistości nie zapewnia to żadnego bezpieczeństwa, tylko powoduje "
 "komplikacje. Poproś swojego dostawcę hostingu, aby go wyłączył. Więcej "
-"informacji na ten temat: <a "
-"href='http://docs.pivotx.net/doku.php?id=dealing_with_safe_mode'>Dealing "
-"with safe_mode</a>."
+"informacji na ten temat: <a href='http://docs.pivotx.net/doku.php?"
+"id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
 
 msgid ""
 "The PivotX installer script \"pivotx-setup.php\" is still present in the "
@@ -3944,13 +3943,13 @@ msgstr ""
 msgid ""
 "This webserver has register_globals enabled. This is a serious potential "
 "security issue. Please ask your hosting provider to turn it off. See the PHP "
-"documentation for more info: <a "
-"href='http://php.net/register_globals'>Register Globals</a>."
+"documentation for more info: <a href='http://php.net/"
+"register_globals'>Register Globals</a>."
 msgstr ""
 "Ten serwer ma włączoną funkcję register_globals. Jest to potencjalnie "
 "poważne zagrożenie bezpieczeństwa. Poproś swojego dostawcę hostingu, aby ją "
-"wyłączył. Więcej informacji w dokumentacji PHP: <a "
-"href='http://php.net/register_globals'>Register Globals</a>."
+"wyłączył. Więcej informacji w dokumentacji PHP: <a href='http://php.net/"
+"register_globals'>Register Globals</a>."
 
 msgid ""
 "Your password is not fully encrypted yet. Please go to %myinfo%, and set "
@@ -4033,6 +4032,51 @@ msgstr "Wpis Mobloga nie został wysłany"
 #, php-format
 msgid "Processed: %s"
 msgstr "Przetworzono: %s"
+
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Domyślny język"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Wpisy nie mogły zostać usunięte."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Podaj prawidłową nazwę domeny!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Język"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Zakończ"
 
 msgid "Tag cloud for"
 msgstr "Chmura znaczników dla"
@@ -4129,11 +4173,9 @@ msgstr "Przetworzono %d stron..."
 msgid "A total of %s different words have been indexed."
 msgstr "Zindeksowano w sumie %s różnych słów."
 
-#, qt-format
 msgid "Results for \"%name%\":"
 msgstr "Znalezione dla słów '%name%':"
 
-#, qt-format
 msgid "No matches found for \"%name%\". Try something else."
 msgstr "Nie znaleziono niczego dla słów '%name%'. Spróbuj czegoś innego."
 
@@ -4382,9 +4424,9 @@ msgid ""
 "email address</strong>, because we will send a verification email to that "
 "address."
 msgstr ""
-"Proszę wypełnić poniższe pola. <strong>Należy podać poprawny adres "
-"e-mail</strong>, ponieważ zostanie na niego wysłana wiadomość weryfikująca "
-"jego poprawność."
+"Proszę wypełnić poniższe pola. <strong>Należy podać poprawny adres e-mail</"
+"strong>, ponieważ zostanie na niego wysłana wiadomość weryfikująca jego "
+"poprawność."
 
 msgid "Options"
 msgstr "Opcje"
@@ -4423,8 +4465,8 @@ msgid ""
 "If you've forgotten your password, enter your username and PivotX will send "
 "you an email with a link to reset your password."
 msgstr ""
-"Jeśli zapomniałeś hasła, wpisz swoją nazwę użytkownika, a  PivotX wyśle ci "
-"e-maila z linkiem do zmiany hasła."
+"Jeśli zapomniałeś hasła, wpisz swoją nazwę użytkownika, a  PivotX wyśle ci e-"
+"maila z linkiem do zmiany hasła."
 
 msgid "User already exists... Please pick another name."
 msgstr "Użytkownik już istnieje... Proszę wybrać inną nazwę."
@@ -4538,7 +4580,6 @@ msgstr "następna strona"
 msgid "Previous page"
 msgstr "poprzednia strona"
 
-#, qt-format
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Wyświetlanie wpisów %num_from%-%num_to% z %num_tot%"
 
@@ -4628,6 +4669,9 @@ msgstr "%s wykonał '%s'."
 
 msgid "Your new password is %pass%."
 msgstr "Twoje nowe hasło brzmi %pass%."
+
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
 
 msgid "Setup user"
 msgstr "Ustawienia użytkownika"
@@ -4746,7 +4790,6 @@ msgstr "Nie możesz dodawać ani edytować tej strony."
 msgid "The settings for chapter '%s' have been updated."
 msgstr "Ustawienia rozdziału \"%s\" zostały zaktualizowane."
 
-#, qt-format
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
 msgstr "Edytuj lub usuń ślad dla wpisu %number% - %editlink%"
 
@@ -4768,7 +4811,6 @@ msgstr "Adres IP nie mógł zostać usunięty z czarnej listy."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Edytuj lub usuń najnowsze ślady"
 
-#, qt-format
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "Edytuj lub usuń komentarze do wpisu %number% - %editlink%"
 
@@ -4836,6 +4878,9 @@ msgstr "Data i czas"
 
 msgid "Moblogging"
 msgstr "Moblogger"
+
+msgid "Multilingual"
+msgstr ""
 
 msgid "Rebuild the index of your Database"
 msgstr "Przebudowanie indeksu bazy danych"
@@ -4977,6 +5022,12 @@ msgstr "Komentarz został zaakceptowany!"
 msgid "link"
 msgstr "link"
 
+#~ msgid "Yes, allow for entries to be password protected."
+#~ msgstr "Tak, zezwól na ochronę wpisów hasłem."
+
+#~ msgid "Send Pings"
+#~ msgstr "Wyślij echo"
+
 #~ msgid "Contact form"
 #~ msgstr "Kontakt"
 
@@ -5042,11 +5093,9 @@ msgstr "link"
 #~ msgid "Visit the forum"
 #~ msgstr "odwiedź forum"
 
-#, qt-format
 #~ msgid "filter on (%name%)"
 #~ msgstr "filtr na (%name%)"
 
-#, qt-format
 #~ msgid "jump to page (%num%)"
 #~ msgstr "skocz do strony (%num%)"
 
@@ -5118,7 +5167,6 @@ msgstr "link"
 #~ msgid "Backup entries database"
 #~ msgstr "Zapisz szablon!"
 
-#, qt-format
 #~ msgid "Entry matches for \"%name%\":"
 #~ msgstr "Znalezione dla słów '%name%':"
 
@@ -5336,7 +5384,6 @@ msgstr "link"
 #~ "Uwaga: Administrator tej strony może zobaczyć Twoje hasło. <em>Nie "
 #~ "używaj</em> takiego samego hasła, jak do innych stron lub kont!"
 
-#, qt-format
 #~ msgid ""
 #~ "Your forgotten password for PivotX \"%name%\" is: \n"
 #~ "\n"
@@ -5413,17 +5460,17 @@ msgstr "link"
 #~ msgid ""
 #~ "You can provide several urls to send pings to. Do not include the http:// "
 #~ "part, otherwise it won't work. Just place each server on a new line, or "
-#~ "seperated by a pipe character. Some common servers to ping are:<br "
-#~ "/><b>rpc.pingomatic.com</b> (the one most widely used)<br "
-#~ "/><b>rpc.weblogs.com/RPC2</b>(also widely used)<br />"
+#~ "seperated by a pipe character. Some common servers to ping are:<br /"
+#~ "><b>rpc.pingomatic.com</b> (the one most widely used)<br /><b>rpc.weblogs."
+#~ "com/RPC2</b>(also widely used)<br />"
 #~ msgstr ""
 #~ "Możesz wprowadzić wiele adresów, do których mają być wysyłane informacje. "
 #~ "Nie dodawaj przedrostka http://, ponieważ nie będzie to działać. Umieść "
 #~ "każdy serwer w nowej linii. <br />Wybrane serwery, do które możesz "
-#~ "pingować:<br /><b>rpc.weblogs.com/RPC2</b> (jeden z najczęściej "
-#~ "używanych)<br /><b>pivotlog.net/pinger</b> (serwer pivotlog, jeszcze nie "
-#~ "działa)<br /><b>rcs.datashed.net/RPC2</b> (euro.weblogs.com)<br "
-#~ "/><b>ping.blo.gs</b> (blo.gs)<br />"
+#~ "pingować:<br /><b>rpc.weblogs.com/RPC2</b> (jeden z najczęściej używanych)"
+#~ "<br /><b>pivotlog.net/pinger</b> (serwer pivotlog, jeszcze nie działa)"
+#~ "<br /><b>rcs.datashed.net/RPC2</b> (euro.weblogs.com)<br /><b>ping.blo."
+#~ "gs</b> (blo.gs)<br />"
 
 #~ msgid "Ping Setup"
 #~ msgstr "Ustawienia pingów"
@@ -5566,14 +5613,12 @@ msgstr "link"
 #~ msgid "One comment."
 #~ msgstr "%num% komentarz"
 
-#, qt-format
 #~ msgid "%num% comments."
 #~ msgstr "%num% komentarzy"
 
 #~ msgid "No trackbacks."
 #~ msgstr "Brak śladów (trackbacks)"
 
-#, qt-format
 #~ msgid "%num% trackbacks."
 #~ msgstr "%num% ślad (trackback)"
 
@@ -5917,8 +5962,8 @@ msgstr "link"
 #~ "obcinania obrazków, możesz użyć zdalnego skryptu obcinającego."
 
 #~ msgid ""
-#~ "The 'extensions' directory is the place to store your additions to "
-#~ "Pivot.\t\tThis makes updating a lot easier. See the Docs for more info."
+#~ "The 'extensions' directory is the place to store your additions to Pivot."
+#~ "\t\tThis makes updating a lot easier. See the Docs for more info."
 #~ msgstr ""
 #~ "Katalog 'rozszerzeń' to miejsce, w którym przechowywane są dodatki do "
 #~ "Pivota.\t\tCzyni to aktualizacje o wiele łatwiejszymi. Zajrzyj do "
@@ -5945,9 +5990,6 @@ msgstr "link"
 #~ "skonfigurować szablon, który będzie przez niego używany oraz kategorie, z "
 #~ "których wpisy będą na nim publikowane."
 
-#~ msgid "Finish"
-#~ msgstr "Zakończ"
-
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Tworzenie / edycja Webloga, krok 1 z 3"
 
@@ -5961,17 +6003,17 @@ msgstr "link"
 #~ msgstr "Strona główna (Index)"
 
 #~ msgid ""
-#~ "The filename of the index-file. Normally this is something like "
-#~ "'index.html' or 'index.php'."
+#~ "The filename of the index-file. Normally this is something like 'index."
+#~ "html' or 'index.php'."
 #~ msgstr ""
 #~ "Nazwa pliku strony głównej (index). Zwykle to coś w stylu 'index.html' "
 #~ "lub 'index.php'."
 
 #~ msgid ""
 #~ "If your weblog uses SSI (which is not recommended), you can use this to "
-#~ "prefix Pivot's filenames with the filename used for the SSI. eg. "
-#~ "'index.shtml?p='. You should just leave this blank, unless you know what "
-#~ "you're doing."
+#~ "prefix Pivot's filenames with the filename used for the SSI. eg. 'index."
+#~ "shtml?p='. You should just leave this blank, unless you know what you're "
+#~ "doing."
 #~ msgstr ""
 #~ "Jeśli Twój Weblog używa SSI (co nie jest zalecane), możesz użyć tej opcji "
 #~ "do określenia prefiksu będącego nazwą pliku używanego przez SSI, np. "
@@ -6177,13 +6219,13 @@ msgstr "link"
 #~ "go to 'get code', there you will find links containing your blogroll's ID "
 #~ "#. It should look somthing like this: 2ef8b42161020d87223d42ae18191f6d"
 #~ msgstr ""
-#~ "Opcjonalnie możesz dodać blogroll serwisu <a "
-#~ "href=\"http://www.blogrolling.com\" target=\"_blank\">blogrolling.com</a> "
-#~ "do Twojego webloga. Blogrolling jest doskonałą usługą zarządzania listą "
-#~ "linków, która pokazuje jak często są one aktualizowane. Jeśli tego nie "
-#~ "chcesz, po prostu pomiń poniższe pola. W innym przypadku zaloguj się do "
-#~ "blogrolling.com i przejdź do sekcji 'get code', gdzie znajdziesz linki "
-#~ "zawierające Twój blogroll ID. Powinien on wyglądać mniej więcej tak: "
+#~ "Opcjonalnie możesz dodać blogroll serwisu <a href=\"http://www."
+#~ "blogrolling.com\" target=\"_blank\">blogrolling.com</a> do Twojego "
+#~ "webloga. Blogrolling jest doskonałą usługą zarządzania listą linków, "
+#~ "która pokazuje jak często są one aktualizowane. Jeśli tego nie chcesz, po "
+#~ "prostu pomiń poniższe pola. W innym przypadku zaloguj się do blogrolling."
+#~ "com i przejdź do sekcji 'get code', gdzie znajdziesz linki zawierające "
+#~ "Twój blogroll ID. Powinien on wyglądać mniej więcej tak: "
 #~ "2ef8b42161020d87223d42ae18191f6d."
 
 #~ msgid "Background Color"

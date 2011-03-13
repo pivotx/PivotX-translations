@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -395,6 +404,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "User"
 
 #, fuzzy
 msgid "Password Protect"
@@ -693,6 +711,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Cari Hasil"
+
 msgid "Name"
 msgstr "Nama"
 
@@ -717,9 +738,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Konfigurasi"
-
-msgid "Search Results"
-msgstr "Cari Hasil"
 
 msgid "Top"
 msgstr ""
@@ -906,6 +924,10 @@ msgstr "Border"
 #, fuzzy
 msgid "back to top"
 msgstr "Kembali login"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Emoticon"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1271,6 +1293,10 @@ msgstr "Preview Entri"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Bahasa"
+
 msgid "Order"
 msgstr ""
 
@@ -1567,6 +1593,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Hapus Komentar"
+
+#, fuzzy
 msgid "categories"
 msgstr "Kategori"
 
@@ -1678,9 +1708,6 @@ msgstr "Buat Kategori Baru"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "User"
-
 msgid "Number of Entries"
 msgstr "Jumlah Entri"
 
@@ -1783,10 +1810,6 @@ msgid "overview of entries"
 msgstr "Overview Entri"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Hapus Komentar"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Overview Entri"
 
@@ -1801,10 +1824,6 @@ msgstr "Hapus"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Overview Entri"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Emoticon"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3313,9 +3332,6 @@ msgstr "Sisipkan sebuah gambar"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Kirim Ping"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Ups"
@@ -4162,6 +4178,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Bahasa Default"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Komentar telah dihapus."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Alamat email Anda tidak valid"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Bahasa"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Selesai"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4787,6 +4848,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Hapus pengguna"
@@ -5028,6 +5092,9 @@ msgstr "Tanggal/Waktu"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Buat Kembali Index Database Anda"
 
@@ -5179,6 +5246,9 @@ msgstr "Komentar telah disimpan."
 #, fuzzy
 msgid "link"
 msgstr "Link"
+
+#~ msgid "Send Pings"
+#~ msgstr "Kirim Ping"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -6196,9 +6266,6 @@ msgstr "Link"
 #~ "Untuk setiap subweblog yang ditemukan dalam template, Anda dapat "
 #~ "mengkonfigurasi template apa yang digunakan, juga kategori yang "
 #~ "dipublikasikan di dalamnya."
-
-#~ msgid "Finish"
-#~ msgstr "Selesai"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Buat / Ubah Weblog, langkah 1 dari 3"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2010-03-25 11:42+0300\n"
 "Last-Translator: pivotx.ru <admin@pivotx.ru>\n"
 "Language-Team: Pivotx.RU <admin@pivotx.ru>\n"
@@ -337,11 +337,20 @@ msgid ""
 "entry."
 msgstr ""
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
 msgid "Enable password protection"
 msgstr "Включить защиту паролем"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr ""
 
 msgid "Default password"
 msgstr "Пароль \"по умолчанию\""
@@ -382,6 +391,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Пользователи"
 
 #, fuzzy
 msgid "Password Protect"
@@ -676,6 +694,9 @@ msgstr "Главная"
 msgid "Tag Cloud"
 msgstr "Облако Меток"
 
+msgid "Search Results"
+msgstr "Результат поиска"
+
 msgid "Name"
 msgstr "Имя"
 
@@ -699,9 +720,6 @@ msgstr "Запомнить меня."
 
 msgid "Navigation"
 msgstr "Навигация"
-
-msgid "Search Results"
-msgstr "Результат поиска"
 
 msgid "Top"
 msgstr ""
@@ -881,6 +899,10 @@ msgstr "сортировать"
 #, fuzzy
 msgid "back to top"
 msgstr "Вернуться ко Входу"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Редактировать комментарий"
 
 msgid "Timed Publish"
 msgstr "Отложенная публикация"
@@ -1213,6 +1235,10 @@ msgstr "Публикация и Предосмотр"
 msgid "Post and Continue Editing"
 msgstr "Опубликовать и продолжить"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Язык"
+
 msgid "Order"
 msgstr "Сортировать"
 
@@ -1489,6 +1515,10 @@ msgstr "гЮЦКЮБХЕ"
 msgid "Held"
 msgstr ""
 
+#, fuzzy
+msgid "Edit this entry"
+msgstr "редактировать запись"
+
 msgid "categories"
 msgstr "категории"
 
@@ -1592,9 +1622,6 @@ msgstr "Создать новую Категорию"
 msgid "Display Name"
 msgstr "Название"
 
-msgid "Users"
-msgstr "Пользователи"
-
 msgid "Number of Entries"
 msgstr "Количество записей"
 
@@ -1695,10 +1722,6 @@ msgid "overview of entries"
 msgstr "Обзор Записей"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "редактировать запись"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Обзор Записей"
 
@@ -1711,10 +1734,6 @@ msgstr "удалить"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Обзор Страниц"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Редактировать комментарий"
 
 msgid "PivotX News"
 msgstr "Новости PivotX"
@@ -3125,9 +3144,6 @@ msgstr "Вставить всплывающее изображение"
 msgid "all"
 msgstr "все"
 
-msgid "Send Pings"
-msgstr "Отправить Пинг"
-
 msgid "Oops."
 msgstr "Oops."
 
@@ -3951,6 +3967,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr "Обработано: %s"
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Язык \"по умолчанию\""
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Запись невозможно удалить."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Пожалуйста, укажите корректное имя домена!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Язык"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "гЮЙНМВХРЭ"
+
 msgid "Tag cloud for"
 msgstr "Облако меток для"
 
@@ -4551,6 +4612,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr "Ваш новый пароль %pass%."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "гЮПЕЦХЯРПХПСИРЕЯЭ."
@@ -4760,6 +4824,9 @@ msgstr "Дата/Время"
 msgid "Moblogging"
 msgstr "лНАкНЦЦЕП"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Перестроить индексы БД"
 
@@ -4899,6 +4966,9 @@ msgstr "Комментарий проверен!"
 #, fuzzy
 msgid "link"
 msgstr "лЕМЧ"
+
+#~ msgid "Send Pings"
+#~ msgstr "Отправить Пинг"
 
 #, fuzzy
 #~ msgid "Contact form"
@@ -5772,9 +5842,6 @@ msgstr "лЕМЧ"
 #~ msgstr ""
 #~ "дКЪ ЙЮФДНЦН ОНДАКНЦЮ МЮИДЕММНЦН Б ЬЮАКНМЮУ БШ ЛНФЕРЕ СЙЮГЮРЭ ЙЮЙНИ ЬЮАКНМ "
 #~ "ДКЪМХУ ХЯОНКЭГНБЮРЭ, Ю РЮЙ ФЕ ЙЮРЕЦНПХХ ЙНРНПШЕ АСДЕР Б МХУ НРНАПЮФЮРЭЯЪ"
-
-#~ msgid "Finish"
-#~ msgstr "гЮЙНМВХРЭ"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "яНГДЮМХЕ / ОПЮБЙЮ БЕАКНЦЮ, ЬЮЦ 1 ХГ 3"

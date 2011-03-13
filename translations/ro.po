@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2011-02-26 20:52+0200\n"
 "Last-Translator: Laurentiu Nica <nick.laurentiu.nica@gmail.com>\n"
 "Language-Team: \n"
@@ -339,11 +339,21 @@ msgstr ""
 "parola, ai putea cere proprietarului acestui site sa iti acorde acces la "
 "intrare."
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Vizualizeaza intrarea completa"
+
 msgid "Enable password protection"
 msgstr "Permite protejare cu parola"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr "Da, permite intrarilor sa fie protejate cu parola."
 
 msgid "Default password"
 msgstr "Parola implicita"
@@ -382,6 +392,15 @@ msgstr "Textul 'Nu aveti acces'"
 
 msgid "When the user is not granted access, show this text."
 msgstr "Cand nu i se ofera acces userului, arata-i acest text."
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Useri"
 
 msgid "Password Protect"
 msgstr "Protejare parola"
@@ -699,6 +718,9 @@ msgstr "Home"
 msgid "Tag Cloud"
 msgstr "Nor Etichete"
 
+msgid "Search Results"
+msgstr "Rezultate Cautare"
+
 msgid "Name"
 msgstr "Nume"
 
@@ -722,9 +744,6 @@ msgstr "Da, da-mi o cookie si tine-ma minte."
 
 msgid "Navigation"
 msgstr "Navigatie"
-
-msgid "Search Results"
-msgstr "Rezultate Cautare"
 
 msgid "Top"
 msgstr "Sus"
@@ -900,6 +919,9 @@ msgstr "ordine"
 
 msgid "back to top"
 msgstr "sus"
+
+msgid "Edit this page"
+msgstr "Editeaza aceasta pagina"
 
 msgid "Timed Publish"
 msgstr "Publicare programata"
@@ -1222,6 +1244,10 @@ msgstr "Postare sau Previzualizare"
 msgid "Post and Continue Editing"
 msgstr "Posteaza si Continua Editarea"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Limba"
+
 msgid "Order"
 msgstr "Ordine"
 
@@ -1476,6 +1502,9 @@ msgstr "Cronometrat"
 msgid "Held"
 msgstr "Retinut"
 
+msgid "Edit this entry"
+msgstr "Editeaza aceasta intrare"
+
 msgid "categories"
 msgstr "categorii"
 
@@ -1577,9 +1606,6 @@ msgstr "Creaza Categorie Noua"
 msgid "Display Name"
 msgstr "Afiseaza Nume"
 
-msgid "Users"
-msgstr "Useri"
-
 msgid "Number of Entries"
 msgstr "Numar de Intrari"
 
@@ -1675,9 +1701,6 @@ msgstr "Administrare Media"
 msgid "overview of entries"
 msgstr "sumar al intrarilor"
 
-msgid "Edit this entry"
-msgstr "Editeaza aceasta intrare"
-
 msgid "overview of comments"
 msgstr "sumar al comentariilor"
 
@@ -1689,9 +1712,6 @@ msgstr "sterge"
 
 msgid "overview of pages"
 msgstr "sumar al paginilor"
-
-msgid "Edit this page"
-msgstr "Editeaza aceasta pagina"
 
 msgid "PivotX News"
 msgstr "Stiri PivotX"
@@ -3177,9 +3197,6 @@ msgstr "Insereaza o imagine popup"
 msgid "all"
 msgstr "toate"
 
-msgid "Send Pings"
-msgstr "Trimite Ping-uri"
-
 msgid "Oops."
 msgstr "Ups."
 
@@ -4045,6 +4062,51 @@ msgstr "Intrarea Moblog nu s-a postat"
 msgid "Processed: %s"
 msgstr "S-au procesat: %s"
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Limba implicita"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Intrarile nu au putut fi sterse."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Te rog sa dai un nume de domeniu adecvat!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Limba"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Terminat"
+
 msgid "Tag cloud for"
 msgstr "Nor de etichete pentru"
 
@@ -4646,6 +4708,9 @@ msgstr "%s a facut '%s'."
 msgid "Your new password is %pass%."
 msgstr "Noua ta parola este %pass%."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "Setare user"
 
@@ -4851,6 +4916,9 @@ msgstr "Data / Timp"
 msgid "Moblogging"
 msgstr "Moblogging"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Recladeste indexul Bazei tale de Date"
 
@@ -4992,6 +5060,12 @@ msgstr "Comentariul a fost aprobat!"
 
 msgid "link"
 msgstr "link"
+
+#~ msgid "Yes, allow for entries to be password protected."
+#~ msgstr "Da, permite intrarilor sa fie protejate cu parola."
+
+#~ msgid "Send Pings"
+#~ msgstr "Trimite Ping-uri"
 
 #, fuzzy
 #~ msgid "Contact form"
@@ -6238,9 +6312,6 @@ msgstr "link"
 #~ "Pentru fiecare dintre sub-weblog-urile care s-au gasit in sabloane, poti "
 #~ "configura ce sablon sa foloseasca ele, precum si categoriile in care sa "
 #~ "se publice"
-
-#~ msgid "Finish"
-#~ msgstr "Terminat"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Creaza / Editeaza Weblog, pasul 1 din 3"

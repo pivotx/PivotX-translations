@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2010-05-16 22:38+0100\n"
 "Last-Translator: Michael Heca <michael.heca@gmail.com>\n"
 "Language-Team:  <translations@pivotx.net>\n"
@@ -355,12 +355,22 @@ msgid ""
 "entry."
 msgstr ""
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Zobrazit tento článek"
+
 #, fuzzy
 msgid "Enable password protection"
 msgstr "Práh ochrany před arte_fakty:"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr ""
 
 #, fuzzy
 msgid "Default password"
@@ -404,6 +414,15 @@ msgstr "Není povolen zápis do „%s“."
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Uživatelé"
 
 #, fuzzy
 msgid "Password Protect"
@@ -706,6 +725,9 @@ msgstr "Úvod"
 msgid "Tag Cloud"
 msgstr "Oblak značek"
 
+msgid "Search Results"
+msgstr "Výsledky hledání"
+
 msgid "Name"
 msgstr "Jméno"
 
@@ -729,9 +751,6 @@ msgstr "Ano, poslat cookie pro zapamatování."
 
 msgid "Navigation"
 msgstr "Navigace"
-
-msgid "Search Results"
-msgstr "Výsledky hledání"
 
 #, fuzzy
 msgid "Top"
@@ -912,6 +931,9 @@ msgstr "pořadí"
 #, fuzzy
 msgid "back to top"
 msgstr "Zpět na přihlášení"
+
+msgid "Edit this page"
+msgstr "Editovat tuto stránku"
 
 msgid "Timed Publish"
 msgstr "Plánované zveřejnění"
@@ -1243,6 +1265,10 @@ msgstr "Uložit nebo náhled"
 msgid "Post and Continue Editing"
 msgstr "Uložit a pokračovat v editaci"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Jazyk"
+
 msgid "Order"
 msgstr "Pořadí"
 
@@ -1522,6 +1548,9 @@ msgstr "Plánované zveřejnění"
 msgid "Held"
 msgstr "Skryto"
 
+msgid "Edit this entry"
+msgstr "Editovat tohoto článek"
+
 msgid "categories"
 msgstr "kategorie"
 
@@ -1631,9 +1660,6 @@ msgstr "Vytvořit novou kategorii"
 msgid "Display Name"
 msgstr "Společné jméno:"
 
-msgid "Users"
-msgstr "Uživatelé"
-
 msgid "Number of Entries"
 msgstr "Počet článků"
 
@@ -1737,9 +1763,6 @@ msgstr "Správa médií"
 msgid "overview of entries"
 msgstr "Přehled článků"
 
-msgid "Edit this entry"
-msgstr "Editovat tohoto článek"
-
 #, fuzzy
 msgid "overview of comments"
 msgstr "Přehled článků"
@@ -1753,9 +1776,6 @@ msgstr "smazat"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Přehled stránek"
-
-msgid "Edit this page"
-msgstr "Editovat tuto stránku"
 
 msgid "PivotX News"
 msgstr "Novinky o PivotX..."
@@ -3250,9 +3270,6 @@ msgstr "Přidat obrázek: zrušit"
 msgid "all"
 msgstr "vše"
 
-msgid "Send Pings"
-msgstr "Poslat pingy"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Ouha"
@@ -4084,6 +4101,51 @@ msgid "Processed: %s"
 msgstr "<b>Zpracované snímky:</b>"
 
 #, fuzzy
+msgid "Enable multiple languages"
+msgstr "Předvolený jazyk"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Články nemohou být smazány."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Neplatná emailová adresa"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Jazyk"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Dokončit"
+
+#, fuzzy
 msgid "Tag cloud for"
 msgstr "Přehled pro značku:"
 
@@ -4713,6 +4775,9 @@ msgstr "Víte, že ..."
 msgid "Your new password is %pass%."
 msgstr "Prosím zadejte své nové heslo:"
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Uživatelské rozhraní"
@@ -4934,6 +4999,9 @@ msgstr "Datum/čas"
 msgid "Moblogging"
 msgstr "Přispívání z mobilu"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Sestavení indexu databáze"
 
@@ -5078,6 +5146,9 @@ msgstr "Komentář byl schválen!"
 
 msgid "link"
 msgstr "odkaz"
+
+#~ msgid "Send Pings"
+#~ msgstr "Poslat pingy"
 
 #, fuzzy
 #~ msgid "Contact form"
@@ -6216,9 +6287,6 @@ msgstr "odkaz"
 #~ msgstr ""
 #~ "Pro každý založený subweblog můžete nastavit použitou šablonu stejně jako "
 #~ "kategorii, ve které má být publikován"
-
-#~ msgid "Finish"
-#~ msgstr "Dokončit"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Vytvoření / editace weblogu, krok 1 z 3"

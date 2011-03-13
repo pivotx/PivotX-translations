@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -352,10 +352,20 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Aplūkot visu rakstu"
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -400,6 +410,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Lietotāji"
 
 #, fuzzy
 msgid "Password Protect"
@@ -699,6 +718,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Meklēšanas rezultāti"
+
 msgid "Name"
 msgstr "Vārds"
 
@@ -723,9 +745,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Konfigurācija"
-
-msgid "Search Results"
-msgstr "Meklēšanas rezultāti"
 
 msgid "Top"
 msgstr ""
@@ -912,6 +931,10 @@ msgstr "Robeža"
 #, fuzzy
 msgid "back to top"
 msgstr "Atpakaļ uz pieslēgšanos"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Labot šo komentāru"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1277,6 +1300,10 @@ msgstr "Apskatīt pirms ievietošanas"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Valoda"
+
 msgid "Order"
 msgstr ""
 
@@ -1576,6 +1603,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Labot šo rakstu"
+
+#, fuzzy
 msgid "categories"
 msgstr "Sadaļas"
 
@@ -1686,9 +1717,6 @@ msgstr "Izveidot jaunu sadaļu"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Lietotāji"
-
 msgid "Number of Entries"
 msgstr "Rakstu skaits"
 
@@ -1791,10 +1819,6 @@ msgid "overview of entries"
 msgstr "Rakstu pārskats"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Labot šo rakstu"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Rakstu pārskats"
 
@@ -1809,10 +1833,6 @@ msgstr "Izdzēst"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Rakstu pārskats"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Labot šo komentāru"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3312,9 +3332,6 @@ msgstr "Ievietot attēlu"
 msgid "all"
 msgstr "Viss"
 
-msgid "Send Pings"
-msgstr "Nosūtīt atsauču pingus"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Ups"
@@ -4152,6 +4169,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Valoda pēc noklusējuma"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Komentārs dzēsts."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Nederīga e-pasta adrese"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Valoda"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Pabeigt"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4781,6 +4843,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Dzēst lietotāju"
@@ -5021,6 +5086,9 @@ msgstr "Datums/laiks"
 msgid "Moblogging"
 msgstr "Mobilais lietotājs"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Pārģenerēt DB indeksu"
 
@@ -5168,6 +5236,9 @@ msgstr "Komentārs saglabāts."
 #, fuzzy
 msgid "link"
 msgstr "Saites"
+
+#~ msgid "Send Pings"
+#~ msgstr "Nosūtīt atsauču pingus"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -6269,9 +6340,6 @@ msgstr "Saites"
 #~ msgstr ""
 #~ "Katrai lapas daļai iespējams norādīt izmantojamos paraugus, kā arī kuras "
 #~ "sadaļas tajās publicēt."
-
-#~ msgid "Finish"
-#~ msgstr "Pabeigt"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Veidot/labot lapu, solis 1 no 3"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -394,6 +403,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Užívatelia"
 
 #, fuzzy
 msgid "Password Protect"
@@ -691,6 +709,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Výsledky hľadania"
+
 msgid "Name"
 msgstr "Názov"
 
@@ -715,9 +736,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Konfigurácia"
-
-msgid "Search Results"
-msgstr "Výsledky hľadania"
 
 msgid "Top"
 msgstr ""
@@ -901,6 +919,10 @@ msgstr "Okraje"
 #, fuzzy
 msgid "back to top"
 msgstr "Záloha"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Emotikony"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1262,6 +1284,10 @@ msgstr "Náhľad záznamu"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Jazyk"
+
 msgid "Order"
 msgstr ""
 
@@ -1557,6 +1583,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Odstrániť komentár"
+
+#, fuzzy
 msgid "categories"
 msgstr "Kategórie"
 
@@ -1665,9 +1695,6 @@ msgstr "Vytvoriť novú kategóriu"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Užívatelia"
-
 msgid "Number of Entries"
 msgstr "Počet záznamov"
 
@@ -1769,10 +1796,6 @@ msgid "overview of entries"
 msgstr "Prehľad záznamov"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Odstrániť komentár"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Prehľad záznamov"
 
@@ -1787,10 +1810,6 @@ msgstr "Odstrániť"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Prehľad záznamov"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Emotikony"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3257,9 +3276,6 @@ msgstr "Vložiť obrázok"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Poslať pingy"
-
 msgid "Oops."
 msgstr ""
 
@@ -4099,6 +4115,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Predvolený jazyk"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Komentáre boli odstránené."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Neplatná emailová adresa"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Jazyk"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Dokončiť"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4714,6 +4775,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr ""
 
@@ -4953,6 +5017,9 @@ msgstr "Dátum/čas"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Prerobenie indexu databázy"
 
@@ -5101,6 +5168,9 @@ msgstr "Komentáre boli uložené."
 #, fuzzy
 msgid "link"
 msgstr "Odkazy"
+
+#~ msgid "Send Pings"
+#~ msgstr "Poslať pingy"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -5844,9 +5914,6 @@ msgstr "Odkazy"
 #~ msgstr ""
 #~ "Pre každý založený subweblog môžete nastaviť použitú šablónu rovnako ako "
 #~ "kategórii, v ktorej má byť publikovaný"
-
-#~ msgid "Finish"
-#~ msgstr "Dokončiť"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Vytvorenie / editácia weblogu, krok 1 z 3"

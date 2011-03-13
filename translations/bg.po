@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -395,6 +404,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Потребители"
 
 #, fuzzy
 msgid "Password Protect"
@@ -693,6 +711,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Резултати"
+
 msgid "Name"
 msgstr "Име"
 
@@ -717,9 +738,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Текущи настройки"
-
-msgid "Search Results"
-msgstr "Резултати"
 
 msgid "Top"
 msgstr ""
@@ -906,6 +924,10 @@ msgstr "Рамка"
 #, fuzzy
 msgid "back to top"
 msgstr "Назад към индентификацията."
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Emoticons"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1270,6 +1292,10 @@ msgstr "Преглед"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Език"
+
 msgid "Order"
 msgstr ""
 
@@ -1567,6 +1593,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Изтрий"
+
+#, fuzzy
 msgid "categories"
 msgstr "Категории"
 
@@ -1677,9 +1707,6 @@ msgstr "Създаване на нова категория"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Потребители"
-
 msgid "Number of Entries"
 msgstr "Брой на статиите"
 
@@ -1782,10 +1809,6 @@ msgid "overview of entries"
 msgstr "Преглед на статиите"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Изтрий"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Преглед на статиите"
 
@@ -1800,10 +1823,6 @@ msgstr "Изтрий"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Преглед на статиите"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Emoticons"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3322,9 +3341,6 @@ msgstr "Вмъкни изображение"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Изпрати ping-ове"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Оооps"
@@ -4165,6 +4181,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Основен език"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Коментарът беше успешно изтрит."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Въведеният e-mail-адрес не е валиден."
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Език"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Завърши!"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4788,6 +4849,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Изтрий потребителя"
@@ -5030,6 +5094,9 @@ msgstr "Дата/Час"
 msgid "Moblogging"
 msgstr "мобиблогър"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Ре-генерирай индекса на базата данни"
 
@@ -5181,6 +5248,9 @@ msgstr "Коментарът беше успешно запазен."
 #, fuzzy
 msgid "link"
 msgstr "Връзки"
+
+#~ msgid "Send Pings"
+#~ msgstr "Изпрати ping-ове"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -6118,9 +6188,6 @@ msgstr "Връзки"
 #~ "За всеки от subweblog-овете, които се намират във визуализацииите, можете "
 #~ "да настроите използванат визуализация, както и кои категории да бъдат "
 #~ "публикувани в тях."
-
-#~ msgid "Finish"
-#~ msgstr "Завърши!"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Създаване / Редактиране на  Weblog, стъпка 1 от 3"

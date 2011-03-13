@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2009-02-24 23:03-0500\n"
 "Last-Translator: Yuji Takenaka <webmaster@davilin.com>\n"
 "Language-Team: \n"
@@ -344,10 +344,20 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "完全なエントリを閲覧"
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -391,6 +401,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "ユーザー"
 
 #, fuzzy
 msgid "Password Protect"
@@ -693,6 +712,9 @@ msgstr "ホーム"
 msgid "Tag Cloud"
 msgstr "タグクラウド"
 
+msgid "Search Results"
+msgstr "検索結果"
+
 msgid "Name"
 msgstr "名前"
 
@@ -716,9 +738,6 @@ msgstr "クッキーに情報を記憶します。"
 
 msgid "Navigation"
 msgstr "ナビゲーション"
-
-msgid "Search Results"
-msgstr "検索結果"
 
 msgid "Top"
 msgstr "トップ"
@@ -902,6 +921,10 @@ msgstr "順序"
 #, fuzzy
 msgid "back to top"
 msgstr "ログイン画面に戻る"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "このコメントを編集"
 
 msgid "Timed Publish"
 msgstr "期日指定発行"
@@ -1248,6 +1271,10 @@ msgstr "プレビュー"
 msgid "Post and Continue Editing"
 msgstr "投稿し編集を続ける"
 
+#, fuzzy
+msgid "Languages"
+msgstr "使用言語"
+
 msgid "Order"
 msgstr "順序"
 
@@ -1521,6 +1548,10 @@ msgstr "タイトル"
 msgid "Held"
 msgstr "保留"
 
+#, fuzzy
+msgid "Edit this entry"
+msgstr "このエントリを編集"
+
 msgid "categories"
 msgstr "カテゴリ"
 
@@ -1623,9 +1654,6 @@ msgstr "新規カテゴリを作成"
 
 msgid "Display Name"
 msgstr "表示名"
-
-msgid "Users"
-msgstr "ユーザー"
 
 msgid "Number of Entries"
 msgstr "エントリ数"
@@ -1731,10 +1759,6 @@ msgid "overview of entries"
 msgstr "エントリの概要"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "このエントリを編集"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "エントリの概要"
 
@@ -1748,10 +1772,6 @@ msgstr "削除"
 #, fuzzy
 msgid "overview of pages"
 msgstr "ページの概要"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "このコメントを編集"
 
 msgid "PivotX News"
 msgstr "PivotXニュース"
@@ -3215,9 +3235,6 @@ msgstr "ポップアップイメージを挿入"
 msgid "all"
 msgstr "すべて"
 
-msgid "Send Pings"
-msgstr "ピング送信"
-
 msgid "Oops."
 msgstr "おっと!"
 
@@ -4049,6 +4066,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr "%d ページを処理中です..."
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "デフォルトの使用言語"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "エントリの削除に失敗しました。"
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "適切なドメイン名を入力してください。"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "使用言語"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "作成"
+
 msgid "Tag cloud for"
 msgstr "タグクラウド："
 
@@ -4663,6 +4725,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr "新しいパスワードは次の通り：<q>%pass%</q>"
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "ユーザを設定"
 
@@ -4878,6 +4943,9 @@ msgstr "日付/時刻"
 msgid "Moblogging"
 msgstr "モブロギング"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "データベースインデックスを再構築"
 
@@ -5021,6 +5089,9 @@ msgstr "コメントを保存しました。"
 #, fuzzy
 msgid "link"
 msgstr "リンク"
+
+#~ msgid "Send Pings"
+#~ msgstr "ピング送信"
 
 #, fuzzy
 #~ msgid "Contact form"
@@ -6229,9 +6300,6 @@ msgstr "リンク"
 #~ msgstr ""
 #~ "ウェブログに使用するサブウェブログと、ウェブログに発行するカテゴリを設定し"
 #~ "ます。"
-
-#~ msgid "Finish"
-#~ msgstr "作成"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "ウェブログの作成・変更 ステップ 1/3"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.3.x\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2011-01-11 00:28+0100\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
@@ -335,11 +335,21 @@ msgstr ""
 "<br /><br />Hvis du ikke vet passordet, må du kontakte nettstedets eier slik "
 "at du får tilgang til oppføringen."
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Vis den komplette oppføringen"
+
 msgid "Enable password protection"
 msgstr "Slå på passordbeskyttelse"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr "Ja, tillatt passordbeskyttelse av oppføringer."
 
 msgid "Default password"
 msgstr "Standard passord"
@@ -377,6 +387,15 @@ msgstr "Tekst for «ingen adgang»"
 
 msgid "When the user is not granted access, show this text."
 msgstr "Hvis brukeren ikke får adgang, vis denne teksten."
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Brukere"
 
 msgid "Password Protect"
 msgstr "Passordbeskyttelse"
@@ -687,6 +706,9 @@ msgstr "Hjem"
 msgid "Tag Cloud"
 msgstr "Sky av merker"
 
+msgid "Search Results"
+msgstr "Søkeresultat"
+
 msgid "Name"
 msgstr "Navn"
 
@@ -710,9 +732,6 @@ msgstr "Ja, gi meg en informasjonskapsel og husk meg."
 
 msgid "Navigation"
 msgstr "Navigering"
-
-msgid "Search Results"
-msgstr "Søkeresultat"
 
 msgid "Top"
 msgstr "Topp"
@@ -887,6 +906,9 @@ msgstr "rekkefølge"
 
 msgid "back to top"
 msgstr "tilbake til toppen"
+
+msgid "Edit this page"
+msgstr "Rediger denne siden"
 
 msgid "Timed Publish"
 msgstr "Tidsstyrt publisering"
@@ -1208,6 +1230,10 @@ msgstr "Send eller forhåndsvis"
 msgid "Post and Continue Editing"
 msgstr "Send/lagre og fortsett å redigere"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Språk"
+
 msgid "Order"
 msgstr "Rekkefølge"
 
@@ -1462,6 +1488,9 @@ msgstr "Tidsstyrt"
 msgid "Held"
 msgstr "Holdt"
 
+msgid "Edit this entry"
+msgstr "Rediger denne oppføringen"
+
 msgid "categories"
 msgstr "kategorier"
 
@@ -1564,9 +1593,6 @@ msgstr "Opprett ny kategori"
 msgid "Display Name"
 msgstr "Visningsnavn"
 
-msgid "Users"
-msgstr "Brukere"
-
 msgid "Number of Entries"
 msgstr "Antall oppføringer"
 
@@ -1662,9 +1688,6 @@ msgstr "Behandle mediafiler"
 msgid "overview of entries"
 msgstr "oversikt over oppføringer"
 
-msgid "Edit this entry"
-msgstr "Rediger denne oppføringen"
-
 msgid "overview of comments"
 msgstr "oversikt over kommentarer"
 
@@ -1676,9 +1699,6 @@ msgstr "slett"
 
 msgid "overview of pages"
 msgstr "oversikt over sider"
-
-msgid "Edit this page"
-msgstr "Rediger denne siden"
 
 msgid "PivotX News"
 msgstr "PivotX-nyheter"
@@ -3140,9 +3160,6 @@ msgstr "Sett inn et oppsprettbilde"
 msgid "all"
 msgstr "alle"
 
-msgid "Send Pings"
-msgstr "Send ping"
-
 msgid "Oops."
 msgstr "Ops"
 
@@ -3997,6 +4014,51 @@ msgstr "Moblog-oppføring ble ikke sendt"
 msgid "Processed: %s"
 msgstr "Prosessert: %s"
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Standard språk"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Klarte ikke slette oppføringene."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Oppgi et ordentlig domenenavn!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Språk"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Fullfør"
+
 msgid "Tag cloud for"
 msgstr "Sky av merkelapper for"
 
@@ -4591,6 +4653,9 @@ msgstr "%s gjorde «%s»."
 msgid "Your new password is %pass%."
 msgstr "Ditt nye passord er %pass%."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "Sett opp bruker"
 
@@ -4795,6 +4860,9 @@ msgstr "Dato / Tid"
 msgid "Moblogging"
 msgstr "Moblogging"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Gjenoppbygg indeksen for databasen din"
 
@@ -4931,6 +4999,12 @@ msgstr "Kommentaren ble godkjent."
 
 msgid "link"
 msgstr "lenke"
+
+#~ msgid "Yes, allow for entries to be password protected."
+#~ msgstr "Ja, tillatt passordbeskyttelse av oppføringer."
+
+#~ msgid "Send Pings"
+#~ msgstr "Send ping"
 
 #~ msgid "Contact form"
 #~ msgstr "Kontaktskjema"
@@ -6139,9 +6213,6 @@ msgstr "lenke"
 #~ msgstr ""
 #~ "For hver av underbloggene som ble funnet kan du bestemme hvilke maler de "
 #~ "bruker og hvilke kategorier som ksla publiseres i dem"
-
-#~ msgid "Finish"
-#~ msgstr "Fullfør"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Opprett / endre blogg, steg 1 av 3"
