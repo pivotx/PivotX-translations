@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1024,7 +1024,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2191,7 +2191,7 @@ msgstr "Регистрация на нов потребител"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2213,7 +2213,7 @@ msgstr "Изтрий"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
@@ -2420,10 +2420,11 @@ msgstr "Последна редакция на"
 msgid "Create Category"
 msgstr "Създай категорията"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Категорията се нуждае от име."
 
 msgid ""
@@ -2433,9 +2434,10 @@ msgstr ""
 "Изберете потребителите, на които желаете да разрешите да пишат в тази "
 "категория."
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Категории с по-нисък ред на подреждане ще бъдат показвани по-нагоре в "
 "списъка. Ако категориите са с еднакъв ред на подреждане, ще бъдат подреждани "
@@ -2444,7 +2446,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Изберете 'Да', ако искате тази категория да не се показва в архивите. "
 "(отнася се само за \"динамични страници\")"
@@ -2454,11 +2456,12 @@ msgid "Chapter name"
 msgstr "Категория"
 
 #, fuzzy
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "Индексирай категорията"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Индексирай категорията"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2510,7 +2513,7 @@ msgstr "Текст 'прочети цялата статия'"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Текстът, който ше бъде използван за индикация, че статията съдържа повече "
 "текст отколкото е показан на началната страница. В случай, че оставите това "
@@ -3040,10 +3043,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Прекъсване на връзката между файловете"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "На някои сървъри с активиран safe_mode, промяната на тази настройка може да "
 "е от полза, но за по-голямата част тя е без значение."
@@ -3114,9 +3118,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Пълен формат на датата"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Тази настройка определя пълния формат на дата и час. Най-честата употреба е "
 "най-горе в страниците на отделните статии."
@@ -3411,7 +3416,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "Нямате права за тази операция върху %title%!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Коментарът беше успешно изтрит."
 
 #, fuzzy, php-format

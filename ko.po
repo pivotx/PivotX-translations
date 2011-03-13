@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1019,7 +1019,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2166,7 +2166,7 @@ msgstr ""
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2188,7 +2188,7 @@ msgstr "지우기"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
@@ -2393,10 +2393,11 @@ msgstr "가장 최근에 고친 시각"
 msgid "Create Category"
 msgstr "갈래 만들기"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "이 갈래는 이름이 필요합니다"
 
 msgid ""
@@ -2406,22 +2407,23 @@ msgstr "이 갈래에 글을 쓸 수 있게 하고 싶은 사용자를 고르십
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 
 #, fuzzy
 msgid "Chapter name"
 msgstr "갈래"
 
-msgid "The name of this chapter"
-msgstr ""
+#, fuzzy
+msgid "The name of this chapter."
+msgstr "%title%의 삭제를 할 수 있도록 허가되지 않았습니다!"
 
-msgid "A short description of this chapter"
+msgid "A short description of this chapter."
 msgstr ""
 
 msgid ""
@@ -2473,7 +2475,7 @@ msgstr "'더 읽기' 글"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "대문에 보이는 것 보다 많은 글이 있다는 것을 알려주는 글입니다. 만약 비워 둔다"
 "면, 피벗은 언어 설정에 따른 기본값을 사용할 것입니다"
@@ -2973,10 +2975,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "파일 언링크"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "무시무시한 safe_mode가 켜져 있는 몇몇 서버에서는 이 선택 사항을 고를 필요가 "
 "있습니다. 대부분의 서버에서는 이 선택 사항이 영향을 미치지 않을 것입니다."
@@ -3046,9 +3049,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "자세한 날짜 형식"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "자세한 날짜와 시각을 나타내는 형식을 결정합니다. 글이 하나있는 쪽의 맨 위에"
 "서 가장 자주 쓰입니다."
@@ -3341,7 +3345,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "%title%에 그것을 하도록 허가되지 않았습니다!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "덧글이 삭제되었습니다."
 
 #, fuzzy, php-format

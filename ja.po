@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2009-02-24 23:03-0500\n"
 "Last-Translator: Yuji Takenaka <webmaster@davilin.com>\n"
 "Language-Team: \n"
@@ -1020,8 +1020,9 @@ msgstr "使用ライブラリ/ツール"
 msgid "website"
 msgstr "ウェブサイト"
 
+#, fuzzy
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 "次回のリリースで反映いたしますので、記載されていない場合がありましたらご連絡"
@@ -2107,9 +2108,10 @@ msgstr "コメントを保存"
 msgid "Registered user"
 msgstr "登録済ユーザー"
 
+#, fuzzy
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 "登録ユーザーの場合と同じように、このコメントを表示するかどうかを決めて下さい"
 "（実際に登録ユーザーがコメントしたかどうかは関係ありません）。"
@@ -2132,9 +2134,10 @@ msgstr "'はい'を選ぶとメールアドレス無しでもコメントを残�
 msgid "Moderate Comment"
 msgstr "コメントの審査"
 
+#, fuzzy
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "'はい'を選択することで、投稿されたコメントは管理者により許可されるまで表示さ"
 "れません。"
@@ -2339,10 +2342,12 @@ msgstr "最終訪問日"
 msgid "Create Category"
 msgstr "カテゴリを作成"
 
-msgid "The name that the category is represented by in the weblog"
+#, fuzzy
+msgid "The name that the category is represented by in the weblog."
 msgstr "ウェブログ内でそのカテゴリをあらわす名前"
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "カテゴリ名を入力して下さい。"
 
 msgid ""
@@ -2350,16 +2355,18 @@ msgid ""
 "category"
 msgstr "このカテゴリに投稿を許可するユーザーを選択して下さい。"
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "この番号が少ない順にカテゴリがソートされます。番号が同じ場合はアルファベット"
 "順になります。"
 
+#, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "\"はい\"を設定することで、このカテゴリはアーカイブに表示されなくなります（ラ"
 "イブページでのみ有効）。"
@@ -2367,10 +2374,12 @@ msgstr ""
 msgid "Chapter name"
 msgstr "章の名前"
 
-msgid "The name of this chapter"
+#, fuzzy
+msgid "The name of this chapter."
 msgstr "この章の名前"
 
-msgid "A short description of this chapter"
+#, fuzzy
+msgid "A short description of this chapter."
 msgstr "この章の簡単な説明"
 
 msgid ""
@@ -2416,10 +2425,11 @@ msgstr "使用する日付や数の形式は、選択した言語によって決
 msgid "\"Read More\" Text"
 msgstr "\"続きを読む\"用テキスト"
 
+#, fuzzy
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "エントリに続きがある場合に、フロントページに表示するテキストを設定します。空"
 "欄の場合は言語ファイルに設定されたテキストが使用されます。"
@@ -2935,10 +2945,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Unlinkファイル"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "通常は何の影響もありません。ただし、PHPがセーフモードで動作しているサーバーで"
 "は、Pivotが正しく動作しない可能性があります。その場合にこの機能を有効にするこ"
@@ -3015,9 +3026,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "完全な日付形式"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "エントリページに表示される年月日と時刻を含んだ完全な日付のフォーマットを指定"
 "します。"
@@ -3307,7 +3319,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "PivotXはこのフォルダの読み込みを許可されていません。"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "ユーザーを削除しました。"
 
 #, fuzzy, php-format

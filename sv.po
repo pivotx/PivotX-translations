@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2010-06-12 14:40-0500\n"
 "Last-Translator: Thomas Levine <thomas.levine@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1016,7 +1016,7 @@ msgid "website"
 msgstr "webbsida"
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2163,7 +2163,7 @@ msgstr "Registrera ny användare"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2185,7 +2185,7 @@ msgstr "Spara kommentar"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
@@ -2393,10 +2393,11 @@ msgstr "Sist editerad den"
 msgid "Create Category"
 msgstr "Skapa kategori"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Den h&auml;r kategorin beh&ouml;ver ett namn"
 
 msgid ""
@@ -2406,9 +2407,10 @@ msgstr ""
 "V&auml;lj anv&auml;ndare som du vill ge r&auml;ttigheter att skicka inl&auml;"
 "gg i den h&auml;r kategorin"
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Kategorier med &auml;n l&auml;gre sorteringsordning kommer h&ouml;gre upp i "
 "listan. Om du har samma nummer p&aring; alla kommer de att sorteras "
@@ -2417,7 +2419,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Om du s&auml;tter detta till 'Ja' kommer kategorin att vara dold i arkiv "
 "listningar. (g&auml;ller endast 'live pages')"
@@ -2426,11 +2428,13 @@ msgstr ""
 msgid "Chapter name"
 msgstr "Kategori"
 
-msgid "The name of this chapter"
+#, fuzzy
+msgid "The name of this chapter."
 msgstr "Namnet av det här kapitlet"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Namnet av det här kapitlet"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2481,7 +2485,7 @@ msgstr "'L&auml;s mer' Text"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Texten som &auml;nv&auml;nds f&ouml;r att indikera att det &auml;r mer text "
 "i det h&auml;r inl&auml;gget &auml;n det som visas p&aring; f&ouml;rsta "
@@ -3013,10 +3017,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Avl&auml;nka Filer"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Vissa instanser av servrar d&auml;r det hemska safe_mode &auml;r p&aring; "
 "kanske kr&auml;ver att du testar den h&auml;r funktionen. P&aring; de flesta "
@@ -3087,9 +3092,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Fullst&auml;ndigt datumformat"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Det h&auml;r best&auml;mmer formatet f&ouml;r det fullst&auml;ndiga datumet "
 "och tiden. Mest anv&auml;nd h&ouml;gst upp p&aring; en sida med ett inl&auml;"
@@ -3386,7 +3392,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "Du har inte r&auml;ttigheter att g&ouml;ra detta med %title%!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Kommentaren &auml;r raderad."
 
 #, fuzzy, php-format

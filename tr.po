@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1023,7 +1023,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2185,7 +2185,7 @@ msgstr "Yeni kullanıcı adı kaydı yap"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2207,7 +2207,7 @@ msgstr "Yorumları sil"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
@@ -2413,10 +2413,11 @@ msgstr "Son düzenlendiği tarih"
 msgid "Create Category"
 msgstr "Kategori Yarat"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Kategoriye isim verin"
 
 msgid ""
@@ -2424,9 +2425,10 @@ msgid ""
 "category"
 msgstr "Bu kategoriye makale yazma izni verilecek kullanıcıları seçin."
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Daha düşük sıralan talimatlı kategoriler listede yukarıda belirir. Sayılar "
 "aynı olursa alfabetik sıralama kullanılır."
@@ -2434,7 +2436,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "'Evet' seçilirse, bu kategori arşiv listelerinde görüntülenmez (sadece canlı "
 "sayfalar)."
@@ -2444,11 +2446,12 @@ msgid "Chapter name"
 msgstr "Kategori"
 
 #, fuzzy
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "Bu kategoriyi indeksle"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Bu kategoriyi indeksle"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2499,7 +2502,7 @@ msgstr "'Devamı' Metni"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Makalenin ön sayfada gösterilenden fazla kısmını belirtmek için kullanılan "
 "metindir. Boş bırakırsanız, Pivot lisan dosyasındaki varsayılanı kullanır."
@@ -3000,10 +3003,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Dosya linklerini kaldırın"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Bazı sunucular salakça safe_mode kullanmaya ayarlıdır ve bu seöimin "
 "değiştirilmesini gerektirir. Çoğu sunucuda bu seçimin hiçbir etkisi yoktur"
@@ -3073,9 +3077,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Tama tarih formatı"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Tam tarih ve saas görüntülenir. Genelde her makalenin üstünde kullanılır"
 
@@ -3369,7 +3374,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "%title% girişine bunu yapma yetkiniz yok!!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Yorum silindi."
 
 #, fuzzy, php-format
