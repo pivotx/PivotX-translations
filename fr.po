@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.1\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2010-09-02 11:47+0100\n"
 "Last-Translator: Jean-Philippe Huguet <jp.huguet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -325,11 +325,21 @@ msgstr ""
 "faute de frappe, cliquez sur précédent et recommencez.Si vous n'avez pas de "
 "mot de passe, contactez le propriétaire du site afin de demander un accès."
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Afficher l'entrée en entier"
+
 msgid "Enable password protection"
 msgstr "Activer la protection par mot de passe"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr "Autoriser la protection par mot de passe des entrées"
 
 msgid "Default password"
 msgstr "Mot de passe par défaut"
@@ -368,6 +378,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Utilisateurs"
 
 msgid "Password Protect"
 msgstr "Protégé par mot de passe"
@@ -664,6 +683,9 @@ msgstr "Accueil"
 msgid "Tag Cloud"
 msgstr "nuage de mots clés"
 
+msgid "Search Results"
+msgstr "Résultat de la recherche"
+
 msgid "Name"
 msgstr "Nom"
 
@@ -687,9 +709,6 @@ msgstr "J'accepte le cookie permettant de se souvenir de moi"
 
 msgid "Navigation"
 msgstr "Navigation"
-
-msgid "Search Results"
-msgstr "Résultat de la recherche"
 
 msgid "Top"
 msgstr "Haut de page"
@@ -875,6 +894,9 @@ msgstr "tri"
 #, fuzzy
 msgid "back to top"
 msgstr "Retour à l'écran de connexion"
+
+msgid "Edit this page"
+msgstr "Modifier cette page"
 
 msgid "Timed Publish"
 msgstr "Publié le"
@@ -1199,6 +1221,10 @@ msgstr "poster ou prévisualiser"
 msgid "Post and Continue Editing"
 msgstr "Poster et continuer la modification"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Langue"
+
 msgid "Order"
 msgstr "Tri"
 
@@ -1458,6 +1484,9 @@ msgstr ""
 msgid "Held"
 msgstr "Retenu"
 
+msgid "Edit this entry"
+msgstr "Modifier cette entrée"
+
 msgid "categories"
 msgstr "Catégories"
 
@@ -1559,9 +1588,6 @@ msgstr "Créer une nouvelle catégorie"
 msgid "Display Name"
 msgstr "Libellé affiché"
 
-msgid "Users"
-msgstr "Utilisateurs"
-
 msgid "Number of Entries"
 msgstr "Nombre d'entrées"
 
@@ -1659,9 +1685,6 @@ msgstr "Gestion des médias"
 msgid "overview of entries"
 msgstr "Vue d'ensemble des entrées"
 
-msgid "Edit this entry"
-msgstr "Modifier cette entrée"
-
 #, fuzzy
 msgid "overview of comments"
 msgstr "Vue d'ensemble des entrées"
@@ -1675,9 +1698,6 @@ msgstr "supprimer"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Vue d'ensemble des pages"
-
-msgid "Edit this page"
-msgstr "Modifier cette page"
 
 msgid "PivotX News"
 msgstr "Nouvelles de PivotX"
@@ -3121,9 +3141,6 @@ msgstr "Insérer une image popup"
 msgid "all"
 msgstr "tout"
 
-msgid "Send Pings"
-msgstr "Envoyer les pings"
-
 msgid "Oops."
 msgstr "oups."
 
@@ -3952,6 +3969,50 @@ msgstr ""
 msgid "Processed: %s"
 msgstr "Traité : %s"
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Langue par défaut"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Les entrées n'ont pas pu être supprimées."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Le nom de domaine est incorrect!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Langue"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
 msgid "Tag cloud for"
 msgstr "Nuage de mots clés pour"
 
@@ -4552,6 +4613,9 @@ msgstr "%s a fait '%s'."
 msgid "Your new password is %pass%."
 msgstr "Votre nouveau mot de passe est %pass%."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "Configurer l'utilisateur"
 
@@ -4763,6 +4827,9 @@ msgstr "Date/Heure"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Reconstruire les index de votre base de données"
 
@@ -4908,6 +4975,12 @@ msgstr "Le commentaire a été accepté!"
 
 msgid "link"
 msgstr "lien"
+
+#~ msgid "Yes, allow for entries to be password protected."
+#~ msgstr "Autoriser la protection par mot de passe des entrées"
+
+#~ msgid "Send Pings"
+#~ msgstr "Envoyer les pings"
 
 #, fuzzy
 #~ msgid "Contact form"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.2.3\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-11 00:15+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2011-01-28 13:07+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
@@ -340,11 +340,21 @@ msgstr ""
 "újból. <br /><br />Ha nem tudja a jelszót, a honlap tulajdonosától kérhet "
 "engedélyt a bejegyzéshez való hozzáférésre."
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "A teljes bejegyzés megtekintése"
+
 msgid "Enable password protection"
 msgstr "Jelszavas védelem engedélyezése"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr "Igen, a bejegyzéseket lehessen védeni jelszóval."
 
 msgid "Default password"
 msgstr "Alapértelmezett jelszó"
@@ -382,6 +392,15 @@ msgstr "'Nincs hozzáférés' szöveg"
 
 msgid "When the user is not granted access, show this text."
 msgstr "Ha a felhasználónak nincs hozzáférése, ezt a szöveget mutassa."
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Felhasználók"
 
 msgid "Password Protect"
 msgstr "Jelszavas védelem"
@@ -705,6 +724,9 @@ msgstr "Főoldal"
 msgid "Tag Cloud"
 msgstr "Címkefelhő"
 
+msgid "Search Results"
+msgstr "Keresési eredmény"
+
 msgid "Name"
 msgstr "Név"
 
@@ -728,9 +750,6 @@ msgstr "Igen, kérek egy cookie-t és emlékezz rám."
 
 msgid "Navigation"
 msgstr "Navigáció"
-
-msgid "Search Results"
-msgstr "Keresési eredmény"
 
 msgid "Top"
 msgstr "Fel"
@@ -907,6 +926,9 @@ msgstr "sorszám"
 
 msgid "back to top"
 msgstr "Vissza a lap tetejére"
+
+msgid "Edit this page"
+msgstr "Oldal szerkesztése"
 
 msgid "Timed Publish"
 msgstr "Időzített publikálás"
@@ -1230,6 +1252,10 @@ msgstr "Elküldés vagy előnézet"
 msgid "Post and Continue Editing"
 msgstr "Beküldés és a szerkesztés folytatása"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Nyelv"
+
 msgid "Order"
 msgstr "Sorszám"
 
@@ -1484,6 +1510,9 @@ msgstr "Időzített"
 msgid "Held"
 msgstr "Visszatartott"
 
+msgid "Edit this entry"
+msgstr "Bejegyzés szerkesztése"
+
 msgid "categories"
 msgstr "kategória"
 
@@ -1586,9 +1615,6 @@ msgstr "Új kategória létrehozása"
 msgid "Display Name"
 msgstr "Megjelenő név"
 
-msgid "Users"
-msgstr "Felhasználók"
-
 msgid "Number of Entries"
 msgstr "Bejegyzések száma"
 
@@ -1683,9 +1709,6 @@ msgstr "Média kezelése"
 msgid "overview of entries"
 msgstr "Bejegyzések áttekintése"
 
-msgid "Edit this entry"
-msgstr "Bejegyzés szerkesztése"
-
 msgid "overview of comments"
 msgstr "Hozzászólások áttekintése"
 
@@ -1697,9 +1720,6 @@ msgstr "törlés"
 
 msgid "overview of pages"
 msgstr "Oldalak áttekintése"
-
-msgid "Edit this page"
-msgstr "Oldal szerkesztése"
 
 msgid "PivotX News"
 msgstr "PivotX hírek"
@@ -3164,9 +3184,6 @@ msgstr "Felugró kép beillesztése"
 msgid "all"
 msgstr "mind"
 
-msgid "Send Pings"
-msgstr "Ping küldése"
-
 msgid "Oops."
 msgstr "Hoppá."
 
@@ -4024,6 +4041,50 @@ msgstr "Moblog bejegyzés nincs elküldve"
 msgid "Processed: %s"
 msgstr "Feldolgozva: %s"
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Alapértelmezett nyelv"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "A bejegyzéseket nem lehet törölni."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Kérem, helyes domain nevet adjon meg!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Nyelv"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
 msgid "Tag cloud for"
 msgstr "Címke felhő ehhez"
 
@@ -4617,6 +4678,9 @@ msgstr "%s '%s'."
 msgid "Your new password is %pass%."
 msgstr "Az új jelszava: <q>%pass%</q>."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "Felhasználó beállítása"
 
@@ -4824,6 +4888,9 @@ msgstr "Dátum / Idő"
 msgid "Moblogging"
 msgstr "Moblogging"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Adatbázis indexének újraépítése"
 
@@ -4967,6 +5034,12 @@ msgstr "Hozzászólás jóváhagyva!"
 
 msgid "link"
 msgstr "Link"
+
+#~ msgid "Yes, allow for entries to be password protected."
+#~ msgstr "Igen, a bejegyzéseket lehessen védeni jelszóval."
+
+#~ msgid "Send Pings"
+#~ msgstr "Ping küldése"
 
 #~ msgid "Contact form"
 #~ msgstr "Kapcsolatfelvételi űrlap"

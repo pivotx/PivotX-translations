@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2009-06-14 15:20+0100\n"
 "Last-Translator: Javier Lopez <vengoroso@gmail.com>\n"
 "Language-Team: \n"
@@ -345,10 +345,20 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Ver la entrada completa"
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -392,6 +402,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Usuarios"
 
 #, fuzzy
 msgid "Password Protect"
@@ -697,6 +716,9 @@ msgstr "Inicio"
 msgid "Tag Cloud"
 msgstr "Nube de tags"
 
+msgid "Search Results"
+msgstr "Resultados de la Búsqueda"
+
 msgid "Name"
 msgstr "Nombre"
 
@@ -720,9 +742,6 @@ msgstr "Sí, recordar mis datos"
 
 msgid "Navigation"
 msgstr "Navegación"
-
-msgid "Search Results"
-msgstr "Resultados de la Búsqueda"
 
 msgid "Top"
 msgstr "Arriba"
@@ -907,6 +926,10 @@ msgstr "orden"
 #, fuzzy
 msgid "back to top"
 msgstr "Volver a la página de entrada"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Editar este comentario"
 
 msgid "Timed Publish"
 msgstr "Publicar a una hora determinada"
@@ -1252,6 +1275,10 @@ msgstr "Vista previa"
 msgid "Post and Continue Editing"
 msgstr "Publicar y seguir editando"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Idioma"
+
 msgid "Order"
 msgstr "Orden"
 
@@ -1524,6 +1551,10 @@ msgstr "Temporizada"
 msgid "Held"
 msgstr "Retenido"
 
+#, fuzzy
+msgid "Edit this entry"
+msgstr "Editar esta entrada"
+
 msgid "categories"
 msgstr "categorías"
 
@@ -1633,9 +1664,6 @@ msgstr "Crear Nueva Categoría"
 msgid "Display Name"
 msgstr "Nombre en pantalla"
 
-msgid "Users"
-msgstr "Usuarios"
-
 msgid "Number of Entries"
 msgstr "Número de Entradas"
 
@@ -1742,10 +1770,6 @@ msgid "overview of entries"
 msgstr "Menú de Entradas"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Editar esta entrada"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Menú de Entradas"
 
@@ -1758,10 +1782,6 @@ msgstr "Eliminar"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Visión general de las Páginas"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Editar este comentario"
 
 msgid "PivotX News"
 msgstr "Noticias de PivotX"
@@ -3284,9 +3304,6 @@ msgstr "Insertar una imagen emergente"
 msgid "all"
 msgstr "todas"
 
-msgid "Send Pings"
-msgstr "Enviar Pings"
-
 msgid "Oops."
 msgstr "Oops"
 
@@ -4146,6 +4163,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr "%d páginas procesadas..."
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Idioma por defecto"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Las entradas no pudieron ser eliminadas."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "¡Por favor, introduce un nombre de dominio adecuado!"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Idioma"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Finalizar"
+
 msgid "Tag cloud for"
 msgstr "Nube de tags"
 
@@ -4773,6 +4835,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr "La nueva clave es %pass%."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "Configurar usuario"
 
@@ -4985,6 +5050,9 @@ msgstr "Fecha/Hora"
 msgid "Moblogging"
 msgstr "Moblogging"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Reconstruir el Índice de la Base de Datos"
 
@@ -5134,6 +5202,9 @@ msgstr "¡El comentario se ha guardado!"
 #, fuzzy
 msgid "link"
 msgstr "Enlaces"
+
+#~ msgid "Send Pings"
+#~ msgstr "Enviar Pings"
 
 #, fuzzy
 #~ msgid "Contact form"
@@ -6290,9 +6361,6 @@ msgstr "Enlaces"
 #~ "Para cada uno de los subweblogs que se encontraron en las plantillas, "
 #~ "puede configurar las plantillas que usan, as&iacute; como las "
 #~ "categor&iacute;as que se publican en ellos"
-
-#~ msgid "Finish"
-#~ msgstr "Finalizar"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Crear / Editar Weblog, paso 1 de 3"

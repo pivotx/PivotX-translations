@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.2.x\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: 2010-12-21 11:40+0800\n"
 "Last-Translator: smithfox <ssm.fox@gmail.com>\n"
 "Language-Team: \n"
@@ -329,11 +329,21 @@ msgstr ""
 "要访问所需文章,您必须提供正确的密码.如果您敲错了,回退后再试一次. <br /> <br /"
 ">如果您不知道密码,你可以要求该网站所有者提供访问权限."
 
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
+msgstr ""
+
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "查看文章全部内容"
+
 msgid "Enable password protection"
 msgstr "启用密码保护"
-
-msgid "Yes, allow for entries to be password protected."
-msgstr "是的,让所有的文章都有密码保护."
 
 msgid "Default password"
 msgstr "默认密码"
@@ -371,6 +381,15 @@ msgstr "'禁止访问'文本"
 
 msgid "When the user is not granted access, show this text."
 msgstr "当用户没有被赋于访问权限时,显示这个文本."
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "用户"
 
 msgid "Password Protect"
 msgstr "密码保护"
@@ -659,6 +678,9 @@ msgstr "首页"
 msgid "Tag Cloud"
 msgstr "标签云"
 
+msgid "Search Results"
+msgstr "搜索结果"
+
 msgid "Name"
 msgstr "名称"
 
@@ -682,9 +704,6 @@ msgstr "是,保存cookie并记住我."
 
 msgid "Navigation"
 msgstr "导航"
-
-msgid "Search Results"
-msgstr "搜索结果"
 
 msgid "Top"
 msgstr "顶部"
@@ -852,6 +871,9 @@ msgstr "顺序"
 
 msgid "back to top"
 msgstr "回到页首"
+
+msgid "Edit this page"
+msgstr "编辑页面"
 
 msgid "Timed Publish"
 msgstr "定时发布"
@@ -1171,6 +1193,10 @@ msgstr "发布或预览"
 msgid "Post and Continue Editing"
 msgstr "发布并继续编辑"
 
+#, fuzzy
+msgid "Languages"
+msgstr "语言"
+
 msgid "Order"
 msgstr "顺序"
 
@@ -1418,6 +1444,9 @@ msgstr "定时"
 msgid "Held"
 msgstr "暂停发布着"
 
+msgid "Edit this entry"
+msgstr "编辑文章"
+
 msgid "categories"
 msgstr "分类"
 
@@ -1516,9 +1545,6 @@ msgstr "建立新的分类"
 msgid "Display Name"
 msgstr "显示名称"
 
-msgid "Users"
-msgstr "用户"
-
 msgid "Number of Entries"
 msgstr "文章数量"
 
@@ -1610,9 +1636,6 @@ msgstr "文档管理"
 msgid "overview of entries"
 msgstr "文章总览"
 
-msgid "Edit this entry"
-msgstr "编辑文章"
-
 msgid "overview of comments"
 msgstr "评论总览"
 
@@ -1624,9 +1647,6 @@ msgstr "删除"
 
 msgid "overview of pages"
 msgstr "静态页面总览"
-
-msgid "Edit this page"
-msgstr "编辑页面"
 
 msgid "PivotX News"
 msgstr "PivotX新闻"
@@ -2998,9 +3018,6 @@ msgstr "插入一个弹出窗口图像"
 msgid "all"
 msgstr "都"
 
-msgid "Send Pings"
-msgstr "发送Pings"
-
 msgid "Oops."
 msgstr "喔"
 
@@ -3826,6 +3843,51 @@ msgstr "Moblog 文章没有发布"
 msgid "Processed: %s"
 msgstr "已经处理: %s"
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "默认语言"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "文章无法删除."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "请用一个合法的域名"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "语言"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "建立"
+
 msgid "Tag cloud for"
 msgstr "标签云"
 
@@ -4405,6 +4467,9 @@ msgstr "%s did '%s'."
 msgid "Your new password is %pass%."
 msgstr "您的密码是%pass%."
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr "设置用户"
 
@@ -4606,6 +4671,9 @@ msgstr "日期/时间"
 msgid "Moblogging"
 msgstr "Moblogging"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "重建数据库索引"
 
@@ -4739,6 +4807,12 @@ msgstr "评论已经被批准了."
 
 msgid "link"
 msgstr "链接"
+
+#~ msgid "Yes, allow for entries to be password protected."
+#~ msgstr "是的,让所有的文章都有密码保护."
+
+#~ msgid "Send Pings"
+#~ msgstr "发送Pings"
 
 #~ msgid "Contact form"
 #~ msgstr "联系信息"
@@ -5429,9 +5503,6 @@ msgstr "链接"
 #~ "For each of the subweblogs that were found in the templates, you can "
 #~ "configure what template they use, as well as what categories are "
 #~ "published in them"
-
-#~ msgid "Finish"
-#~ msgstr "建立"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "创建/编辑Weblog,步骤 1 of 3"

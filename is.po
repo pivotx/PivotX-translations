@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,10 +349,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -395,6 +404,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Notendur"
 
 #, fuzzy
 msgid "Password Protect"
@@ -693,6 +711,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Niðurstöður leitar"
+
 msgid "Name"
 msgstr "Nafn"
 
@@ -717,9 +738,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Stillingar"
-
-msgid "Search Results"
-msgstr "Niðurstöður leitar"
 
 msgid "Top"
 msgstr ""
@@ -905,6 +923,10 @@ msgstr "Jaðar"
 #, fuzzy
 msgid "back to top"
 msgstr "Öryggisafrit"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Broskallar"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1267,6 +1289,10 @@ msgstr "Skoða færslu"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Tungumál"
+
 msgid "Order"
 msgstr ""
 
@@ -1562,6 +1588,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Eyða athugasemd"
+
+#, fuzzy
 msgid "categories"
 msgstr "Kaflar"
 
@@ -1670,9 +1700,6 @@ msgstr "Búa til nýjan kafla"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Notendur"
-
 msgid "Number of Entries"
 msgstr "Fjöldi færslna"
 
@@ -1775,10 +1802,6 @@ msgid "overview of entries"
 msgstr "Yfirlit færslna"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Eyða athugasemd"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Yfirlit færslna"
 
@@ -1793,10 +1816,6 @@ msgstr "Eyða"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Yfirlit færslna"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Broskallar"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3262,9 +3281,6 @@ msgstr "Setja inn mynd"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Senda hljóðmerki"
-
 msgid "Oops."
 msgstr ""
 
@@ -4103,6 +4119,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Aðal tungumál"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Athugasemd hefur verið eytt."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Þetta netfang er ekki til"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Tungumál"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Hætta"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4719,6 +4780,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr ""
 
@@ -4958,6 +5022,9 @@ msgstr "Dagur/tími"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Endurgera efnisyfirlit fyrir eigin gagnagrunn"
 
@@ -5105,6 +5172,9 @@ msgstr "Athugasemd hefur verið vistuð."
 #, fuzzy
 msgid "link"
 msgstr "Hlekkir"
+
+#~ msgid "Send Pings"
+#~ msgstr "Senda hljóðmerki"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -5870,9 +5940,6 @@ msgstr "Hlekkir"
 #~ msgstr ""
 #~ "Fyrir hvert undirblogg sem finnast í templates getur þú fundið út hvernig "
 #~ "þau eru hönnuð og hvaða kaflar eru notaðir í þeim"
-
-#~ msgid "Finish"
-#~ msgstr "Hætta"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Búa til/Laga veffærslu, skref 1 af 3"

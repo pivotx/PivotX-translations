@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -395,6 +404,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Kullanıcılar"
 
 #, fuzzy
 msgid "Password Protect"
@@ -693,6 +711,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Arama Sonuçları"
+
 msgid "Name"
 msgstr "İsim"
 
@@ -717,9 +738,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Konfigürasyon"
-
-msgid "Search Results"
-msgstr "Arama Sonuçları"
 
 msgid "Top"
 msgstr ""
@@ -905,6 +923,10 @@ msgstr "Çerçeve"
 #, fuzzy
 msgid "back to top"
 msgstr "Girişe dönüş"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Emotikonlar"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1269,6 +1291,10 @@ msgstr "Makale önizleme"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Lisan"
+
 msgid "Order"
 msgstr ""
 
@@ -1563,6 +1589,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Yorumları sil"
+
+#, fuzzy
 msgid "categories"
 msgstr "Kategoriler"
 
@@ -1672,9 +1702,6 @@ msgstr "Yeni Kategori Yarat"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Kullanıcılar"
-
 msgid "Number of Entries"
 msgstr "Makale Sayısı"
 
@@ -1777,10 +1804,6 @@ msgid "overview of entries"
 msgstr "Girişler hakkında genel"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Yorumları sil"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Girişler hakkında genel"
 
@@ -1795,10 +1818,6 @@ msgstr "Sil"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Girişler hakkında genel"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Emotikonlar"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3280,9 +3299,6 @@ msgstr "İmaj ekle"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Ping gönder"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Offf"
@@ -4117,6 +4133,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Varsayılan lisan"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Yorum silindi."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Mail adresi geçersiz"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Lisan"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Bitir"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4739,6 +4800,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Kullanıcıyı sil"
@@ -4981,6 +5045,9 @@ msgstr "Tarih/Zaman"
 msgid "Moblogging"
 msgstr "Çırak"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Veritabanınızın indexini yeniden oluşturun"
 
@@ -5130,6 +5197,9 @@ msgstr "Yorum kaydedildi."
 #, fuzzy
 msgid "link"
 msgstr "Linkler"
+
+#~ msgid "Send Pings"
+#~ msgstr "Ping gönder"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -6001,9 +6071,6 @@ msgstr "Linkler"
 #~ msgstr ""
 #~ "Şablonlarda bulunan her altweblog için hangi şablonu kullanacaklarını ve "
 #~ "hangi kategorilerin yayınlanacağını belirleyebilirsiniz."
-
-#~ msgid "Finish"
-#~ msgstr "Bitir"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Weblog yaratma veya düzenleme, 3 adımın 1.si"

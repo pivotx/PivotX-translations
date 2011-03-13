@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -351,10 +351,20 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+#, fuzzy
+msgid "Yes, for the complete site"
+msgstr "Visualizar a entrada completa"
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -398,6 +408,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Usuários"
 
 #, fuzzy
 msgid "Password Protect"
@@ -697,6 +716,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Resultados da busca"
+
 msgid "Name"
 msgstr "Nome"
 
@@ -721,9 +743,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Configuração"
-
-msgid "Search Results"
-msgstr "Resultados da busca"
 
 msgid "Top"
 msgstr ""
@@ -910,6 +929,10 @@ msgstr "Borda"
 #, fuzzy
 msgid "back to top"
 msgstr "Voltar para login"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Editar este comentário"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1275,6 +1298,10 @@ msgstr "Pré-Visualizar Entrada"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Idioma"
+
 msgid "Order"
 msgstr ""
 
@@ -1573,6 +1600,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Editar esta Entrada"
+
+#, fuzzy
 msgid "categories"
 msgstr "Categorias"
 
@@ -1685,9 +1716,6 @@ msgstr "Criar Nova Categoria"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Usuários"
-
 msgid "Number of Entries"
 msgstr "Número de Entradas"
 
@@ -1790,10 +1818,6 @@ msgid "overview of entries"
 msgstr "Menu de Entradas"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Editar esta Entrada"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Menu de Entradas"
 
@@ -1808,10 +1832,6 @@ msgstr "Apagar"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Menu de Entradas"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Editar este comentário"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3348,9 +3368,6 @@ msgstr "Inserir uma imagem"
 msgid "all"
 msgstr "Tudo"
 
-msgid "Send Pings"
-msgstr "Enviar Pings"
-
 #, fuzzy
 msgid "Oops."
 msgstr "Oops"
@@ -4196,6 +4213,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Idioma padrão"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "O comentário foi excluído."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Este não é um endereço de e-mail válido"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Idioma"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Finalizar"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4832,6 +4894,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 #, fuzzy
 msgid "Setup user"
 msgstr "Excluir usuário"
@@ -5072,6 +5137,9 @@ msgstr "Data/Horário"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Reconstruir o Índice da sua Base de Dados"
 
@@ -5225,6 +5293,9 @@ msgstr "O comentário foi salvo."
 #, fuzzy
 msgid "link"
 msgstr "Links"
+
+#~ msgid "Send Pings"
+#~ msgstr "Enviar Pings"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -6389,9 +6460,6 @@ msgstr "Links"
 #~ "Para cada um dos subweblogs que se encontram nos templates, você pode "
 #~ "configurar que templates eles usam, e também as categorias que são "
 #~ "publicadas com eles"
-
-#~ msgid "Finish"
-#~ msgstr "Finalizar"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Criar / Editar Weblog, passo 1 de 3"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -394,6 +403,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "Χρήστες"
 
 #, fuzzy
 msgid "Password Protect"
@@ -692,6 +710,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "Αποτελέσματα αναζήτησης"
+
 msgid "Name"
 msgstr "Όνομα"
 
@@ -716,9 +737,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "Διαμόρφωση"
-
-msgid "Search Results"
-msgstr "Αποτελέσματα αναζήτησης"
 
 msgid "Top"
 msgstr ""
@@ -904,6 +922,10 @@ msgstr "Διαχωριστική γραμμή"
 #, fuzzy
 msgid "back to top"
 msgstr "Αντίγραφα ασφαλείας"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "Φάτσες (emoticons)"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1265,6 +1287,10 @@ msgstr "Προεπισκόπηση εγγραφής"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "Γλώσσα"
+
 msgid "Order"
 msgstr ""
 
@@ -1562,6 +1588,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "Διαγραφή σχολίου"
+
+#, fuzzy
 msgid "categories"
 msgstr "Κατηγορίες"
 
@@ -1670,9 +1700,6 @@ msgstr "Δημιουργία νέας κατηγορίας"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "Χρήστες"
-
 msgid "Number of Entries"
 msgstr "Αριθμός εγγραφών"
 
@@ -1775,10 +1802,6 @@ msgid "overview of entries"
 msgstr "Σύνοψη των εγγραφών"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "Διαγραφή σχολίου"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "Σύνοψη των εγγραφών"
 
@@ -1793,10 +1816,6 @@ msgstr "Διαγραφή"
 #, fuzzy
 msgid "overview of pages"
 msgstr "Σύνοψη των εγγραφών"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "Φάτσες (emoticons)"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3301,9 +3320,6 @@ msgstr "Εισαγωγή εικόνας"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "Αποστολή ειδοποιήσεων"
-
 msgid "Oops."
 msgstr ""
 
@@ -4144,6 +4160,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "Προεπιλογή γλώσσας"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "Το σχόλιο διαγράφηκε."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "Γλώσσα"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "Τέλος"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4759,6 +4820,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr ""
 
@@ -4998,6 +5062,9 @@ msgstr "Ημερομηνία/Ώρα"
 msgid "Moblogging"
 msgstr "Moblogger"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "Επαναδημιουργία των ευρετηρίων της Βάσης Δεδομένων."
 
@@ -5153,6 +5220,9 @@ msgstr "Το σχόλιο αποθηκεύτηκε."
 #, fuzzy
 msgid "link"
 msgstr "Σύνδεσμοι"
+
+#~ msgid "Send Pings"
+#~ msgstr "Αποστολή ειδοποιήσεων"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -5928,9 +5998,6 @@ msgstr "Σύνδεσμοι"
 #~ "Για καθένα από τα υπο-weblogs που έχουν βρεθεί στα πρότυπα, μπορείτε να "
 #~ "διαμορφώσετε τα πρότυπα που θα χρησιμοποιηθούν καθώς και σε ποιές "
 #~ "κατηγορίες θα δημοσιεύονται."
-
-#~ msgid "Finish"
-#~ msgstr "Τέλος"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Δημιουργία / Αλλαγή Weblog, Βήμα 1 από 3"

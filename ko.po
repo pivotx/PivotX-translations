@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-01-10 23:59+0100\n"
+"POT-Creation-Date: 2011-03-13 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,10 +348,19 @@ msgid ""
 "entry."
 msgstr ""
 
-msgid "Enable password protection"
+msgid ""
+"# Enter each user with password on a new line.\n"
+"# Use a hash to add comments or disable a user\n"
+"# Example: password|username\n"
 msgstr ""
 
-msgid "Yes, allow for entries to be password protected."
+msgid "Yes, but only pages and entries"
+msgstr ""
+
+msgid "Yes, for the complete site"
+msgstr ""
+
+msgid "Enable password protection"
 msgstr ""
 
 #, fuzzy
@@ -394,6 +403,15 @@ msgstr ""
 
 msgid "When the user is not granted access, show this text."
 msgstr ""
+
+msgid "All access ipnumbers"
+msgstr ""
+
+msgid "These ipnumbers can access everything without password."
+msgstr ""
+
+msgid "Users"
+msgstr "사용자"
 
 #, fuzzy
 msgid "Password Protect"
@@ -691,6 +709,9 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
+msgid "Search Results"
+msgstr "검색 결과"
+
 msgid "Name"
 msgstr "이름"
 
@@ -715,9 +736,6 @@ msgstr ""
 #, fuzzy
 msgid "Navigation"
 msgstr "설정"
-
-msgid "Search Results"
-msgstr "검색 결과"
 
 msgid "Top"
 msgstr ""
@@ -901,6 +919,10 @@ msgstr "테두리"
 #, fuzzy
 msgid "back to top"
 msgstr "백업"
+
+#, fuzzy
+msgid "Edit this page"
+msgstr "이모티콘"
 
 #, fuzzy
 msgid "Timed Publish"
@@ -1262,6 +1284,10 @@ msgstr "글 미리 보기"
 msgid "Post and Continue Editing"
 msgstr ""
 
+#, fuzzy
+msgid "Languages"
+msgstr "언어"
+
 msgid "Order"
 msgstr ""
 
@@ -1557,6 +1583,10 @@ msgid "Held"
 msgstr ""
 
 #, fuzzy
+msgid "Edit this entry"
+msgstr "지우기"
+
+#, fuzzy
 msgid "categories"
 msgstr "갈래"
 
@@ -1665,9 +1695,6 @@ msgstr "새 갈래 만들기"
 msgid "Display Name"
 msgstr ""
 
-msgid "Users"
-msgstr "사용자"
-
 msgid "Number of Entries"
 msgstr "글 수"
 
@@ -1769,10 +1796,6 @@ msgid "overview of entries"
 msgstr "간추린 글 관리"
 
 #, fuzzy
-msgid "Edit this entry"
-msgstr "지우기"
-
-#, fuzzy
 msgid "overview of comments"
 msgstr "간추린 글 관리"
 
@@ -1787,10 +1810,6 @@ msgstr "삭제"
 #, fuzzy
 msgid "overview of pages"
 msgstr "간추린 글 관리"
-
-#, fuzzy
-msgid "Edit this page"
-msgstr "이모티콘"
 
 #, fuzzy
 msgid "PivotX News"
@@ -3253,9 +3272,6 @@ msgstr "그림을 집어넣기"
 msgid "all"
 msgstr ""
 
-msgid "Send Pings"
-msgstr "핑 보내기"
-
 msgid "Oops."
 msgstr ""
 
@@ -4090,6 +4106,51 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable multiple languages"
+msgstr "기본 언어"
+
+#, fuzzy
+msgid "Language used if none could be detected."
+msgstr "덧글이 삭제되었습니다."
+
+msgid "Languages that your website is using."
+msgstr ""
+
+msgid "Language variable name"
+msgstr ""
+
+#, fuzzy
+msgid "Give a proper variable name"
+msgstr "유효한 이메일 주소가 아닙니다."
+
+msgid "GET, POST or COOKIE variable used to detect language."
+msgstr ""
+
+msgid "URL language patterns"
+msgstr ""
+
+msgid ""
+"Enter lines with hosts and their respective language. Wildcards are allowed. "
+"Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
+msgstr ""
+
+#, fuzzy
+msgid "Language locales"
+msgstr "언어"
+
+msgid ""
+"Enter lines with locale and it's respective language. Wildcards are allowed. "
+"Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
+msgstr ""
+
+msgid "Nederlands"
+msgstr ""
+
+#, fuzzy
+msgid "English"
+msgstr "완료"
+
 msgid "Tag cloud for"
 msgstr ""
 
@@ -4705,6 +4766,9 @@ msgstr ""
 msgid "Your new password is %pass%."
 msgstr ""
 
+msgid "PivotX was not able to send a mail with the reset link."
+msgstr ""
+
 msgid "Setup user"
 msgstr ""
 
@@ -4944,6 +5008,9 @@ msgstr "날짜/시간 (오프셋만큼 시간을 밉니다.)"
 msgid "Moblogging"
 msgstr "모블로거"
 
+msgid "Multilingual"
+msgstr ""
+
 msgid "Rebuild the index of your Database"
 msgstr "데이터베이스의 색인을 다시 만듭니다"
 
@@ -5092,6 +5159,9 @@ msgstr "덧글이 저장되었습니다."
 #, fuzzy
 msgid "link"
 msgstr "다른 곳들"
+
+#~ msgid "Send Pings"
+#~ msgstr "핑 보내기"
 
 #, fuzzy
 #~ msgid "Please enter a \"%s\""
@@ -5827,9 +5897,6 @@ msgstr "다른 곳들"
 #~ msgstr ""
 #~ "서식에서 찾은 자식 웹로그들이 각각 무슨 서식을 쓰고 어느 갈래에 게시될 것"
 #~ "인지 설정할 수 있습니다."
-
-#~ msgid "Finish"
-#~ msgstr "완료"
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "웹로그 만들기 / 고치기, 3 단계 중 1단계"
