@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2010-03-25 11:42+0300\n"
 "Last-Translator: pivotx.ru <admin@pivotx.ru>\n"
 "Language-Team: Pivotx.RU <admin@pivotx.ru>\n"
@@ -995,7 +995,7 @@ msgid "website"
 msgstr "сайт"
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2067,7 +2067,7 @@ msgstr "Зарегистрированный пользователь"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2088,7 +2088,7 @@ msgstr "Модерировать Комментарий"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 msgid "Save Trackback"
@@ -2280,10 +2280,11 @@ msgstr "Последний просмотр"
 msgid "Create Category"
 msgstr "Создать Категорию"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Для этой категории необходимо название"
 
 #, fuzzy
@@ -2296,7 +2297,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "йЮРЕЦНПХХ АСДСР ЯНПРХПНБЮРЭЯЪ ОН ЯОХЯЙС, Б МХФМЧЧ ЯРНПНМС. еЯКХ БШ ЯНУПЮМХРЕ "
 "БЯЕ МНЛЕПЮ, НМХ АСДСР ЯНУПЮМЪРЭЯЪ Б ЮКТЮБХРМНЛ ОНПЪДЙЕ"
@@ -2304,7 +2305,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "ЕЯКХ БШАПЮРЭ 'дЮ', ЩРЮ ЙЮРЕЦНПХЪ АСДЕР ЯЙПШРЮ Б ЮПУХБЮУ. (РНКЭЙН ДКЪ \"ФХБШУ"
 "\" ЯРПЮМХЖ)"
@@ -2312,10 +2313,12 @@ msgstr ""
 msgid "Chapter name"
 msgstr "Название Раздела"
 
-msgid "The name of this chapter"
+#, fuzzy
+msgid "The name of this chapter."
 msgstr "Имя этого раздела"
 
-msgid "A short description of this chapter"
+#, fuzzy
+msgid "A short description of this chapter."
 msgstr "Краткое описание этого раздела"
 
 msgid ""
@@ -2362,7 +2365,7 @@ msgstr "\"Читать далее\" текст"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "щРНР РЕЙЯР ОНЙЮГШБЮЕР ВРН ГЮОХЯЭ МЮЛМНЦН ДКХММЕЕ ВЕЛ ОНЙЮГЮМН МЮ "
 "ЦКЮБМНИЯРПЮМХЖЕ Х ОПЕДКЮЦЮЕР ЯЯШКЙС ДКЪ ДЮКЭМЕИЬЕЦН ВРЕМХЪ. еЯКХ БШ НЯРЮБХРЕ "
@@ -2862,7 +2865,7 @@ msgstr "гЮЦПСГХРЭ ТЮИКШ"
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 
 #, fuzzy
@@ -2926,9 +2929,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Полный формат даты"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "This determines the format for the full date and time. Most often used at "
 "the top of a single entry page"
@@ -3218,8 +3222,8 @@ msgstr ""
 msgid "PivotX is not allowed to read this folder."
 msgstr "PivotX нет доступа для чтения директории."
 
-#, php-format
-msgid "The file %s was deleted"
+#, fuzzy, php-format
+msgid "The file %s was deleted."
 msgstr "Файл %s удален"
 
 #, fuzzy, php-format

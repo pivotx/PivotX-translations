@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2009-06-14 15:20+0100\n"
 "Last-Translator: Javier Lopez <vengoroso@gmail.com>\n"
 "Language-Team: \n"
@@ -1024,8 +1024,9 @@ msgstr "Librerías y herramientas empleadas"
 msgid "website"
 msgstr "Página web"
 
+#, fuzzy
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 "Probablemente nos olvidamos de alguien... Si así ha sido, háznoslo saber y "
@@ -2124,9 +2125,10 @@ msgstr "Guardar comentario"
 msgid "Registered user"
 msgstr "Usuario registrado"
 
+#, fuzzy
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 "Determina si este comentario se muestra como si fuese hecho por un usuario "
 "registrado (independientemente de si en realidad lo hizo un usuario "
@@ -2152,9 +2154,10 @@ msgstr ""
 msgid "Moderate Comment"
 msgstr "Moderar comentario"
 
+#, fuzzy
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "Si se selecciona 'si', este comentario no aparecerá en la página hasta que "
 "haya sido aprobado en la cola de moderación"
@@ -2370,10 +2373,12 @@ msgstr "Útima modificación"
 msgid "Create Category"
 msgstr "Crear Categoría"
 
-msgid "The name that the category is represented by in the weblog"
+#, fuzzy
+msgid "The name that the category is represented by in the weblog."
 msgstr "El nombre por el que se representa a la categoría en el weblog"
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Esta categoría necesita un nombre"
 
 msgid ""
@@ -2383,16 +2388,18 @@ msgstr ""
 "Seleccione los usuarios que desee que tengan permiso para escribir en esta "
 "categoría"
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Las categorías con un orden bajo aparecerán más arriba en la lista. Si "
 "mantiene todos los números iguales, se ordenarán alfabéticamente"
 
+#, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Si esta opción está activada, la categoría no se mostrará en los listados de "
 "archivo. (solo se aplica a las páginas dinámicas)"
@@ -2400,10 +2407,12 @@ msgstr ""
 msgid "Chapter name"
 msgstr "Nombre del Capítulo"
 
-msgid "The name of this chapter"
+#, fuzzy
+msgid "The name of this chapter."
 msgstr "El nombre de este capítulo"
 
-msgid "A short description of this chapter"
+#, fuzzy
+msgid "A short description of this chapter."
 msgstr "Breve descripcción de este capítulo"
 
 msgid ""
@@ -2451,10 +2460,11 @@ msgstr "Determina en qué idioma se mostrarán las fechas y los números."
 msgid "\"Read More\" Text"
 msgstr " Texto de 'Leer más'"
 
+#, fuzzy
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "El texto que se usa para indicar que hay más texto en esta entrada del que "
 "se muestra en la página de portada. Si deja este campo en blanco, PivotX "
@@ -2996,10 +3006,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Unlink Ficheros"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Algunas instancias de servidores en los que está habilitado el desagradable "
 "modo 'safe_mode', pueden requerir jugar con esta opción. En la mayoría de "
@@ -3078,9 +3089,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Formato Fecha Completa"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Determina el formato de la fecha y hora completa. Usado normalmente al "
 "principio de una entrada"
@@ -3389,7 +3401,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "PivotX no tiene permiso para acceder a este directorio."
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Se ha borrado el usuario"
 
 #, fuzzy, php-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2008-01-28 02:05+0100\n"
 "Last-Translator: Pivot Team <translations@pivotx.net>\n"
 "Language-Team: \n"
@@ -930,7 +930,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -1920,7 +1920,7 @@ msgstr ""
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -1941,7 +1941,7 @@ msgstr ""
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 msgid "Save Trackback"
@@ -2121,10 +2121,10 @@ msgstr ""
 msgid "Create Category"
 msgstr ""
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+msgid "This category needs a name."
 msgstr ""
 
 msgid ""
@@ -2134,21 +2134,21 @@ msgstr ""
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 
 msgid "Chapter name"
 msgstr ""
 
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr ""
 
-msgid "A short description of this chapter"
+msgid "A short description of this chapter."
 msgstr ""
 
 msgid ""
@@ -2193,7 +2193,7 @@ msgstr ""
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 
 msgid "URL to Weblog"
@@ -2629,7 +2629,7 @@ msgstr ""
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 
 msgid "Chmod Files To"
@@ -2694,7 +2694,7 @@ msgstr ""
 
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 
 msgid "Entry Date"
@@ -2953,7 +2953,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr ""
 
 #, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr ""
 
 #, php-format

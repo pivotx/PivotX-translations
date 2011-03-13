@@ -1,5 +1,5 @@
 # Translation of PivotX to Chinese.
-# Copyright (C) 2008-2010 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # Thomas Levine <thomas.levine@gmail.com>, 2010.
 # zwm19601 <zwm19601@gmail.com>, 2010.
@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.2.x\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2010-12-21 11:40+0800\n"
 "Last-Translator: smithfox <ssm.fox@gmail.com>\n"
 "Language-Team: \n"
@@ -965,7 +965,7 @@ msgid "website"
 msgstr "网站"
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr "我们可能忘了一些..请让我们知道,我们将在下一个版本中加入到创作组中"
 
@@ -1968,7 +1968,7 @@ msgstr "已注册用户"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 "决定是否将此评论显示为由注册用户写的.(无论实际是否是一名注册用户评论的)"
 
@@ -1990,7 +1990,7 @@ msgstr "审核评论"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr "如果设置为'是',此评论在将被批准前不会显示在网站上."
 
 msgid "Save Trackback"
@@ -2180,10 +2180,10 @@ msgstr "最后看到于"
 msgid "Create Category"
 msgstr "建立分类"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr "该类别以这个名称在博客中呈现"
 
-msgid "This category needs a name"
+msgid "This category needs a name."
 msgstr "这个分类需要一个名称"
 
 msgid ""
@@ -2193,22 +2193,22 @@ msgstr "选择可以在这个分类发贴的用户"
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "越低排列序号的类别将越靠前列表.如果你使所有的数字相同,他们将按照字母顺序排序"
 
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr "如果设置为\"yes\", 该分类将在归档列表中隐藏.(仅适用于活动页面)"
 
 msgid "Chapter name"
 msgstr "章节名"
 
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "章节名称"
 
-msgid "A short description of this chapter"
+msgid "A short description of this chapter."
 msgstr "章节的简短描述"
 
 msgid ""
@@ -2255,7 +2255,7 @@ msgstr "'查看更多' 文本"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "该文本用来提示文章还有更多内容(首页只显示一部分). 留空则PivotX用默认语言提示"
 
@@ -2731,10 +2731,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Unlink Files"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "一些服务器上启用安全模式的情况下,可能需要用这个选项.在大多数服务器上此选项将"
 "不会有任何效果"
@@ -2809,7 +2810,7 @@ msgstr "完整日期格式"
 
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr "设置了完整日期的格式.大多用在每个单一文章页面的上方"
 
 msgid "Entry Date"
@@ -3095,7 +3096,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "PivotX 不允许读这个目录."
 
 #, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "文件%s 已删除."
 
 #, php-format

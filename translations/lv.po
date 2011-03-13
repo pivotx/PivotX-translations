@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1031,7 +1031,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2196,7 +2196,7 @@ msgstr "Reģistrēts"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2222,7 +2222,7 @@ msgstr "Pārvaldīt komentārus"
 #, fuzzy
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "Šim saitam ir ieslēgta komentāru filtrēšana. Tas nozīmē – komentārs nebūs "
 "redzams, līdz to apstiprinās rakstu autors(i)."
@@ -2429,10 +2429,11 @@ msgstr "Pēdējā labošana"
 msgid "Create Category"
 msgstr " Izveidot sadaļu"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Sadaļai vajag nosaukumu"
 
 msgid ""
@@ -2440,9 +2441,10 @@ msgid ""
 "category"
 msgstr "Izvēlies lietotājus, kas drīkstēs rakstīt šai sadaļā."
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Sadaļas ar zemāku šķirošanas svarīgumu parādīsies augstāk sadaļu sarakstā. "
 "Ja visas sadaļas būs ar vienādu svarīgumu, tās tiks šķirotas alfabētiski"
@@ -2450,7 +2452,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Ja 'Jā', šī sadaļa neparādīsies arhīvos. (Tikai <i>Live pages</i> gadījumā)"
 
@@ -2459,11 +2461,12 @@ msgid "Chapter name"
 msgstr "Sadaļa"
 
 #, fuzzy
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "Indeksēt šo sadaļu"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Indeksēt šo sadaļu"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2513,7 +2516,7 @@ msgstr "'Lasīt tālāk' Teksts"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Šeit redzamais teksts norāda, ka raksts ir garāks, nekā parādās pirmajā "
 "lapā. Ja šis lauks netiks aizpildīts, Pivot izmantos Tavas valodas "
@@ -3020,10 +3023,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Atsaistīt failus"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Uz dažiem serveriem, kam ir uzstādīta ļoti stingra _safemode_, var būt "
 "nepieciešams eksperimentēt ar šo uzstādījumu. Lielākajā daļā serveru šim "
@@ -3094,9 +3098,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Datums"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr "Šādi tiks attēlots pilns datums un laiks."
 
 msgid "Entry Date"
@@ -3402,7 +3407,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "Tu TO ar %title% neizdarīsi!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Komentārs dzēsts."
 
 #, fuzzy, php-format

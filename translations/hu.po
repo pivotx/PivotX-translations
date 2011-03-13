@@ -1,5 +1,5 @@
 # Translation of PivotX to Hungarian.
-# Copyright (C) 2008-2010 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # Sevoir <sevoir@sevoir.hu>, 2009.
 # Bitai Tamás <bitai@szegzard.hu>, 2010
@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.2.3\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2011-01-28 13:07+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
@@ -1022,10 +1022,10 @@ msgid "website"
 msgstr "honlap"
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
-"Valószínűleg kifelejtettünk pár embert.. Ha igen, kérjük tudassa velünk és a "
+"Valószínűleg kifelejtettünk pár embert ... Ha igen, kérjük tudassa velünk és a "
 "következő kiadásban pótoljuk a mulasztást."
 
 msgid "Comments waiting for moderation"
@@ -2053,10 +2053,10 @@ msgstr "Regisztrált felhasználó"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 "A hozzászólás megjelölése, mintha regisztrált felhasználó írta volna. "
-"(Függetlenül attól, hogy ténylegesen regisztrált-e a felhasználó)"
+"(Függetlenül attól, hogy ténylegesen regisztrált-e a felhasználó.)"
 
 msgid ""
 "If set to 'yes', the visitor will be notified by email of any subsequent "
@@ -2080,7 +2080,7 @@ msgstr "Hozzászólás moderálása"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "Ha 'igen'-re állítja, a hozzászólás addig nem jelenik meg az oldalon, amíg a "
 "moderációs sorban jóvá nem lesz hagyva."
@@ -2284,11 +2284,11 @@ msgstr "Utoljára belépve"
 msgid "Create Category"
 msgstr "Kategória létrehozva"
 
-msgid "The name that the category is represented by in the weblog"
-msgstr "A kategória weblogban megjelenő neve"
+msgid "The name that the category is represented by in the weblog."
+msgstr "A kategória weblogban megjelenő neve."
 
-msgid "This category needs a name"
-msgstr "Ehhez a kategóriához szükség van egy névre"
+msgid "This category needs a name."
+msgstr "Ehhez a kategóriához szükség van egy névre."
 
 msgid ""
 "Select the Users that you would like to give permission to post in this "
@@ -2299,14 +2299,15 @@ msgstr ""
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Az alacsonyabb sorszámmal ellátott kategóriák a listán előrébb jelennek meg. "
 "Ha a számok megegyeznek, a kategóriák sorba rendezése betűrendben történik."
 
+#, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Ha 'igen'-re állítja, a kategória nem jelenik meg az archívumban. (csak a "
 "publikált oldalakra érvényes)"
@@ -2314,11 +2315,11 @@ msgstr ""
 msgid "Chapter name"
 msgstr "Fejezet neve"
 
-msgid "The name of this chapter"
-msgstr "A fejezet neve"
+msgid "The name of this chapter."
+msgstr "A fejezet neve."
 
-msgid "A short description of this chapter"
-msgstr "A fejezet rövid leírása"
+msgid "A short description of this chapter."
+msgstr "A fejezet rövid leírása."
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2370,7 +2371,7 @@ msgstr "\"Tovább\" szöveg"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "A teljes bejegyzés megjelenítéséhez vezető link neve. Ha üresen hagyja, a "
 "PivotX a nyelvi file-ban lévő alapértelmezett szöveget használja erre a "
@@ -2888,7 +2889,7 @@ msgstr "Unlink használata"
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Némely szerveren, ahol a safe_mode engedélyezve van, szükséges lehet ez az "
 "opció. A legtöbb szerveren semmi hatása nincs."
@@ -2964,10 +2965,10 @@ msgstr "Teljes dátum formátuma"
 
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "A teljes dátum és időformátum meghatározása. Leggyakrabban a bejegyzések "
-"elején jelenik meg"
+"elején jelenik meg."
 
 msgid "Entry Date"
 msgstr "Bejegyzés dátum"
@@ -3265,8 +3266,8 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "A PivotX nem képes a könyvtár tartalmát olvasni."
 
 #, php-format
-msgid "The file %s was deleted"
-msgstr "A(z) %s file törölve"
+msgid "The file %s was deleted."
+msgstr "A(z) %s file törölve."
 
 #, php-format
 msgid "The file has been copied: %s to %s."

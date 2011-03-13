@@ -1,5 +1,5 @@
 # Translation of PivotX to German.
-# Copyright (C) 2008-2010 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # Lars Seifert <lars.seifert@gmx.de>, 2008.
 # Jan Korger, 2009.
@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.2.x\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2010-12-11 14:08+0100\n"
 "Last-Translator: Holger Handstein <handstein@der-privatanleger.de>\n"
 "Language-Team: \n"
@@ -1018,7 +1018,7 @@ msgid "website"
 msgstr "Webseite"
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 "Wir haben vermutlich jemand vergessen. Bitte unterichten Sie uns, damit wir "
@@ -2055,7 +2055,7 @@ msgstr "Registrierter Benutzer"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 "Leg fest ob dieser Kommentar angezeigt wird als ob er von einem "
 "registrierten Benutzer erstellt wurde."
@@ -2082,7 +2082,7 @@ msgstr "Kommentare freischalten"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "Wenn 'Ja' gewählt wird werden die Kommentare erst dann veröffentlicht, wenn "
 "sie freigeschaltet wurden."
@@ -2284,11 +2284,11 @@ msgstr "Zuletzt bearbeitet am"
 msgid "Create Category"
 msgstr "Kategorie erstellen"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr "Der Name unter dem die Kategorie im Weblog erscheint."
 
-msgid "This category needs a name"
-msgstr "Bitte gib einen Namen ein"
+msgid "This category needs a name."
+msgstr "Bitte gib einen Namen ein."
 
 msgid ""
 "Select the Users that you would like to give permission to post in this "
@@ -2299,15 +2299,15 @@ msgstr ""
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Kategorien mit einem niedrigeren Wert werden in der Liste zuerst angezeigt."
 "<br />Wenn alle Kategorien den gleichen Wert zugeteilt bekommen, werden sie "
-"alphabetisch geordnet"
+"alphabetisch geordnet."
 
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Wenn hier <b>Ja</b> ausgewählt ist, wird die Kategorie in den Archiv Listen "
 "nicht angezeigt.<br /> "
@@ -2315,11 +2315,11 @@ msgstr ""
 msgid "Chapter name"
 msgstr "Kapitelname"
 
-msgid "The name of this chapter"
-msgstr "Der Name des Kapitels"
+msgid "The name of this chapter."
+msgstr "Der Name des Kapitels."
 
-msgid "A short description of this chapter"
-msgstr "Eine kurze Beschreibung des Kapitels"
+msgid "A short description of this chapter."
+msgstr "Eine kurze Beschreibung des Kapitels."
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2371,7 +2371,7 @@ msgstr "'Mehr Lesen'"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Dieser Text zeigt an, dass mehr Text vorhanden ist als auf der Seite gezeigt "
 "wird. Wenn dieses Feld freigelassen wird, wird PivotX die Default-"
@@ -2903,10 +2903,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Geblockte Dateien wieder freisetzen"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Auf einigen Servern, bei denen der unselige safe_mode eingeschaltet ist, muß "
 "man ein wenig mit dieser Option herumprobieren.<br />Bei den meisten Servern "
@@ -2984,9 +2985,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Schreibweise des vollständigen Datums"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Format-Festlegung für das ausführliche Datum (full date).<br />Wird meistens "
 "zu Beginn eines einzelnen Artikels ausgegeben"
@@ -3291,8 +3293,8 @@ msgstr "In PivotX einloggen um die PivotX URL zu setzen"
 msgid "PivotX is not allowed to read this folder."
 msgstr "PivotX ist nicht berechtigt, diesen Ordner zu lesen."
 
-#, php-format
-msgid "The file %s was deleted"
+#, fuzzy, php-format
+msgid "The file %s was deleted."
 msgstr "Die Datei %s wurde gelöscht."
 
 #, php-format

@@ -1,5 +1,5 @@
 # Translation of PivotX to Dutch
-# Copyright (C) 2008-2010 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # Bob den Otter <bob@pivotx.net> (www.pivotx.net)
 # Sander <sander@creativefocus.nl> (www.creativefocus.nl)
@@ -8,9 +8,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.2.x\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: 2011-01-11 08:14+0100\n"
 "Last-Translator: Bob den Otter <bob@pivotx.net>\n"
 "Language-Team: \n"
@@ -1023,7 +1023,7 @@ msgid "website"
 msgstr "website"
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 "Misschien zijn we wel iemand vergeten.. Laat het ons dan weten, dan voegen "
@@ -2057,11 +2057,11 @@ msgstr "Geregistreerde gebruiker"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 "Bepaalt of deze reactie wordt getoond alsof deze geplaatst is door een "
 "geregistreerde gebruiker. (Los van of de gebruiker daadwerkelijk "
-"geregistreerd is)"
+"geregistreerd is.)"
 
 msgid ""
 "If set to 'yes', the visitor will be notified by email of any subsequent "
@@ -2084,7 +2084,7 @@ msgstr "Modereer Reactie"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "Reactiemoderatie staat aan op deze site. Dit betekent dat je reactie niet "
 "zichtbaar zal zijn, tot deze is goedgekeurd door een beheerder."
@@ -2285,11 +2285,11 @@ msgstr "Laatst gezien op"
 msgid "Create Category"
 msgstr "Categorie Aanmaken"
 
-msgid "The name that the category is represented by in the weblog"
-msgstr "De naam die de categorie aanduidt in de weblog"
+msgid "The name that the category is represented by in the weblog."
+msgstr "De naam die de categorie aanduidt in de weblog."
 
-msgid "This category needs a name"
-msgstr "Je dient wel een naam in te vullen"
+msgid "This category needs a name."
+msgstr "Je dient wel een naam in te vullen."
 
 msgid ""
 "Select the Users that you would like to give permission to post in this "
@@ -2300,26 +2300,26 @@ msgstr ""
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Als je deze op 'Ja' zet, wordt deze categorie verborgen in de lijst met "
-"archieven. (alleen van toepassing op 'live pages')"
+"archieven. (Alleen van toepassing op 'live pages'.)"
 
 msgid "Chapter name"
 msgstr "Naam Hoofdstuk"
 
-msgid "The name of this chapter"
-msgstr "De naam van dit Hoofdstuk"
+msgid "The name of this chapter."
+msgstr "De naam van dit Hoofdstuk."
 
-msgid "A short description of this chapter"
-msgstr "Een korte beschrijving van dit Hoofdstuk"
+msgid "A short description of this chapter."
+msgstr "Een korte beschrijving van dit Hoofdstuk."
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2368,7 +2368,7 @@ msgstr "'Lees meer' Tekst"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "De tekst die gebruikt wordt om aan te geven dat er meer tekst is dan dat er "
 "weergegeven wordt. Als je dit leeg laat, gebruikt PivotX de standaard tekst, "
@@ -2904,7 +2904,7 @@ msgstr "Unlink Files"
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Op sommige servers waar de gruwelijke safe_mode aanstaat moet je met deze "
 "optie spelen om je log het best te laten werken. Op de meeste servers heeft "
@@ -2982,9 +2982,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Volledige datum formaat"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr "Bepaalt de syntax van een volledige datum."
 
 msgid "Entry Date"
@@ -3283,7 +3284,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "PivotX mag deze map niet lezen."
 
 #, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Het bestand %s is verwijderd."
 
 #, php-format

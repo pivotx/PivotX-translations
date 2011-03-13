@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1027,7 +1027,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2199,7 +2199,7 @@ msgstr "Rekisteröi uusi käyttäjätunnus."
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2221,7 +2221,7 @@ msgstr "Poista kommentti"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
@@ -2426,10 +2426,11 @@ msgstr "Muokattu viimeksi"
 msgid "Create Category"
 msgstr "Luo kategoria"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Tämä kategoria täytyy nimetä"
 
 msgid ""
@@ -2438,9 +2439,10 @@ msgid ""
 msgstr ""
 "Valitse käyttäjät, joille haluat antaa oikeudet kirjoittaa tähän kategoriaan"
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Alemman lajittelujärjestyksen kategoriat näkyvät korkeammalla tuloksissa. "
 "Mikäli kaikki numerot ovat samansuuruiset, tulokset järjestetään aakkosten "
@@ -2449,7 +2451,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Mikäli valitset 'Kyllä', tämä kategoria pysyy piilossa arkistoinneilta. "
 "(koskee vain live pages -sivuja)"
@@ -2459,11 +2461,12 @@ msgid "Chapter name"
 msgstr "Kategoria"
 
 #, fuzzy
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "Indeksoi tämä kategoria"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Indeksoi tämä kategoria"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2515,7 +2518,7 @@ msgstr "'Lue lisää' Teksti"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Teksti, jota näytetään osoittamaan, että kaikki teksti ei ole näkyvissä "
 "etusivulla.. Jos jätät tämän tyhjäksi, Pivot käyttää kielivalinnoissa "
@@ -3032,10 +3035,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Poista tiedostolinkitykset"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Jotkin palvelimet, joissa pirullinen safe-mode on kytketty päälle, saattavat "
 "vaatia näpräilyä tällä valinnalla. Useimmilla palvelimella valinnalla ei ole "
@@ -3106,9 +3110,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Täydellinen päivämäärä"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Tämä määrittää asetukseksi täyden päivämäärän ja kellonajan. Käytetään "
 "yksittäiskirjoitussivun yläosassa"
@@ -3404,7 +3409,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "Toimenpide ei ole sallittu %title%lle!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Kommentti on poistettu."
 
 #, fuzzy, php-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1024,7 +1024,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2193,7 +2193,7 @@ msgstr "Daftar username baru."
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2215,7 +2215,7 @@ msgstr "Simpan Komentar"
 
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
@@ -2423,10 +2423,11 @@ msgstr "Terakhir diubah pada"
 msgid "Create Category"
 msgstr "Buat Kategori"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Anda belum memberi nama kategori ini"
 
 msgid ""
@@ -2434,9 +2435,10 @@ msgid ""
 "category"
 msgstr "Pilih pengguna yang Anda beri ijin untuk mengirim ke kategori ini"
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Kategori dengan urutan yang lebih rendah akan ditampilkan di bagian atas "
 "dari daftar. Jika urutannya sama, maka akan diurutkan menurut abjad"
@@ -2444,7 +2446,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr ""
 "Jika diatur ke 'Ya', kategori ini akan tersembunyi dalam daftar arsip. "
 "(hanya berlaku untuk halaman yang aktif)"
@@ -2454,11 +2456,12 @@ msgid "Chapter name"
 msgstr "Kategori"
 
 #, fuzzy
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "Buat indeks untuk kategori ini"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Buat indeks untuk kategori ini"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2511,7 +2514,7 @@ msgstr "'Baca Tambahan' Teks"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Teks yang digunakan untuk menandakan adanya teks tambahan dalam entri ini "
 "dibanding yang terlihat pada halaman depan. Jika Anda membiarkannya kosong, "
@@ -3030,10 +3033,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "File yang tidak mempunyai link"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "Beberapa instance dari server di mana safe_mode yang tidak menyenangkan "
 "diaktifkan, kemungkinan perlu bermain dengan opsi ini. Pada kebanyakan "
@@ -3104,9 +3108,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Format tanggal lengkap"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Ini menentukan format untuk tanggal dan waktu yang lengkap. Yang paling "
 "sering digunakan pada bagian atas dari sebuah halaman entri"
@@ -3402,7 +3407,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "Anda tidak dapat melakukannya dengan entri %title%!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Komentar telah dihapus."
 
 #, fuzzy, php-format

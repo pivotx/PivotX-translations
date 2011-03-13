@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 21:44+0100\n"
+"POT-Creation-Date: 2011-03-13 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1026,7 +1026,7 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some.. Please let us know if we did, and we'll give "
+"We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
 
@@ -2189,7 +2189,7 @@ msgstr "Registerførd"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
-"(regardless of whether the comment was actually made by a registered user)"
+"(Regardless of whether the comment was actually made by a registered user.)"
 msgstr ""
 
 msgid ""
@@ -2215,7 +2215,7 @@ msgstr "Vurder innspel"
 #, fuzzy
 msgid ""
 "If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue"
+"been approved in the moderation queue."
 msgstr ""
 "Innspelsvurdering er på på denne staden. Dette tyder at innspel ikkje kjem "
 "ut før dei er godkjende av ein endringsbrukar."
@@ -2423,10 +2423,11 @@ msgstr "Siste etterførsel"
 msgid "Create Category"
 msgstr "Set opp teigen"
 
-msgid "The name that the category is represented by in the weblog"
+msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-msgid "This category needs a name"
+#, fuzzy
+msgid "This category needs a name."
 msgstr "Teigen lyt ha eit namn"
 
 msgid ""
@@ -2434,9 +2435,10 @@ msgid ""
 "category"
 msgstr "Vel kven som kan senda inn innlegg til teigen"
 
+#, fuzzy
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
-"keep all the numbers the same, they will be sorted alphabetically"
+"keep all the numbers the same, they will be sorted alphabetically."
 msgstr ""
 "Teig med lægre radtal kjem høgare opp på remsa. Dersom nokon fær same "
 "radtalet, kjem dei i bokstavfylgd i staden"
@@ -2444,7 +2446,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
-"(applies only to live pages)"
+"(Applies only to live pages.)"
 msgstr "Val av «Med» tek teigen ut or arkivremsa (berre for «Radt ut»-sidor)."
 
 #, fuzzy
@@ -2452,11 +2454,12 @@ msgid "Chapter name"
 msgstr "I teigen"
 
 #, fuzzy
-msgid "The name of this chapter"
+msgid "The name of this chapter."
 msgstr "Teigen på søkjeremsa"
 
-msgid "A short description of this chapter"
-msgstr ""
+#, fuzzy
+msgid "A short description of this chapter."
+msgstr "Teigen på søkjeremsa"
 
 msgid ""
 "The sorting order determines the order in which the Chapters are listed."
@@ -2508,7 +2511,7 @@ msgstr "«Framhald»"
 msgid ""
 "The text that is used to indicate that there is more text in this entry than "
 "is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings"
+"default as defined by the language settings."
 msgstr ""
 "Ord som skal fortelja at teksti held fram på ei onnor sida. Ved å leiva "
 "posten tom, kjem Pivot til å nytta det faste, slike det er sett opp i "
@@ -3016,10 +3019,11 @@ msgstr ""
 msgid "Unlink Files"
 msgstr "Bladutkopling"
 
+#, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
 "require playing with this option. On most servers this option will not have "
-"any effect"
+"any effect."
 msgstr ""
 "På sume vevtenarar med det gyslege «safe_mode» påslege, lyt ein gjerne leika "
 "seg med denne innstillingi. Oftast har dette valet inkje å segja"
@@ -3089,9 +3093,10 @@ msgstr ""
 msgid "Full date format"
 msgstr "Fullt tidsstempel"
 
+#, fuzzy
 msgid ""
 "This determines the format for the full date and time. Most often used at "
-"the top of a single entry page"
+"the top of a single entry page."
 msgstr ""
 "Avgjer oppsetet på det fulle tidsstempelet. Stend oftast øvst på ei "
 "eittinnleggssida"
@@ -3398,7 +3403,7 @@ msgid "PivotX is not allowed to read this folder."
 msgstr "Du har ikkje løyve til å gjera det med innlegget «%title%»!"
 
 #, fuzzy, php-format
-msgid "The file %s was deleted"
+msgid "The file %s was deleted."
 msgstr "Innspelet er stroke."
 
 #, fuzzy, php-format
