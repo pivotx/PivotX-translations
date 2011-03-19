@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-03-13 23:08+0100\n"
-"PO-Revision-Date: 2011-01-28 13:07+0100\n"
+"PO-Revision-Date: 2011-03-18 20:38+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -345,13 +345,15 @@ msgid ""
 "# Use a hash to add comments or disable a user\n"
 "# Example: password|username\n"
 msgstr ""
+"# Adjon meg soronként egy felhasználónevet jelszóval együtt.\n"
+"# Használjon kettőskeresztet a kommentekhez vagy a felhasználó letiltásához\n"
+"# Példa: jelszó|felhasználó\n"
 
 msgid "Yes, but only pages and entries"
-msgstr ""
+msgstr "Igen, de csak az oldalakhoz és bejegyzésekhez"
 
-#, fuzzy
 msgid "Yes, for the complete site"
-msgstr "A teljes bejegyzés megtekintése"
+msgstr "Igen, a teljes weboldalra"
 
 msgid "Enable password protection"
 msgstr "Jelszavas védelem engedélyezése"
@@ -394,10 +396,10 @@ msgid "When the user is not granted access, show this text."
 msgstr "Ha a felhasználónak nincs hozzáférése, ezt a szöveget mutassa."
 
 msgid "All access ipnumbers"
-msgstr ""
+msgstr "Teljes hozzáférésű IP-címek"
 
 msgid "These ipnumbers can access everything without password."
-msgstr ""
+msgstr "Ezek az IP-címek jelszó megadása nélkül mindenhez hozzáférhetnek."
 
 msgid "Users"
 msgstr "Felhasználók"
@@ -1025,8 +1027,8 @@ msgid ""
 "We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
-"Valószínűleg kifelejtettünk pár embert ... Ha igen, kérjük tudassa velünk és a "
-"következő kiadásban pótoljuk a mulasztást."
+"Valószínűleg kifelejtettünk pár embert ... Ha igen, kérjük tudassa velünk és "
+"a következő kiadásban pótoljuk a mulasztást."
 
 msgid "Comments waiting for moderation"
 msgstr "Hozzászólások várnak moderálásra"
@@ -1101,7 +1103,7 @@ msgid "User agent"
 msgstr "User agent"
 
 msgid "In moderation"
-msgstr "Moderációs sorban"
+msgstr "Moderálás alatt"
 
 msgid "No title"
 msgstr "Nincs cím"
@@ -1141,8 +1143,7 @@ msgstr "Címkék"
 
 msgid "Separate Tags with spaces. E.g., movies jedi starwars (not 'star wars')"
 msgstr ""
-"Válassza el a címkéket szóközzel. Pl.: filmek jedi startwars (nem 'star "
-"wars')"
+"Válassza el a címkéket szóközzel. Pl.: filmek jedi starwars (nem 'star wars')"
 
 msgid "Post Status"
 msgstr "Bejegyzés állapota"
@@ -1252,9 +1253,8 @@ msgstr "Elküldés vagy előnézet"
 msgid "Post and Continue Editing"
 msgstr "Beküldés és a szerkesztés folytatása"
 
-#, fuzzy
 msgid "Languages"
-msgstr "Nyelv"
+msgstr "Nyelvek"
 
 msgid "Order"
 msgstr "Sorszám"
@@ -1526,7 +1526,7 @@ msgid "With the checked entries, do:"
 msgstr "A kijelöltekkel végzendő művelet:"
 
 msgid "- select an option -"
-msgstr "- válasszon lehetőséget -"
+msgstr "- válasszon -"
 
 msgid "Set Status to \"publish\""
 msgstr "Állapot változtatása \"publikált\""
@@ -1912,8 +1912,8 @@ msgid ""
 "Download a zip file containing your configuration files, templates or "
 "entries database"
 msgstr ""
-"Zip fájl letöltése ami tartalmazza a konfigurációs fájljait, sablonokat vagy "
-"a bejegyzések adatbázisát."
+"A konfigurációs file-okat, sablonokat vagy a bejegyzések adatbázisát "
+"tartalmazó .zip file letöltése."
 
 msgid "Empty Cache"
 msgstr "Gyorstár ürítése"
@@ -2037,7 +2037,7 @@ msgid "Backup all your entries"
 msgstr "Bejegyzések biztonsági mentése"
 
 msgid "Backup all files in the db folder"
-msgstr "Biztonsági másolat készítése a db könyvtár tartalmáról"
+msgstr "A teljes db könyvtár biztonsági mentése"
 
 msgid "Backup configuration files"
 msgstr "Konfigurációs file-ok biztonsági mentése"
@@ -2304,13 +2304,12 @@ msgstr ""
 "Az alacsonyabb sorszámmal ellátott kategóriák a listán előrébb jelennek meg. "
 "Ha a számok megegyeznek, a kategóriák sorba rendezése betűrendben történik."
 
-#, fuzzy
 msgid ""
 "If set to \"Yes\", this category will be hidden in archive listings. "
 "(Applies only to live pages.)"
 msgstr ""
-"Ha 'igen'-re állítja, a kategória nem jelenik meg az archívumban. (csak a "
-"publikált oldalakra érvényes)"
+"Ha \"igen\"-re állítja, a kategória nem jelenik meg az archívumban. (Csak a "
+"publikált oldalakra érvényes.)"
 
 msgid "Chapter name"
 msgstr "Fejezet neve"
@@ -3569,7 +3568,7 @@ msgid "PivotX Image Cropper"
 msgstr "PivotX Képvágó"
 
 msgid "Crop size"
-msgstr "Méretre vágása"
+msgstr "Méretre vágás"
 
 msgid "can not be opened"
 msgstr "nem nyitható meg"
@@ -3622,25 +3621,25 @@ msgid "Added on:"
 msgstr "Hozzáadva:"
 
 msgid "Sunday"
-msgstr "Vasárnap"
+msgstr "vasárnap"
 
 msgid "Monday"
-msgstr "Hétfő"
+msgstr "hétfő"
 
 msgid "Tuesday"
-msgstr "Kedd"
+msgstr "kedd"
 
 msgid "Wednesday"
-msgstr "Szerda"
+msgstr "szerda"
 
 msgid "Thursday"
-msgstr "Csütörtök"
+msgstr "csütörtök"
 
 msgid "Friday"
-msgstr "Péntek"
+msgstr "péntek"
 
 msgid "Saturday"
-msgstr "Szombat"
+msgstr "szombat"
 
 msgid "S_Sunday_initial"
 msgstr "V"
@@ -3664,97 +3663,97 @@ msgid "S_Saturday_initial"
 msgstr "Sz"
 
 msgid "Sun"
-msgstr "Vas"
+msgstr "vas"
 
 msgid "Mon"
-msgstr "Hét"
+msgstr "hét"
 
 msgid "Tue"
-msgstr "Ked"
+msgstr "ked"
 
 msgid "Wed"
-msgstr "Sze"
+msgstr "sze"
 
 msgid "Thu"
-msgstr "Csü"
+msgstr "csü"
 
 msgid "Fri"
-msgstr "Pén"
+msgstr "pén"
 
 msgid "Sat"
-msgstr "Szo"
+msgstr "szo"
 
 msgid "January"
-msgstr "Január"
+msgstr "január"
 
 msgid "February"
-msgstr "Február"
+msgstr "február"
 
 msgid "March"
-msgstr "Március"
+msgstr "március"
 
 msgid "April"
-msgstr "Április"
+msgstr "április"
 
 msgid "May"
-msgstr "Május"
+msgstr "május"
 
 msgid "June"
-msgstr "Június"
+msgstr "június"
 
 msgid "July"
-msgstr "Július"
+msgstr "július"
 
 msgid "August"
-msgstr "Augusztus"
+msgstr "augusztus"
 
 msgid "September"
-msgstr "Szeptember"
+msgstr "szeptember"
 
 msgid "October"
-msgstr "Október"
+msgstr "október"
 
 msgid "November"
-msgstr "November"
+msgstr "november"
 
 msgid "December"
-msgstr "December"
+msgstr "december"
 
 msgid "Jan_January_abbreviation"
-msgstr "Jan"
+msgstr "jan"
 
 msgid "Feb_February_abbreviation"
-msgstr "Feb"
+msgstr "feb"
 
 msgid "Mar_March_abbreviation"
-msgstr "Már"
+msgstr "már"
 
 msgid "Apr_April_abbreviation"
-msgstr "Ápr"
+msgstr "ápr"
 
 msgid "May_May_abbreviation"
-msgstr "Máj"
+msgstr "máj"
 
 msgid "Jun_June_abbreviation"
-msgstr "Jún"
+msgstr "jún"
 
 msgid "Jul_July_abbreviation"
-msgstr "Júl"
+msgstr "júl"
 
 msgid "Aug_August_abbreviation"
-msgstr "Aug"
+msgstr "aug"
 
 msgid "Sep_September_abbreviation"
-msgstr "Szep"
+msgstr "szep"
 
 msgid "Oct_October_abbreviation"
-msgstr "Okt"
+msgstr "okt"
 
 msgid "Nov_November_abbreviation"
-msgstr "Nov"
+msgstr "nov"
 
 msgid "Dec_December_abbreviation"
-msgstr "Dec"
+msgstr "dec"
 
 msgid "am"
 msgstr "de"
@@ -4042,49 +4041,50 @@ msgstr "Moblog bejegyzés nincs elküldve"
 msgid "Processed: %s"
 msgstr "Feldolgozva: %s"
 
-#, fuzzy
 msgid "Enable multiple languages"
-msgstr "Alapértelmezett nyelv"
+msgstr "Többnyelvűség engedélyezése"
 
-#, fuzzy
 msgid "Language used if none could be detected."
-msgstr "A bejegyzéseket nem lehet törölni."
+msgstr "A használt nyelv, ha nincs más megadva."
 
 msgid "Languages that your website is using."
-msgstr ""
+msgstr "A weboldalad által használt nyelvek"
 
 msgid "Language variable name"
-msgstr ""
+msgstr "Nyelvi változó neve"
 
-#, fuzzy
 msgid "Give a proper variable name"
-msgstr "Kérem, helyes domain nevet adjon meg!"
+msgstr "Helyes változó nevet adjon meg!"
 
 msgid "GET, POST or COOKIE variable used to detect language."
-msgstr ""
+msgstr "GET, POST vagy COOKIE változó használandó a nyelv észleléséhez."
 
 msgid "URL language patterns"
-msgstr ""
+msgstr "URL szerinti beállítások"
 
 msgid ""
 "Enter lines with hosts and their respective language. Wildcards are allowed. "
 "Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
 msgstr ""
+"Soronként adja meg a hostokhoz tartozó nyelveket. Wildcard használata "
+"engedélyezett. Példák: \"http://www.twokings.nl | nl\", \"http://.+.twokings."
+"co.uk | en\""
 
-#, fuzzy
 msgid "Language locales"
-msgstr "Nyelv"
+msgstr "Területi beállítások"
 
 msgid ""
 "Enter lines with locale and it's respective language. Wildcards are allowed. "
 "Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
 msgstr ""
+"Soronként adja meg a területi beállításokhoz tartozó nyelvet. Wildcard "
+"használata engedélyezett. Példák: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
 
 msgid "Nederlands"
-msgstr ""
+msgstr "Holland"
 
 msgid "English"
-msgstr ""
+msgstr "Angol"
 
 msgid "Tag cloud for"
 msgstr "Címke felhő ehhez"
@@ -4677,10 +4677,11 @@ msgid "%s did '%s'."
 msgstr "%s '%s'."
 
 msgid "Your new password is %pass%."
-msgstr "Az új jelszava: <q>%pass%</q>."
+msgstr "Az új jelszava: %pass%."
 
 msgid "PivotX was not able to send a mail with the reset link."
 msgstr ""
+"A PivotX nem volt képes elküldeni a helyreállító linket tartalmazó levelet."
 
 msgid "Setup user"
 msgstr "Felhasználó beállítása"
@@ -4890,7 +4891,7 @@ msgid "Moblogging"
 msgstr "Moblogging"
 
 msgid "Multilingual"
-msgstr ""
+msgstr "Többnyelvűség"
 
 msgid "Rebuild the index of your Database"
 msgstr "Adatbázis indexének újraépítése"
