@@ -1,15 +1,16 @@
 # Translation of PivotX to Japanese
 # Copyright (C) 2008-2009 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
-# Yuji TAKENAKA <webmaster@davilin.com>, 2008-2009.
+# Yuji Takenaka <webmaster@davilin.com>, 2008-2009.
+# Marc <marc@nemissa.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-03-13 23:08+0100\n"
-"PO-Revision-Date: 2009-02-24 23:03-0500\n"
-"Last-Translator: Yuji Takenaka <webmaster@davilin.com>\n"
+"PO-Revision-Date: 2011-04-10 12:11+0730\n"
+"Last-Translator: Marc <marc@nemissa.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,13 +42,11 @@ msgstr "キーワード"
 msgid "Frequency"
 msgstr "頻度"
 
-#, fuzzy
 msgid "Previous Month"
-msgstr "以前の貢献者"
+msgstr "先月"
 
-#, fuzzy
 msgid "Next Month"
-msgstr "月"
+msgstr "来月"
 
 msgid "Start day of the week"
 msgstr ""
@@ -79,7 +78,7 @@ msgstr "アップロード"
 
 #, fuzzy
 msgid "Gallery"
-msgstr "すべて"
+msgstr "ギャラリー"
 
 #, fuzzy
 msgid "Edit Gallery"
@@ -203,17 +202,14 @@ msgstr "統計データ"
 msgid "Updated time"
 msgstr "ファイルをアップロード"
 
-#, fuzzy
 msgid "Order items"
 msgstr "順序"
 
-#, fuzzy
 msgid "Ascending"
-msgstr "日付表示"
+msgstr "昇順"
 
-#, fuzzy
 msgid "Descending"
-msgstr "日付表示"
+msgstr "降順"
 
 #, fuzzy
 msgid "Widget Style"
@@ -231,7 +227,6 @@ msgstr "このウィジェットに対する色定義を選択して下さい。
 msgid "Header format"
 msgstr "サポートリーダー"
 
-#, fuzzy
 msgid "Error!"
 msgstr "エラー"
 
@@ -319,13 +314,11 @@ msgstr "<a href='http://last.fm'>Last.fm</a>にログインするための名前
 msgid "Playing \"%nicefilename%\"."
 msgstr ""
 
-#, fuzzy
 msgid "Youtube video \"%basename%\"."
 msgstr "Youtube ビデオ \\'%basename%\\'"
 
-#, fuzzy
 msgid "Vimeo video \"%basename%\"."
-msgstr "Youtube ビデオ \\'%basename%\\'"
+msgstr "Vimeo ビデオ \\'%basename%\\'"
 
 msgid "Video \"%nicefilename%\""
 msgstr ""
@@ -684,7 +677,6 @@ msgstr ""
 msgid "About"
 msgstr "サイトについて"
 
-#, fuzzy
 msgid "Latest Comments"
 msgstr "最近のコメント"
 
@@ -756,7 +748,7 @@ msgid "Meta"
 msgstr "メタ情報"
 
 msgid "(optional field)"
-msgstr ""
+msgstr "(必要なし)"
 
 msgid "Comment"
 msgstr "コメント"
@@ -918,9 +910,8 @@ msgstr ""
 msgid "order"
 msgstr "順序"
 
-#, fuzzy
 msgid "back to top"
-msgstr "ログイン画面に戻る"
+msgstr "トップへ戻る"
 
 #, fuzzy
 msgid "Edit this page"
@@ -1098,7 +1089,6 @@ msgstr "ようこそ、ゲストさん。"
 msgid "Welcome back"
 msgstr "お帰りなさい。"
 
-#, fuzzy
 msgid "IP address"
 msgstr "IPアドレス"
 
@@ -1119,7 +1109,7 @@ msgstr "章"
 
 #, fuzzy
 msgid "none"
-msgstr "1"
+msgstr "無い"
 
 msgid "Template"
 msgstr "テンプレート"
@@ -1187,7 +1177,7 @@ msgstr "コメント"
 
 #, fuzzy
 msgid "Other"
-msgstr "10月"
+msgstr "その他"
 
 msgid "Overview"
 msgstr "概要"
@@ -1289,7 +1279,6 @@ msgstr "最終更新日"
 msgid "Are you sure you wish to delete this page?"
 msgstr "このページを削除してもよろしいですか？"
 
-#, fuzzy
 msgid "Delete page"
 msgstr "ページを削除"
 
@@ -1309,7 +1298,6 @@ msgstr "保存"
 msgid "Update available"
 msgstr ""
 
-#, fuzzy
 msgid "Version"
 msgstr "バージョン"
 
@@ -1372,7 +1360,6 @@ msgstr "トラックバック送信"
 msgid "View Comments and Trackbacks"
 msgstr "トラックバックの編集"
 
-#, fuzzy
 msgid "Trackbacks"
 msgstr "トラックバック"
 
@@ -1380,7 +1367,6 @@ msgstr "トラックバック"
 msgid "Are you sure you wish to delete this entry?"
 msgstr "このエントリを削除してもよろしいですか？"
 
-#, fuzzy
 msgid "Delete entry"
 msgstr "エントリの削除"
 
@@ -1496,7 +1482,6 @@ msgstr ""
 msgid "List of uploaded files"
 msgstr "更にファイルをアップロードする"
 
-#, fuzzy
 msgid "Done"
 msgstr "完了"
 
@@ -1545,13 +1530,11 @@ msgstr "ポップアップを挿入"
 msgid "Timed"
 msgstr "タイトル"
 
-#, fuzzy
 msgid "Held"
 msgstr "保留"
 
-#, fuzzy
 msgid "Edit this entry"
-msgstr "このエントリを編集"
+msgstr "エントリを編集"
 
 msgid "categories"
 msgstr "カテゴリ"
@@ -1706,7 +1689,6 @@ msgstr ""
 "イメージを挿入するには、イメージをアップロードするか既にアップロードしてある"
 "イメージを選択してください。"
 
-#, fuzzy
 msgid "File name"
 msgstr "ファイル名"
 
@@ -1763,7 +1745,6 @@ msgstr "エントリの概要"
 msgid "overview of comments"
 msgstr "エントリの概要"
 
-#, fuzzy
 msgid "Entry"
 msgstr "エントリ"
 
@@ -1780,9 +1761,8 @@ msgstr "PivotXニュース"
 msgid "Visit the website"
 msgstr "ウェブサイトを訪問"
 
-#, fuzzy
 msgid "The latest events"
-msgstr "最新エントリ"
+msgstr "最新エベント"
 
 msgid "Show more items"
 msgstr "項目を更に表示"
@@ -2067,14 +2047,12 @@ msgstr "適切なパスワードを入力してください。"
 msgid "Stay logged in?"
 msgstr "ログイン状態を保持しますか？"
 
-#, fuzzy
 msgid "Lost your password?"
 msgstr "パスワードをお忘れですか？"
 
 msgid "Send password"
 msgstr "パスワードを送信"
 
-#, fuzzy
 msgid "Reset my password"
 msgstr "パスワードをリセット"
 
@@ -2142,7 +2120,6 @@ msgstr ""
 "'はい'を選択することで、投稿されたコメントは管理者により許可されるまで表示さ"
 "れません。"
 
-#, fuzzy
 msgid "Save Trackback"
 msgstr "トラックバックを保存"
 
@@ -3293,7 +3270,6 @@ msgstr ""
 msgid "The directory '<tt>%s</tt>' is not writeable."
 msgstr "ユーザー '<tt>%s</tt>' は存在しません。"
 
-#, fuzzy
 msgid "Fatal Error"
 msgstr "PivotXエラー"
 
@@ -3301,7 +3277,6 @@ msgstr "PivotXエラー"
 msgid "The file '<tt>%s</tt>' is not writeable."
 msgstr "ユーザー '<tt>%s</tt>' は存在しません。"
 
-#, fuzzy
 msgid "Fatal error"
 msgstr "PivotXエラー"
 
@@ -3409,13 +3384,11 @@ msgstr "%value%時間前"
 msgid "this morning"
 msgstr "今朝"
 
-#, fuzzy
 msgid "yesterday morning"
-msgstr "昨晩"
+msgstr "昨朝"
 
-#, fuzzy
 msgid "this evening"
-msgstr "今朝"
+msgstr "今晩"
 
 msgid "yesterday evening"
 msgstr "昨晩"
@@ -4119,9 +4092,8 @@ msgstr ""
 msgid "Nederlands"
 msgstr ""
 
-#, fuzzy
 msgid "English"
-msgstr "作成"
+msgstr "英語"
 
 msgid "Tag cloud for"
 msgstr "タグクラウド："
@@ -4170,11 +4142,9 @@ msgstr "ウェブログ"
 msgid "entry"
 msgstr "エントリ"
 
-#, fuzzy
 msgid "RSS feed"
-msgstr "フィードを表示"
+msgstr "RSSフィード"
 
-#, fuzzy
 msgid "Atom feed"
 msgstr "Atomフィード"
 
@@ -4665,13 +4635,13 @@ msgstr ""
 msgid "%s saved page '%s'."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged in."
-msgstr "ログイン中"
+msgstr "%s ログインしました。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged out."
-msgstr "ログアウト"
+msgstr "%s ログアウトしました。"
 
 #, php-format
 msgid "Failed login attempt for '%s'."
@@ -4863,9 +4833,8 @@ msgstr "'%s' に対する設定を更新しました。"
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
 msgstr "エントリ %number% - %editlink% に対するコメントの編集と削除"
 
-#, fuzzy
 msgid "The trackback was deleted."
-msgstr "トラックバックは保存されました。"
+msgstr "トラックバックは削除されました。"
 
 #, fuzzy
 msgid "The IP-address has been added to the blocklist."
@@ -4882,7 +4851,6 @@ msgstr "IPアドレスリストは保存されました。"
 msgid "The IP-address couldn't be removed from the blocklist."
 msgstr "IPアドレスリストは保存されました。"
 
-#, fuzzy
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "トラックバック管理"
 
@@ -4908,7 +4876,6 @@ msgstr "コメントを閲覧するにはエントリを選択する必要があ
 msgid "Edit or Delete Trackbacks"
 msgstr "トラックバック管理"
 
-#, fuzzy
 msgid "The Trackback was saved!"
 msgstr "トラックバックは保存されました。"
 
@@ -5041,13 +5008,11 @@ msgstr "ユーザー '<tt>%s</tt>' は存在しません。"
 msgid "The user was deleted"
 msgstr "ユーザーを削除しました。"
 
-#, fuzzy
 msgid "Email already in use"
-msgstr "そのユーザー名は既に使用されています。"
+msgstr "そのメールアドは既に使用されています。"
 
-#, fuzzy
 msgid "Nickname already in use"
-msgstr "そのユーザー名は既に使用されています。"
+msgstr "そのニックネームは既に使用されています。"
 
 #, fuzzy, php-format
 msgid "The settings for user %s have been updated."
@@ -5060,9 +5025,9 @@ msgstr ""
 msgid "Username already in use"
 msgstr "そのユーザー名は既に使用されています。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The user %s has been created."
-msgstr "新しいウェブログが作成されました。"
+msgstr "新しいユーザー %s が作成されました。"
 
 msgid "No account found for visitor."
 msgstr "ビジター用のアカウントはありません。"
@@ -5098,7 +5063,6 @@ msgstr "コメントを保存しました。"
 msgid "The Comment was approved!"
 msgstr "コメントを保存しました。"
 
-#, fuzzy
 msgid "link"
 msgstr "リンク"
 
