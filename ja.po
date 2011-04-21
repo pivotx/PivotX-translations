@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-03-13 23:08+0100\n"
-"PO-Revision-Date: 2011-04-10 12:11+0730\n"
+"PO-Revision-Date: 2011-04-14 19:19+0730\n"
 "Last-Translator: Marc Nemissa\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -76,13 +76,11 @@ msgstr "ファイルをアップロード"
 msgid "Upload"
 msgstr "アップロード"
 
-#, fuzzy
 msgid "Gallery"
 msgstr "ギャラリー"
 
-#, fuzzy
 msgid "Edit Gallery"
-msgstr "カテゴリを編集"
+msgstr "ギャラリーを編集"
 
 #, fuzzy
 msgid "Add an image"
@@ -150,7 +148,6 @@ msgstr ""
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "おっと！グーグルカレンダーのフィードを読み込めないようです。"
 
-#, fuzzy
 msgid "My Calendar"
 msgstr "カレンダー"
 
@@ -326,9 +323,8 @@ msgstr ""
 msgid "This page requires a password to view. Please give the password."
 msgstr ""
 
-#, fuzzy
 msgid "You don't have access to this page"
-msgstr "アクセス権限がありません。"
+msgstr "このページへのアクセス権限がありません。"
 
 msgid ""
 "You didn't provide the correct password to access the requested entry. If "
@@ -353,9 +349,8 @@ msgstr "完全なエントリを閲覧"
 msgid "Enable password protection"
 msgstr ""
 
-#, fuzzy
 msgid "Default password"
-msgstr "デフォルトの作者"
+msgstr "既定のデフォルト"
 
 msgid "This is the password that's requested when no other password is given."
 msgstr ""
@@ -404,9 +399,8 @@ msgstr ""
 msgid "Users"
 msgstr "ユーザー"
 
-#, fuzzy
 msgid "Password Protect"
-msgstr "パスワードリセット"
+msgstr "パスワードを守る"
 
 msgid "Yes, protect this page with a password."
 msgstr ""
@@ -445,9 +439,8 @@ msgid ""
 "this blank if you're not sure."
 msgstr ""
 
-#, fuzzy
 msgid "Note"
-msgstr "テキスト処理無し"
+msgstr "ノート"
 
 msgid ""
 "It seems you're running PivotX from a local network. The Picnik "
@@ -518,7 +511,6 @@ msgid ""
 "will take longer to load your site."
 msgstr ""
 
-#, fuzzy
 msgid "Order by"
 msgstr "順序"
 
@@ -533,17 +525,15 @@ msgstr "日付表示"
 msgid "Alphabet"
 msgstr ""
 
-#, fuzzy
 msgid "Random"
-msgstr "閲覧日"
+msgstr "不特定"
 
 #, fuzzy
 msgid "Select the order in which the images are shown."
 msgstr "各章が表示されるときの順序を決定します。"
 
-#, fuzzy
 msgid "Use popup"
-msgstr "ポップアップを挿入"
+msgstr "ポップアップを使用"
 
 msgid "Thickbox"
 msgstr ""
@@ -562,9 +552,8 @@ msgstr "アイコンを使用"
 msgid "Leaf"
 msgstr "左寄せ"
 
-#, fuzzy
 msgid "All"
-msgstr "許可する"
+msgstr "全部"
 
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
@@ -646,13 +635,11 @@ msgstr "<a href='http://last.fm'>Last.fm</a>にログインするための名前
 msgid "Include weblog frontpages"
 msgstr ""
 
-#, fuzzy
 msgid "Include entries"
-msgstr "テンプレートを含める"
+msgstr "エントリを含める"
 
-#, fuzzy
 msgid "Include pages"
-msgstr "テンプレートを含める"
+msgstr "ページを含める"
 
 msgid "Filter as any robot"
 msgstr ""
@@ -875,17 +862,14 @@ msgstr "検索"
 msgid "Show all"
 msgstr ""
 
-#, fuzzy
 msgid "Uploading"
-msgstr "アップロード"
+msgstr "アップロードしています"
 
-#, fuzzy
 msgid "uploaded"
-msgstr "アップロード"
+msgstr "アップロードしました"
 
-#, fuzzy
 msgid "Uploaded"
-msgstr "アップロード"
+msgstr "アップロードしました"
 
 #, fuzzy
 msgid "File extension error"
@@ -895,9 +879,8 @@ msgstr "エクステンション用ディレクトリ"
 msgid "Upload too big"
 msgstr "アップロード"
 
-#, fuzzy
 msgid "Upload error"
-msgstr "更にアップロード"
+msgstr "アップロードエラー"
 
 msgid "Orphaned Pages"
 msgstr "残っているページ"
@@ -913,9 +896,8 @@ msgstr "順序"
 msgid "back to top"
 msgstr "トップへ戻る"
 
-#, fuzzy
 msgid "Edit this page"
-msgstr "このコメントを編集"
+msgstr "このページを編集"
 
 msgid "Timed Publish"
 msgstr "期日指定発行"
@@ -1092,22 +1074,19 @@ msgstr "お帰りなさい。"
 msgid "IP address"
 msgstr "IPアドレス"
 
-#, fuzzy
 msgid "User agent"
-msgstr "テキストを使用"
+msgstr "ユーザエージェント"
 
 #, fuzzy
 msgid "In moderation"
 msgstr "イントロダクション"
 
-#, fuzzy
 msgid "No title"
-msgstr "エントリ日付"
+msgstr "タイトルがありません"
 
 msgid "Chapter"
 msgstr "章"
 
-#, fuzzy
 msgid "none"
 msgstr "無い"
 
@@ -1121,9 +1100,8 @@ msgstr "By"
 msgid "Posted"
 msgstr "ページを投稿"
 
-#, fuzzy
 msgid "No name"
-msgstr "名前"
+msgstr "名前がありません"
 
 msgid "On"
 msgstr ""
@@ -1175,7 +1153,6 @@ msgstr "エントリ"
 msgid "Comments"
 msgstr "コメント"
 
-#, fuzzy
 msgid "Other"
 msgstr "その他"
 
@@ -1213,35 +1190,29 @@ msgstr "最新エントリ"
 msgid "The latest pages"
 msgstr "最新ページ"
 
-#, fuzzy
 msgid "The latest trackbacks"
-msgstr "最新エントリ"
+msgstr "最新トラックバック"
 
-#, fuzzy
 msgid "Blog Name"
 msgstr "ウェブログ名"
 
 msgid "Edit this trackback"
 msgstr "このトラックバックを編集"
 
-#, fuzzy
 msgid "Delete this trackback?"
-msgstr "削除"
+msgstr "このトラックバックを削除しますか？"
 
-#, fuzzy
 msgid "There are no latest trackbacks"
-msgstr "最新のコメントはありません。"
+msgstr "最新のトラックバックはありません。"
 
 msgid "No trackbacks"
 msgstr "トラックバック（0）"
 
-#, fuzzy
 msgid "The configuration for \"%key%\" was successfully updated."
-msgstr "エントリ \"%s\" を保存しました。"
+msgstr "設定 \"%s\" を更新しました。"
 
-#, fuzzy
 msgid "The configuration could not be updated."
-msgstr "エントリの削除に失敗しました。"
+msgstr "設定の更新に失敗しました。"
 
 msgid "Permalink"
 msgstr "パーマリンク"
@@ -1262,9 +1233,8 @@ msgstr "プレビュー"
 msgid "Post and Continue Editing"
 msgstr "投稿し編集を続ける"
 
-#, fuzzy
 msgid "Languages"
-msgstr "使用言語"
+msgstr "言語"
 
 msgid "Order"
 msgstr "順序"
@@ -1275,7 +1245,6 @@ msgstr "作成日"
 msgid "Last edited on"
 msgstr "最終更新日"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this page?"
 msgstr "このページを削除してもよろしいですか？"
 
@@ -1316,17 +1285,14 @@ msgstr "XMLフィード"
 msgid "Commenting"
 msgstr "コメント"
 
-#, fuzzy
 msgid "Back to Weblogs"
-msgstr "ログイン画面に戻る"
+msgstr "ウェブログ画面に戻る"
 
-#, fuzzy
 msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "'%s' に対する設定を更新しました。"
+msgstr "\"%key%\" に対する設定を更新しました。"
 
-#, fuzzy
 msgid "The weblog settings could not be updated."
-msgstr "エントリの削除に失敗しました。"
+msgstr "設定の更新に失敗しました。"
 
 msgid "Insert a Tag"
 msgstr "タグを挿入"
@@ -1363,7 +1329,6 @@ msgstr "トラックバックの編集"
 msgid "Trackbacks"
 msgstr "トラックバック"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this entry?"
 msgstr "このエントリを削除してもよろしいですか？"
 
@@ -1457,9 +1422,8 @@ msgstr "ファイル名"
 msgid "Duplicate"
 msgstr "複製"
 
-#, fuzzy
 msgid "New file name?"
-msgstr "ファイル名"
+msgstr "新しいファイル名？"
 
 msgid "Create a new file"
 msgstr "新規ファイルを作成"
@@ -1609,21 +1573,17 @@ msgstr "ビジター情報の編集"
 msgid "You are about to delete visitor %1. Are you sure?"
 msgstr "ビジター %1 を削除します。よろしいですか？"
 
-#, fuzzy
 msgid "Insert PivotX Image"
-msgstr "イメージを挿入"
+msgstr "PivotXイメージを挿入"
 
-#, fuzzy
 msgid "Insert PivotX Popup"
-msgstr "タグを挿入"
+msgstr "PivotXポップアップを挿入"
 
-#, fuzzy
 msgid "Insert PivotX Download"
-msgstr "ダウンロードリンクを挿入"
+msgstr "PivotXダウンロードリンクを挿入"
 
-#, fuzzy
 msgid "Insert PivotX Tag"
-msgstr "タグを挿入"
+msgstr "PivotXタグを挿入"
 
 msgid "The default category is:"
 msgstr "デフォルトのカテゴリは次の通り："
@@ -1677,9 +1637,8 @@ msgstr "ウェブログ %1 を削除します。よろしいですか？"
 msgid "Export as theme"
 msgstr "テーマとしてエクスポート"
 
-#, fuzzy
 msgid "Insert a file"
-msgstr "イメージを挿入"
+msgstr "ファイルを挿入"
 
 #, fuzzy
 msgid ""
@@ -1692,13 +1651,11 @@ msgstr ""
 msgid "File name"
 msgstr "ファイル名"
 
-#, fuzzy
 msgid "Select a file"
-msgstr "ファイルの選択"
+msgstr "ファイルを選択"
 
-#, fuzzy
 msgid "Insert file!"
-msgstr "イメージを挿入"
+msgstr "ファイルを挿入！"
 
 #, fuzzy
 msgid "Edit Entry (fullscreen)"
@@ -1802,7 +1759,7 @@ msgstr ""
 
 #, fuzzy, php-format
 msgid "The file %s is not writable"
-msgstr "ユーザー '<tt>%s</tt>' は存在しません。"
+msgstr "ファイル %s は書き込みできません。"
 
 #, fuzzy, php-format
 msgid "Finished! Generating index for %s entries took %s seconds "
@@ -1928,7 +1885,6 @@ msgstr "スパムプロテクション"
 msgid "Overview of the various tools to keep your weblogs spam-free"
 msgstr "スパムを防止するための様々なツールの概要"
 
-#, fuzzy
 msgid "Spam Configuration"
 msgstr "スパム設定"
 
@@ -2123,9 +2079,8 @@ msgstr ""
 msgid "Save Trackback"
 msgstr "トラックバックを保存"
 
-#, fuzzy
 msgid "Entry title"
-msgstr "エントリ日付"
+msgstr "エントリタイトル"
 
 msgid "Excerpt"
 msgstr "抜粋"
@@ -2421,7 +2376,6 @@ msgid ""
 "directory for each weblog."
 msgstr ""
 
-#, fuzzy
 msgid "Sorting order"
 msgstr "ソート順序"
 
@@ -2774,9 +2728,8 @@ msgid ""
 "site."
 msgstr "コメントの表示に許可が必要かどうかを設定します。"
 
-#, fuzzy
 msgid "Website online"
-msgstr "サイトリンク"
+msgstr "サイトオンライン"
 
 msgid "Set your website offline for maintenance or upgrade."
 msgstr ""
@@ -3268,14 +3221,14 @@ msgstr ""
 
 #, fuzzy, php-format
 msgid "The directory '<tt>%s</tt>' is not writeable."
-msgstr "ユーザー '<tt>%s</tt>' は存在しません。"
+msgstr "ディレクトリ '<tt>%s</tt>' は書き込みできません。"
 
 msgid "Fatal Error"
 msgstr "PivotXエラー"
 
 #, fuzzy, php-format
 msgid "The file '<tt>%s</tt>' is not writeable."
-msgstr "ユーザー '<tt>%s</tt>' は存在しません。"
+msgstr "ファイル '<tt>%s</tt>' は書き込みできません。"
 
 msgid "Fatal error"
 msgstr "PivotXエラー"
@@ -3293,9 +3246,9 @@ msgstr "URLをセットするためにPivotXにログインしてください"
 msgid "PivotX is not allowed to read this folder."
 msgstr "PivotXはこのフォルダの読み込みを許可されていません。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was deleted."
-msgstr "ユーザーを削除しました。"
+msgstr "ファイル %s を削除しました。"
 
 #, fuzzy, php-format
 msgid "The file has been copied: %s to %s."
@@ -3306,17 +3259,17 @@ msgid ""
 "and whether the target file does not exist."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "The folder %s was created."
-msgstr "ユーザーを削除しました。"
+msgstr "新しいフォルダ %s が作成されました。"
 
 #, php-format
 msgid "The folder %s was <b>NOT</b> created."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was created."
-msgstr "新しいウェブログが作成されました。"
+msgstr "新しいファイル %s が作成されました。"
 
 #, php-format
 msgid "The file %s was <b>NOT</b> created."
@@ -3469,9 +3422,9 @@ msgstr "設定を閲覧"
 msgid "This email was sent to"
 msgstr "このメールは次の方に送信されました"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New entry \"%s\""
-msgstr "新規エントリ"
+msgstr "新規エントリ \"%s\""
 
 #, php-format
 msgid "New visitor registration - %s"
@@ -4148,13 +4101,11 @@ msgstr "RSSフィード"
 msgid "Atom feed"
 msgstr "Atomフィード"
 
-#, fuzzy
 msgid "RSS feed for comments"
-msgstr "コメント"
+msgstr "コメントのRSSフィード"
 
-#, fuzzy
 msgid "Atom feed for comments"
-msgstr "コメント"
+msgstr "コメントのAtomフィード"
 
 msgid "category"
 msgstr "カテゴリ"
@@ -4208,7 +4159,6 @@ msgstr "このウェブサイトのエントリ内で使用されている語句
 msgid "Enter the word[s] to search for here:"
 msgstr "検索する語句："
 
-#, fuzzy
 msgid "Enter search terms"
 msgstr "検索語句を入力"
 
@@ -4326,9 +4276,8 @@ msgstr "使用タグ"
 msgid "One trackback"
 msgstr "トラックバック（1）"
 
-#, fuzzy
 msgid "Trackback link"
-msgstr "トラックバック送信"
+msgstr "トラックバックリンク"
 
 msgid "Please enable javascript to generate a trackback url"
 msgstr "トラックバック用URLを生成するには、JavaScriptを有効にしてください。"
@@ -4586,7 +4535,6 @@ msgid ""
 msgstr ""
 "コメントする場合は、Javascriptを有効にしてこのページを再読込してください。"
 
-#, fuzzy
 msgid "My weblog"
 msgstr "ウェブログ"
 
@@ -4621,19 +4569,19 @@ msgstr "総エントリ数 %num_tot% 中、%num_from%から%num_to%までを表�
 
 #, php-format
 msgid "%s started editing entry '%s'."
-msgstr ""
+msgstr "%s はエントリ '%s' を編集して始めました。"
 
 #, php-format
 msgid "%s started editing page '%s'."
-msgstr ""
+msgstr "%s はページ '%s' を編集して始めました。"
 
 #, php-format
 msgid "%s saved entry '%s'."
-msgstr ""
+msgstr "%s はエントリ '%s' を保存しました。"
 
 #, php-format
 msgid "%s saved page '%s'."
-msgstr ""
+msgstr "%s はページ '%s' を保存しました。"
 
 #, php-format
 msgid "%s logged in."
@@ -4649,59 +4597,59 @@ msgstr ""
 
 #, php-format
 msgid "%s edited the setting for '%s'."
-msgstr ""
+msgstr "%s は '%s' に対する設定を編集しました。"
 
 #, php-format
 msgid "%s added weblog '%s'."
-msgstr ""
+msgstr "%s はウェブログ '%s' を登録しました。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited a weblog setting for '%s'."
-msgstr "次のウェブログの設定を編集 "
+msgstr "%s は '%s' に対する設定を編集しました。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted weblog '%s'."
-msgstr "ウェブログを削除します。"
+msgstr "%s はウェブログ '%s' を削除しました。"
 
 #, php-format
 msgid "%s saved the file '%s'."
-msgstr ""
+msgstr "%s はファイル '%s' を保存しました。"
 
 #, php-format
 msgid "%s added user '%s'."
-msgstr ""
+msgstr "%s はユーザー '%s' を登録しました。"
 
 #, php-format
 msgid "%s edited user '%s'."
-msgstr ""
+msgstr "%s はユーザー '%s' を編集しました。"
 
 #, php-format
 msgid "%s deleted user '%s'."
-msgstr ""
+msgstr "%s はユーザー '%s' を削除しました。"
 
 #, php-format
 msgid "%s edited category '%s'."
-msgstr ""
+msgstr "%s はカテゴリ '%s' を編集しました。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted category '%s'."
-msgstr "デフォルトのカテゴリは次の通り："
+msgstr "%s はカテゴリ '%s' を削除しました。"
 
 #, php-format
 msgid "%s added chapter '%s'."
-msgstr ""
+msgstr "%s は章 '%s' を登録しました。"
 
 #, php-format
 msgid "%s edited chapter '%s'."
-msgstr ""
+msgstr "%s は章 '%s' を編集しました。"
 
 #, php-format
 msgid "%s did '%s' on '%s'."
-msgstr ""
+msgstr "%s は '%s' に '%s' をしました。"
 
 #, php-format
 msgid "%s did '%s'."
-msgstr ""
+msgstr "%s は '%s' をしました。"
 
 #, fuzzy
 msgid "Your new password is %pass%."
@@ -4737,9 +4685,8 @@ msgstr "エントリを削除しました。"
 msgid "The entries could not be deleted."
 msgstr "エントリの削除に失敗しました。"
 
-#, fuzzy
 msgid "You are not allowed to delete this entry."
-msgstr "このファイルを編集することは許可されていません。"
+msgstr "このエントリを削除することは許可されていません。"
 
 msgid "The entry has been deleted"
 msgstr "エントリを削除しました。"
@@ -4807,21 +4754,18 @@ msgstr ""
 msgid "You are not allowed to edit this page."
 msgstr "このページを編集することは許可されていません。"
 
-#, fuzzy
 msgid "You are not allowed to delete this chapter."
-msgstr "このページを編集することは許可されていません。"
+msgstr "この章を削除することは許可されていません。"
 
 msgid "The Chapter has been deleted."
 msgstr "章を削除しました。"
 
-#, fuzzy
 msgid "You are not allowed to delete this page."
-msgstr "このページを編集することは許可されていません。"
+msgstr "このページを削除することは許可されていません。"
 
 msgid "The Page has been deleted."
 msgstr "ページを削除しました。"
 
-#, fuzzy
 msgid "You are not allowed to add/edit this page."
 msgstr "このページを編集することは許可されていません。"
 
@@ -4829,9 +4773,8 @@ msgstr "このページを編集することは許可されていません。"
 msgid "The settings for chapter '%s' have been updated."
 msgstr "'%s' に対する設定を更新しました。"
 
-#, fuzzy
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
-msgstr "エントリ %number% - %editlink% に対するコメントの編集と削除"
+msgstr "エントリ %number% - %editlink% に対するトラックバックの編集と削除"
 
 msgid "The trackback was deleted."
 msgstr "トラックバックは削除されました。"
@@ -5048,20 +4991,18 @@ msgstr "ウェブログを編集"
 msgid "Ok"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Your page \"%s\" was successfully saved."
-msgstr "エントリ \"%s\" を保存しました。"
+msgstr "ページ \"%s\" を保存しました。"
 
 msgid "Edit Comment"
 msgstr "編集"
 
-#, fuzzy
 msgid "The Comment was disapproved!"
-msgstr "コメントを保存しました。"
+msgstr "コメントを許可しませんでした！"
 
-#, fuzzy
 msgid "The Comment was approved!"
-msgstr "コメントを保存しました。"
+msgstr "コメントを許可しました！"
 
 msgid "link"
 msgstr "リンク"
