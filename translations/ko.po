@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -604,10 +604,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "줄 안에"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "유효한 이메일 주소가 아닙니다."
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "링크를 새 창에서 열기"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS Feed"
 
 msgid "Rating button description"
 msgstr ""
@@ -650,12 +677,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "웹로그"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "새 웹로그"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "서식 만들기"
 
 #, fuzzy
+msgid "Only category"
+msgstr "갈래"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "갈래 고치기"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "서식 만들기"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "갈래"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "갈래"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -898,6 +969,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "올리기"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "올리기"
 
 #, fuzzy
@@ -4084,15 +4159,13 @@ msgstr "파일을 올립니다"
 msgid "Click for image"
 msgstr "최근"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "덧글이 저장되었습니다."
+
+#, fuzzy
+msgid "User"
+msgstr "사용자"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4683,6 +4756,10 @@ msgstr "이전 보관소"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "사용자 고치기"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5164,6 +5241,10 @@ msgstr "덧글이 저장되었습니다."
 msgid "link"
 msgstr "다른 곳들"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "부제"
+
 #~ msgid "Send Pings"
 #~ msgstr "핑 보내기"
 
@@ -5342,10 +5423,6 @@ msgstr "다른 곳들"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "날짜"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "갈래"
 
 #, fuzzy
 #~ msgid ""
@@ -5845,9 +5922,6 @@ msgstr "다른 곳들"
 
 #~ msgid "Text Processing"
 #~ msgstr "텍스트 처리"
-
-#~ msgid "Open links in new window"
-#~ msgstr "링크를 새 창에서 열기"
 
 #~ msgid ""
 #~ "Determines if all links used in entries will open links in a new browser "

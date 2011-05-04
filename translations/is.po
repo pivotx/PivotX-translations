@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -606,10 +606,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Inline"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Þetta netfang er ekki til"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Opna hlekki í nýjum glugga"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS Feed"
 
 msgid "Rating button description"
 msgstr ""
@@ -652,12 +679,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Blogg"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Nýtt blogg"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Búa til sniðmát"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Kafli"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Laga kafla"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Búa til sniðmát"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kafli"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Kafli"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -902,6 +973,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Hlaða"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Hlaða"
 
 #, fuzzy
@@ -4097,15 +4172,13 @@ msgstr "Hlaða inn skrám"
 msgid "Click for image"
 msgstr "Sýna síðasta"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Athugasemd þín hefur verið vistuð."
+
+#, fuzzy
+msgid "User"
+msgstr "Notendur"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4697,6 +4770,10 @@ msgstr "Fyrri eldri færslur"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Laga notanda"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5177,6 +5254,10 @@ msgstr "Athugasemd hefur verið vistuð."
 msgid "link"
 msgstr "Hlekkir"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Skýringartexti"
+
 #~ msgid "Send Pings"
 #~ msgstr "Senda hljóðmerki"
 
@@ -5366,10 +5447,6 @@ msgstr "Hlekkir"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Dagsetning"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kafli"
 
 #, fuzzy
 #~ msgid ""
@@ -5888,9 +5965,6 @@ msgstr "Hlekkir"
 
 #~ msgid "Text Processing"
 #~ msgstr "Tenging texta"
-
-#~ msgid "Open links in new window"
-#~ msgstr "Opna hlekki í nýjum glugga"
 
 #~ msgid ""
 #~ "Determines if all links used in entries will open links in a new browser "

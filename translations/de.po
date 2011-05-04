@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2010-12-11 14:08+0100\n"
 "Last-Translator: Holger Handstein <handstein@der-privatanleger.de>\n"
 "Language-Team: \n"
@@ -607,12 +607,38 @@ msgstr ""
 "Codierung von IPTC-Texten zu Bildern. (Nutze die iconv-Codiernamen. Leer "
 "lassen, um nicht zu codieren."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Diese Icons stellen eine Verbindung zu sogenannten Social Bookmarking "
 "Webseiten her, auf denen Leser neue Webseiten entdecken können."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Inline"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Das ist kein korrekter Wert!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+msgid "Open in new window"
+msgstr ""
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Feeds anzeigen"
 
 msgid "Rating button description"
 msgstr "Beschreibung des Rating-Buttons"
@@ -656,11 +682,55 @@ msgstr "Der verwendete Name zum Einloggen auf %s"
 msgid "Include weblog frontpages"
 msgstr "Weblog-Hauptseiten einschließen"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Mein Weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Weblog ansehen"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Artikel einschließen"
 
+#, fuzzy
+msgid "Only category"
+msgstr "Kategorie"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Kategorie bearbeiten"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Seiten einschließen"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kapitel"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Kapitel editieren"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -903,6 +973,10 @@ msgstr "Fehlerhafte Dateiendung"
 #, fuzzy
 msgid "Upload too big"
 msgstr "Lade hoch"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Fehler beim Hochladen"
 
 msgid "Upload error"
 msgstr "Fehler beim Hochladen"
@@ -4042,21 +4116,13 @@ msgstr "... und %s weitere Dateien."
 msgid "Click for image"
 msgstr "Klicke für das Bild"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Dein Artikel ist veröffentlicht worden! \n"
-"\n"
-"Titel: %s\n"
-"Verfasser: %s\n"
-"Kategorie: %s\n"
-"Einleitung: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Dein Kommentar wurde gespeichert."
+
+#, fuzzy
+msgid "User"
+msgstr "Benutzer"
 
 msgid "Moblog entry posted"
 msgstr "Moblog-Artikel veröffentlicht"
@@ -4643,6 +4709,10 @@ msgstr "Vorherige Seite"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Anzeigen der Artikel %num_from% bis %num_to% von %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Unterschiedliche Besucher"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s hat begonnen den Artikel '%s' zu bearbeiten"
@@ -5086,6 +5156,25 @@ msgstr "Der Kommentar wurde akzeptiert."
 msgid "link"
 msgstr "Link"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Untertitel"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Dein Artikel ist veröffentlicht worden! \n"
+#~ "\n"
+#~ "Titel: %s\n"
+#~ "Verfasser: %s\n"
+#~ "Kategorie: %s\n"
+#~ "Einleitung: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Passwortschutz für Artikel erlauben."
 
@@ -5316,10 +5405,6 @@ msgstr "Link"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Datum"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kapitel"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "Format von 'Antworten ..'"

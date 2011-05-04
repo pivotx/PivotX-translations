@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2011-04-14 19:19+0730\n"
 "Last-Translator: Marc Nemissa\n"
 "Language-Team: \n"
@@ -588,12 +588,39 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "これらのアイコンは、訪問者が新しいウェブページを発見・共有するためのソーシャ"
 "ルブックマークサービスへのリンクです。"
+
+#, fuzzy
+msgid "Tagline"
+msgstr "インライン"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "適切なユーザー名ではありません。"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "リンクを新規ウィンドウで開く"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "フィードを表示"
 
 msgid "Rating button description"
 msgstr ""
@@ -635,11 +662,55 @@ msgstr "<a href='http://last.fm'>Last.fm</a>にログインするための名前
 msgid "Include weblog frontpages"
 msgstr ""
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "ウェブログ"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "ウェブログを閲覧"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "エントリを含める"
 
+#, fuzzy
+msgid "Only category"
+msgstr "カテゴリ"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "カテゴリを編集"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "ページを含める"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "章"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "章を編集"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -878,6 +949,10 @@ msgstr "エクステンション用ディレクトリ"
 #, fuzzy
 msgid "Upload too big"
 msgstr "アップロード"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "アップロードエラー"
 
 msgid "Upload error"
 msgstr "アップロードエラー"
@@ -3978,15 +4053,13 @@ msgstr "残り %s ファイル.."
 msgid "Click for image"
 msgstr "関連するFlickr画像 "
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "コメントは保存されました。"
+
+#, fuzzy
+msgid "User"
+msgstr "ユーザー"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4567,6 +4640,10 @@ msgstr "前のページ"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "総エントリ数 %num_tot% 中、%num_from%から%num_to%までを表示中。"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "ユニークビジター数"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s はエントリ '%s' を編集して始めました。"
@@ -5007,6 +5084,10 @@ msgstr "コメントを許可しました！"
 msgid "link"
 msgstr "リンク"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "サブタイトル"
+
 #~ msgid "Send Pings"
 #~ msgstr "ピング送信"
 
@@ -5238,9 +5319,6 @@ msgstr "リンク"
 
 #~ msgid "date"
 #~ msgstr "日付"
-
-#~ msgid "chapter"
-#~ msgstr "章"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "返信用フォーマット"
@@ -6134,9 +6212,6 @@ msgstr "リンク"
 #~ msgstr ""
 #~ "トラックバックが付けられたときに、登録したアドレスに通知メールを送信しま"
 #~ "す。"
-
-#~ msgid "Open links in new window"
-#~ msgstr "リンクを新規ウィンドウで開く"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Emoticonを使用する"

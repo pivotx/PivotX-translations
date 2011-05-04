@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2008-01-28 02:05+0100\n"
 "Last-Translator: Pivot Team <translations@pivotx.net>\n"
 "Language-Team: \n"
@@ -548,9 +548,32 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
+msgstr ""
+
+msgid "Tagline"
+msgstr ""
+
+msgid "That's not a proper tagline!"
+msgstr ""
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+msgid "Open in new window"
+msgstr ""
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+msgid "Show these links"
 msgstr ""
 
 msgid "Rating button description"
@@ -591,10 +614,48 @@ msgstr ""
 msgid "Include weblog frontpages"
 msgstr ""
 
+msgid "Only weblog"
+msgstr ""
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+msgid "Exclude weblog"
+msgstr ""
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr ""
 
+msgid "Only category"
+msgstr ""
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+msgid "Exclude category"
+msgstr ""
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
+msgstr ""
+
+msgid "Only chapter"
+msgstr ""
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+msgid "Exclude chapter"
+msgstr ""
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
 msgstr ""
 
 msgid "Filter as any robot"
@@ -818,6 +879,9 @@ msgid "File extension error"
 msgstr ""
 
 msgid "Upload too big"
+msgstr ""
+
+msgid "Upload init error"
 msgstr ""
 
 msgid "Upload error"
@@ -3633,14 +3697,10 @@ msgstr ""
 msgid "Click for image"
 msgstr ""
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
+msgid "Your entry has been posted!"
+msgstr ""
+
+msgid "User"
 msgstr ""
 
 msgid "Moblog entry posted"
@@ -4172,6 +4232,9 @@ msgid "Previous page"
 msgstr ""
 
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
+msgstr ""
+
+msgid "A visitor"
 msgstr ""
 
 #, php-format

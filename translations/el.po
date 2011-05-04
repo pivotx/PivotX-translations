@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -605,10 +605,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Εσωτερικό"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Άνοιγμα συνδέσμων σε νέο παράθυρο"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML Τροφοδοσία (RSS 1.0)"
 
 msgid "Rating button description"
 msgstr ""
@@ -651,12 +678,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Weblogs"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Νέο Weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Δημιουργία προτύπου"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Κατηγορία"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Αλλαγή σε κατηγορία"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Δημιουργία προτύπου"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Κατηγορία"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Κατηγορία"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -901,6 +972,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Αποστολή αρχείων"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Αποστολή αρχείων"
 
 #, fuzzy
@@ -4138,15 +4213,13 @@ msgstr "Αποστολή αρχείων"
 msgid "Click for image"
 msgstr "Παρουσίαση των τελευταίων"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Το σχόλιό σας αποθηκεύτηκε."
+
+#, fuzzy
+msgid "User"
+msgstr "Χρήστες"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4737,6 +4810,10 @@ msgstr "Προηγούμενη αρχειοθέτηση"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Επεξεργασία χρήστη"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5225,6 +5302,10 @@ msgstr "Το σχόλιο αποθηκεύτηκε."
 msgid "link"
 msgstr "Σύνδεσμοι"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Υπότιτλος"
+
 #~ msgid "Send Pings"
 #~ msgstr "Αποστολή ειδοποιήσεων"
 
@@ -5403,10 +5484,6 @@ msgstr "Σύνδεσμοι"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Ημερομηνία"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Κατηγορία"
 
 #, fuzzy
 #~ msgid ""
@@ -5941,9 +6018,6 @@ msgstr "Σύνδεσμοι"
 
 #~ msgid "Text Processing"
 #~ msgstr "Επεξεργασία κειμένου"
-
-#~ msgid "Open links in new window"
-#~ msgstr "Άνοιγμα συνδέσμων σε νέο παράθυρο"
 
 #~ msgid ""
 #~ "Determines if all links used in entries will open links in a new browser "

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2010-12-21 11:40+0800\n"
 "Last-Translator: smithfox <ssm.fox@gmail.com>\n"
 "Language-Team: \n"
@@ -575,10 +575,37 @@ msgid ""
 "for no decoding."
 msgstr "图像IPTC编码文本.(使用编码iconv名称). 留空则不进行解码."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr "这些图标链接到社交书签网站,读者可以在此共享和发现新的 web 页."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "内联"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "那不是一个合法的值!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "用新窗口打开链接"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "显示feeds"
 
 msgid "Rating button description"
 msgstr "评级按钮说明"
@@ -618,11 +645,55 @@ msgstr "你在 %s 用这个名字登录"
 msgid "Include weblog frontpages"
 msgstr "包括博客头版"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "我的博客"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "查看博客"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "包含文章"
 
+#, fuzzy
+msgid "Only category"
+msgstr "分类"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "编辑分类"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "包含静态页面"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "分类"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "编辑章节"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr "过滤所有机器人"
@@ -854,6 +925,10 @@ msgstr "文件扩展名错误"
 
 msgid "Upload too big"
 msgstr "上传文件过大"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "上传出错"
 
 msgid "Upload error"
 msgstr "上传出错"
@@ -3809,21 +3884,13 @@ msgstr "..和 %s 更多文件."
 msgid "Click for image"
 msgstr "打开图片"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"文章已发布！\n"
-"\n"
-"标题: %s\n"
-"用户: %s\n"
-"分类: %s\n"
-"介绍: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "您的评论已提交."
+
+#, fuzzy
+msgid "User"
+msgstr "用户"
 
 msgid "Moblog entry posted"
 msgstr "Moblog 文章已发布"
@@ -4381,6 +4448,10 @@ msgstr "前一页面"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "显示文章 %num_from%-%num_to% 共 %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "唯一游客"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s 开始编辑文章 '%s'."
@@ -4809,6 +4880,25 @@ msgstr "评论已经被批准了."
 msgid "link"
 msgstr "链接"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "副标题"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "文章已发布！\n"
+#~ "\n"
+#~ "标题: %s\n"
+#~ "用户: %s\n"
+#~ "分类: %s\n"
+#~ "介绍: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "是的,让所有的文章都有密码保护."
 
@@ -4998,10 +5088,6 @@ msgstr "链接"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "日期"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "分类"
 
 #, fuzzy
 #~ msgid ""
@@ -5456,9 +5542,6 @@ msgstr "链接"
 
 #~ msgid "Text Processing"
 #~ msgstr "Text Processing"
-
-#~ msgid "Open links in new window"
-#~ msgstr "用新窗口打开链接"
 
 #~ msgid ""
 #~ "Determines if all links used in entries will open links in a new browser "

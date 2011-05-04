@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -606,10 +606,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Satır içi"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Mail adresi geçersiz"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Linkleri yeni pencerede aç"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS Feed"
 
 msgid "Rating button description"
 msgstr ""
@@ -652,12 +679,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Webloglar"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Yeni Weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Şablon oluştur"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Kategori"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Kategori Düzenle"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Şablon oluştur"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kategori"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Kategori"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -902,6 +973,10 @@ msgstr "Uzantı klasörü"
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Gönder"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Gönder"
 
 #, fuzzy
@@ -4112,15 +4187,13 @@ msgstr "Dosya gönder"
 msgid "Click for image"
 msgstr "Sonuncuyu göster"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Yorumunuz kaydedildi."
+
+#, fuzzy
+msgid "User"
+msgstr "Kullanıcılar"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4718,6 +4791,10 @@ msgstr "Önceki Arşiv"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Yeni kullanıcı adı kaydı yap"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5203,6 +5280,10 @@ msgstr "Yorum kaydedildi."
 msgid "link"
 msgstr "Linkler"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Alt Başlıke"
+
 #~ msgid "Send Pings"
 #~ msgstr "Ping gönder"
 
@@ -5393,10 +5474,6 @@ msgstr "Linkler"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Tarih"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kategori"
 
 #, fuzzy
 #~ msgid "Format of \"reply ..\""
@@ -6006,9 +6083,6 @@ msgstr "Linkler"
 
 #~ msgid "Text Processing"
 #~ msgstr "Metin işlemi"
-
-#~ msgid "Open links in new window"
-#~ msgstr "Linkleri yeni pencerede aç"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Emotikon kullan"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -606,10 +606,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Sejajar"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Alamat email Anda tidak valid"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Membuka link pada window baru"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS Feed"
 
 msgid "Rating button description"
 msgstr ""
@@ -652,12 +679,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Weblog Baru"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Simpan template!"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Kategori"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Ubah Kategori"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Simpan template!"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kategori"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Kategori"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -903,6 +974,10 @@ msgstr "Direktori Extensi"
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Upload"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Upload"
 
 #, fuzzy
@@ -4157,15 +4232,13 @@ msgstr "Upload File"
 msgid "Click for image"
 msgstr "Tampilkan yang terakhir"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Komentar Anda telah disimpan."
+
+#, fuzzy
+msgid "User"
+msgstr "User"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4766,6 +4839,10 @@ msgstr "Arsip Sebelumnya"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Daftar username baru."
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5252,6 +5329,10 @@ msgstr "Komentar telah disimpan."
 msgid "link"
 msgstr "Link"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Sub Judul"
+
 #~ msgid "Send Pings"
 #~ msgstr "Kirim Ping"
 
@@ -5462,10 +5543,6 @@ msgstr "Link"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Tanggal"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kategori"
 
 #, fuzzy
 #~ msgid "Format of \"reply ..\""
@@ -6187,9 +6264,6 @@ msgstr "Link"
 #~ msgstr ""
 #~ "Jika diatur, sebuah email akan dikirim ke alamat ini ketika sebuah "
 #~ "Tracback ditambahkan."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Membuka link pada window baru"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Gunakan emoticon"
