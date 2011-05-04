@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2010-08-15 18:38+0100\n"
 "Last-Translator: Paolo Messina <ppescher@hotmail.com>\n"
 "Language-Team: \n"
@@ -603,12 +603,38 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Queste icone portano a siti di social bookmarking dove i lettori possono "
 "condividere e scoprire nuove pagine web."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Inline"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Valore non valido!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+msgid "Open in new window"
+msgstr ""
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Mostra i feeds"
 
 msgid "Rating button description"
 msgstr "Descrizione del pulsante valutazione"
@@ -655,11 +681,55 @@ msgstr ""
 msgid "Include weblog frontpages"
 msgstr "Includi le pagine iniziali dei weblog."
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Il mio weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Mostra weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Includi articoli"
 
+#, fuzzy
+msgid "Only category"
+msgstr "categoria"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Modifica categoria"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Includi pagine"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Sezione"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Modifica sezione"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -901,6 +971,10 @@ msgstr ""
 #, fuzzy
 msgid "Upload too big"
 msgstr "Carica"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Carica altri"
 
 #, fuzzy
 msgid "Upload error"
@@ -4049,21 +4123,13 @@ msgstr "... e %s altri file."
 msgid "Click for image"
 msgstr "Clicca per l'immagine"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Il tuo articolo è stato pubblicato! \n"
-"\n"
-"Titolo: %s\n"
-"Utente: %s\n"
-"Categoria: %s\n"
-"Introduzione: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "I tuoi commenti sono stati memorizzati."
+
+#, fuzzy
+msgid "User"
+msgstr "Utenti"
 
 msgid "Moblog entry posted"
 msgstr "Articolo Moblog inserito"
@@ -4641,6 +4707,10 @@ msgstr "Pagina precedente"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Articoli %num_from%-%num_to% di %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Visitatori unici"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s ha iniziato a modificare l'articolo '%s'."
@@ -5079,6 +5149,25 @@ msgstr "Il commento è stato approvato!"
 
 msgid "link"
 msgstr "Collegamento"
+
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Sottotitolo"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Il tuo articolo è stato pubblicato! \n"
+#~ "\n"
+#~ "Titolo: %s\n"
+#~ "Utente: %s\n"
+#~ "Categoria: %s\n"
+#~ "Introduzione: %s"
 
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Sì, consenti di proteggere le pagine con una password"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -606,10 +606,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Teksti sees"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "See pole kehtiv e-posti aadress"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Ava lingid uues aknas"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS Feed"
 
 msgid "Rating button description"
 msgstr ""
@@ -652,12 +679,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Ajaveebid"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Uus ajaveeb"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Loo vorm"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Kategooria"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Muuda kategooriat"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Loo vorm"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kategooria"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Kategooria"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -902,6 +973,10 @@ msgstr "Extensions directory"
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Üleslaadimine"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Üleslaadimine"
 
 #, fuzzy
@@ -4117,15 +4192,13 @@ msgstr "Lae üles faile"
 msgid "Click for image"
 msgstr "Näita viimaseid "
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Su kommentaar on salvestatud."
+
+#, fuzzy
+msgid "User"
+msgstr "Kasutajad"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4723,6 +4796,10 @@ msgstr "Eelmine arhiiv "
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Register a new username."
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5205,6 +5282,10 @@ msgstr "Kommentaar salvestati."
 msgid "link"
 msgstr "Lingid"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "alapealkiri"
+
 #~ msgid "Send Pings"
 #~ msgstr "Saada pinge"
 
@@ -5397,10 +5478,6 @@ msgstr "Lingid"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Kuupäev"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kategooria"
 
 #, fuzzy
 #~ msgid "Format of \"reply ..\""
@@ -6023,9 +6100,6 @@ msgstr "Lingid"
 #~ "If set, an email will be sent to this address when a Tracback is added."
 #~ msgstr ""
 #~ "If set, an email will be sent to this address when a Tracback is added."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Ava lingid uues aknas"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Kasuta smailisid"

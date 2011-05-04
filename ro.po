@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2011-02-26 20:52+0200\n"
 "Last-Translator: Laurentiu Nica <nick.laurentiu.nica@gmail.com>\n"
 "Language-Team: \n"
@@ -605,12 +605,39 @@ msgstr ""
 "Encodarea textelor IPTC a imaginii. (Foloseste encodarea de nume iconv.) "
 "Lasa liber pentru nici o decodare."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Aceste iconite sunt link la site-uri sociale de bookmarking unde cititorii "
 "pot impartasii si descoperii pagini de web noi."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "In linie"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Acesta nu este o valoare adecvata!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Deschide link-uri in fereastra noua"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Arata feed-uri"
 
 msgid "Rating button description"
 msgstr "Descrierea butonului de ratting"
@@ -656,11 +683,55 @@ msgstr "Numele cu care te autentifici la %s"
 msgid "Include weblog frontpages"
 msgstr "Include paginile principale din weblog"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Weblog-ul meu"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Vezi weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Include intrarile"
 
+#, fuzzy
+msgid "Only category"
+msgstr "categorie"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Editare Categorie"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Include paginile"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Capitol"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Editare Capitol"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr "Filtreaza ca oricare robot"
@@ -901,6 +972,10 @@ msgstr "Eroare extensie fisier"
 msgid "Upload too big"
 msgstr "Incarcare prea mare"
 
+#, fuzzy
+msgid "Upload init error"
+msgstr "Eroare de incarcare"
+
 msgid "Upload error"
 msgstr "Eroare de incarcare"
 
@@ -1018,8 +1093,8 @@ msgid ""
 "We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
-"Probabil ca am uitat cateva ... Te rog sa ne informezi si vom oferi credit in "
-"urmatoarea versiune."
+"Probabil ca am uitat cateva ... Te rog sa ne informezi si vom oferi credit "
+"in urmatoarea versiune."
 
 msgid "Comments waiting for moderation"
 msgstr "Comentarii care asteapta moderarea"
@@ -4027,21 +4102,13 @@ msgstr "... si %s alte fisiere."
 msgid "Click for image"
 msgstr "Click pentru imagine"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Intrarea ta a fost postata! \n"
-"\n"
-"Titlu: %s\n"
-"User: %s\n"
-"Categoria: %s\n"
-"Introducere: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Comentariul tau a fost stocat."
+
+#, fuzzy
+msgid "User"
+msgstr "Useri"
 
 msgid "Moblog entry posted"
 msgstr "Intrare moblog postata"
@@ -4621,6 +4688,10 @@ msgstr "Pagina anterioara"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Afiseaza intrarile %num_from%-%num_to% din %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Vizitatori unici"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s a inceput editarea intrarii '%s'."
@@ -5061,6 +5132,25 @@ msgstr "Comentariul a fost aprobat!"
 msgid "link"
 msgstr "link"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Subtitlu"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Intrarea ta a fost postata! \n"
+#~ "\n"
+#~ "Titlu: %s\n"
+#~ "User: %s\n"
+#~ "Categoria: %s\n"
+#~ "Introducere: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Da, permite intrarilor sa fie protejate cu parola."
 
@@ -5301,10 +5391,6 @@ msgstr "link"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Data"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Capitol"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "Formatul a \"raspunde ..\""
@@ -6225,9 +6311,6 @@ msgstr "link"
 #~ msgstr ""
 #~ "Daca este setat, un email va fi trimis la aceasta adresa cand un "
 #~ "Depistator este adaugat."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Deschide link-uri in fereastra noua"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Foloseste iconite de emotie"

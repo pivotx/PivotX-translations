@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2009-06-14 15:20+0100\n"
 "Last-Translator: Javier Lopez <vengoroso@gmail.com>\n"
 "Language-Team: \n"
@@ -609,12 +609,39 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Estos iconos enlazan a páginas de redes sociales donde los lectores pueden "
 "compartir y descubrir nuevas páginas web."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Entrelíneas"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "¡Ese no es un nombre de usuario válido!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Abrir los enlaces en una nueva ventana"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Mostrar los feeds"
 
 msgid "Rating button description"
 msgstr ""
@@ -658,12 +685,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Ver weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Incluír plantilla"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Categoría"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Editar Categoría"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Incluír plantilla"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "capítulo"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Editar Capítulo"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -907,6 +978,10 @@ msgstr "Directorio Extensions"
 #, fuzzy
 msgid "Upload too big"
 msgstr "Subir ficheros"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Subir más archivos"
 
 #, fuzzy
 msgid "Upload error"
@@ -4149,15 +4224,13 @@ msgstr ".. y %s archivos más."
 msgid "Click for image"
 msgstr "Pincha para ver la imagen"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Su comentario se ha guardado."
+
+#, fuzzy
+msgid "User"
+msgstr "Usuarios"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4760,6 +4833,10 @@ msgstr "Página anterior"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Mostrando entradas %num_from%-%nom_to% de $num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Visitantes únicos"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5215,6 +5292,10 @@ msgstr "¡El comentario se ha guardado!"
 msgid "link"
 msgstr "Enlaces"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Subtítulo"
+
 #~ msgid "Send Pings"
 #~ msgstr "Enviar Pings"
 
@@ -5438,9 +5519,6 @@ msgstr "Enlaces"
 
 #~ msgid "date"
 #~ msgstr "fecha"
-
-#~ msgid "chapter"
-#~ msgstr "capítulo"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "Formato de \"responder...\""
@@ -6287,9 +6365,6 @@ msgstr "Enlaces"
 #~ "If set, an email will be sent to this address when a Tracback is added."
 #~ msgstr ""
 #~ "If set, an email will be sent to this address when a Tracback is added."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Abrir los enlaces en una nueva ventana"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Usar emoticonos"

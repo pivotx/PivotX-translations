@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2010-03-25 11:42+0300\n"
 "Last-Translator: pivotx.ru <admin@pivotx.ru>\n"
 "Language-Team: Pivotx.RU <admin@pivotx.ru>\n"
@@ -592,10 +592,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Inline"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Не верное Имя Пользователя!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "нРЙПШБЮРЭ ЯЯШКЙХ Б МНБНЛ НЙМЕ"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "RSS поток (2.0)"
 
 msgid "Rating button description"
 msgstr ""
@@ -637,12 +664,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "блог"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "мНБШИ БЕАКНЦ"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "яНУПЮМХРЭ ЬЮАКНМ!"
 
 #, fuzzy
+msgid "Only category"
+msgstr "йЮРЕЦНПХЪ"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Редактировать Категории"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "яНУПЮМХРЭ ЬЮАКНМ!"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "йЮРЕЦНПХЪ"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Редактировать Раздел"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -880,6 +951,10 @@ msgstr "дХПЕЙРНПХЪ ДКЪ дНОНКМЕМХИ"
 #, fuzzy
 msgid "Upload too big"
 msgstr "Загрузить"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Загрузить еще"
 
 #, fuzzy
 msgid "Upload error"
@@ -3939,21 +4014,13 @@ msgstr ".. и еще %s файлов."
 msgid "Click for image"
 msgstr "оНЙЮГЮРЭ ОНЯКЕДМХЕ"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Ваша запись была опубликована \n"
-"\n"
-"Заголовок: %s\n"
-"Пользователь: %s\n"
-"Категория: %s\n"
-"Кратко: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Ваш комментарий был сохранен."
+
+#, fuzzy
+msgid "User"
+msgstr "Пользователи"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4529,6 +4596,10 @@ msgstr "Предыдущая страница"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Показываются записи %num_from%-%num_to% из %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Уникальных посетителей"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -4971,6 +5042,25 @@ msgstr "Комментарий проверен!"
 msgid "link"
 msgstr "лЕМЧ"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Подзаголовок"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Ваша запись была опубликована \n"
+#~ "\n"
+#~ "Заголовок: %s\n"
+#~ "Пользователь: %s\n"
+#~ "Категория: %s\n"
+#~ "Кратко: %s"
+
 #~ msgid "Send Pings"
 #~ msgstr "Отправить Пинг"
 
@@ -5166,10 +5256,6 @@ msgstr "лЕМЧ"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "дЮРЮ"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "йЮРЕЦНПХЪ"
 
 #, fuzzy
 #~ msgid ""
@@ -5776,9 +5862,6 @@ msgstr "лЕМЧ"
 
 #~ msgid "Text Processing"
 #~ msgstr "Text Processing"
-
-#~ msgid "Open links in new window"
-#~ msgstr "нРЙПШБЮРЭ ЯЯШКЙХ Б МНБНЛ НЙМЕ"
 
 #~ msgid "Use emoticons"
 #~ msgstr "хЯОНКЭГНБЮРЭ ЦПЮТХВЕЯЙХЕ ЯЛЮИКШ"

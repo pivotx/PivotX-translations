@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -605,10 +605,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Kèm theo"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Đây không phải là một địa chỉ email hợp lệ"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Mở liên kết trong một cửa sổ mới"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS Feed"
 
 msgid "Rating button description"
 msgstr ""
@@ -651,12 +678,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Các weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Tạo Weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Tạo bộ mẫu"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Chủ đề"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Biên tập chủ đề"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Tạo bộ mẫu"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Chủ đề"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Chủ đề"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -900,6 +971,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Tải lên"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Tải lên"
 
 #, fuzzy
@@ -4106,15 +4181,13 @@ msgstr "Tải tập tin lên"
 msgid "Click for image"
 msgstr "Trình bày referrer cuối cùng"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Góp ý của bạn đã được lưu."
+
+#, fuzzy
+msgid "User"
+msgstr "Người dùng"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4705,6 +4778,10 @@ msgstr "Bộ sưu tập trước"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Biên tập tài khoản người sử dụng"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5189,6 +5266,10 @@ msgstr "Góp ý đã được lưu."
 msgid "link"
 msgstr "Liên kết"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Tiểu tựa"
+
 #~ msgid "Send Pings"
 #~ msgstr "Gởi pings"
 
@@ -5368,10 +5449,6 @@ msgstr "Liên kết"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Ngày"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Chủ đề"
 
 #, fuzzy
 #~ msgid ""
@@ -5893,9 +5970,6 @@ msgstr "Liên kết"
 
 #~ msgid "Text Processing"
 #~ msgstr "Xử lý văn bản"
-
-#~ msgid "Open links in new window"
-#~ msgstr "Mở liên kết trong một cửa sổ mới"
 
 #~ msgid ""
 #~ "Determines if all links used in entries will open links in a new browser "

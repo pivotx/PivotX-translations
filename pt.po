@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -611,10 +611,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Justificado"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Este não é um endereço de e-mail válido"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Abra links numa nova janela"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Exibir feeds"
 
 msgid "Rating button description"
 msgstr ""
@@ -657,12 +684,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Weblogs"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Novo Weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Salvar template!"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Categoria"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Editar categoria"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Salvar template!"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Categoria"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Categoria"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -908,6 +979,10 @@ msgstr "Diretório de extensões"
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Enviar arquivos"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Enviar arquivos"
 
 #, fuzzy
@@ -4192,15 +4267,13 @@ msgstr "Enviar Arquivos"
 msgid "Click for image"
 msgstr "Imagens Flickr para"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Seu comentário foi registrado."
+
+#, fuzzy
+msgid "User"
+msgstr "Usuários"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4812,6 +4885,10 @@ msgstr "Arquivo Anterior"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Editar Visitante Registrado"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5299,6 +5376,10 @@ msgstr "O comentário foi salvo."
 msgid "link"
 msgstr "Links"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Subtítulo"
+
 #~ msgid "Send Pings"
 #~ msgstr "Enviar Pings"
 
@@ -5506,10 +5587,6 @@ msgstr "Links"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Data"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Categoria"
 
 #, fuzzy
 #~ msgid "Format of \"reply ..\""
@@ -6377,9 +6454,6 @@ msgstr "Links"
 #~ msgstr ""
 #~ "Caso seja ativado, um email será enviado para este endereço quando um "
 #~ "Tracback for adicionado."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Abra links numa nova janela"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Usar emoticons"

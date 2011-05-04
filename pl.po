@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2011-02-07 6:59+0100\n"
 "Last-Translator: Daniel Koć <kocio@linuxnews.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -599,12 +599,39 @@ msgstr ""
 "Kodowanie tekstu IPTC (użyj nazw kodowania iconv). Pozostaw puste aby nie "
 "używać dekodowania."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Te ikony prowadzą do społecznościowych serwisów z zakładkami, gdzie "
 "czytelnicy mogą dzielić się i odkrywać nowe strony internetowe."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "oblewanie"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "To nie jest prawidłowa wartość!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Otwieraj linki w nowym oknie"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Wyświetlaj kanały"
 
 msgid "Rating button description"
 msgstr "Opis przycisku oceny"
@@ -649,11 +676,55 @@ msgstr "Nazwa której używasz do logowania na %s"
 msgid "Include weblog frontpages"
 msgstr "Załączaj widoki głównych stron blogów"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Mój blog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Zobacz bloga"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Załączaj wpisy"
 
+#, fuzzy
+msgid "Only category"
+msgstr "kategoria"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Edycja kategorii"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Załączaj strony"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kategoria"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Edytuj rozdział"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr "Blokuj jak każdego robota"
@@ -892,6 +963,10 @@ msgstr "Błąd rozszerzenia pliku"
 
 msgid "Upload too big"
 msgstr "Wysyłka zbyt duża"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Błąd wysyłania"
 
 msgid "Upload error"
 msgstr "Błąd wysyłania"
@@ -3998,21 +4073,13 @@ msgstr "... i %s więcej plików."
 msgid "Click for image"
 msgstr "Kliknij grafikę"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Twój wpis został wysłany! \n"
-"\n"
-"Tytuł: %s\n"
-"Użytkownik: %s\n"
-"Kategoria: %s\n"
-"Wstęp: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Twój komentarz został zapisany."
+
+#, fuzzy
+msgid "User"
+msgstr "Użytkownicy"
 
 msgid "Moblog entry posted"
 msgstr "Wpis Mobloga został wysłany"
@@ -4583,6 +4650,10 @@ msgstr "poprzednia strona"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Wyświetlanie wpisów %num_from%-%num_to% z %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Unikalni goście"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s zaczął edytować wpis '%s'."
@@ -5022,6 +5093,25 @@ msgstr "Komentarz został zaakceptowany!"
 msgid "link"
 msgstr "link"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Podtytuł"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Twój wpis został wysłany! \n"
+#~ "\n"
+#~ "Tytuł: %s\n"
+#~ "Użytkownik: %s\n"
+#~ "Kategoria: %s\n"
+#~ "Wstęp: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Tak, zezwól na ochronę wpisów hasłem."
 
@@ -5228,9 +5318,6 @@ msgstr "link"
 
 #~ msgid "date"
 #~ msgstr "Data"
-
-#~ msgid "chapter"
-#~ msgstr "Kategoria"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "Format 'odpowiedz...'"
@@ -5906,9 +5993,6 @@ msgstr "link"
 #~ msgstr ""
 #~ "Jeśli ustawione, na podany adres zostanie wysłany email w momencie, kiedy "
 #~ "ślad (trackback) zostanie dodany."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Otwieraj linki w nowym oknie"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Używaj emotikon"

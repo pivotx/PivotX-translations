@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2011-03-18 20:38+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
@@ -614,12 +614,38 @@ msgstr ""
 "Az IPTC szövegek karakter-kódolása. (Használja az iconv karakter-kódolási "
 "neveket.) Hagyja üresen a karakter-kódolás mellőzéséhez."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Ezek az ikonok különböző könyvjelző-gyűjtő oldalakra vezetnek, ahol az "
 "olvasók megoszthatnak és felfedezhetnek új honlapokat."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Egyvonalban"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Nem megfelelő érték!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+msgid "Open in new window"
+msgstr ""
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Feed mutatása"
 
 msgid "Rating button description"
 msgstr "Értékelő gomb leírása"
@@ -664,11 +690,55 @@ msgstr "A %s oldalon használt bejelentkezési neve"
 msgid "Include weblog frontpages"
 msgstr "Weblog nyitólapjának hozzáadása"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Saját weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Weblog megtekintése"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Bejegyzéseket hozzáadása"
 
+#, fuzzy
+msgid "Only category"
+msgstr "kategória"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Kategória szerkesztése"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Oldalak hozzáadása"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "fejezet"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Fejezet szerkesztése"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr "Minden robot szűrése"
@@ -909,6 +979,10 @@ msgstr "File-kiterjesztési hiba"
 
 msgid "Upload too big"
 msgstr "Túl nagy file"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Feltöltési hiba"
 
 msgid "Upload error"
 msgstr "Feltöltési hiba"
@@ -4006,21 +4080,13 @@ msgstr ".. és további %s fájl."
 msgid "Click for image"
 msgstr "Klikk a képért"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"A bejegyzés elküldve! \n"
-"\n"
-"Cím: %s\n"
-"Felhasználó: %s\n"
-"Kategória: %s\n"
-"Bevezető: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Hozzászólását tároltuk."
+
+#, fuzzy
+msgid "User"
+msgstr "Felhasználók"
 
 msgid "Moblog entry posted"
 msgstr "Moblog bejegyzés elküldve"
@@ -4592,6 +4658,10 @@ msgstr "Előző oldal"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "%num_from%-%num_to% / %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Egyedi látogatók"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s elkezdte szerkeszteni '%s' bejegyzést."
@@ -5037,6 +5107,25 @@ msgstr "Hozzászólás jóváhagyva!"
 msgid "link"
 msgstr "Link"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Alcím"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "A bejegyzés elküldve! \n"
+#~ "\n"
+#~ "Cím: %s\n"
+#~ "Felhasználó: %s\n"
+#~ "Kategória: %s\n"
+#~ "Bevezető: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Igen, a bejegyzéseket lehessen védeni jelszóval."
 
@@ -5228,6 +5317,3 @@ msgstr "Link"
 
 #~ msgid "date"
 #~ msgstr "dátum"
-
-#~ msgid "chapter"
-#~ msgstr "fejezet"

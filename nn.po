@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -608,10 +608,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Innbunde"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Det er ikkje ei sætande netposttilskrift"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Opnar lenker i nytt vindauga"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML: RSS-kringkasting"
 
 msgid "Rating button description"
 msgstr ""
@@ -654,12 +681,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Vevblad"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Nytt vevblad"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Gøym sideoppsetet!"
 
 #, fuzzy
+msgid "Only category"
+msgstr "I teigen"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Endra på teigen"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Gøym sideoppsetet!"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "I teigen"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "I teigen"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -905,6 +976,10 @@ msgstr "Tilleggsmappa"
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Lød opp"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Lød opp"
 
 #, fuzzy
@@ -4151,15 +4226,13 @@ msgstr "Lød opp blad"
 msgid "Click for image"
 msgstr "Syn sîste"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Innspelet ditt er arkivera."
+
+#, fuzzy
+msgid "User"
+msgstr "Brukarar"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4768,6 +4841,10 @@ msgstr "Førre arkiv"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Endra registerførd gjest"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5255,6 +5332,10 @@ msgstr "Innspelet er gøymd."
 msgid "link"
 msgstr "Lenker"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Tilleggsnamn"
+
 #~ msgid "Send Pings"
 #~ msgstr "Send pling"
 
@@ -5459,10 +5540,6 @@ msgstr "Lenker"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "På den"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "I teigen"
 
 #, fuzzy
 #~ msgid "Format of \"reply ..\""
@@ -6278,9 +6355,6 @@ msgstr "Lenker"
 #~ msgstr ""
 #~ "Dersom valt, vert det send brev til denne tilskrifti når ei Attendespel "
 #~ "vert lagd til."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Opnar lenker i nytt vindauga"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Med smiletryne"

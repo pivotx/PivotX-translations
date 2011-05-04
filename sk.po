@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -604,10 +604,37 @@ msgid ""
 "for no decoding."
 msgstr ""
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
+
+#, fuzzy
+msgid "Tagline"
+msgstr "V rade"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Neplatná emailová adresa"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Otvárať linky v nových oknách"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "XML kanál (RSS 1.0)"
 
 msgid "Rating button description"
 msgstr ""
@@ -650,12 +677,56 @@ msgid "Include weblog frontpages"
 msgstr ""
 
 #, fuzzy
+msgid "Only weblog"
+msgstr "Weblogy"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Nový weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include entries"
 msgstr "Vytvoriť šablónu"
 
 #, fuzzy
+msgid "Only category"
+msgstr "Kategória"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Editovať kategóriu"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
+#, fuzzy
 msgid "Include pages"
 msgstr "Vytvoriť šablónu"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kategória"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Kategória"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr ""
@@ -898,6 +969,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Upload too big"
+msgstr "Upload"
+
+#, fuzzy
+msgid "Upload init error"
 msgstr "Upload"
 
 #, fuzzy
@@ -4093,15 +4168,13 @@ msgstr "Upload súborov"
 msgid "Click for image"
 msgstr "Zobraz posledných"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Vďaka za komentár."
+
+#, fuzzy
+msgid "User"
+msgstr "Užívatelia"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4692,6 +4765,10 @@ msgstr "Predchádzajúci archív"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr ""
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Editovať užívateľa"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr ""
@@ -5173,6 +5250,10 @@ msgstr "Komentáre boli uložené."
 msgid "link"
 msgstr "Odkazy"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Podtitulok"
+
 #~ msgid "Send Pings"
 #~ msgstr "Poslať pingy"
 
@@ -5351,10 +5432,6 @@ msgstr "Odkazy"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Dátum"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kategória"
 
 #, fuzzy
 #~ msgid ""
@@ -5862,9 +5939,6 @@ msgstr "Odkazy"
 
 #~ msgid "Text Processing"
 #~ msgstr "Spracovanie textu"
-
-#~ msgid "Open links in new window"
-#~ msgstr "Otvárať linky v nových oknách"
 
 #~ msgid ""
 #~ "Determines if all links used in entries will open links in a new browser "

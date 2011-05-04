@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2011-02-26 15:52+0100\n"
 "Last-Translator: Lars J. Helbo <lars@salldata.dk>\n"
 "Language-Team: Dansk sprog\n"
@@ -598,12 +598,39 @@ msgstr ""
 "Kodning af IPTC tekst. (Brug iconv kodningsnavnene.) Lad være tomt for ingen "
 "kodning."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Disse ikoner linker til sociale bogmærkesider, hvor læserne kan dele og "
 "finde nye websider."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Inline"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Det er ingen gyldig værdi"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Åbn genveje i nye vinduer"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Vis feeds"
 
 msgid "Rating button description"
 msgstr "Vurderingsknap-beskrivelse"
@@ -647,11 +674,55 @@ msgstr "Navnet hvormed du logger ind på %s"
 msgid "Include weblog frontpages"
 msgstr "Medtag weblog-forsider"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Min weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Vis weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Medtag indlæg"
 
+#, fuzzy
+msgid "Only category"
+msgstr "kategori"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Rediger kategori"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Medtag sider"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "Kategori"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Editer kapitel"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr "Filtrer som enhver robot"
@@ -891,6 +962,10 @@ msgstr "Filendelses-fejl"
 msgid "Upload too big"
 msgstr "Opload for stor"
 
+#, fuzzy
+msgid "Upload init error"
+msgstr "Opload fejl"
+
 msgid "Upload error"
 msgstr "Opload fejl"
 
@@ -1008,8 +1083,8 @@ msgid ""
 "We probably forgot some... Please let us know if we did, and we'll give "
 "credits in the next release"
 msgstr ""
-"Vi har sikkert glemt nogen ... Fortæl os hvis vi gjorde, så vil de blive nævnt "
-"i næste udgave."
+"Vi har sikkert glemt nogen ... Fortæl os hvis vi gjorde, så vil de blive "
+"nævnt i næste udgave."
 
 msgid "Comments waiting for moderation"
 msgstr "Kommentarer, der venter på godkendelse"
@@ -3981,21 +4056,13 @@ msgstr ".. og %s flere filer."
 msgid "Click for image"
 msgstr "Klik for billeder"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Dit indlæg er blevet sendt! \n"
-"\n"
-"Titel: %s\n"
-"Bruger: %s\n"
-"Kategori: %s\n"
-"Introduktion: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Din kommentar er blevet gemt."
+
+#, fuzzy
+msgid "User"
+msgstr "Brugere"
 
 msgid "Moblog entry posted"
 msgstr "Moblog indlæg sendt"
@@ -4567,6 +4634,10 @@ msgstr "Forrige side"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Viser indlæg %num_from%-%num_to% af %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Unikke gæster"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s begyndte at editere indlæg '%s'."
@@ -5001,6 +5072,25 @@ msgstr "Kommentaren er blevet godkendt!"
 msgid "link"
 msgstr "genvej"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Undertitel"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Dit indlæg er blevet sendt! \n"
+#~ "\n"
+#~ "Titel: %s\n"
+#~ "Bruger: %s\n"
+#~ "Kategori: %s\n"
+#~ "Introduktion: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Ja, tillad at indlæg beskyttes af password."
 
@@ -5213,10 +5303,6 @@ msgstr "genvej"
 #, fuzzy
 #~ msgid "date"
 #~ msgstr "Dato"
-
-#, fuzzy
-#~ msgid "chapter"
-#~ msgstr "Kategori"
 
 #, fuzzy
 #~ msgid "Format of \"reply ..\""
@@ -5948,9 +6034,6 @@ msgstr "genvej"
 #~ msgstr ""
 #~ "Hvis sat, så vil en e-mail bli sendt til denne adresse når et trackback "
 #~ "bliver tilføjet."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Åbn genveje i nye vinduer"
 
 #~ msgid "Use emoticons"
 #~ msgstr "brug føleikon"

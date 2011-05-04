@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
 "PO-Revision-Date: 2011-01-11 08:14+0100\n"
 "Last-Translator: Bob den Otter <bob@pivotx.net>\n"
 "Language-Team: \n"
@@ -613,12 +613,39 @@ msgstr ""
 "Codering van IPTC teksten van afbeeldingen. Gebruik de iconv codering namen. "
 "Laat dit leeg om geen codering toe te passen."
 
+msgid "Share this:"
+msgstr ""
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Deze iconen linken naar Social Bookmark sites, waar bezoekers sites kunnen "
 "opslaan en delen met anderen."
+
+#, fuzzy
+msgid "Tagline"
+msgstr "Inline"
+
+#, fuzzy
+msgid "That's not a proper tagline!"
+msgstr "Dat is geen goede waarde!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr ""
+
+#, fuzzy
+msgid "Open in new window"
+msgstr "Links in nieuw venster openen"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+
+#, fuzzy
+msgid "Show these links"
+msgstr "Toon feeds"
 
 msgid "Rating button description"
 msgstr "Beschrijving Stemknop"
@@ -664,11 +691,55 @@ msgstr "De naam waarmee je inlogt op %s."
 msgid "Include weblog frontpages"
 msgstr "Inclusief weblog voorpagina's"
 
+#, fuzzy
+msgid "Only weblog"
+msgstr "Mijn weblog"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude weblog"
+msgstr "Bekijk Weblog"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include entries"
 msgstr "Inclusief berichten"
 
+#, fuzzy
+msgid "Only category"
+msgstr "Categorie"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude category"
+msgstr "Categorie Bewerken"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr ""
+
 msgid "Include pages"
 msgstr "Inclusief pagina's"
+
+#, fuzzy
+msgid "Only chapter"
+msgstr "hoofdstuk"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr ""
+
+#, fuzzy
+msgid "Exclude chapter"
+msgstr "Bewerk Hoofdstuk"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr ""
 
 msgid "Filter as any robot"
 msgstr "Filter als een willekeurige robot"
@@ -908,6 +979,10 @@ msgstr "Bestandextensiefout"
 
 msgid "Upload too big"
 msgstr "Upload is te groot"
+
+#, fuzzy
+msgid "Upload init error"
+msgstr "Uploadfout"
 
 msgid "Upload error"
 msgstr "Uploadfout"
@@ -4029,21 +4104,13 @@ msgstr ".. en nog %s bestanden."
 msgid "Click for image"
 msgstr "Klik voor de afbeelding"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Je bericht is opgeslagen! \n"
-"\n"
-"Titel: %s\n"
-"Gebruiker: %s\n"
-"Categorie: %s\n"
-"Introductie: %s"
+#, fuzzy
+msgid "Your entry has been posted!"
+msgstr "Je reactie is opgeslagen."
+
+#, fuzzy
+msgid "User"
+msgstr "Gebruikers"
 
 msgid "Moblog entry posted"
 msgstr "Moblog bericht geplaatst"
@@ -4623,6 +4690,10 @@ msgstr "Vorige Pagina"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Toon berichten %num_from%-%num_to% van %num_tot%"
 
+#, fuzzy
+msgid "A visitor"
+msgstr "Unieke bezoekers"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s begon met bewerken van bericht '%s'."
@@ -5067,6 +5138,25 @@ msgstr "De reactie is goedgekeurd."
 msgid "link"
 msgstr "link"
 
+#, fuzzy
+#~ msgid "Subitle"
+#~ msgstr "Ondertitel"
+
+#~ msgid ""
+#~ "Your entry has been posted! \n"
+#~ "\n"
+#~ "Title: %s\n"
+#~ "User: %s\n"
+#~ "Category: %s\n"
+#~ "Introduction: %s"
+#~ msgstr ""
+#~ "Je bericht is opgeslagen! \n"
+#~ "\n"
+#~ "Titel: %s\n"
+#~ "Gebruiker: %s\n"
+#~ "Categorie: %s\n"
+#~ "Introductie: %s"
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Ja, sta toe dat berichten met een wactwoord beveiligd kunnen worden"
 
@@ -5316,9 +5406,6 @@ msgstr "link"
 
 #~ msgid "date"
 #~ msgstr "datum"
-
-#~ msgid "chapter"
-#~ msgstr "hoofdstuk"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "Opmaak van 'reageer ..'"
@@ -6225,9 +6312,6 @@ msgstr "link"
 #~ msgstr ""
 #~ "Als je een mailadres opgeeft, worden naar dit adres meldingen van "
 #~ "trackbacks gestuurd."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Links in nieuw venster openen"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Emoticons gebruiken"

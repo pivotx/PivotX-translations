@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-03-13 23:08+0100\n"
-"PO-Revision-Date: 2011-01-11 00:28+0100\n"
+"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"PO-Revision-Date: 2011-05-04 22:35+0200\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
 "MIME-Version: 1.0\n"
@@ -342,11 +342,10 @@ msgid ""
 msgstr ""
 
 msgid "Yes, but only pages and entries"
-msgstr ""
+msgstr "Ja, men kun sider og oppføringer"
 
-#, fuzzy
 msgid "Yes, for the complete site"
-msgstr "Vis den komplette oppføringen"
+msgstr "Ja, for hele nettstedet"
 
 msgid "Enable password protection"
 msgstr "Slå på passordbeskyttelse"
@@ -389,10 +388,10 @@ msgid "When the user is not granted access, show this text."
 msgstr "Hvis brukeren ikke får adgang, vis denne teksten."
 
 msgid "All access ipnumbers"
-msgstr ""
+msgstr "IP-adresser med full-tilgang"
 
 msgid "These ipnumbers can access everything without password."
-msgstr ""
+msgstr "Disse IP-adressene har tilgang til alt uten å oppgi passord."
 
 msgid "Users"
 msgstr "Brukere"
@@ -593,12 +592,37 @@ msgstr ""
 "Koding av bildetekster i IPTC. (Bruk iconv-navn for koding.) La det stå tomt "
 "for ingen avkoding."
 
+msgid "Share this:"
+msgstr "Del denne:"
+
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
 "discover new web pages."
 msgstr ""
 "Disse ikonene peker til sosiale bokmerkenettsteder hvor leserne kan dele og "
 "oppdage ny nettsider."
+
+msgid "Tagline"
+msgstr "Slagord"
+
+msgid "That's not a proper tagline!"
+msgstr "Det er ikke et ordentlig slagord!"
+
+msgid "The text to display in front of the Social Bookmarking buttons."
+msgstr "Teksten som vises foran «Social Bookmarking»-knappen."
+
+msgid "Open in new window"
+msgstr "Åpne i nytt vindu"
+
+msgid ""
+"If you enable this, all links will open in a new (blank) window. Note: doing "
+"this will prevent your website from being valid XHTML."
+msgstr ""
+"Hvis du aktiverer denne, så vil alle lenker åpnes i et nytt vindu. Merk: "
+"Gjør du dette kan ikke nettstedet ditt valideres som XHTML."
+
+msgid "Show these links"
+msgstr "Vis disse lenkene"
 
 msgid "Rating button description"
 msgstr "Beskrivelse for stemmeknappen"
@@ -642,11 +666,49 @@ msgstr "Navnet du bruker for å logge inn på %s"
 msgid "Include weblog frontpages"
 msgstr "Inkluder bloggforsider"
 
+msgid "Only weblog"
+msgstr "Kun blogg"
+
+msgid "Select a weblog or weblogs that should only be added to the sitemap."
+msgstr "Velg den bloggen/de bloggene som skal legges til sitemap."
+
+msgid "Exclude weblog"
+msgstr "Ekskluder blogg"
+
+msgid "Select a weblog or weblogs that should not be added to the sitemap."
+msgstr "Velg den bloggen/de bloggene som ikke skal legges til sitemap."
+
 msgid "Include entries"
 msgstr "Inkluder oppføringer"
 
+msgid "Only category"
+msgstr "Kun kategori"
+
+msgid ""
+"Select a category or categories that should only be added to the sitemap."
+msgstr "Velg den kategorien/de kategoriene som skal legges til sitemap."
+
+msgid "Exclude category"
+msgstr "Ekskluder kategori"
+
+msgid ""
+"Select a category or categories that should not be added to the sitemap."
+msgstr "Velg den kategorien/de kategoriene som ikke skal legges til sitemap."
+
 msgid "Include pages"
 msgstr "Inkluder sider"
+
+msgid "Only chapter"
+msgstr "Kun kapittel"
+
+msgid "Select a chapter or chapters that should only be added to the sitemap."
+msgstr "Velg det kapitlet/de kapitlene som skal legges til sitemap."
+
+msgid "Exclude chapter"
+msgstr "Ekskluder kapittel"
+
+msgid "Select a chapter or chapters that should not be added to the sitemap."
+msgstr "Velg det kapitlet/de kapitlene som ikke skal legges til sitemap."
 
 msgid "Filter as any robot"
 msgstr "Filtrer som hvilken som helst robot."
@@ -887,6 +949,9 @@ msgstr "Filendelsefeil"
 
 msgid "Upload too big"
 msgstr "Opplastingen er for stor"
+
+msgid "Upload init error"
+msgstr "Feil under oppsett av opplasting"
 
 msgid "Upload error"
 msgstr "Opplastingsfeil"
@@ -1230,7 +1295,6 @@ msgstr "Send eller forhåndsvis"
 msgid "Post and Continue Editing"
 msgstr "Send/lagre og fortsett å redigere"
 
-#, fuzzy
 msgid "Languages"
 msgstr "Språk"
 
@@ -3979,21 +4043,11 @@ msgstr "... og %s flere filer."
 msgid "Click for image"
 msgstr "Klikk for bilde"
 
-#, php-format
-msgid ""
-"Your entry has been posted! \n"
-"\n"
-"Title: %s\n"
-"User: %s\n"
-"Category: %s\n"
-"Introduction: %s"
-msgstr ""
-"Din oppføring er sendt!\n"
-"\n"
-"Tittel: %s\n"
-"Bruker: %s\n"
-"Kategori: %s\n"
-"Introduksjon: %s"
+msgid "Your entry has been posted!"
+msgstr "Oppføringen din er lagret."
+
+msgid "User"
+msgstr "Bruker"
 
 msgid "Moblog entry posted"
 msgstr "Moblog-oppføring sendt"
@@ -4014,29 +4068,26 @@ msgstr "Moblog-oppføring ble ikke sendt"
 msgid "Processed: %s"
 msgstr "Prosessert: %s"
 
-#, fuzzy
 msgid "Enable multiple languages"
-msgstr "Standard språk"
+msgstr "Aktiver flere språk"
 
-#, fuzzy
 msgid "Language used if none could be detected."
-msgstr "Klarte ikke slette oppføringene."
+msgstr "Språk brukt hvis intet kunne bestemmes."
 
 msgid "Languages that your website is using."
-msgstr ""
+msgstr "Språk som ditt nettsted bruker."
 
 msgid "Language variable name"
-msgstr ""
+msgstr "Variabelnavn for språk"
 
-#, fuzzy
 msgid "Give a proper variable name"
-msgstr "Oppgi et ordentlig domenenavn!"
+msgstr "Oppgi et ordentlig variablenavn"
 
 msgid "GET, POST or COOKIE variable used to detect language."
-msgstr ""
+msgstr "GET-, POST- eller COOKIE-variabel brukt for å bestemme språket."
 
 msgid "URL language patterns"
-msgstr ""
+msgstr "URL-mønster for språk"
 
 msgid ""
 "Enter lines with hosts and their respective language. Wildcards are allowed. "
@@ -4566,6 +4617,9 @@ msgstr "Forrige side"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Viser oppføring %num_from%-%num_to% av %num_tot%"
 
+msgid "A visitor"
+msgstr "En besøkende"
+
 #, php-format
 msgid "%s started editing entry '%s'."
 msgstr "%s startet å redigere oppføringen «%s»."
@@ -4654,7 +4708,7 @@ msgid "Your new password is %pass%."
 msgstr "Ditt nye passord er %pass%."
 
 msgid "PivotX was not able to send a mail with the reset link."
-msgstr ""
+msgstr "PivotX klarte ikke sende en e-post med lenka for nullstilling."
 
 msgid "Setup user"
 msgstr "Sett opp bruker"
@@ -4861,7 +4915,7 @@ msgid "Moblogging"
 msgstr "Moblogging"
 
 msgid "Multilingual"
-msgstr ""
+msgstr "Flerspråklig"
 
 msgid "Rebuild the index of your Database"
 msgstr "Gjenoppbygg indeksen for databasen din"
@@ -5252,9 +5306,6 @@ msgstr "lenke"
 
 #~ msgid "date"
 #~ msgstr "dato"
-
-#~ msgid "chapter"
-#~ msgstr "kapittel"
 
 #~ msgid "Format of \"reply ..\""
 #~ msgstr "Formatering av «svar ...»"
@@ -6131,9 +6182,6 @@ msgstr "lenke"
 #~ msgstr ""
 #~ "Hvis oppgitt, så vil en e-post bli sendt til denne adressen når et "
 #~ "tilbaketråkk blir lagt til."
-
-#~ msgid "Open links in new window"
-#~ msgstr "Åpne lenker i nye vinduer"
 
 #~ msgid "Use emoticons"
 #~ msgstr "Bruk føleikon"
