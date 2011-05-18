@@ -1,15 +1,15 @@
 # Translation of PivotX to Japanese
-# Copyright (C) 2008-2009 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # Yuji Takenaka <webmaster@davilin.com>, 2008-2009.
 # Marc Nemissa, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PivotX 2.1.0\n"
+"Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-05-04 22:34+0200\n"
-"PO-Revision-Date: 2011-04-14 19:19+0730\n"
+"PO-Revision-Date: 2011-05-13 00:26+0730\n"
 "Last-Translator: Marc Nemissa\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -895,34 +895,30 @@ msgstr "イメージを挿入"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#, fuzzy
 msgid "Filter on:"
 msgstr "フィルタリング"
 
 msgid "Category"
 msgstr "カテゴリ"
 
-#, fuzzy
 msgid "all categories"
-msgstr "カテゴリ"
+msgstr "全部カテゴリ"
 
 msgid "Author"
 msgstr "作者"
 
-#, fuzzy
 msgid "all authors"
-msgstr "デフォルトの作者"
+msgstr "全部作者"
 
 msgid "Status"
 msgstr "ステータス"
 
 msgid "all statuses"
-msgstr ""
+msgstr "全部ステータス"
 
 msgid "Go!"
 msgstr "実行"
 
-#, fuzzy
 msgid "Search for:"
 msgstr "検索"
 
@@ -931,7 +927,7 @@ msgid "Reset search"
 msgstr "検索"
 
 msgid "Show all"
-msgstr ""
+msgstr "すべて表示"
 
 msgid "Uploading"
 msgstr "アップロードしています"
@@ -946,9 +942,8 @@ msgstr "アップロードしました"
 msgid "File extension error"
 msgstr "エクステンション用ディレクトリ"
 
-#, fuzzy
 msgid "Upload too big"
-msgstr "アップロード"
+msgstr "アップロードが大きすぎます"
 
 #, fuzzy
 msgid "Upload init error"
@@ -1101,17 +1096,14 @@ msgstr "削除"
 msgid "Unblock this IP-address?"
 msgstr "これらのIPアドレスを保存"
 
-#, fuzzy
 msgid "Unblock IP"
-msgstr "%s をブロック解除"
+msgstr "IPをブロック解除"
 
-#, fuzzy
 msgid "Block this IP-address?"
-msgstr "このIPをブロック"
+msgstr "このIPをブロックする？"
 
-#, fuzzy
 msgid "Block IP"
-msgstr "%s をブロック"
+msgstr "IPをブロック"
 
 msgid "on"
 msgstr "on"
@@ -1152,9 +1144,8 @@ msgstr "IPアドレス"
 msgid "User agent"
 msgstr "ユーザエージェント"
 
-#, fuzzy
 msgid "In moderation"
-msgstr "イントロダクション"
+msgstr "審査中"
 
 msgid "No title"
 msgstr "タイトルがありません"
@@ -1243,9 +1234,8 @@ msgstr "新規ページ"
 msgid "Logout"
 msgstr "ログアウト"
 
-#, fuzzy
 msgid "View site"
-msgstr "参考にしたサイトのタイトル"
+msgstr "サイトを見る"
 
 msgid "About PivotX"
 msgstr "PivotX について"
@@ -1301,9 +1291,8 @@ msgstr "内部名"
 msgid "Subtitle"
 msgstr "サブタイトル"
 
-#, fuzzy
 msgid "Post or Preview"
-msgstr "プレビュー"
+msgstr "投稿・プレビュー"
 
 msgid "Post and Continue Editing"
 msgstr "投稿し編集を続ける"
@@ -1503,9 +1492,8 @@ msgstr "新しいファイル名？"
 msgid "Create a new file"
 msgstr "新規ファイルを作成"
 
-#, fuzzy
 msgid "New folder name?"
-msgstr "デフォルトの使用言語"
+msgstr "新しいフォルダ名？"
 
 msgid "Create a new folder"
 msgstr "新規フォルダを作成"
@@ -1565,9 +1553,8 @@ msgstr "太さ（ピクセル）"
 msgid "Insert popup!"
 msgstr "ポップアップを挿入"
 
-#, fuzzy
 msgid "Timed"
-msgstr "タイトル"
+msgstr "期日指定"
 
 msgid "Held"
 msgstr "保留"
@@ -1751,7 +1738,6 @@ msgstr "次へ"
 msgid "last"
 msgstr "最後へ"
 
-#, fuzzy
 msgid ""
 "Hi, and welcome to %1! Below this bit of text you can see a short overview "
 "of the latest <a href='index.php?page=entries'>entries</a> and <a "
@@ -1759,9 +1745,9 @@ msgid ""
 "href='index.php?page=comments'>new comments</a> that are in the moderation "
 "queue."
 msgstr ""
-"PivotX 2.0へようこそ！以下は最近の<a href='index.php?page=entries'>エントリ</"
-"a>と<a href='index.php?page=pagesoverview'>ページ</a>の要約です。また、承認待"
-"ちの<a href='index.php?page=comments'>新しいコメント</a>も表示しています。"
+"%1へようこそ！以下は最近の<a href='index.php?page=entries'>エントリ</a>と<a "
+"href='index.php?page=pagesoverview'>ページ</a>の要約です。また、承認待ちの<a "
+"href='index.php?page=comments'>新しいコメント</a>も表示しています。"
 
 msgid "Configuration"
 msgstr "設定"
@@ -2010,7 +1996,7 @@ msgid "Configure Extensions"
 msgstr "エクステンションの設定"
 
 msgid "Explore Home folder"
-msgstr "ホームフォルダーを閲覧"
+msgstr "ホームフォルダを閲覧"
 
 msgid "Rebuild the Index"
 msgstr "インデックスを再構築"
@@ -2041,7 +2027,7 @@ msgid "Welcome to your new online presence!"
 msgstr ""
 
 msgid "Add some pages here, or start a new chapter."
-msgstr ""
+msgstr "ここでページを追加する、それとも新規章を始める。"
 
 msgid "Light gray"
 msgstr ""
@@ -2698,9 +2684,8 @@ msgstr "サイト名"
 msgid "That's not a proper sitename!"
 msgstr "適切なサイト名ではありません。"
 
-#, fuzzy
 msgid "Site description"
-msgstr "解説"
+msgstr "サイト説明"
 
 #, fuzzy
 msgid "A short description of the website. Maximum length is 400 characters."
@@ -2725,7 +2710,7 @@ msgstr ""
 "サイトの訪問者がフロントページへ移動する際に表示するページを決定します。"
 
 msgid "Site Favicon"
-msgstr ""
+msgstr "サイトFavicon"
 
 msgid ""
 "This determines the favicon that is used on the website. Use an absolute "
@@ -2763,7 +2748,6 @@ msgstr "/2005-04-28/エントリタイトル"
 msgid "Use Mod_rewrite"
 msgstr "Mod_rewriteオプション"
 
-#, fuzzy
 msgid ""
 "If you use Apache's Mod_rewrite option, PivotX will make URLs like www."
 "example.org/archive/2008/05/30/nice-weather, instead of www.example.org/"
@@ -2771,18 +2755,17 @@ msgid ""
 "\"http://book.pivotx.net/page/1-14/\">Using Apache's Mod_rewrite</a> section "
 "in the PivotX book about this."
 msgstr ""
-"ApacheのMod_rewriteオプションを使用する場合、Pivotは www.mysite.com/?e=134 の"
-"代わりに www.example.org/archive/2008/05/30/nice_weather の様なURLを生成しま"
-"す。全てのサーバーがこの機能をサポートしているわけではありません。詳しくは<a "
-"href=\"http://docs.pivotx.net/doku.php?id=using_apache_s_mod_rewrite\">Using "
-"Apache's Mod_rewrite</a>をご覧下さい。"
+"ApacheのMod_rewriteオプションを使用する場合、Pivotは www.example.org/index."
+"php?e=134 の代わりに www.example.org/archive/2008/05/30/nice_weather の様な"
+"URLを生成します。全てのサーバーがこの機能をサポートしているわけではありませ"
+"ん。詳しくは<a href=\"http://book.pivotx.net/page/1-14/\">Using Apache's "
+"Mod_rewrite</a>をご覧下さい。"
 
 msgid "Site 'Not Found' page (404)"
-msgstr ""
+msgstr "サイトの 'Not Found' ページ (404)"
 
-#, fuzzy
 msgid "Default 404"
-msgstr "デフォルトの作者"
+msgstr "デフォルトの404"
 
 msgid ""
 "This page is displayed when the visitor requests a page on the site that "
@@ -2980,9 +2963,8 @@ msgid ""
 "be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
 "well."
 msgstr ""
-"アップロードしたファイルを保存するフォルダーのパスです。もしこのパスを変更す"
-"る場合は、<tt>pivotx/includes/timthumb.php</tt> も同様に変更を行ってくださ"
-"い。"
+"アップロードしたファイルを保存するフォルダのパスです。もしこのパスを変更する"
+"場合は、<tt>pivotx/includes/timthumb.php</tt> も同様に変更を行ってください。"
 
 msgid "Overwrite"
 msgstr "上書き"
@@ -3313,7 +3295,7 @@ msgid "No templates found in directory '<tt>%s</tt>'."
 msgstr ""
 
 msgid "URL to the PivotX folder is unknown"
-msgstr "PivotXフォルダーに対するURLが不明です。"
+msgstr "PivotXフォルダに対するURLが不明です。"
 
 msgid "Log into PivotX to set the PivotX URL"
 msgstr "URLをセットするためにPivotXにログインしてください"
@@ -3357,7 +3339,6 @@ msgstr "（テンプレートを選択）"
 msgid "Notification from \"%site%\" - "
 msgstr "この通知は次の方に送信されました"
 
-#, fuzzy
 msgid ""
 "Someone (you?) has requested a new password for the user '%user%' on the "
 "PivotX site '%site%'.\n"
@@ -4326,7 +4307,6 @@ msgstr "PivotX 'not found' テンプレート"
 msgid "PivotX error page"
 msgstr "PivotXエラーページ"
 
-#, fuzzy
 msgid ""
 "Comment moderation is enabled on this site. This means that your comment "
 "will not be visible until it has been approved by an editor."
@@ -4851,7 +4831,7 @@ msgid "The settings for chapter '%s' have been updated."
 msgstr "'%s' に対する設定を更新しました。"
 
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
-msgstr "エントリ %number% - %editlink% に対するトラックバックの編集と削除"
+msgstr "エントリ %number% - %editlink% に対するトラックバックの管理"
 
 msgid "The trackback was deleted."
 msgstr "トラックバックは削除されました。"
@@ -4875,17 +4855,16 @@ msgid "Edit or Delete the Latest Trackbacks"
 msgstr "トラックバック管理"
 
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
-msgstr "エントリ %number% - %editlink% に対するコメントの編集と削除"
+msgstr "エントリ %number% - %editlink% に対するコメントの管理"
 
 msgid "The comment was deleted."
 msgstr "コメントを削除しました。"
 
-#, fuzzy
 msgid "Edit or Delete Comments in the Moderation Queue and Latest Comments"
-msgstr "審査待ちコメントと最新のコメントの編集と削除"
+msgstr "審査待ちコメントと最新コメントの管理"
 
 msgid "Edit or Delete Comments"
-msgstr "コメントの編集と削除"
+msgstr "コメントの管理"
 
 msgid "The Comment was saved!"
 msgstr "コメントを保存しました。"
@@ -5083,10 +5062,6 @@ msgstr "コメントを許可しました！"
 
 msgid "link"
 msgstr "リンク"
-
-#, fuzzy
-#~ msgid "Subitle"
-#~ msgstr "サブタイトル"
 
 #~ msgid "Send Pings"
 #~ msgstr "ピング送信"
