@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-05-04 22:34+0200\n"
-"PO-Revision-Date: 2011-03-18 20:38+0100\n"
+"PO-Revision-Date: 2011-06-16 10:45+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -615,7 +615,7 @@ msgstr ""
 "neveket.) Hagyja üresen a karakter-kódolás mellőzéséhez."
 
 msgid "Share this:"
-msgstr ""
+msgstr "Megosztás:"
 
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
@@ -624,28 +624,27 @@ msgstr ""
 "Ezek az ikonok különböző könyvjelző-gyűjtő oldalakra vezetnek, ahol az "
 "olvasók megoszthatnak és felfedezhetnek új honlapokat."
 
-#, fuzzy
 msgid "Tagline"
-msgstr "Egyvonalban"
+msgstr "Címsor"
 
-#, fuzzy
 msgid "That's not a proper tagline!"
-msgstr "Nem megfelelő érték!"
+msgstr "Nem megfelelő címsor!"
 
 msgid "The text to display in front of the Social Bookmarking buttons."
-msgstr ""
+msgstr "A szociális könyvjelzők előtt megjelenő szöveg."
 
 msgid "Open in new window"
-msgstr ""
+msgstr "Megnyitás új ablakban"
 
 msgid ""
 "If you enable this, all links will open in a new (blank) window. Note: doing "
 "this will prevent your website from being valid XHTML."
 msgstr ""
+"Ha ezt engedélyezi, minden link új ablakban nyílik meg. Megjegyzés: ezzel a "
+"weboldal többé nem megy át az XHTML ellenőrzésen."
 
-#, fuzzy
 msgid "Show these links"
-msgstr "Feed mutatása"
+msgstr "A következő linkek megjelenítése"
 
 msgid "Rating button description"
 msgstr "Értékelő gomb leírása"
@@ -690,55 +689,55 @@ msgstr "A %s oldalon használt bejelentkezési neve"
 msgid "Include weblog frontpages"
 msgstr "Weblog nyitólapjának hozzáadása"
 
-#, fuzzy
 msgid "Only weblog"
-msgstr "Saját weblog"
+msgstr "Hozzáadandó weblog"
 
 msgid "Select a weblog or weblogs that should only be added to the sitemap."
-msgstr ""
+msgstr "Válassza ki az oldaltérképhez hozzáadandó weblogokat."
 
-#, fuzzy
 msgid "Exclude weblog"
-msgstr "Weblog megtekintése"
+msgstr "Weblog kihagyása"
 
 msgid "Select a weblog or weblogs that should not be added to the sitemap."
 msgstr ""
+"Válassza ki azokat a weblogokat, amelyeket nem kíván hozzáadni az "
+"oldaltérképhez."
 
 msgid "Include entries"
-msgstr "Bejegyzéseket hozzáadása"
+msgstr "Bejegyzések hozzáadása"
 
-#, fuzzy
 msgid "Only category"
-msgstr "kategória"
+msgstr "Hozzáadandó kategória"
 
 msgid ""
 "Select a category or categories that should only be added to the sitemap."
-msgstr ""
+msgstr "Válassza ki az oldaltérképhez hozzáadandó kategóriákat."
 
-#, fuzzy
 msgid "Exclude category"
-msgstr "Kategória szerkesztése"
+msgstr "Kategória kihagyása"
 
 msgid ""
 "Select a category or categories that should not be added to the sitemap."
 msgstr ""
+"Válassza ki azokat a kategóriákat, amelyeket nem kíván hozzáadni az "
+"oldaltérképhez."
 
 msgid "Include pages"
 msgstr "Oldalak hozzáadása"
 
-#, fuzzy
 msgid "Only chapter"
-msgstr "fejezet"
+msgstr "Hozzáadandó fejezet"
 
 msgid "Select a chapter or chapters that should only be added to the sitemap."
-msgstr ""
+msgstr "Válassza ki az oldaltérképhez hozzáadandó fejezeteket."
 
-#, fuzzy
 msgid "Exclude chapter"
-msgstr "Fejezet szerkesztése"
+msgstr "Fejezet kihagyása"
 
 msgid "Select a chapter or chapters that should not be added to the sitemap."
 msgstr ""
+"Válassza ki azokat a fejezeteket, amelyeket nem kíván hozzáadni az "
+"oldaltérképhez."
 
 msgid "Filter as any robot"
 msgstr "Minden robot szűrése"
@@ -815,10 +814,10 @@ msgid "Preview Comment"
 msgstr "Hozzászólás előnézete"
 
 msgid "Remember personal info?"
-msgstr "Személyes infomációk megjegyzése?"
+msgstr "Személyes információk megjegyzése?"
 
 msgid "Yes, give me a cookie and remember me."
-msgstr "Igen, kérek egy cookie-t és emlékezz rám."
+msgstr "Igen, kérek egy cookie-t és emlékezzen rám."
 
 msgid "Navigation"
 msgstr "Navigáció"
@@ -848,7 +847,7 @@ msgid "Notify"
 msgstr "Értesítés"
 
 msgid "Yes, send me email when someone replies."
-msgstr "Igen, kérek e-mail -t mikor valaki válaszol."
+msgstr "Igen, kérek e-mail-t mikor valaki válaszol."
 
 msgid "Hide email"
 msgstr "E-mail rejtése"
@@ -980,9 +979,8 @@ msgstr "File-kiterjesztési hiba"
 msgid "Upload too big"
 msgstr "Túl nagy file"
 
-#, fuzzy
 msgid "Upload init error"
-msgstr "Feltöltési hiba"
+msgstr "Hiba a feltöltés indításakor"
 
 msgid "Upload error"
 msgstr "Feltöltési hiba"
@@ -4080,13 +4078,11 @@ msgstr ".. és további %s fájl."
 msgid "Click for image"
 msgstr "Klikk a képért"
 
-#, fuzzy
 msgid "Your entry has been posted!"
-msgstr "Hozzászólását tároltuk."
+msgstr "Bejegyzés elküldve!"
 
-#, fuzzy
 msgid "User"
-msgstr "Felhasználók"
+msgstr "Felhasználó"
 
 msgid "Moblog entry posted"
 msgstr "Moblog bejegyzés elküldve"
@@ -4658,9 +4654,8 @@ msgstr "Előző oldal"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "%num_from%-%num_to% / %num_tot%"
 
-#, fuzzy
 msgid "A visitor"
-msgstr "Egyedi látogatók"
+msgstr "Egy látogató"
 
 #, php-format
 msgid "%s started editing entry '%s'."
