@@ -2,14 +2,15 @@
 # Copyright (C) 2008 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
 # pivotx.ru <admin@pivotx.ru>, 2010.
+# kangreon@gmail.com, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-05-04 22:34+0200\n"
-"PO-Revision-Date: 2010-03-25 11:42+0300\n"
-"Last-Translator: pivotx.ru <admin@pivotx.ru>\n"
+"PO-Revision-Date: 2011-09-12 18:48+0200\n"
+"Last-Translator: Жилко Дмитрий <kangreon@gmail.com>\n"
 "Language-Team: Pivotx.RU <admin@pivotx.ru>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,10 +28,10 @@ msgid "Unique visitors"
 msgstr "Уникальных посетителей"
 
 msgid "This month"
-msgstr ""
+msgstr "За месяц"
 
 msgid "This week"
-msgstr ""
+msgstr "За неделю"
 
 msgid "Today"
 msgstr "Сегодня"
@@ -48,7 +49,7 @@ msgid "Next Month"
 msgstr "Следующий месяц"
 
 msgid "Start day of the week"
-msgstr ""
+msgstr "День начала недели"
 
 msgid "Error"
 msgstr "Ошибка"
@@ -93,7 +94,7 @@ msgid ""
 msgstr ""
 
 msgid "Upload a file"
-msgstr "Файл для загрузки"
+msgstr "Загрузить файл"
 
 msgid "UA tracking code"
 msgstr ""
@@ -112,9 +113,8 @@ msgstr ""
 msgid "Error - input needs to be text"
 msgstr ""
 
-#, fuzzy
 msgid "Google account password"
-msgstr "Пароль \"по умолчанию\""
+msgstr "Пароль от аккаунта Google"
 
 #, php-format
 msgid ""
@@ -125,7 +125,7 @@ msgid ""
 msgstr ""
 
 msgid "Profile ID"
-msgstr ""
+msgstr "ID профиля"
 
 msgid "Error - input needs to be a number"
 msgstr ""
@@ -144,9 +144,8 @@ msgstr ""
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr ""
 
-#, fuzzy
 msgid "My Calendar"
-msgstr "йЮКЕМДЮПЭ"
+msgstr "Мой Календарь"
 
 msgid "ID"
 msgstr ""
@@ -553,13 +552,11 @@ msgstr ""
 msgid "Use recursion"
 msgstr "Использовать иконки"
 
-#, fuzzy
 msgid "Leaf"
-msgstr "Лево"
+msgstr "Лист"
 
-#, fuzzy
 msgid "All"
-msgstr "оНГБНКХРЭ"
+msgstr "Все"
 
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
@@ -575,6 +572,8 @@ msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
+"Внимание! Эти функции являются экспериментальными, так что используйте их с "
+"осторожностью!"
 
 msgid "IPTC Index"
 msgstr ""
@@ -739,7 +738,7 @@ msgid "About"
 msgstr "подробнее"
 
 msgid "Latest Comments"
-msgstr "Последнии комментарии"
+msgstr "Последние Комментарии"
 
 msgid "Stuff"
 msgstr "Содержание"
@@ -793,7 +792,7 @@ msgid "Navigation"
 msgstr "Навигация"
 
 msgid "Top"
-msgstr ""
+msgstr "Вверх"
 
 msgid "Powered by"
 msgstr "Powered by"
@@ -805,10 +804,10 @@ msgid "Pages"
 msgstr "Страницы"
 
 msgid "Meta"
-msgstr ""
+msgstr "Мета"
 
 msgid "(optional field)"
-msgstr ""
+msgstr "(необязательное поле)"
 
 msgid "Comment"
 msgstr "Комментарий"
@@ -859,7 +858,7 @@ msgstr ""
 "загруженное."
 
 msgid "2 MB Max"
-msgstr ""
+msgstr "2 МБ Максимум"
 
 msgid "Image name"
 msgstr "Название изображения"
@@ -894,23 +893,20 @@ msgstr "Добавить изображение"
 msgid "Cancel"
 msgstr "Отмена"
 
-#, fuzzy
 msgid "Filter on:"
-msgstr "тХКЭРПНБЮРЭ"
+msgstr "Фильтровать по:"
 
 msgid "Category"
 msgstr "Категория"
 
-#, fuzzy
 msgid "all categories"
-msgstr "категории"
+msgstr "все категории"
 
 msgid "Author"
 msgstr "Автор"
 
-#, fuzzy
 msgid "all authors"
-msgstr "Автор \"по умолчанию\""
+msgstr "все авторы"
 
 msgid "Status"
 msgstr "Статус"
@@ -921,20 +917,17 @@ msgstr ""
 msgid "Go!"
 msgstr "Вперед!"
 
-#, fuzzy
 msgid "Search for:"
-msgstr "Поиск"
+msgstr "Поиск:"
 
-#, fuzzy
 msgid "Reset search"
-msgstr "оНХЯЙ"
+msgstr "Сбросить поиск"
 
 msgid "Show all"
-msgstr ""
+msgstr "Показать все"
 
-#, fuzzy
 msgid "Uploading"
-msgstr "Загрузить"
+msgstr "Загрузка"
 
 #, fuzzy
 msgid "uploaded"
@@ -956,9 +949,8 @@ msgstr "Загрузить"
 msgid "Upload init error"
 msgstr "Загрузить еще"
 
-#, fuzzy
 msgid "Upload error"
-msgstr "Загрузить еще"
+msgstr "Ошибка загрузки"
 
 msgid "Orphaned Pages"
 msgstr "Отдельные Страницы"
@@ -971,13 +963,11 @@ msgstr ""
 msgid "order"
 msgstr "сортировать"
 
-#, fuzzy
 msgid "back to top"
-msgstr "Вернуться ко Входу"
+msgstr "к началу"
 
-#, fuzzy
 msgid "Edit this page"
-msgstr "Редактировать комментарий"
+msgstr "Редактировать страницу"
 
 msgid "Timed Publish"
 msgstr "Отложенная публикация"
@@ -999,7 +989,7 @@ msgid "Are you sure you wish to delete this Page?"
 msgstr "Вы уверены, что хотите удалить этот файл?"
 
 msgid "Delete Page"
-msgstr "Удалить страницу"
+msgstr "Удалить Страницу"
 
 msgid "Write a new Page"
 msgstr "Создать новую Страницу"
@@ -1095,21 +1085,17 @@ msgstr "Удалить комментарий ?"
 msgid "Delete"
 msgstr "Удалить"
 
-#, fuzzy
 msgid "Unblock this IP-address?"
-msgstr "яНУПЮМХРЭ IP-ЮДПЕЯЮ"
+msgstr "Разблокировать IP адрес?"
 
-#, fuzzy
 msgid "Unblock IP"
-msgstr "пЮГАКНЙХПНБЮРЭ IP %s"
+msgstr "Разблокировать IP"
 
-#, fuzzy
 msgid "Block this IP-address?"
-msgstr "гЮАКНЙХПНБЮРЭ IP %s"
+msgstr "Заблокировать этот IP-адрес?"
 
-#, fuzzy
 msgid "Block IP"
-msgstr "гЮАКНЙХПНБЮРЭ IP %s"
+msgstr "Блокировать IP"
 
 msgid "on"
 msgstr ""
@@ -1193,6 +1179,8 @@ msgstr "Метки"
 
 msgid "Separate Tags with spaces. E.g., movies jedi starwars (not 'star wars')"
 msgstr ""
+"Разделяйте Метки пробелами. Например, фильм про джедаев StarWars (не 'Star "
+"Wars')"
 
 msgid "Post Status"
 msgstr "Статус"
@@ -1203,16 +1191,14 @@ msgstr "Публиковать"
 msgid "Publish on"
 msgstr "Дата публикации"
 
-#, fuzzy
 msgid "Post Page"
-msgstr "ХГНАПЮФЕМХЕ"
+msgstr "Опубликовать"
 
 msgid "Preview"
 msgstr "Предосмотр"
 
-#, fuzzy
 msgid "(none)"
-msgstr "НДХМ"
+msgstr "(пусто)"
 
 msgid "Allow comments"
 msgstr "Разрешить комментирование"
@@ -1248,7 +1234,7 @@ msgid "About PivotX"
 msgstr "Подробнее о PivotX"
 
 msgid "c"
-msgstr ""
+msgstr "к"
 
 msgid "t"
 msgstr ""
@@ -1262,27 +1248,23 @@ msgstr "Последнии записи"
 msgid "The latest pages"
 msgstr "Последнии страницы"
 
-#, fuzzy
 msgid "The latest trackbacks"
-msgstr "оНЯКЕДМХЕ мНБНЯРХ НР Pivot"
+msgstr "Последние трекбеки"
 
 msgid "Blog Name"
 msgstr "Название Блога"
 
-#, fuzzy
 msgid "Edit this trackback"
-msgstr "хГЛЕМХРЭ ХКХ СДЮКХРЭ рПЩЙаЩЙХ"
+msgstr "Редактировать трекбек"
 
 msgid "Delete this trackback?"
 msgstr "Удалить трекбек ?"
 
-#, fuzzy
 msgid "There are no latest trackbacks"
-msgstr "с ГЮОХЯХ МЕР ЙНЛЛЕМРЮПХИ."
+msgstr "Нету новых трекбеков"
 
-#, fuzzy
 msgid "No trackbacks"
-msgstr "мЕР РПЩЙАЩЙНБ"
+msgstr "Нету трекбеков"
 
 #, fuzzy
 msgid "The configuration for \"%key%\" was successfully updated."
@@ -1293,7 +1275,7 @@ msgid "The configuration could not be updated."
 msgstr "Запись невозможно удалить."
 
 msgid "Permalink"
-msgstr ""
+msgstr "Постоянная ссылка"
 
 msgid "edit"
 msgstr "редактировать"
@@ -1310,9 +1292,8 @@ msgstr "Публикация и Предосмотр"
 msgid "Post and Continue Editing"
 msgstr "Опубликовать и продолжить"
 
-#, fuzzy
 msgid "Languages"
-msgstr "Язык"
+msgstr "Языки"
 
 msgid "Order"
 msgstr "Сортировать"
@@ -1331,9 +1312,8 @@ msgstr "Вы уверены, что хотите удалить этот фай�
 msgid "Delete page"
 msgstr "Удалить страницу"
 
-#, fuzzy
 msgid "Compact view"
-msgstr "бЕЯЭ ЯОХЯНЙ"
+msgstr "Компактный вид"
 
 msgid "Active widgets"
 msgstr "Активные виджеты"
@@ -1347,9 +1327,8 @@ msgstr "Сохранить"
 msgid "Update available"
 msgstr ""
 
-#, fuzzy
 msgid "Version"
-msgstr "версия"
+msgstr "Версия"
 
 msgid "General"
 msgstr ""
@@ -1389,9 +1368,8 @@ msgstr ""
 msgid "Tag"
 msgstr "Метка"
 
-#, fuzzy
 msgid "Insert tag!"
-msgstr "бЯРЮБХРЭ ХГНАПЮФЕМХЕ"
+msgstr "Вставьте метки!"
 
 msgid "Suggested Tags"
 msgstr ""
@@ -1408,9 +1386,8 @@ msgstr "бХЮ-гЮЦКЮБХЕ"
 msgid "Trackback Ping"
 msgstr "оХМЦ рПЩЙаЩЙЮ"
 
-#, fuzzy
 msgid "View Comments and Trackbacks"
-msgstr "рПЩЙаЩЙХ"
+msgstr "Просмотреть Комментарии и Трекбеки"
 
 msgid "Trackbacks"
 msgstr "Трекбеки"
@@ -1419,9 +1396,8 @@ msgstr "Трекбеки"
 msgid "Are you sure you wish to delete this entry?"
 msgstr "Вы уверены, что хотите удалить эту запись?"
 
-#, fuzzy
 msgid "Delete entry"
-msgstr "Удалить комментарии"
+msgstr "Удалить запись"
 
 msgid "Insert a Download"
 msgstr "Вставить Загрузку"
@@ -1455,12 +1431,11 @@ msgstr "бХЮ-гЮЦКЮБХЕ"
 msgid "Insert download!"
 msgstr "бЯРЮБХРЭ гЮЦПСГЙС"
 
-#, fuzzy
 msgid "Jump to:"
-msgstr "перейти на страницу (%num%)"
+msgstr "Перейти к:"
 
 msgid "Message Log"
-msgstr ""
+msgstr "Журнал Сообщений"
 
 msgid "Website is OFFLINE"
 msgstr ""
@@ -1483,9 +1458,8 @@ msgstr "запросы"
 msgid "build"
 msgstr "сборка"
 
-#, fuzzy
 msgid "Documentation"
-msgstr "Комментировать"
+msgstr "Документация"
 
 msgid "Table of Contents"
 msgstr ""
@@ -1505,39 +1479,34 @@ msgstr "Уменьшенное изображение"
 msgid "Are you sure you wish to delete this file?"
 msgstr "Вы уверены, что хотите удалить этот файл?"
 
-#, fuzzy
 msgid "Copy to file name?"
-msgstr "Имя файла"
+msgstr "Имя нового файла?"
 
 msgid "Duplicate"
 msgstr "Копировать"
 
-#, fuzzy
 msgid "New file name?"
-msgstr "Имя файла"
+msgstr "Имя нового файла?"
 
 msgid "Create a new file"
 msgstr "Создать новый файл"
 
-#, fuzzy
 msgid "New folder name?"
-msgstr "Язык \"по умолчанию\""
+msgstr "Имя новой папки?"
 
 msgid "Create a new folder"
-msgstr "Создать новый каталог"
+msgstr "Создать новую папку"
 
 msgid ""
 "You're not allowed to upload/duplicate files in this folder. Use your FTP "
 "program to do this."
 msgstr ""
 
-#, fuzzy
 msgid "List of uploaded files"
-msgstr "Загрузить еще файлы"
+msgstr "Список загружаемых файлов"
 
-#, fuzzy
 msgid "Done"
-msgstr "цНРНБН!"
+msgstr "Готово"
 
 msgid "Add a new configuration option:"
 msgstr "Добавить новую опцию конфигурации:"
@@ -1607,7 +1576,7 @@ msgid "With the checked entries, do:"
 msgstr "С выделенными записями:"
 
 msgid "- select an option -"
-msgstr "- выберете -"
+msgstr "- выберете вариант -"
 
 msgid "Set Status to \"publish\""
 msgstr "Установить статус \"опубликовано\""
@@ -1752,9 +1721,8 @@ msgstr "Имя файла"
 msgid "Select a file"
 msgstr "Выбирите файл"
 
-#, fuzzy
 msgid "Insert file!"
-msgstr "бЯРЮБХРЭ ХГНАПЮФЕМХЕ"
+msgstr "Вставить файл!"
 
 msgid "Edit Entry (fullscreen)"
 msgstr "Редактировать Запись (в полный экран)"
@@ -1792,13 +1760,11 @@ msgstr "Конфигурация"
 msgid "Manage Media"
 msgstr "Управление Медиа"
 
-#, fuzzy
 msgid "overview of entries"
-msgstr "Обзор Записей"
+msgstr "просмотр записей"
 
-#, fuzzy
 msgid "overview of comments"
-msgstr "Обзор Записей"
+msgstr "просмотр комментариев"
 
 msgid "Entry"
 msgstr "Запись"
@@ -1806,9 +1772,8 @@ msgstr "Запись"
 msgid "delete"
 msgstr "удалить"
 
-#, fuzzy
 msgid "overview of pages"
-msgstr "Обзор Страниц"
+msgstr "просмотр страниц"
 
 msgid "PivotX News"
 msgstr "Новости PivotX"
@@ -1816,13 +1781,11 @@ msgstr "Новости PivotX"
 msgid "Visit the website"
 msgstr "Перейти на сайт"
 
-#, fuzzy
 msgid "The latest events"
-msgstr "оНЯКЕДМХЕ мНБНЯРХ НР Pivot"
+msgstr "Последние события"
 
-#, fuzzy
 msgid "Show more items"
-msgstr "оНЙЮГЮРЭ ОНЯКЕДМХЕ"
+msgstr "Показать больше событий"
 
 msgid "The latest Forum posts"
 msgstr "Последние сообщения на форуме"
@@ -1842,13 +1805,13 @@ msgid ""
 "working on your site."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cannot open file %s"
-msgstr "МЕ ЛНЦС НРЙПШРЭ ТЮИК, ОПНБЕПЭРЕ ОПЮБЮ."
+msgstr "Не удается открыть файл %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cannot write to file %s"
-msgstr "Ошибка! Невозможно записать в файл"
+msgstr "Не удается записать в файл %s"
 
 #, php-format
 msgid "Wrote contents to file %s"
@@ -1866,10 +1829,10 @@ msgid "The latest PivotX news is not available as long as safemode is enabled."
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the News feed."
-msgstr ""
+msgstr "Упс! Боюсь, я не могу прочитать новости."
 
 msgid "Oops! I'm afraid I couldn't read the Forum feed."
-msgstr ""
+msgstr "Упс! Боюсь, я не могу прочитать последние сообщения с форума."
 
 msgid "Oops! I'm afraid I couldn't read Tag feed."
 msgstr ""
@@ -1895,10 +1858,10 @@ msgid "Log in"
 msgstr "Вход"
 
 msgid "Dashboard"
-msgstr "Панель Администратора"
+msgstr "Личный кабинет"
 
 msgid "Back to dashboard"
-msgstr "Назад в Панель Администратора"
+msgstr "В Личный кабинет"
 
 msgid "Entries &amp; Pages"
 msgstr "Записи и Страницы"
@@ -1926,7 +1889,7 @@ msgid "Manage and Upload Media"
 msgstr "Управление Медиа"
 
 msgid "Create, edit and delete Templates"
-msgstr "Создание, редактирование и удаление шаблона"
+msgstr "Создание, редактирование и удаление шаблонов"
 
 msgid "Explore Database Files"
 msgstr "Обзор файлов БД"
@@ -2059,15 +2022,14 @@ msgstr "Пересчитать индексы БД для Меток"
 msgid "Rebuild the Tagindex, to display tag clouds and tags below entries"
 msgstr "оЕПЕДЕКЮИРЕ ХМДЕЙЯ АЮГШ ДЮММШУ, ДКЪ ОНХЯЙЮ"
 
-#, fuzzy
 msgid "Default"
-msgstr "ъГШЙ ОН-СЛНКВЮМХЧ"
+msgstr "По умолчанию"
 
 msgid "Welcome to your new online presence!"
 msgstr ""
 
 msgid "Add some pages here, or start a new chapter."
-msgstr ""
+msgstr "Добавьте несколько страниц, или создайте новый раздел."
 
 msgid "Light gray"
 msgstr ""
@@ -2698,13 +2660,11 @@ msgstr "Название сайта"
 msgid "That's not a proper sitename!"
 msgstr "Не верное название сайта!"
 
-#, fuzzy
 msgid "Site description"
-msgstr "Описание"
+msgstr "Описание сайта"
 
-#, fuzzy
 msgid "A short description of the website. Maximum length is 400 characters."
-msgstr "Краткое описание этого раздела"
+msgstr "Краткое описание сайта. Максимальная длина 400 символов."
 
 msgid "Weblog"
 msgstr "Блог"
@@ -2719,20 +2679,22 @@ msgstr "Главная страница"
 msgid "Please select an option"
 msgstr "- БШАЕПХРЕ -"
 
-#, fuzzy
 msgid ""
 "This determines the page that is shown to visitors of the site, if they go "
 "to the front page."
 msgstr ""
-"нОПЕДЕКЪЕР ТНПЛЮР ГЮОХЯХ ДЮРШ Х БПЕЛЕМХ. б НЯМНБМНЛ ХЯОНКЭГСЕРЯЪ Б ГЮОХЯЪУ."
+"Определяет страницу, которую увидят пользователи попавшие на главную "
+"страницу сайта."
 
 msgid "Site Favicon"
-msgstr "Фавикон сайта"
+msgstr "Иконка сайта"
 
 msgid ""
 "This determines the favicon that is used on the website. Use an absolute "
 "path to the image's filename for best results."
 msgstr ""
+"Определяет иконку, которая используется на сайте. Для достижения лучшего "
+"результата, используйте абсолютный путь к файлу."
 
 msgid "Allow XML-RPC"
 msgstr "Включить XML-RPC"
@@ -2779,9 +2741,8 @@ msgstr ""
 msgid "Site 'Not Found' page (404)"
 msgstr "Страница 'Not Found' (404)"
 
-#, fuzzy
 msgid "Default 404"
-msgstr "ъГШЙ ОН-СЛНКВЮМХЧ"
+msgstr "Default 404"
 
 msgid ""
 "This page is displayed when the visitor requests a page on the site that "
@@ -2803,15 +2764,14 @@ msgid ""
 "site."
 msgstr ""
 
-#, fuzzy
 msgid "Website online"
-msgstr "бЯРЮБХРЭ ЯЯШКЙС"
+msgstr "Сайт онлайн"
 
 msgid "Set your website offline for maintenance or upgrade."
 msgstr ""
 
 msgid "Cache Settings"
-msgstr "Настройки Кеширования"
+msgstr "Настройки Кэширования"
 
 msgid "Use Minify in Backend"
 msgstr ""
@@ -2883,9 +2843,8 @@ msgid ""
 "from various sources."
 msgstr ""
 
-#, fuzzy
 msgid "Number of items"
-msgstr "йНКХВЕЯРБН ГЮОХЯЕИ"
+msgstr "Количество записей"
 
 msgid "The amount of items to fetch from each source"
 msgstr ""
@@ -2914,18 +2873,16 @@ msgid ""
 "other information to help you develop a site."
 msgstr ""
 
-#, fuzzy
 msgid "Log Queries"
-msgstr "кНЦТЮИКШ"
+msgstr "Журнал Запросов"
 
 msgid ""
 "Log all MySQL queries in the debug log. Use this when you are investigation "
 "performance issues, but turn it off on production websites."
 msgstr ""
 
-#, fuzzy
 msgid "Log to file"
-msgstr "Нет заголовка"
+msgstr "Лог в файл"
 
 msgid ""
 "Log the debug output to a file. Use this when you are investigation "
@@ -2943,9 +2900,8 @@ msgid ""
 "any effect."
 msgstr ""
 
-#, fuzzy
 msgid "Chmod Files To"
-msgstr "гЮЦПСГХРЭ ТЮИКШ"
+msgstr "Chmod Файлов"
 
 msgid ""
 "Some servers require that created files are chmodded in a specific way. "
@@ -2963,7 +2919,7 @@ msgid ""
 msgstr ""
 
 msgid "Overwrite"
-msgstr "Заменить"
+msgstr "Выбрать"
 
 msgid "Increment Filename"
 msgstr "Increment Filename"
@@ -3312,11 +3268,11 @@ msgstr ""
 
 #, php-format
 msgid "The folder %s was created."
-msgstr "Каталог %s успешно создан."
+msgstr "Папка %s успешно создана."
 
 #, php-format
 msgid "The folder %s was <b>NOT</b> created."
-msgstr "Каталог %s <b>НЕ</b> создан."
+msgstr "Папка %s <b>НЕ</b> создана."
 
 #, php-format
 msgid "The file %s was created."
@@ -3363,43 +3319,43 @@ msgid "a few minutes ago"
 msgstr "несколько минут назад"
 
 msgid "less than ten minutes ago"
-msgstr "мене 10 мин назад"
+msgstr "менее 10 минут назад"
 
 msgid "15 minutes ago"
 msgstr "15 минут назад"
 
 msgid "half an hour ago"
-msgstr "несколько часов назад"
+msgstr "полчаса назад"
 
 msgid "about an hour ago"
-msgstr ""
+msgstr "около часа назад"
 
 msgid "an hour and a half ago"
-msgstr ""
+msgstr "полтора часа назад"
 
 msgid "about two hours ago"
-msgstr ""
+msgstr "около двух часов назад"
 
 msgid "%value% hours ago"
-msgstr ""
+msgstr "%value% часов назад"
 
 msgid "this morning"
 msgstr "этим утром"
 
 msgid "yesterday morning"
-msgstr ""
+msgstr "вчера утром"
 
 msgid "this evening"
 msgstr "этим вечером"
 
 msgid "yesterday evening"
-msgstr ""
+msgstr "вчера вечером"
 
 msgid "this afternoon"
-msgstr ""
+msgstr "сегодня вечером"
 
 msgid "yesterday afternoon"
-msgstr ""
+msgstr "вчера вечером"
 
 msgid "on %value%"
 msgstr ""
@@ -4602,19 +4558,19 @@ msgstr "Уникальных посетителей"
 
 #, php-format
 msgid "%s started editing entry '%s'."
-msgstr ""
+msgstr "%s начал редактировать запись '%s'."
 
 #, php-format
 msgid "%s started editing page '%s'."
-msgstr ""
+msgstr "%s начал редактировать страницу '%s'."
 
 #, php-format
 msgid "%s saved entry '%s'."
-msgstr ""
+msgstr "%s сохранил запись '%s'."
 
 #, php-format
 msgid "%s saved page '%s'."
-msgstr ""
+msgstr "%s сохранил страницу '%s'."
 
 #, php-format
 msgid "%s logged in."
@@ -4630,15 +4586,15 @@ msgstr ""
 
 #, php-format
 msgid "%s edited the setting for '%s'."
-msgstr ""
+msgstr "%s изменил значение '%s'."
 
 #, php-format
 msgid "%s added weblog '%s'."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited a weblog setting for '%s'."
-msgstr "хГЛЕМХРЭ МЮЯРПНИЙХ БЕАКНЦЮ ДКЪ "
+msgstr "%s изменил настройки блога '%s'."
 
 #, php-format
 msgid "%s deleted weblog '%s'."
@@ -4650,19 +4606,19 @@ msgstr ""
 
 #, php-format
 msgid "%s added user '%s'."
-msgstr ""
+msgstr "%s добавил пользователя '%s'."
 
 #, php-format
 msgid "%s edited user '%s'."
-msgstr ""
+msgstr "%s изменил пользователя '%s'."
 
 #, php-format
 msgid "%s deleted user '%s'."
-msgstr ""
+msgstr "%s удалил пользователя '%s'."
 
 #, php-format
 msgid "%s edited category '%s'."
-msgstr ""
+msgstr "%s отредактировал категорию '%s'."
 
 #, php-format
 msgid "%s deleted category '%s'."
@@ -4670,7 +4626,7 @@ msgstr "%s удалил категорию '%s'."
 
 #, php-format
 msgid "%s added chapter '%s'."
-msgstr ""
+msgstr "%s добавил категорию '%s'."
 
 #, php-format
 msgid "%s edited chapter '%s'."
@@ -4678,7 +4634,7 @@ msgstr "%s отредактировал категорию '%s'."
 
 #, php-format
 msgid "%s did '%s' on '%s'."
-msgstr "%s сделал '%s' на '%s'."
+msgstr "%s изменил значение '%s' на '%s'."
 
 #, php-format
 msgid "%s did '%s'."
@@ -4774,9 +4730,8 @@ msgid ""
 "link, and choose 'Add Bookmark'."
 msgstr ""
 
-#, fuzzy
 msgid "Post to PivotX"
-msgstr "хМТНПЛЮЖХЪ"
+msgstr "Написать в PivotX"
 
 msgid "Edit my personal Settings"
 msgstr "Редактирование персональных данных"
@@ -4802,31 +4757,27 @@ msgstr "Страница удалена."
 msgid "You are not allowed to add/edit this page."
 msgstr "У вас нет прав для редактирования или удаления этой страницы."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The settings for chapter '%s' have been updated."
-msgstr "бЕАКНЦ НАМНБКЕМ."
+msgstr "Настройки раздела '%s' были обновлены."
 
 msgid "Edit or Delete Trackback for Entry %number% - %editlink%"
 msgstr ""
 
-#, fuzzy
 msgid "The trackback was deleted."
-msgstr "рПЩЙаЩЙ ЯНУПЮМЕМ."
+msgstr "Обратная ссылка удалена."
 
-#, fuzzy
 msgid "The IP-address has been added to the blocklist."
-msgstr "IP-юДПЕЯЮ ГЮОХЯЮМШ Х ЯНУПЮМЕМШ."
+msgstr "IP-адрес был добавлен в список блокировки."
 
 msgid "The IP-address couldn't be added to the blocklist."
 msgstr ""
 
-#, fuzzy
 msgid "The IP-address has been removed from the blocklist."
-msgstr "IP-юДПЕЯЮ ГЮОХЯЮМШ Х ЯНУПЮМЕМШ."
+msgstr "IP-адрес был удален из список блокировки."
 
-#, fuzzy
 msgid "The IP-address couldn't be removed from the blocklist."
-msgstr "IP-юДПЕЯЮ ГЮОХЯЮМШ Х ЯНУПЮМЕМШ."
+msgstr "IP-адрес не может быть удален из список блокировки."
 
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Редактирование последних Трекбеков"
@@ -4852,9 +4803,8 @@ msgstr ""
 msgid "Edit or Delete Trackbacks"
 msgstr "Радактирование или удаление Трекбеков"
 
-#, fuzzy
 msgid "The Trackback was saved!"
-msgstr "рПЩЙаЩЙ ЯНУПЮМЕМ."
+msgstr "Обратная ссылка была сохранена!"
 
 msgid "You have to select an entry in order to view its trackback."
 msgstr ""
@@ -4940,7 +4890,7 @@ msgstr ""
 
 #, php-format
 msgid "deleted %s cache files in %s seconds."
-msgstr ""
+msgstr "удалено %s файлов кэша за %s секунд."
 
 msgid "Explore files"
 msgstr "Обзор файлов"
@@ -4991,9 +4941,9 @@ msgstr "Пользователь с таким Email уже зарегистри
 msgid "Nickname already in use"
 msgstr "Имя уже занято"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The settings for user %s have been updated."
-msgstr "бЕАКНЦ НАМНБКЕМ."
+msgstr "Настройки для пользоватея %s были обновлены."
 
 msgid ""
 "You are not allowed to create users with userlevel administrator or higher"
@@ -5017,7 +4967,7 @@ msgstr "Категория с таким именем уже существуе�
 
 #, php-format
 msgid "The settings for category '%s' have been updated."
-msgstr "Ваши настройки для категории '%s' успешно сохранены."
+msgstr "Настройки для категории '%s' были обновлены."
 
 msgid "Edit Weblog"
 msgstr "Редактировать Блог"
@@ -5033,14 +4983,13 @@ msgid "Edit Comment"
 msgstr "Редактировать комментарий"
 
 msgid "The Comment was disapproved!"
-msgstr "Комментарий отклонен"
+msgstr "Комментарий отклонен!"
 
 msgid "The Comment was approved!"
 msgstr "Комментарий проверен!"
 
-#, fuzzy
 msgid "link"
-msgstr "лЕМЧ"
+msgstr "ссылка"
 
 #, fuzzy
 #~ msgid "Subitle"
