@@ -4,14 +4,15 @@
 # Lars Seifert <lars.seifert@gmx.de>, 2008.
 # Jan Korger, 2009.
 # Holger Handstein <handstein@der-privatanleger.de>, 2010.
+# Christian Taube <office@hcf.yourweb.de>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-05-04 22:34+0200\n"
-"PO-Revision-Date: 2010-12-11 14:08+0100\n"
-"Last-Translator: Holger Handstein <handstein@der-privatanleger.de>\n"
+"PO-Revision-Date: 2011-08-21 02:45+0100\n"
+"Last-Translator: Christian Taube <office@hcf.yourweb.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -385,7 +386,7 @@ msgid "'No access' template"
 msgstr "Vorlage für 'Kein Zugriff'"
 
 msgid "When the user is not granted access, show this template."
-msgstr "Zeige dieses Template, wenn der Nutzer keinen Zugang erhält."
+msgstr "Zeige diese Vorlage, wenn der Nutzer keinen Zugang erhält."
 
 msgid "'No access' title"
 msgstr "Titel für 'Kein Zugriff'"
@@ -1007,7 +1008,7 @@ msgid "Hold"
 msgstr "Noch nicht veröffentlicht"
 
 msgid "Published"
-msgstr "Veröffentlichen"
+msgstr "Veröffentlicht"
 
 msgid "default template"
 msgstr "Standard-Vorlage"
@@ -1220,7 +1221,7 @@ msgid "Publish"
 msgstr "Veröffentlichen"
 
 msgid "Publish on"
-msgstr "Veröffentlicht am"
+msgstr "Veröffentlichen am"
 
 msgid "Post Page"
 msgstr "Seite veröffentlichen"
@@ -1362,7 +1363,7 @@ msgid "General"
 msgstr "Allgemein"
 
 msgid "Templates"
-msgstr "Templates"
+msgstr "Vorlagen"
 
 msgid "Subweblogs"
 msgstr "Untergeordnete Weblogs"
@@ -1911,7 +1912,7 @@ msgid "Manage and Upload Media"
 msgstr "Verwaltung und Hochladen von Dateien"
 
 msgid "Create, edit and delete Templates"
-msgstr "Templates erstellen, bearbeiten oder löschen"
+msgstr "Vorlagen erstellen, bearbeiten oder löschen"
 
 msgid "Explore Database Files"
 msgstr "Datenbank-Dateien"
@@ -2107,7 +2108,7 @@ msgstr ""
 "zurücksetzen kannst."
 
 msgid "Backup templates"
-msgstr "Sicherheitskopie der Templates erstellen"
+msgstr "Sicherheitskopie der Vorlagen erstellen"
 
 msgid "Backup all your entries"
 msgstr "Artikeldatenbank sichern"
@@ -2858,15 +2859,15 @@ msgstr ""
 "auftreten."
 
 msgid "Force compile templates"
-msgstr "Erzwinge Kompilieren der Templates"
+msgstr "Erzwinge Kompilieren der Vorlagen"
 
 msgid ""
 "If you enable this, all templates will be compiled everytime. Only enable "
 "this, if you're having trouble with the templates, as this setting severely "
 "degrades performance."
 msgstr ""
-"Wenn Du dies aktivierst, werden alle Templates jedes Mal kompiliert. "
-"Aktiviere dies nur, falls Du Probleme mit den Templates hast - diese "
+"Wenn Du dies aktivierst, werden alle Vorlagen jedes Mal kompiliert. "
+"Aktiviere dies nur, falls Du Probleme mit den Vorlagen hast - diese "
 "Einstellung beeinträchtigt die Performance deutlich."
 
 msgid "Disallow cached includes"
@@ -2891,7 +2892,7 @@ msgstr ""
 "Durch Aktivieren werden alle Seiten gecached. Dies macht PivotX deutlich "
 "schneller und sollte daher immer aktiviert werden, wenn viele Besucher auf "
 "die Seiten zugreifen oder Performance-Probleme auftreten. Beim Arbeiten an "
-"Templates oder bei Problemen sollte die Option deaktiviert werden."
+"Vorlagen oder bei Problemen sollte die Option deaktiviert werden."
 
 msgid "Show Flickr Images"
 msgstr "Flickr Bilder anzeigen"
@@ -3356,7 +3357,7 @@ msgstr "Schwerwiegender Fehler"
 
 #, php-format
 msgid "No templates found in directory '<tt>%s</tt>'."
-msgstr "Keine Templates im Verzeichnis '<tt>%s</tt>' gefunden."
+msgstr "Keine Vorlagen im Verzeichnis '<tt>%s</tt>' gefunden."
 
 msgid "URL to the PivotX folder is unknown"
 msgstr "URL zum PivotX-Ordner ist unbekannt"
