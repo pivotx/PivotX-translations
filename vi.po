@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,15 +103,16 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Tải lên một tập tin mới:"
 
-msgid "UA tracking code"
+msgid "Web Propery ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 
 msgid "Google account login"
@@ -147,7 +148,44 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Cấu hình"
 
-msgid "Use AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
@@ -482,6 +520,26 @@ msgstr ""
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "Xuất bài viết theo"
+
+#, fuzzy
+msgid "Preview"
+msgstr "Xem lại bài viết"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 #, fuzzy
 msgid "Default folder name"
 msgstr "Ngôn ngữ mặc định"
@@ -514,8 +572,24 @@ msgstr "Ngôn ngữ mặc định"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
+msgstr ""
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "Ngôn ngữ mặc định"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "Ngôn ngữ mặc định"
+
+msgid "The css to use for slideshow."
 msgstr ""
 
 msgid "Limit"
@@ -583,6 +657,31 @@ msgstr ""
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
 msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
@@ -1101,8 +1200,8 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgid "Comments waiting for moderation"
-msgstr "Các cài đặt của phần Góp ý"
+msgid "The latest comments"
+msgstr "Các bài viết mới"
 
 msgid "IP-address"
 msgstr "Địa chỉ IP"
@@ -1141,29 +1240,6 @@ msgstr "Khóa IP %s"
 
 msgid "on"
 msgstr ""
-
-#, fuzzy
-msgid "Check all"
-msgstr "Đánh dấu tất cả"
-
-#, fuzzy
-msgid "Check none"
-msgstr "Đánh dấu tất cả"
-
-#, fuzzy
-msgid "Approve comments"
-msgstr "Không có góp ý"
-
-#, fuzzy
-msgid "Delete comments"
-msgstr "Xóa góp ý"
-
-msgid "There are no comments waiting for moderation"
-msgstr ""
-
-#, fuzzy
-msgid "The latest comments"
-msgstr "Các bài viết mới"
 
 #, fuzzy
 msgid "There are no latest comments"
@@ -1251,10 +1327,6 @@ msgid "Post Page"
 msgstr "Thay đổi"
 
 #, fuzzy
-msgid "Preview"
-msgstr "Xem lại bài viết"
-
-#, fuzzy
 msgid "(none)"
 msgstr "một"
 
@@ -1335,8 +1407,16 @@ msgstr "Bài viết này không có góp ý."
 msgid "No trackbacks"
 msgstr "nhãn chó 'X góp ý'"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "Lưu các thay đổi!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
 msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
+msgstr "Góp ý đã được xóa."
 
 #, fuzzy
 msgid "The configuration could not be updated."
@@ -1425,14 +1505,6 @@ msgstr "Góp ý"
 #, fuzzy
 msgid "Back to Weblogs"
 msgstr "Địa chỉ URL trỏ đến Weblog"
-
-#, fuzzy
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Weblog đã được cập nhật."
-
-#, fuzzy
-msgid "The weblog settings could not be updated."
-msgstr "Góp ý đã được xóa."
 
 #, fuzzy
 msgid "Insert a Tag"
@@ -1844,6 +1916,33 @@ msgstr "Thay đổi Bài viết"
 msgid "View website (fullscreen)"
 msgstr ""
 
+#, fuzzy
+msgid "Comments waiting for moderation"
+msgstr "Các cài đặt của phần Góp ý"
+
+#, fuzzy
+msgid "Approve"
+msgstr "Không có góp ý"
+
+#, fuzzy
+msgid "Check all"
+msgstr "Đánh dấu tất cả"
+
+#, fuzzy
+msgid "Check none"
+msgstr "Đánh dấu tất cả"
+
+#, fuzzy
+msgid "Approve comments"
+msgstr "Không có góp ý"
+
+#, fuzzy
+msgid "Delete comments"
+msgstr "Xóa góp ý"
+
+msgid "There are no comments waiting for moderation"
+msgstr ""
+
 msgid "first"
 msgstr "đầu tiên"
 
@@ -1915,6 +2014,10 @@ msgstr ""
 #, fuzzy
 msgid "Show more tags"
 msgstr "Trình bày referrer cuối cùng"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "Góp ý đã được xóa."
 
 msgid "Save and continue editing"
 msgstr ""
@@ -2006,6 +2109,10 @@ msgstr "Bài viết mới"
 #, fuzzy
 msgid "Moderate Comments"
 msgstr "Xóa góp ý"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "Tổng quan về các bài viết"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2283,46 +2390,6 @@ msgid "Excerpt"
 msgstr ""
 
 #, fuzzy
-msgid "Continue"
-msgstr "chín"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr ""
-
-msgid "Password (confirm)"
-msgstr "Mật mã (Xác nhận)"
-
-#, fuzzy
-msgid "The passwords do not match!"
-msgstr "Mật mã không đúng"
-
-#, fuzzy
-msgid "That's not a proper email address!"
-msgstr "Đây không phải là một địa chỉ email hợp lệ"
-
-#, fuzzy
-msgid "That's not a proper Nickname!"
-msgstr "Đây không phải là một địa chỉ email hợp lệ"
-
-msgid "Default language"
-msgstr "Ngôn ngữ mặc định"
-
-#, fuzzy
-msgid "Please select a language!"
-msgstr "Ngôn ngữ mặc định"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr ""
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr ""
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-
-#, fuzzy
 msgid "Database Model"
 msgstr "Ngày"
 
@@ -2369,6 +2436,46 @@ msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
+msgstr ""
+
+#, fuzzy
+msgid "Continue"
+msgstr "chín"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr ""
+
+msgid "Password (confirm)"
+msgstr "Mật mã (Xác nhận)"
+
+#, fuzzy
+msgid "The passwords do not match!"
+msgstr "Mật mã không đúng"
+
+#, fuzzy
+msgid "That's not a proper email address!"
+msgstr "Đây không phải là một địa chỉ email hợp lệ"
+
+#, fuzzy
+msgid "That's not a proper Nickname!"
+msgstr "Đây không phải là một địa chỉ email hợp lệ"
+
+msgid "Default language"
+msgstr "Ngôn ngữ mặc định"
+
+#, fuzzy
+msgid "Please select a language!"
+msgstr "Ngôn ngữ mặc định"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr ""
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr ""
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
 msgstr ""
 
 msgid ""
@@ -4213,7 +4320,7 @@ msgstr "Ngôn ngữ mặc định"
 msgid "Language used if none could be detected."
 msgstr "Góp ý đã được xóa."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4249,6 +4356,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "Kết thúc"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr ""
@@ -5032,6 +5142,14 @@ msgstr "Các địa chỉ IP đã được lưu"
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "nhãn chó 'X góp ý'"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Các cài đặt của phần Góp ý"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "Biên tập hoặc Xóa các Ý kiến"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 
@@ -5112,6 +5230,16 @@ msgid "Moblogging"
 msgstr "Moblogger"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "Chữ"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5265,6 +5393,18 @@ msgstr "Góp ý đã được lưu."
 #, fuzzy
 msgid "link"
 msgstr "Liên kết"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Biên tập hoặc Xóa các Ý kiến"
+
+#, fuzzy
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "Weblog đã được cập nhật."
+
+#, fuzzy
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Góp ý đã được xóa."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5865,9 +6005,6 @@ msgstr "Liên kết"
 #~ msgid "Editing"
 #~ msgstr "Biên tập"
 
-#~ msgid "Save changes!"
-#~ msgstr "Lưu các thay đổi!"
-
 #~ msgid "Generate Archive"
 #~ msgstr "Tạo bộ sưu tập"
 
@@ -6266,9 +6403,6 @@ msgstr "Liên kết"
 #~ "Chèn một liên kết, bằng cách gõ một địa chỉ trong khoản nhập dưới đây. "
 #~ "Khách đến thăm website của bạn sẽ thấy tựa đề khi họ rà chuột lên liên "
 #~ "kết."
-
-#~ msgid "Text"
-#~ msgstr "Chữ"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Biên tập ai có thể gởi bài cho chủ đề '%s'"

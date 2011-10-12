@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: 2011-05-13 00:26+0730\n"
 "Last-Translator: Marc Nemissa\n"
 "Language-Team: \n"
@@ -99,15 +99,16 @@ msgstr ""
 msgid "Upload a file"
 msgstr "ファイルをアップロード"
 
-msgid "UA tracking code"
+msgid "Web Propery ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 
 msgid "Google account login"
@@ -142,7 +143,44 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "高度な設定"
 
-msgid "Use AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
@@ -466,6 +504,25 @@ msgstr ""
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "発行"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 #, fuzzy
 msgid "Default folder name"
 msgstr "デフォルトの使用言語"
@@ -498,9 +555,26 @@ msgstr "地図の高さ初期値"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "地図のズーム初期値"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "デフォルトの作者"
+
+#, fuzzy
+msgid "The css to use for slideshow."
+msgstr "このウィジェットに対する色定義を選択して下さい。"
 
 #, fuzzy
 msgid "Limit"
@@ -566,6 +640,31 @@ msgstr "使用ライブラリ/ツール"
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
 msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
@@ -1071,8 +1170,8 @@ msgstr ""
 "次回のリリースで反映いたしますので、記載されていない場合がありましたらご連絡"
 "下さい。"
 
-msgid "Comments waiting for moderation"
-msgstr "承認待ちコメント"
+msgid "The latest comments"
+msgstr "最新のコメント"
 
 msgid "IP-address"
 msgstr "IPアドレス"
@@ -1107,24 +1206,6 @@ msgstr "IPをブロック"
 
 msgid "on"
 msgstr "on"
-
-msgid "Check all"
-msgstr "全てチェックする"
-
-msgid "Check none"
-msgstr "全てのチェックを外す"
-
-msgid "Approve comments"
-msgstr "コメントを許可"
-
-msgid "Delete comments"
-msgstr "コメントを削除"
-
-msgid "There are no comments waiting for moderation"
-msgstr "承認待ちのコメントはありません。"
-
-msgid "The latest comments"
-msgstr "最新のコメント"
 
 msgid "There are no latest comments"
 msgstr "最新のコメントはありません。"
@@ -1201,9 +1282,6 @@ msgstr "発行日"
 msgid "Post Page"
 msgstr "ページを投稿"
 
-msgid "Preview"
-msgstr "プレビュー"
-
 msgid "(none)"
 msgstr "（無し）"
 
@@ -1273,7 +1351,15 @@ msgstr "最新のトラックバックはありません。"
 msgid "No trackbacks"
 msgstr "トラックバック（0）"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "変更を保存"
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
 msgstr "設定 \"%s\" を更新しました。"
 
 msgid "The configuration could not be updated."
@@ -1351,12 +1437,6 @@ msgstr "コメント"
 
 msgid "Back to Weblogs"
 msgstr "ウェブログ画面に戻る"
-
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "\"%key%\" に対する設定を更新しました。"
-
-msgid "The weblog settings could not be updated."
-msgstr "設定の更新に失敗しました。"
 
 msgid "Insert a Tag"
 msgstr "タグを挿入"
@@ -1726,6 +1806,27 @@ msgstr "エントリを編集"
 msgid "View website (fullscreen)"
 msgstr ""
 
+msgid "Comments waiting for moderation"
+msgstr "承認待ちコメント"
+
+msgid "Approve"
+msgstr "許可"
+
+msgid "Check all"
+msgstr "全てチェックする"
+
+msgid "Check none"
+msgstr "全てのチェックを外す"
+
+msgid "Approve comments"
+msgstr "コメントを許可"
+
+msgid "Delete comments"
+msgstr "コメントを削除"
+
+msgid "There are no comments waiting for moderation"
+msgstr "承認待ちのコメントはありません。"
+
 msgid "first"
 msgstr "最初へ"
 
@@ -1793,6 +1894,10 @@ msgstr "提案"
 
 msgid "Show more tags"
 msgstr "タグを更に表示"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "設定 \"%s\" を更新しました。"
 
 msgid "Save and continue editing"
 msgstr "保存し編集を続ける"
@@ -1881,6 +1986,10 @@ msgstr "新規ページの作成と発行"
 
 msgid "Moderate Comments"
 msgstr "コメントを審査"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "エントリの概要"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2146,45 +2255,6 @@ msgstr "エントリタイトル"
 msgid "Excerpt"
 msgstr "抜粋"
 
-msgid "Continue"
-msgstr "続行"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr "最初のユーザーを設定するために、以下の情報を入力して下さい。"
-
-msgid "Password (confirm)"
-msgstr "パスワード（確認）"
-
-msgid "The passwords do not match!"
-msgstr "パスワードが一致しません。"
-
-msgid "That's not a proper email address!"
-msgstr "適切なメールアドレスではありません。"
-
-msgid "That's not a proper Nickname!"
-msgstr "適切なニックネームではありません。"
-
-msgid "Default language"
-msgstr "デフォルトの使用言語"
-
-msgid "Please select a language!"
-msgstr "言語を選択してください。"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr ""
-"PivotXはお使いのウェブサーバーが MｙSQLをサポートしていることを検出しました。"
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr ""
-"MySQLのアカウントとデータベースをお持ちの場合は、以下に情報を入力して下さい。"
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-"お持ちで無い場合は、ホスティング会社に問い合わせるか 'フラットファイル' モデ"
-"ルを選択して下さい。"
-
 msgid "Database Model"
 msgstr "データベースモデル"
 
@@ -2235,6 +2305,45 @@ msgstr ""
 "データベースのテーブル名に使用する接頭語です。この値を変更することで一つの"
 "MySQLデータベースで複数のPivotを使用することが出来ます。Pivotを複数使用するこ"
 "とを（未だ）考えていない場合は、\"pivotx_\"としておいて下さい。"
+
+msgid "Continue"
+msgstr "続行"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr "最初のユーザーを設定するために、以下の情報を入力して下さい。"
+
+msgid "Password (confirm)"
+msgstr "パスワード（確認）"
+
+msgid "The passwords do not match!"
+msgstr "パスワードが一致しません。"
+
+msgid "That's not a proper email address!"
+msgstr "適切なメールアドレスではありません。"
+
+msgid "That's not a proper Nickname!"
+msgstr "適切なニックネームではありません。"
+
+msgid "Default language"
+msgstr "デフォルトの使用言語"
+
+msgid "Please select a language!"
+msgstr "言語を選択してください。"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr ""
+"PivotXはお使いのウェブサーバーが MｙSQLをサポートしていることを検出しました。"
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr ""
+"MySQLのアカウントとデータベースをお持ちの場合は、以下に情報を入力して下さい。"
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr ""
+"お持ちで無い場合は、ホスティング会社に問い合わせるか 'フラットファイル' モデ"
+"ルを選択して下さい。"
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
@@ -4066,7 +4175,7 @@ msgstr "デフォルトの使用言語"
 msgid "Language used if none could be detected."
 msgstr "エントリの削除に失敗しました。"
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4101,6 +4210,9 @@ msgstr ""
 
 msgid "English"
 msgstr "英語"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr "タグクラウド："
@@ -4854,6 +4966,14 @@ msgstr "IPアドレスリストは保存されました。"
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "トラックバック管理"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "承認待ちコメント"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "審査待ちコメントと最新コメントの管理"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "エントリ %number% - %editlink% に対するコメントの管理"
 
@@ -4922,6 +5042,16 @@ msgid "Moblogging"
 msgstr "モブロギング"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "テキスト"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5062,6 +5192,16 @@ msgstr "コメントを許可しました！"
 
 msgid "link"
 msgstr "リンク"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "コメントの管理"
+
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "\"%key%\" に対する設定を更新しました。"
+
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "設定の更新に失敗しました。"
 
 #~ msgid "Send Pings"
 #~ msgstr "ピング送信"
@@ -5882,9 +6022,6 @@ msgstr "リンク"
 #~ msgid "Toggle between basic and extended view"
 #~ msgstr "標準ビューと拡張ビューの切り替え"
 
-#~ msgid "Approve"
-#~ msgstr "許可"
-
 #~ msgid "Welcome to %build%."
 #~ msgstr "ようこそ %build%"
 
@@ -6012,9 +6149,6 @@ msgstr "リンク"
 
 #~ msgid "Editing"
 #~ msgstr "編集中"
-
-#~ msgid "Save changes!"
-#~ msgstr "変更を保存"
 
 #~ msgid "Auxillary template"
 #~ msgstr "補助テンプレート"
@@ -6566,9 +6700,6 @@ msgstr "リンク"
 #~ msgstr ""
 #~ "以下のフィールドにアドレスを入力してリンクを挿入します。訪問者はマウスオー"
 #~ "バー時にタイトルを確認することが出来ます。"
-
-#~ msgid "Text"
-#~ msgstr "テキスト"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "カテゴリ '%s' に投稿できるユーザーを設定します。"

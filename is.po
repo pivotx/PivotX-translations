@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,15 +104,16 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Hlaða upp nýja skrá:"
 
-msgid "UA tracking code"
+msgid "Web Propery ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 
 msgid "Google account login"
@@ -148,7 +149,44 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Stillingar"
 
-msgid "Use AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
@@ -483,6 +521,26 @@ msgstr ""
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "Birta á"
+
+#, fuzzy
+msgid "Preview"
+msgstr "Skoða færslu"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 #, fuzzy
 msgid "Default folder name"
 msgstr "Aðal tungumál"
@@ -515,8 +573,24 @@ msgstr "Aðal tungumál"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
+msgstr ""
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "Aðal tungumál"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "Aðal tungumál"
+
+msgid "The css to use for slideshow."
 msgstr ""
 
 msgid "Limit"
@@ -584,6 +658,31 @@ msgstr ""
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
 msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
@@ -1103,8 +1202,8 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgid "Comments waiting for moderation"
-msgstr "Stillingar athugasemda"
+msgid "The latest comments"
+msgstr "Nýjar færslur"
 
 msgid "IP-address"
 msgstr "IP-address"
@@ -1143,29 +1242,6 @@ msgstr "Block IP %s"
 
 msgid "on"
 msgstr ""
-
-#, fuzzy
-msgid "Check all"
-msgstr "Velja allt"
-
-#, fuzzy
-msgid "Check none"
-msgstr "Velja allt"
-
-#, fuzzy
-msgid "Approve comments"
-msgstr "Engar athugasemdir"
-
-#, fuzzy
-msgid "Delete comments"
-msgstr "Eyða athugasemd"
-
-msgid "There are no comments waiting for moderation"
-msgstr ""
-
-#, fuzzy
-msgid "The latest comments"
-msgstr "Nýjar færslur"
 
 #, fuzzy
 msgid "There are no latest comments"
@@ -1254,10 +1330,6 @@ msgid "Post Page"
 msgstr "Breyta"
 
 #, fuzzy
-msgid "Preview"
-msgstr "Skoða færslu"
-
-#, fuzzy
 msgid "(none)"
 msgstr "einn"
 
@@ -1338,8 +1410,16 @@ msgstr "Þessi færsla hefur engar athugasemdir."
 msgid "No trackbacks"
 msgstr "Hnappur fyrir'X athugasemdir'"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "Vista breytingar!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
 msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
+msgstr "Athugasemd hefur verið eytt."
 
 #, fuzzy
 msgid "The configuration could not be updated."
@@ -1428,14 +1508,6 @@ msgstr "Athugasemd"
 #, fuzzy
 msgid "Back to Weblogs"
 msgstr "URL á blogg"
-
-#, fuzzy
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Bloggið hefur verið uppfært."
-
-#, fuzzy
-msgid "The weblog settings could not be updated."
-msgstr "Athugasemd hefur verið eytt."
 
 #, fuzzy
 msgid "Insert a Tag"
@@ -1846,6 +1918,33 @@ msgstr "Laga færslu"
 msgid "View website (fullscreen)"
 msgstr ""
 
+#, fuzzy
+msgid "Comments waiting for moderation"
+msgstr "Stillingar athugasemda"
+
+#, fuzzy
+msgid "Approve"
+msgstr "Engar athugasemdir"
+
+#, fuzzy
+msgid "Check all"
+msgstr "Velja allt"
+
+#, fuzzy
+msgid "Check none"
+msgstr "Velja allt"
+
+#, fuzzy
+msgid "Approve comments"
+msgstr "Engar athugasemdir"
+
+#, fuzzy
+msgid "Delete comments"
+msgstr "Eyða athugasemd"
+
+msgid "There are no comments waiting for moderation"
+msgstr ""
+
 msgid "first"
 msgstr "Fyrstur"
 
@@ -1917,6 +2016,10 @@ msgstr ""
 #, fuzzy
 msgid "Show more tags"
 msgstr "Sýna síðasta"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "Athugasemd hefur verið eytt."
 
 msgid "Save and continue editing"
 msgstr ""
@@ -2008,6 +2111,10 @@ msgstr "Skrifa og birta nýja færslu"
 #, fuzzy
 msgid "Moderate Comments"
 msgstr "Eyða athugasemd"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "Yfirlit færslna"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2286,46 +2393,6 @@ msgid "Excerpt"
 msgstr ""
 
 #, fuzzy
-msgid "Continue"
-msgstr "níu"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr ""
-
-msgid "Password (confirm)"
-msgstr "Staðfesta aðgangsorð"
-
-#, fuzzy
-msgid "The passwords do not match!"
-msgstr "Aðgangsorð passar ekki"
-
-#, fuzzy
-msgid "That's not a proper email address!"
-msgstr "Þetta netfang er ekki til"
-
-#, fuzzy
-msgid "That's not a proper Nickname!"
-msgstr "Þetta netfang er ekki til"
-
-msgid "Default language"
-msgstr "Aðal tungumál"
-
-#, fuzzy
-msgid "Please select a language!"
-msgstr "Aðal tungumál"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr ""
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr ""
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-
-#, fuzzy
 msgid "Database Model"
 msgstr "Dagsetning"
 
@@ -2372,6 +2439,46 @@ msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
+msgstr ""
+
+#, fuzzy
+msgid "Continue"
+msgstr "níu"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr ""
+
+msgid "Password (confirm)"
+msgstr "Staðfesta aðgangsorð"
+
+#, fuzzy
+msgid "The passwords do not match!"
+msgstr "Aðgangsorð passar ekki"
+
+#, fuzzy
+msgid "That's not a proper email address!"
+msgstr "Þetta netfang er ekki til"
+
+#, fuzzy
+msgid "That's not a proper Nickname!"
+msgstr "Þetta netfang er ekki til"
+
+msgid "Default language"
+msgstr "Aðal tungumál"
+
+#, fuzzy
+msgid "Please select a language!"
+msgstr "Aðal tungumál"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr ""
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr ""
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
 msgstr ""
 
 msgid ""
@@ -4204,7 +4311,7 @@ msgstr "Aðal tungumál"
 msgid "Language used if none could be detected."
 msgstr "Athugasemd hefur verið eytt."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4240,6 +4347,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "Hætta"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr ""
@@ -5024,6 +5134,14 @@ msgstr "The IP-addresses hefur verið vistað."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Hnappur fyrir'X athugasemdir'"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Stillingar athugasemda"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "Laga eða eyða athugasemdum"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 
@@ -5104,6 +5222,16 @@ msgid "Moblogging"
 msgstr "Moblogger"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "Texti"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5253,6 +5381,18 @@ msgstr "Athugasemd hefur verið vistuð."
 #, fuzzy
 msgid "link"
 msgstr "Hlekkir"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Laga eða eyða athugasemdum"
+
+#, fuzzy
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "Bloggið hefur verið uppfært."
+
+#, fuzzy
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Athugasemd hefur verið eytt."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5859,9 +5999,6 @@ msgstr "Hlekkir"
 #~ msgid "Editing"
 #~ msgstr "Laga"
 
-#~ msgid "Save changes!"
-#~ msgstr "Vista breytingar!"
-
 #~ msgid "Generate Archive"
 #~ msgstr "Búa til eldri skrár"
 
@@ -6251,9 +6388,6 @@ msgstr "Hlekkir"
 #~ msgstr ""
 #~ "Settu inn hlekk með því að skrifa slóðina á svæðið fyrir neðan. Gestir "
 #~ "síðunnar sjá heiti síðunnar þegar þeir færa músina á hlekkinn."
-
-#~ msgid "Text"
-#~ msgstr "Texti"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Laga hverjir geta póstað í kaflann '%s'"

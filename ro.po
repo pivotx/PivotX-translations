@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: 2011-02-26 20:52+0200\n"
 "Last-Translator: Laurentiu Nica <nick.laurentiu.nica@gmail.com>\n"
 "Language-Team: \n"
@@ -97,15 +97,17 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Incarca un fisier"
 
-msgid "UA tracking code"
-msgstr "Cod de tracking UA"
+msgid "Web Propery ID"
+msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "Eroare - trebuie introdus sub forma UA-xxxxxx-x"
 
+#, fuzzy
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 "Introdu codul tau personal de la Google Analytics. Acesta arata cam asa  UA-"
 "xxxxxx-x. Verifica-ti informatiile despre cont dupa ce te autentifici in "
@@ -148,8 +150,45 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Configurare Avansata"
 
-msgid "Use AdSense Analytics Code"
-msgstr "Foloseste Codul AdSense Analytics"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
+msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Ups! Ma tem ca nu am putut citi feed-ul de la Google Calendar."
@@ -476,12 +515,32 @@ msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 "O lista de IP-uri separate prin virgule care sa nu fie inregistrate in Piwik."
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "Publicat"
+
+msgid "Preview"
+msgstr "Previzualizare"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 msgid "Default folder name"
 msgstr "Nume implicit de folder"
 
 msgid "That's not a proper folder name!"
 msgstr "Acesta nu este un nume de folder adecvat!"
 
+#, fuzzy
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
@@ -505,18 +564,37 @@ msgstr "Latime (w) implicita"
 msgid "Default height"
 msgstr "Inaltime (h) implicita"
 
+#, fuzzy
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "Lungimea (w) si inaltimea (h) amprentei din widget. Marginile sunt adaugate "
 "la aceasta, deci dimensiunile widget-ului vor fi cu 6 pixeli mai late si mai "
 "inalte."
 
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "Zoom implicit pentru harta"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "Implicit"
+
+#, fuzzy
+msgid "The css to use for slideshow."
+msgstr "Selecteaza stilul de folosit pentru acest widget."
+
 msgid "Limit"
 msgstr "Limita"
 
+#, fuzzy
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
@@ -565,6 +643,7 @@ msgstr "Foaie"
 msgid "All"
 msgstr "Toate"
 
+#, fuzzy
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
@@ -580,6 +659,32 @@ msgid ""
 msgstr ""
 "Da, include numele directorului la tilurile imaginilor generate automatic."
 
+#, fuzzy
+msgid "Buttons"
+msgstr "Ascunde butoanele"
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
+msgstr ""
+
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
 "Avertizare! Aceste caracteristici sunt experimentale, asa ca foloseste-le cu "
@@ -588,6 +693,7 @@ msgstr ""
 msgid "IPTC Index"
 msgstr "Indexul IPTC"
 
+#, fuzzy
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
@@ -598,6 +704,7 @@ msgstr ""
 msgid "IPTC Encoding"
 msgstr "Encoding IPTC"
 
+#, fuzzy
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
@@ -1096,8 +1203,8 @@ msgstr ""
 "Probabil ca am uitat cateva ... Te rog sa ne informezi si vom oferi credit "
 "in urmatoarea versiune."
 
-msgid "Comments waiting for moderation"
-msgstr "Comentarii care asteapta moderarea"
+msgid "The latest comments"
+msgstr "Ultimele comentarii"
 
 msgid "IP-address"
 msgstr "adresa IP"
@@ -1131,24 +1238,6 @@ msgstr "Blocheaza IP"
 
 msgid "on"
 msgstr "din"
-
-msgid "Check all"
-msgstr "Selecteaza toate"
-
-msgid "Check none"
-msgstr "De-selecteaza toate"
-
-msgid "Approve comments"
-msgstr "Aproba comentarii"
-
-msgid "Delete comments"
-msgstr "Sterge comentarii"
-
-msgid "There are no comments waiting for moderation"
-msgstr "Nu este nici un comentariu de moderat"
-
-msgid "The latest comments"
-msgstr "Ultimele comentarii"
 
 msgid "There are no latest comments"
 msgstr "Nu exista ultimele comentarii"
@@ -1223,9 +1312,6 @@ msgstr "Publica in"
 msgid "Post Page"
 msgstr "Postare Pagina"
 
-msgid "Preview"
-msgstr "Previzualizare"
-
 msgid "(none)"
 msgstr "(nici una)"
 
@@ -1295,7 +1381,15 @@ msgstr "Nu exista ultimele depistari"
 msgid "No trackbacks"
 msgstr "Nici o Depistare"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "Salveaza schimbarile!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
 msgstr "Configuratia pentru \"%key%\" a fost actualizata cu succes."
 
 msgid "The configuration could not be updated."
@@ -1373,12 +1467,6 @@ msgstr "Comentarii"
 
 msgid "Back to Weblogs"
 msgstr "Inapoi la Weblog-uri"
-
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Setarile de weblog pentru \"%key%\" au fost actualizate cu succes."
-
-msgid "The weblog settings could not be updated."
-msgstr "Setarile weblog-ului nu au putut fi actualizate."
 
 msgid "Insert a Tag"
 msgstr "Insereaza o Eticheta"
@@ -1742,6 +1830,27 @@ msgstr "Editare Intrare (ecran complet)"
 msgid "View website (fullscreen)"
 msgstr "Vezi site-ul (ecran complet)"
 
+msgid "Comments waiting for moderation"
+msgstr "Comentarii care asteapta moderarea"
+
+msgid "Approve"
+msgstr "Aproba"
+
+msgid "Check all"
+msgstr "Selecteaza toate"
+
+msgid "Check none"
+msgstr "De-selecteaza toate"
+
+msgid "Approve comments"
+msgstr "Aproba comentarii"
+
+msgid "Delete comments"
+msgstr "Sterge comentarii"
+
+msgid "There are no comments waiting for moderation"
+msgstr "Nu este nici un comentariu de moderat"
+
 msgid "first"
 msgstr "prima"
 
@@ -1808,6 +1917,10 @@ msgstr "Sugestii"
 
 msgid "Show more tags"
 msgstr "Arata mai multe etichete"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "Configuratia pentru \"%key%\" a fost actualizata cu succes."
 
 msgid "Save and continue editing"
 msgstr "Salveaza si continua editarea"
@@ -1897,6 +2010,10 @@ msgstr "Scrie si Publica o Pagina noua"
 
 msgid "Moderate Comments"
 msgstr "Moderare Comentarii"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "sumar al comentariilor"
 
 msgid "Overview of Latest Trackbacks"
 msgstr "Sumar al Ultimelor Depistari"
@@ -2159,43 +2276,6 @@ msgstr "Titlul intrarii"
 msgid "Excerpt"
 msgstr "Extras"
 
-msgid "Continue"
-msgstr "Continua"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr "Te rog sa oferi urmatoarele informatii pentru a seta primul user."
-
-msgid "Password (confirm)"
-msgstr "Parola (confirma)"
-
-msgid "The passwords do not match!"
-msgstr "Parolele nu se potrivesc!"
-
-msgid "That's not a proper email address!"
-msgstr "Aceasta nu este o adresa de email adecvata!"
-
-msgid "That's not a proper Nickname!"
-msgstr "Acesta nu este un Nickname adecvat!"
-
-msgid "Default language"
-msgstr "Limba implicita"
-
-msgid "Please select a language!"
-msgstr "Selecteaza te rog o limba!"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr "PivotX a detectat ca webserverul tau suporta bazele de date MySQL."
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr "Daca ai un user MySQL si baza de date, specifica-le mai jos. "
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-"Daca nu ai acestea, ori intreaba pe providerul tau de hosting, sau "
-"selecteaza modelul 'Fisiere Simple'."
-
 msgid "Database Model"
 msgstr "Model Baza de Date"
 
@@ -2249,6 +2329,43 @@ msgstr ""
 "acesteia, poti folosi instalari multiple ale PivotX dintr-o singura baza de "
 "date MySQL. Daca nu intentionezi sa faci aceasta (inca), lasa-l setat la "
 "\"pivotx_\"."
+
+msgid "Continue"
+msgstr "Continua"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr "Te rog sa oferi urmatoarele informatii pentru a seta primul user."
+
+msgid "Password (confirm)"
+msgstr "Parola (confirma)"
+
+msgid "The passwords do not match!"
+msgstr "Parolele nu se potrivesc!"
+
+msgid "That's not a proper email address!"
+msgstr "Aceasta nu este o adresa de email adecvata!"
+
+msgid "That's not a proper Nickname!"
+msgstr "Acesta nu este un Nickname adecvat!"
+
+msgid "Default language"
+msgstr "Limba implicita"
+
+msgid "Please select a language!"
+msgstr "Selecteaza te rog o limba!"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX a detectat ca webserverul tau suporta bazele de date MySQL."
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "Daca ai un user MySQL si baza de date, specifica-le mai jos. "
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr ""
+"Daca nu ai acestea, ori intreaba pe providerul tau de hosting, sau "
+"selecteaza modelul 'Fisiere Simple'."
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
@@ -4137,7 +4254,7 @@ msgstr "Limba implicita"
 msgid "Language used if none could be detected."
 msgstr "Intrarile nu au putut fi sterse."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4173,6 +4290,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "Terminat"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr "Nor de etichete pentru"
@@ -4919,6 +5039,16 @@ msgstr "Adresa IP nu a putut fi stearsa din lista de blocari."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Editeaza sau Sterge Ultimele Depistari"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Comentarii care asteapta moderarea"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr ""
+"Editeaza sau Sterge Comentariile din Procesul de Moderare si Ultimele "
+"Comentarii"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "Editeaza sau Sterge Comentariile pentru Intrarea %number% - %editlink%"
 
@@ -4988,6 +5118,16 @@ msgid "Moblogging"
 msgstr "Moblogging"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "Text"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5131,6 +5271,22 @@ msgstr "Comentariul a fost aprobat!"
 
 msgid "link"
 msgstr "link"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Editeaza sau Sterge Comentarii"
+
+#~ msgid "UA tracking code"
+#~ msgstr "Cod de tracking UA"
+
+#~ msgid "Use AdSense Analytics Code"
+#~ msgstr "Foloseste Codul AdSense Analytics"
+
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "Setarile de weblog pentru \"%key%\" au fost actualizate cu succes."
+
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Setarile weblog-ului nu au putut fi actualizate."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5992,9 +6148,6 @@ msgstr "link"
 #~ msgid "Toggle between basic and extended view"
 #~ msgstr "Schimba intre vizualizarea de baza si cea extinsa"
 
-#~ msgid "Approve"
-#~ msgstr "Aproba"
-
 #~ msgid "Welcome to %build%."
 #~ msgstr "Bun venit la %build%."
 
@@ -6129,9 +6282,6 @@ msgstr "link"
 
 #~ msgid "Editing"
 #~ msgstr "Editare"
-
-#~ msgid "Save changes!"
-#~ msgstr "Salveaza schimbarile!"
 
 #~ msgid "Auxillary template"
 #~ msgstr "Sablon Auxiliar"
@@ -6712,9 +6862,6 @@ msgstr "link"
 #~ "Insereaza un link, prin introducerea unui url in campul de mai jos. "
 #~ "Vizitatorii la site-ul tau vor vedea titlul cand vor trece cu mouse-ul "
 #~ "peste link."
-
-#~ msgid "Text"
-#~ msgstr "Text"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Editeaza cine poate posta la categoria '%s'"

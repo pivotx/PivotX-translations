@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: 2010-12-21 11:40+0800\n"
 "Last-Translator: smithfox <ssm.fox@gmail.com>\n"
 "Language-Team: \n"
@@ -97,15 +97,17 @@ msgstr "不能正常从'localhost'上传,请使用服务器的(内部)IP地址�
 msgid "Upload a file"
 msgstr "上传一个文件:"
 
-msgid "UA tracking code"
-msgstr "UA跟踪代码"
+msgid "Web Propery ID"
+msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "错误 - 输入必须在UA-xxxxxx-x表单"
 
+#, fuzzy
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 "输入你个人Google Analytics code,类似UA-xxxxxx-x.请在登录Google Analytics后检"
 "查你的帐户信息"
@@ -143,8 +145,45 @@ msgstr "Profile ID将显示在报告上,怎么获取这个ID请看上面"
 msgid "Advanced Configuration"
 msgstr "高级设置"
 
-msgid "Use AdSense Analytics Code"
-msgstr "使用AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
+msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "喔！我怕我看不懂Google Calendar feed."
@@ -459,12 +498,32 @@ msgstr "忽略IP"
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr "一个逗号分隔的列表的IP不应该被登记在Piwik."
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "已发布"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 msgid "Default folder name"
 msgstr "默认文件夹名"
 
 msgid "That's not a proper folder name!"
 msgstr "非法的文件名！"
 
+#, fuzzy
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
@@ -487,16 +546,35 @@ msgstr "默认宽度"
 msgid "Default height"
 msgstr "默认高度"
 
+#, fuzzy
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "widget缩略图的宽度和高度.边框算在内,因此总的widget尺寸将宽出和高出6个像素."
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "地图默认放大率"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "默认"
+
+#, fuzzy
+msgid "The css to use for slideshow."
+msgstr "为该widget选择使用风格"
 
 msgid "Limit"
 msgstr "限制"
 
+#, fuzzy
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
@@ -542,6 +620,7 @@ msgstr "叶子"
 msgid "All"
 msgstr "全部"
 
+#, fuzzy
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
@@ -556,12 +635,39 @@ msgid ""
 "Yes, include directory names to the automatically generated image titles."
 msgstr "是的,包括目录名自动生成的图片标题."
 
+#, fuzzy
+msgid "Buttons"
+msgstr "隐藏按钮"
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
+msgstr ""
+
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr "警告！这些功能是实验性的,所以小心使用！"
 
 msgid "IPTC Index"
 msgstr "IPTC Index(国际报业电信委员会指数)"
 
+#, fuzzy
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
@@ -570,6 +676,7 @@ msgstr "IPTC表中的图片索引. (Picasa 用'2#120'). 留空产生一个nicena
 msgid "IPTC Encoding"
 msgstr "IPTC(国际报业电信委员会)编码"
 
+#, fuzzy
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
@@ -1044,8 +1151,8 @@ msgid ""
 "credits in the next release"
 msgstr "我们可能忘了一些..请让我们知道,我们将在下一个版本中加入到创作组中"
 
-msgid "Comments waiting for moderation"
-msgstr "评论等待审核"
+msgid "The latest comments"
+msgstr "最新评论"
 
 msgid "IP-address"
 msgstr "IP-地址"
@@ -1079,24 +1186,6 @@ msgstr "封锁IP"
 
 msgid "on"
 msgstr "on"
-
-msgid "Check all"
-msgstr "选择全部"
-
-msgid "Check none"
-msgstr "清除选择"
-
-msgid "Approve comments"
-msgstr "批准评论"
-
-msgid "Delete comments"
-msgstr "删除评论"
-
-msgid "There are no comments waiting for moderation"
-msgstr "没有评论需要审核"
-
-msgid "The latest comments"
-msgstr "最新评论"
 
 msgid "There are no latest comments"
 msgstr "暂无评论"
@@ -1172,9 +1261,6 @@ msgstr "发布于"
 msgid "Post Page"
 msgstr "发布页面"
 
-msgid "Preview"
-msgstr "预览"
-
 msgid "(none)"
 msgstr "(none)"
 
@@ -1244,7 +1330,15 @@ msgstr "暂无引用"
 msgid "No trackbacks"
 msgstr "暂无引用"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "保存更改!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
 msgstr "\"%key%\"配置已成功更新."
 
 msgid "The configuration could not be updated."
@@ -1322,12 +1416,6 @@ msgstr "正在评论"
 
 msgid "Back to Weblogs"
 msgstr "返回到博客"
-
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "\"%key%\" 的博客设置已经更新."
-
-msgid "The weblog settings could not be updated."
-msgstr "不能更新博客设置."
 
 msgid "Insert a Tag"
 msgstr "插入标签"
@@ -1679,6 +1767,28 @@ msgstr "编辑文章"
 msgid "View website (fullscreen)"
 msgstr "查看站点(全屏)"
 
+msgid "Comments waiting for moderation"
+msgstr "评论等待审核"
+
+#, fuzzy
+msgid "Approve"
+msgstr "批准评论"
+
+msgid "Check all"
+msgstr "选择全部"
+
+msgid "Check none"
+msgstr "清除选择"
+
+msgid "Approve comments"
+msgstr "批准评论"
+
+msgid "Delete comments"
+msgstr "删除评论"
+
+msgid "There are no comments waiting for moderation"
+msgstr "没有评论需要审核"
+
 msgid "first"
 msgstr "第一个"
 
@@ -1743,6 +1853,10 @@ msgstr "建议"
 
 msgid "Show more tags"
 msgstr "显示更多标签"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "\"%key%\"配置已成功更新."
 
 msgid "Save and continue editing"
 msgstr "保存并继续编辑"
@@ -1830,6 +1944,10 @@ msgstr "新建并发布一个新的页面"
 
 msgid "Moderate Comments"
 msgstr "审核评论"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "评论总览"
 
 msgid "Overview of Latest Trackbacks"
 msgstr "最新引用概要"
@@ -2077,41 +2195,6 @@ msgstr "编辑文章"
 msgid "Excerpt"
 msgstr "摘要"
 
-msgid "Continue"
-msgstr "继续"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr "请提供以下信息以建立第一个用户."
-
-msgid "Password (confirm)"
-msgstr "确认密码"
-
-msgid "The passwords do not match!"
-msgstr "两次输入的密码不同"
-
-msgid "That's not a proper email address!"
-msgstr "那不是一个合法的邮件地址"
-
-msgid "That's not a proper Nickname!"
-msgstr "那不是一个合法的昵称"
-
-msgid "Default language"
-msgstr "默认语言"
-
-msgid "Please select a language!"
-msgstr "请你选择语言"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr "PivotX检测到您的网络服务器支持MySQL数据库."
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr "如果你有一个MySQL用户和数据库,请在下面指定."
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr "如果没有这些,请询问您的托管服务商或选择'Flat Files'模式."
-
 msgid "Database Model"
 msgstr "数据库模型"
 
@@ -2159,6 +2242,41 @@ msgid ""
 msgstr ""
 "该前缀将加在数据库表名前.通过更改这项,你可以在一个MySQL数据库安装多个PivotX."
 "如果你不打算这样做,就让它为\"pivotx_\"."
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr "请提供以下信息以建立第一个用户."
+
+msgid "Password (confirm)"
+msgstr "确认密码"
+
+msgid "The passwords do not match!"
+msgstr "两次输入的密码不同"
+
+msgid "That's not a proper email address!"
+msgstr "那不是一个合法的邮件地址"
+
+msgid "That's not a proper Nickname!"
+msgstr "那不是一个合法的昵称"
+
+msgid "Default language"
+msgstr "默认语言"
+
+msgid "Please select a language!"
+msgstr "请你选择语言"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX检测到您的网络服务器支持MySQL数据库."
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "如果你有一个MySQL用户和数据库,请在下面指定."
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr "如果没有这些,请询问您的托管服务商或选择'Flat Files'模式."
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
@@ -3919,7 +4037,7 @@ msgstr "默认语言"
 msgid "Language used if none could be detected."
 msgstr "文章无法删除."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -3955,6 +4073,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "建立"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr "标签云"
@@ -4677,6 +4798,14 @@ msgstr "该IP地址不能从阻止列表中删除."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "编辑或删除最近的引用"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "评论等待审核"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "编辑或删除在审核队列中的评论和最近的评论"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "为文章 %number% 编辑或删除评论  - %editlink%"
 
@@ -4744,6 +4873,16 @@ msgid "Moblogging"
 msgstr "Moblogging"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "文字"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -4879,6 +5018,22 @@ msgstr "评论已经被批准了."
 
 msgid "link"
 msgstr "链接"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "编辑/删除评论"
+
+#~ msgid "UA tracking code"
+#~ msgstr "UA跟踪代码"
+
+#~ msgid "Use AdSense Analytics Code"
+#~ msgstr "使用AdSense Analytics Code"
+
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "\"%key%\" 的博客设置已经更新."
+
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "不能更新博客设置."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5456,9 +5611,6 @@ msgstr "链接"
 #~ msgid "Editing"
 #~ msgstr "编辑"
 
-#~ msgid "Save changes!"
-#~ msgstr "保存更改!"
-
 #~ msgid "Generate Archive"
 #~ msgstr "建立存档"
 
@@ -5780,9 +5932,6 @@ msgstr "链接"
 #~ "will see the title when they hover their mouse over the link."
 #~ msgstr ""
 #~ "填写一个URL来插入一个链接.游客可以在把鼠标放在链接上时看到链接的信息."
-
-#~ msgid "Text"
-#~ msgstr "文字"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "编辑谁能在这个分类发贴 '%s'"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,15 +103,16 @@ msgstr ""
 msgid "Upload a file"
 msgstr "새 파일 올리기:"
 
-msgid "UA tracking code"
+msgid "Web Propery ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 
 msgid "Google account login"
@@ -147,7 +148,44 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "설정"
 
-msgid "Use AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
@@ -482,6 +520,26 @@ msgstr ""
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "게시된 시각"
+
+#, fuzzy
+msgid "Preview"
+msgstr "글 미리 보기"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 #, fuzzy
 msgid "Default folder name"
 msgstr "기본 언어"
@@ -514,8 +572,24 @@ msgstr "기본 언어"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
+msgstr ""
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "기본 언어"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "기본 언어"
+
+msgid "The css to use for slideshow."
 msgstr ""
 
 msgid "Limit"
@@ -583,6 +657,31 @@ msgstr ""
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
 msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
@@ -1099,8 +1198,8 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgid "Comments waiting for moderation"
-msgstr "덧글 설정"
+msgid "The latest comments"
+msgstr "최근 글"
 
 msgid "IP-address"
 msgstr "IP 주소"
@@ -1139,29 +1238,6 @@ msgstr "IP %s 차단"
 
 msgid "on"
 msgstr ""
-
-#, fuzzy
-msgid "Check all"
-msgstr "전체 선택"
-
-#, fuzzy
-msgid "Check none"
-msgstr "전체 선택"
-
-#, fuzzy
-msgid "Approve comments"
-msgstr "덧글 없음"
-
-#, fuzzy
-msgid "Delete comments"
-msgstr "지우기"
-
-msgid "There are no comments waiting for moderation"
-msgstr ""
-
-#, fuzzy
-msgid "The latest comments"
-msgstr "최근 글"
 
 #, fuzzy
 msgid "There are no latest comments"
@@ -1249,10 +1325,6 @@ msgid "Post Page"
 msgstr "바꾸기"
 
 #, fuzzy
-msgid "Preview"
-msgstr "글 미리 보기"
-
-#, fuzzy
 msgid "(none)"
 msgstr "한"
 
@@ -1333,8 +1405,16 @@ msgstr "이 글에는 덧글이 없습니다."
 msgid "No trackbacks"
 msgstr "'덧글이 %num%개 있습니다' 글"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "변경 사항 저장"
+
+msgid "You have unsaved changes. Do you wish to continue?"
 msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
+msgstr "덧글이 삭제되었습니다."
 
 #, fuzzy
 msgid "The configuration could not be updated."
@@ -1423,14 +1503,6 @@ msgstr "덧글"
 #, fuzzy
 msgid "Back to Weblogs"
 msgstr "웹로그의 URL"
-
-#, fuzzy
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "웹로그가 갱신되었습니다."
-
-#, fuzzy
-msgid "The weblog settings could not be updated."
-msgstr "덧글이 삭제되었습니다."
 
 #, fuzzy
 msgid "Insert a Tag"
@@ -1840,6 +1912,33 @@ msgstr "글을 고칩니다"
 msgid "View website (fullscreen)"
 msgstr ""
 
+#, fuzzy
+msgid "Comments waiting for moderation"
+msgstr "덧글 설정"
+
+#, fuzzy
+msgid "Approve"
+msgstr "덧글 없음"
+
+#, fuzzy
+msgid "Check all"
+msgstr "전체 선택"
+
+#, fuzzy
+msgid "Check none"
+msgstr "전체 선택"
+
+#, fuzzy
+msgid "Approve comments"
+msgstr "덧글 없음"
+
+#, fuzzy
+msgid "Delete comments"
+msgstr "지우기"
+
+msgid "There are no comments waiting for moderation"
+msgstr ""
+
 msgid "first"
 msgstr "처음"
 
@@ -1911,6 +2010,10 @@ msgstr ""
 #, fuzzy
 msgid "Show more tags"
 msgstr "최근"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "덧글이 삭제되었습니다."
 
 msgid "Save and continue editing"
 msgstr ""
@@ -2002,6 +2105,10 @@ msgstr "새 글을 씁니다"
 #, fuzzy
 msgid "Moderate Comments"
 msgstr "지우기"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "간추린 글 관리"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2278,46 +2385,6 @@ msgid "Excerpt"
 msgstr ""
 
 #, fuzzy
-msgid "Continue"
-msgstr "아홉"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr ""
-
-msgid "Password (confirm)"
-msgstr "비밀번호 (확인)"
-
-#, fuzzy
-msgid "The passwords do not match!"
-msgstr "비밀번호가 서로 맞지 않습니다."
-
-#, fuzzy
-msgid "That's not a proper email address!"
-msgstr "유효한 이메일 주소가 아닙니다."
-
-#, fuzzy
-msgid "That's not a proper Nickname!"
-msgstr "유효한 이메일 주소가 아닙니다."
-
-msgid "Default language"
-msgstr "기본 언어"
-
-#, fuzzy
-msgid "Please select a language!"
-msgstr "기본 언어"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr ""
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr ""
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-
-#, fuzzy
 msgid "Database Model"
 msgstr "날짜"
 
@@ -2364,6 +2431,46 @@ msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
+msgstr ""
+
+#, fuzzy
+msgid "Continue"
+msgstr "아홉"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr ""
+
+msgid "Password (confirm)"
+msgstr "비밀번호 (확인)"
+
+#, fuzzy
+msgid "The passwords do not match!"
+msgstr "비밀번호가 서로 맞지 않습니다."
+
+#, fuzzy
+msgid "That's not a proper email address!"
+msgstr "유효한 이메일 주소가 아닙니다."
+
+#, fuzzy
+msgid "That's not a proper Nickname!"
+msgstr "유효한 이메일 주소가 아닙니다."
+
+msgid "Default language"
+msgstr "기본 언어"
+
+#, fuzzy
+msgid "Please select a language!"
+msgstr "기본 언어"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr ""
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr ""
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
 msgstr ""
 
 msgid ""
@@ -4191,7 +4298,7 @@ msgstr "기본 언어"
 msgid "Language used if none could be detected."
 msgstr "덧글이 삭제되었습니다."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4227,6 +4334,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "완료"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr ""
@@ -5010,6 +5120,14 @@ msgstr "IP 주소들이 저장되었습니다."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "'덧글이 %num%개 있습니다' 글"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "덧글 설정"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "덧글을 고치거나 지웁니다"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 
@@ -5090,6 +5208,16 @@ msgid "Moblogging"
 msgstr "모블로거"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "내용"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5240,6 +5368,18 @@ msgstr "덧글이 저장되었습니다."
 #, fuzzy
 msgid "link"
 msgstr "다른 곳들"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "덧글을 고치거나 지웁니다"
+
+#, fuzzy
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "웹로그가 갱신되었습니다."
+
+#, fuzzy
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "덧글이 삭제되었습니다."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5827,9 +5967,6 @@ msgstr "다른 곳들"
 #~ msgid "Editing"
 #~ msgstr "고치기"
 
-#~ msgid "Save changes!"
-#~ msgstr "변경 사항 저장"
-
 #~ msgid "Generate Archive"
 #~ msgstr "보관소 만들기"
 
@@ -6201,9 +6338,6 @@ msgstr "다른 곳들"
 #~ msgstr ""
 #~ "아래의 칸에 URL을 입력하여 링크를 집어넣으십시오. 방문자는 마우스를 링크 "
 #~ "위에 올려놓으면 제목을 볼 것입니다."
-
-#~ msgid "Text"
-#~ msgstr "내용"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "'%s' 갈래에 누가 글을 쓸 수 있는지 고치십시오"
