@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: 2011-02-07 6:59+0100\n"
 "Last-Translator: Daniel Koć <kocio@linuxnews.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -101,15 +101,17 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Wyślij plik"
 
-msgid "UA tracking code"
-msgstr "Kod śledzenia UA"
+msgid "Web Propery ID"
+msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "Błąd - kod musi być w formacie UA-xxxxxx-x"
 
+#, fuzzy
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 "Podaj swój osobisty kod Google Analytics. Wygląda on jak UA-xxxxxx-x. "
 "Sprawdź swoje informacje o koncie po zalogowaniu się do Google Analytics."
@@ -151,8 +153,45 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Konfiguracja zaawansowana"
 
-msgid "Use AdSense Analytics Code"
-msgstr "Użyj AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
+msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Oj! Niestety nie można przeczytać kanału kalendarza Google."
@@ -476,12 +515,32 @@ msgstr ""
 "Rozdzielona przecinkami lista adresów IP, które nie powinny być rejestrowane "
 "przez Piwika."
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "opublikowane"
+
+msgid "Preview"
+msgstr "Podgląd"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 msgid "Default folder name"
 msgstr "Nazwa domyślnego foldera"
 
 msgid "That's not a proper folder name!"
 msgstr "To nie jest prawidłowa nazwa foldera!"
 
+#, fuzzy
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
@@ -505,17 +564,36 @@ msgstr "Domyślna szerokość"
 msgid "Default height"
 msgstr "Domyślna wysokość"
 
+#, fuzzy
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "Szerokość i wysokość miniatur w widżecie. Do tego dodawane są brzegi, więc "
 "całkowite rozmiary widżeta będą o 6 pikseli większe na szerokość i wysokość."
 
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "Domyślna skala mapy"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "Domyślne"
+
+#, fuzzy
+msgid "The css to use for slideshow."
+msgstr "Wybierz styl dla tego widżeta."
+
 msgid "Limit"
 msgstr "Liczba"
 
+#, fuzzy
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
@@ -562,6 +640,7 @@ msgstr "katalogi najniższego poziomu"
 msgid "All"
 msgstr "wszystkie podkatalogi"
 
+#, fuzzy
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
@@ -576,12 +655,39 @@ msgid ""
 "Yes, include directory names to the automatically generated image titles."
 msgstr "Używaj nazw katalogów do automatycznego tworzenia tytułów grafik."
 
+#, fuzzy
+msgid "Buttons"
+msgstr "Ukryj przyciski"
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
+msgstr ""
+
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr "Uwaga! Te funkcje są eksperymentalne, więc korzystaj z nich ostrożnie!"
 
 msgid "IPTC Index"
 msgstr "Indeks IPTC"
 
+#, fuzzy
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
@@ -592,6 +698,7 @@ msgstr ""
 msgid "IPTC Encoding"
 msgstr "Kodowanie IPTC"
 
+#, fuzzy
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
@@ -1088,8 +1195,8 @@ msgstr ""
 "Prawdopodobnie o kimś zapomnieliśmy. Jeżeli tak, to daj nam znać, a dodamy "
 "informację o nim w następnym wydaniu."
 
-msgid "Comments waiting for moderation"
-msgstr "Komentarze oczekujące na moderację"
+msgid "The latest comments"
+msgstr "Najnowsze komentarze"
 
 msgid "IP-address"
 msgstr "Adres IP"
@@ -1123,24 +1230,6 @@ msgstr "Zablokuj IP"
 
 msgid "on"
 msgstr "na"
-
-msgid "Check all"
-msgstr "zaznacz wszystko"
-
-msgid "Check none"
-msgstr "odznacz wszystko"
-
-msgid "Approve comments"
-msgstr "Zaakceptuj komentarze"
-
-msgid "Delete comments"
-msgstr "Usuń komentarze"
-
-msgid "There are no comments waiting for moderation"
-msgstr "Brak komentarzy oczekujących na moderację"
-
-msgid "The latest comments"
-msgstr "Najnowsze komentarze"
 
 msgid "There are no latest comments"
 msgstr "Brak najnowszych komentarzy"
@@ -1216,9 +1305,6 @@ msgstr "Opublikuj w terminie"
 msgid "Post Page"
 msgstr "Zapisz stronę"
 
-msgid "Preview"
-msgstr "Podgląd"
-
 msgid "(none)"
 msgstr "(brak)"
 
@@ -1288,7 +1374,15 @@ msgstr "Brak najnowszych śladów"
 msgid "No trackbacks"
 msgstr "Brak śladów"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "Zapisz zmiany!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
 msgstr "Wartość ustawienia \"%key%\" została zaktualizowana."
 
 msgid "The configuration could not be updated."
@@ -1366,12 +1460,6 @@ msgstr "Komentowanie"
 
 msgid "Back to Weblogs"
 msgstr "Wróć do blogów"
-
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Wartość ustawienia \"%key%\" bloga została zaktualizowana."
-
-msgid "The weblog settings could not be updated."
-msgstr "Wartość ustawienia bloga nie mogła zostać zaktualizowana."
 
 msgid "Insert a Tag"
 msgstr "Wstaw znacznik"
@@ -1733,6 +1821,28 @@ msgstr "Edytuj wpis (pełnoekranowo)"
 msgid "View website (fullscreen)"
 msgstr "Zobacz stronę (pełnoekranowo)"
 
+msgid "Comments waiting for moderation"
+msgstr "Komentarze oczekujące na moderację"
+
+#, fuzzy
+msgid "Approve"
+msgstr "Zaakceptuj komentarze"
+
+msgid "Check all"
+msgstr "zaznacz wszystko"
+
+msgid "Check none"
+msgstr "odznacz wszystko"
+
+msgid "Approve comments"
+msgstr "Zaakceptuj komentarze"
+
+msgid "Delete comments"
+msgstr "Usuń komentarze"
+
+msgid "There are no comments waiting for moderation"
+msgstr "Brak komentarzy oczekujących na moderację"
+
 msgid "first"
 msgstr "pierwsza"
 
@@ -1798,6 +1908,10 @@ msgstr "Sugestie"
 
 msgid "Show more tags"
 msgstr "Pokaż więcej znaczników"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "Wartość ustawienia \"%key%\" została zaktualizowana."
 
 msgid "Save and continue editing"
 msgstr "Zapisz i kontynuuj edycję"
@@ -1885,6 +1999,10 @@ msgstr "Napisz i opublikuj nową stronę"
 
 msgid "Moderate Comments"
 msgstr "Moderuj komentarze"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "przegląd komentarzy"
 
 msgid "Overview of Latest Trackbacks"
 msgstr "Przegląd najnowszych śladów"
@@ -2147,43 +2265,6 @@ msgstr "Tytuł wpisu"
 msgid "Excerpt"
 msgstr "Fragment"
 
-msgid "Continue"
-msgstr "Kontynuacja"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr "Podaj następujące informacje, aby dodać pierwszego użytkownika."
-
-msgid "Password (confirm)"
-msgstr "Hasło (potwierdzenie)"
-
-msgid "The passwords do not match!"
-msgstr "Podane hasła nie są takie same!"
-
-msgid "That's not a proper email address!"
-msgstr "To nie jest prawidłowy adres e-mail!"
-
-msgid "That's not a proper Nickname!"
-msgstr "To nie jest prawidłowy pseudonim!"
-
-msgid "Default language"
-msgstr "Domyślny język"
-
-msgid "Please select a language!"
-msgstr "Wybierz język!"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr "PivotX wykrył, że twój serwer obsługuje bazy MySQL."
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr "Jeśli znasz nazwę bazę i użytkownika MySQL, podaj je poniżej."
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-"Jeśli ich nie znasz, poproś o nie swojego dostawcę hostingu lub wybierz "
-"model zwykłych plików."
-
 msgid "Database Model"
 msgstr "Model bazy danych"
 
@@ -2234,6 +2315,43 @@ msgstr ""
 "Prefiks używany w tablicach bazy danych. Zmieniając go możesz korzystać z "
 "wielu instancji PivotX w jednej bazie danych MySQL. Jeśli (na razie) tego "
 "nie chcesz, po prostu pozostaw tu wartość \"pivotx_\"."
+
+msgid "Continue"
+msgstr "Kontynuacja"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr "Podaj następujące informacje, aby dodać pierwszego użytkownika."
+
+msgid "Password (confirm)"
+msgstr "Hasło (potwierdzenie)"
+
+msgid "The passwords do not match!"
+msgstr "Podane hasła nie są takie same!"
+
+msgid "That's not a proper email address!"
+msgstr "To nie jest prawidłowy adres e-mail!"
+
+msgid "That's not a proper Nickname!"
+msgstr "To nie jest prawidłowy pseudonim!"
+
+msgid "Default language"
+msgstr "Domyślny język"
+
+msgid "Please select a language!"
+msgstr "Wybierz język!"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX wykrył, że twój serwer obsługuje bazy MySQL."
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "Jeśli znasz nazwę bazę i użytkownika MySQL, podaj je poniżej."
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr ""
+"Jeśli ich nie znasz, poproś o nie swojego dostawcę hostingu lub wybierz "
+"model zwykłych plików."
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
@@ -4108,7 +4226,7 @@ msgstr "Domyślny język"
 msgid "Language used if none could be detected."
 msgstr "Wpisy nie mogły zostać usunięte."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4144,6 +4262,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "Zakończ"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr "Chmura znaczników dla"
@@ -4882,6 +5003,16 @@ msgstr "Adres IP nie mógł zostać usunięty z czarnej listy."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Edytuj lub usuń najnowsze ślady"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Komentarze oczekujące na moderację"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr ""
+"Edytuj lub usuń komentarze w kolejce do moderacji i w najnowszych "
+"komentarzach"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "Edytuj lub usuń komentarze do wpisu %number% - %editlink%"
 
@@ -4951,6 +5082,16 @@ msgid "Moblogging"
 msgstr "Moblogger"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "Tekst"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5092,6 +5233,22 @@ msgstr "Komentarz został zaakceptowany!"
 
 msgid "link"
 msgstr "link"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Edytuj lub usuń komentarze"
+
+#~ msgid "UA tracking code"
+#~ msgstr "Kod śledzenia UA"
+
+#~ msgid "Use AdSense Analytics Code"
+#~ msgstr "Użyj AdSense Analytics Code"
+
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "Wartość ustawienia \"%key%\" bloga została zaktualizowana."
+
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Wartość ustawienia bloga nie mogła zostać zaktualizowana."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5842,9 +5999,6 @@ msgstr "link"
 #~ msgid "Editing"
 #~ msgstr "Edycja"
 
-#~ msgid "Save changes!"
-#~ msgstr "Zapisz zmiany!"
-
 #~ msgid "Auxillary template"
 #~ msgstr "Szablon pomocniczy"
 
@@ -6367,9 +6521,6 @@ msgstr "link"
 #~ msgstr ""
 #~ "Wstaw link wpisując adres URL w polu poniżej. Odwiedzający Twoją stronę "
 #~ "zobaczą tytuł kiedy najadą kursorem myszy na link."
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Edycja listy osób, które mogą dodawać wpisy do kategorii '%s'"

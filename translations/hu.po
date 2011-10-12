@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: 2011-06-16 10:45+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
@@ -101,15 +101,17 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Fájl feltöltése"
 
-msgid "UA tracking code"
-msgstr "UA követőkód"
+msgid "Web Propery ID"
+msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "Hiba - a következő formában írja be a kódot: UA-xxxxxx-x"
 
+#, fuzzy
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 "Írja be a személyes  Google Analytics kódját, ami a következőképpen néz ki: "
 "UA-xxxxxx-x. Ellenőrizze fiókadatait a Google Analytics-be történt "
@@ -152,8 +154,45 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Haladó beállítások"
 
-msgid "Use AdSense Analytics Code"
-msgstr "Használjon AdSense Analytics kódot"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
+msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Hoppá! Azt hiszem, nem tudom olvasni a Google Naptár feed-et."
@@ -480,12 +519,32 @@ msgstr ""
 "Azon IP-címek vesszővel elválasztott listája, melyeket nem lehet a Piwik-be "
 "regisztrálni."
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "Közzétéve"
+
+msgid "Preview"
+msgstr "Előnézet"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 msgid "Default folder name"
 msgstr "Alapértelmezett könyvtárnév"
 
 msgid "That's not a proper folder name!"
 msgstr "Nem megfelelő könyvtárnév!"
 
+#, fuzzy
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
@@ -510,18 +569,37 @@ msgstr "Alapértelmezett szélesség"
 msgid "Default height"
 msgstr "Alapértelmezett magasság"
 
+#, fuzzy
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "A widget-ben használt bélyegképek szélessége és magassága. Ehhez adódik még "
 "hozzá a keret, szóval a widget méret 6 képponttal szélesebb és magasabb lesz "
 "a végén."
 
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "Térkép alapértelmezett nagyítása"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "Alapértelmezett"
+
+#, fuzzy
+msgid "The css to use for slideshow."
+msgstr "Válasszon szín sémát a widget használatához."
+
 msgid "Limit"
 msgstr "Limit"
 
+#, fuzzy
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
@@ -570,6 +648,7 @@ msgstr "Egy szint"
 msgid "All"
 msgstr "Mind"
 
+#, fuzzy
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
@@ -588,6 +667,32 @@ msgid ""
 msgstr ""
 "Igen, adja hozzá a könyvtárak neveit az automatikusan generált képcímekhez."
 
+#, fuzzy
+msgid "Buttons"
+msgstr "Gombok elrejtése"
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
+msgstr ""
+
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
 "Figyelem! Ezek a lehetőségek kísérleti jellegűek, óvatosan használja őket!"
@@ -595,6 +700,7 @@ msgstr ""
 msgid "IPTC Index"
 msgstr "IPTC Index"
 
+#, fuzzy
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
@@ -607,6 +713,7 @@ msgstr ""
 msgid "IPTC Encoding"
 msgstr "IPTC karakter-kódolás"
 
+#, fuzzy
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
@@ -1102,8 +1209,8 @@ msgstr ""
 "Valószínűleg kifelejtettünk pár embert ... Ha igen, kérjük tudassa velünk és "
 "a következő kiadásban pótoljuk a mulasztást."
 
-msgid "Comments waiting for moderation"
-msgstr "Hozzászólások várnak moderálásra"
+msgid "The latest comments"
+msgstr "Friss hozzászólás"
 
 msgid "IP-address"
 msgstr "IP-cím"
@@ -1137,24 +1244,6 @@ msgstr "IP blokkolása"
 
 msgid "on"
 msgstr " "
-
-msgid "Check all"
-msgstr "Mind kijelölése"
-
-msgid "Check none"
-msgstr "Kijelölés visszavonása"
-
-msgid "Approve comments"
-msgstr "Hozzászólás jóváhagyása"
-
-msgid "Delete comments"
-msgstr "Hozzászólás törlése"
-
-msgid "There are no comments waiting for moderation"
-msgstr "Nincs moderálásra váró hozzászólás"
-
-msgid "The latest comments"
-msgstr "Friss hozzászólás"
 
 msgid "There are no latest comments"
 msgstr "Nincs friss hozzászólás"
@@ -1229,9 +1318,6 @@ msgstr "Közzétéve"
 msgid "Post Page"
 msgstr "Oldal beküldése"
 
-msgid "Preview"
-msgstr "Előnézet"
-
 msgid "(none)"
 msgstr "(nem)"
 
@@ -1301,7 +1387,14 @@ msgstr "Nincs friss trackback"
 msgid "No trackbacks"
 msgstr "Nincs trackback"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+msgid "Save changes"
+msgstr ""
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
 msgstr "A(z) \"%key%\" konfigurációs kulcs sikeresen mentve. "
 
 msgid "The configuration could not be updated."
@@ -1378,12 +1471,6 @@ msgstr "Hozzászólás"
 
 msgid "Back to Weblogs"
 msgstr "Vissza a Weblogokhoz"
-
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "A weblog \"%key%\" beállítása sikeresen frissítve."
-
-msgid "The weblog settings could not be updated."
-msgstr "A weblog beállításait nem lehet frissíteni."
 
 msgid "Insert a Tag"
 msgstr "Címke beillesztése"
@@ -1748,6 +1835,28 @@ msgstr "Bejegyzés szerkesztése (teljes képernyőn)"
 msgid "View website (fullscreen)"
 msgstr "Weboldal megtekintése (teljes képernyőn)"
 
+msgid "Comments waiting for moderation"
+msgstr "Hozzászólások várnak moderálásra"
+
+#, fuzzy
+msgid "Approve"
+msgstr "Hozzászólás jóváhagyása"
+
+msgid "Check all"
+msgstr "Mind kijelölése"
+
+msgid "Check none"
+msgstr "Kijelölés visszavonása"
+
+msgid "Approve comments"
+msgstr "Hozzászólás jóváhagyása"
+
+msgid "Delete comments"
+msgstr "Hozzászólás törlése"
+
+msgid "There are no comments waiting for moderation"
+msgstr "Nincs moderálásra váró hozzászólás"
+
 msgid "first"
 msgstr "első"
 
@@ -1813,6 +1922,10 @@ msgstr "Javaslatok"
 
 msgid "Show more tags"
 msgstr "Mutass több címkét"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "A(z) \"%key%\" konfigurációs kulcs sikeresen mentve. "
 
 msgid "Save and continue editing"
 msgstr "Mentés és a szerkesztés folytatása"
@@ -1901,6 +2014,10 @@ msgstr "Új oldal írása és publikálása"
 
 msgid "Moderate Comments"
 msgstr "Hozzászólások moderálása"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "Hozzászólások áttekintése"
 
 msgid "Overview of Latest Trackbacks"
 msgstr "Legutóbbi trackback-ek áttekintése"
@@ -2166,45 +2283,6 @@ msgstr "Bejegyzés címe"
 msgid "Excerpt"
 msgstr "Idézet"
 
-msgid "Continue"
-msgstr "Folytatás"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr ""
-"Kérem, adja meg a következő információkat, hogy létrehozhassuk az első "
-"felhasználót."
-
-msgid "Password (confirm)"
-msgstr "Jelszó megerősítése"
-
-msgid "The passwords do not match!"
-msgstr "A jelszavak nem egyeznek!"
-
-msgid "That's not a proper email address!"
-msgstr "Nem megfelelő e-mail cím!"
-
-msgid "That's not a proper Nickname!"
-msgstr "Nem megfelelő álnév!"
-
-msgid "Default language"
-msgstr "Alapértelmezett nyelv"
-
-msgid "Please select a language!"
-msgstr "Kérem, válasszon nyelvet!"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr "PivotX érzékelte, hogy a webszervere támogatja a MySQL adatbázisokat."
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr "Ha rendelkezik MySQL fiókkal és adatbázissal, állítsa be alul."
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-"Ha nem rendelkezik ezekkel, kérje a tárhely-szolgálatójától, vagy válassza a "
-"'Sima File-ok' adatbázist."
-
 msgid "Database Model"
 msgstr "Adatbázis "
 
@@ -2254,6 +2332,45 @@ msgstr ""
 "Az adatbázis táblák előjele. Ha ezt megváltoztatja, képes lesz több "
 "példányban PivotX-et telepíteni egy MySQL adatbázissal. Ha jelenleg nem "
 "kívánja ezt, csak hagyja a beállítást \"pivotx_\"-en"
+
+msgid "Continue"
+msgstr "Folytatás"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr ""
+"Kérem, adja meg a következő információkat, hogy létrehozhassuk az első "
+"felhasználót."
+
+msgid "Password (confirm)"
+msgstr "Jelszó megerősítése"
+
+msgid "The passwords do not match!"
+msgstr "A jelszavak nem egyeznek!"
+
+msgid "That's not a proper email address!"
+msgstr "Nem megfelelő e-mail cím!"
+
+msgid "That's not a proper Nickname!"
+msgstr "Nem megfelelő álnév!"
+
+msgid "Default language"
+msgstr "Alapértelmezett nyelv"
+
+msgid "Please select a language!"
+msgstr "Kérem, válasszon nyelvet!"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX érzékelte, hogy a webszervere támogatja a MySQL adatbázisokat."
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "Ha rendelkezik MySQL fiókkal és adatbázissal, állítsa be alul."
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr ""
+"Ha nem rendelkezik ezekkel, kérje a tárhely-szolgálatójától, vagy válassza a "
+"'Sima File-ok' adatbázist."
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
@@ -4109,7 +4226,8 @@ msgstr "Többnyelvűség engedélyezése"
 msgid "Language used if none could be detected."
 msgstr "A használt nyelv, ha nincs más megadva."
 
-msgid "Languages that your website is using."
+#, fuzzy
+msgid "Languages that your website is using (comma separated)."
 msgstr "A weboldalad által használt nyelvek"
 
 msgid "Language variable name"
@@ -4147,6 +4265,9 @@ msgstr "Holland"
 
 msgid "English"
 msgstr "Angol"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr "Címke felhő ehhez"
@@ -4886,6 +5007,16 @@ msgstr "Az IP-címet nem lehet eltávolítani a blokkolási listából."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Legutóbbi trackback-ek szerkesztése vagy törlése"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Hozzászólások várnak moderálásra"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr ""
+"Hozzászólások szerkesztése vagy törlése a moderációs sorban és az utolsó "
+"hozzászólásokban."
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 "Bejegyzés hozzászólásainak szerkesztése vagy törlése %number% - %editlink%"
@@ -4957,6 +5088,16 @@ msgstr "Moblogging"
 
 msgid "Multilingual"
 msgstr "Többnyelvűség"
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "következő"
+
+msgid "OOPs/Help"
+msgstr ""
 
 msgid "Rebuild the index of your Database"
 msgstr "Adatbázis indexének újraépítése"
@@ -5101,6 +5242,22 @@ msgstr "Hozzászólás jóváhagyva!"
 
 msgid "link"
 msgstr "Link"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Hozzászólás szerkesztése vagy törlése"
+
+#~ msgid "UA tracking code"
+#~ msgstr "UA követőkód"
+
+#~ msgid "Use AdSense Analytics Code"
+#~ msgstr "Használjon AdSense Analytics kódot"
+
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "A weblog \"%key%\" beállítása sikeresen frissítve."
+
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "A weblog beállításait nem lehet frissíteni."
 
 #, fuzzy
 #~ msgid "Subitle"

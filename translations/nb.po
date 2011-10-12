@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
-"PO-Revision-Date: 2011-05-04 22:35+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
+"PO-Revision-Date: 2011-10-12 13:04+0200\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
 "MIME-Version: 1.0\n"
@@ -95,15 +95,17 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Last opp en fil"
 
-msgid "UA tracking code"
-msgstr "UA sporingskode"
+msgid "Web Propery ID"
+msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "Feil - sporingskoden må være på formen UA-xxxxxx-x."
 
+#, fuzzy
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 "Fyll inn din personlig Google Analytics-kode. Den ser ut som UA-xxxxxx-x, og "
 "du finner den i kontoinformasjonen din etter at du har logget inn i Google "
@@ -146,8 +148,45 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Avansert oppsett"
 
-msgid "Use AdSense Analytics Code"
-msgstr "Bruk AdSense Analytics-kode"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
+msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Oops! PivotX klarte ikke lese strømmen fra Google Calendar."
@@ -340,6 +379,10 @@ msgid ""
 "# Use a hash to add comments or disable a user\n"
 "# Example: password|username\n"
 msgstr ""
+"# Skriv hver bruker med passord på en ny linje.\n"
+"# Bruk firkanttegn (#) for å legge til kommentarer \n"
+"# eller deaktivere en bruker. Eksempel: \n"
+"# passord|brukernavn\n"
 
 msgid "Yes, but only pages and entries"
 msgstr "Ja, men kun sider og oppføringer"
@@ -469,6 +512,25 @@ msgstr "Ignorer IP"
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr "En kommaseparert liste med IP-er som ikke skal bli registrert i Piwik."
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+"Lenke for forhåndsvisning er kun tilgjengelig for avpubliserte oppføringer."
+
+msgid "Publish preview"
+msgstr "Publisert forhåndsvisning"
+
+msgid "Preview"
+msgstr "Forhåndsvis"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr "Bruk denne lenke hvis du vil sende noen av lenke for forhåndsvisning."
+
+msgid "Preview link will be available for after you save."
+msgstr "Lenke for forhåndsvisning blir tilgjengelig etter at du har lagret."
+
+msgid "Shop Transactions"
+msgstr ""
+
 msgid "Default folder name"
 msgstr "Standard mappenavn"
 
@@ -500,11 +562,25 @@ msgstr "Standard høyde"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "Bredden og høyden på miniatyrbildene i malelementet. Kanter legges til så de "
-"totale størrelsene på malelementet er 6 piksler bredere og høyere."
+"totale størrelsene på malelementet kan bli bredere og høyere."
+
+msgid "Default zoom crop"
+msgstr "Standard zoom beskjæring"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+msgid "Default css"
+msgstr "Standard CSS"
+
+msgid "The css to use for slideshow."
+msgstr "CSS-en som brukes for slideshow-et."
 
 msgid "Limit"
 msgstr "Grense"
@@ -568,6 +644,31 @@ msgstr "Bruk mapper i tittel"
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
 msgstr "Ja, inkluder mappenavn i de automatisk genererte bildetitlene."
+
+msgid "Buttons"
+msgstr "Knapper"
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
+msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr "Advarsel: Disse egenskapene er eksperimentelle - være forsiktig."
@@ -1073,8 +1174,8 @@ msgstr ""
 "Vi har sannsynligvis glemt noen ... Gi oss beskjed hvis vi gjorde det, og vi "
 "vil ordne det til neste utgave."
 
-msgid "Comments waiting for moderation"
-msgstr "Kommentarer venter på godkjenning."
+msgid "The latest comments"
+msgstr "De siste kommentarene"
 
 msgid "IP-address"
 msgstr "IP-adresse"
@@ -1108,24 +1209,6 @@ msgstr "Blokker IP"
 
 msgid "on"
 msgstr "om"
-
-msgid "Check all"
-msgstr "Kryss av alle"
-
-msgid "Check none"
-msgstr "Kryss av ingen"
-
-msgid "Approve comments"
-msgstr "Godkjenn kommentarer"
-
-msgid "Delete comments"
-msgstr "Slett kommentarer"
-
-msgid "There are no comments waiting for moderation"
-msgstr "Ingen kommentarer venter på godkjenning."
-
-msgid "The latest comments"
-msgstr "De siste kommentarene"
 
 msgid "There are no latest comments"
 msgstr "Det er ingen nye kommentarer."
@@ -1199,9 +1282,6 @@ msgstr "Publiser på"
 msgid "Post Page"
 msgstr "Send side"
 
-msgid "Preview"
-msgstr "Forhåndsvis"
-
 msgid "(none)"
 msgstr "(ingen)"
 
@@ -1271,8 +1351,14 @@ msgstr "Det er ingen nye tilbaketråkk."
 msgid "No trackbacks"
 msgstr "Ingen tilbaketråkk"
 
-msgid "The configuration for \"%key%\" was successfully updated."
-msgstr "Oppsettet for \"%key%\" ble oppdatert."
+msgid "Save changes"
+msgstr "Lagre endringer"
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr "Du har endringer som ikke er lagret. Vil du fortsette?"
+
+msgid "The configuration was successfully updated."
+msgstr "Oppsettet ble oppdatert."
 
 msgid "The configuration could not be updated."
 msgstr "Klarte ikke oppdatere oppsettet."
@@ -1348,12 +1434,6 @@ msgstr "Kommentering"
 
 msgid "Back to Weblogs"
 msgstr "Tilbake til bloggene"
-
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "Blogginnstillingene for \"%key%\" ble oppdatert."
-
-msgid "The weblog settings could not be updated."
-msgstr "Klarte ikke oppdatere blogginnstillingene."
 
 msgid "Insert a Tag"
 msgstr "Sett inn en merkelapp"
@@ -1718,6 +1798,27 @@ msgstr "Rediger oppføring (full skjerm)"
 msgid "View website (fullscreen)"
 msgstr "Vis nettsted (full skjerm)"
 
+msgid "Comments waiting for moderation"
+msgstr "Kommentarer venter på godkjenning."
+
+msgid "Approve"
+msgstr "Godkjenn"
+
+msgid "Check all"
+msgstr "Kryss av alle"
+
+msgid "Check none"
+msgstr "Kryss av ingen"
+
+msgid "Approve comments"
+msgstr "Godkjenn kommentarer"
+
+msgid "Delete comments"
+msgstr "Slett kommentarer"
+
+msgid "There are no comments waiting for moderation"
+msgstr "Ingen kommentarer venter på godkjenning."
+
 msgid "first"
 msgstr "først"
 
@@ -1784,6 +1885,9 @@ msgstr "Forslag"
 
 msgid "Show more tags"
 msgstr "Vis flere merkelapper"
+
+msgid "The configuration was succesfully saved."
+msgstr "Oppsettet ble oppdatert."
 
 msgid "Save and continue editing"
 msgstr "Send/lagre og fortsett å redigere"
@@ -1873,6 +1977,9 @@ msgstr "Skriv og publiser en ny side"
 
 msgid "Moderate Comments"
 msgstr "Moderer kommentarer"
+
+msgid "Overview of Comments"
+msgstr "Oversikt over kommentarer"
 
 msgid "Overview of Latest Trackbacks"
 msgstr "Oversikt over siste tilbaketråkk"
@@ -2135,43 +2242,6 @@ msgstr "Oppføringstittel"
 msgid "Excerpt"
 msgstr "Utdrag"
 
-msgid "Continue"
-msgstr "Fortsett"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr "Oppgi følgende informasjon for å sette opp den første brukeren."
-
-msgid "Password (confirm)"
-msgstr "Passord (bekreft)"
-
-msgid "The passwords do not match!"
-msgstr "Passordene er ulike!"
-
-msgid "That's not a proper email address!"
-msgstr "Det er ingen gyldig e-postadresse!"
-
-msgid "That's not a proper Nickname!"
-msgstr "Det er ikke et ordentlig kallenavn!"
-
-msgid "Default language"
-msgstr "Standard språk"
-
-msgid "Please select a language!"
-msgstr "Velg et språk"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr "PivotX oppdaget at din nettjener støtter MySQL-databaser."
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr "Hvis du har en MySQL bruker og database, oppgi dem nedenfor."
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-"Hvis du ikke har det, må du enten spørre webhotellet ditt om det eller velge "
-"«Flate filer»-modellen."
-
 msgid "Database Model"
 msgstr "Databasemodell"
 
@@ -2223,6 +2293,43 @@ msgstr ""
 "Prefikset som brukes for databasetabellene. Ved å endre dette, kan du kjøre "
 "flere installasjoner av PivotX fra en MySQL-database. Hvis du ikke har tenkt "
 "til å gjøre det (enda), kan du bare la den være som «pivotx_»."
+
+msgid "Continue"
+msgstr "Fortsett"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr "Oppgi følgende informasjon for å sette opp den første brukeren."
+
+msgid "Password (confirm)"
+msgstr "Passord (bekreft)"
+
+msgid "The passwords do not match!"
+msgstr "Passordene er ulike!"
+
+msgid "That's not a proper email address!"
+msgstr "Det er ingen gyldig e-postadresse!"
+
+msgid "That's not a proper Nickname!"
+msgstr "Det er ikke et ordentlig kallenavn!"
+
+msgid "Default language"
+msgstr "Standard språk"
+
+msgid "Please select a language!"
+msgstr "Velg et språk"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX oppdaget at din nettjener støtter MySQL-databaser."
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "Hvis du har en MySQL bruker og database, oppgi dem nedenfor."
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
+msgstr ""
+"Hvis du ikke har det, må du enten spørre webhotellet ditt om det eller velge "
+"«Flate filer»-modellen."
 
 msgid ""
 "Password must be at least 4 letters long, and it can't be the same as the "
@@ -4074,8 +4181,8 @@ msgstr "Aktiver flere språk"
 msgid "Language used if none could be detected."
 msgstr "Språk brukt hvis intet kunne bestemmes."
 
-msgid "Languages that your website is using."
-msgstr "Språk som ditt nettsted bruker."
+msgid "Languages that your website is using (comma separated)."
+msgstr "Språk som ditt nettsted bruker (skilt med komma)."
 
 msgid "Language variable name"
 msgstr "Variabelnavn for språk"
@@ -4094,9 +4201,8 @@ msgid ""
 "Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
 msgstr ""
 
-#, fuzzy
 msgid "Language locales"
-msgstr "Språk"
+msgstr "Språklokaler"
 
 msgid ""
 "Enter lines with locale and it's respective language. Wildcards are allowed. "
@@ -4106,9 +4212,11 @@ msgstr ""
 msgid "Nederlands"
 msgstr ""
 
-#, fuzzy
 msgid "English"
-msgstr "Fullfør"
+msgstr "Engelsk"
+
+msgid "Nothing needs to be translated yet."
+msgstr "Ingenting trenger å bli oversatt enda."
 
 msgid "Tag cloud for"
 msgstr "Sky av merkelapper for"
@@ -4847,6 +4955,12 @@ msgstr "Klarte ikke fjerne IP-adressen fra blokkeringslisten."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Rediger eller slett siste tilbaketråkk"
 
+msgid "Comment Moderation Queue"
+msgstr "Kommentarmoderasjonskø"
+
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "Rediger eller slett kommentarer i moderasjonskøen"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "Rediger eller slett kommentarer for oppføring %number% - %editlink%"
 
@@ -4855,7 +4969,7 @@ msgstr "Kommentaren er slettet."
 
 msgid "Edit or Delete Comments in the Moderation Queue and Latest Comments"
 msgstr ""
-"Rediger eller slett kommentarer i moderasjonskøen eller i siste kommentarer"
+"Rediger eller slett kommentarer i moderasjonskøen og i siste kommentarer"
 
 msgid "Edit or Delete Comments"
 msgstr "Rediger eller slett kommentarer"
@@ -4916,6 +5030,15 @@ msgstr "Moblogging"
 
 msgid "Multilingual"
 msgstr "Flerspråklig"
+
+msgid "OOPs"
+msgstr "OOPs"
+
+msgid "Texts"
+msgstr "Tekster"
+
+msgid "OOPs/Help"
+msgstr "OOPs/Hjelp"
 
 msgid "Rebuild the index of your Database"
 msgstr "Gjenoppbygg indeksen for databasen din"
@@ -5054,6 +5177,21 @@ msgstr "Kommentaren ble godkjent."
 msgid "link"
 msgstr "lenke"
 
+msgid "Edit or Delete Latest Comments"
+msgstr "Rediger eller slett siste kommentarer"
+
+#~ msgid "UA tracking code"
+#~ msgstr "UA sporingskode"
+
+#~ msgid "Use AdSense Analytics Code"
+#~ msgstr "Bruk AdSense Analytics-kode"
+
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "Blogginnstillingene for \"%key%\" ble oppdatert."
+
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Klarte ikke oppdatere blogginnstillingene."
+
 #~ msgid "Yes, allow for entries to be password protected."
 #~ msgstr "Ja, tillatt passordbeskyttelse av oppføringer."
 
@@ -5121,14 +5259,6 @@ msgstr "lenke"
 
 #~ msgid "Select the file(s) to upload to this folder:"
 #~ msgstr "Velg filen(e) du vil laste til denne mappa:"
-
-#, fuzzy
-#~ msgid "Naam"
-#~ msgstr "Navn"
-
-#, fuzzy
-#~ msgid "Email adres"
-#~ msgstr "E-postadressen er allerede i bruk"
 
 #~ msgid "Visit the forum"
 #~ msgstr "Besøk forumet"
@@ -5877,9 +6007,6 @@ msgstr "lenke"
 #~ msgid "Toggle between basic and extended view"
 #~ msgstr "Skift mellom enkel og utvidet visning"
 
-#~ msgid "Approve"
-#~ msgstr "Godkjenn"
-
 #~ msgid "Welcome to %build%."
 #~ msgstr "Velkommen til %build%."
 
@@ -6002,9 +6129,6 @@ msgstr "lenke"
 
 #~ msgid "Editing"
 #~ msgstr "Endringer"
-
-#~ msgid "Save changes!"
-#~ msgstr "Lagre endringer!"
 
 #~ msgid "Auxillary template"
 #~ msgstr "Hjelpemal"
@@ -6572,9 +6696,6 @@ msgstr "lenke"
 #~ msgstr ""
 #~ "Sett inn ei lenke, ved å skrive en URL i feltet under. Beøskende vil se "
 #~ "tittelen når de har musa over lenka."
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Sett hvem som kan redigere i kategorien '%s'"

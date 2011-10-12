@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,15 +103,16 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Αποστολή νέου αρχείου:"
 
-msgid "UA tracking code"
+msgid "Web Propery ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 
 msgid "Google account login"
@@ -147,7 +148,44 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Διαμόρφωση"
 
-msgid "Use AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
@@ -482,6 +520,26 @@ msgstr ""
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "Δημοσιεύτηκε στις "
+
+#, fuzzy
+msgid "Preview"
+msgstr "Προεπισκόπηση εγγραφής"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 #, fuzzy
 msgid "Default folder name"
 msgstr "Προεπιλογή γλώσσας"
@@ -514,8 +572,24 @@ msgstr "Προεπιλογή γλώσσας"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
+msgstr ""
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "Προεπιλογή γλώσσας"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "Προεπιλογή γλώσσας"
+
+msgid "The css to use for slideshow."
 msgstr ""
 
 msgid "Limit"
@@ -583,6 +657,31 @@ msgstr ""
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
 msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
@@ -1102,8 +1201,8 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgid "Comments waiting for moderation"
-msgstr "Ρυθμίσεις σχολιασμού"
+msgid "The latest comments"
+msgstr "Πρόσφατες εγγραφές"
 
 msgid "IP-address"
 msgstr "IP διεύθυνση"
@@ -1142,29 +1241,6 @@ msgstr "Μπλοκάρισμα IP %s"
 
 msgid "on"
 msgstr ""
-
-#, fuzzy
-msgid "Check all"
-msgstr "Επιλογή όλων"
-
-#, fuzzy
-msgid "Check none"
-msgstr "Επιλογή όλων"
-
-#, fuzzy
-msgid "Approve comments"
-msgstr "Κανένα σχόλιο"
-
-#, fuzzy
-msgid "Delete comments"
-msgstr "Διαγραφή σχολίου"
-
-msgid "There are no comments waiting for moderation"
-msgstr ""
-
-#, fuzzy
-msgid "The latest comments"
-msgstr "Πρόσφατες εγγραφές"
 
 #, fuzzy
 msgid "There are no latest comments"
@@ -1252,10 +1328,6 @@ msgid "Post Page"
 msgstr "Αλλαγή"
 
 #, fuzzy
-msgid "Preview"
-msgstr "Προεπισκόπηση εγγραφής"
-
-#, fuzzy
 msgid "(none)"
 msgstr "ένα"
 
@@ -1336,8 +1408,16 @@ msgstr "Η συγκεκριμένη εγγραφή δεν έχει σχόλια.
 msgid "No trackbacks"
 msgstr "Ετικέτα για 'X σχόλια'"
 
-msgid "The configuration for \"%key%\" was successfully updated."
+#, fuzzy
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
 msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
+msgstr "Το σχόλιο διαγράφηκε."
 
 #, fuzzy
 msgid "The configuration could not be updated."
@@ -1426,14 +1506,6 @@ msgstr "Σχόλιο"
 #, fuzzy
 msgid "Back to Weblogs"
 msgstr "URL για το Weblog"
-
-#, fuzzy
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "To weblog ανανεώθηκε."
-
-#, fuzzy
-msgid "The weblog settings could not be updated."
-msgstr "Το σχόλιο διαγράφηκε."
 
 #, fuzzy
 msgid "Insert a Tag"
@@ -1846,6 +1918,33 @@ msgstr "Αλλαγή εγγραφής"
 msgid "View website (fullscreen)"
 msgstr ""
 
+#, fuzzy
+msgid "Comments waiting for moderation"
+msgstr "Ρυθμίσεις σχολιασμού"
+
+#, fuzzy
+msgid "Approve"
+msgstr "Κανένα σχόλιο"
+
+#, fuzzy
+msgid "Check all"
+msgstr "Επιλογή όλων"
+
+#, fuzzy
+msgid "Check none"
+msgstr "Επιλογή όλων"
+
+#, fuzzy
+msgid "Approve comments"
+msgstr "Κανένα σχόλιο"
+
+#, fuzzy
+msgid "Delete comments"
+msgstr "Διαγραφή σχολίου"
+
+msgid "There are no comments waiting for moderation"
+msgstr ""
+
 msgid "first"
 msgstr "πρώτη"
 
@@ -1917,6 +2016,10 @@ msgstr ""
 #, fuzzy
 msgid "Show more tags"
 msgstr "Παρουσίαση των τελευταίων"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "Το σχόλιο διαγράφηκε."
 
 msgid "Save and continue editing"
 msgstr ""
@@ -2008,6 +2111,10 @@ msgstr "Νέα εγγραφή"
 #, fuzzy
 msgid "Moderate Comments"
 msgstr "Διαγραφή σχολίου"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "Σύνοψη των εγγραφών"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2290,46 +2397,6 @@ msgid "Excerpt"
 msgstr ""
 
 #, fuzzy
-msgid "Continue"
-msgstr "εννέα"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr ""
-
-msgid "Password (confirm)"
-msgstr "Συνθηματικό (επιβεβαίωση)"
-
-#, fuzzy
-msgid "The passwords do not match!"
-msgstr "Τα συνθηματικά δεν είναι τα ίδια"
-
-#, fuzzy
-msgid "That's not a proper email address!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
-
-#, fuzzy
-msgid "That's not a proper Nickname!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
-
-msgid "Default language"
-msgstr "Προεπιλογή γλώσσας"
-
-#, fuzzy
-msgid "Please select a language!"
-msgstr "Προεπιλογή γλώσσας"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr ""
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr ""
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-
-#, fuzzy
 msgid "Database Model"
 msgstr "Ημερομηνία"
 
@@ -2376,6 +2443,46 @@ msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
+msgstr ""
+
+#, fuzzy
+msgid "Continue"
+msgstr "εννέα"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr ""
+
+msgid "Password (confirm)"
+msgstr "Συνθηματικό (επιβεβαίωση)"
+
+#, fuzzy
+msgid "The passwords do not match!"
+msgstr "Τα συνθηματικά δεν είναι τα ίδια"
+
+#, fuzzy
+msgid "That's not a proper email address!"
+msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#, fuzzy
+msgid "That's not a proper Nickname!"
+msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+msgid "Default language"
+msgstr "Προεπιλογή γλώσσας"
+
+#, fuzzy
+msgid "Please select a language!"
+msgstr "Προεπιλογή γλώσσας"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr ""
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr ""
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
 msgstr ""
 
 msgid ""
@@ -4245,7 +4352,7 @@ msgstr "Προεπιλογή γλώσσας"
 msgid "Language used if none could be detected."
 msgstr "Το σχόλιο διαγράφηκε."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4281,6 +4388,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "Τέλος"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr ""
@@ -5064,6 +5174,14 @@ msgstr "Οι IP διευθύνσεις αποθηκεύτηκαν."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Ετικέτα για 'X σχόλια'"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Ρυθμίσεις σχολιασμού"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "Αλλαγή ή Διαγραφή Σχολίων"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 
@@ -5144,6 +5262,16 @@ msgid "Moblogging"
 msgstr "Moblogger"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "Κείμενο"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -5301,6 +5429,18 @@ msgstr "Το σχόλιο αποθηκεύτηκε."
 #, fuzzy
 msgid "link"
 msgstr "Σύνδεσμοι"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Αλλαγή ή Διαγραφή Σχολίων"
+
+#, fuzzy
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "To weblog ανανεώθηκε."
+
+#, fuzzy
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Το σχόλιο διαγράφηκε."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5908,9 +6048,6 @@ msgstr "Σύνδεσμοι"
 #~ msgid "Editing"
 #~ msgstr "Επεξεργασία"
 
-#~ msgid "Save changes!"
-#~ msgstr "Αποθήκευση αλλαγών!"
-
 #~ msgid "Generate Archive"
 #~ msgstr "Δημιουργία αρχείου ειδήσεων"
 
@@ -6325,9 +6462,6 @@ msgstr "Σύνδεσμοι"
 #~ "Εισάγετε έναν σύνδεσμο, πληκτρολογώντας ένα URL στο πεδίο παρακάτω. Οι "
 #~ "επισκέπτες του ιστοτόπου θα βλέπουν τον τίτλο όταν περνούν το ποντίκι "
 #~ "πάνω από τον σύνδεσμο."
-
-#~ msgid "Text"
-#~ msgstr "Κείμενο"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Καθορισμός ποιος μπορεί να στέλνει σε αυτή την κατηγορία '%s'"

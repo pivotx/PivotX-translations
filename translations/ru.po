@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
-"POT-Creation-Date: 2011-05-04 22:34+0200\n"
+"POT-Creation-Date: 2011-10-12 12:06+0200\n"
 "PO-Revision-Date: 2011-09-12 18:48+0200\n"
 "Last-Translator: Жилко Дмитрий <kangreon@gmail.com>\n"
 "Language-Team: Pivotx.RU <admin@pivotx.ru>\n"
@@ -96,15 +96,16 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Загрузить файл"
 
-msgid "UA tracking code"
+msgid "Web Propery ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Google Analytics code. This looks like UA-xxxxxx-x. "
-"Check your account information after logging in to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
+"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
+"to Google Analytics"
 msgstr ""
 
 msgid "Google account login"
@@ -138,7 +139,44 @@ msgstr ""
 msgid "Advanced Configuration"
 msgstr "Дополнительные настройки"
 
-msgid "Use AdSense Analytics Code"
+msgid ""
+"Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
+"subdomains in one profile"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Name"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Medium"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Source"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Term"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign Content"
+msgstr ""
+
+msgid "Custom campaign variables: Campaign no-override key"
+msgstr ""
+
+msgid ""
+"If set to true, enable linker functionality, e.g. in combination with a 3rd-"
+"party shopping cart"
+msgstr ""
+
+msgid "Set the inactive session timeout in milliseconds"
+msgstr ""
+
+msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
+msgstr ""
+
+#, php-format
+msgid ""
+"Generate code for AdSense for Analytics reporting for multiple domains. %"
+"sSee description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
@@ -469,6 +507,25 @@ msgstr "Блокированные IP"
 msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr ""
 
+msgid "Preview link is only available for unpublished items."
+msgstr ""
+
+#, fuzzy
+msgid "Publish preview"
+msgstr "Опубликовано"
+
+msgid "Preview"
+msgstr "Предосмотр"
+
+msgid "Use this link if you want send someone a preview link."
+msgstr ""
+
+msgid "Preview link will be available for after you save."
+msgstr ""
+
+msgid "Shop Transactions"
+msgstr ""
+
 #, fuzzy
 msgid "Default folder name"
 msgstr "Язык \"по умолчанию\""
@@ -501,9 +558,26 @@ msgstr "ъГШЙ ОН-СЛНКВЮМХЧ"
 
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget will be 6 pixels wider and "
-"taller."
+"to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
+
+#, fuzzy
+msgid "Default zoom crop"
+msgstr "ъГШЙ ОН-СЛНКВЮМХЧ"
+
+msgid ""
+"The zoom crop value to use when creating thumbnails. See includes/timthumb."
+"php for an explanation. Also notice the potential influence of timhumb_zc "
+"setting."
+msgstr ""
+
+#, fuzzy
+msgid "Default css"
+msgstr "По умолчанию"
+
+#, fuzzy
+msgid "The css to use for slideshow."
+msgstr "Select the color scheme to use for the widget."
 
 msgid "Limit"
 msgstr ""
@@ -568,6 +642,31 @@ msgstr ""
 
 msgid ""
 "Yes, include directory names to the automatically generated image titles."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid ""
+"Warning! If you use the default css (slideshow) then the buttons are hidden!"
+msgstr ""
+
+msgid "Show title when hovering over buttons"
+msgstr ""
+
+msgid "Yes, include the title as a tooltip for the buttons."
+msgstr ""
+
+msgid "Tooltip opacity"
+msgstr ""
+
+msgid "Set the opacity of the shown tooltip."
+msgstr ""
+
+msgid "Show buttons before slideshow"
+msgstr ""
+
+msgid "Yes, show the buttons first and then the slideshow."
 msgstr ""
 
 msgid "Warning! These features are experimental, so use them with caution!"
@@ -1064,8 +1163,8 @@ msgid ""
 "credits in the next release"
 msgstr ""
 
-msgid "Comments waiting for moderation"
-msgstr "Комментарии ожидающии модерации"
+msgid "The latest comments"
+msgstr "Последнии комментарии"
 
 msgid "IP-address"
 msgstr "IP адрес"
@@ -1099,25 +1198,6 @@ msgstr "Блокировать IP"
 
 msgid "on"
 msgstr ""
-
-msgid "Check all"
-msgstr "Выбрать все"
-
-#, fuzzy
-msgid "Check none"
-msgstr "нРЛЕРХРЭ БЯЕ"
-
-msgid "Approve comments"
-msgstr "Подтвердить комментарий"
-
-msgid "Delete comments"
-msgstr "Удалить комментарии"
-
-msgid "There are no comments waiting for moderation"
-msgstr "Комментариев ожидающих модерации не найдено"
-
-msgid "The latest comments"
-msgstr "Последнии комментарии"
 
 msgid "There are no latest comments"
 msgstr "Новых комментариев не обнаружено"
@@ -1194,9 +1274,6 @@ msgstr "Дата публикации"
 msgid "Post Page"
 msgstr "Опубликовать"
 
-msgid "Preview"
-msgstr "Предосмотр"
-
 msgid "(none)"
 msgstr "(пусто)"
 
@@ -1267,7 +1344,14 @@ msgid "No trackbacks"
 msgstr "Нету трекбеков"
 
 #, fuzzy
-msgid "The configuration for \"%key%\" was successfully updated."
+msgid "Save changes"
+msgstr "яНУПЮМХРЭ МЮЯРПНИЙХ!"
+
+msgid "You have unsaved changes. Do you wish to continue?"
+msgstr ""
+
+#, fuzzy
+msgid "The configuration was successfully updated."
 msgstr "Ваша запись \"%s\" успешно сохранена."
 
 #, fuzzy
@@ -1348,14 +1432,6 @@ msgstr "Комментировать"
 #, fuzzy
 msgid "Back to Weblogs"
 msgstr "Вернуться ко Входу"
-
-#, fuzzy
-msgid "The weblog settings for \"%key%\" were successfully updated."
-msgstr "бЕАКНЦ НАМНБКЕМ."
-
-#, fuzzy
-msgid "The weblog settings could not be updated."
-msgstr "Запись невозможно удалить."
 
 msgid "Insert a Tag"
 msgstr "Добавить Метку"
@@ -1730,6 +1806,29 @@ msgstr "Редактировать Запись (в полный экран)"
 msgid "View website (fullscreen)"
 msgstr ""
 
+msgid "Comments waiting for moderation"
+msgstr "Комментарии ожидающии модерации"
+
+#, fuzzy
+msgid "Approve"
+msgstr "Подтвердить комментарий"
+
+msgid "Check all"
+msgstr "Выбрать все"
+
+#, fuzzy
+msgid "Check none"
+msgstr "нРЛЕРХРЭ БЯЕ"
+
+msgid "Approve comments"
+msgstr "Подтвердить комментарий"
+
+msgid "Delete comments"
+msgstr "Удалить комментарии"
+
+msgid "There are no comments waiting for moderation"
+msgstr "Комментариев ожидающих модерации не найдено"
+
 msgid "first"
 msgstr "к первой"
 
@@ -1795,6 +1894,10 @@ msgstr ""
 
 msgid "Show more tags"
 msgstr "Показать еще метки"
+
+#, fuzzy
+msgid "The configuration was succesfully saved."
+msgstr "Ваша запись \"%s\" успешно сохранена."
 
 msgid "Save and continue editing"
 msgstr "Сохранить и продолжить"
@@ -1880,6 +1983,10 @@ msgstr "Опубликовать новую Сраницу"
 
 msgid "Moderate Comments"
 msgstr "Модерировать комментарии"
+
+#, fuzzy
+msgid "Overview of Comments"
+msgstr "просмотр комментариев"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2137,42 +2244,6 @@ msgstr "Заголовок Записи"
 msgid "Excerpt"
 msgstr ""
 
-msgid "Continue"
-msgstr "Продолжить"
-
-msgid "Please provide the following information, to set up the first user."
-msgstr ""
-
-msgid "Password (confirm)"
-msgstr "Пароль (подтвердить)"
-
-msgid "The passwords do not match!"
-msgstr "Пароли не совпадают!"
-
-msgid "That's not a proper email address!"
-msgstr "Не верный email адрес !"
-
-#, fuzzy
-msgid "That's not a proper Nickname!"
-msgstr "бБЕДЕММШИ e-mail МЕОПЮБХКЭМШИ"
-
-msgid "Default language"
-msgstr "Язык \"по умолчанию\""
-
-msgid "Please select a language!"
-msgstr "Пожалуйста, выбирите язык!"
-
-msgid "PivotX detected that your webserver supports MySQL databases."
-msgstr "PivotX определил что ваш Вебсервер поддерживает MySQL"
-
-msgid "If you have a MySQL user and database, specify them below."
-msgstr "Если вы используете MySQL ввидите ниже ползователя и имя БД"
-
-msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
-msgstr ""
-
 msgid "Database Model"
 msgstr "Тип Базы Данных"
 
@@ -2215,6 +2286,42 @@ msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
 "multiple installations of PivotX from one MySQL database. If you don't "
 "intend to do so (yet), just leave this set to \"pivotx_\"."
+msgstr ""
+
+msgid "Continue"
+msgstr "Продолжить"
+
+msgid "Please provide the following information, to set up the first user."
+msgstr ""
+
+msgid "Password (confirm)"
+msgstr "Пароль (подтвердить)"
+
+msgid "The passwords do not match!"
+msgstr "Пароли не совпадают!"
+
+msgid "That's not a proper email address!"
+msgstr "Не верный email адрес !"
+
+#, fuzzy
+msgid "That's not a proper Nickname!"
+msgstr "бБЕДЕММШИ e-mail МЕОПЮБХКЭМШИ"
+
+msgid "Default language"
+msgstr "Язык \"по умолчанию\""
+
+msgid "Please select a language!"
+msgstr "Пожалуйста, выбирите язык!"
+
+msgid "PivotX detected that your webserver supports MySQL databases."
+msgstr "PivotX определил что ваш Вебсервер поддерживает MySQL"
+
+msgid "If you have a MySQL user and database, specify them below."
+msgstr "Если вы используете MySQL ввидите ниже ползователя и имя БД"
+
+msgid ""
+"If you do not have these, either ask your hosting provider or select the "
+"'Flat Files' model."
 msgstr ""
 
 msgid ""
@@ -4002,7 +4109,7 @@ msgstr "Язык \"по умолчанию\""
 msgid "Language used if none could be detected."
 msgstr "Запись невозможно удалить."
 
-msgid "Languages that your website is using."
+msgid "Languages that your website is using (comma separated)."
 msgstr ""
 
 msgid "Language variable name"
@@ -4038,6 +4145,9 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "гЮЙНМВХРЭ"
+
+msgid "Nothing needs to be translated yet."
+msgstr ""
 
 msgid "Tag cloud for"
 msgstr "Облако меток для"
@@ -4782,6 +4892,14 @@ msgstr "IP-адрес не может быть удален из список б
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Редактирование последних Трекбеков"
 
+#, fuzzy
+msgid "Comment Moderation Queue"
+msgstr "Комментарии ожидающии модерации"
+
+#, fuzzy
+msgid "Edit or Delete Comment Moderation Queue"
+msgstr "Управление комментариями к записям"
+
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 
@@ -4850,6 +4968,16 @@ msgid "Moblogging"
 msgstr "лНАкНЦЦЕП"
 
 msgid "Multilingual"
+msgstr ""
+
+msgid "OOPs"
+msgstr ""
+
+#, fuzzy
+msgid "Texts"
+msgstr "рЕЙЯР"
+
+msgid "OOPs/Help"
 msgstr ""
 
 msgid "Rebuild the index of your Database"
@@ -4990,6 +5118,18 @@ msgstr "Комментарий проверен!"
 
 msgid "link"
 msgstr "ссылка"
+
+#, fuzzy
+msgid "Edit or Delete Latest Comments"
+msgstr "Редактировать или удалить комментарии"
+
+#, fuzzy
+#~ msgid "The weblog settings for \"%key%\" were successfully updated."
+#~ msgstr "бЕАКНЦ НАМНБКЕМ."
+
+#, fuzzy
+#~ msgid "The weblog settings could not be updated."
+#~ msgstr "Запись невозможно удалить."
 
 #, fuzzy
 #~ msgid "Subitle"
@@ -5702,9 +5842,6 @@ msgstr "ссылка"
 #~ msgid "Editing"
 #~ msgstr "хГЛЕМЕМХЕ"
 
-#~ msgid "Save changes!"
-#~ msgstr "яНУПЮМХРЭ МЮЯРПНИЙХ!"
-
 #~ msgid "Auxillary template"
 #~ msgstr "бЯОНЛНЦЮРЕКЭМШИ ЬЮАКНМ"
 
@@ -6086,9 +6223,6 @@ msgstr "ссылка"
 #~ msgstr ""
 #~ "дКЪ РНЦН, ВРНАШ ЯДЕКЮРЭ ЯЯШКЙС, БЮЛ МЕНАУНДХЛН БШДЕКХРЭ РЕЙЯР. оНЯЕРХРЕКХ "
 #~ "ОЕПЕИДСР ОН ЯЯШКЙЕ ОПХ МЮФЮРХХ МЮ МЕЕ."
-
-#~ msgid "Text"
-#~ msgstr "рЕЙЯР"
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "мЮЯРПНХРЭ РЕУ ЙРН ЛНФЕР ОХЯЮРЭ Б ЙЮРЕЦНПХЧ '%s'"
