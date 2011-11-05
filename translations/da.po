@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-10-12 12:06+0200\n"
-"PO-Revision-Date: 2011-02-26 15:52+0100\n"
+"PO-Revision-Date: 2011-10-22 15:57+0100\n"
 "Last-Translator: Lars J. Helbo <lars@salldata.dk>\n"
 "Language-Team: Dansk sprog\n"
 "MIME-Version: 1.0\n"
@@ -98,19 +98,19 @@ msgid "Upload a file"
 msgstr "Opload en fil"
 
 msgid "Web Propery ID"
-msgstr ""
+msgstr "Webejendoms-id"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "Fejl - input skal være i formen UA-xxxxxx-x"
 
-#, fuzzy
 msgid ""
 "Enter your personal Web Property ID, aka. UA tracking code. This looks like "
 "UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
 "to Google Analytics"
 msgstr ""
-"Indtast din personlige Google Analytics kode. Den ligner noget som UA-xxxxxx-"
-"x. Kontroller din konto, efter at du har logget ind på Google Analytics"
+"Indtast din personlige Webejendoms-id, eller UA trackingkode. Den ligner "
+"noget som UA-xxxxxx-y eller UA-xxxxx-yy. Kontroller din konto, efter at du "
+"har logget ind på Google Analytics"
 
 msgid "Google account login"
 msgstr "Google konto-login"
@@ -153,41 +153,47 @@ msgid ""
 "Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
 "subdomains in one profile"
 msgstr ""
+"Vælger domænenavnet til cookies, f.eks. .example.com, tillader sporing af "
+"alle subdomæner i en profil"
 
 msgid "Custom campaign variables: Campaign Name"
-msgstr ""
+msgstr "Tilpasset kampagne variabler: Kampagne navn"
 
 msgid "Custom campaign variables: Campaign Medium"
-msgstr ""
+msgstr "Tilpasset kampagne variabler: Kampagne medium"
 
 msgid "Custom campaign variables: Campaign Source"
-msgstr ""
+msgstr "Tilpasset kampagne variabler: Kampagne kilde"
 
 msgid "Custom campaign variables: Campaign Term"
-msgstr ""
+msgstr "Tilpasset kampagne variabler: Kampagne termin"
 
 msgid "Custom campaign variables: Campaign Content"
-msgstr ""
+msgstr "Tilpasset kampagne variabler: Kampagne indhold"
 
 msgid "Custom campaign variables: Campaign no-override key"
-msgstr ""
+msgstr "Tilpasset kampagne variabler: Kampagne ikke-overskriv nøgle"
 
 msgid ""
 "If set to true, enable linker functionality, e.g. in combination with a 3rd-"
 "party shopping cart"
 msgstr ""
+"Hvis sat til sand, aktiveres linker-funktionalitet, f.eks. i kombination med "
+"indkøbskurv fra tredjepart"
 
 msgid "Set the inactive session timeout in milliseconds"
-msgstr ""
+msgstr "Sæt inaktiv session timeout i millisekunder"
 
 msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
-msgstr ""
+msgstr "Hvis sat til sand, tillad at Analytics bruges sammen med Urchin"
 
 #, php-format
 msgid ""
 "Generate code for AdSense for Analytics reporting for multiple domains. %"
 "sSee description.%s"
 msgstr ""
+"Lav kode for AdSense til Analytics med rapporter for flere domæner. %sSe "
+"beskrivelse.%s"
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Ups! Beklager, jeg kunne ikke læse denne Google Kalender feed."
@@ -381,13 +387,15 @@ msgid ""
 "# Use a hash to add comments or disable a user\n"
 "# Example: password|username\n"
 msgstr ""
+"# Indtast hver bruger med password på en ny linje.\n"
+"# brug stigetegn til at tilføje kommentarer eller deaktivere en bruger \n"
+"# Eksempel: password|brugernavn\n"
 
 msgid "Yes, but only pages and entries"
-msgstr ""
+msgstr "Ja, men kun sider og indlæg"
 
-#, fuzzy
 msgid "Yes, for the complete site"
-msgstr "Vis hele bidraget"
+msgstr "Ja, for hele websiden"
 
 msgid "Enable password protection"
 msgstr "Aktiver password-beskyttelse"
@@ -431,10 +439,10 @@ msgid "When the user is not granted access, show this text."
 msgstr "Når brugeren ikke får adgang, vis denne tekst."
 
 msgid "All access ipnumbers"
-msgstr ""
+msgstr "Fri adgang ipnumre"
 
 msgid "These ipnumbers can access everything without password."
-msgstr ""
+msgstr "Disse ipnumre har adgang til alt uden password."
 
 msgid "Users"
 msgstr "Brugere"
@@ -513,23 +521,22 @@ msgid "A comma separated list of IP that shouldn't be registered in Piwik."
 msgstr "En komma-separeret liste med IP, som ikke skal registreres i Piwik."
 
 msgid "Preview link is only available for unpublished items."
-msgstr ""
+msgstr "Forvisningslink findes kun for ikke publiserede elementer."
 
-#, fuzzy
 msgid "Publish preview"
-msgstr "Publiseret "
+msgstr "Publiser forvisning"
 
 msgid "Preview"
 msgstr "For-visning"
 
 msgid "Use this link if you want send someone a preview link."
-msgstr ""
+msgstr "Brug dette link for at sende et forvisningslink til en anden."
 
 msgid "Preview link will be available for after you save."
-msgstr ""
+msgstr "Forvisningslink er tilgængeligt, når der er gemt."
 
 msgid "Shop Transactions"
-msgstr ""
+msgstr "Forretnings-transaktioner"
 
 msgid "Default folder name"
 msgstr "Standard foldernavn"
@@ -537,17 +544,16 @@ msgstr "Standard foldernavn"
 msgid "That's not a proper folder name!"
 msgstr "Det er ikke et gyldigt foldernavn!"
 
-#, fuzzy
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
 "<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</"
 "tt> folder. Don't start or finish with a slash."
 msgstr ""
-"navnet på den folder, der indeholder de billeder, som slideshow skal bruge. "
-"Det skal være en folder inde i din <tt>images</tt> folder. Så hvis du "
-"indtaster <tt>slideshow</tt>, vil slideshow kigge i folderen <tt>/images/"
-"slideshow/</tt>. Du må ikke begynde eller slutte med en skråstreg."
+"Navnet på den folder, der indeholder de billeder, som slideshow skal bruge. "
+"Det skal være en folder inde i din <tt>images</tt> folder. Hvis du indtaster "
+"<tt>slideshow</tt>, slideshow vil søge i folderen <tt>/images/slideshow/</"
+"tt>. Du må ikke begynde eller slutte med en skråstreg."
 
 msgid "Default timeout"
 msgstr "Standard-timeout"
@@ -561,37 +567,35 @@ msgstr "Standard-bredde"
 msgid "Default height"
 msgstr "Standard-højde"
 
-#, fuzzy
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
 "to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "Bredde og højde af thumbnails i denne widget. Kanterne tilføjes til dette, "
-"så de samlede dimentioner af denne widget vil være 6 pixels bredere og "
+"så de samlede dimensioner af denne widget vil være 6 pixels bredere og "
 "højere."
 
-#, fuzzy
 msgid "Default zoom crop"
-msgstr "Standard zoom for kort"
+msgstr "Standard zoom-beskæring"
 
 msgid ""
 "The zoom crop value to use when creating thumbnails. See includes/timthumb."
 "php for an explanation. Also notice the potential influence of timhumb_zc "
 "setting."
 msgstr ""
+"Zoom-klippe-værdien, der skal bruges, når der laves thumbnails. Se includes/"
+"timthumb.php for en forklaring. Bemærk også den mulige indflydelse fra "
+"indstillingen timhumb_zc."
 
-#, fuzzy
 msgid "Default css"
-msgstr "Standard "
+msgstr "Standard css"
 
-#, fuzzy
 msgid "The css to use for slideshow."
-msgstr "Vælg den stil, der skal bruges til denne widget."
+msgstr "Css ttil brug for slideshow."
 
 msgid "Limit"
 msgstr "Grænse"
 
-#, fuzzy
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
@@ -638,7 +642,6 @@ msgstr "Blad"
 msgid "All"
 msgstr "Alle"
 
-#, fuzzy
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
@@ -653,31 +656,31 @@ msgid ""
 "Yes, include directory names to the automatically generated image titles."
 msgstr "Ja, tilføj foldernavne til de automatisk oprettede billedtitler."
 
-#, fuzzy
 msgid "Buttons"
-msgstr "Skjul knapper"
+msgstr "Knapper"
 
 msgid ""
 "Warning! If you use the default css (slideshow) then the buttons are hidden!"
 msgstr ""
+"Advarsel! Hvis du bruger standard css (slideshow), er disse knapper skjult!"
 
 msgid "Show title when hovering over buttons"
-msgstr ""
+msgstr "Vis titel ved bevægelse over knapper"
 
 msgid "Yes, include the title as a tooltip for the buttons."
-msgstr ""
+msgstr "Ja, medtag titel som tooltip for knapperne."
 
 msgid "Tooltip opacity"
-msgstr ""
+msgstr "Tooltip gennemsigtighed"
 
 msgid "Set the opacity of the shown tooltip."
-msgstr ""
+msgstr "Sæt gennemsigtigheden for det viste tooltip."
 
 msgid "Show buttons before slideshow"
-msgstr ""
+msgstr "Vis knapper før slideshow"
 
 msgid "Yes, show the buttons first and then the slideshow."
-msgstr ""
+msgstr "Ja, vis knapperne først og derefter slideshowet."
 
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
@@ -686,7 +689,6 @@ msgstr ""
 msgid "IPTC Index"
 msgstr "IPTC indeks"
 
-#, fuzzy
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
@@ -697,16 +699,15 @@ msgstr ""
 msgid "IPTC Encoding"
 msgstr "IPTC kodning"
 
-#, fuzzy
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
 msgstr ""
-"Kodning af IPTC tekst. (Brug iconv kodningsnavnene.) Lad være tomt for ingen "
-"kodning."
+"Kodning af billed-IPTC tekst. (Brug iconv kodningsnavnene.) Lad være tomt "
+"for ingen kodning."
 
 msgid "Share this:"
-msgstr ""
+msgstr "Del dette:"
 
 msgid ""
 "These icons link to social bookmarking sites where readers can share and "
@@ -715,29 +716,27 @@ msgstr ""
 "Disse ikoner linker til sociale bogmærkesider, hvor læserne kan dele og "
 "finde nye websider."
 
-#, fuzzy
 msgid "Tagline"
-msgstr "Inline"
+msgstr "Titellinje"
 
-#, fuzzy
 msgid "That's not a proper tagline!"
-msgstr "Det er ingen gyldig værdi"
+msgstr "Dette er ikke en gyldig titellinje"
 
 msgid "The text to display in front of the Social Bookmarking buttons."
-msgstr ""
+msgstr "Teksten, der skal vises foran de sociale bogmærkeknapper."
 
-#, fuzzy
 msgid "Open in new window"
-msgstr "Åbn genveje i nye vinduer"
+msgstr "Åbn i nyt vindue"
 
 msgid ""
 "If you enable this, all links will open in a new (blank) window. Note: doing "
 "this will prevent your website from being valid XHTML."
 msgstr ""
+"Hvis dette aktiveres, åbnes alle links i et nyt (tomt) vindue. Bemærk: "
+"dermed vil websiden ikke være gyldig XHTML."
 
-#, fuzzy
 msgid "Show these links"
-msgstr "Vis feeds"
+msgstr "Vis disse links"
 
 msgid "Rating button description"
 msgstr "Vurderingsknap-beskrivelse"
@@ -781,55 +780,52 @@ msgstr "Navnet hvormed du logger ind på %s"
 msgid "Include weblog frontpages"
 msgstr "Medtag weblog-forsider"
 
-#, fuzzy
 msgid "Only weblog"
-msgstr "Min weblog"
+msgstr "Kun weblog"
 
 msgid "Select a weblog or weblogs that should only be added to the sitemap."
 msgstr ""
+"Vælg en eller flere weblogs, der som de eneste skal tilføjes til sitemap."
 
-#, fuzzy
 msgid "Exclude weblog"
-msgstr "Vis weblog"
+msgstr "Udeluk weblog"
 
 msgid "Select a weblog or weblogs that should not be added to the sitemap."
-msgstr ""
+msgstr "Vælg en eller flere weblogs, som ikke skal tilføjes til sitemap."
 
 msgid "Include entries"
 msgstr "Medtag indlæg"
 
-#, fuzzy
 msgid "Only category"
-msgstr "kategori"
+msgstr "Kun kategori"
 
 msgid ""
 "Select a category or categories that should only be added to the sitemap."
 msgstr ""
+"Vælg en eller flere kategorier, der som de eneste skal tilføjes til sitemap."
 
-#, fuzzy
 msgid "Exclude category"
-msgstr "Rediger kategori"
+msgstr "Udeluk kategori"
 
 msgid ""
 "Select a category or categories that should not be added to the sitemap."
-msgstr ""
+msgstr "Vælg en eller flere kategorier, som ikke skal tilføjes til sitemap."
 
 msgid "Include pages"
 msgstr "Medtag sider"
 
-#, fuzzy
 msgid "Only chapter"
-msgstr "Kategori"
+msgstr "Kun kapitel"
 
 msgid "Select a chapter or chapters that should only be added to the sitemap."
 msgstr ""
+"Vælg et eller flere kapitler, der som de eneste skal tilføjes til sitemap."
 
-#, fuzzy
 msgid "Exclude chapter"
-msgstr "Editer kapitel"
+msgstr "Udeluk kapitel"
 
 msgid "Select a chapter or chapters that should not be added to the sitemap."
-msgstr ""
+msgstr "Vælg et eller flere kapitler, som ikke skal tilføjes til sitemap."
 
 msgid "Filter as any robot"
 msgstr "Filtrer som enhver robot"
@@ -1069,9 +1065,8 @@ msgstr "Filendelses-fejl"
 msgid "Upload too big"
 msgstr "Opload for stor"
 
-#, fuzzy
 msgid "Upload init error"
-msgstr "Opload fejl"
+msgstr "Opload init-fejl"
 
 msgid "Upload error"
 msgstr "Opload fejl"
@@ -1371,16 +1366,14 @@ msgstr "Der er ingen nye trackbacks"
 msgid "No trackbacks"
 msgstr "Ingen trackbacks"
 
-#, fuzzy
 msgid "Save changes"
-msgstr "Gem ændringer!"
+msgstr "Gem ændringer"
 
 msgid "You have unsaved changes. Do you wish to continue?"
-msgstr ""
+msgstr "Der er ikke gemte ændringer, fortsæt?"
 
-#, fuzzy
 msgid "The configuration was successfully updated."
-msgstr "Konfigurationen for \"%key%\" blev opdateret."
+msgstr "Konfigurationen blev opdateret korrekt."
 
 msgid "The configuration could not be updated."
 msgstr "Konfigurationen kunne ikke opdateres."
@@ -1403,7 +1396,6 @@ msgstr "Send eller vis"
 msgid "Post and Continue Editing"
 msgstr "Send og fortsæt med at editere"
 
-#, fuzzy
 msgid "Languages"
 msgstr "Sprog"
 
@@ -1822,9 +1814,8 @@ msgstr "Vis webside (fuld skærm)"
 msgid "Comments waiting for moderation"
 msgstr "Kommentarer, der venter på godkendelse"
 
-#, fuzzy
 msgid "Approve"
-msgstr "Godkend kommentarer"
+msgstr "Godkend"
 
 msgid "Check all"
 msgstr "Marker alle"
@@ -1907,9 +1898,8 @@ msgstr "Forslag"
 msgid "Show more tags"
 msgstr "Vis flere emner"
 
-#, fuzzy
 msgid "The configuration was succesfully saved."
-msgstr "Konfigurationen for \"%key%\" blev opdateret."
+msgstr "Konfigurationen blev opdateret."
 
 msgid "Save and continue editing"
 msgstr "Gem og fortsæt med at skrive"
@@ -2001,9 +1991,8 @@ msgstr "Sjriv og publiser en ny side"
 msgid "Moderate Comments"
 msgstr "Moderer kommentarer"
 
-#, fuzzy
 msgid "Overview of Comments"
-msgstr "oversigt over kommentarer"
+msgstr "Oversigt over kommentarer"
 
 msgid "Overview of Latest Trackbacks"
 msgstr "Oversigt over nyeste trackbacks"
@@ -4174,13 +4163,11 @@ msgstr ".. og %s flere filer."
 msgid "Click for image"
 msgstr "Klik for billeder"
 
-#, fuzzy
 msgid "Your entry has been posted!"
-msgstr "Din kommentar er blevet gemt."
+msgstr "Din kommentar er blevet gemt!"
 
-#, fuzzy
 msgid "User"
-msgstr "Brugere"
+msgstr "Bruger"
 
 msgid "Moblog entry posted"
 msgstr "Moblog indlæg sendt"
@@ -4201,53 +4188,52 @@ msgstr "Moblog indlæg ikke sendt"
 msgid "Processed: %s"
 msgstr "Behandlet: %s"
 
-#, fuzzy
 msgid "Enable multiple languages"
-msgstr "Standard sprog"
+msgstr "Aktiver flere sprog"
 
-#, fuzzy
 msgid "Language used if none could be detected."
-msgstr "Indlæggene kunne ikke slettes."
+msgstr "Sprog der bruges, hvis intet findes."
 
 msgid "Languages that your website is using (comma separated)."
-msgstr ""
+msgstr "Sprog som websiden bruger (komma-separerede)."
 
 msgid "Language variable name"
-msgstr ""
+msgstr "Sprog variabelnavn"
 
-#, fuzzy
 msgid "Give a proper variable name"
-msgstr "Angiv et rigtigt domæne-navn!"
+msgstr "Angiv et korrekt variabelnavn"
 
 msgid "GET, POST or COOKIE variable used to detect language."
-msgstr ""
+msgstr "GET, POST eller COOKIE variable brugt til at finde sprog."
 
 msgid "URL language patterns"
-msgstr ""
+msgstr "URL sprogmønster"
 
 msgid ""
 "Enter lines with hosts and their respective language. Wildcards are allowed. "
 "Examples: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
 msgstr ""
+"Indtast linjer med værter og deres respektive sprog. Wildcards er tilladt. "
+"Eksempler: \"http://www.twokings.nl | nl\", \"http://.+.twokings.co.uk | en\""
 
-#, fuzzy
 msgid "Language locales"
-msgstr "Sprog"
+msgstr "Sprogkoder"
 
 msgid ""
 "Enter lines with locale and it's respective language. Wildcards are allowed. "
 "Examples: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
 msgstr ""
+"Indtast linker med lokal-koder og deres respektive sprog. Wildcards er "
+"tilladt. Eksempler: \"nl_NL@euro | nl\", \"en_GB.utf8 | en\""
 
 msgid "Nederlands"
-msgstr ""
+msgstr "Holland"
 
-#, fuzzy
 msgid "English"
-msgstr "Fuldfør"
+msgstr "Engelsk"
 
 msgid "Nothing needs to be translated yet."
-msgstr ""
+msgstr "Der er ikke noget, der skal oversættes endnu."
 
 msgid "Tag cloud for"
 msgstr "Emne-samling for"
@@ -4755,9 +4741,8 @@ msgstr "Forrige side"
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
 msgstr "Viser indlæg %num_from%-%num_to% af %num_tot%"
 
-#, fuzzy
 msgid "A visitor"
-msgstr "Unikke gæster"
+msgstr "En gæster"
 
 #, php-format
 msgid "%s started editing entry '%s'."
@@ -4847,7 +4832,7 @@ msgid "Your new password is %pass%."
 msgstr "Dit nye  password er %pass%."
 
 msgid "PivotX was not able to send a mail with the reset link."
-msgstr ""
+msgstr "PivotX kunne ikke sende en mail med nulstillingslinket."
 
 msgid "Setup user"
 msgstr "Tilpas bruger"
@@ -4986,13 +4971,11 @@ msgstr "IP-adressen kunne ikke fjernes fra blokaringslisten."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Ændre eller slette nyeste trackbacks"
 
-#, fuzzy
 msgid "Comment Moderation Queue"
 msgstr "Kommentarer, der venter på godkendelse"
 
-#, fuzzy
 msgid "Edit or Delete Comment Moderation Queue"
-msgstr "Editer eller slet kommentarer i moderations-køen og nyeste kommentarer"
+msgstr "Editer eller slet kommentarer i moderations-køen"
 
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr "Editer eller slet kommentarer til indlæg %number% - %editlink%"
@@ -5061,17 +5044,16 @@ msgid "Moblogging"
 msgstr "Moblogger"
 
 msgid "Multilingual"
-msgstr ""
+msgstr "Flersproget"
 
 msgid "OOPs"
-msgstr ""
+msgstr "OOPs"
 
-#, fuzzy
 msgid "Texts"
-msgstr "Tekst"
+msgstr "Tekster"
 
 msgid "OOPs/Help"
-msgstr ""
+msgstr "OOPs/hjælp"
 
 msgid "Rebuild the index of your Database"
 msgstr "Genopbyg indeks for din database"
@@ -5211,9 +5193,8 @@ msgstr "Kommentaren er blevet godkendt!"
 msgid "link"
 msgstr "genvej"
 
-#, fuzzy
 msgid "Edit or Delete Latest Comments"
-msgstr "Ændre eller slet kommentarer"
+msgstr "Ændre eller slet nyeste kommentarer"
 
 #~ msgid "UA tracking code"
 #~ msgstr "UA tracking-kode"
