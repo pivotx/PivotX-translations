@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-10-12 12:06+0200\n"
-"PO-Revision-Date: 2011-06-16 10:45+0100\n"
+"PO-Revision-Date: 2011-12-08 12:55+0100\n"
 "Last-Translator: Roland Svak <rolandsvak@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -102,20 +102,19 @@ msgid "Upload a file"
 msgstr "Fájl feltöltése"
 
 msgid "Web Propery ID"
-msgstr ""
+msgstr "Webes tulajdonságok azonosítója"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr "Hiba - a következő formában írja be a kódot: UA-xxxxxx-x"
 
-#, fuzzy
 msgid ""
 "Enter your personal Web Property ID, aka. UA tracking code. This looks like "
 "UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
 "to Google Analytics"
 msgstr ""
-"Írja be a személyes  Google Analytics kódját, ami a következőképpen néz ki: "
-"UA-xxxxxx-x. Ellenőrizze fiókadatait a Google Analytics-be történt "
-"bejelentkezés után."
+"Írja be személyes Google Analytics kódját, ami a következőképpen néz ki: UA-"
+"xxxxxx-y vagy UA-xxxxx-yy. Ellenőrizze fiókadatait a Google Analytics-be "
+"történt bejelentkezés után."
 
 msgid "Google account login"
 msgstr "Google bejelentkezési név"
@@ -158,41 +157,47 @@ msgid ""
 "Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
 "subdomains in one profile"
 msgstr ""
+"A cookie-khoz használt domainnév, pl.: valami.hu beállítása lehetővé teszi "
+"minden aldomain követését egy profilban."
 
 msgid "Custom campaign variables: Campaign Name"
-msgstr ""
+msgstr "Egyéni kampány változók: Név"
 
 msgid "Custom campaign variables: Campaign Medium"
-msgstr ""
+msgstr "Egyéni kampány változók: Médium"
 
 msgid "Custom campaign variables: Campaign Source"
-msgstr ""
+msgstr "Egyéni kampány változók: Forrás"
 
 msgid "Custom campaign variables: Campaign Term"
-msgstr ""
+msgstr "Egyéni kampány változók: Kifejezés"
 
 msgid "Custom campaign variables: Campaign Content"
-msgstr ""
+msgstr "Egyéni kampány változók: Tartalom"
 
 msgid "Custom campaign variables: Campaign no-override key"
-msgstr ""
+msgstr "Egyéni kampány változók: No-override kulcs"
 
 msgid ""
 "If set to true, enable linker functionality, e.g. in combination with a 3rd-"
 "party shopping cart"
 msgstr ""
+"Bekapcsolva engedélyezi a linkelő funkciót, pl.: egy másik shopping carttal "
+"kombinálva"
 
 msgid "Set the inactive session timeout in milliseconds"
-msgstr ""
+msgstr "Az inaktív munkamenet időkorlátjának beállítása (ms)"
 
 msgid "If set to true, allow Analytics to be used in conjunction with Urchin"
-msgstr ""
+msgstr "Ha igenre állítja, az Analytics-et az Urchinnal együtt használható."
 
 #, php-format
 msgid ""
 "Generate code for AdSense for Analytics reporting for multiple domains. %"
 "sSee description.%s"
 msgstr ""
+"A kódot az több domain-t éríntő Adsense for Analytics jelentésekhez "
+"generálja. %sLásd a leírást. %s"
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr "Hoppá! Azt hiszem, nem tudom olvasni a Google Naptár feed-et."
@@ -520,23 +525,23 @@ msgstr ""
 "regisztrálni."
 
 msgid "Preview link is only available for unpublished items."
-msgstr ""
+msgstr "Az előnézeti link csak a nem közzétett elemeknél érhető el."
 
-#, fuzzy
 msgid "Publish preview"
-msgstr "Közzétéve"
+msgstr "Előnézet"
 
 msgid "Preview"
 msgstr "Előnézet"
 
 msgid "Use this link if you want send someone a preview link."
 msgstr ""
+"Használja ezt a linket, ha valakinek el akarja küldeni az előnézet linkjét."
 
 msgid "Preview link will be available for after you save."
-msgstr ""
+msgstr "Az előnézeti link csak mentés után érhető el."
 
 msgid "Shop Transactions"
-msgstr ""
+msgstr "Bolti tranzakciók"
 
 msgid "Default folder name"
 msgstr "Alapértelmezett könyvtárnév"
@@ -544,7 +549,6 @@ msgstr "Alapértelmezett könyvtárnév"
 msgid "That's not a proper folder name!"
 msgstr "Nem megfelelő könyvtárnév!"
 
-#, fuzzy
 msgid ""
 "The name of the folder in where the images are that Slideshow should use. "
 "This should be a folder inside your <tt>images</tt> folder. So if you input "
@@ -569,37 +573,34 @@ msgstr "Alapértelmezett szélesség"
 msgid "Default height"
 msgstr "Alapértelmezett magasság"
 
-#, fuzzy
 msgid ""
 "The width and height of the thumbnails in the widget. The borders are added "
 "to this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 "A widget-ben használt bélyegképek szélessége és magassága. Ehhez adódik még "
-"hozzá a keret, szóval a widget méret 6 képponttal szélesebb és magasabb lesz "
-"a végén."
+"hozzá a keret, szóval a widget szélesebb és magasabb lesz a végén."
 
-#, fuzzy
 msgid "Default zoom crop"
-msgstr "Térkép alapértelmezett nagyítása"
+msgstr "Alapértelmezett nagyítás"
 
 msgid ""
 "The zoom crop value to use when creating thumbnails. See includes/timthumb."
 "php for an explanation. Also notice the potential influence of timhumb_zc "
 "setting."
 msgstr ""
+"A bélyegképek készítéséhez használt nagyítás-vágási érték. Részletekért lásd "
+"includes/timthumb.php. Vegye figyelembe továbbá a timthumb_zc beállítás "
+"lehetséges hatásait."
 
-#, fuzzy
 msgid "Default css"
-msgstr "Alapértelmezett"
+msgstr "Alapértelmezett stílus"
 
-#, fuzzy
 msgid "The css to use for slideshow."
-msgstr "Válasszon szín sémát a widget használatához."
+msgstr "A slideshow alapértelmezett stílusa."
 
 msgid "Limit"
 msgstr "Limit"
 
-#, fuzzy
 msgid ""
 "This limits the number of items that are shown. If you set it too high, it "
 "will take longer to load your site."
@@ -648,14 +649,11 @@ msgstr "Egy szint"
 msgid "All"
 msgstr "Mind"
 
-#, fuzzy
 msgid ""
 "If recursion is enabled images from either all subdirectories or just the "
 "leaf subdirectories will be included in the slide show."
 msgstr ""
 "Ha a rekurzív beolvasás engedélyezett, itt megadhatja, hogy minden "
-"alkönyvtár beolvasásra kerüljön, vagy csak egy szint mélyen történjen "
-"beolvasás.Ha a rekurzív beolvasás engedélyezett, itt megadhatja, hogy minden "
 "alkönyvtár beolvasásra kerüljön, vagy csak egy szint mélyen történjen "
 "beolvasás."
 
@@ -667,31 +665,32 @@ msgid ""
 msgstr ""
 "Igen, adja hozzá a könyvtárak neveit az automatikusan generált képcímekhez."
 
-#, fuzzy
 msgid "Buttons"
-msgstr "Gombok elrejtése"
+msgstr "Gombok"
 
 msgid ""
 "Warning! If you use the default css (slideshow) then the buttons are hidden!"
 msgstr ""
+"Figyelem! Ha az alapértelmezett stílust (slideshow) használja, a gombok "
+"rejtve lesznek!"
 
 msgid "Show title when hovering over buttons"
-msgstr ""
+msgstr "Cím mutatása ha az kurzor a gomb felett van"
 
 msgid "Yes, include the title as a tooltip for the buttons."
-msgstr ""
+msgstr "A cím hozzáfűzése a gombokon megjelenő tooltiphez."
 
 msgid "Tooltip opacity"
-msgstr ""
+msgstr "Tooltip átlátszóság"
 
 msgid "Set the opacity of the shown tooltip."
-msgstr ""
+msgstr "A megjelenő tooltip átlátszóságának beállítása."
 
 msgid "Show buttons before slideshow"
-msgstr ""
+msgstr "Mutassa a gombokat a slideshow előtt"
 
 msgid "Yes, show the buttons first and then the slideshow."
-msgstr ""
+msgstr "Először mutassa a gombokat, utána a slideshow-t."
 
 msgid "Warning! These features are experimental, so use them with caution!"
 msgstr ""
@@ -700,20 +699,16 @@ msgstr ""
 msgid "IPTC Index"
 msgstr "IPTC Index"
 
-#, fuzzy
 msgid ""
 "Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
 "blank to generate a nicename."
 msgstr ""
 "A kép nevének azonosítója az IPTC táblában. (A Picasa megjegyzések értéke "
-"'2#120'). Hagyja üresen az automatikus generáláshoz.A kép nevének "
-"azonosítója az IPTC táblában. (A Picasa megjegyzések értéke '2#120'). Hagyja "
-"üresen az automatikus generáláshoz."
+"'2#120'). Hagyja üresen az automatikus generáláshoz."
 
 msgid "IPTC Encoding"
 msgstr "IPTC karakter-kódolás"
 
-#, fuzzy
 msgid ""
 "Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
 "for no decoding."
@@ -1388,14 +1383,13 @@ msgid "No trackbacks"
 msgstr "Nincs trackback"
 
 msgid "Save changes"
-msgstr ""
+msgstr "Változások mentése"
 
 msgid "You have unsaved changes. Do you wish to continue?"
-msgstr ""
+msgstr "Nem mentett változtatásai vannak. Folytatja?"
 
-#, fuzzy
 msgid "The configuration was successfully updated."
-msgstr "A(z) \"%key%\" konfigurációs kulcs sikeresen mentve. "
+msgstr "Beállítások frissítése sikeresen megtörtént."
 
 msgid "The configuration could not be updated."
 msgstr "A beállításokat nem lehet menteni."
@@ -1838,9 +1832,8 @@ msgstr "Weboldal megtekintése (teljes képernyőn)"
 msgid "Comments waiting for moderation"
 msgstr "Hozzászólások várnak moderálásra"
 
-#, fuzzy
 msgid "Approve"
-msgstr "Hozzászólás jóváhagyása"
+msgstr "Jóváhagyás"
 
 msgid "Check all"
 msgstr "Mind kijelölése"
@@ -1923,9 +1916,8 @@ msgstr "Javaslatok"
 msgid "Show more tags"
 msgstr "Mutass több címkét"
 
-#, fuzzy
 msgid "The configuration was succesfully saved."
-msgstr "A(z) \"%key%\" konfigurációs kulcs sikeresen mentve. "
+msgstr "Beállítások mentése sikeresen megtörtént."
 
 msgid "Save and continue editing"
 msgstr "Mentés és a szerkesztés folytatása"
@@ -2015,7 +2007,6 @@ msgstr "Új oldal írása és publikálása"
 msgid "Moderate Comments"
 msgstr "Hozzászólások moderálása"
 
-#, fuzzy
 msgid "Overview of Comments"
 msgstr "Hozzászólások áttekintése"
 
@@ -4226,9 +4217,8 @@ msgstr "Többnyelvűség engedélyezése"
 msgid "Language used if none could be detected."
 msgstr "A használt nyelv, ha nincs más megadva."
 
-#, fuzzy
 msgid "Languages that your website is using (comma separated)."
-msgstr "A weboldalad által használt nyelvek"
+msgstr "A weboldal által használt nyelvek (vesszővel elválasztva)."
 
 msgid "Language variable name"
 msgstr "Nyelvi változó neve"
@@ -4267,7 +4257,7 @@ msgid "English"
 msgstr "Angol"
 
 msgid "Nothing needs to be translated yet."
-msgstr ""
+msgstr "Jelenleg nincs mit lefordítani."
 
 msgid "Tag cloud for"
 msgstr "Címke felhő ehhez"
@@ -5007,15 +4997,11 @@ msgstr "Az IP-címet nem lehet eltávolítani a blokkolási listából."
 msgid "Edit or Delete the Latest Trackbacks"
 msgstr "Legutóbbi trackback-ek szerkesztése vagy törlése"
 
-#, fuzzy
 msgid "Comment Moderation Queue"
-msgstr "Hozzászólások várnak moderálásra"
+msgstr "Moderálásra váró hozzászólások"
 
-#, fuzzy
 msgid "Edit or Delete Comment Moderation Queue"
-msgstr ""
-"Hozzászólások szerkesztése vagy törlése a moderációs sorban és az utolsó "
-"hozzászólásokban."
+msgstr "A moderációs sorban lévő hozzászólások szerkesztése vagy törlése"
 
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
@@ -5090,14 +5076,13 @@ msgid "Multilingual"
 msgstr "Többnyelvűség"
 
 msgid "OOPs"
-msgstr ""
+msgstr "OOP-k"
 
-#, fuzzy
 msgid "Texts"
-msgstr "következő"
+msgstr "Szövegek"
 
 msgid "OOPs/Help"
-msgstr ""
+msgstr "OOP-k/Súgó"
 
 msgid "Rebuild the index of your Database"
 msgstr "Adatbázis indexének újraépítése"
@@ -5243,9 +5228,8 @@ msgstr "Hozzászólás jóváhagyva!"
 msgid "link"
 msgstr "Link"
 
-#, fuzzy
 msgid "Edit or Delete Latest Comments"
-msgstr "Hozzászólás szerkesztése vagy törlése"
+msgstr "Utolsó hozzászólások szerkesztése vagy törlése"
 
 #~ msgid "UA tracking code"
 #~ msgstr "UA követőkód"
