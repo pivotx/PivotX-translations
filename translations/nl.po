@@ -2560,8 +2560,8 @@ msgstr "Bij sommige servers moeten de bestanden die gemaakt worden in een bepaal
 msgid "File Upload Path"
 msgstr "Upload Pad"
 
-msgid "The path to the folder where uploaded files are stored. If you change this, be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as well."
-msgstr "Het pad naar de folder waar de geüploade bestanden worden bewaard. Als je dit verandert, zorg er dan voor dat je het ook aanpast in <tt>pivotx/includes/timthumb.php</tt>. "
+msgid "The path to the folder where uploaded files are stored. If you change this, be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as well."
+msgstr "Het pad naar de folder waar de geüploade bestanden worden bewaard. Als je dit verandert, zorg er dan voor dat je het ook aanpast in <tt>pivotx/includes/timthumb-config.php</tt>. "
 
 msgid "Overwrite"
 msgstr "Overschrijven"

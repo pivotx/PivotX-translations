@@ -3215,7 +3215,7 @@ msgstr "Ruta del fichero a subir"
 
 msgid ""
 "The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 "Ruta al directorio donde se almacenan los archivos subidos. Si cambias esto, "

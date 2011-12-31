@@ -3126,11 +3126,11 @@ msgstr "Percorso del file"
 
 msgid ""
 "The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 "Il percorso alla cartella dove vengono memorizzati i file caricati. Se cambi "
-"questo, cambialo anche nel file <tt>pivotx/includes/timthumb.php</tt>."
+"questo, cambialo anche nel file <tt>pivotx/includes/timthumb-config.php</tt>."
 
 msgid "Overwrite"
 msgstr "Sovrascrivi"
