@@ -2949,11 +2949,11 @@ msgstr "上传文件路径"
 
 msgid ""
 "The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 "上传文件的服务器存储路径.如果您改变这个设置,也请改变 <tt>pivotx/includes/"
-"timthumb.php</tt>文件."
+"timthumb-config.php</tt>文件."
 
 msgid "Overwrite"
 msgstr "覆盖方式"

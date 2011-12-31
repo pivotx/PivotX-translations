@@ -3069,11 +3069,11 @@ msgstr "ファイルアップロード先"
 
 msgid ""
 "The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 "アップロードしたファイルを保存するフォルダのパスです。もしこのパスを変更する"
-"場合は、<tt>pivotx/includes/timthumb.php</tt> も同様に変更を行ってください。"
+"場合は、<tt>pivotx/includes/timthumb-config.php</tt> も同様に変更を行ってください。"
 
 msgid "Overwrite"
 msgstr "上書き"

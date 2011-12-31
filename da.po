@@ -3066,11 +3066,11 @@ msgstr "Sti til fil upload"
 
 msgid ""
 "The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 "Stien til folderen, hvor de oploadede diler gemmes. Hvis du ændrer det, skal "
-"det også ændres i filen <tt>pivotx/includes/timthumb.php</tt>."
+"det også ændres i filen <tt>pivotx/includes/timthumb-config.php</tt>."
 
 msgid "Overwrite"
 msgstr "Overskriv"

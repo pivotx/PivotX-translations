@@ -3055,11 +3055,11 @@ msgstr "Filopplastingssti"
 
 msgid ""
 "The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb.php</tt> as "
+"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 "Stien til mappa hvor opplastede filer lagres. Hvis du endrer dette, må du "
-"også endre det i fila <tt>pivotx/includes/timthumb.php</tt>."
+"også endre det i fila <tt>pivotx/includes/timthumb-config.php</tt>."
 
 msgid "Overwrite"
 msgstr "Skriv over"
