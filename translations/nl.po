@@ -93,7 +93,7 @@ msgstr "De Uploader werkt niet lekker vanaf 'localhost'. Gebruik liever het (int
 msgid "Upload a file"
 msgstr "Bestand uploaden"
 
-msgid "Web Propery ID"
+msgid "Web Property ID"
 msgstr "Web Property ID"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"

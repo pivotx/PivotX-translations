@@ -101,7 +101,7 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Fájl feltöltése"
 
-msgid "Web Propery ID"
+msgid "Web Property ID"
 msgstr "Webes tulajdonságok azonosítója"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"

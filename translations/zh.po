@@ -97,7 +97,7 @@ msgstr "不能正常从'localhost'上传,请使用服务器的(内部)IP地址�
 msgid "Upload a file"
 msgstr "上传一个文件:"
 
-msgid "Web Propery ID"
+msgid "Web Property ID"
 msgstr ""
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"

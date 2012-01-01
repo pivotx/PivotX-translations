@@ -97,7 +97,7 @@ msgstr ""
 msgid "Upload a file"
 msgstr "Opload en fil"
 
-msgid "Web Propery ID"
+msgid "Web Property ID"
 msgstr "Webejendoms-id"
 
 msgid "Error - input needs to be in the form of UA-xxxxxx-x"
