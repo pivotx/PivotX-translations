@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PivotX package.
 # Javier Lopez <vengoroso@gmail.com>, 2008-2009.
 # Diego Cano <dcano@blepstudio.es>, 2012.
+# Fernando Garcia <tercios@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-10-12 12:06+0200\n"
-"PO-Revision-Date: 2012-01-23 21:54+0100\n"
-"Last-Translator: Diego Cano <dcano@blepstudio.es>\n"
+"PO-Revision-Date: 2013-06-25 23:30+0100\n"
+"Last-Translator: Fernando Garcia <tercios@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4766,7 +4767,7 @@ msgid "Previous page"
 msgstr "Página anterior"
 
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
-msgstr "Mostrando entradas %num_from%-%nom_to% de $num_tot%"
+msgstr "Mostrando entradas %num_from%-%num_to% de %num_tot%"
 
 msgid "A visitor"
 msgstr "Un visitante"
