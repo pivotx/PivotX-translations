@@ -1,14 +1,14 @@
 # Translation of PivotX to Norwegian Bokmål.
-# Copyright (C) 2008-2011 PivotX team <http://pivotx.net/>
+# Copyright (C) 2008-2013 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
-# Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2008-2011.
+# Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2008-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PivotX All Versions\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-10-12 12:06+0200\n"
-"PO-Revision-Date: 2011-10-12 13:04+0200\n"
+"PO-Revision-Date: 2011-09-13 13:04+0200\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
 "MIME-Version: 1.0\n"
@@ -223,7 +223,7 @@ msgid "The maximum amount of items to show from your Calendar."
 msgstr "Det maksimale antallet oppføringer som skal hentes fra din kalender."
 
 msgid "Only include future events"
-msgstr "Inkluder bare oppføringer<i fremtiden"
+msgstr "Inkluder bare fremtidige oppføringer"
 
 msgid "No"
 msgstr "Nei"
