@@ -1,60 +1,57 @@
-# Translation of PivotX to ...
-# Copyright (C) 2008 PivotX team <http://pivotx.net/>
+# Translation of PivotX to Greek
+# Copyright (C) 2015 PivotX team <http://pivotx.net/>
 # This file is distributed under the same license as the PivotX package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Argyris Yfantis <esperanga@gmail.com>, 2015.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PivotX 2.1.0\n"
 "Report-Msgid-Bugs-To: translations@pivotx.net\n"
 "POT-Creation-Date: 2011-10-12 12:06+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-11-17 13:08+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Argyris Yfantis <esperanga@gmail.com>\n"
+"Language-Team: \n"
+"Language: el\n"
+"X-Generator: Poedit 1.8.6\n"
 
 msgid "%n visitors on this page"
-msgstr ""
+msgstr "%n επισκέπτες σε αυτή την σελίδα"
 
 msgid "Total visits"
-msgstr ""
+msgstr "Συνολικές επισκέψεις"
 
 msgid "Unique visitors"
-msgstr ""
+msgstr "Μοναδικοί επισκπέπτες"
 
 msgid "This month"
-msgstr ""
+msgstr "Αυτόν το μήνα"
 
 msgid "This week"
-msgstr ""
+msgstr "Αυτή την εβδομάδα"
 
-#, fuzzy
 msgid "Today"
-msgstr "Δευτέρα"
+msgstr "Σήμερα"
 
-#, fuzzy
 msgid "Keyword"
-msgstr "Συνθηματικό"
+msgstr "Λέξη κλειδί"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Συχνότητα"
 
-#, fuzzy
 msgid "Previous Month"
-msgstr "Προηγούμενη αρχειοθέτηση"
+msgstr "Προηγούμενος Μήνας"
 
-#, fuzzy
 msgid "Next Month"
-msgstr "Μήνας"
+msgstr "Επόμενος Μήνας"
 
 msgid "Start day of the week"
-msgstr ""
+msgstr "Ημέρα έναρξης εβδομάδας"
 
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 msgid "Select the day of the week you wish the calendar to start on."
 msgstr ""
@@ -66,42 +63,37 @@ msgid ""
 "No items in Delicious Feed. Please check the settings in the PivotX backend."
 msgstr ""
 
-#, fuzzy
 msgid "Image"
 msgstr "Όνομα εικόνας"
 
 msgid "Description"
 msgstr "Περιγραφή"
 
-#, fuzzy
 msgid "Upload an image"
-msgstr "Αποστολή νέου αρχείου:"
+msgstr "Ανεβάστε μια εικόνα"
 
 msgid "Upload"
-msgstr "Αποστολή αρχείων"
+msgstr "Αποστολή"
 
 msgid "Gallery"
-msgstr ""
+msgstr "Γκαλερί"
 
-#, fuzzy
 msgid "Edit Gallery"
-msgstr "Αλλαγή σε κατηγορία"
+msgstr "Επεξεργασία κατηγορίας"
 
-#, fuzzy
 msgid "Add an image"
-msgstr "Αποστολή νέου αρχείου:"
+msgstr "Προσθέστε μια εικόνα"
 
 msgid "Add"
-msgstr ""
+msgstr "Προσθήκη"
 
 msgid ""
 "The Uploader does not work well from 'localhost'. Please use the server's "
 "(internal) IP-address instead."
 msgstr ""
 
-#, fuzzy
 msgid "Upload a file"
-msgstr "Αποστολή νέου αρχείου:"
+msgstr "Αποστολή νέου αρχείου"
 
 msgid "Web Property ID"
 msgstr ""
@@ -110,43 +102,40 @@ msgid "Error - input needs to be in the form of UA-xxxxxx-x"
 msgstr ""
 
 msgid ""
-"Enter your personal Web Property ID, aka. UA tracking code. This looks like "
-"UA-xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in "
-"to Google Analytics"
+"Enter your personal Web Property ID, aka. UA tracking code. This looks like UA-"
+"xxxxxx-y or UA-xxxxx-yy. Check your account information after logging in to "
+"Google Analytics"
 msgstr ""
 
 msgid "Google account login"
-msgstr ""
+msgstr "Είσοδος με Google"
 
 msgid "Error - input needs to be text"
-msgstr ""
+msgstr "Σφάλμα - Πρέπει να είναι αλφαριθμητικό"
 
-#, fuzzy
 msgid "Google account password"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Κωδικός πρόσβασης Google"
 
 #, php-format
 msgid ""
-"If you want to display a summary of the statistics on the Dashboard, fill in "
-"the specifics of a Google Account that has access to these statistics. After "
-"doing this, click %sthis link%s to test the login, and fetch the id, to fill "
-"in below."
+"If you want to display a summary of the statistics on the Dashboard, fill in the "
+"specifics of a Google Account that has access to these statistics. After doing "
+"this, click %sthis link%s to test the login, and fetch the id, to fill in below."
 msgstr ""
 
 msgid "Profile ID"
 msgstr ""
 
 msgid "Error - input needs to be a number"
-msgstr ""
+msgstr "Σφάλμα - Πρέπει να είναι αριθμός"
 
 msgid ""
-"The (secret) Profile ID number, that will be used to display the reports. "
-"See above, on how to get this number."
+"The (secret) Profile ID number, that will be used to display the reports. See "
+"above, on how to get this number."
 msgstr ""
 
-#, fuzzy
 msgid "Advanced Configuration"
-msgstr "Διαμόρφωση"
+msgstr "Για προχωρημένους"
 
 msgid ""
 "Sets the domain name for cookies, e.g. .example.com, allows tracking of all "
@@ -184,39 +173,35 @@ msgstr ""
 
 #, php-format
 msgid ""
-"Generate code for AdSense for Analytics reporting for multiple domains. %"
-"sSee description.%s"
+"Generate code for AdSense for Analytics reporting for multiple domains. %sSee "
+"description.%s"
 msgstr ""
 
 msgid "Oops! I'm afraid I couldn't read the Google Calendar feed."
 msgstr ""
 
-#, fuzzy
 msgid "My Calendar"
-msgstr "Ημερολόγιο"
+msgstr "To Ημερολόγιο μου"
 
 msgid "ID"
 msgstr ""
 
-#, fuzzy
 msgid "That's not a proper ID!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτό δεν είναι έγκυρο id"
 
 msgid ""
-"The ID of your <a href='http://www.google.com/calendar/'>Google Calendar</"
-"a>. This is your Gmail e-mail address or something like "
-"<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. You'll find "
-"the ID in the 'Calendar Address' box on the 'Calendar Details' tab when you "
-"have selected a specific calendar on the settings page."
+"The ID of your <a href='http://www.google.com/calendar/'>Google Calendar</a>. "
+"This is your Gmail e-mail address or something like "
+"<tt>d8a49s3jgekpep0p1eiv7pueo4@group.calendar.google.com</tt>. You'll find the "
+"ID in the 'Calendar Address' box on the 'Calendar Details' tab when you have "
+"selected a specific calendar on the settings page."
 msgstr ""
 
-#, fuzzy
 msgid "Maximum items"
-msgstr "Μέγιστο μέγεθος αρχείου"
+msgstr "Μέγιστο πλήθος"
 
-#, fuzzy
 msgid "That's not a proper value!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτή δεν είναι έγκυρη τιμή"
 
 msgid "The maximum amount of items to show from your Calendar."
 msgstr ""
@@ -234,25 +219,21 @@ msgstr "Ναι"
 msgid "Sort items by"
 msgstr "Παρουσίαση των τελευταίων"
 
-#, fuzzy
 msgid "Start time"
-msgstr "Στατιστικά"
+msgstr "Ώρα Έναρξης"
 
 #, fuzzy
 msgid "Updated time"
 msgstr "Αποστολή νέου αρχείου:"
 
-#, fuzzy
 msgid "Order items"
-msgstr "Διαχωριστική γραμμή"
+msgstr "Σειρά στοιχείων"
 
-#, fuzzy
 msgid "Ascending"
-msgstr "Ρυθμίσεις εμφάνισης ημερομηνίας"
+msgstr "Αύξουσα"
 
-#, fuzzy
 msgid "Descending"
-msgstr "Ρυθμίσεις εμφάνισης ημερομηνίας"
+msgstr "Φθίνουσα"
 
 #, fuzzy
 msgid "Widget Style"
@@ -270,7 +251,7 @@ msgid "Header format"
 msgstr "Τύπος πλήρους ημερομηνίας"
 
 msgid "Error!"
-msgstr ""
+msgstr "Σφάλμα!"
 
 #, fuzzy
 msgid "Output format"
@@ -333,19 +314,17 @@ msgstr "Δημιουργία προτύπου"
 msgid "Preserve viewport when inserting KML files"
 msgstr ""
 
-#, fuzzy
 msgid "Red"
-msgstr "Τε"
+msgstr "Κόκκινο"
 
 msgid "Blue"
-msgstr ""
+msgstr "Μπλε"
 
-#, fuzzy
 msgid "Black"
-msgstr "Αντίγραφα ασφαλείας"
+msgstr "Μαύρο"
 
 msgid "Grey"
-msgstr ""
+msgstr "Γκρί"
 
 msgid "Select the color scheme to use for the widget."
 msgstr ""
@@ -353,37 +332,34 @@ msgstr ""
 msgid "Your last.fm login name"
 msgstr ""
 
-#, fuzzy
 msgid "That's not a proper login name!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτή δεν είναι έγκυρο όνομα χρήστη"
 
 msgid "The name you use to log in at <a href='http://last.fm'>Last.fm</a>."
 msgstr ""
 
 msgid "Playing \"%nicefilename%\"."
-msgstr ""
+msgstr "Παίζει \"%nicefilename%\"."
 
 msgid "Youtube video \"%basename%\"."
-msgstr ""
+msgstr "Youtube βίντεο \"%basename%\"."
 
 msgid "Vimeo video \"%basename%\"."
-msgstr ""
+msgstr "Vimeo βίντεο \"%basename%\"."
 
 msgid "Video \"%nicefilename%\""
-msgstr ""
+msgstr "Βίντεο \"%nicefilename%\""
 
 msgid "This page requires a password to view. Please give the password."
-msgstr ""
+msgstr "Αυτή η σελίδα απαιτεί συνθηματικό. Παρακαλώ, δώστε τον κωδικό σας."
 
-#, fuzzy
 msgid "You don't have access to this page"
-msgstr "Δεν έχετε άδεια πρόσβασης σε αυτή την περιοχή του Pivot"
+msgstr "Δεν έχετε άδεια πρόσβασης σε αυτήν την σελίδα"
 
 msgid ""
-"You didn't provide the correct password to access the requested entry. If "
-"you've made a typo, go back, and try again. <br /><br />If you don't know "
-"the password, you could ask the owner of the website to get access to the "
-"entry."
+"You didn't provide the correct password to access the requested entry. If you've "
+"made a typo, go back, and try again. <br /><br />If you don't know the password, "
+"you could ask the owner of the website to get access to the entry."
 msgstr ""
 
 msgid ""
@@ -393,24 +369,22 @@ msgid ""
 msgstr ""
 
 msgid "Yes, but only pages and entries"
-msgstr ""
+msgstr "Ναι, αλλά μόνο για σελίδες και εγγραφές"
 
 msgid "Yes, for the complete site"
-msgstr ""
+msgstr "Ναι, για όλο το site"
 
 msgid "Enable password protection"
 msgstr ""
 
-#, fuzzy
 msgid "Default password"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Προεπιλογή συνθηματικού"
 
 msgid "This is the password that's requested when no other password is given."
 msgstr ""
 
-#, fuzzy
 msgid "Password question"
-msgstr "Συνθηματικό"
+msgstr "Ερώτηση υπενθύμισης"
 
 msgid ""
 "This is the text that people see, when they're being asked for the password."
@@ -451,9 +425,8 @@ msgstr ""
 msgid "Users"
 msgstr "Χρήστες"
 
-#, fuzzy
 msgid "Password Protect"
-msgstr "Συνθηματικό"
+msgstr "Προστασία με συνθηματικό"
 
 msgid "Yes, protect this page with a password."
 msgstr ""
@@ -461,8 +434,7 @@ msgstr ""
 msgid "Password"
 msgstr "Συνθηματικό"
 
-msgid ""
-"Specify the required password, or leave blank to use the default password."
+msgid "Specify the required password, or leave blank to use the default password."
 msgstr ""
 
 msgid "Edit in Picnik"
@@ -488,18 +460,17 @@ msgid "That's not a proper API key!"
 msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
 
 msgid ""
-"If you have your own picnik API key, you may enter it here. <br /> Leave "
-"this blank if you're not sure."
+"If you have your own picnik API key, you may enter it here. <br /> Leave this "
+"blank if you're not sure."
 msgstr ""
 
-#, fuzzy
 msgid "Note"
-msgstr "Κανένα"
+msgstr "Σημείωση"
 
 msgid ""
-"It seems you're running PivotX from a local network. The Picnik "
-"extension<br /> needs to be able to fetch the images over the internet, so "
-"it might not work on<br /> your current setup."
+"It seems you're running PivotX from a local network. The Picnik extension<br /> "
+"needs to be able to fetch the images over the internet, so it might not work "
+"on<br /> your current setup."
 msgstr ""
 
 msgid "Piwik URL"
@@ -523,13 +494,11 @@ msgstr ""
 msgid "Preview link is only available for unpublished items."
 msgstr ""
 
-#, fuzzy
 msgid "Publish preview"
-msgstr "Δημοσιεύτηκε στις "
+msgstr "Δημοσίευση προεπισκόπησης"
 
-#, fuzzy
 msgid "Preview"
-msgstr "Προεπισκόπηση εγγραφής"
+msgstr "Προεπισκόπηση"
 
 msgid "Use this link if you want send someone a preview link."
 msgstr ""
@@ -540,19 +509,17 @@ msgstr ""
 msgid "Shop Transactions"
 msgstr ""
 
-#, fuzzy
 msgid "Default folder name"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Προεπιλογή φακέλου"
 
-#, fuzzy
 msgid "That's not a proper folder name!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτό δεν είναι έγκυρο όνομα φακέλου"
 
 msgid ""
-"The name of the folder in where the images are that Slideshow should use. "
-"This should be a folder inside your <tt>images</tt> folder. So if you input "
-"<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</"
-"tt> folder. Don't start or finish with a slash."
+"The name of the folder in where the images are that Slideshow should use. This "
+"should be a folder inside your <tt>images</tt> folder. So if you input "
+"<tt>slideshow</tt>, the slideshow will look in the <tt>/images/slideshow/</tt> "
+"folder. Don't start or finish with a slash."
 msgstr ""
 
 #, fuzzy
@@ -562,17 +529,15 @@ msgstr "Διαγραφή κατηγορίας"
 msgid "The time (in milliseconds) between each image in the slideshow."
 msgstr ""
 
-#, fuzzy
 msgid "Default width"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Προεπιλεγμένο πλάτος"
 
-#, fuzzy
 msgid "Default height"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Προεπιλεγμέμνο ύψος"
 
 msgid ""
-"The width and height of the thumbnails in the widget. The borders are added "
-"to this, so the total dimensions of the widget can be wider and taller."
+"The width and height of the thumbnails in the widget. The borders are added to "
+"this, so the total dimensions of the widget can be wider and taller."
 msgstr ""
 
 #, fuzzy
@@ -580,9 +545,8 @@ msgid "Default zoom crop"
 msgstr "Προεπιλογή γλώσσας"
 
 msgid ""
-"The zoom crop value to use when creating thumbnails. See includes/timthumb."
-"php for an explanation. Also notice the potential influence of timhumb_zc "
-"setting."
+"The zoom crop value to use when creating thumbnails. See includes/timthumb.php "
+"for an explanation. Also notice the potential influence of timhumb_zc setting."
 msgstr ""
 
 #, fuzzy
@@ -596,8 +560,8 @@ msgid "Limit"
 msgstr ""
 
 msgid ""
-"This limits the number of items that are shown. If you set it too high, it "
-"will take longer to load your site."
+"This limits the number of items that are shown. If you set it too high, it will "
+"take longer to load your site."
 msgstr ""
 
 #, fuzzy
@@ -615,9 +579,8 @@ msgstr "Ρυθμίσεις εμφάνισης ημερομηνίας"
 msgid "Alphabet"
 msgstr ""
 
-#, fuzzy
 msgid "Random"
-msgstr "Δημιουργήθηκε στις "
+msgstr "Τυχαίο"
 
 msgid "Select the order in which the images are shown."
 msgstr ""
@@ -639,24 +602,21 @@ msgstr ""
 msgid "Use recursion"
 msgstr "Χρήση φατσών (emoticons)"
 
-#, fuzzy
 msgid "Leaf"
-msgstr "Αριστερά"
+msgstr "Φτερό"
 
-#, fuzzy
 msgid "All"
-msgstr "Επιτρέπεται"
+msgstr "Όλα"
 
 msgid ""
-"If recursion is enabled images from either all subdirectories or just the "
-"leaf subdirectories will be included in the slide show."
+"If recursion is enabled images from either all subdirectories or just the leaf "
+"subdirectories will be included in the slide show."
 msgstr ""
 
 msgid "Use directories in title"
 msgstr ""
 
-msgid ""
-"Yes, include directory names to the automatically generated image titles."
+msgid "Yes, include directory names to the automatically generated image titles."
 msgstr ""
 
 msgid "Buttons"
@@ -691,17 +651,16 @@ msgid "IPTC Index"
 msgstr ""
 
 msgid ""
-"Index of image title in IPTC table. (Picasa comments use '2#120'). Leave "
-"blank to generate a nicename."
+"Index of image title in IPTC table. (Picasa comments use '2#120'). Leave blank "
+"to generate a nicename."
 msgstr ""
 
-#, fuzzy
 msgid "IPTC Encoding"
 msgstr "Κωδικοποίηση"
 
 msgid ""
-"Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank "
-"for no decoding."
+"Encoding of image IPTC texts. (Use the iconv encoding names.) Leave blank for no "
+"decoding."
 msgstr ""
 
 msgid "Share this:"
@@ -712,18 +671,15 @@ msgid ""
 "discover new web pages."
 msgstr ""
 
-#, fuzzy
 msgid "Tagline"
-msgstr "Εσωτερικό"
+msgstr "Tagline"
 
-#, fuzzy
 msgid "That's not a proper tagline!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτό δεν είναι έγκυρο tagline"
 
 msgid "The text to display in front of the Social Bookmarking buttons."
 msgstr ""
 
-#, fuzzy
 msgid "Open in new window"
 msgstr "Άνοιγμα συνδέσμων σε νέο παράθυρο"
 
@@ -732,28 +688,26 @@ msgid ""
 "this will prevent your website from being valid XHTML."
 msgstr ""
 
-#, fuzzy
 msgid "Show these links"
-msgstr "XML Τροφοδοσία (RSS 1.0)"
+msgstr "Εμφάνιση συνδέσμων"
 
 msgid "Rating button description"
 msgstr ""
 
-#, fuzzy
 msgid "That's not a proper description!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτή δεν είναι έγκυρη περιγραφή"
 
 msgid ""
-"The text to display besides the star ranking buttons. You can use %count% "
-"and %average% to insert those values."
+"The text to display besides the star ranking buttons. You can use %count% and "
+"%average% to insert those values."
 msgstr ""
 
 msgid "Rating average description"
 msgstr ""
 
 msgid ""
-"The text to show when only showing a simple average. You can use %average% "
-"to insert that value."
+"The text to show when only showing a simple average. You can use %average% to "
+"insert that value."
 msgstr ""
 
 msgid "Thank you for voting!"
@@ -765,9 +719,8 @@ msgstr ""
 msgid "Your WIE login name"
 msgstr ""
 
-#, fuzzy
 msgid "That's not a proper username!"
-msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Αυτό δεν είναι έγκυρο όνομα χρήστη"
 
 #, php-format
 msgid "The name you use to log in at %s"
@@ -776,16 +729,14 @@ msgstr ""
 msgid "Include weblog frontpages"
 msgstr ""
 
-#, fuzzy
 msgid "Only weblog"
-msgstr "Weblogs"
+msgstr "Μόνο το weblog"
 
 msgid "Select a weblog or weblogs that should only be added to the sitemap."
 msgstr ""
 
-#, fuzzy
 msgid "Exclude weblog"
-msgstr "Νέο Weblog"
+msgstr "Εξαίρεση Weblog"
 
 msgid "Select a weblog or weblogs that should not be added to the sitemap."
 msgstr ""
@@ -794,20 +745,17 @@ msgstr ""
 msgid "Include entries"
 msgstr "Δημιουργία προτύπου"
 
-#, fuzzy
 msgid "Only category"
-msgstr "Κατηγορία"
+msgstr "Μόνο κατηγορία"
 
-msgid ""
-"Select a category or categories that should only be added to the sitemap."
+msgid "Select a category or categories that should only be added to the sitemap."
 msgstr ""
 
 #, fuzzy
 msgid "Exclude category"
 msgstr "Αλλαγή σε κατηγορία"
 
-msgid ""
-"Select a category or categories that should not be added to the sitemap."
+msgid "Select a category or categories that should not be added to the sitemap."
 msgstr ""
 
 #, fuzzy
@@ -843,15 +791,14 @@ msgid "Additional URIs"
 msgstr ""
 
 msgid ""
-"Additional URIs to include in sitemap. Separate the URIs with a comma. The "
-"URIs should be absolute paths (i.e. /myuri/here). Last modified will always "
-"be set to the current day."
+"Additional URIs to include in sitemap. Separate the URIs with a comma. The URIs "
+"should be absolute paths (i.e. /myuri/here). Last modified will always be set to "
+"the current day."
 msgstr ""
 
 msgid "About"
 msgstr ""
 
-#, fuzzy
 msgid "Latest Comments"
 msgstr "Τελευταία σχόλια"
 
@@ -867,18 +814,17 @@ msgstr "Κατηγορίες"
 msgid "Links"
 msgstr "Σύνδεσμοι"
 
-#, fuzzy
 msgid "Search"
-msgstr "Αναζήτηση!"
+msgstr "Αναζήτηση"
 
 msgid "Linkdump"
 msgstr ""
 
 msgid "Home"
-msgstr ""
+msgstr "Κεντρική"
 
 msgid "Tag Cloud"
-msgstr ""
+msgstr "Σύννεφο ετικετών"
 
 msgid "Search Results"
 msgstr "Αποτελέσματα αναζήτησης"
@@ -902,7 +848,7 @@ msgid "Remember personal info?"
 msgstr "Να θυμάται τις προσωπικές πληροφορίες;"
 
 msgid "Yes, give me a cookie and remember me."
-msgstr ""
+msgstr "Να με θυμάσαι"
 
 #, fuzzy
 msgid "Navigation"
@@ -914,25 +860,23 @@ msgstr ""
 msgid "Powered by"
 msgstr "Δημιουργήθηκε από το"
 
-#, fuzzy
 msgid "More"
-msgstr "Διαχωριστική γραμμή"
+msgstr "περισσότερα"
 
-#, fuzzy
 msgid "Pages"
-msgstr "Αλλαγή"
+msgstr "Σελίδες"
 
 msgid "Meta"
 msgstr ""
 
 msgid "(optional field)"
-msgstr ""
+msgstr "(προαιρετικό)"
 
 msgid "Comment"
 msgstr "Σχόλιο"
 
 msgid "Notify"
-msgstr ""
+msgstr "Ενημέρωση"
 
 msgid "Yes, send me email when someone replies."
 msgstr ""
@@ -943,26 +887,25 @@ msgstr ""
 msgid "Yes, hide my email address."
 msgstr ""
 
-#, fuzzy
 msgid ""
-"<strong>Small print:</strong> All html tags except &lt;b&gt; and &lt;i&gt; "
-"will be removed from your comment. You can make links by just typing the url "
-"or mail-address."
+"<strong>Small print:</strong> All html tags except &lt;b&gt; and &lt;i&gt; will "
+"be removed from your comment. You can make links by just typing the url or mail-"
+"address."
 msgstr ""
-"<b>Σημείωση:</b> Όλα τα HTML tags &lt;b&gt; και &lt;i&gt; θα αφαιρεθούν από "
-"τα σχόλιά σας. Μπορείτε να φτιάξετε συνδέσμους πληκτρολογώντας το URL και "
-"την email διεύθυνσή σας."
+"<b>Σημείωση:</b> Όλα τα HTML tags &lt;b&gt; και &lt;i&gt; θα αφαιρεθούν από τα "
+"σχόλιά σας. Μπορείτε να φτιάξετε συνδέσμους πληκτρολογώντας το URL και την email "
+"διεύθυνσή σας."
 
 msgid "Warning!"
-msgstr ""
+msgstr "Προσοχή!"
 
 msgid "Javascript and Cookies must be enabled to log in to PivotX."
 msgstr ""
 
 msgid ""
-"PivotX couldn't set the session properly. Try logging out, and logging on "
-"again. You could also try clearing your browser's cache, and make sure no "
-"software on your computer is interfering with the cookies."
+"PivotX couldn't set the session properly. Try logging out, and logging on again. "
+"You could also try clearing your browser's cache, and make sure no software on "
+"your computer is interfering with the cookies."
 msgstr ""
 
 msgid "If the problem persists, ask for help on the forum."
@@ -972,19 +915,18 @@ msgid "Insert an Image"
 msgstr "Εισαγωγή εικόνας"
 
 msgid ""
-"To insert an image, you should upload an image, or select a previously "
-"uploaded image."
+"To insert an image, you should upload an image, or select a previously uploaded "
+"image."
 msgstr ""
-"Για να εισάγετε μια εικόνα, θα πρέπει να ανεβάσετε ένα αρχείο, ή να "
-"επιλέξετε ένα ήδη απεσταλμένο αρχείο."
+"Για να εισάγετε μια εικόνα, θα πρέπει να ανεβάσετε ένα αρχείο, ή να επιλέξετε "
+"ένα ήδη απεσταλμένο αρχείο."
 
 msgid "2 MB Max"
-msgstr ""
+msgstr "Μέγιστο μέγεθος 2 MB"
 
 msgid "Image name"
 msgstr "Όνομα εικόνας"
 
-#, fuzzy
 msgid "Select an image"
 msgstr "Επιλογή εικόνας"
 
@@ -1009,106 +951,89 @@ msgstr "Δεξιά"
 msgid "Inline"
 msgstr "Εσωτερικό"
 
-#, fuzzy
 msgid "Insert image!"
 msgstr "Εισαγωγή εικόνας"
 
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#, fuzzy
 msgid "Filter on:"
 msgstr "Φίλτράρισμα με"
 
 msgid "Category"
 msgstr "Κατηγορία"
 
-#, fuzzy
 msgid "all categories"
-msgstr "Κατηγορίες"
+msgstr "Όλες οι κατηγορίες"
 
 msgid "Author"
 msgstr "Συγγραφέας"
 
-#, fuzzy
 msgid "all authors"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Όλοι οι συγγραφείς"
 
 msgid "Status"
 msgstr "Κατάσταση"
 
 msgid "all statuses"
-msgstr ""
+msgstr "Όλες οι καταστάσεις"
 
 msgid "Go!"
 msgstr "Πάμε!"
 
-#, fuzzy
 msgid "Search for:"
-msgstr "Αναζήτηση!"
+msgstr "Αναζήτηση για:"
 
-#, fuzzy
 msgid "Reset search"
-msgstr "Αναζήτηση!"
+msgstr "Καθαρσιμός"
 
 msgid "Show all"
-msgstr ""
+msgstr "Εμφάνιση όλων"
 
-#, fuzzy
 msgid "Uploading"
 msgstr "Αποστολή αρχείων"
 
-#, fuzzy
 msgid "uploaded"
-msgstr "αποστολή"
+msgstr "ολοκληρώθηκε"
 
-#, fuzzy
 msgid "Uploaded"
-msgstr "Αποστολή αρχείων"
+msgstr "Ολοκληρώθηκε"
 
 msgid "File extension error"
 msgstr ""
 
-#, fuzzy
 msgid "Upload too big"
-msgstr "Αποστολή αρχείων"
+msgstr "Το αρχείο είναι πολύ μεγάλο"
 
-#, fuzzy
 msgid "Upload init error"
-msgstr "Αποστολή αρχείων"
+msgstr "Σφάλμα κατά την αποστολή"
 
-#, fuzzy
 msgid "Upload error"
-msgstr "Αποστολή αρχείων"
+msgstr "Σφάλμα αποστολής"
 
 msgid "Orphaned Pages"
 msgstr ""
 
 msgid ""
-"These pages do not belong to any chapter, and will not show up in pagelists "
-"or menus."
+"These pages do not belong to any chapter, and will not show up in pagelists or "
+"menus."
 msgstr ""
 
-#, fuzzy
 msgid "order"
-msgstr "Διαχωριστική γραμμή"
+msgstr "σειρά"
 
-#, fuzzy
 msgid "back to top"
-msgstr "Αντίγραφα ασφαλείας"
+msgstr "πάνω"
 
-#, fuzzy
 msgid "Edit this page"
-msgstr "Φάτσες (emoticons)"
+msgstr "Επεξεργασία σελίδας"
 
-#, fuzzy
 msgid "Timed Publish"
-msgstr "Δημοσιεύτηκε στις "
+msgstr "Ετεροχρονισμένη δημοσίευση στις "
 
 msgid "Hold"
 msgstr ""
 
-#, fuzzy
 msgid "Published"
 msgstr "Δημοσιεύτηκε στις "
 
@@ -1119,15 +1044,14 @@ msgstr "Δημιουργία προτύπου"
 msgid "Edit Page"
 msgstr ""
 
-#, fuzzy
 msgid "Are you sure you wish to delete this Page?"
-msgstr "Επιλέξτε 'Ναι', αν επιθυμείτε να σβήσετε αυτή τη κατηγορία"
+msgstr "Επιθυμείτε να σβήσετε αυτή την σελίδα;"
 
 msgid "Delete Page"
-msgstr ""
+msgstr "Διαγραφή σελίδας"
 
 msgid "Write a new Page"
-msgstr ""
+msgstr "Νέα σελίδα"
 
 msgid "Edit Chapter"
 msgstr ""
@@ -1145,13 +1069,13 @@ msgid "Visit our website at:"
 msgstr ""
 
 msgid "The PivotX Team"
-msgstr ""
+msgstr "Η ομάδα του PivotX"
 
 msgid "Core team members"
-msgstr ""
+msgstr "Μέλη ομάδας"
 
 msgid "aka"
-msgstr ""
+msgstr "aka"
 
 msgid "Code"
 msgstr "Κώδικός"
@@ -1160,21 +1084,20 @@ msgid "architecture"
 msgstr ""
 
 msgid "Contact"
-msgstr ""
+msgstr "Επικοινωνία"
 
 msgid "Head of Support"
 msgstr ""
 
-#, fuzzy
 msgid "website maintenance"
-msgstr "Συντήρηση"
+msgstr "Συντήρηση ιστότοπου"
 
 msgid "contact"
 msgstr ""
 
 msgid ""
-"Note: please don't use these email addresses for support questions. Please "
-"use our forum for those: "
+"Note: please don't use these email addresses for support questions. Please use "
+"our forum for those: "
 msgstr ""
 
 msgid "Official contributors"
@@ -1196,13 +1119,12 @@ msgid "website"
 msgstr ""
 
 msgid ""
-"We probably forgot some... Please let us know if we did, and we'll give "
-"credits in the next release"
+"We probably forgot some... Please let us know if we did, and we'll give credits "
+"in the next release"
 msgstr ""
 
-#, fuzzy
 msgid "The latest comments"
-msgstr "Πρόσφατες εγγραφές"
+msgstr "Πρόσφατα σχόλια"
 
 msgid "IP-address"
 msgstr "IP διεύθυνση"
@@ -1211,51 +1133,44 @@ msgid "Date"
 msgstr "Ημερομηνία"
 
 msgid "Edit this comment"
-msgstr ""
+msgstr "Επεξεργασία σχολίου"
 
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
-#, fuzzy
 msgid "Delete this comment?"
-msgstr "Διαγραφή σχολίου"
+msgstr "Διαγραφή σχολίου;"
 
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#, fuzzy
 msgid "Unblock this IP-address?"
-msgstr "Αποθήκευση αυτών των IP διευθύνσεων"
+msgstr "Ξεμπλοκάρισμα IP;"
 
-#, fuzzy
 msgid "Unblock IP"
-msgstr "Ξεμπλοκάρισμα IP %s"
+msgstr "Ξεμπλοκάρισμα IP"
 
-#, fuzzy
 msgid "Block this IP-address?"
-msgstr "Μπλοκάρισμα IP %s"
+msgstr "Μπλοκάρισμα IP;"
 
-#, fuzzy
 msgid "Block IP"
-msgstr "Μπλοκάρισμα IP %s"
+msgstr "Μπλοκάρισμα IP"
 
 msgid "on"
 msgstr ""
 
-#, fuzzy
 msgid "There are no latest comments"
-msgstr "Η συγκεκριμένη εγγραφή δεν έχει σχόλια."
+msgstr "Η συγκεκριμένη εγγραφή δεν έχει σχόλια"
 
 msgid "No comments"
 msgstr "Κανένα σχόλιο"
 
 msgid "Welcome, unknown user."
-msgstr ""
+msgstr "Καλωσήρθατε"
 
 msgid "Welcome back"
-msgstr ""
+msgstr "Καλωσήρθατε"
 
-#, fuzzy
 msgid "IP address"
 msgstr "IP διεύθυνση"
 
@@ -1267,36 +1182,30 @@ msgstr "Χρήση κειμένου"
 msgid "In moderation"
 msgstr "Εισαγωγή"
 
-#, fuzzy
 msgid "No title"
-msgstr "Ημερομηνία εγγραφής"
+msgstr "Κανένας τίτλος"
 
 #, fuzzy
 msgid "Chapter"
 msgstr "Κατηγορία"
 
-#, fuzzy
 msgid "none"
-msgstr "ένα"
+msgstr "κανένα"
 
-#, fuzzy
 msgid "Template"
 msgstr "Πρότυπα"
 
-#, fuzzy
 msgid "By"
-msgstr "Κυρίως μέρος"
+msgstr "απο"
 
-#, fuzzy
 msgid "Posted"
-msgstr "Αλλαγή"
+msgstr "Δημιουργήθηκε"
 
-#, fuzzy
 msgid "No name"
-msgstr "Όνομα"
+msgstr "Κανένα όνομα"
 
 msgid "On"
-msgstr ""
+msgstr "Ενεργοποιημένο"
 
 msgid "Introduction"
 msgstr "Εισαγωγή"
@@ -1305,10 +1214,10 @@ msgid "Body"
 msgstr "Κυρίως μέρος"
 
 msgid "Keywords"
-msgstr ""
+msgstr "Λέξεις κλειδιά"
 
 msgid "Tags"
-msgstr ""
+msgstr "Ετικέτες"
 
 msgid "Separate Tags with spaces. E.g., movies jedi starwars (not 'star wars')"
 msgstr ""
@@ -1316,24 +1225,21 @@ msgstr ""
 msgid "Post Status"
 msgstr "Κατάσταση δημοσίευσης"
 
-#, fuzzy
 msgid "Publish"
-msgstr "Δημοσιεύτηκε στις "
+msgstr "Δημοσίευση"
 
 msgid "Publish on"
-msgstr "Δημοσιεύτηκε στις "
+msgstr "Δημοσίευση στις "
 
 #, fuzzy
 msgid "Post Page"
 msgstr "Αλλαγή"
 
-#, fuzzy
 msgid "(none)"
-msgstr "ένα"
+msgstr "κανένα"
 
-#, fuzzy
 msgid "Allow comments"
-msgstr "Επιτρέπονται σχόλια"
+msgstr "Να επιτρέπονται σχόλια;"
 
 msgid "Post Entry"
 msgstr "Δημοσίευση εγγραφής"
@@ -1344,9 +1250,8 @@ msgstr "Εγγραφές"
 msgid "Comments"
 msgstr "Σχόλια"
 
-#, fuzzy
 msgid "Other"
-msgstr "Οκτώβριος"
+msgstr "Άλλα"
 
 msgid "Overview"
 msgstr "Σύνοψη"
@@ -1354,19 +1259,17 @@ msgstr "Σύνοψη"
 msgid "New Entry"
 msgstr "Νέα εγγραφή"
 
-#, fuzzy
 msgid "New Page"
-msgstr "Αλλαγή"
+msgstr "Νέα σελίδα"
 
 msgid "Logout"
 msgstr ""
 
-#, fuzzy
 msgid "View site"
-msgstr "Τίτλος"
+msgstr "Εμφάνιση site"
 
 msgid "About PivotX"
-msgstr ""
+msgstr "Σχετικά με το PivotX"
 
 msgid "c"
 msgstr ""
@@ -1375,20 +1278,18 @@ msgid "t"
 msgstr ""
 
 msgid "more"
-msgstr ""
+msgstr "περισσότερα"
 
-#, fuzzy
 msgid "The latest entries"
 msgstr "Πρόσφατες εγγραφές"
 
 msgid "The latest pages"
-msgstr ""
+msgstr "Πρόσφατες σελίδες"
 
 #, fuzzy
 msgid "The latest trackbacks"
 msgstr "Πρόσφατες εγγραφές"
 
-#, fuzzy
 msgid "Blog Name"
 msgstr "Όνομα Weblog"
 
@@ -1408,26 +1309,23 @@ msgstr "Η συγκεκριμένη εγγραφή δεν έχει σχόλια.
 msgid "No trackbacks"
 msgstr "Ετικέτα για 'X σχόλια'"
 
-#, fuzzy
 msgid "Save changes"
-msgstr "Αποθήκευση αλλαγών!"
+msgstr "Αποθήκευση αλλαγών"
 
 msgid "You have unsaved changes. Do you wish to continue?"
 msgstr ""
 
-#, fuzzy
 msgid "The configuration was successfully updated."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν επιτυχώς"
 
-#, fuzzy
 msgid "The configuration could not be updated."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Οι ρυθμίσεις δεν αποθηκεύτηκαν"
 
 msgid "Permalink"
 msgstr ""
 
 msgid "edit"
-msgstr "αλλαγή"
+msgstr "Επεξεργασία"
 
 msgid "Internal Name"
 msgstr ""
@@ -1435,34 +1333,29 @@ msgstr ""
 msgid "Subtitle"
 msgstr "Υπότιτλος"
 
-#, fuzzy
 msgid "Post or Preview"
-msgstr "Προεπισκόπηση εγγραφής"
+msgstr "Προεπισκόπηση"
 
 msgid "Post and Continue Editing"
-msgstr ""
+msgstr "Δημοσίευση και επεξεργασία"
 
-#, fuzzy
 msgid "Languages"
-msgstr "Γλώσσα"
+msgstr "Γλώσσες"
 
 msgid "Order"
-msgstr ""
+msgstr "Σειρά"
 
 msgid "Created on"
 msgstr "Δημιουργήθηκε στις "
 
-#, fuzzy
 msgid "Last edited on"
 msgstr "Τελευταία αλλαγή στις "
 
-#, fuzzy
 msgid "Are you sure you wish to delete this page?"
-msgstr "Επιλέξτε 'Ναι', αν επιθυμείτε να σβήσετε αυτή τη κατηγορία"
+msgstr "Επιλέξτε 'Ναι', αν επιθυμείτε να σβήσετε αυτή την σελίδα"
 
-#, fuzzy
 msgid "Delete page"
-msgstr "Διαγραφή"
+msgstr "Διαγραφή σελίδας"
 
 #, fuzzy
 msgid "Compact view"
@@ -1476,63 +1369,54 @@ msgid "Available Widgets"
 msgstr ""
 
 msgid "Save"
-msgstr ""
+msgstr "Αποθήκευση"
 
 msgid "Update available"
-msgstr ""
+msgstr "Νέα αναβάθμιση"
 
-#, fuzzy
 msgid "Version"
-msgstr "Μετατροπή"
+msgstr "Έκδοση"
 
 msgid "General"
-msgstr ""
+msgstr "Γενικά"
 
 msgid "Templates"
 msgstr "Πρότυπα"
 
-#, fuzzy
 msgid "Subweblogs"
-msgstr "Weblogs"
+msgstr "Subweblogs"
 
-#, fuzzy
 msgid "XML feeds"
-msgstr "XML Τροφοδοσία (RSS 1.0)"
+msgstr "XML Τροφοδοσία"
 
-#, fuzzy
 msgid "Commenting"
 msgstr "Σχόλιο"
 
-#, fuzzy
 msgid "Back to Weblogs"
-msgstr "URL για το Weblog"
+msgstr "Πίσω"
 
-#, fuzzy
 msgid "Insert a Tag"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή ετικέτας"
 
 msgid ""
-"Insert a tag in your entry with an optional link. You can also select a tag "
-"from the (partial) Tag Cloud below."
+"Insert a tag in your entry with an optional link. You can also select a tag from "
+"the (partial) Tag Cloud below."
 msgstr ""
 
 msgid "Tag"
-msgstr ""
+msgstr "Ετικέτα"
 
-#, fuzzy
 msgid "Insert tag!"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή tag"
 
 msgid "Suggested Tags"
-msgstr ""
+msgstr "Συνιστόμενες ετικέτες"
 
-#, fuzzy
 msgid "Via Link"
-msgstr "Σύνδεσμοι"
+msgstr "Μέσω συνδέσμου"
 
-#, fuzzy
 msgid "Via Title"
-msgstr "Τίτλος"
+msgstr "Μέσω τίτλου"
 
 #, fuzzy
 msgid "Trackback Ping"
@@ -1546,40 +1430,34 @@ msgstr "Ετικέτα για 'X σχόλια'"
 msgid "Trackbacks"
 msgstr "Ετικέτα για 'X σχόλια'"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this entry?"
-msgstr "Επιλέξτε 'Ναι', αν επιθυμείτε να σβήσετε αυτή τη κατηγορία"
+msgstr "Επιθυμείτε να σβήσετε αυτή την κατηγορία;"
 
-#, fuzzy
 msgid "Delete entry"
-msgstr "Διαγραφή σχολίου"
+msgstr "Διαγραφή καταχώρησης"
 
-#, fuzzy
 msgid "Insert a Download"
-msgstr "Εισαγωγή συνδέσμου"
+msgstr "Εισαγωγή download"
 
 #, fuzzy
 msgid ""
 "To make a file download, you should upload a file, or select a previously "
-"uploaded file. Then select whether you want an icon or text link that "
-"triggers the download."
+"uploaded file. Then select whether you want an icon or text link that triggers "
+"the download."
 msgstr ""
-"Για να κάνετε popup μία εικόνα, πρέπει να ανεβάσετε το αρχείο ή να επιλέξετε "
-"ένα ήδη απεσταλμένο αρχείο. Στην συνέχεια επιλέξτε ένα κείμενο ή ένα "
-"thumbnail που θα εκκινήσει το popup."
+"Για να κάνετε popup μία εικόνα, πρέπει να ανεβάσετε το αρχείο ή να επιλέξετε ένα "
+"ήδη απεσταλμένο αρχείο. Στην συνέχεια επιλέξτε ένα κείμενο ή ένα thumbnail που "
+"θα εκκινήσει το popup."
 
-#, fuzzy
 msgid "File Name"
 msgstr "Όνομα αρχείου"
 
 msgid "Link Look"
 msgstr ""
 
-#, fuzzy
 msgid "Use Icon"
 msgstr "Χρήση φατσών (emoticons)"
 
-#, fuzzy
 msgid "Use Text"
 msgstr "Χρήση κειμένου"
 
@@ -1587,19 +1465,17 @@ msgstr "Χρήση κειμένου"
 msgid "Link Title"
 msgstr "Τίτλος"
 
-#, fuzzy
 msgid "Insert download!"
-msgstr "Εισαγωγή συνδέσμου"
+msgstr "Εισαγωγή download"
 
-#, fuzzy
 msgid "Jump to:"
-msgstr "Μετάβαση στην σελίδα (%num%)"
+msgstr "Μετάβαση:"
 
 msgid "Message Log"
 msgstr ""
 
 msgid "Website is OFFLINE"
-msgstr ""
+msgstr "Ο ιστότοπος δεν είναι διαθέσιμος"
 
 msgid "My Info"
 msgstr "Οι πληροφορίες μου"
@@ -1608,9 +1484,8 @@ msgstr "Οι πληροφορίες μου"
 msgid "View debug logs"
 msgstr "Νέο Weblog"
 
-#, fuzzy
 msgid "sec."
-msgstr "Δευτερόλεπτο"
+msgstr "δευτ."
 
 msgid "using"
 msgstr ""
@@ -1621,15 +1496,14 @@ msgstr ""
 msgid "build"
 msgstr ""
 
-#, fuzzy
 msgid "Documentation"
-msgstr "Σχόλιο"
+msgstr "Τεκμηρίωση"
 
 msgid "Table of Contents"
-msgstr ""
+msgstr "Πίνακας Περιοχομένων"
 
 msgid "Pg."
-msgstr ""
+msgstr "σελ."
 
 msgid "Filename"
 msgstr "Όνομα αρχείου"
@@ -1640,9 +1514,8 @@ msgstr "Μέγεθος αρχείου"
 msgid "Thumbnail"
 msgstr "Thumbnail"
 
-#, fuzzy
 msgid "Are you sure you wish to delete this file?"
-msgstr "Επιλέξτε 'Ναι', αν επιθυμείτε να σβήσετε αυτή τη κατηγορία"
+msgstr "Επιθυμείτε να σβήσετε αυτή την κατηγορία;"
 
 #, fuzzy
 msgid "Copy to file name?"
@@ -1652,32 +1525,26 @@ msgstr "Όνομα αρχείου"
 msgid "Duplicate"
 msgstr "Ημερομηνία"
 
-#, fuzzy
 msgid "New file name?"
-msgstr "Όνομα αρχείου"
+msgstr "Νέο όνομα αρχείου;"
 
-#, fuzzy
 msgid "Create a new file"
-msgstr "Δημιουργία νέου χρήστη"
+msgstr "Δημιουργία αρχείου"
 
-#, fuzzy
 msgid "New folder name?"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Καινούριο όνομα φακέλου;"
 
-#, fuzzy
 msgid "Create a new folder"
-msgstr "Δημιουργία νέου χρήστη"
+msgstr "Δημιουργία φακέλου"
 
 msgid ""
 "You're not allowed to upload/duplicate files in this folder. Use your FTP "
 "program to do this."
 msgstr ""
 
-#, fuzzy
 msgid "List of uploaded files"
-msgstr "Αποστολή αρχείων"
+msgstr "Λίστα ανεβασμένων αρχείων"
 
-#, fuzzy
 msgid "Done"
 msgstr "Έγινε!"
 
@@ -1686,26 +1553,24 @@ msgid "Add a new configuration option:"
 msgstr "Επεξεργασία στο αρχείο διαμόρφωσης"
 
 msgid "Key"
-msgstr ""
+msgstr "Κλειδί"
 
 msgid "Value"
-msgstr ""
+msgstr "Τιμή"
 
-#, fuzzy
 msgid "Edit options"
-msgstr "Φάτσες (emoticons)"
+msgstr "Επεξεργασία"
 
 msgid "You should first select or upload an image"
 msgstr "Θα πρέπει πρώτα να ανεβάσετε ή να επιλέξετε μια εικόνα"
 
 msgid ""
-"To make a popup to an image, you should upload an image, or select a "
-"previously uploaded image. Then select a text or a thumbnail that triggers "
-"the popup."
+"To make a popup to an image, you should upload an image, or select a previously "
+"uploaded image. Then select a text or a thumbnail that triggers the popup."
 msgstr ""
-"Για να κάνετε popup μία εικόνα, πρέπει να ανεβάσετε το αρχείο ή να επιλέξετε "
-"ένα ήδη απεσταλμένο αρχείο. Στην συνέχεια επιλέξτε ένα κείμενο ή ένα "
-"thumbnail που θα εκκινήσει το popup."
+"Για να κάνετε popup μία εικόνα, πρέπει να ανεβάσετε το αρχείο ή να επιλέξετε ένα "
+"ήδη απεσταλμένο αρχείο. Στην συνέχεια επιλέξτε ένα κείμενο ή ένα thumbnail που "
+"θα εκκινήσει το popup."
 
 msgid "For popup"
 msgstr "Για το popup"
@@ -1713,7 +1578,6 @@ msgstr "Για το popup"
 msgid "Use Thumbnail"
 msgstr "Χρήση Thumbnail"
 
-#, fuzzy
 msgid "edit thumbnail"
 msgstr "αλλαγή thumbnail"
 
@@ -1734,13 +1598,11 @@ msgstr "Τίτλος"
 msgid "Held"
 msgstr ""
 
-#, fuzzy
 msgid "Edit this entry"
-msgstr "Διαγραφή σχολίου"
+msgstr "Επεξεργασία εγγραφής"
 
-#, fuzzy
 msgid "categories"
-msgstr "Κατηγορίες"
+msgstr "κατηγορίες"
 
 msgid "Check All"
 msgstr "Επιλογή όλων"
@@ -1754,19 +1616,17 @@ msgstr "Με τις επιλεγμένες εγγραφές, κάνε:"
 msgid "- select an option -"
 msgstr "- Επιλέξτε κάτι -"
 
-#, fuzzy
 msgid "Set Status to \"publish\""
 msgstr "Κατάσταση σε 'Δημοσίευση'"
 
-#, fuzzy
 msgid "Set Status to \"hold\""
 msgstr "Κατάσταση σε 'Αναμονή'"
 
 msgid "Delete them"
-msgstr "Διαγραφή"
+msgstr "Διαγραφή όλων"
 
 msgid "No entries found."
-msgstr ""
+msgstr "Δεν βρέθηκαν εγγραφές"
 
 msgid "Your search or filter settings gave no results."
 msgstr ""
@@ -1784,13 +1644,13 @@ msgid "Username"
 msgstr "Όνομα χρήστη"
 
 msgid "Nickname"
-msgstr ""
+msgstr "Προσωνύμιο"
 
 msgid "Userlevel"
 msgstr "Επίπεδο χρήστη"
 
 msgid "Last Login"
-msgstr ""
+msgstr "Τελευταία σύνδεση"
 
 msgid "Edit User"
 msgstr "Επεξεργασία χρήστη"
@@ -1803,38 +1663,31 @@ msgid "Verified"
 msgstr ""
 
 msgid "Disabled"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
-#, fuzzy
 msgid "Notifications"
-msgstr "Φάτσες (emoticons)"
+msgstr "Ενημερώσεις"
 
-#, fuzzy
 msgid "Edit Visitor"
-msgstr "Επεξεργασία χρήστη"
+msgstr "Επεξεργασία επισκέπτη"
 
-#, fuzzy
 msgid "You are about to delete visitor %1. Are you sure?"
-msgstr "Είστε έτοιμοι να σβήσετε το weblog %1. Είστε σίγουροι;"
+msgstr "Είστε έτοιμοι να σβήσετε τον χρήστη %1. Είστε σίγουροι;"
 
-#, fuzzy
 msgid "Insert PivotX Image"
 msgstr "Εισαγωγή εικόνας"
 
-#, fuzzy
 msgid "Insert PivotX Popup"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή popup"
 
-#, fuzzy
 msgid "Insert PivotX Download"
-msgstr "Εισαγωγή συνδέσμου"
+msgstr "Εισαγωγή download"
 
-#, fuzzy
 msgid "Insert PivotX Tag"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή ετικέτας"
 
 msgid "The default category is:"
-msgstr ""
+msgstr "Η προεπιλεγμένη κατηγορία είναι:"
 
 msgid ""
 "This means that new entries will have this category, unless you edit the "
@@ -1845,27 +1698,25 @@ msgid "Create New Category"
 msgstr "Δημιουργία νέας κατηγορίας"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Εμφάνιση ονόματος"
 
 msgid "Number of Entries"
 msgstr "Αριθμός εγγραφών"
 
 msgid "Hidden Category"
-msgstr ""
+msgstr "Κρυφή κατηγορία"
 
 msgid "Sorting Order"
 msgstr ""
 
 msgid "Edit Category"
-msgstr "Αλλαγή σε κατηγορία"
+msgstr "Επεξεργασία κατηγορίας"
 
-#, fuzzy
 msgid "users"
-msgstr "Χρήστες"
+msgstr "χρήστες"
 
-#, fuzzy
 msgid "View entries"
-msgstr "Ζωντανές εγγραφές"
+msgstr "Προβολή εγγραφών"
 
 msgid "Are you sure you wish to delete this category?"
 msgstr "Επιλέξτε 'Ναι', αν επιθυμείτε να σβήσετε αυτή τη κατηγορία"
@@ -1876,16 +1727,15 @@ msgstr "Νέο Weblog"
 msgid "Weblog Name"
 msgstr "Όνομα Weblog"
 
-#, fuzzy
 msgid "View"
-msgstr "Προεπισκόπηση εγγραφής"
+msgstr "Προβολή εγγραφής"
 
 #, fuzzy
 msgid "You are about to delete weblog %1. Are you sure?"
 msgstr "Είστε έτοιμοι να σβήσετε το weblog %1. Είστε σίγουροι;"
 
 msgid "Export as theme"
-msgstr ""
+msgstr "Εξαγωγώ ως theme"
 
 #, fuzzy
 msgid "Insert a file"
@@ -1893,27 +1743,22 @@ msgstr "Εισαγωγή εικόνας"
 
 #, fuzzy
 msgid ""
-"To insert a file, you should upload one, or select a previously uploaded "
-"file."
+"To insert a file, you should upload one, or select a previously uploaded file."
 msgstr ""
-"Για να εισάγετε μια εικόνα, θα πρέπει να ανεβάσετε ένα αρχείο, ή να "
-"επιλέξετε ένα ήδη απεσταλμένο αρχείο."
+"Για να εισάγετε μια εικόνα, θα πρέπει να ανεβάσετε ένα αρχείο, ή να επιλέξετε "
+"ένα ήδη απεσταλμένο αρχείο."
 
-#, fuzzy
 msgid "File name"
 msgstr "Όνομα αρχείου"
 
-#, fuzzy
 msgid "Select a file"
-msgstr "Επιλογή"
+msgstr "Επιλογή αρχείου"
 
-#, fuzzy
 msgid "Insert file!"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή αρχείου"
 
-#, fuzzy
 msgid "Edit Entry (fullscreen)"
-msgstr "Αλλαγή εγγραφής"
+msgstr "Επεξεργασία εγγραφής (σε πλήρη οθόνη)"
 
 msgid "View website (fullscreen)"
 msgstr ""
@@ -1922,23 +1767,18 @@ msgstr ""
 msgid "Comments waiting for moderation"
 msgstr "Ρυθμίσεις σχολιασμού"
 
-#, fuzzy
 msgid "Approve"
-msgstr "Κανένα σχόλιο"
+msgstr "Έγκριση"
 
-#, fuzzy
 msgid "Check all"
 msgstr "Επιλογή όλων"
 
-#, fuzzy
 msgid "Check none"
-msgstr "Επιλογή όλων"
+msgstr "Επιλογή κανένα"
 
-#, fuzzy
 msgid "Approve comments"
-msgstr "Κανένα σχόλιο"
+msgstr "Έγκριση σχολίου"
 
-#, fuzzy
 msgid "Delete comments"
 msgstr "Διαγραφή σχολίου"
 
@@ -1958,11 +1798,10 @@ msgid "last"
 msgstr "τελευταία"
 
 msgid ""
-"Hi, and welcome to %1! Below this bit of text you can see a short overview "
-"of the latest <a href='index.php?page=entries'>entries</a> and <a "
-"href='index.php?page=pagesoverview'>pages</a>. And perhaps even <a "
-"href='index.php?page=comments'>new comments</a> that are in the moderation "
-"queue."
+"Hi, and welcome to %1! Below this bit of text you can see a short overview of "
+"the latest <a href='index.php?page=entries'>entries</a> and <a href='index.php?"
+"page=pagesoverview'>pages</a>. And perhaps even <a href='index.php?"
+"page=comments'>new comments</a> that are in the moderation queue."
 msgstr ""
 
 msgid "Configuration"
@@ -1971,40 +1810,33 @@ msgstr "Διαμόρφωση"
 msgid "Manage Media"
 msgstr "Διαχείριση αρχείων"
 
-#, fuzzy
 msgid "overview of entries"
 msgstr "Σύνοψη των εγγραφών"
 
-#, fuzzy
 msgid "overview of comments"
-msgstr "Σύνοψη των εγγραφών"
+msgstr "Σύνοψη των σχολίων"
 
-#, fuzzy
 msgid "Entry"
-msgstr "Νέα εγγραφή"
+msgstr "Εγγραφή"
 
-#, fuzzy
 msgid "delete"
-msgstr "Διαγραφή"
+msgstr "διαγραφή"
 
-#, fuzzy
 msgid "overview of pages"
-msgstr "Σύνοψη των εγγραφών"
+msgstr "Σύνοψη των σελίδων"
 
-#, fuzzy
 msgid "PivotX News"
-msgstr "Νέα εγγραφή στο weblog"
+msgstr "Νέα"
 
 msgid "Visit the website"
-msgstr ""
+msgstr "Επίσκεψη σελίδας"
 
 #, fuzzy
 msgid "The latest events"
 msgstr "Πρόσφατες εγγραφές"
 
-#, fuzzy
 msgid "Show more items"
-msgstr "Παρουσίαση των τελευταίων"
+msgstr "Προβολή περισσότερων"
 
 #, fuzzy
 msgid "The latest Forum posts"
@@ -2026,8 +1858,8 @@ msgstr ""
 
 msgid ""
 "You have Caching and/or Minify enabled. If your changes do not show up "
-"immediately, %click here% and disable Caching and Minify while you're "
-"working on your site."
+"immediately, %click here% and disable Caching and Minify while you're working on "
+"your site."
 msgstr ""
 
 #, fuzzy, php-format
@@ -2076,11 +1908,9 @@ msgstr ""
 msgid "There are %1 comment(s) waiting to be approved."
 msgstr ""
 
-#, fuzzy
 msgid "No comments are waiting to be approved."
-msgstr "Ρυθμίσεις σχολιασμού"
+msgstr "Δεν υπάρχουν σχόλια προς έγκριση"
 
-#, fuzzy
 msgid "Log in"
 msgstr "Εισαγωγή"
 
@@ -2112,9 +1942,8 @@ msgstr "Νέα εγγραφή"
 msgid "Moderate Comments"
 msgstr "Διαγραφή σχολίου"
 
-#, fuzzy
 msgid "Overview of Comments"
-msgstr "Σύνοψη των εγγραφών"
+msgstr "Σύνοψη σχολίων"
 
 #, fuzzy
 msgid "Overview of Latest Trackbacks"
@@ -2132,9 +1961,8 @@ msgstr "Εξερευνητής αρχείων"
 msgid "View files (both text and database files)"
 msgstr "Παρουσίαση αρχείων (κειμένου και αρχείων της Βάσης Δεδομένων)."
 
-#, fuzzy
 msgid "Explore Files"
-msgstr "Εξερευνητής αρχείων"
+msgstr "Εξερεύνηση αρχείων"
 
 msgid "View files in the site's root"
 msgstr ""
@@ -2165,15 +1993,14 @@ msgid "Create, edit and delete Weblogs"
 msgstr "Δημιουργία, επεξεργασία και διαγραφή Weblogs."
 
 msgid "Registered Visitors"
-msgstr ""
+msgstr "Εγγεγραμμένοι επισκέπτες"
 
 msgid "View and edit Registered Visitors"
-msgstr ""
+msgstr "Επεξεργασία επισκεπτών"
 
 msgid "Maintenance"
 msgstr "Συντήρηση"
 
-#, fuzzy
 msgid "Perform routine maintenance on PivotX's files"
 msgstr "Συντήρηση ρουτίνας των αρχείων του Pivot"
 
@@ -2183,9 +2010,8 @@ msgstr ""
 msgid "Overview of the various tools to keep your weblogs spam-free"
 msgstr ""
 
-#, fuzzy
 msgid "Spam Configuration"
-msgstr "Διαμόρφωση"
+msgstr "Διαμόρφωση spam"
 
 msgid "Configure Spam Protection tools (like HashCash and SpamQuiz)."
 msgstr ""
@@ -2196,13 +2022,12 @@ msgstr ""
 msgid "View and Reset the Spam Log."
 msgstr ""
 
-#, fuzzy
 msgid "Backup"
 msgstr "Αντίγραφα ασφαλείας"
 
 msgid ""
-"Download a zip file containing your configuration files, templates or "
-"entries database"
+"Download a zip file containing your configuration files, templates or entries "
+"database"
 msgstr ""
 
 msgid "Empty Cache"
@@ -2220,15 +2045,14 @@ msgid "Manage installed Extensions"
 msgstr "Προεπιλεγμένη επέκταση"
 
 msgid "Widgets"
-msgstr ""
+msgstr "Επεκτάσεις"
 
 #, fuzzy
 msgid "Manage installed Widgets"
 msgstr "Προεπιλεγμένη επέκταση"
 
-#, fuzzy
 msgid "view"
-msgstr "Προεπισκόπηση εγγραφής"
+msgstr "εμφάνιση"
 
 #, fuzzy
 msgid "View weblog"
@@ -2256,8 +2080,8 @@ msgstr "Επαναδημιουργία του ευρετηρίου αναζήτ�
 #, fuzzy
 msgid "Rebuild the Searchindex, to allow searching in entries and pages"
 msgstr ""
-"Επαναδημιουργία του ευρετηρίου αναζήτησης, ώστε να είναι δυνατή η αναζήτηση "
-"σε εγγραφές."
+"Επαναδημιουργία του ευρετηρίου αναζήτησης, ώστε να είναι δυνατή η αναζήτηση σε "
+"εγγραφές."
 
 #, fuzzy
 msgid "Rebuild Tag Index"
@@ -2266,15 +2090,15 @@ msgstr "Επαναδημιουργία του ευρετηρίου"
 #, fuzzy
 msgid "Rebuild the Tagindex, to display tag clouds and tags below entries"
 msgstr ""
-"Επαναδημιουργία του ευρετηρίου αναζήτησης, ώστε να είναι δυνατή η αναζήτηση "
-"σε εγγραφές."
+"Επαναδημιουργία του ευρετηρίου αναζήτησης, ώστε να είναι δυνατή η αναζήτηση σε "
+"εγγραφές."
 
 #, fuzzy
 msgid "Default"
 msgstr "Προεπιλογή γλώσσας"
 
 msgid "Welcome to your new online presence!"
-msgstr ""
+msgstr "Καλωσήρθατε!"
 
 msgid "Add some pages here, or start a new chapter."
 msgstr ""
@@ -2288,9 +2112,8 @@ msgstr ""
 msgid "Minimally styled"
 msgstr ""
 
-#, fuzzy
 msgid "Welcome to"
-msgstr "Καλώς ήλθατε στο %build%."
+msgstr "Καλώς ήλθατε στο"
 
 #, php-format
 msgid "Illegal file type %s uploaded. Check your %s setting."
@@ -2300,37 +2123,34 @@ msgid "Allow filetypes"
 msgstr "Δεκτοί τύποι"
 
 msgid "Login"
-msgstr "Εισαγωγή"
+msgstr "Σύνδεση"
 
 #, fuzzy
 msgid ""
 "Usernames can only contain lowercase alphanumeric characters (a-z, 0-9) and "
 "underscores (_)."
 msgstr ""
-"Τα ονόματα χρηστών μπορεί να περιέχουν μόνο αλφαριθμητικά (A-Z, 0-9) και "
-"κάτω-παύλες (_)."
+"Τα ονόματα χρηστών μπορεί να περιέχουν μόνο αλφαριθμητικά (A-Z, 0-9) και κάτω-"
+"παύλες (_)."
 
 msgid "Please give a proper password!"
-msgstr ""
+msgstr "Μη έγκυρος κωδικός!"
 
 msgid "Stay logged in?"
-msgstr ""
+msgstr "Να παραμείνω συνδεδεμένος;"
 
-#, fuzzy
 msgid "Lost your password?"
-msgstr "Συνθηματικό"
+msgstr "Ξέχασα το συνθηματικό"
 
-#, fuzzy
 msgid "Send password"
-msgstr "Δεύτερο πέρασμα"
+msgstr "Αποστολή συνθηματικού"
 
-#, fuzzy
 msgid "Reset my password"
-msgstr "Δεύτερο πέρασμα"
+msgstr "Νέος κωδικός"
 
 msgid ""
-"If you've forgotten your password, check the box, enter your username and "
-"PivotX will send you an email with a link to reset your password."
+"If you've forgotten your password, check the box, enter your username and PivotX "
+"will send you an email with a link to reset your password."
 msgstr ""
 
 #, fuzzy
@@ -2351,12 +2171,11 @@ msgstr "Επεξεργασία στο αρχείο διαμόρφωσης"
 msgid "Reset Spam Log"
 msgstr ""
 
-#, fuzzy
 msgid "Save Comment"
-msgstr "Προεπισκόπηση σχολίου"
+msgstr "Αποθήκευση σχολίου"
 
 msgid "Registered user"
-msgstr ""
+msgstr "Εγγεγραμμένος χρήστης"
 
 msgid ""
 "Determines if this comment is displayed like it was by registered user. "
@@ -2376,33 +2195,29 @@ msgid ""
 "address."
 msgstr ""
 
-#, fuzzy
 msgid "Moderate Comment"
-msgstr "Διαγραφή σχολίου"
+msgstr "Αναφορά σχολίου"
 
 msgid ""
-"If set to 'yes', this comment will not be shown on the site, until it has "
-"been approved in the moderation queue."
+"If set to 'yes', this comment will not be shown on the site, until it has been "
+"approved in the moderation queue."
 msgstr ""
 
 #, fuzzy
 msgid "Save Trackback"
 msgstr "Ετικέτα για 'ένα σχόλιο'"
 
-#, fuzzy
 msgid "Entry title"
-msgstr "Ημερομηνία εγγραφής"
+msgstr "Τίτλος εγγραφής"
 
 msgid "Excerpt"
 msgstr ""
 
-#, fuzzy
 msgid "Database Model"
-msgstr "Ημερομηνία"
+msgstr "Μοντέλο βάσης δεδομένων"
 
-#, fuzzy
 msgid "Flat Files"
-msgstr "Αποστολή αρχείων"
+msgstr "Αρχεία"
 
 msgid ""
 "Select which type of Database to use. Flat Files will work on almost every "
@@ -2416,12 +2231,10 @@ msgstr ""
 msgid "Your MySQL password"
 msgstr ""
 
-#, fuzzy
 msgid "Database Name"
-msgstr "Ημερομηνία"
+msgstr "Όνομα βάσης δεδομένων"
 
-msgid ""
-"The name of the MySQL database in which you wish to store the information"
+msgid "The name of the MySQL database in which you wish to store the information"
 msgstr ""
 
 msgid "Advanced database settings"
@@ -2431,8 +2244,7 @@ msgstr ""
 msgid "Hostname"
 msgstr "Όνομα χρήστη"
 
-msgid ""
-"Your MySQL hostname. If you do not know, this is most likely \"localhost\"."
+msgid "Your MySQL hostname. If you do not know, this is most likely \"localhost\"."
 msgstr ""
 
 #, fuzzy
@@ -2441,13 +2253,12 @@ msgstr "SSI πρόθεμα"
 
 msgid ""
 "The prefix to use for the database tables. By changing this, you can run "
-"multiple installations of PivotX from one MySQL database. If you don't "
-"intend to do so (yet), just leave this set to \"pivotx_\"."
+"multiple installations of PivotX from one MySQL database. If you don't intend to "
+"do so (yet), just leave this set to \"pivotx_\"."
 msgstr ""
 
-#, fuzzy
 msgid "Continue"
-msgstr "εννέα"
+msgstr "Συνέχεια"
 
 msgid "Please provide the following information, to set up the first user."
 msgstr ""
@@ -2470,9 +2281,8 @@ msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρ�
 msgid "Default language"
 msgstr "Προεπιλογή γλώσσας"
 
-#, fuzzy
 msgid "Please select a language!"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Παρακαλώ επιλέξτε μια γλώσσα"
 
 msgid "PivotX detected that your webserver supports MySQL databases."
 msgstr ""
@@ -2481,8 +2291,8 @@ msgid "If you have a MySQL user and database, specify them below."
 msgstr ""
 
 msgid ""
-"If you do not have these, either ask your hosting provider or select the "
-"'Flat Files' model."
+"If you do not have these, either ask your hosting provider or select the 'Flat "
+"Files' model."
 msgstr ""
 
 msgid ""
@@ -2503,9 +2313,8 @@ msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρ�
 msgid "Language"
 msgstr "Γλώσσα"
 
-#, fuzzy
 msgid "You must select a language!"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Πρέπει να επιλέξετε μια γλώσσα"
 
 #, fuzzy
 msgid "Text editor"
@@ -2514,26 +2323,24 @@ msgstr "Χρώμα κειμένου"
 #, fuzzy
 msgid ""
 "Determines the default text processing, when a user is using Writing a new "
-"entry. For most users 'Wysiwyg editor' will be the easiest option. 'Plain "
-"XHTML' is for those who like to edit raw XHTML, while 'Convert Linebreaks' "
-"does nothing more than change linebreaks to a &amp;lt;br /&amp;gt;-tag. <a "
-"href='http://www.textism.com/tools/textile/' target='_blank'>Textile</a> and "
-"<a href='http://daringfireball.net/projects/markdown/' "
-"target='_blank'>Markdown</a> are both powerful, yet easy to learn markup "
-"styles."
+"entry. For most users 'Wysiwyg editor' will be the easiest option. 'Plain XHTML' "
+"is for those who like to edit raw XHTML, while 'Convert Linebreaks' does nothing "
+"more than change linebreaks to a &amp;lt;br /&amp;gt;-tag. <a href='http://www."
+"textism.com/tools/textile/' target='_blank'>Textile</a> and <a href='http://"
+"daringfireball.net/projects/markdown/' target='_blank'>Markdown</a> are both "
+"powerful, yet easy to learn markup styles."
 msgstr ""
 "Καθορίζει την προεπιλεγμένη επεξεργασία κειμένου, όταν κάποιος χρήστης δεν "
-"χρησιμοποιεί τον wysiwyg επεξεργαστή κείμένου. Η 'Μετατροπή χαρακτήρων "
-"τέλους γραμμής' δεν κάνει τίποτα παραπάνω από το να αλλάζει τους χαρακτηρες "
-"τέλους γραμμής σε ένα &lt;br&gt;-tag. <a href=\"http://www.textism.com/tools/"
-"textile/\" target=\"_blank\">Textile</a> is a powerful, yet easy to learn "
-"markup style."
+"χρησιμοποιεί τον wysiwyg επεξεργαστή κείμένου. Η 'Μετατροπή χαρακτήρων τέλους "
+"γραμμής' δεν κάνει τίποτα παραπάνω από το να αλλάζει τους χαρακτηρες τέλους "
+"γραμμής σε ένα &lt;br&gt;-tag. <a href=\"http://www.textism.com/tools/textile/\" "
+"target=\"_blank\">Textile</a> is a powerful, yet easy to learn markup style."
 
 msgid "Wysiwyg"
 msgstr ""
 
 msgid "None (plain XHTML)"
-msgstr ""
+msgstr "Κανένα"
 
 #, fuzzy
 msgid "XHTML, Convert Linebreaks to &lt;br /&gt;"
@@ -2548,12 +2355,11 @@ msgstr ""
 msgid "Markdown and Smartypants"
 msgstr ""
 
-#, fuzzy
 msgid "User last seen on"
-msgstr "Τελευταία αλλαγή στις "
+msgstr "Ο χρήστης εμφανίστηκε στις "
 
 msgid "Inactive user"
-msgstr ""
+msgstr "Μη ενεργός χρήστης"
 
 msgid "Moblogger"
 msgstr "Moblogger"
@@ -2577,16 +2383,14 @@ msgstr ""
 "Το επίπεδο χρήστη καθορίζει το είδος των λειτουργιών που επιτρέπονται στον "
 "συγκεκριμένο χρήστη."
 
-#, fuzzy
 msgid "Allowed Categories"
-msgstr "Κατηγορίες"
+msgstr "Επιτρεπόμενες κατηγορίες"
 
 msgid "This user is allowed to post entries in the selected categories"
 msgstr ""
 
-#, fuzzy
 msgid "Last seen on"
-msgstr "Τελευταία αλλαγή στις "
+msgstr "Τελευταία εμφάνιση στις"
 
 msgid "Create Category"
 msgstr "Δημιουργία κατηγορίας "
@@ -2594,16 +2398,14 @@ msgstr "Δημιουργία κατηγορίας "
 msgid "The name that the category is represented by in the weblog."
 msgstr ""
 
-#, fuzzy
 msgid "This category needs a name."
 msgstr "Αυτή η κατηγορία χρειάζεται ένα όνομα"
 
 msgid ""
-"Select the Users that you would like to give permission to post in this "
-"category"
+"Select the Users that you would like to give permission to post in this category"
 msgstr ""
-"Επιλέξτε τους χρήστες που θα θέλατε να δώστε άδεια να στέλνουν ειδήσεις σε "
-"αυτήν την κατηγορία"
+"Επιλέξτε τους χρήστες που θα θέλατε να δώστε άδεια να στέλνουν ειδήσεις σε αυτήν "
+"την κατηγορία"
 
 msgid ""
 "Categories with a lower sorting order will appear higher in the list. If you "
@@ -2611,8 +2413,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If set to \"Yes\", this category will be hidden in archive listings. "
-"(Applies only to live pages.)"
+"If set to \"Yes\", this category will be hidden in archive listings. (Applies "
+"only to live pages.)"
 msgstr ""
 
 #, fuzzy
@@ -2626,77 +2428,71 @@ msgstr "Δεν επιτρέπεται να σβήσετε την εγγραφή 
 msgid "A short description of this chapter."
 msgstr ""
 
-msgid ""
-"The sorting order determines the order in which the Chapters are listed."
+msgid "The sorting order determines the order in which the Chapters are listed."
 msgstr ""
 
 msgid ""
-"The internal name can consist of only lowercase letters, numbers and "
-"underscore (a-z,0-9,_). While the Weblog Name can be changed later on, the "
-"Internal Name will always stay the same."
+"The internal name can consist of only lowercase letters, numbers and underscore "
+"(a-z,0-9,_). While the Weblog Name can be changed later on, the Internal Name "
+"will always stay the same."
 msgstr ""
 
 msgid "Start from scratch"
 msgstr ""
 
-#, fuzzy
 msgid "Theme"
 msgstr "Πρότυπα"
 
 msgid ""
-"Select the theme you'd like to base your weblog on. All options can be "
-"changed later on."
+"Select the theme you'd like to base your weblog on. All options can be changed "
+"later on."
 msgstr ""
 
-#, fuzzy
 msgid "General Settings"
-msgstr "Ρυθμίσεις εγγραφής"
+msgstr "Γενικές Ρυθμίσεις"
 
 msgid "Payoff"
-msgstr "Περιγραφή"
+msgstr "Μικρή Περιγραφή"
 
-msgid ""
-"The Payoff can be used as a subtitle or a short description of your weblog"
+msgid "The Payoff can be used as a subtitle or a short description of your weblog"
 msgstr ""
-"Η περιγραφή μπορεί να χρησιμοποιηθεί ως υποτίτλος ή μικρή περιγραφή του "
-"weblog σας."
+"Η περιγραφή μπορεί να χρησιμοποιηθεί ως υποτίτλος ή μικρή περιγραφή του weblog "
+"σας."
 
 #, fuzzy
 msgid ""
-"The Language determines in what language the dates and numbers will be "
-"output."
+"The Language determines in what language the dates and numbers will be output."
 msgstr ""
-"Η Γλώσσα καθορίζει σε ποια γλώσσα θα εμφανίζονται οι ημερομηνίες και οι "
-"αριθμοί, και επίσης καθορίζει την κωδικοποίηση του συνόλου χαρακτήρων, όπως "
-"για παράδειγμα, iso-8859-7, koi8-r κλπ."
+"Η Γλώσσα καθορίζει σε ποια γλώσσα θα εμφανίζονται οι ημερομηνίες και οι αριθμοί, "
+"και επίσης καθορίζει την κωδικοποίηση του συνόλου χαρακτήρων, όπως για "
+"παράδειγμα, iso-8859-7, koi8-r κλπ."
 
 msgid "\"Read More\" Text"
 msgstr ""
 
 #, fuzzy
 msgid ""
-"The text that is used to indicate that there is more text in this entry than "
-"is shown on the front page. If you leave this blank, PivotX will use the "
-"default as defined by the language settings."
+"The text that is used to indicate that there is more text in this entry than is "
+"shown on the front page. If you leave this blank, PivotX will use the default as "
+"defined by the language settings."
 msgstr ""
-"Το κείμενο που θα χρησιμοποιηθεί για να υποδείξει ότι δεν υπάρχει άλλο "
-"κείμενο στην εγγραφή εκτός από αυτό που φαίνεται στην πρώτη σελίδα. Αν "
-"αφήσετε το πεδίο αυτό κενό, το Pivot θα χρησιμοποιήσει το προεπιλεγμένο όπως "
-"καθορίστηκε στις ρυθμίσεις της γλώσσας"
+"Το κείμενο που θα χρησιμοποιηθεί για να υποδείξει ότι δεν υπάρχει άλλο κείμενο "
+"στην εγγραφή εκτός από αυτό που φαίνεται στην πρώτη σελίδα. Αν αφήσετε το πεδίο "
+"αυτό κενό, το Pivot θα χρησιμοποιήσει το προεπιλεγμένο όπως καθορίστηκε στις "
+"ρυθμίσεις της γλώσσας"
 
 msgid "URL to Weblog"
 msgstr "URL για το Weblog"
 
 msgid ""
 "Leave this field blank, unless you know what you are doing. If left empty, "
-"PivotX will automatically determine the URL of your weblog, which is usually "
-"the best option. Normally this setting is only used if you want one "
-"directory for each weblog."
+"PivotX will automatically determine the URL of your weblog, which is usually the "
+"best option. Normally this setting is only used if you want one directory for "
+"each weblog."
 msgstr ""
 
-#, fuzzy
 msgid "Sorting order"
-msgstr "Κανένα"
+msgstr "Σειρά εμφάνισης"
 
 msgid "The sorting order is used to determine the order of the weblogs."
 msgstr ""
@@ -2704,21 +2500,19 @@ msgstr ""
 msgid "Frontpage Template"
 msgstr "Πρότυπο αρχικής σελίδας"
 
-msgid ""
-"The Template which determines the layout of the index page of this weblog."
-msgstr ""
-"Το πρότυπο που καθορίζει την εμφάνιση της index σελίδας αυτού του weblog."
+msgid "The Template which determines the layout of the index page of this weblog."
+msgstr "Το πρότυπο που καθορίζει την εμφάνιση της index σελίδας αυτού του weblog."
 
 msgid "Archivepage Template"
 msgstr "Πρότυπο σελίδας αρχειοθέτησης"
 
 #, fuzzy
 msgid ""
-"The Template which determines the layout of your archives. This can be the "
-"same as \"Frontpage Template\"."
+"The Template which determines the layout of your archives. This can be the same "
+"as \"Frontpage Template\"."
 msgstr ""
-"Αυτό το πρότυπο που καθορίζει την εμφάνισης της σελίδας αρχειοθέτησης. "
-"Μπορείτε να είναι το ίδιο με αυτό της Αρχικής Σελίδας παραπάνω."
+"Αυτό το πρότυπο που καθορίζει την εμφάνισης της σελίδας αρχειοθέτησης. Μπορείτε "
+"να είναι το ίδιο με αυτό της Αρχικής Σελίδας παραπάνω."
 
 msgid "Entrypage Template"
 msgstr "Πρότυπο σελίδας εγγραφής"
@@ -2731,10 +2525,8 @@ msgstr "Επιπλέον πρότυπο"
 
 #, fuzzy
 msgid ""
-"The Template that defines how a search, tag or other special page will look "
-"like."
-msgstr ""
-"Το πρότυπο που καθορίζει πως θα είναι η αρχειοθέτηση και το search.php."
+"The Template that defines how a search, tag or other special page will look like."
+msgstr "Το πρότυπο που καθορίζει πως θα είναι η αρχειοθέτηση και το search.php."
 
 #, fuzzy
 msgid "Page Template"
@@ -2742,10 +2534,9 @@ msgstr "Δημιουργία προτύπου"
 
 #, fuzzy
 msgid ""
-"The Template that defines how a page will look like if you haven't specified "
-"a template for it."
-msgstr ""
-"Το πρότυπο που καθορίζει πως θα είναι η αρχειοθέτηση και το search.php."
+"The Template that defines how a page will look like if you haven't specified a "
+"template for it."
+msgstr "Το πρότυπο που καθορίζει πως θα είναι η αρχειοθέτηση και το search.php."
 
 #, fuzzy, php-format
 msgid "Subweblog %s"
@@ -2763,15 +2554,15 @@ msgstr "Μετάθεση (offset)"
 #, fuzzy
 msgid ""
 "If Offset is set to a number, that amount of entries will be skipped when "
-"generating the page. You can use this to make a \"Previous entries\" list, "
-"for example."
+"generating the page. You can use this to make a \"Previous entries\" list, for "
+"example."
 msgstr ""
-"Αν η μετάθεση είναι καθορισμένη, τότε αυτός ο αριθμός εγγραφών θα "
-"παρακαμφθεί ότι θα δημιουργηθεί η σελίδα. Μπορειτε να χρησιμοποιήσετε μία "
-"λίστα 'Προηγούμενες εγγραφές', για παράδειγμα."
+"Αν η μετάθεση είναι καθορισμένη, τότε αυτός ο αριθμός εγγραφών θα παρακαμφθεί "
+"ότι θα δημιουργηθεί η σελίδα. Μπορειτε να χρησιμοποιήσετε μία λίστα "
+"'Προηγούμενες εγγραφές', για παράδειγμα."
 
 msgid "Publish these categories"
-msgstr ""
+msgstr "Δημοσίευση αυτών των κατηγοριών"
 
 msgid "RSS and Atom Configuration"
 msgstr "Διαμόρφωση RSS και Atom"
@@ -2780,21 +2571,20 @@ msgid "Generate Feeds"
 msgstr "Δημιουργία τροφοδοσιών (feeds)"
 
 msgid ""
-"This determines whether or not pivot will automatically generate an RSS and "
-"an Atom feed for this weblog."
+"This determines whether or not pivot will automatically generate an RSS and an "
+"Atom feed for this weblog."
 msgstr ""
-"Αυτό καθορίζει αν θα δημιουργούνται αυτόματα μία RSS κι μία Atom τροφοδοσία "
-"για αυτό το weblog."
+"Αυτό καθορίζει αν θα δημιουργούνται αυτόματα μία RSS κι μία Atom τροφοδοσία για "
+"αυτό το weblog."
 
 #, fuzzy
 msgid "RSS URL"
 msgstr "URL του Ιστοτόπου"
 
 msgid ""
-"If you use a service like FeedBurner, you can give the link to your "
-"FeedBurner feed here. The link will be used in the RSS badge and in the "
-"autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
-"specify a full URL."
+"If you use a service like FeedBurner, you can give the link to your FeedBurner "
+"feed here. The link will be used in the RSS badge and in the autodiscovery link "
+"on this weblog. Leave this blank to use PivotX's Feed, or specify a full URL."
 msgstr ""
 
 #, fuzzy
@@ -2802,10 +2592,9 @@ msgid "Atom URL"
 msgstr "URL του Ιστοτόπου"
 
 msgid ""
-"If you use a service like FeedBurner, you can give the link to your "
-"FeedBurner feed here. The link will be used in the Atom badge and in the "
-"autodiscovery link on this weblog. Leave this blank to use PivotX's Feed, or "
-"specify a full URL."
+"If you use a service like FeedBurner, you can give the link to your FeedBurner "
+"feed here. The link will be used in the Atom badge and in the autodiscovery link "
+"on this weblog. Leave this blank to use PivotX's Feed, or specify a full URL."
 msgstr ""
 
 msgid "Create Full Feeds"
@@ -2814,13 +2603,12 @@ msgstr "Δημιουργία πλήρων τροφοδοσιών"
 #, fuzzy
 msgid ""
 "Determines whether PivotX creates full Atom and RSS feeds. If set to \"no\" "
-"PivotX will create feeds that just contains short descriptions, thereby "
-"making your feeds less useful."
+"PivotX will create feeds that just contains short descriptions, thereby making "
+"your feeds less useful."
 msgstr ""
 "Καθορίζει αν το Pivot θα δημιουργήσει πλήρεις Atom και RSS τροφοδοσίες. Αν "
-"οριστεί στο 'Όχι' το Pivot θα δημιουργήσει τροφοδοσίες που περιλαμβάνουν "
-"μόνο μικρές περιγραφές, δηλαδή κάνοντας τις τροφοδοσίες σας λιγότερο "
-"χρήσιμες."
+"οριστεί στο 'Όχι' το Pivot θα δημιουργήσει τροφοδοσίες που περιλαμβάνουν μόνο "
+"μικρές περιγραφές, δηλαδή κάνοντας τις τροφοδοσίες σας λιγότερο χρήσιμες."
 
 msgid "Feed Link"
 msgstr ""
@@ -2830,29 +2618,27 @@ msgid ""
 "The link to send with the Feed, to point to the main page. If you leave this "
 "blank, PivotX will send the weblog's index as link."
 msgstr ""
-"Το κείμενο που θα χρησιμοποιείται να δείξει πόσα σχόλια υπάρχουν. Αν το "
-"αφήσετε κενό, το Pivot θα χρησιμοποιήσει τις προεπιλεγμένες τιμές που "
-"καθορίζονται από τις ρυθμίσεις γλώσσας."
+"Το κείμενο που θα χρησιμοποιείται να δείξει πόσα σχόλια υπάρχουν. Αν το αφήσετε "
+"κενό, το Pivot θα χρησιμοποιήσει τις προεπιλεγμένες τιμές που καθορίζονται από "
+"τις ρυθμίσεις γλώσσας."
 
 #, fuzzy
 msgid "Feed Image"
 msgstr "Διαγραφή εικόνας"
 
 msgid ""
-"You can specify an image to send with the Feed. Some feed readers will "
-"display this image along with your feed. Leave this blank, or specify a full "
-"URL."
+"You can specify an image to send with the Feed. Some feed readers will display "
+"this image along with your feed. Leave this blank, or specify a full URL."
 msgstr ""
 
 msgid "Commenting Settings"
 msgstr "Ρυθμίσεις σχολιασμού"
 
 msgid "Send Mail?"
-msgstr "Αποστολή ηλεκτρονικού μηνύματος e-mail"
+msgstr "Αποστολή ηλεκτρονικού μηνύματος e-mail;"
 
 msgid ""
-"After a comment has been placed, mail can be sent to maintainers of this "
-"weblog."
+"After a comment has been placed, mail can be sent to maintainers of this weblog."
 msgstr ""
 "Αφού τοποθετηθεί ένα σχόλιο, μπορεί να σταλεί ένα e-mail στους διαχειριστές "
 "αυτού του weblog."
@@ -2865,34 +2651,34 @@ msgid ""
 "Specify the email address(es) to whom mail will be sent. Separate multiple "
 "addresses with a comma."
 msgstr ""
-"Ορίστε την διεύθυνση e-mail στην οποία θα σταλεί το μήνυμα. Πολλές "
-"διευθύνσεις μπορούν να διαχωριστούν με ένα κόμμα."
+"Ορίστε την διεύθυνση e-mail στην οποία θα σταλεί το μήνυμα. Πολλές διευθύνσεις "
+"μπορούν να διαχωριστούν με ένα κόμμα."
 
 msgid "Text to links"
 msgstr "Κείμενο σε συνδέσμους"
 
 msgid "Define whether typed urls and email addresses will be made clickable."
 msgstr ""
-"Ορίζει αν τα URLs και οι διευθύνσεις ηλεκτρονικού ταχυδρομείου στις εγγραφές "
-"θα μπορούν να γίνουν υπερσυνδέσμοι (ο χρήστης να μπορεί να κάνει κλικ)."
+"Ορίζει αν τα URLs και οι διευθύνσεις ηλεκτρονικού ταχυδρομείου στις εγγραφές θα "
+"μπορούν να γίνουν υπερσυνδέσμοι (ο χρήστης να μπορεί να κάνει κλικ)."
 
 msgid "Wrap comments after"
 msgstr "Αναδίπλωση κάθε γραμμή σχολίων μετά από "
 
 msgid ""
-"To prevent long strings of characters from breaking your layout, text will "
-"be wrapped after the specified number of characters."
+"To prevent long strings of characters from breaking your layout, text will be "
+"wrapped after the specified number of characters."
 msgstr ""
-"Για να αποφευχθούν μακριές γραμμές που χαλάνε την εμφάνιση, το κείμενο "
-"μπορεί να αναδιπλώνεται μετά από ένα καθορισμένο αριθμό χαρακτήρων."
+"Για να αποφευχθούν μακριές γραμμές που χαλάνε την εμφάνιση, το κείμενο μπορεί να "
+"αναδιπλώνεται μετά από ένα καθορισμένο αριθμό χαρακτήρων."
 
 msgid "Comments Popup?"
 msgstr "Νέο παράθυρο σχολίων (popup)?"
 
 #, fuzzy
 msgid ""
-"Define whether the comments page (or 'single entry') will be shown in a "
-"popup window, or in the original browser window."
+"Define whether the comments page (or 'single entry') will be shown in a popup "
+"window, or in the original browser window."
 msgstr ""
 "Καθορίζει αν η σελίδα των σχολίων (ή η 'απλή εγγραφή') θα εμφανίζεται σε ένα "
 "ξεχωριστό παράθυρο (popup), ή στο αρχικό παράθυρο του φυλλομετρητή."
@@ -2907,8 +2693,7 @@ msgstr "Ύψος του Popup παραθύρου"
 #, fuzzy
 msgid "The width (in pixels) of the comments popup."
 msgstr ""
-"Καθορισμός του πλάτους και του ύψους (σε pixels) του popup παραθύρου των "
-"σχολίων."
+"Καθορισμός του πλάτους και του ύψους (σε pixels) του popup παραθύρου των σχολίων."
 
 msgid "Height of Popup"
 msgstr "Ύψος του Popup παραθύρου"
@@ -2916,8 +2701,7 @@ msgstr "Ύψος του Popup παραθύρου"
 #, fuzzy
 msgid "The height (in pixels) of the comments popup."
 msgstr ""
-"Καθορισμός του πλάτους και του ύψους (σε pixels) του popup παραθύρου των "
-"σχολίων."
+"Καθορισμός του πλάτους και του ύψους (σε pixels) του popup παραθύρου των σχολίων."
 
 #, fuzzy
 msgid "Allow Textile?"
@@ -2959,43 +2743,38 @@ msgstr "Όνομα Ιστοτόπου"
 msgid "That's not a proper sitename!"
 msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
 
-#, fuzzy
 msgid "Site description"
 msgstr "Περιγραφή"
 
 msgid "A short description of the website. Maximum length is 400 characters."
 msgstr ""
 
-#, fuzzy
 msgid "Weblog"
-msgstr "Weblogs"
+msgstr "Weblog"
 
-#, fuzzy
 msgid "Page"
-msgstr "Αλλαγή"
+msgstr "Σελίδα"
 
-#, fuzzy
 msgid "Site Homepage"
-msgstr "Όνομα Ιστοτόπου"
+msgstr "Κεντρική Σελίδα"
 
-#, fuzzy
 msgid "Please select an option"
 msgstr "- Επιλέξτε κάτι -"
 
 #, fuzzy
 msgid ""
-"This determines the page that is shown to visitors of the site, if they go "
-"to the front page."
+"This determines the page that is shown to visitors of the site, if they go to "
+"the front page."
 msgstr ""
-"Καθορίζει τον τύπο για την πλήρη ημερομηνία και ώρα. Πιο συχνά "
-"χρησιμοποιείται στην κορυφή μιας σελίδας εισαγωγής εγγραφής."
+"Καθορίζει τον τύπο για την πλήρη ημερομηνία και ώρα. Πιο συχνά χρησιμοποιείται "
+"στην κορυφή μιας σελίδας εισαγωγής εγγραφής."
 
 msgid "Site Favicon"
 msgstr ""
 
 msgid ""
-"This determines the favicon that is used on the website. Use an absolute "
-"path to the image's filename for best results."
+"This determines the favicon that is used on the website. Use an absolute path to "
+"the image's filename for best results."
 msgstr ""
 
 msgid "Allow XML-RPC"
@@ -3029,28 +2808,27 @@ msgstr "Χρησιμοποίηση ταιριάσματος αρχείου (File
 
 #, fuzzy
 msgid ""
-"If you use Apache's Mod_rewrite option, PivotX will make URLs like www."
-"example.org/archive/2008/05/30/nice-weather, instead of www.example.org/"
-"index.php?e=134. Not all servers support this, so please read the <a href="
-"\"http://book.pivotx.net/page/1-14/\">Using Apache's Mod_rewrite</a> section "
-"in the PivotX book about this."
+"If you use Apache's Mod_rewrite option, PivotX will make URLs like www.example."
+"org/archive/2008/05/30/nice-weather, instead of www.example.org/index.php?e=134. "
+"Not all servers support this, so please read the <a href=\"http://book.pivotx."
+"net/page/1-14/\">Using Apache's Mod_rewrite</a> section in the PivotX book about "
+"this."
 msgstr ""
-"Αν χρησιμοποιείτε την επιλογή Filematch του Apache, το Pivot θα δημιουργεί "
-"τα URLs όπως www.mysite.com/archive/2003/05/30/nice_weather, αντί για το www."
-"mysite.com/pivot/entry.php?id=134. Αυτό δεν υποστηρίζεται από όλους τους "
-"εξυπηρετητές, γι' αυτό ενημερωθείτε προηγουμένως από το εγχειρίδιο χρήσης "
-"του εξυπηρετητή."
+"Αν χρησιμοποιείτε την επιλογή Filematch του Apache, το Pivot θα δημιουργεί τα "
+"URLs όπως www.mysite.com/archive/2003/05/30/nice_weather, αντί για το www.mysite."
+"com/pivot/entry.php?id=134. Αυτό δεν υποστηρίζεται από όλους τους εξυπηρετητές, "
+"γι' αυτό ενημερωθείτε προηγουμένως από το εγχειρίδιο χρήσης του εξυπηρετητή."
 
 msgid "Site 'Not Found' page (404)"
-msgstr ""
+msgstr "Η σελίδα δεν βρέθηκε"
 
 #, fuzzy
 msgid "Default 404"
 msgstr "Προεπιλογή γλώσσας"
 
 msgid ""
-"This page is displayed when the visitor requests a page on the site that "
-"does not exist. Leave this blank to display PivotX's default 404 page."
+"This page is displayed when the visitor requests a page on the site that does "
+"not exist. Leave this blank to display PivotX's default 404 page."
 msgstr ""
 
 msgid "Allow comments by default"
@@ -3059,13 +2837,11 @@ msgstr "Άδεια για σχόλια (απο προεπιλογή)"
 msgid "Determine whether entries are set to allow comments or not."
 msgstr "Καθορίζει αν οι εγγραφές θα επιτρέπουν σχόλια ή όχι."
 
-#, fuzzy
 msgid "Moderate comments"
-msgstr "Διαγραφή σχολίου"
+msgstr "Επεξεργασία σχολίων"
 
 msgid ""
-"Determines whether comments must by approved before they are visible on the "
-"site."
+"Determines whether comments must by approved before they are visible on the site."
 msgstr ""
 
 #, fuzzy
@@ -3083,18 +2859,18 @@ msgid "Use Minify in Backend"
 msgstr ""
 
 msgid ""
-"Use Minify to group and compress Javascript and CSS files to reduce the "
-"amount of requests for all pages in the PivotX interface. Disable this if "
-"you are experiencing problems."
+"Use Minify to group and compress Javascript and CSS files to reduce the amount "
+"of requests for all pages in the PivotX interface. Disable this if you are "
+"experiencing problems."
 msgstr ""
 
 msgid "Use Minify in Frontend"
 msgstr ""
 
 msgid ""
-"Use Minify to group and compress Javascript and CSS files to reduce the "
-"amount of requests for all pages in the website. Disable this while you're "
-"working on your Templates, or if you are experiencing problems."
+"Use Minify to group and compress Javascript and CSS files to reduce the amount "
+"of requests for all pages in the website. Disable this while you're working on "
+"your Templates, or if you are experiencing problems."
 msgstr ""
 
 #, fuzzy
@@ -3102,9 +2878,9 @@ msgid "Force compile templates"
 msgstr "Πρότυπο αρχικής σελίδας"
 
 msgid ""
-"If you enable this, all templates will be compiled everytime. Only enable "
-"this, if you're having trouble with the templates, as this setting severely "
-"degrades performance."
+"If you enable this, all templates will be compiled everytime. Only enable this, "
+"if you're having trouble with the templates, as this setting severely degrades "
+"performance."
 msgstr ""
 
 msgid "Disallow cached includes"
@@ -3120,22 +2896,20 @@ msgstr ""
 
 msgid ""
 "If you enable this, all pages will be cached. This will make PivotX much "
-"'lighter', so you should always use this when you're having performance "
-"issues, or you have a site with a lot of visitors. Disable this while you're "
-"working on your Templates, or if you are experiencing problems."
+"'lighter', so you should always use this when you're having performance issues, "
+"or you have a site with a lot of visitors. Disable this while you're working on "
+"your Templates, or if you are experiencing problems."
 msgstr ""
 
 #, fuzzy
 msgid "Show Flickr Images"
 msgstr "Παρουσίαση των τελευταίων"
 
-msgid ""
-"If set to \"yes\", PivotX will fetch images with this tag from Flickr.com."
+msgid "If set to \"yes\", PivotX will fetch images with this tag from Flickr.com."
 msgstr ""
 
-#, fuzzy
 msgid "Number of images"
-msgstr "Αριθμός εγγραφών"
+msgstr "Αριθμός εικόνων"
 
 msgid "The amount of images to fetch from Flickr."
 msgstr ""
@@ -3149,9 +2923,8 @@ msgid ""
 "from various sources."
 msgstr ""
 
-#, fuzzy
 msgid "Number of items"
-msgstr "Αριθμός εγγραφών"
+msgstr "Αριθμός στοιχείων"
 
 msgid "The amount of items to fetch from each source"
 msgstr ""
@@ -3195,9 +2968,9 @@ msgid "Log to file"
 msgstr "Ημερομηνία εγγραφής"
 
 msgid ""
-"Log the debug output to a file. Use this when you are investigation "
-"performance issues, but turn it off on production websites. Only works when "
-"'Debug' is enabled."
+"Log the debug output to a file. Use this when you are investigation performance "
+"issues, but turn it off on production websites. Only works when 'Debug' is "
+"enabled."
 msgstr ""
 
 msgid "Unlink Files"
@@ -3206,32 +2979,32 @@ msgstr "Σβήσιμο αρχείων"
 #, fuzzy
 msgid ""
 "Some instances of servers on which the ghastly safe_mode is enabled, might "
-"require playing with this option. On most servers this option will not have "
-"any effect."
+"require playing with this option. On most servers this option will not have any "
+"effect."
 msgstr ""
-"Σε μερικούς εξυπηρετητές όπου η επιλογή safe_mode είναι ενεργοποιημένη, "
-"μπορεί να χρειαστεί να αλλάξετε αυτή την επιλογή. Στους περισσότερους "
-"servers αυτή η επιλογή δεν θα έχει κανένα αποτέλεσμα."
+"Σε μερικούς εξυπηρετητές όπου η επιλογή safe_mode είναι ενεργοποιημένη, μπορεί "
+"να χρειαστεί να αλλάξετε αυτή την επιλογή. Στους περισσότερους servers αυτή η "
+"επιλογή δεν θα έχει κανένα αποτέλεσμα."
 
 msgid "Chmod Files To"
 msgstr "Αλλαγή αδειών αρχείων (chmod) σε:"
 
 #, fuzzy
 msgid ""
-"Some servers require that created files are chmodded in a specific way. "
-"Common values are \"0644\" and \"0755\". Do not change this, unless you know "
-"what you're doing."
+"Some servers require that created files are chmodded in a specific way. Common "
+"values are \"0644\" and \"0755\". Do not change this, unless you know what "
+"you're doing."
 msgstr ""
 "Μερικοί εξυπηρετητές απαιτούν τα αρχεία να έχουν κάποιες ειδικές άδειες "
-"πρόσβασης. Συνηθισμένες τιμές είναι το '0644' και το '0755'. Μην αλλάξετε "
-"αυτό το πεδίο, εκτός αν είστε σίγουροι τι κάνετε."
+"πρόσβασης. Συνηθισμένες τιμές είναι το '0644' και το '0755'. Μην αλλάξετε αυτό "
+"το πεδίο, εκτός αν είστε σίγουροι τι κάνετε."
 
 msgid "File Upload Path"
 msgstr "Μονοπάτι αποστολής αρχείου"
 
 msgid ""
-"The path to the folder where uploaded files are stored. If you change this, "
-"be sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
+"The path to the folder where uploaded files are stored. If you change this, be "
+"sure to change it in the file <tt>pivotx/includes/timthumb-config.php</tt> as "
 "well."
 msgstr ""
 
@@ -3264,15 +3037,15 @@ msgid "Thumbnail quality"
 msgstr "Πλάτος Thumbnail"
 
 msgid ""
-"The quality of the thumbnail PivotX creates. 0 is the lowest quality, but "
-"also the smallest file. 100 is the highest, but creates a large file. 75 is "
-"a good default. "
+"The quality of the thumbnail PivotX creates. 0 is the lowest quality, but also "
+"the smallest file. 100 is the highest, but creates a large file. 75 is a good "
+"default. "
 msgstr ""
 
 msgid ""
-"These filetypes are acceptable for upload. Separate the different types with "
-"a comma. Be sure to use the proper mimetype. \"image/png\" is correct, while "
-"\"png\" is not."
+"These filetypes are acceptable for upload. Separate the different types with a "
+"comma. Be sure to use the proper mimetype. \"image/png\" is correct, while \"png"
+"\" is not."
 msgstr ""
 
 msgid "Full date format"
@@ -3280,11 +3053,11 @@ msgstr "Τύπος πλήρους ημερομηνίας"
 
 #, fuzzy
 msgid ""
-"This determines the format for the full date and time. Most often used at "
-"the top of a single entry page."
+"This determines the format for the full date and time. Most often used at the "
+"top of a single entry page."
 msgstr ""
-"Καθορίζει τον τύπο για την πλήρη ημερομηνία και ώρα. Πιο συχνά "
-"χρησιμοποιείται στην κορυφή μιας σελίδας εισαγωγής εγγραφής."
+"Καθορίζει τον τύπο για την πλήρη ημερομηνία και ώρα. Πιο συχνά χρησιμοποιείται "
+"στην κορυφή μιας σελίδας εισαγωγής εγγραφής."
 
 msgid "Entry Date"
 msgstr "Ημερομηνία εγγραφής"
@@ -3297,14 +3070,14 @@ msgstr "Διαφορά ημερομηνίας"
 
 #, fuzzy
 msgid ""
-"The \"Diff Date\" is most commonly used in conjunction with the \"Entry Date"
-"\". The Entry Date is displayed on every entry on your log, while the Diff "
-"Date is only displayed if the date differs from the previous entry."
+"The \"Diff Date\" is most commonly used in conjunction with the \"Entry Date\". "
+"The Entry Date is displayed on every entry on your log, while the Diff Date is "
+"only displayed if the date differs from the previous entry."
 msgstr ""
-"Η 'Διαφορά Ημερομηνίας' χρησιμοποιείται συνήθως σε συνδυασμό με την "
-"'Ημερομηνία Εγγραφής'. Η ημερομηνία εγγραφής εμφανίζεται σε κάθε εγγραφή στο "
-"αρχείο καταγραφής, ενώ η Διαφορά Ημερομηνίας εμφανίζεται μόνο αν η "
-"ημερομηνία διαφέρει από την προηγούμενη εγγραφή."
+"Η 'Διαφορά Ημερομηνίας' χρησιμοποιείται συνήθως σε συνδυασμό με την 'Ημερομηνία "
+"Εγγραφής'. Η ημερομηνία εγγραφής εμφανίζεται σε κάθε εγγραφή στο αρχείο "
+"καταγραφής, ενώ η Διαφορά Ημερομηνίας εμφανίζεται μόνο αν η ημερομηνία διαφέρει "
+"από την προηγούμενη εγγραφή."
 
 msgid "Current server time"
 msgstr ""
@@ -3330,9 +3103,8 @@ msgstr "Λεπτό"
 msgid "Time Offset"
 msgstr "Διαφορά ώρας (offset)"
 
-#, fuzzy
 msgid "Activate"
-msgstr "Αρχείο"
+msgstr "Ενεργοποίηση"
 
 #, fuzzy
 msgid "Mail server"
@@ -3346,13 +3118,11 @@ msgstr "Αυτή δεν είναι έγκυρη διεύθυνση ηλεκτρ�
 msgid "Default author"
 msgstr "Προεπιλογή γλώσσας"
 
-#, fuzzy
 msgid "Please select a user"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Παρακαλώ επιλέξτε έναν χρήστη"
 
-#, fuzzy
 msgid "Select a user"
-msgstr "Επιλογή εικόνας"
+msgstr "Επιλογή χρήστη"
 
 msgid "The user that the posted entries will belong to."
 msgstr ""
@@ -3379,28 +3149,25 @@ msgid "What protocol"
 msgstr ""
 
 msgid ""
-"The IMAP extension, which isn't enabled on all web servers, supports both "
-"POP3 and IMAP and is required if you need secure POP3 (as Hotmail and Gmail "
-"uses)."
+"The IMAP extension, which isn't enabled on all web servers, supports both POP3 "
+"and IMAP and is required if you need secure POP3 (as Hotmail and Gmail uses)."
 msgstr ""
 
-#, fuzzy
 msgid "Allowed senders"
-msgstr "Κατηγορίες"
+msgstr "Επιτρεπόμενοι αποστολείς"
 
 msgid ""
-"Only email that has a \"From\" that matches one of the following comma "
-"separated items will be posted. You can enter complete email addresses, or "
-"partial ones."
+"Only email that has a \"From\" that matches one of the following comma separated "
+"items will be posted. You can enter complete email addresses, or partial ones."
 msgstr ""
 
 msgid "Use HashCash"
 msgstr ""
 
 msgid ""
-"HashCash is the most powerful, completely invisible spam protection "
-"available. It requires javascript to be enabled on the client. If this is "
-"unacceptable for you, then don't enable it."
+"HashCash is the most powerful, completely invisible spam protection available. "
+"It requires javascript to be enabled on the client. If this is unacceptable for "
+"you, then don't enable it."
 msgstr ""
 
 #, fuzzy
@@ -3409,8 +3176,8 @@ msgstr "Ετικέτα για 'ένα σχόλιο'"
 
 msgid ""
 "Hardened Trackback is a powerful trackback spam protection. It requires "
-"javascript to be enabled on the client. If this is unacceptable for you, "
-"then don't enable it."
+"javascript to be enabled on the client. If this is unacceptable for you, then "
+"don't enable it."
 msgstr ""
 
 #, fuzzy
@@ -3418,8 +3185,8 @@ msgid "Number of links"
 msgstr "Αριθμός εγγραφών"
 
 msgid ""
-"Maximum number of hyperlinks in allowed in comments. Useful to get rid of "
-"those pesky comment spammers. Set to 0 for unlimited links."
+"Maximum number of hyperlinks in allowed in comments. Useful to get rid of those "
+"pesky comment spammers. Set to 0 for unlimited links."
 msgstr ""
 
 msgid "SpamQuiz"
@@ -3429,26 +3196,25 @@ msgid "Use SpamQuiz"
 msgstr ""
 
 msgid ""
-"Before sending a comment, your users have to answer correctly a simple "
-"question everyone knows the answer to. This completely baffles automated "
-"spam bots because every blogger will choose something different."
+"Before sending a comment, your users have to answer correctly a simple question "
+"everyone knows the answer to. This completely baffles automated spam bots "
+"because every blogger will choose something different."
 msgstr ""
 
-#, fuzzy
 msgid "Question"
-msgstr "Μετατροπή"
+msgstr "Ερώτηση"
 
 msgid "Example: What are the first two letters of the word \"spam\"?"
 msgstr ""
 
 msgid "Answer"
-msgstr ""
+msgstr "Απάντηση"
 
 msgid "Example: <b>sp</b>"
-msgstr ""
+msgstr "Παράδειγμα: <b>sp</b>"
 
 msgid "Age"
-msgstr ""
+msgstr "Ηλικία"
 
 msgid ""
 "Only ask for the spamquiz question, when the entry is older than the given "
@@ -3456,11 +3222,11 @@ msgid ""
 msgstr ""
 
 msgid "Explanation"
-msgstr ""
+msgstr "Επεξήγηση"
 
 msgid ""
-"Example: To prevent automated commentspam we require you to answer this "
-"silly question"
+"Example: To prevent automated commentspam we require you to answer this silly "
+"question"
 msgstr ""
 
 #, fuzzy
@@ -3479,54 +3245,46 @@ msgstr "Προεπιλεγμένη επέκταση"
 msgid "Widget Extensions"
 msgstr "Προεπιλεγμένη επέκταση"
 
-#, fuzzy
 msgid "version"
-msgstr "Μετατροπή"
+msgstr "έκδοση"
 
-#, fuzzy
 msgid "last updated"
 msgstr "Τελευταία αλλαγή στις "
 
-#, fuzzy
 msgid "site link"
-msgstr "δεκαέξι"
+msgstr "site link"
 
-#, fuzzy
 msgid "edit configuration"
-msgstr "Διαμόρφωση"
+msgstr "Επεξεργασία ρυθμίσεων"
 
-#, fuzzy
 msgid "Insert an image"
 msgstr "Εισαγωγή εικόνας"
 
-#, fuzzy
 msgid "Insert a popup image"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή εικόνας popup"
 
 msgid "all"
-msgstr ""
+msgstr "όλα"
 
 msgid "Oops."
-msgstr ""
+msgstr "Ωχ"
 
-#, fuzzy
 msgid "PivotX encountered an error"
-msgstr "Νέα εγγραφή στο weblog"
+msgstr "Το PivotX συνάντησε κάποιο σφάλμα"
 
 msgid ""
 "PivotX is running in 'safe mode' now. This means all extensions are disabled "
-"until you remove the file <tt>pivotxsafemode.txt</tt> from the <tt>pivotx/</"
-"tt> folder. "
+"until you remove the file <tt>pivotxsafemode.txt</tt> from the <tt>pivotx/</tt> "
+"folder. "
 msgstr ""
 
 msgid ""
-"If an extension is breaking your PivotX, you can disable the extensions from "
-"the Extensions Setup screen, and then leave safe mode to try again. "
+"If an extension is breaking your PivotX, you can disable the extensions from the "
+"Extensions Setup screen, and then leave safe mode to try again. "
 msgstr ""
 
-#, fuzzy
 msgid "PivotX error"
-msgstr "Νέα εγγραφή στο weblog"
+msgstr "Σφάλμα PivotX"
 
 #, php-format
 msgid ""
@@ -3534,13 +3292,13 @@ msgid ""
 "            %s\n"
 "            <p><tt>error code %s: %s</tt></p>\n"
 "            </p>\n"
-"            <ul><li>If you're in the process of setting up PivotX, you "
-"should review your\n"
+"            <ul><li>If you're in the process of setting up PivotX, you should "
+"review your\n"
 "            <a href='%s'>Database connection settings</a>.</li>\n"
 "            <li>If it worked before, you should check if the Mysql database "
 "engine is\n"
-"            still running on the server (or ask your systems administrator "
-"to check for you).</li>\n"
+"            still running on the server (or ask your systems administrator to "
+"check for you).</li>\n"
 "            </ol>"
 msgstr ""
 
@@ -3548,17 +3306,15 @@ msgstr ""
 msgid "The directory '<tt>%s</tt>' is not writeable."
 msgstr ""
 
-#, fuzzy
 msgid "Fatal Error"
-msgstr "Νέα εγγραφή στο weblog"
+msgstr "Σφάλμα"
 
 #, php-format
 msgid "The file '<tt>%s</tt>' is not writeable."
 msgstr ""
 
-#, fuzzy
 msgid "Fatal error"
-msgstr "Νέα εγγραφή στο weblog"
+msgstr "Σφάλμα"
 
 #, php-format
 msgid "No templates found in directory '<tt>%s</tt>'."
@@ -3574,46 +3330,45 @@ msgstr ""
 msgid "PivotX is not allowed to read this folder."
 msgstr "Δεν επιτρέπεται να κάνετε αυτό με την εγγραφή %title%!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was deleted."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Το αρχείο %s διαγράφηκε."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file has been copied: %s to %s."
-msgstr "Το αρχείο σας απεστάλη ως '%s'."
+msgstr "Το αρχείο μετακινήθηκε: απο %s σε %s."
 
 msgid ""
-"The file has <b>NOT</b> been copied. Check if the target folder is writable, "
-"and whether the target file does not exist."
-msgstr ""
+"The file has <b>NOT</b> been copied. Check if the target folder is writable, and "
+"whether the target file does not exist."
+msgstr "Το αρχείο <b>ΔΕΝ</b> μετακινήθηκε. Ελέγξτε τα δικαιώματα του φακέλου."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The folder %s was created."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Ο φάκελος %s δημιουργήθηκε."
 
 #, php-format
 msgid "The folder %s was <b>NOT</b> created."
-msgstr ""
+msgstr "Ο φάκελος <b>ΔΕΝ</b> %s δημιουργήθηκε."
 
-#, fuzzy, php-format
+#, php-format
 msgid "The file %s was created."
-msgstr "Το νέο weblog δημιουργήθηκε."
+msgstr "Το αρχείο %s δημιουργήθηκε."
 
 #, php-format
 msgid "The file %s was <b>NOT</b> created."
-msgstr ""
+msgstr "Το αρχείο <b>ΔΕΝ</b> %s δημιουργήθηκε."
 
-#, fuzzy
 msgid "(Select a template)"
-msgstr "Αποθήκευση προτύπου!"
+msgstr "Επιλογή template"
 
 #, fuzzy
 msgid "Notification from \"%site%\" - "
 msgstr "Φάτσες (emoticons)"
 
 msgid ""
-"Someone (you?) has requested a new password for the user '%user%' on the "
-"PivotX site '%site%'.\n"
+"Someone (you?) has requested a new password for the user '%user%' on the PivotX "
+"site '%site%'.\n"
 "\n"
 "To get your new password, click the following link:\n"
 "\n"
@@ -3628,74 +3383,73 @@ msgid "Password reset"
 msgstr "Συνθηματικό"
 
 msgid "just now"
-msgstr ""
+msgstr "μόλις τώρα"
 
 msgid "a few minutes ago"
-msgstr ""
+msgstr "πριν μερικά λεπτά"
 
 msgid "less than ten minutes ago"
-msgstr ""
+msgstr "πριν 10 λεπτά"
 
 msgid "15 minutes ago"
-msgstr ""
+msgstr "πριν 15 λεπτά"
 
 msgid "half an hour ago"
-msgstr ""
+msgstr "πριν μισή ώρα"
 
 msgid "about an hour ago"
-msgstr ""
+msgstr "πριν μία ώρα"
 
 msgid "an hour and a half ago"
-msgstr ""
+msgstr "πριν μιάμιση ώρα"
 
 msgid "about two hours ago"
-msgstr ""
+msgstr "πριν δύο ώρες"
 
 msgid "%value% hours ago"
-msgstr ""
+msgstr "πριν %value% ώρες"
 
 msgid "this morning"
-msgstr ""
+msgstr "σήμερα το πρωί"
 
 msgid "yesterday morning"
-msgstr ""
+msgstr "χτες το πρωί"
 
-#, fuzzy
 msgid "this evening"
-msgstr "δεκατρία"
+msgstr "σήμερα το απόγευμα"
 
 msgid "yesterday evening"
-msgstr ""
+msgstr "χτες το απόγευμα"
 
 msgid "this afternoon"
-msgstr ""
+msgstr "σήμερα το βράδυ"
 
 msgid "yesterday afternoon"
-msgstr ""
+msgstr "χτες το βράδυ"
 
 msgid "on %value%"
-msgstr ""
+msgstr "στις %value%"
 
 msgid "1 week ago"
-msgstr ""
+msgstr "πριν μία εβδομάδα"
 
 msgid "%value% weeks ago"
-msgstr ""
+msgstr "πριν %value% εβδομάδες"
 
 msgid "about a month ago"
-msgstr ""
+msgstr "πριν ένα μήνα"
 
 msgid "in %value%"
-msgstr ""
+msgstr "στις %value%"
 
 msgid "one year ago"
-msgstr ""
+msgstr "πριν ένα χρόνο"
 
 msgid "%value% years ago"
-msgstr ""
+msgstr "πριν %value% χρόνια"
 
 msgid "a very long time ago"
-msgstr ""
+msgstr "πάρα πολύ παλιά"
 
 msgid "Write"
 msgstr "Εγγραφή"
@@ -3714,17 +3468,15 @@ msgstr ""
 msgid "This is a comment on entry \"%s\""
 msgstr "Καθορίζει την τυποποίηση των σχολίων στην σελίδα εισαγωγής εγγραφής."
 
-#, fuzzy
 msgid "View this entry"
-msgstr "Ψηφίστε '%val%' για αυτήν την εγγραφή"
+msgstr "Προβολή εγγραφής"
 
-#, fuzzy
 msgid "View this comment"
-msgstr "Διαγραφή σχολίου"
+msgstr "Εμφάνιση σχολίου"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New comment on entry \"%s\""
-msgstr "Καθορίζει την τυποποίηση των σχολίων στην σελίδα εισαγωγής εγγραφής."
+msgstr "Νέο σχόλιο στην εγγραφή \"%s\""
 
 msgid "Notifications were sent to"
 msgstr ""
@@ -3737,26 +3489,25 @@ msgid "\"%s\" posted the following entry"
 msgstr ""
 
 msgid "View the complete entry"
-msgstr ""
+msgstr "Εμφάνιση ολόκληρης της εγγραφής"
 
-#, fuzzy
 msgid "View your settings"
-msgstr "Διάφορες ρυθμίσεις"
+msgstr "Προβολή ρυθμίσεων"
 
 msgid "This email was sent to"
-msgstr ""
+msgstr "Αυτό το email απεστάλη σε"
 
-#, fuzzy, php-format
+#, php-format
 msgid "New entry \"%s\""
-msgstr "Νέα εγγραφή"
+msgstr "Νέα εγγραφή \"%s\""
 
 #, php-format
 msgid "New visitor registration - %s"
-msgstr ""
+msgstr "Νέος χρήστης εγγράφηκε - %s"
 
 #, php-format
 msgid "New visitor confirmed - %s"
-msgstr ""
+msgstr "Νέος χρήστης επιβεβαιώθηκε - %s"
 
 #, fuzzy
 msgid "View visitor information"
@@ -3765,9 +3516,8 @@ msgstr "Διαμόρφωση"
 msgid "Example linkdump..."
 msgstr ""
 
-#, fuzzy
 msgid "No title.."
-msgstr "Ημερομηνία εγγραφής"
+msgstr "Δεν υπάρχει τίτλος..."
 
 msgid "%num% comment"
 msgstr "%num% σχόλιο"
@@ -3785,21 +3535,21 @@ msgstr "Ετικέτα για 'X σχόλια'"
 
 msgid ""
 "The Hashcash code was not valid, so this comment could not be posted. If you "
-"believe this is an error, please make sure you have a modern browser, and "
-"that Javascript is enabled. If it still doesn't work, contact the maintainer "
-"of this website."
+"believe this is an error, please make sure you have a modern browser, and that "
+"Javascript is enabled. If it still doesn't work, contact the maintainer of this "
+"website."
 msgstr ""
 
 msgid ""
-"The Spamquiz answer was not correct, so this comment could not be posted. If "
-"you believe this is an error, please try again. If it still doesn't work, "
-"contact the maintainer of this website."
+"The Spamquiz answer was not correct, so this comment could not be posted. If you "
+"believe this is an error, please try again. If it still doesn't work, contact "
+"the maintainer of this website."
 msgstr ""
 
 #, fuzzy
 msgid ""
-"You are previewing your comment. Be sure to click on \"Post Comment\" to "
-"store it."
+"You are previewing your comment. Be sure to click on \"Post Comment\" to store "
+"it."
 msgstr ""
 "Είστε στην προεπισκόπηση του σχολίου. Βεβαιωθείτε ότι θα πατήσετε στην "
 "'Δημοσίευση σχολίου' για να το αποθηκεύσετε."
@@ -3820,8 +3570,8 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"Your comment has been stored. Because comment moderation is enabled, it is "
-"now waiting for approval by an editor."
+"Your comment has been stored. Because comment moderation is enabled, it is now "
+"waiting for approval by an editor."
 msgstr ""
 "Το σχόλιό σας δεν έχει αποθηκευτεί, γιατί φαίνεται να είναι αντίγραφο μιας "
 "προηγούμενης εγγραφής"
@@ -3831,8 +3581,8 @@ msgstr "Το σχόλιό σας αποθηκεύτηκε."
 
 #, fuzzy
 msgid ""
-"You should type your name (or an alias) in the \"name\"-field. Be sure to "
-"click on \"Post Comment\" to store it permanently."
+"You should type your name (or an alias) in the \"name\"-field. Be sure to click "
+"on \"Post Comment\" to store it permanently."
 msgstr ""
 "Θα πρέπει να πληκτρολογήσετε το όνομά σας (ή το ψευδώνυμό σας) στο πεδίο "
 "'Όνομα'. Σιγουρευτείτε ότι θα πατήσετε το 'Δημοσίευση σχολίου' για να "
@@ -3840,11 +3590,11 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"You should type something in the \"comment\"-field. Be sure to click on "
-"\"Post Comment\" to store it permanently."
+"You should type something in the \"comment\"-field. Be sure to click on \"Post "
+"Comment\" to store it permanently."
 msgstr ""
-"Θα πρέπει να πληκτρολογήσετε κάτι στο πεδίο 'comment'. Βεβαιωθείτε ότι "
-"πατήσατε το 'Δημοσίευση σχολίου' γιαα  ντο αποθηκεύσετε μόνιμα."
+"Θα πρέπει να πληκτρολογήσετε κάτι στο πεδίο 'comment'. Βεβαιωθείτε ότι πατήσατε "
+"το 'Δημοσίευση σχολίου' γιαα  ντο αποθηκεύσετε μόνιμα."
 
 msgid "The maximum number of hyperlinks was exceeded. Stop spamming."
 msgstr ""
@@ -3864,9 +3614,9 @@ msgid "PivotX thumbnail creator"
 msgstr "αλλαγή thumbnail"
 
 msgid ""
-"When using GIF files, there is a significant chance that you can't use "
-"PivotX to make thumbnails. If you have problems with making thumbnails, we "
-"suggest using PNG or JPG files."
+"When using GIF files, there is a significant chance that you can't use PivotX to "
+"make thumbnails. If you have problems with making thumbnails, we suggest using "
+"PNG or JPG files."
 msgstr ""
 
 msgid "You can only make thumbnails of .gif, .jpg and .png images with PivotX."
@@ -3884,7 +3634,7 @@ msgid "Crop size"
 msgstr "Κώδικός"
 
 msgid "can not be opened"
-msgstr ""
+msgstr "δε μπορεί να ανοιχτεί"
 
 msgid "This file extension is not supported, please try JPG, GIF or PNG"
 msgstr ""
@@ -3914,30 +3664,26 @@ msgstr "αλλαγή thumbnail"
 msgid "Create Thumbnail"
 msgstr "(Δημιουργία Thumbnail)"
 
-#, fuzzy
 msgid "Go"
 msgstr "Πάμε!"
 
-#, fuzzy
 msgid "Back"
-msgstr "Αντίγραφα ασφαλείας"
+msgstr "Πίσω"
 
 msgid "if the thumbnail is not satisfactory"
 msgstr ""
 
-#, fuzzy
 msgid "Close"
-msgstr "Κώδικός"
+msgstr "Κλείσιμο"
 
 msgid "this window"
-msgstr ""
+msgstr "αυτό το παράθυρο"
 
 msgid "Added by PivotX on:"
-msgstr ""
+msgstr "Προστέθηκε στο PvotX στις:"
 
-#, fuzzy
 msgid "Added on:"
-msgstr "Δημιουργήθηκε στις "
+msgstr "Προστέθηκε στις:"
 
 msgid "Sunday"
 msgstr "Κυριακή"
@@ -4003,40 +3749,40 @@ msgid "Sat"
 msgstr "Σα"
 
 msgid "January"
-msgstr "Ιανουάριος"
+msgstr "Ιανουναρίου"
 
 msgid "February"
-msgstr "Φεβρουάριος"
+msgstr "Φεβρουαρίου"
 
 msgid "March"
-msgstr "Μάρτιος"
+msgstr "Μαρτίου"
 
 msgid "April"
-msgstr "Απρίλιος"
+msgstr "Απριλίου"
 
 msgid "May"
-msgstr "Μάιος"
+msgstr "Μαίου"
 
 msgid "June"
-msgstr "Ιούνιος"
+msgstr "Ιουνίου"
 
 msgid "July"
-msgstr "Ιούλιος"
+msgstr "Ιουλίου"
 
 msgid "August"
-msgstr "Αύγουστος"
+msgstr "Αυγούστου"
 
 msgid "September"
-msgstr "Σεπτέμβριος"
+msgstr "Σεπτεμβρίου"
 
 msgid "October"
-msgstr "Οκτώβριος"
+msgstr "Οκτωβρίου"
 
 msgid "November"
-msgstr "Νοέμβριος"
+msgstr "Νοεμβρίου"
 
 msgid "December"
-msgstr "Δεκέμβριος"
+msgstr "Δεκεμβρίου"
 
 msgid "Jan_January_abbreviation"
 msgstr "Ιαν"
@@ -4074,18 +3820,17 @@ msgstr "Νοε"
 msgid "Dec_December_abbreviation"
 msgstr "Δεκ"
 
-#, fuzzy
 msgid "am"
-msgstr "Όνομα"
+msgstr "πμ"
 
 msgid "pm"
-msgstr ""
+msgstr "μμ"
 
 msgid "AM"
-msgstr ""
+msgstr "ΠΜ"
 
 msgid "PM"
-msgstr ""
+msgstr "ΜΜ"
 
 msgid "zero"
 msgstr "μηδέν"
@@ -4138,127 +3883,103 @@ msgstr "δεκαπέντε"
 msgid "sixteen"
 msgstr "δεκαέξι"
 
-#, fuzzy
 msgid "seventeen"
-msgstr "επτά"
+msgstr "δεκαεπτά"
 
-#, fuzzy
 msgid "eigthteen"
-msgstr "οκτώ"
+msgstr "δεκαοχτώ"
 
-#, fuzzy
 msgid "nineteen"
-msgstr "εννέα"
+msgstr "δεκαεννέα"
 
-#, fuzzy
 msgid "twenty"
-msgstr "Νέα εγγραφή"
+msgstr "είκοσι"
 
-#, fuzzy
 msgid "zeroth"
 msgstr "μηδέν"
 
-#, fuzzy
 msgid "second"
-msgstr "Δευτερόλεπτο"
+msgstr "δεύτερο"
 
-#, fuzzy
 msgid "third"
-msgstr "δεκατρία"
+msgstr "τρίτο"
 
-#, fuzzy
 msgid "forth"
-msgstr "τέσσερα"
+msgstr "τέταρτο"
 
-#, fuzzy
 msgid "fifth"
-msgstr "δεκαπέντε"
+msgstr "πέμπτο"
 
-#, fuzzy
 msgid "sixth"
-msgstr "έξι"
+msgstr "έκτο"
 
-#, fuzzy
 msgid "seventh"
-msgstr "επτά"
+msgstr "έβδομο"
 
-#, fuzzy
 msgid "eighth"
-msgstr "οκτώ"
+msgstr "όγδοο"
 
-#, fuzzy
 msgid "ninth"
-msgstr "εννέα"
+msgstr "έννατο"
 
-#, fuzzy
 msgid "tenth"
-msgstr "δέκα"
+msgstr "δέκατο"
 
-#, fuzzy
 msgid "eleventh"
-msgstr "έντεκα"
+msgstr "ενδέκατο"
 
-#, fuzzy
 msgid "twelfth"
-msgstr "δώδεκα"
+msgstr "δωδέκατο"
 
-#, fuzzy
 msgid "thirteenth"
-msgstr "δεκατρία"
+msgstr "δέκατο τρίτο"
 
-#, fuzzy
 msgid "fourteenth"
-msgstr "δεκατέσσερα"
+msgstr "δέκατο τέταρτο"
 
-#, fuzzy
 msgid "fifteenth"
-msgstr "δεκαπέντε"
+msgstr "δέκατο πέμπτο"
 
-#, fuzzy
 msgid "sixteenth"
-msgstr "δεκαέξι"
+msgstr "δέκατο έκτο"
 
-#, fuzzy
 msgid "seventeenth"
-msgstr "επτά"
+msgstr "δέκατο έβδομο"
 
-#, fuzzy
 msgid "eighteenth"
-msgstr "οκτώ"
+msgstr "δέκατο όγδοο"
 
-#, fuzzy
 msgid "nineteenth"
-msgstr "εννέα"
+msgstr "δέκατο έννατο"
 
-#, fuzzy
 msgid "twentieth"
-msgstr "δέκα"
+msgstr "εικοστό"
 
 #, php-format
 msgid ""
-"The current version of PHP on the server is %s, which is an older version "
-"than PivotX requires (%s). PivotX will most likely not work correctly, until "
-"the server is updated to a newer version."
+"The current version of PHP on the server is %s, which is an older version than "
+"PivotX requires (%s). PivotX will most likely not work correctly, until the "
+"server is updated to a newer version."
 msgstr ""
 
 msgid ""
 "This webserver has safe_mode enabled. This doesn't actually make things any "
-"'safer', just more annoying. Please ask your hosting provider to turn it "
-"off. See the documentation for more info: <a href='http://docs.pivotx.net/"
-"doku.php?id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
+"'safer', just more annoying. Please ask your hosting provider to turn it off. "
+"See the documentation for more info: <a href='http://docs.pivotx.net/doku.php?"
+"id=dealing_with_safe_mode'>Dealing with safe_mode</a>."
 msgstr ""
 
 msgid ""
-"The PivotX installer script \"pivotx-setup.php\" is still present in the "
-"parent folder. You should be aware that this is a potential security risk. "
-"We advise you to remove it, or to set an empty password inside it, so that "
-"it can't be executed by people with bad intentions."
+"The PivotX installer script \"pivotx-setup.php\" is still present in the parent "
+"folder. You should be aware that this is a potential security risk. We advise "
+"you to remove it, or to set an empty password inside it, so that it can't be "
+"executed by people with bad intentions."
 msgstr ""
 
 msgid ""
 "The old Pivot installer script \"pivot-setup.php\" is still present in the "
-"parent folder. Please remove it immediately since it's not used for PivotX "
-"and it is a potential security risk."
+"parent folder. Please remove it immediately since it's not used for PivotX and "
+"it is a potential security risk."
 msgstr ""
 
 #, php-format
@@ -4269,47 +3990,46 @@ msgid ""
 msgstr ""
 
 msgid ""
-"You are currently logged in at a different location than the preferred one. "
-"This might cause problems with wrongly calculated links. Please click here "
-"to go to the correct location:"
+"You are currently logged in at a different location than the preferred one. This "
+"might cause problems with wrongly calculated links. Please click here to go to "
+"the correct location:"
 msgstr ""
 
 msgid ""
 "This webserver has register_globals enabled. This is a serious potential "
 "security issue. Please ask your hosting provider to turn it off. See the PHP "
-"documentation for more info: <a href='http://php.net/"
-"register_globals'>Register Globals</a>."
+"documentation for more info: <a href='http://php.net/register_globals'>Register "
+"Globals</a>."
 msgstr ""
 
 msgid ""
-"Your password is not fully encrypted yet. Please go to %myinfo%, and set "
-"your password again."
+"Your password is not fully encrypted yet. Please go to %myinfo%, and set your "
+"password again."
 msgstr ""
 
-#, fuzzy
 msgid "folder "
-msgstr "Διαχωριστική γραμμή"
+msgstr "φάκελος"
 
 #, php-format
 msgid ""
-"There's an executable file in one of the 'open' folders. You should remove "
-"this file immediately: <tt>%s</tt>."
+"There's an executable file in one of the 'open' folders. You should remove this "
+"file immediately: <tt>%s</tt>."
 msgstr ""
 
 msgid ""
-"If you do not know where this file came from, please report this incident on "
-"our Forum. Please keep a back-up copy of the file for our inspection."
+"If you do not know where this file came from, please report this incident on our "
+"Forum. Please keep a back-up copy of the file for our inspection."
 msgstr ""
 
 #, php-format
 msgid ""
-"One or more files inside the <tt>'%s'</tt> folder are not readable or "
-"writable by PivotX."
+"One or more files inside the <tt>'%s'</tt> folder are not readable or writable "
+"by PivotX."
 msgstr ""
 
 msgid ""
-"Please log in using your FTP or Shell client, and change the filerights "
-"(chmod) so that PivotX has both read and write access to these files."
+"Please log in using your FTP or Shell client, and change the filerights (chmod) "
+"so that PivotX has both read and write access to these files."
 msgstr ""
 
 #, fuzzy, php-format
@@ -4320,13 +4040,11 @@ msgstr "Αποστολή αρχείων"
 msgid "Click for image"
 msgstr "Παρουσίαση των τελευταίων"
 
-#, fuzzy
 msgid "Your entry has been posted!"
-msgstr "Το σχόλιό σας αποθηκεύτηκε."
+msgstr "Η εγγραφή δημοσιεύτηκε!"
 
-#, fuzzy
 msgid "User"
-msgstr "Χρήστες"
+msgstr "Χρήστης"
 
 msgid "Moblog entry posted"
 msgstr ""
@@ -4344,9 +4062,8 @@ msgstr ""
 msgid "Processed: %s"
 msgstr ""
 
-#, fuzzy
 msgid "Enable multiple languages"
-msgstr "Προεπιλογή γλώσσας"
+msgstr "Ενεργοποίηση πολλαπλών γλωσσών"
 
 #, fuzzy
 msgid "Language used if none could be detected."
@@ -4383,11 +4100,10 @@ msgid ""
 msgstr ""
 
 msgid "Nederlands"
-msgstr ""
+msgstr "Ολλανδικά"
 
-#, fuzzy
 msgid "English"
-msgstr "Τέλος"
+msgstr "Αγγλικά"
 
 msgid "Nothing needs to be translated yet."
 msgstr ""
@@ -4396,11 +4112,11 @@ msgid "Tag cloud for"
 msgstr ""
 
 msgid ""
-"This page shows the global Tag Cloud for this website. Tags that are used "
-"more often are shown in a larger font, so this Cloud gives you a quick "
-"overview of what's happening on the site. Click on one of the Tags to go to "
-"an overview page that shows all entries and pages that are related to the "
-"Tag, as well as other relevant information."
+"This page shows the global Tag Cloud for this website. Tags that are used more "
+"often are shown in a larger font, so this Cloud gives you a quick overview of "
+"what's happening on the site. Click on one of the Tags to go to an overview page "
+"that shows all entries and pages that are related to the Tag, as well as other "
+"relevant information."
 msgstr ""
 
 msgid "Weblog not found (404 error)"
@@ -4413,7 +4129,7 @@ msgid "Page not found (404 error)"
 msgstr ""
 
 msgid "Not found (404 error)"
-msgstr ""
+msgstr "Η σελίδα δεν βρέθηκε"
 
 msgid "The page isn't published or doesn't exist."
 msgstr ""
@@ -4429,13 +4145,11 @@ msgstr ""
 msgid "The %s \"%s\" given by the \"%s\" parameter in the URL, doesn't exist"
 msgstr ""
 
-#, fuzzy
 msgid "weblog"
-msgstr "Weblogs"
+msgstr "weblogs"
 
-#, fuzzy
 msgid "entry"
-msgstr "Νέα εγγραφή"
+msgstr "εγγραφή"
 
 #, fuzzy
 msgid "RSS feed"
@@ -4453,9 +4167,8 @@ msgstr "Κανένα σχόλιο"
 msgid "Atom feed for comments"
 msgstr "Κανένα σχόλιο"
 
-#, fuzzy
 msgid "category"
-msgstr "Κατηγορία"
+msgstr "κατηγορία"
 
 #, php-format
 msgid "Note: '%s' is enabled, which affects the performance of this site."
@@ -4475,9 +4188,8 @@ msgstr "Αλλαγή"
 msgid "No debug output."
 msgstr ""
 
-#, fuzzy
 msgid "(more)"
-msgstr "ένα"
+msgstr "(περισσότερα)"
 
 #, php-format
 msgid "%1.2f sec: Processed %d entries..."
@@ -4503,10 +4215,10 @@ msgid "Search for words used in entries and pages on this website"
 msgstr ""
 
 msgid "Enter the word[s] to search for here:"
-msgstr ""
+msgstr "Εισάγετε τις λέξεις για αναζήτηση εδώ:"
 
 msgid "Enter search terms"
-msgstr ""
+msgstr "Εισάγεται όρους αναζήτησης"
 
 msgid "Search!"
 msgstr "Αναζήτηση!"
@@ -4520,14 +4232,13 @@ msgid "XML: Atom Feed"
 msgstr "XML Τροφοδοσία (RSS 1.0)"
 
 msgid "ok"
-msgstr ""
+msgstr "ok"
 
-#, fuzzy
 msgid "One comment"
-msgstr "%num% σχόλιο"
+msgstr "1 σχόλιο"
 
 msgid "One or more comments are waiting for approval by an editor."
-msgstr ""
+msgstr "Υπάρχουν σχόλια που περιμένουν έγκριση"
 
 msgid "Emoticons"
 msgstr "Φάτσες (emoticons)"
@@ -4549,9 +4260,8 @@ msgstr "Νέα εγγραφή στο weblog"
 msgid "XML Feed template"
 msgstr "Δημιουργία προτύπου"
 
-#, fuzzy
 msgid "Text file"
-msgstr "Textile"
+msgstr "Αρχείο κειμένου"
 
 msgid "PHP script"
 msgstr ""
@@ -4619,16 +4329,15 @@ msgid "PivotX error page"
 msgstr "Νέα εγγραφή στο weblog"
 
 msgid ""
-"Comment moderation is enabled on this site. This means that your comment "
-"will not be visible until it has been approved by an editor."
+"Comment moderation is enabled on this site. This means that your comment will "
+"not be visible until it has been approved by an editor."
 msgstr ""
 
-#, fuzzy
 msgid "account"
-msgstr "Διαγραφή σχολίου"
+msgstr "λογαριασμός"
 
 msgid "register/login"
-msgstr ""
+msgstr "Σύνδεση"
 
 msgid "XML: RSS Feed"
 msgstr "XML Τροφοδοσία (RSS 1.0)"
@@ -4659,27 +4368,22 @@ msgid "Tagged external link"
 msgstr ""
 
 msgid "Entries tagged with"
-msgstr ""
+msgstr "Εγγραφές με ετικέτα"
 
-#, fuzzy
 msgid "words"
-msgstr "Συνθηματικό"
+msgstr "λέξεις"
 
-#, fuzzy
 msgid "image"
-msgstr "Όνομα εικόνας"
+msgstr "εικόνα"
 
-#, fuzzy
 msgid "images"
-msgstr "Όνομα εικόνας"
+msgstr "εικόνες"
 
-#, fuzzy
 msgid "file"
-msgstr "πέντε"
+msgstr "αρχείο"
 
-#, fuzzy
 msgid "files"
-msgstr "Αρχεία"
+msgstr "αρχεία"
 
 msgid "Tags used in this posting"
 msgstr ""
@@ -4734,20 +4438,19 @@ msgid "Log in as a registered visitor"
 msgstr ""
 
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "Ξεχάσατε τον κωδικό σας;"
 
 msgid "Register a new username."
 msgstr ""
 
 msgid "Logged in as"
-msgstr ""
+msgstr "Συνδέθηκε ως"
 
 msgid "Log out."
-msgstr ""
+msgstr "Αποσύνδεση"
 
-#, fuzzy
 msgid "Delete account."
-msgstr "Διαγραφή σχολίου"
+msgstr "Διαγραφή λογαριασμού"
 
 msgid "Edit your preferences"
 msgstr ""
@@ -4755,26 +4458,22 @@ msgstr ""
 msgid "User disabled"
 msgstr ""
 
-#, fuzzy
 msgid "Incorrect password or username"
 msgstr "Λανθασμένο όνομα/συνθηματικό"
 
-#, fuzzy
 msgid "Logged in"
-msgstr "Εισαγωγή"
+msgstr "Συνδέθηκε"
 
 msgid "Register"
 msgstr ""
 
 msgid ""
-"Please fill out the following information. <strong>Be sure to give a valid "
-"email address</strong>, because we will send a verification email to that "
-"address."
+"Please fill out the following information. <strong>Be sure to give a valid email "
+"address</strong>, because we will send a verification email to that address."
 msgstr ""
 
-#, fuzzy
 msgid "Options"
-msgstr "Επιλογές αποσφαλμάτωσης (debug)"
+msgstr "Επιλογές"
 
 msgid "Back to login"
 msgstr ""
@@ -4808,8 +4507,8 @@ msgid "Reset password"
 msgstr "Δεύτερο πέρασμα"
 
 msgid ""
-"If you've forgotten your password, enter your username and PivotX will send "
-"you an email with a link to reset your password."
+"If you've forgotten your password, enter your username and PivotX will send you "
+"an email with a link to reset your password."
 msgstr ""
 
 msgid "User already exists... Please pick another name."
@@ -4819,20 +4518,18 @@ msgid "Email address is already taken... Please use another address."
 msgstr ""
 
 msgid "Password must be at least 4 letters long."
-msgstr ""
+msgstr "Ο κωδικός πρέπει να είναι τουλάχιστον 4 χαρακτήρες"
 
 msgid ""
-"You must give your email address, since without it'll be impossible to "
-"verify your account. You can always choose not to show your address to other "
-"visitors."
+"You must give your email address, since without it'll be impossible to verify "
+"your account. You can always choose not to show your address to other visitors."
 msgstr ""
 
-#, fuzzy
 msgid "The changes have been stored"
-msgstr "Οι IP διευθύνσεις αποθηκεύτηκαν."
+msgstr "Οι αλλαγές αποθηκεύτηκαν"
 
 msgid "Your account is verified. Please log in.."
-msgstr ""
+msgstr "Ο λογαριασμός επιβεβαιώθηκε. Μπορείτε να συνδεθείτε..."
 
 msgid "That code seems to be incorrect. I'm sorry, but I can't verify."
 msgstr ""
@@ -4841,21 +4538,19 @@ msgid "A link to reset your password was sent to your mailbox."
 msgstr ""
 
 msgid "Account deleted."
-msgstr ""
+msgstr "Ο λογαριασμός διαγράφηκε."
 
 msgid "Logged out"
-msgstr ""
+msgstr "αποσυνδέθηκε"
 
-#, fuzzy
 msgid "Back to"
-msgstr "Αντίγραφα ασφαλείας"
+msgstr "Πίσω σε"
 
-#, fuzzy
 msgid "User stored!"
-msgstr "Χρήση κειμένου"
+msgstr "Ο χρήστης αποθηκεύτηκε!"
 
 msgid "Could not store new user!!"
-msgstr ""
+msgstr "Αποτυχία αποθήκευσης νέου χρήστη!"
 
 #, php-format
 msgid ""
@@ -4875,7 +4570,7 @@ msgid "Registration confirmation"
 msgstr "Διαμόρφωση"
 
 msgid "Verify your account"
-msgstr ""
+msgstr "Επιβεβαίωση λογαριασμού"
 
 #, php-format
 msgid ""
@@ -4883,114 +4578,110 @@ msgid ""
 "your account."
 msgstr ""
 
-msgid ""
-"Please enable Javascript (and reload this page) to view the email address."
+msgid "Please enable Javascript (and reload this page) to view the email address."
 msgstr ""
 
-#, fuzzy
 msgid "My weblog"
-msgstr "Weblogs"
+msgstr "Το weblog μου"
 
 #, php-format
 msgid "Blocked login attempt from '%s'."
 msgstr ""
 
 msgid ""
-"Too many failed login attempts from this IP address. Please contact your "
-"site administrator to unblock your account."
+"Too many failed login attempts from this IP address. Please contact your site "
+"administrator to unblock your account."
 msgstr ""
 
 msgid "Incorrect username/password"
 msgstr "Λανθασμένο όνομα/συνθηματικό"
 
 msgid "Successfully logged in"
-msgstr ""
+msgstr "Επιτυχής σύνδεση"
 
 #, php-format
 msgid "Failed login attempt from '%s'."
-msgstr ""
+msgstr "Αποτυχία σύνδεσης για τον '%s'."
 
 msgid "Next page"
-msgstr ""
+msgstr "Επόμενη σελίδα"
 
-#, fuzzy
 msgid "Previous page"
-msgstr "Προηγούμενη αρχειοθέτηση"
+msgstr "Προηγούμενη σελίδα"
 
 msgid "Displaying entries %num_from%-%num_to% of %num_tot%"
-msgstr ""
+msgstr "Εμφανίζονται εγγραφές %num_from%-%num_to% από %num_tot%"
 
-#, fuzzy
 msgid "A visitor"
-msgstr "Επεξεργασία χρήστη"
+msgstr "Ένας επισκέπτης"
 
 #, php-format
 msgid "%s started editing entry '%s'."
-msgstr ""
+msgstr "%s ξεκίνησε να επεξεργάζεται την εγγραφή '%s'."
 
 #, php-format
 msgid "%s started editing page '%s'."
-msgstr ""
+msgstr "%s ξεκίνησε να επεξεργάζεται την σελίδα '%s'."
 
 #, php-format
 msgid "%s saved entry '%s'."
-msgstr ""
+msgstr "%s έσωσε την εγγραφή '%s'."
 
 #, php-format
 msgid "%s saved page '%s'."
-msgstr ""
+msgstr "%s έσωσε την σελίδα '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s logged in."
-msgstr "Εισαγωγή"
+msgstr "%s συνδέθηκε."
 
 #, php-format
 msgid "%s logged out."
-msgstr ""
+msgstr "%s αποσυνδέθηκε."
 
 #, php-format
 msgid "Failed login attempt for '%s'."
-msgstr ""
+msgstr "Ααποτυχία σύνδεσης για τον χρήστη '%s'."
 
 #, php-format
 msgid "%s edited the setting for '%s'."
-msgstr ""
+msgstr "%s επεξεργάστηκε μια ρύθμιση για '%s'."
 
 #, php-format
 msgid "%s added weblog '%s'."
-msgstr ""
+msgstr "%s πρόσθεσε το weblog '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited a weblog setting for '%s'."
-msgstr "Αλλαγή ρυθμίσεων του Weblog για "
+msgstr "%s επεξεργάστηκε το weblog '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted weblog '%s'."
-msgstr "Διαγραφή αυτού του weblog."
+msgstr "%s διέγραψε το weblog '%s'."
 
 #, php-format
 msgid "%s saved the file '%s'."
-msgstr ""
+msgstr "%s έσωσε το αρχείο '%s'."
 
 #, php-format
 msgid "%s added user '%s'."
-msgstr ""
+msgstr "%s πρόσθεσε τον χρήστη '%s'."
 
 #, php-format
 msgid "%s edited user '%s'."
-msgstr ""
+msgstr "%s επεξεργάστηκε τον χρήστη '%s'."
 
 #, php-format
 msgid "%s deleted user '%s'."
-msgstr ""
+msgstr "%s διέγραψε τον χρήστη '%s'."
 
 #, php-format
 msgid "%s edited category '%s'."
-msgstr ""
+msgstr "%s τροποποίησε την κατηγορία '%s'."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted category '%s'."
-msgstr "Διαγραφή κατηγορίας"
+msgstr "%s διέγραψε την κατηγορία '%s'."
 
 #, php-format
 msgid "%s added chapter '%s'."
@@ -5002,14 +4693,14 @@ msgstr ""
 
 #, php-format
 msgid "%s did '%s' on '%s'."
-msgstr ""
+msgstr "%s έκανε '%s' στο '%s'."
 
 #, php-format
 msgid "%s did '%s'."
-msgstr ""
+msgstr "%s έκανε '%s'."
 
 msgid "Your new password is %pass%."
-msgstr ""
+msgstr "Ο νέος κωδικός σας είναι %pass%."
 
 msgid "PivotX was not able to send a mail with the reset link."
 msgstr ""
@@ -5017,44 +4708,35 @@ msgstr ""
 msgid "Setup user"
 msgstr ""
 
-#, fuzzy
 msgid "Setup a new user"
 msgstr "Δημιουργία νέου χρήστη"
 
 msgid "The user has been added! You can login with your new account now."
-msgstr ""
+msgstr "Ο χρήστης προστέθηκε! Μπορείτε τώρα να κάνετε συνδεθείτε."
 
-#, fuzzy
 msgid "The entries were published."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Η εγγραδή δημοσιεύτηκε."
 
-#, fuzzy
 msgid "The entries could not be published."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Οι εγγραφές δεν είναι δυνατόν να δημοσιευτούν."
 
-#, fuzzy
 msgid "The entries were put on hold."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Η εγγραφή μπήκε σε κατάσταση αναμονής."
 
-#, fuzzy
 msgid "The entries could not be put on hold."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Η εγγραφή δεν είναι δυνατόν να μπει σε κατάσταση αναμονής."
 
-#, fuzzy
 msgid "The entries were deleted."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Οι εγγραφές διαγράφηκαν."
 
-#, fuzzy
 msgid "The entries could not be deleted."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Οι εγγραφές δεν είναι δυνατόν να διαγραφούν."
 
-#, fuzzy
 msgid "You are not allowed to delete this entry."
-msgstr "Δεν επιτρέπεται να κάνετε αυτό με την εγγραφή %title%!"
+msgstr "Δεν επιτρέπεται να διαγράψετε αυτή την εγγραφή."
 
-#, fuzzy
 msgid "The entry has been deleted"
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Η εγγραφή διαγράφηκε."
 
 #, fuzzy
 msgid "Your Extension settings have been stored."
@@ -5064,9 +4746,8 @@ msgstr "To weblog ανανεώθηκε."
 msgid "Manage installed Widget extensions"
 msgstr "Προεπιλεγμένη επέκταση"
 
-#, fuzzy
 msgid "Edit Entry"
-msgstr "Αλλαγή εγγραφής"
+msgstr "Επεξεργασία εγγραφής"
 
 #, fuzzy
 msgid "You are not allowed to edit this entry."
@@ -5085,7 +4766,7 @@ msgid "A trackback ping has been sent to \"%s\"."
 msgstr ""
 
 msgid "Log out"
-msgstr ""
+msgstr "Έξοδος"
 
 #, fuzzy
 msgid "You are now logged out of PivotX"
@@ -5107,8 +4788,8 @@ msgstr "To weblog ανανεώθηκε."
 
 msgid ""
 "Add a personal 'Quick post' Bookmarklet to your browser, with the following "
-"link. Drag the link to your browser's Bookmark Toolbar, or right-click the "
-"link, and choose 'Add Bookmark'."
+"link. Drag the link to your browser's Bookmark Toolbar, or right-click the link, "
+"and choose 'Add Bookmark'."
 msgstr ""
 
 msgid "Post to PivotX"
@@ -5132,13 +4813,11 @@ msgstr "Δεν επιτρέπεται να σβήσετε την εγγραφή 
 msgid "The Chapter has been deleted."
 msgstr "Το σχόλιο διαγράφηκε."
 
-#, fuzzy
 msgid "You are not allowed to delete this page."
-msgstr "Δεν επιτρέπεται να σβήσετε την εγγραφή %title%!"
+msgstr "Δεν επιτρέπεται να σβήσετε την σελίδα."
 
-#, fuzzy
 msgid "The Page has been deleted."
-msgstr "Το weblog σβήστηκε."
+msgstr "Η σελίδα διαγράφηκε."
 
 #, fuzzy
 msgid "You are not allowed to add/edit this page."
@@ -5185,7 +4864,6 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 msgid "Edit or Delete Comments for Entry %number% - %editlink%"
 msgstr ""
 
-#, fuzzy
 msgid "The comment was deleted."
 msgstr "Το σχόλιο διαγράφηκε."
 
@@ -5195,7 +4873,6 @@ msgstr ""
 msgid "Edit or Delete Comments"
 msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
-#, fuzzy
 msgid "The Comment was saved!"
 msgstr "Το σχόλιο αποθηκεύτηκε."
 
@@ -5221,14 +4898,13 @@ msgid "The visitor account has been deleted."
 msgstr "Το σχόλιο διαγράφηκε."
 
 msgid "Failed to deleted the visitor account."
-msgstr ""
+msgstr "Αποτυχία διαγραφής λογαριασμού επισκέπτη."
 
-#, fuzzy
 msgid "The category was deleted."
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Η κατηγορία διαγράφηκε."
 
 msgid "The weblog has been deleted."
-msgstr "Το weblog σβήστηκε."
+msgstr "Το weblog διαγράφηκε."
 
 #, fuzzy
 msgid "The weblog was exported as a Theme file."
@@ -5237,23 +4913,18 @@ msgstr "Το weblog σβήστηκε."
 msgid "Create New Weblog"
 msgstr "Δημιουργία νέου Weblog"
 
-#, fuzzy
 msgid "Common settings"
-msgstr "Ρυθμίσεις σχολιασμού"
+msgstr "Ρυθμίσεις"
 
-#, fuzzy
 msgid "Database"
-msgstr "Ημερομηνία"
+msgstr "Βάση δεδομένων"
 
-#, fuzzy
 msgid "Debug"
 msgstr "Λειτουργία αποσφαλμάτωσης"
 
-#, fuzzy
 msgid "File Uploads"
-msgstr "Μονοπάτι αποστολής αρχείου"
+msgstr "Μεταφορτώσεις Αρχείων"
 
-#, fuzzy
 msgid "Date / Time"
 msgstr "Ημερομηνία/Ώρα"
 
@@ -5262,14 +4933,13 @@ msgid "Moblogging"
 msgstr "Moblogger"
 
 msgid "Multilingual"
-msgstr ""
+msgstr "Πολυγλωσσικό"
 
 msgid "OOPs"
 msgstr ""
 
-#, fuzzy
 msgid "Texts"
-msgstr "Κείμενο"
+msgstr "Κείμενα"
 
 msgid "OOPs/Help"
 msgstr ""
@@ -5280,23 +4950,23 @@ msgstr "Επαναδημιουργία των ευρετηρίων της Βάσ
 msgid ""
 "Now building Index. This may take a short while, so please do not interrupt."
 msgstr ""
-"Γίνεται κατασκευή ευρετηρίου. Μπορεί να πάρει κάποιο χρόνο, γι' αυτό "
-"παρακαλώ μην το σταματήσετε."
+"Γίνεται κατασκευή ευρετηρίου. Μπορεί να πάρει κάποιο χρόνο, γι' αυτό παρακαλώ "
+"μην το σταματήσετε."
 
 msgid "Rebuild the Search Index"
 msgstr "Επαναδημιουργία του ευρετηρίου αναζήτησης"
 
 msgid "Rebuild the Searchindex, to allow searching in entries"
 msgstr ""
-"Επαναδημιουργία του ευρετηρίου αναζήτησης, ώστε να είναι δυνατή η αναζήτηση "
-"σε εγγραφές."
+"Επαναδημιουργία του ευρετηρίου αναζήτησης, ώστε να είναι δυνατή η αναζήτηση σε "
+"εγγραφές."
 
 msgid ""
 "Now building Search Index. This may take a short while, so please do not "
 "interrupt."
 msgstr ""
-"Γίνεται κατασκευή του ευρετηρίου αναζήτησης. Μπορεί να πάρει κάποιον χρόνο, "
-"γι' αυτό παρακαλώ μην το σταματήσετε."
+"Γίνεται κατασκευή του ευρετηρίου αναζήτησης. Μπορεί να πάρει κάποιον χρόνο, γι' "
+"αυτό παρακαλώ μην το σταματήσετε."
 
 #, fuzzy
 msgid "Rebuild the Tag Index"
@@ -5304,32 +4974,28 @@ msgstr "Επαναδημιουργία του ευρετηρίου"
 
 #, fuzzy
 msgid ""
-"Now building Tag Index. This may take a short while, so please do not "
-"interrupt."
+"Now building Tag Index. This may take a short while, so please do not interrupt."
 msgstr ""
-"Γίνεται κατασκευή ευρετηρίου. Μπορεί να πάρει κάποιο χρόνο, γι' αυτό "
-"παρακαλώ μην το σταματήσετε."
+"Γίνεται κατασκευή ευρετηρίου. Μπορεί να πάρει κάποιο χρόνο, γι' αυτό παρακαλώ "
+"μην το σταματήσετε."
 
 msgid ""
-"NB! Backup the (entries) database using your ISP control panel or the "
-"command line."
+"NB! Backup the (entries) database using your ISP control panel or the command "
+"line."
 msgstr ""
 
 #, php-format
 msgid "deleted %s cache files in %s seconds."
 msgstr ""
 
-#, fuzzy
 msgid "Explore files"
-msgstr "Αποστολή αρχείων"
+msgstr "Εξερεύνηση αρχείων"
 
-#, fuzzy
 msgid "Spam configuration"
-msgstr "Διαμόρφωση"
+msgstr "Διαμόρφωση spam"
 
-#, fuzzy
 msgid "Spam configuration saved."
-msgstr "Διαμόρφωση"
+msgstr "Οι αλλαγές αποθηκεύτηκαν"
 
 #, fuzzy
 msgid "Blocked Phrases"
@@ -5364,15 +5030,12 @@ msgstr ""
 msgid "The user '<tt>%s</tt>' does not exist."
 msgstr ""
 
-#, fuzzy
 msgid "The user was deleted"
-msgstr "Το σχόλιο διαγράφηκε."
+msgstr "Ο χρήστης διαγράφηκε"
 
-#, fuzzy
 msgid "Email already in use"
-msgstr "Το όνομα χρήστη είναι κατειλημμένο"
+msgstr "Το e-mail είναι κατειλημμένο"
 
-#, fuzzy
 msgid "Nickname already in use"
 msgstr "Το όνομα χρήστη είναι κατειλημμένο"
 
@@ -5380,8 +5043,7 @@ msgstr "Το όνομα χρήστη είναι κατειλημμένο"
 msgid "The settings for user %s have been updated."
 msgstr "To weblog ανανεώθηκε."
 
-msgid ""
-"You are not allowed to create users with userlevel administrator or higher"
+msgid "You are not allowed to create users with userlevel administrator or higher"
 msgstr ""
 
 msgid "Username already in use"
@@ -5409,30 +5071,26 @@ msgid "Edit Weblog"
 msgstr "Αλλαγή Weblog "
 
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #, php-format
 msgid "Your page \"%s\" was successfully saved."
-msgstr ""
+msgstr "Η σελίδα \"%s\" αποθηκεύτηκε επιτυχώς."
 
 msgid "Edit Comment"
 msgstr "Επεξεργασία σχολίου"
 
-#, fuzzy
 msgid "The Comment was disapproved!"
-msgstr "Το σχόλιο αποθηκεύτηκε."
+msgstr "Το σχόλιο απορρίφθηκε."
 
-#, fuzzy
 msgid "The Comment was approved!"
-msgstr "Το σχόλιο αποθηκεύτηκε."
+msgstr "Το σχόλιο εγκρίθηκε."
 
-#, fuzzy
 msgid "link"
-msgstr "Σύνδεσμοι"
+msgstr "σύνδεσμος"
 
-#, fuzzy
 msgid "Edit or Delete Latest Comments"
-msgstr "Αλλαγή ή Διαγραφή Σχολίων"
+msgstr "Αλλαγή ή Διαγραφή Τελευταίων Σχολίων"
 
 #, fuzzy
 #~ msgid "The weblog settings for \"%key%\" were successfully updated."
@@ -5559,13 +5217,13 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #, fuzzy
 #~ msgid ""
-#~ "PivotX will determine the url of your weblog if you leave this field "
-#~ "blank. If you use your weblog as part of a frameset, or as a serverside "
-#~ "include, you can use this to override it."
+#~ "PivotX will determine the url of your weblog if you leave this field blank. "
+#~ "If you use your weblog as part of a frameset, or as a serverside include, you "
+#~ "can use this to override it."
 #~ msgstr ""
-#~ "Το Pivot θα καθορίσει το URL του weblog αν αφήσετε αυτό το πεδίο κενό. Αν "
-#~ "θα χρησιμοποιήσετε αυτό το weblog ως μέρος ενός frameset, ή ως SSI "
-#~ "(server side include), μπορείτε να το χρησιμοποιήσετε."
+#~ "Το Pivot θα καθορίσει το URL του weblog αν αφήσετε αυτό το πεδίο κενό. Αν θα "
+#~ "χρησιμοποιήσετε αυτό το weblog ως μέρος ενός frameset, ή ως SSI (server side "
+#~ "include), μπορείτε να το χρησιμοποιήσετε."
 
 #, fuzzy
 #~ msgid "Backup entries database"
@@ -5627,16 +5285,16 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #, fuzzy
 #~ msgid ""
-#~ "This determines the formatting of the link that visitors can use to reply "
-#~ "on a specific comment."
+#~ "This determines the formatting of the link that visitors can use to reply on "
+#~ "a specific comment."
 #~ msgstr ""
 #~ "Καθορίζει τον τύπο για την πλήρη ημερομηνία και ώρα. Πιο συχνά "
 #~ "χρησιμοποιείται στην κορυφή μιας σελίδας εισαγωγής εγγραφής."
 
 #, fuzzy
 #~ msgid ""
-#~ "This determines the formatting of the text that is displayed when the "
-#~ "comment is a reply on another comment."
+#~ "This determines the formatting of the text that is displayed when the comment "
+#~ "is a reply on another comment."
 #~ msgstr ""
 #~ "Καθορίζει τον τύπο για την πλήρη ημερομηνία και ώρα. Πιο συχνά "
 #~ "χρησιμοποιείται στην κορυφή μιας σελίδας εισαγωγής εγγραφής."
@@ -5658,11 +5316,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #, fuzzy
 #~ msgid ""
-#~ "Show and overview of which files in your site are created and by the "
-#~ "weblogs in this PivotX"
+#~ "Show and overview of which files in your site are created and by the weblogs "
+#~ "in this PivotX"
 #~ msgstr ""
-#~ "Παρουσίαση και σύνοψη των αρχείων που δημιουργούνται σε αυτόν τον "
-#~ "ιστότοπο από το Pivot"
+#~ "Παρουσίαση και σύνοψη των αρχείων που δημιουργούνται σε αυτόν τον ιστότοπο "
+#~ "από το Pivot"
 
 #, fuzzy
 #~ msgid "SimplePie cache file"
@@ -5670,15 +5328,14 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #~ msgid ""
 #~ "Below you can see an overview of each weblog in this Pivot installation, "
-#~ "together with which files are created by Pivot and what templates it uses "
-#~ "to create these files. This can also be very useful when pinpointing "
-#~ "trouble with the creation of files."
+#~ "together with which files are created by Pivot and what templates it uses to "
+#~ "create these files. This can also be very useful when pinpointing trouble "
+#~ "with the creation of files."
 #~ msgstr ""
-#~ "Παρακάτω μπορείτε να δείτε μια σύνοψη του κάθε weblog σε αυτή την "
-#~ "εγκατάσταση του Pivot, μαζί με τα αρχεία που δημιουργήθηκαν από το Pivot "
-#~ "και ποια πρότυπα χρησιμοποιούνται για να δημιουργηθούν αυτά τα αρχεία. "
-#~ "Αυτό μπορεί να είναι χρήσιμο όταν υπάρχει πρόβλημα με την δημιουργία των "
-#~ "αρχείων."
+#~ "Παρακάτω μπορείτε να δείτε μια σύνοψη του κάθε weblog σε αυτή την εγκατάσταση "
+#~ "του Pivot, μαζί με τα αρχεία που δημιουργήθηκαν από το Pivot και ποια πρότυπα "
+#~ "χρησιμοποιούνται για να δημιουργηθούν αυτά τα αρχεία. Αυτό μπορεί να είναι "
+#~ "χρήσιμο όταν υπάρχει πρόβλημα με την δημιουργία των αρχείων."
 
 #~ msgid "Change"
 #~ msgstr "Αλλαγή"
@@ -5711,11 +5368,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #, fuzzy
 #~ msgid ""
-#~ "Your trackback has not been stored, because it seems to be a duplicate of "
-#~ "a previous entry"
+#~ "Your trackback has not been stored, because it seems to be a duplicate of a "
+#~ "previous entry"
 #~ msgstr ""
-#~ "Το σχόλιό σας δεν έχει αποθηκευτεί, γιατί φαίνεται να είναι αντίγραφο "
-#~ "μιας προηγούμενης εγγραφής"
+#~ "Το σχόλιό σας δεν έχει αποθηκευτεί, γιατί φαίνεται να είναι αντίγραφο μιας "
+#~ "προηγούμενης εγγραφής"
 
 #, fuzzy
 #~ msgid "Main"
@@ -5781,9 +5438,9 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "automatically notified by PivotX if you post a new entry. Services like "
 #~ "blogrolling.com depend on these pings"
 #~ msgstr ""
-#~ "Καθορίζει αν οι καταγραφείς ανανεώσεων (όπως το weblogs.com θα "
-#~ "ειδοποιούνται αυτόματα από το Pivot όταν εισάγεται κάποια νέα εγγραφή. "
-#~ "Υπηρεσίες όωπς το blogrolling.com βασίζονται σε αυτές τις ειδοποιήσεις."
+#~ "Καθορίζει αν οι καταγραφείς ανανεώσεων (όπως το weblogs.com θα ειδοποιούνται "
+#~ "αυτόματα από το Pivot όταν εισάγεται κάποια νέα εγγραφή. Υπηρεσίες όωπς το "
+#~ "blogrolling.com βασίζονται σε αυτές τις ειδοποιήσεις."
 
 #~ msgid "URLs to ping"
 #~ msgstr "URLs προς ειδοποίηση (ping)"
@@ -5791,15 +5448,15 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgid ""
 #~ "You can provide several urls to send pings to. Do not include the http:// "
 #~ "part, otherwise it won't work. Just place each server on a new line, or "
-#~ "seperated by a pipe character. Some common servers to ping are:<br /"
-#~ "><b>rpc.pingomatic.com</b> (the one most widely used)<br /><b>rpc.weblogs."
-#~ "com/RPC2</b>(also widely used)<br />"
+#~ "seperated by a pipe character. Some common servers to ping are:<br /><b>rpc."
+#~ "pingomatic.com</b> (the one most widely used)<br /><b>rpc.weblogs.com/RPC2</"
+#~ "b>(also widely used)<br />"
 #~ msgstr ""
 #~ "Μπορείτε να δώσετε διάφορα URLs στα οποία θα στέλνονται ειδοποιήσεις. Μην "
 #~ "βάζετε το http:// , αλλιώς δεν θα λειτουργήσει. Απλά βάλτε τον κάθε "
 #~ "εξυπηρετητή σε μια νέα γραμμή, ή διαχωρίστε τους με το σύμβολο της "
-#~ "διασωλήνωσης (pipe). Μερικοί γνωστοί εξυπηρετητές για ειδοποιήσεις είναι:"
-#~ "<br /><b>rpc.weblogs.com/RPC2</b> (weblogs.com pinger, ο πιο ευρέως "
+#~ "διασωλήνωσης (pipe). Μερικοί γνωστοί εξυπηρετητές για ειδοποιήσεις είναι:<br /"
+#~ "><b>rpc.weblogs.com/RPC2</b> (weblogs.com pinger, ο πιο ευρέως "
 #~ "χρησιμοποιούμενος)<br /><b>pivotlog.net/pinger</b> (pivotlog pinger, δεν "
 #~ "λειτουργεί ακόμα)<br /><b>rcs.datashed.net/RPC2</b> (euro.weblogs.com "
 #~ "pinger)<br /><b>ping.blo.gs</b> (blo.gs pinger)<br />"
@@ -5822,8 +5479,8 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #, fuzzy
 #~ msgid ""
-#~ "Determines whether the Wysiwyg editor is on by default. Individual users "
-#~ "can change this in their \"My Info\" settings."
+#~ "Determines whether the Wysiwyg editor is on by default. Individual users can "
+#~ "change this in their \"My Info\" settings."
 #~ msgstr ""
 #~ "Καθορίζει αν θα χρησιμοποιηθεί ο Wysiwyg (what you see is what you get) "
 #~ "επεξεργαστής κειμένου που είναι ενεργοποιημένο από προεπιλογή. Οι χρήστες "
@@ -5898,9 +5555,8 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Ετικέτα για 'X σχόλια'"
 
 #~ msgid ""
-#~ "The text that is used to indicate how many comments there are. If you "
-#~ "leave this blank, Pivot will use the default as defined by the language "
-#~ "settings"
+#~ "The text that is used to indicate how many comments there are. If you leave "
+#~ "this blank, Pivot will use the default as defined by the language settings"
 #~ msgstr ""
 #~ "Το κείμενο που θα χρησιμοποιείται να δείξει πόσα σχόλια υπάρχουν. Αν το "
 #~ "αφήσετε κενό, το Pivot θα χρησιμοποιήσει τις προεπιλεγμένες τιμές που "
@@ -5958,24 +5614,24 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Array"
 
 #~ msgid ""
-#~ "If you are certain you're using the correct username and password, but "
-#~ "you are <br />having problems logging in, you might try deleting the "
-#~ "cookies for this domain:"
+#~ "If you are certain you're using the correct username and password, but you "
+#~ "are <br />having problems logging in, you might try deleting the cookies for "
+#~ "this domain:"
 #~ msgstr ""
-#~ "Αν είστε σίγουρος ότι χρησιμοποιείτε το σωστό όνομα χρήστη και κωδικό, "
-#~ "αλλά έχετε προβλήματα να συνδεθείτε, θα μπορούσατε να δοκιμάσετε να "
-#~ "σβήσετε τα cookies για αυτόν τον ιστότοπο:"
+#~ "Αν είστε σίγουρος ότι χρησιμοποιείτε το σωστό όνομα χρήστη και κωδικό, αλλά "
+#~ "έχετε προβλήματα να συνδεθείτε, θα μπορούσατε να δοκιμάσετε να σβήσετε τα "
+#~ "cookies για αυτόν τον ιστότοπο:"
 
 #~ msgid "Delete cookies"
 #~ msgstr "Διαγραφή cookies"
 
 #~ msgid ""
-#~ "You have failed to gain access in 10 attempts. As a result, this IP has "
-#~ "been banned from attempting to login for 12 hours."
+#~ "You have failed to gain access in 10 attempts. As a result, this IP has been "
+#~ "banned from attempting to login for 12 hours."
 #~ msgstr ""
 #~ "Αποτύχατε να αποκτήσετε πρόσβαση μετά από 10 προσπάθειες. Αυτό έχει ως "
-#~ "αποτέλεσμα, η διεύθυνση IP από την οποία συνδέεστε να αποκλειστεί "
-#~ "προσωρινά για τις επόμενες 12 ώρες."
+#~ "αποτέλεσμα, η διεύθυνση IP από την οποία συνδέεστε να αποκλειστεί προσωρινά "
+#~ "για τις επόμενες 12 ώρες."
 
 #~ msgid "Modify Entries"
 #~ msgstr "Αλλαγή εγγραφής"
@@ -6023,11 +5679,10 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Πιστοποίηση της ορθότητας της Βάσης Δεδομένων."
 
 #~ msgid ""
-#~ "Rebuild the frontpage, last archives and RSS files for each of the "
-#~ "weblogs."
+#~ "Rebuild the frontpage, last archives and RSS files for each of the weblogs."
 #~ msgstr ""
-#~ "Επαναδημιουργία της πρώτης σελίδας, των τελευταίων αρχείων ιστοριών και "
-#~ "των RSS αρχείων για καθένα από τα weblogs."
+#~ "Επαναδημιουργία της πρώτης σελίδας, των τελευταίων αρχείων ιστοριών και των "
+#~ "RSS αρχείων για καθένα από τα weblogs."
 
 #~ msgid "Send Pings to Update Trackers."
 #~ msgstr "Αποστολή ειδοποιήσεων στους trackers ανανεώσεων."
@@ -6107,11 +5762,10 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgid "Edit User Info"
 #~ msgstr "Επεξεργασία πληροφοριών χρήστη"
 
-#~ msgid ""
-#~ "Create a new login account for Pivot, allowing them to post to a weblog."
+#~ msgid "Create a new login account for Pivot, allowing them to post to a weblog."
 #~ msgstr ""
-#~ "Δημιουργία νέου λογαριασμού εισόδου στο Pivot, με άδεια αποστολής σχολίων "
-#~ "σε weblog."
+#~ "Δημιουργία νέου λογαριασμού εισόδου στο Pivot, με άδεια αποστολής σχολίων σε "
+#~ "weblog."
 
 #~ msgid "Create"
 #~ msgstr "Δημιουργία"
@@ -6125,18 +5779,18 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "Administrator?"
 #~ msgstr ""
 #~ "Ο Διαχειριστής έχει πλήρη πρόσβαση στο Pivot, μπορεί να αλλάξει όλες τις "
-#~ "ειδήσεις, όλα τα σχόλια και όλες τις ρυθμίσεις. Είστε σίγουρος ότι θέλετε "
-#~ "να δημιουργήσετε τον %s ως Διαχειριστής?"
+#~ "ειδήσεις, όλα τα σχόλια και όλες τις ρυθμίσεις. Είστε σίγουρος ότι θέλετε να "
+#~ "δημιουργήσετε τον %s ως Διαχειριστής?"
 
 #~ msgid ""
-#~ "This defines the encoding that is used (like utf-8 or iso-8859-1). You "
-#~ "should leave this blank, unless you know what you're doing. If you leave "
-#~ "this blank it will use the appropriate settings from the language files."
+#~ "This defines the encoding that is used (like utf-8 or iso-8859-1). You should "
+#~ "leave this blank, unless you know what you're doing. If you leave this blank "
+#~ "it will use the appropriate settings from the language files."
 #~ msgstr ""
-#~ "Αυτό καθορίζει την κωδικοποίηση χαρακτήρων που θα χρησιμοποιηθεί (όπως "
-#~ "utf-8 ή iso-8859-1). Πρέπει να το αφήσετε κενό, εκτός αν γνωρίζετε τι "
-#~ "βάζετε. Αν το αφήσετε κενό θα χρησιμοποιήσει την κωδικοποίηση που "
-#~ "αναφέρεται στα αρχεία των γλωσσών."
+#~ "Αυτό καθορίζει την κωδικοποίηση χαρακτήρων που θα χρησιμοποιηθεί (όπως utf-8 "
+#~ "ή iso-8859-1). Πρέπει να το αφήσετε κενό, εκτός αν γνωρίζετε τι βάζετε. Αν το "
+#~ "αφήσετε κενό θα χρησιμοποιήσει την κωδικοποίηση που αναφέρεται στα αρχεία των "
+#~ "γλωσσών."
 
 #~ msgid "File Info"
 #~ msgstr "Πληροφορίες αρχείου"
@@ -6160,30 +5814,30 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "Determines if all links used in entries will open links in a new browser "
 #~ "window."
 #~ msgstr ""
-#~ "Καθορίζει αν όλοι οι σύνδεσμοι που χρησιμοποιούνται στις εγγραφές θα "
-#~ "ανοίγουν τους συνδέσμους σε ένα νέο παράθυρο στον φυλλομετρητή."
+#~ "Καθορίζει αν όλοι οι σύνδεσμοι που χρησιμοποιούνται στις εγγραφές θα ανοίγουν "
+#~ "τους συνδέσμους σε ένα νέο παράθυρο στον φυλλομετρητή."
 
 #~ msgid "Autoupdate Search Index"
 #~ msgstr "Αυτόματη ανανέωση ευρετηρίου αναζήτησης"
 
 #~ msgid ""
-#~ "This will determine if the Search Index files will be updated every time "
-#~ "you submit a new entry, or you change an existing one."
+#~ "This will determine if the Search Index files will be updated every time you "
+#~ "submit a new entry, or you change an existing one."
 #~ msgstr ""
-#~ "Καθορίζει αν το ευρετήριο αναζήτησης θα ανανεώνεται κάθε φορά που "
-#~ "υποβάλετε μια νέα εγγραφή, ή αλλάζετε μια ήδη υπάρχουσα."
+#~ "Καθορίζει αν το ευρετήριο αναζήτησης θα ανανεώνεται κάθε φορά που υποβάλετε "
+#~ "μια νέα εγγραφή, ή αλλάζετε μια ήδη υπάρχουσα."
 
 #~ msgid "Default Introduction/Body"
 #~ msgstr "Default Introduction/Body"
 
 #~ msgid ""
 #~ "This will determine the default values for Introduction and Body when an "
-#~ "author writes a new entry. Normally this will be an empty paragraph, "
-#~ "which makes the most sense semantically."
+#~ "author writes a new entry. Normally this will be an empty paragraph, which "
+#~ "makes the most sense semantically."
 #~ msgstr ""
-#~ "Καθορίζει τις τιμές προεπιλογής για την Εισαγωγή και το Κυρίως μέρος, "
-#~ "όταν ο συγγραφέας εισάγει μια νέα εγγραφή. Κανονικά αυτό θα είναι μια "
-#~ "άδεια παράγραφος, κάτι που σημασιολογικά έχει περισσότερο νόημα."
+#~ "Καθορίζει τις τιμές προεπιλογής για την Εισαγωγή και το Κυρίως μέρος, όταν ο "
+#~ "συγγραφέας εισάγει μια νέα εγγραφή. Κανονικά αυτό θα είναι μια άδεια "
+#~ "παράγραφος, κάτι που σημασιολογικά έχει περισσότερο νόημα."
 
 #~ msgid "Remote cropping script"
 #~ msgstr "Εξωτερικό πρόγραμμα κοπής εικόνας"
@@ -6192,9 +5846,9 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "If your server does not have the necessary libraries installed to perform "
 #~ "image cropping, you can use a remote cropping script."
 #~ msgstr ""
-#~ "Αν ο εξυπηρετητής σας έχει δεν έχει εγκατεστημένες τις κατάλληλες "
-#~ "βιβλιοθήκες για την κοπή των εικόνων, μπορείτε να χρησιμοποιήσετε κάποιο "
-#~ "εξωτερικό πρόγραμμα από το διαδίκτυο."
+#~ "Αν ο εξυπηρετητής σας έχει δεν έχει εγκατεστημένες τις κατάλληλες βιβλιοθήκες "
+#~ "για την κοπή των εικόνων, μπορείτε να χρησιμοποιήσετε κάποιο εξωτερικό "
+#~ "πρόγραμμα από το διαδίκτυο."
 
 #~ msgid "Edit Weblogs"
 #~ msgstr "Αλλαγή Weblogs "
@@ -6207,12 +5861,12 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 
 #~ msgid ""
 #~ "For each of the subweblogs that were found in the templates, you can "
-#~ "configure what template they use, as well as what categories are "
-#~ "published in them"
+#~ "configure what template they use, as well as what categories are published in "
+#~ "them"
 #~ msgstr ""
 #~ "Για καθένα από τα υπο-weblogs που έχουν βρεθεί στα πρότυπα, μπορείτε να "
-#~ "διαμορφώσετε τα πρότυπα που θα χρησιμοποιηθούν καθώς και σε ποιές "
-#~ "κατηγορίες θα δημοσιεύονται."
+#~ "διαμορφώσετε τα πρότυπα που θα χρησιμοποιηθούν καθώς και σε ποιές κατηγορίες "
+#~ "θα δημοσιεύονται."
 
 #~ msgid "Create / Edit Weblog, step 1 of 3"
 #~ msgstr "Δημιουργία / Αλλαγή Weblog, Βήμα 1 από 3"
@@ -6227,47 +5881,46 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Αρχική σελίδα (Index)"
 
 #~ msgid ""
-#~ "The filename of the index-file. Normally this is something like 'index."
-#~ "html' or 'index.php'."
+#~ "The filename of the index-file. Normally this is something like 'index.html' "
+#~ "or 'index.php'."
 #~ msgstr ""
-#~ "Το όνομα αρχείου του index. Συνήθως αυτό θα πρέπει να είναι κάτι σαν "
-#~ "'index.html' ή 'index.php'."
+#~ "Το όνομα αρχείου του index. Συνήθως αυτό θα πρέπει να είναι κάτι σαν 'index."
+#~ "html' ή 'index.php'."
 
 #~ msgid ""
 #~ "If your weblog uses SSI (which is not recommended), you can use this to "
-#~ "prefix Pivot's filenames with the filename used for the SSI. eg. 'index."
-#~ "shtml?p='. You should just leave this blank, unless you know what you're "
-#~ "doing."
+#~ "prefix Pivot's filenames with the filename used for the SSI. eg. 'index.shtml?"
+#~ "p='. You should just leave this blank, unless you know what you're doing."
 #~ msgstr ""
 #~ "Αν το weblog σας χρησιμοποιεί SSI (που δεν συνίσταται), μπορείτε να "
-#~ "χρησιμοποιήσετε αυτό το πεδίο ως πρόθεμα για τα ονόματα αρχείων με τα "
-#~ "ονόματα που χρησιμοποιείτε στο SSI, π.χ. 'index.shtml?p='. Θα πρέπει απλά "
-#~ "να το αφήσετε κενό, εκτός κι αν γνωρίζετε τι κάνετε."
+#~ "χρησιμοποιήσετε αυτό το πεδίο ως πρόθεμα για τα ονόματα αρχείων με τα ονόματα "
+#~ "που χρησιμοποιείτε στο SSI, π.χ. 'index.shtml?p='. Θα πρέπει απλά να το "
+#~ "αφήσετε κενό, εκτός κι αν γνωρίζετε τι κάνετε."
 
 #~ msgid "Frontpage Path"
 #~ msgstr "Μονοπάτι αρχικής σελίδας"
 
 #~ msgid ""
-#~ "The relative or absolute path to the directory where Pivot will create "
-#~ "the frontpage to this blog."
+#~ "The relative or absolute path to the directory where Pivot will create the "
+#~ "frontpage to this blog."
 #~ msgstr ""
-#~ "Το σχετικό ή απόλυτο μονοπάτι στον κατάλογο όπου το Pivot θα δημιουργήσει "
-#~ "την αρχική σελίδα αυτού του blog."
+#~ "Το σχετικό ή απόλυτο μονοπάτι στον κατάλογο όπου το Pivot θα δημιουργήσει την "
+#~ "αρχική σελίδα αυτού του blog."
 
 #~ msgid ""
-#~ "The relative or absolute path to the directory where Pivot will create "
-#~ "the single entry pages (if you choose not to use 'live entries')"
+#~ "The relative or absolute path to the directory where Pivot will create the "
+#~ "single entry pages (if you choose not to use 'live entries')"
 #~ msgstr ""
-#~ "Το σχετικό ή απόλυτο μονοπάτι στον κατάλογο όπου το Pivot θα δημιουργήσει "
-#~ "τις σελίδες για κάθε εγγραφή (αν διαλέξετε να μην χρησιμοποιήσετε τις "
-#~ "'Ζωντανές εγγραφές')."
+#~ "Το σχετικό ή απόλυτο μονοπάτι στον κατάλογο όπου το Pivot θα δημιουργήσει τις "
+#~ "σελίδες για κάθε εγγραφή (αν διαλέξετε να μην χρησιμοποιήσετε τις 'Ζωντανές "
+#~ "εγγραφές')."
 
 #~ msgid ""
-#~ "If you use 'Live entries', Pivot will not need to generate files for "
-#~ "every single entry. This is the preferred setting."
+#~ "If you use 'Live entries', Pivot will not need to generate files for every "
+#~ "single entry. This is the preferred setting."
 #~ msgstr ""
-#~ "Αν χρησιμοποιείτε τις 'Ζωντανές εγγραφές', το Pivot δεν θα δημιουργήσει "
-#~ "τα αρχεία για μια μόνο εγγραφή. Αυτή είναι η επιθυμητή ρύθμιση."
+#~ "Αν χρησιμοποιείτε τις 'Ζωντανές εγγραφές', το Pivot δεν θα δημιουργήσει τα "
+#~ "αρχεία για μια μόνο εγγραφή. Αυτή είναι η επιθυμητή ρύθμιση."
 
 #~ msgid "Index File"
 #~ msgstr "Αρχείο ευρετηρίου"
@@ -6285,11 +5938,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Πρότυπο σύντομης εγγραφής"
 
 #~ msgid ""
-#~ "The Template which determines the layout of single entries, as they are "
-#~ "shown within the weblog or archives."
+#~ "The Template which determines the layout of single entries, as they are shown "
+#~ "within the weblog or archives."
 #~ msgstr ""
-#~ "Το πρότυπο που καθορίζει την εμφάνιση των απλών εγγραφών, καθώς "
-#~ "εμφανίζονται μέσα στο weblog και στην αρχειοθέτηση."
+#~ "Το πρότυπο που καθορίζει την εμφάνιση των απλών εγγραφών, καθώς εμφανίζονται "
+#~ "μέσα στο weblog και στην αρχειοθέτηση."
 
 #~ msgid "Allow Comments?"
 #~ msgstr "Επιτρέπονται σχόλια;"
@@ -6298,8 +5951,8 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "Determines whether users will be able to leave comments on the entries in "
 #~ "this subweblog."
 #~ msgstr ""
-#~ "Καθορίζει αν οι χρήστες θα μπορούν να αφήνουν σχόλια στις εγγραφές σε "
-#~ "αυτό το υπο-weblog."
+#~ "Καθορίζει αν οι χρήστες θα μπορούν να αφήνουν σχόλια στις εγγραφές σε αυτό το "
+#~ "υπο-weblog."
 
 #~ msgid "RSS Filename"
 #~ msgstr "Όνομα αρχείου RSS"
@@ -6311,11 +5964,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Μονοπάτι της τροφοδοσιάς"
 
 #~ msgid ""
-#~ "The relative or absolute path to the directory where Pivot will create "
-#~ "the Feed files."
+#~ "The relative or absolute path to the directory where Pivot will create the "
+#~ "Feed files."
 #~ msgstr ""
-#~ "Το σχετικό ή απόλυτο μονοπάτι στον κατάλογο όπου το Pivot θα δημιουργήσει "
-#~ "τα αρχεία για την τροφοδοσία."
+#~ "Το σχετικό ή απόλυτο μονοπάτι στον κατάλογο όπου το Pivot θα δημιουργήσει τα "
+#~ "αρχεία για την τροφοδοσία."
 
 #~ msgid "Settings for Last Referers"
 #~ msgstr "Ρυθμίσεις για τις Τελευταίες Αναφορές"
@@ -6334,32 +5987,28 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "This determines if the last referers use small icons for the most common "
 #~ "search engines through which visitors may arrive."
 #~ msgstr ""
-#~ "Αυτό καθορίζει αν οι τελευταίες αναφορές χρησιμοποιούν μικρά εικονίδια "
-#~ "για τις πιο κοινές μηχανές αναζήτησης μέσω των οποίων μπορεί να έρθουν "
-#~ "επισκέπτες."
+#~ "Αυτό καθορίζει αν οι τελευταίες αναφορές χρησιμοποιούν μικρά εικονίδια για "
+#~ "τις πιο κοινές μηχανές αναζήτησης μέσω των οποίων μπορεί να έρθουν επισκέπτες."
 
 #~ msgid "Redirect Referers"
 #~ msgstr "Ανακατεύθυνση Αναφορών (Referers)"
 
 #~ msgid ""
 #~ "To combat refererspam you might choose to redirect outgoing links to "
-#~ "referers, as this will not help the spammer get a better pagerank in "
-#~ "Google."
+#~ "referers, as this will not help the spammer get a better pagerank in Google."
 #~ msgstr ""
 #~ "Για να καταπολεμηθεί ο πόλεμος των αναφορών (refererspam) μπορείτε να "
-#~ "ανακατευθύνετε τους εξερχόμενους συνδέσμους στα σχόλια, καθώς δεν θα "
-#~ "βοηθήσει έναν κακόβουλο χρήστη να πάρει μεγαλύτερο βαθμό (pagerank) στο "
-#~ "Google."
+#~ "ανακατευθύνετε τους εξερχόμενους συνδέσμους στα σχόλια, καθώς δεν θα βοηθήσει "
+#~ "έναν κακόβουλο χρήστη να πάρει μεγαλύτερο βαθμό (pagerank) στο Google."
 
 #~ msgid "Use Emoticons"
 #~ msgstr "Χρήση φατσών (emoticons)"
 
 #~ msgid ""
-#~ "Determines whether emoticons like :-) will be transformed to their "
-#~ "graphical equivalents."
+#~ "Determines whether emoticons like :-) will be transformed to their graphical "
+#~ "equivalents."
 #~ msgstr ""
-#~ "Καθορίζει αν φάτσες όπως το :-) θα μετασχηματίζονται στο γραφικό τους "
-#~ "ανάλογο."
+#~ "Καθορίζει αν φάτσες όπως το :-) θα μετασχηματίζονται στο γραφικό τους ανάλογο."
 
 #~ msgid "Encode Email Addresses"
 #~ msgstr "Κωδικοποίηση διευθύνσεων ηλεκτρονικού ταχυδρομείου"
@@ -6368,8 +6017,8 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "Determines whether email-addresses will be encoded in javascript, as "
 #~ "protection from spam harvesters."
 #~ msgstr ""
-#~ "Καθορίζει αν οι διευθύνσεις ηλεκτρονικού ταχυδρομείου θα κωδικοποιούνται "
-#~ "στην javascript, ως προστασία από κυνηγούς διευθύνσεων (spammers)."
+#~ "Καθορίζει αν οι διευθύνσεις ηλεκτρονικού ταχυδρομείου θα κωδικοποιούνται στην "
+#~ "javascript, ως προστασία από κυνηγούς διευθύνσεων (spammers)."
 
 #~ msgid "Target Blank"
 #~ msgstr "Κενό νέο παράθυρο"
@@ -6378,14 +6027,14 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "XHTML Workaround"
 
 #~ msgid ""
-#~ "If set to 'Yes', all links entered in your entries will be opened in a "
-#~ "new browser window. If set to 'XHTML workaround', all links will have a "
-#~ "rel=\"external\" attribute, which will not break wellformed XHTML"
+#~ "If set to 'Yes', all links entered in your entries will be opened in a new "
+#~ "browser window. If set to 'XHTML workaround', all links will have a rel="
+#~ "\"external\" attribute, which will not break wellformed XHTML"
 #~ msgstr ""
-#~ "Αν οριστεί στο 'Ναι', όλοι οι σύνδεσμοι στις εγγραφές θα ανοίγουν σε ένα "
-#~ "νέο παράθυρο στον φυλλομετρητή. Αν καθοριστεί στο 'XML Workaround', όλοι "
-#~ "οι σύνδεσμοι θα έχουν ένα πεδίο rel=\"external\" το οποίο δεν θα χαλάει "
-#~ "ένα σωστό κώδικα XHMTL."
+#~ "Αν οριστεί στο 'Ναι', όλοι οι σύνδεσμοι στις εγγραφές θα ανοίγουν σε ένα νέο "
+#~ "παράθυρο στον φυλλομετρητή. Αν καθοριστεί στο 'XML Workaround', όλοι οι "
+#~ "σύνδεσμοι θα έχουν ένα πεδίο rel=\"external\" το οποίο δεν θα χαλάει ένα "
+#~ "σωστό κώδικα XHMTL."
 
 #~ msgid "Blogroll settings"
 #~ msgstr "Ρυθμίσεις Blogroll"
@@ -6394,21 +6043,21 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Blogrolling ID #"
 
 #~ msgid ""
-#~ "You can optionally include a <a href=\"http://www.blogrolling.com\" "
-#~ "target=\"_blank\">blogrolling.com</a> blogroll in your weblog. "
-#~ "Blogrolling is an excellent service to maintain a list of links, which "
-#~ "shows how recently they were updated. If you do not want this, just skip "
-#~ "these input fields. Otherwise: When you're logged in to blogrolling.com, "
-#~ "go to 'get code', there you will find links containing your blogroll's ID "
-#~ "#. It should look somthing like this: 2ef8b42161020d87223d42ae18191f6d"
+#~ "You can optionally include a <a href=\"http://www.blogrolling.com\" target="
+#~ "\"_blank\">blogrolling.com</a> blogroll in your weblog. Blogrolling is an "
+#~ "excellent service to maintain a list of links, which shows how recently they "
+#~ "were updated. If you do not want this, just skip these input fields. "
+#~ "Otherwise: When you're logged in to blogrolling.com, go to 'get code', there "
+#~ "you will find links containing your blogroll's ID #. It should look somthing "
+#~ "like this: 2ef8b42161020d87223d42ae18191f6d"
 #~ msgstr ""
-#~ "Μπορείτε αν θέλετε να περιλάβετε ένα <a href=\"http://www.blogrolling.com"
-#~ "\" target=\"_blank\">blogrolling.com</a> blogroll  στο weblog σας. Το "
+#~ "Μπορείτε αν θέλετε να περιλάβετε ένα <a href=\"http://www.blogrolling.com\" "
+#~ "target=\"_blank\">blogrolling.com</a> blogroll  στο weblog σας. Το "
 #~ "blogrolling είναι μία εξαιρετική υπηρεσία συντήρησης μιας λίστας από "
 #~ "συνδέσμους που δείχει και πόσο πρόσφατα ανανεώθηκε. Αν δεν το επιθυμείτε, "
 #~ "τότε απλά μην συμπληρώσετε τα πεδία. Αλλιώς: Όταν είστε συνδεδεμένοι στο "
-#~ "blogrolling.com, πηγαίνετε στο 'Get Code', κι εκεί θα βρείτε συνδέσμους "
-#~ "που περιέχουν το blogroll ID σας. Θα πρέπει να μοιάζει με κάτι σαν: "
+#~ "blogrolling.com, πηγαίνετε στο 'Get Code', κι εκεί θα βρείτε συνδέσμους που "
+#~ "περιέχουν το blogroll ID σας. Θα πρέπει να μοιάζει με κάτι σαν: "
 #~ "2ef8b42161020d87223d42ae18191f6d ."
 
 #~ msgid "Background Color"
@@ -6433,11 +6082,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Χρώμα 4"
 
 #~ msgid ""
-#~ "These colors determine what your blogroll will look like. Color 1 to "
-#~ "color 4 give a visual indication as to how recently updated a link is."
+#~ "These colors determine what your blogroll will look like. Color 1 to color 4 "
+#~ "give a visual indication as to how recently updated a link is."
 #~ msgstr ""
-#~ "Αυτά τα χρώματα καθορίζουν πως θα εμφανίζεται το blogroll σας. Τα χρώματα "
-#~ "1 ως 4 δίνουν μια οπτική εντύπωση ως προς το πόσο πρόσφατα έχει ανανεωθεί "
+#~ "Αυτά τα χρώματα καθορίζουν πως θα εμφανίζεται το blogroll σας. Τα χρώματα 1 "
+#~ "ως 4 δίνουν μια οπτική εντύπωση ως προς το πόσο πρόσφατα έχει ανανεωθεί "
 #~ "κάποιος σύνδεσμος."
 
 #~ msgid "Thumbnail Preview"
@@ -6460,8 +6109,8 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "will see the title when they hover their mouse over the link."
 #~ msgstr ""
 #~ "Εισάγετε έναν σύνδεσμο, πληκτρολογώντας ένα URL στο πεδίο παρακάτω. Οι "
-#~ "επισκέπτες του ιστοτόπου θα βλέπουν τον τίτλο όταν περνούν το ποντίκι "
-#~ "πάνω από τον σύνδεσμο."
+#~ "επισκέπτες του ιστοτόπου θα βλέπουν τον τίτλο όταν περνούν το ποντίκι πάνω "
+#~ "από τον σύνδεσμο."
 
 #~ msgid "Edit who can post to the category '%s'"
 #~ msgstr "Καθορισμός ποιος μπορεί να στέλνει σε αυτή την κατηγορία '%s'"
@@ -6480,9 +6129,9 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "builds, you will be able to choose what to do with entries using this "
 #~ "category."
 #~ msgstr ""
-#~ "Σε αυτήν την έκδοση, μόνο το όνομα της κατηγορίας διαγράφεται. Σε "
-#~ "επόμενες εκδόσεις, θα μπορείτε να επιλέγετε τι θέλετε να κάνετε με τις "
-#~ "εγγραφές που χρησιμοποιούν αυτήν την κατηγορία."
+#~ "Σε αυτήν την έκδοση, μόνο το όνομα της κατηγορίας διαγράφεται. Σε επόμενες "
+#~ "εκδόσεις, θα μπορείτε να επιλέγετε τι θέλετε να κάνετε με τις εγγραφές που "
+#~ "χρησιμοποιούν αυτήν την κατηγορία."
 
 #~ msgid "(Ctrl-click to select multiple categories)"
 #~ msgstr "(Ctrl-click για να επιλέξετε περισσότερες κατηγορίες)"
@@ -6554,11 +6203,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Επεξεργασία πεδίων χρήστη"
 
 #~ msgid ""
-#~ "The Internal Name is the name of this item as it will appear when you "
-#~ "tell pivot to display it in a template."
+#~ "The Internal Name is the name of this item as it will appear when you tell "
+#~ "pivot to display it in a template."
 #~ msgstr ""
-#~ "Το εσωτερικό όνομα είναι το όνομα του αντικειμένου όπως θα εμφανίζεται "
-#~ "όταν θα λέτε στο Pivot να το εμφανίσει μέσα σε ένα πρότυπο."
+#~ "Το εσωτερικό όνομα είναι το όνομα του αντικειμένου όπως θα εμφανίζεται όταν "
+#~ "θα λέτε στο Pivot να το εμφανίσει μέσα σε ένα πρότυπο."
 
 #~ msgid "Size"
 #~ msgstr "Μέγεθος"
@@ -6579,13 +6228,13 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ "μπορεί να χρησιμοποιηθεί σε αυτό"
 
 #~ msgid ""
-#~ "Deleting this Userfield (<b>%s</b>) will also destroy all the data that "
-#~ "users have stored withen it, and make any instances of it in a template "
-#~ "appear empty."
+#~ "Deleting this Userfield (<b>%s</b>) will also destroy all the data that users "
+#~ "have stored withen it, and make any instances of it in a template appear "
+#~ "empty."
 #~ msgstr ""
-#~ "Διαγράφοντας αυτό το πεδίο (<b>%s</b>) καταστρέφονται επίσης όλα τα "
-#~ "δεδομένα που οι χρήστες έχουν αποθηκεύσει μέσα σε αυτό, και θα κάνει κάθε "
-#~ "εμφάνισή του σε πρότυπο να μοιάζει άδεια."
+#~ "Διαγράφοντας αυτό το πεδίο (<b>%s</b>) καταστρέφονται επίσης όλα τα δεδομένα "
+#~ "που οι χρήστες έχουν αποθηκεύσει μέσα σε αυτό, και θα κάνει κάθε εμφάνισή του "
+#~ "σε πρότυπο να μοιάζει άδεια."
 
 #~ msgid "This name is already in use"
 #~ msgstr "Αυτό το όνομα χρησιμοποιείται ήδη"
@@ -6594,12 +6243,11 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Το εσωτερικό όνομα πρέπει να είναι μεγαλύτερο από 3 χαρακτήρες."
 
 #~ msgid "Display Name must be longer than 3 characters"
-#~ msgstr ""
-#~ "Το όνομα που εμφανίζεται πρέπει να είναι μεγαλύτερο από 3 χαρακτήρες."
+#~ msgstr "Το όνομα που εμφανίζεται πρέπει να είναι μεγαλύτερο από 3 χαρακτήρες."
 
 #~ msgid ""
-#~ "This Bookmarklet opens a window with a New Entry, which contains a link "
-#~ "to the page it was opened from."
+#~ "This Bookmarklet opens a window with a New Entry, which contains a link to "
+#~ "the page it was opened from."
 #~ msgstr ""
 #~ "Αυτός ο σελιδοδείκτης ανοίγει ένα παράθυρο για νέα εγγραφή στην οποία "
 #~ "περιλαμβάνεται σύνδεσμος στην σελίδα από την οποία ανοίχθηκε."
@@ -6608,14 +6256,14 @@ msgstr "Αλλαγή ή Διαγραφή Σχολίων"
 #~ msgstr "Αυτός ο σελιδοδείκτης ανοίγει ένα παράθυρο με μια κενή νέα εγγραφή"
 
 #~ msgid ""
-#~ "You can use Bookmarklets to quickly write New Entries with Pivot. To add "
-#~ "a Bookmarklet to your browser, use one of the following options: (exact "
-#~ "text varies, depending on which browser you are using)"
+#~ "You can use Bookmarklets to quickly write New Entries with Pivot. To add a "
+#~ "Bookmarklet to your browser, use one of the following options: (exact text "
+#~ "varies, depending on which browser you are using)"
 #~ msgstr ""
-#~ "Μπορείτε να χρησιμοποιήσετε τους σελιδοδείκτες ώστε να δημιουργείτε "
-#~ "γρήγορα νέες εγγραφές στο Pivot. Για να προσθέσετε έναν σελιδοδείκτη στον "
-#~ "φυλλομετρητή σας, χρησιμοποιήστε μία από τις παρακάτω επιλογές: (το "
-#~ "ακριβές κείμενο διαφέρει,ανάλογα με το ποιον φυλλομετρητή χρησιμοποιείτε)"
+#~ "Μπορείτε να χρησιμοποιήσετε τους σελιδοδείκτες ώστε να δημιουργείτε γρήγορα "
+#~ "νέες εγγραφές στο Pivot. Για να προσθέσετε έναν σελιδοδείκτη στον "
+#~ "φυλλομετρητή σας, χρησιμοποιήστε μία από τις παρακάτω επιλογές: (το ακριβές "
+#~ "κείμενο διαφέρει,ανάλογα με το ποιον φυλλομετρητή χρησιμοποιείτε)"
 
 #~ msgid ""
 #~ "Click and drag the bookmarklet to your 'Links'-toolbar or your browsers "
